@@ -1,0 +1,40 @@
+name: 01 - Restructuration & Classification IA
+
+on:
+  workflow_dispatch: # Déclenchement manuel via l'onglet Actions
+  # push:
+  #   branches: [ "main" ] # (Optionnel) Lancer à chaque push (attention aux coûts)
+
+permissions:
+  contents: write # Nécessaire pour que le workflow puisse commiter les changements
+
+jobs:
+  restructure:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupération du code
+        uses: actions/checkout@v4
+
+      - name: Configuration Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip' # Accélère l'installation en cachant les dépendances
+
+      - name: Installation des dépendances
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Lancement du script de restructuration
+        env:
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+        run: python scripts/01_classify_and_structure.py
+
+      - name: Commit et Push des changements
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: restructuration automatique des fiches par IA"
+          git push
