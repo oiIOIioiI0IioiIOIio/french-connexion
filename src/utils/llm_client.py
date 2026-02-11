@@ -1,19 +1,23 @@
 import os
-from mistralai.client import MistralClient
-from mistralai.models.models import ChatMessage
 import yaml
 import logging
+# Import corrigé : on renomme l'import pour éviter le conflit avec notre classe
+from mistralai.client import MistralClient as MistralAPIClient
+# Import corrigé : le chemin a changé dans la nouvelle version de la librairie
+from mistralai.models import ChatMessage
 
 logger = logging.getLogger("french_connection")
 
 class MistralClient:
     def __init__(self):
-        # Chargement de la clé API depuis les variables d'environnement
+        # Chargement de la clé API
         api_key = os.environ.get("MISTRAL_API_KEY")
         if not api_key:
-            raise ValueError("MISTRAL_API_KEY non définie. Vérifiez votre fichier .env")
-        self.client = MistralClient(api_key=api_key)
-        self.model = "open-mistral-nemo" # Modèle performant
+            raise ValueError("MISTRAL_API_KEY non définie. Vérifiez vos secrets GitHub.")
+        
+        # On utilise l'API Client renommé
+        self.client = MistralAPIClient(api_key=api_key)
+        self.model = "open-mistral-nemo"
 
     def load_template(self, template_path):
         """Charge le template YAML pour le fournir en contexte à l'IA."""
@@ -21,7 +25,7 @@ class MistralClient:
             with open(template_path, 'r', encoding='utf-8') as f:
                 return f.read()
         except FileNotFoundError:
-            logger.warning(f"Template non trouvé : {template_path}, utilisation d'un modèle par défaut.")
+            logger.warning(f"Template non trouvé : {template_path}")
             return "type: entity\n"
 
     def intelligent_restructure(self, text_content, title, template_path):
@@ -57,12 +61,12 @@ class MistralClient:
                     ChatMessage(role="system", content=system_prompt),
                     ChatMessage(role="user", content=user_message)
                 ],
-                temperature=0.2 # Légère créativité pour la structure, haute précision pour les faits
+                temperature=0.2
             )
             
             yaml_str = response.choices[0].message.content
             
-            # Nettoyage de la réponse (suppression des balises de code markdown si présentes)
+            # Nettoyage de la réponse
             if "```yaml" in yaml_str:
                 yaml_str = yaml_str.split("```yaml")[1].split("```")[0].strip()
             elif "```" in yaml_str:
@@ -70,7 +74,7 @@ class MistralClient:
 
             # Validation parsing
             data = yaml.safe_load(yaml_str)
-            return data # Retourne un dictionnaire Python
+            return data 
             
         except Exception as e:
             logger.error(f"Erreur lors de la restructuration IA pour {title} : {e}")
