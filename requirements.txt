@@ -8,7 +8,7 @@ wikipedia-api
 feedparser
 
 # Intelligence Artificielle (Mistral)
-mistralai
+mistralai<1.0.0
 
 # Traitement du langage (NLP) pour les liens
 spacy
