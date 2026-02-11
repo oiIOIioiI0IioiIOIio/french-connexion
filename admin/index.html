@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin | French Connexion</title>
+  
+  <!-- Styles personnalisés pour une interface plus propre -->
+  <style>
+    :root {
+      --primary-color: #2c3e50;
+      --text-color: #333;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: #f4f6f8;
+    }
+  </style>
+</head>
+<body>
+  <!-- Chargement de Decap CMS (ex-Netlify CMS) depuis le CDN -->
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  
+  <script>
+    // Initialisation de la configuration
+    CMS.init({
+      config: {
+        // 1. CONNEXION AU REPO
+        backend: {
+          name: "github",
+          branch: "main",
+          repo: "oiIOIioiI0IioiIOIio/french-connexion", // Remplacez par votre login exact si besoin
+        },
+
+        // 2. MÉDIAS
+        media_folder: "images",
+        public_folder: "/images",
+
+        // 3. COLLECTIONS (VOS FICHIERS MD)
+        collections: [
+          {
+            // --- PERSONNES ---
+            label: "Personnes",
+            name: "personne",
+            folder: "personnes",
+            create: true,
+            slug: "{{slug}}",
+            fields: [
+              {label: "Titre (Nom complet)", name: "title", widget: "string", default: "Prénom Nom"},
+              {label: "Type", name: "type", widget: "hidden", default: "Personne"},
+              {label: "Résumé court", name: "summary", widget: "string", required: false},
+              {label: "Profession / Rôle", name: "occupation", widget: "string", required: false},
+              
+              // --- WIDGET DE RELATION (LIENS) ---
+              // Cela permet de chercher et lier une fiche parmi les Institutions/Entreprises
+              {
+                label: "Organisation / Entreprise rattachée",
+                name: "organisation",
+                widget: "relation",
+                collection: "institution", // Cherche dans la collection 'institution' définie plus bas
+                searchFields: ["title"],
+                valueField: "title",
+                displayFields: ["title"],
+                multiple: false,
+                required: false
+              },
+              
+              // --- SOURCES & INFOS ---
+              {label: "Nationalité", name: "nationality", widget: "string", required: false},
+              {label: "Mots-clés", name: "keywords", widget: "list", required: false},
+              {label: "Source (Wikipedia URL)", name: "source", widget: "string", required: false},
+              {label: "Date de naissance", name: "birth_date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false, required: false},
+              
+              {label: "Biographie / Contenu", name: "body", widget: "markdown"}
+            ]
+          },
+          
+          {
+            // --- INSTITUTIONS & ENTREPRISES (Groupe communs) ---
+            label: "Institutions",
+            name: "institution",
+            folder: "institutions",
+            create: true,
+            slug: "{{slug}}",
+            fields: [
+              {label: "Nom de l'institution", name: "title", widget: "string"},
+              {label: "Type", name: "type", widget: "select", options: ["Institution", "Organisation"], default: "Institution"},
+              {label: "Résumé", name: "summary", widget: "string", required: false},
+              
+              // --- WIDGET DE RELATION INVERSE ---
+              // Lier les dirigeants (personnes) à cette institution
+              {
+                label: "Dirigeants (Personnes liées)",
+                name: "leaders",
+                widget: "relation",
+                collection: "personne",
+                searchFields: ["title"],
+                valueField: "title",
+                displayFields: ["title", "occupation"],
+                multiple: true, // Permet de sélectionner plusieurs personnes
+                required: false
+              },
+
+              {label: "Secteur d'activité", name: "industry", widget: "string", required: false},
+              {label: "Siège social", name: "headquarters", widget: "string", required: false},
+              {label: "Date de création", name: "founded", widget: "datetime", date_format: "YYYY", required: false},
+              {label: "Site web", name: "website", widget: "string", required: false},
+              {label: "Mots-clés", name: "keywords", widget: "list", required: false},
+              {label: "Source", name: "source", widget: "string", required: false},
+              
+              {label: "Description détaillée", name: "body", widget: "markdown"}
+            ]
+          },
+
+          {
+            // --- ENTREPRISES (Séparé pour un meilleur classement) ---
+            label: "Entreprises (Companies)",
+            name: "entreprise",
+            folder: "companies",
+            create: true,
+            slug: "{{slug}}",
+            fields: [
+              {label: "Nom de l'entreprise", name: "title", widget: "string"},
+              {label: "Type", name: "type", widget: "hidden", default: "Entreprise"},
+              {label: "Résumé", name: "summary", widget: "string"},
+              
+              // Lien vers les dirigeants
+              {
+                label: "Dirigeants / PDG",
+                name: "leaders",
+                widget: "relation",
+                collection: "personne",
+                searchFields: ["title"],
+                valueField: "title",
+                displayFields: ["title"],
+                multiple: true,
+                required: false
+              },
+              
+              {label: "Secteur", name: "industry", widget: "string"},
+              {label: "Site web", name: "website", widget: "string"},
+              {label: "Source", name: "source", widget: "string"},
+              {label: "Mots-clés", name: "keywords", widget: "list"},
+              
+              {label: "Contenu", name: "body", widget: "markdown"}
+            ]
+          },
+
+          {
+            // --- MÉDIAS ---
+            label: "Médias",
+            name: "media",
+            folder: "medias",
+            create: true,
+            slug: "{{slug}}",
+            fields: [
+              {label: "Nom du média", name: "title", widget: "string"},
+              {label: "Type", name: "type", widget: "hidden", default: "Media"},
+              {label: "Résumé", name: "summary", widget: "string"},
+              {label: "Propriétaire", name: "owner", widget: "string", required: false}, // Si c'est une filiale
+              {label: "Mots-clés", name: "keywords", widget: "list"},
+              {label: "Source", name: "source", widget: "string"},
+              {label: "Contenu", name: "body", widget: "markdown"}
+            ]
+          },
+
+          {
+            // --- THINK TANKS ---
+            label: "Think Tanks",
+            name: "think_tank",
+            folder: "think tanks", // Notez l'espace dans le nom du dossier, géré par le chemin ci-dessous
+            // Astuce : Si le dossier contient un espace, il faut parfois l'échapper ou vérifier le chemin.
+            // Si ça échoue, assurez-vous que le dossier s'appelle bien "think tanks"
+            create: true,
+            slug: "{{slug}}",
+            fields: [
+              {label: "Nom du Think Tank", name: "title", widget: "string"},
+              {label: "Type", name: "type", widget: "hidden", default: "Think Tank"},
+              {label: "Orientation politique", name: "orientation", widget: "select", options: ["Libéral", "Socialiste", "Écologiste", "Conservateur", "Autre"], required: false},
+              {label: "Résumé", name: "summary", widget: "string"},
+              {label: "Mots-clés", name: "keywords", widget: "list"},
+              {label: "Source", name: "source", widget: "string"},
+              {label: "Contenu", name: "body", widget: "markdown"}
+            ]
+          },
+
+          {
+            // --- ÉCOLES ---
+            label: "Écoles",
+            name: "ecole",
+            folder: "écoles",
+            create: true,
+            slug: "{{slug}}",
+            fields: [
+              {label: "Nom de l'école", name: "title", widget: "string"},
+              {label: "Type", name: "type", widget: "hidden", default: "Ecole"},
+              {label: "Résumé", name: "summary", widget: "string"},
+              {label: "Mots-clés", name: "keywords", widget: "list"},
+              {label: "Source", name: "source", widget: "string"},
+              {label: "Contenu", name: "body", widget: "markdown"}
+            ]
+          }
+        ]
+      }
+    });
+  </script>
+</body>
+</html>
