@@ -20,8 +20,8 @@ logger = setup_logger()
 git = GitHandler()
 llm = MistralClient()
 
-with open("config/config.yaml", "r", encoding="utf-8") as f:
-    CONFIG = yaml.safe_load(f)
+        with open(new_path, 'wb') as f:
+            frontmatter.dump(new_post, f)
 
 def process_file(file_path):
     try:
