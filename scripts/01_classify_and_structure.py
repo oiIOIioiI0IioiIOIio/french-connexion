@@ -19,9 +19,10 @@ load_dotenv()
 logger = setup_logger()
 git = GitHandler()
 llm = MistralClient()
+   
 
-        with open(new_path, 'wb') as f:
-            frontmatter.dump(new_post, f)
+with open("config/config.yaml", "r", encoding="utf-8") as f:
+CONFIG = yaml.safe_load(f)
 
 def process_file(file_path):
     try:
@@ -72,7 +73,7 @@ def process_file(file_path):
             shutil.move(str(file_path), str(new_path))
             logger.info(f"📁 Déplacé vers {target_folder}")
             
-        with open(new_path, 'w', encoding='utf-8') as f:
+        with open(new_path, 'wb') as f:
             frontmatter.dump(new_post, f)
             
         logger.info(f"✨ Succès : {title} structuré en {entity_type}")
