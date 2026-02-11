@@ -4,7 +4,7 @@ entity_types:
     folder: "personnes"
     template: "src/templates/personne.yaml"
   Entreprise:
-    folder: "entreprises"
+    folder: "companies"
     template: "src/templates/organisation.yaml"
   Institution:
     folder: "institutions"
