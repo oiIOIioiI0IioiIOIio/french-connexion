@@ -1,27 +1,26 @@
 # Requirements pour french-connexion
-# Mis à jour pour résoudre les problèmes d'import Mistral AI
+# Mis à jour avec toutes les dépendances nécessaires
 
 # ========================================
 # SDK Mistral AI
 # ========================================
-# Option 1 (RECOMMANDÉ) : Version moderne (1.0+)
 mistralai>=1.0.0
 
-# Option 2 (Compatible) : Si vous devez rester en 0.x
-# mistralai>=0.4.0,<1.0.0
-
-# Note: Le code llm_client.py corrigé est compatible avec les deux versions
-
 # ========================================
-# Autres dépendances du projet
+# Parsing et manipulation de fichiers
 # ========================================
 PyYAML>=6.0.1
+python-frontmatter>=1.0.0  # Pour parser les fichiers Markdown avec frontmatter
 python-dotenv>=1.0.0
 
-# Pour le logging et les utilitaires
-colorlog>=6.7.0  # Logs colorés (optionnel)
+# ========================================
+# Utilitaires
+# ========================================
+colorlog>=6.7.0  # Logs colorés (optionnel mais recommandé)
 
+# ========================================
 # Pour les tests (optionnel)
+# ========================================
 pytest>=7.4.0
 pytest-cov>=4.1.0
 
