@@ -1,17 +1,84 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>French Connexion - Admin</title>
-    <style>
-        body { font-family: sans-serif; text-align: center; padding-top: 50px; }
-        a { font-size: 1.5em; color: #2c3e50; text-decoration: none; border: 2px solid #2c3e50; padding: 10px 20px; border-radius: 5px; }
-        a:hover { background-color: #2c3e50; color: white; }
-    </style>
+  <meta charset="UTF-8">
+  <title>French Connexion</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Thème Visuel (Vue) -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css">
+  <style>
+    /* Petit tweak pour le titre */
+    .sidebar-nav > p > strong { font-size: 1.2em; color: #42b983; margin-top: 20px; display: block; }
+    /* Loader personnalisé */
+    .app-loading { text-align: center; margin-top: 100px; }
+  </style>
 </head>
 <body>
-    <h1>Bienvenue sur French Connexion</h1>
-    <p>Ce dépôt est une base de données Markdown.</p>
-    <a href="/admin/">Accéder à l'interface d'édition</a>
+  <div id="app">Chargement de la base de données...</div>
+  <script>
+    window.$docsify = {
+      name: 'French Connexion',
+      repo: 'oiIOIioiI0IioiIOIio/french-connexion',
+      el: "#app",
+      loadSidebar: true, // On active la sidebar
+      subMaxLevel: 2,    // On affiche les titres h2/h3 dans la sidebar
+      search: {
+        maxAge: 86400000, // Cache la recherche (24h)
+        paths: 'auto',
+        placeholder: 'Rechercher une personne, une institution...',
+        noData: 'Aucun résultat !',
+      },
+      plugins: [
+        function(hook, vm) {
+          hook.mounted(function() {
+            // Script pour générer la sidebar automatiquement depuis GitHub
+            const folders = ['personnes', 'institutions', 'companies', 'medias', 'think tanks', 'écoles'];
+            const sidebar = document.querySelector('.sidebar-nav');
+            if(!sidebar) return;
+
+            // On vide la sidebar par défaut
+            sidebar.innerHTML = '<p><strong>Accueil</strong></p><ul><li><a href="/">Accueil</a></li></ul>';
+
+            // Pour chaque dossier, on fetch le contenu via API GitHub
+            folders.forEach(folder => {
+              // On ajoute le titre du dossier
+              const title = document.createElement('p');
+              title.innerHTML = `<strong>${folder.charAt(0).toUpperCase() + folder.slice(1)}</strong>`;
+              sidebar.appendChild(title);
+
+              const ul = document.createElement('ul');
+              
+              // Appel API GitHub publique
+              fetch(`https://api.github.com/repos/oiIOIioiI0IioiIOIio/french-connexion/contents/${folder}`)
+                .then(response => response.json())
+                .then(data => {
+                  if (Array.isArray(data)) {
+                    data.forEach(file => {
+                      if (file.name.endsWith('.md')) {
+                        const li = document.createElement('li');
+                        // On crée le lien vers le fichier
+                        const a = document.createElement('a');
+                        a.href = `${folder}/${file.name}`; // Lien relatif
+                        a.textContent = file.name.replace('.md', ''); // Nom sans extension
+                        li.appendChild(a);
+                        ul.appendChild(li);
+                      }
+                    });
+                  }
+                })
+                .catch(err => console.error('Erreur chargement dossier:', folder, err));
+              
+              sidebar.appendChild(ul);
+            });
+          })
+        }
+      ]
+    }
+  </script>
+  <!-- Docsify Core -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <!-- Plugin Recherche -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 </body>
 </html>
