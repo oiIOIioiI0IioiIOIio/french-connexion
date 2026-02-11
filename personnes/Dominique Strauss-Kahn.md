@@ -1,0 +1,1 @@
+Collaborateur d’[[Institut Montaigne]] ; ancien Directeur général du [[FMI]], il a noué des liens avec de nombreuses institutions internationales et collabore avec des figures telles que [[Christine Lagarde]].

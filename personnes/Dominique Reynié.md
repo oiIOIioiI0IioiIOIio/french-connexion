@@ -1,0 +1,1 @@
+Directeur général de [[Fondapol]]. Il entretient des relations avec de nombreux chefs d’entreprise, dont [[Xavier Niel]] et [[Patrick Drahi]], et collabore avec des institutions telles que [[Rothschild]] pour promouvoir des idées libérales et européennes.

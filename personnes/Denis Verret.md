@@ -1,0 +1,1 @@
+Expert en politique économique et membre du conseil d’administration d’[[IRIS]], il collabore avec des entreprises internationales et institutions telles que [[l'OCDE]].
