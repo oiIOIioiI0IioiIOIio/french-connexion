@@ -5,21 +5,32 @@ import logging
 # --- GESTION DES VERSIONS AUTO-ADAPTATIVE ---
 # On essaie d'abord d'importer la nouvelle API (Mistral SDK >= 1.0.0)
 try:
-    from mistralai import Mistral, ChatMessage
+    from mistralai import Mistral
+    from mistralai import ChatMessage
     SDK_VERSION = "v1"
+    MistralSDK = Mistral  # Alias pour utilisation dans __init__
     logging.info("🤖 Mistral AI SDK v1.0+ détecté.")
 except ImportError:
     # Si ça échoue, on utilise l'ancienne API (Mistral SDK < 1.0.0)
-    from mistralai.client import MistralClient
-    from mistralai.models.models import ChatMessage
-    SDK_VERSION = "v0"
-    logging.warning("⚠️ Mistral AI SDK v0.x détecté. Utilisation du mode compatibilité.")
+    try:
+        from mistralai.client import MistralClient as MistralSDK  # Import avec alias
+        from mistralai.models.chat_completion import ChatMessage
+        SDK_VERSION = "v0"
+        logging.warning("⚠️ Mistral AI SDK v0.x détecté. Utilisation du mode compatibilité.")
+    except ImportError as e:
+        raise ImportError(
+            "ERREUR CRITIQUE : La bibliothèque 'mistralai' n'est pas installée correctement.\n"
+            f"Détails : {e}\n"
+            "Installez-la avec : pip install mistralai"
+        )
 
 logger = logging.getLogger("french_connection")
 
-class MistralClient:
+
+class MistralAIClient:
     """
     Client Wrapper compatible avec les versions 0.x et 1.0+ de Mistral AI.
+    Renommé de MistralClient vers MistralAIClient pour éviter les conflits.
     """
     
     def __init__(self):
@@ -33,10 +44,8 @@ class MistralClient:
         self.model = os.getenv("MISTRAL_MODEL", "open-mistral-nemo")
 
         # Initialisation selon la version détectée
-        if SDK_VERSION == "v1":
-            self.client = Mistral(api_key=api_key)
-        else:
-            self.client = MistralClient(api_key=api_key)
+        self.client = MistralSDK(api_key=api_key)
+        logger.info(f"Client Mistral initialisé (SDK {SDK_VERSION}, modèle: {self.model})")
 
     def load_template(self, template_path):
         """Charge le template YAML."""
@@ -54,23 +63,22 @@ class MistralClient:
         """
         template_content = self.load_template(template_path)
         
-        system_prompt = f"""
-        Tu es un expert en gestion de bases de connaissances pour le projet "French Connection".
-        
-        TA MISSION :
-        1. Analyser le texte fourni (fiche brute).
-        2. Remplir rigoureusement les champs du template YAML fourni ci-dessous.
-        3. Si tu détectes des informations pertinentes qui ne correspondent à aucun champ existant, TU DOIS ajouter de nouvelles clés au YAML (en snake_case).
-        4. Normalise les données : 
-           - Dates en format ISO (YYYY-MM-DD).
-           - Listes avec tirets.
-           - Noms d'entités en liens wikilinks [[Nom]].
-        
-        CONSIGNE DE SÉCURITÉ : Ne jamais inventer d'information. Si une donnée est absente, laisse le champ vide ou la liste vide [].
-        
-        TEMPLATE À RESPECTER (et étendre si besoin) :
-        {template_content}
-        """
+        system_prompt = f"""Tu es un expert en gestion de bases de connaissances pour le projet "French Connection".
+
+TA MISSION :
+1. Analyser le texte fourni (fiche brute).
+2. Remplir rigoureusement les champs du template YAML fourni ci-dessous.
+3. Si tu détectes des informations pertinentes qui ne correspondent à aucun champ existant, TU DOIS ajouter de nouvelles clés au YAML (en snake_case).
+4. Normalise les données : 
+   - Dates en format ISO (YYYY-MM-DD).
+   - Listes avec tirets.
+   - Noms d'entités en liens wikilinks [[Nom]].
+
+CONSIGNE DE SÉCURITÉ : Ne jamais inventer d'information. Si une donnée est absente, laisse le champ vide ou la liste vide [].
+
+TEMPLATE À RESPECTER (et étendre si besoin) :
+{template_content}
+"""
 
         user_message = f"Titre de la fiche : {title}\n\nContenu brut à analyser :\n{text_content}"
 
