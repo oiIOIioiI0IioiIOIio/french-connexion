@@ -5,16 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>French Connexion</title>
   
-  <!-- 1. Framework CSS Moderne (Tailwind) pour le design "Forestry" -->
+  <!-- 1. Framework CSS Moderne (Tailwind) -->
   <script src="https://cdn.tailwindcss.com"></script>
   
-  <!-- 2. Vue.js 3 pour la logique dynamique -->
+  <!-- 2. Vue.js 3 -->
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   
-  <!-- 3. Marked pour convertir le Markdown en HTML -->
+  <!-- 3. Marked pour le Markdown -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   
-  <!-- 4. Configuration Tailwind -->
+  <!-- Configuration Tailwind -->
   <script>
     tailwind.config = {
       theme: {
@@ -31,15 +31,13 @@
   </script>
   
   <style>
-    /* Styles personnels pour le markdown rendu */
+    /* Styles Markdown */
     .markdown-body h1 { font-size: 1.8em; font-weight: bold; margin-bottom: 0.5em; color: #1a202c; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.3em; }
     .markdown-body h2 { font-size: 1.5em; font-weight: bold; margin-top: 1em; margin-bottom: 0.5em; color: #2d3748; }
     .markdown-body p { margin-bottom: 1em; line-height: 1.6; color: #4a5568; }
     .markdown-body ul { list-style-type: disc; padding-left: 1.5em; margin-bottom: 1em; }
     .markdown-body a { color: #3182ce; text-decoration: underline; }
-    .markdown-body strong { color: #1a202c; }
     
-    /* Loader animation */
     .loader { border: 4px solid #f3f3f3; border-top: 4px solid #42b983; border-radius: 50%; width: 30px; height: 30px; animation: spin 1s linear infinite; margin: 20px auto; }
     @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
   </style>
@@ -68,7 +66,7 @@
       </nav>
       
       <div class="p-4 border-t border-gray-100 text-xs text-center text-gray-400">
-        Powered by GitHub API
+        Powered by GitHub Raw Content
       </div>
     </aside>
 
@@ -96,7 +94,7 @@
         </div>
 
         <div v-else-if="filteredFiles.length === 0" class="text-center text-gray-400 mt-20">
-          Aucun fichier trouvé.
+          Aucun fichier trouvé pour ce dossier.
         </div>
 
         <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -107,7 +105,7 @@
             
             <div class="p-5 flex-1 flex flex-col">
               <span class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">
-                {{ file.metadata.type || 'Fichier' }}
+                {{ file.metadata.type || 'Document' }}
               </span>
               
               <h3 class="text-xl font-bold text-primary mb-2 line-clamp-2">
@@ -115,13 +113,13 @@
               </h3>
               
               <p class="text-sm text-gray-500 line-clamp-3 mt-auto">
-                {{ file.metadata.summary || 'Aucun résumé disponible...' }}
+                {{ file.metadata.summary || 'Cliquez pour voir le contenu...' }}
               </p>
             </div>
             
             <div class="px-5 py-3 bg-gray-50 border-t border-gray-100 flex justify-between items-center">
-              <span class="text-xs text-gray-400">{{ new Date(file.modified).toLocaleDateString() }}</span>
-              <span class="text-xs font-semibold text-secondary">Lire la fiche →</span>
+              <span class="text-xs text-gray-400">MD File</span>
+              <span class="text-xs font-semibold text-secondary">Lire →</span>
             </div>
           </div>
         </div>
@@ -169,102 +167,126 @@
 
     createApp({
       setup() {
+        // Liste exacte des dossiers dans votre repo
         const folders = ['personnes', 'institutions', 'companies', 'medias', 'think tanks', 'écoles'];
         const selectedFolder = ref(null);
         const searchQuery = ref('');
-        const allFiles = ref([]); // Stockage global
+        const allFiles = ref([]); 
         const loading = ref(false);
         const activeFile = ref(null);
         
-        // Initialisation
         onMounted(() => {
           loadAllContent();
         });
 
-        // Charger tout le contenu (Lazy load optimisé)
         const loadAllContent = async () => {
           loading.value = true;
           try {
+            // On charge les dossiers en parallèle pour aller plus vite
             const promises = folders.map(folder => fetchFiles(folder));
             const results = await Promise.all(promises);
+            // On aplatit la liste de listes
             allFiles.value = results.flat();
+            console.log(`Chargé ${allFiles.value.length} fiches.`);
           } catch (e) {
-            console.error("Erreur de chargement", e);
+            console.error("Erreur critique:", e);
+            alert("Erreur lors du chargement des données. Vérifiez la console.");
           } finally {
             loading.value = false;
           }
         };
 
-        // Récupérer fichiers d'un dossier via API GitHub
         const fetchFiles = async (folder) => {
-          const response = await fetch(`https://api.github.com/repos/oiIOIioiI0IioiIOIio/french-connexion/${folder}?ref=main`);
-          if (!response.ok) return [];
-          const data = await response.json();
-          
-          // Pour chaque fichier, on récupère le contenu (décodage base64)
-          const filePromises = data.filter(item => item.type === 'file' && item.name.endsWith('.md')).map(async item => {
-            try {
-              // On utilise l'URL raw ou on décode le content fourni par l'API si < 1MB
-              const content = atob(item.content); // Décodage Base64
-              const metadata = parseFrontmatter(content);
-              return {
-                path: item.path,
-                name: item.name.replace('.md', ''),
-                modified: new Date(), // L'API ne donne pas toujours la date modifiée facilement dans l'endpoint contents
-                metadata: metadata,
-                rawContent: content
-              };
-            } catch (err) {
-              return null;
-            }
-          });
-          
-          return (await Promise.all(filePromises)).filter(f => f !== null);
-        };
-
-        // Parser le Frontmatter simple (ex: Title: ...)
-        const parseFrontmatter = (content) => {
-          const lines = content.split('\n');
-          const metadata = {};
-          let frontmatterActive = false;
-          
-          for (let line of lines) {
-            if (line.trim() === '---') {
-              frontmatterActive = !frontmatterActive;
-              continue;
-            }
-            if (frontmatterActive) {
-              const [key, ...valParts] = line.split(':');
-              if (key && valParts.length) {
-                metadata[key.trim()] = valParts.join(':').trim().replace(/^"|"$/g, '').replace(/^'|'$/g, '');
-              }
-            }
+          try {
+            // 1. Récupérer la liste des fichiers via l'API GitHub
+            const apiUrl = `https://api.github.com/repos/oiIOIioiI0IioiIOIio/french-connexion/contents/${folder}?ref=main`;
+            const response = await fetch(apiUrl);
+            if (!response.ok) return []; // Dossier introuvable ou erreur
+            
+            const data = await response.json();
+            
+            // 2. Pour chaque fichier MD, on va chercher le CONTENU BRUT
+            const filePromises = data
+              .filter(item => item.type === 'file' && item.name.endsWith('.md'))
+              .map(async (item) => {
+                try {
+                  // Utilisation de raw.githubusercontent.com pour avoir le texte direct (plus simple que du base64)
+                  const rawUrl = `https://raw.githubusercontent.com/oiIOIioiI0IioiIOIio/french-connexion/main/${item.path}`;
+                  const rawResponse = await fetch(rawUrl);
+                  
+                  if (!rawResponse.ok) return null;
+                  
+                  const content = await rawResponse.text();
+                  const metadata = parseFrontmatter(content);
+                  
+                  return {
+                    path: item.path,
+                    name: item.name.replace('.md', ''),
+                    metadata: metadata,
+                    rawContent: content
+                  };
+                } catch (err) {
+                  console.error(`Erreur lecture ${item.name}:`, err);
+                  return null;
+                }
+              });
+              
+            const files = await Promise.all(filePromises);
+            return files.filter(f => f !== null);
+            
+          } catch (e) {
+            console.error(`Erreur dossier ${folder}:`, e);
+            return [];
           }
-          return metadata;
         };
 
-        // Computed pour filtrer
+        // Parser le Frontmatter (Résistant aux erreurs)
+        const parseFrontmatter = (content) => {
+          try {
+            const parts = content.split('---');
+            if (parts.length < 3) return {}; // Pas de frontmatter
+            
+            const frontmatterText = parts[1];
+            const metadata = {};
+            
+            // Parse simple ligne par ligne
+            frontmatterText.split('\n').forEach(line => {
+              const colonIndex = line.indexOf(':');
+              if (colonIndex > -1) {
+                const key = line.substring(0, colonIndex).trim();
+                let value = line.substring(colonIndex + 1).trim();
+                // Retire les guillemets si présents
+                if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
+                  value = value.slice(1, -1);
+                }
+                metadata[key] = value;
+              }
+            });
+            return metadata;
+          } catch (e) {
+            return {};
+          }
+        };
+
         const filteredFiles = computed(() => {
           let files = allFiles.value;
           
-          // Filtre Dossier
           if (selectedFolder.value) {
             files = files.filter(f => f.path.startsWith(selectedFolder.value));
           }
           
-          // Filtre Recherche
           if (searchQuery.value) {
             const q = searchQuery.value.toLowerCase();
             files = files.filter(f => 
               f.name.toLowerCase().includes(q) || 
-              (f.metadata.summary && f.metadata.summary.toLowerCase().includes(q))
+              (f.metadata.summary && f.metadata.summary.toLowerCase().includes(q)) ||
+              (f.metadata.type && f.metadata.type.toLowerCase().includes(q))
             );
           }
           
           return files;
         });
 
-        // Helpers
         const loadFolder = (folder) => {
           selectedFolder.value = folder;
         };
@@ -295,7 +317,6 @@
           return map[type] || 'bg-gray-400';
         };
 
-        // Modal Logic
         const openFile = (file) => {
           activeFile.value = file;
         };
@@ -306,9 +327,8 @@
 
         const compiledMarkdown = computed(() => {
           if (!activeFile.value) return '';
-          // On enlève le frontmatter pour l'affichage markdown
+          // On nettoie le frontmatter pour l'affichage
           const split = activeFile.value.rawContent.split('---');
-          // Si y'a 3 parties (start---, content---, end) on prend la 3ème. Si seulement 2, on prend la fin.
           const body = split.length > 2 ? split.slice(2).join('---') : split.slice(1).join('---');
           return marked.parse(body);
         });
