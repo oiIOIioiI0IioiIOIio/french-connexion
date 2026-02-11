@@ -1,6 +1,17 @@
 ---
-dg-publish: true
+keywords:
+- club privé
+- luxe
+- exclusivité
+- membres
+- réseau international
+summary: Le Saint-James Club est un club privé luxueux situé dans un château historique
+  du 16e arrondissement de Paris, offrant des services exclusifs à ses membres. Il
+  combine élégance, gastronomie, bien-être et accès à un réseau international de clubs
+  affiliés.
+type: Institution
 ---
+
 #club 
 Situé dans un château historique du 16e arrondissement, ce club privé offre un cadre luxueux à ses membres, avec des services exclusifs tels qu'un restaurant gastronomique, des salons privés et un jardin.​
 

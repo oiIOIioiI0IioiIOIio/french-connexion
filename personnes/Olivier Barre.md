@@ -1,6 +1,17 @@
 ---
-dg-publish: true
+keywords:
+- homme d'affaires
+- haut fonctionnaire
+- secteur bancaire
+- conseil
+- Raymond Barre
+summary: Olivier Barre est un homme d'affaires et haut fonctionnaire français, fils
+  de l'ancien Premier ministre Raymond Barre. Il a occupé des postes clés dans les
+  secteurs bancaire, industriel et du conseil, notamment chez KBL France et Europe
+  Finance et Industrie.
+type: Personne
 ---
+
 Homme d'affaires et haut fonctionnaire français  
 Né le 2 juin 1955 à Paris 16ᵉ  
 Fils de [[Raymond Barre]], universitaire et homme politique, et de [[Eva Hegedüs]]

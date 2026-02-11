@@ -1,6 +1,17 @@
 ---
-dg-publish: true
+keywords:
+- préfet
+- ENA
+- gendarmerie
+- Sciences Po
+- politique
+summary: Christophe Bay est un haut fonctionnaire français, ancien préfet et conseiller
+  dans plusieurs institutions publiques. Il a occupé des postes clés au sein du ministère
+  de l'Intérieur et de la gendarmerie nationale, tout en ayant des engagements politiques
+  marqués à droite.
+type: Personne
 ---
+
 Ancien préfet
 
 A étudié à l'[[ENA (École nationale d'administration)]]

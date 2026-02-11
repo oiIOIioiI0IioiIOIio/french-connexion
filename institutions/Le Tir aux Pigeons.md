@@ -1,6 +1,17 @@
 ---
-dg-publish: true
+keywords:
+- club privé
+- sport
+- histoire
+- Paris
+- élite
+summary: Le Tir aux Pigeons est un club privé historique situé dans le bois de Boulogne
+  à Paris, fondé en 1899. Initialement dédié au patinage et au tir, il propose aujourd'hui
+  des activités sportives variées comme le tennis, le bridge ou le fitness, tout en
+  préservant son cadre naturel et son prestige.
+type: Institution
 ---
+
 #club 
 
 **Histoire**

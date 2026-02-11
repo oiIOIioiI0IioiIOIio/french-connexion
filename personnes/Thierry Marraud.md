@@ -1,5 +1,15 @@
 ---
-dg-publish: true
+keywords:
+- dirigeant
+- finance
+- industrie
+- Saint-Gobain
+- Bolloré
+summary: Thierry Marraud est un dirigeant d'entreprise français né en 1942, ayant
+  occupé des postes clés dans plusieurs grands groupes industriels et financiers.
+  Il est reconnu pour son expertise en gestion financière et son engagement dans le
+  secteur des papiers-cartons et cellulose.
+type: Personne
 ---
 
 ## Description :

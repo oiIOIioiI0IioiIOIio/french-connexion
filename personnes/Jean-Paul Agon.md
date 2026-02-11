@@ -1,6 +1,16 @@
 ---
-dg-publish: true
+keywords:
+- Jean-Paul Agon
+- L'Oréal
+- PDG
+- industrie cosmétique
+- dirigeant
+summary: Jean-Paul Agon est un dirigeant d'entreprise français, connu pour avoir été
+  le PDG de L'Oréal pendant de nombreuses années. Il est considéré comme une figure
+  majeure de l'industrie cosmétique mondiale.
+type: Personne
 ---
+
 **[[Jean-Paul Agon]]**
 
 - **Titre :** Ancien PDG de [[L'Oréal]]

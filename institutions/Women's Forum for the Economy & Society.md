@@ -1,5 +1,15 @@
 ---
-dg-publish: true
+keywords:
+- égalité des genres
+- leadership féminin
+- réseautage
+- partenariats stratégiques
+- innovation sociale
+summary: Le Women's Forum for the Economy & Society est une organisation internationale
+  qui promeut l'égalité des genres et l'autonomisation des femmes dans les secteurs
+  économiques et sociétaux. Il réunit des leaders influents et des partenaires stratégiques
+  pour favoriser le changement et l'innovation sociale.
+type: Institution
 ---
 
 ### Comment entrer dans le **Women's Forum** ?

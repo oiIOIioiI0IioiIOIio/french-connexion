@@ -1,6 +1,18 @@
 ---
-dg-publish: true
+keywords:
+- Périclès
+- droite conservatrice
+- formation politique
+- médias conservateurs
+- élections municipales 2026
+summary: Le projet Périclès est une initiative lancée en 2023 par l'entrepreneur Pierre-Édouard
+  Stérin pour influencer la politique française en faveur de la droite libérale-conservatrice
+  et de l'extrême droite. Doté d'un budget de 150 millions d'euros sur dix ans, il
+  vise à former des candidats et promouvoir des valeurs conservatrices via des médias
+  et des actions stratégiques.
+type: Institution
 ---
+
 ​Initiative lancée en 2023 par l'entrepreneur conservateur [[Pierre-Édouard Stérin]], visant à influencer le paysage politique français en faveur de la droite libérale-conservatrice et de l'extrême droite. Avec un investissement prévu de 150 millions d'euros sur dix ans, ce projet se concentre sur la formation de candidats aux élections municipales de 2026 et sur la promotion de valeurs conservatrices à travers divers médias et actions stratégiques. ​[Le Monde.fr](https://www.lemonde.fr/politique/article/2024/07/21/le-plan-du-milliardaire-pierre-edouard-sterin-pour-permettre-la-victoire-de-la-droite-et-de-l-extreme-droite_6254183_823448.html) [Wikipédia](https://fr.wikipedia.org/wiki/Pierre-%C3%89douard_St%C3%A9rin)
 
 **Objectifs et Stratégies :**

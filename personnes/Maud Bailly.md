@@ -1,6 +1,17 @@
 ---
-dg-publish: true
+keywords:
+- digitalisation
+- transformation numérique
+- secteur bancaire
+- innovation
+- collaboration stratégique
+summary: Maud Bailly est une figure influente dans la transformation numérique des
+  secteurs bancaire et énergétique, ainsi que dans la digitalisation des grandes entreprises.
+  Elle a collaboré avec plusieurs dirigeants majeurs sur des projets stratégiques
+  d'innovation et de partenariat.
+type: Personne
 ---
+
 Membre du conseil d'administration de [[Le siècle]]
 
 **Liens**
@@ -11,4 +22,4 @@ Membre du conseil d'administration de [[Le siècle]]
 
 [[Isabelle Kocher]] et Maud ont eu plusieurs occasions de collaborer sur des dossiers stratégiques concernant la transition énergétique et numérique, avec un focus particulier sur l'innovation et la digitalisation des services énergétiques.  
 
-[[Bernard Arnault]] et Maud se sont rencontrés dans des contextes professionnels liés aux secteurs du luxe et de la numérisation des services. Bien que leurs liens aient été indirects, [[Bailly]] a été impliquée dans des projets qui concernaient la digitalisation des grandes entreprises, un domaine où [[LVMH]] a montré un grand intérêt.  
+[[Bernard Arnault]] et Maud se sont rencontrés dans des contextes professionnels liés aux secteurs du luxe et de la numérisation des services. Bien que leurs liens aient été indirects, [[Bailly]] a été impliquée dans des projets qui concernaient la digitalisation des grandes entreprises, un domaine où [[LVMH]] a montré un grand intérêt.

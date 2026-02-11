@@ -1,6 +1,18 @@
 ---
-dg-publish: true
+keywords:
+- industriel
+- groupe Bolloré
+- médias
+- finance
+- dirigeant
+summary: Vincent Bolloré est un industriel français né en 1952, connu pour avoir dirigé
+  et développé le groupe Bolloré, un conglomérat présent dans divers secteurs comme
+  les médias, la logistique et l'énergie. Il a occupé de nombreuses fonctions dirigeantes
+  dans des entreprises et institutions financières, tout en étant reconnu par plusieurs
+  distinctions honorifiques.
+type: Personne
 ---
+
 **BOLLORÉ (Vincent, Marie)**  
 Industriel  
 
@@ -146,4 +158,3 @@ Marié le 23 mars 1977 à [[Sophie Fossorier]]
 ### Coordonnées
 
 - **Pro** : [[Groupe Bolloré]], Tour Bolloré, 31-32 quai de Dion Bouton, 92811 Puteaux cedex
-

@@ -1,6 +1,16 @@
 ---
-dg-publish: true
+keywords:
+- Président
+- Politique
+- France
+- Les Républicains
+- Influence
+summary: Nicolas Sarkozy est un ancien Président de la République française, connu
+  pour son influence marquante sur la politique et les médias en France. Il est associé
+  au parti Les Républicains et reste une figure centrale parmi les élites politiques.
+type: Personne
 ---
+
 Titre : Ancien Président de la République française  
 Âge : ~67 ans  
 Liens : Associé à [[Les Républicains]] et souvent lié à d'autres figures politiques d'élite  

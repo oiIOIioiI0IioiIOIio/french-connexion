@@ -1,5 +1,15 @@
 ---
-dg-publish: true
+keywords:
+- finance
+- dirigeant
+- Bolloré
+- Valeo
+- gestion
+summary: Jean-Louis Bouquet est un dirigeant français né en 1938, spécialisé dans
+  la finance et la gestion d'entreprises. Il a occupé des postes clés au sein de groupes
+  majeurs comme Valeo et Bolloré, tout en développant des centres d'intérêt artistiques
+  et sportifs.
+type: Personne
 ---
 
 **BOUQUET (Jean-Louis, Gustave)**  

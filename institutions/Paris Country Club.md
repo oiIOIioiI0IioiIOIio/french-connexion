@@ -1,6 +1,17 @@
 ---
-dg-publish: true
+keywords:
+- club privé
+- loisirs
+- golf
+- histoire
+- luxe
+summary: Le Paris Country Club est un établissement privé luxueux situé à Rueil-Malmaison,
+  offrant une large gamme d'activités sportives, culturelles et de détente. Fondé
+  en 1981 sur un domaine historique, il allie patrimoine architectural et infrastructures
+  modernes pour une clientèle exigeante.
+type: Institution
 ---
+
 #club 
 
 **L’histoire**

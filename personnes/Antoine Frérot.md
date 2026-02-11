@@ -1,6 +1,17 @@
 ---
-dg-publish: true
+keywords:
+- Veolia
+- PDG
+- réseaux professionnels
+- gestion des ressources
+- collaborations industrielles
+summary: Antoine Frérot est le PDG de Veolia, une entreprise leader dans la gestion
+  optimisée des ressources à l'échelle mondiale. Il a développé un réseau professionnel
+  influent grâce à des collaborations avec des figures majeures du monde des affaires
+  et de la politique.
+type: Personne
 ---
+
 PDG de [[Veolia]], leader mondial de la gestion optimisée des ressources
 
 liens :
@@ -13,4 +24,4 @@ liens :
 
 **[[Martin Bouygues]]** a collaboré avec Antoine Frérot sur divers projets liés aux infrastructures et à l'environnement. 
 
-**[[Gabriel Attal]]** a participé à des événements aux côtés d'Antoine Frérot, notamment lors du Forum Mondial de l'Économie Positive. 
+**[[Gabriel Attal]]** a participé à des événements aux côtés d'Antoine Frérot, notamment lors du Forum Mondial de l'Économie Positive.

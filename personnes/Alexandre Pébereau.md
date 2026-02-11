@@ -1,5 +1,15 @@
 ---
-dg-publish: true
+keywords:
+- dirigeant
+- télécommunications
+- contrôle de gestion
+- ESCP
+- carrière internationale
+summary: Alexandre Pébereau est un dirigeant d'entreprise français né en 1963, diplômé
+  de l'ESCP et ayant occupé des postes clés dans des groupes comme Bolloré, Vivendi
+  et France Télécom. Issu d'une famille influente, il a mené une carrière internationale
+  dans les secteurs de l'armement, des télécommunications et du contrôle de gestion.
+type: Personne
 ---
 
 **PÉBEREAU (Alexandre, Michel, Jean)**  

@@ -1,6 +1,16 @@
 ---
-dg-publish: true
+keywords:
+- diplomate
+- maire
+- Gabon
+- Havas
+- Ordre de Malte
+summary: Jean-Pierre Pasquier était un directeur de société, diplomate et élu local
+  français, né en 1929. Il a occupé des postes clés dans le secteur privé, des fonctions
+  diplomatiques au Gabon et au Congo, ainsi que des mandats municipaux en France.
+type: Personne
 ---
+
 **[[PASQUIER (Jean-Pierre)]]**  
 Directeur de société, diplomate, élu local
 

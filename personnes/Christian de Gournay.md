@@ -1,6 +1,17 @@
 ---
-dg-publish: true
+keywords:
+- dirigeant
+- banque
+- Conseil d'État
+- immobilier
+- assurances
+summary: Christian de Gournay est un haut fonctionnaire et dirigeant d'entreprise
+  français, né en 1952. Il a occupé des postes clés dans le secteur bancaire, les
+  assurances et l'immobilier, notamment comme président de Cogedim et membre du Conseil
+  d'État.
+type: Personne
 ---
+
 **GOURNAY (Christian de)**  
 Président de société, Membre du Conseil d'État  
 Né le 25 août 1952 à Boulogne (Hauts-de-Seine, ex-Seine)  

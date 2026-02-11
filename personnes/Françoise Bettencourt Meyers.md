@@ -1,6 +1,16 @@
 ---
-dg-publish: true
+keywords:
+- L'Oréal
+- héritière
+- fortune
+- conseil d'administration
+- milliardaire
+summary: Françoise Bettencourt Meyers est l'héritière de L'Oréal et préside son conseil
+  d'administration. Elle figure parmi les femmes les plus riches du monde, avec une
+  fortune estimée à plus de 100 milliards de dollars.
+type: Personne
 ---
+
 **[[Françoise Bettencourt Meyers]]**
 
 - **Titre :** Présidente du conseil d'administration de [[L'Oréal]]

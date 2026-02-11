@@ -1,6 +1,17 @@
 ---
-dg-publish: true
+keywords:
+- luxe
+- réseau
+- numérique
+- exclusivité
+- coaching
+summary: Parnasse est une marque premium du groupe Orange, fondée en 2007, offrant
+  des services numériques sur mesure et un accompagnement personnalisé à une clientèle
+  exigeante. Elle organise des événements exclusifs et propose un réseau haut de gamme
+  basé sur la cooptation et l'excellence.
+type: Institution
 ---
+
 #marque
 
 Fondée en 2007, la marque sur mesure du groupe Orange se distingue par des prestations numériques personnalisées : connectivité à la maison ou sur le lieu de travail, sécurité, forfaits exclusifs très généreux à l’international… Un coach digital particulier, disponible 24 h/24, accompagne chacun des 3 000 membres autour de quatre principes : exigence du service, sens de l’écoute et confidentialité.

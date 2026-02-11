@@ -1,6 +1,16 @@
 ---
-dg-publish: true
+keywords:
+- think tank
+- libéralisme
+- Claude Bébéar
+- entreprises
+- politique
+summary: L'Institut Montaigne est un think tank français libéral fondé en 2000 par
+  Claude Bébéar. Financé par de grandes entreprises, il rassemble des personnalités
+  influentes issues des secteurs public et privé.
+type: Institution
 ---
+
 https://fr.wikipedia.org/wiki/Institut_Montaigne
 
 think tank français qui défend une visionlibérale. 
@@ -20,4 +30,4 @@ membres :
 
 [[Jean-Marc Ayrault]]  
 
-[[Personnes/Valérie Pécresse]]  
+[[Personnes/Valérie Pécresse]]

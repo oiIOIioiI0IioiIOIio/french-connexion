@@ -1,5 +1,16 @@
 ---
-dg-publish: true
+keywords:
+- finance
+- Société Générale
+- ENA
+- École polytechnique
+- dirigeant
+summary: Frédéric Oudéa est un haut fonctionnaire et dirigeant français, ancien élève
+  de l'École polytechnique et de l'ENA, ayant occupé des postes clés dans la finance
+  publique et privée, notamment comme directeur financier de la Société Générale.
+  Il est également reconnu pour ses contributions dans les milieux économiques et
+  ses centres d'intérêt variés, incluant l'art et le sport.
+type: Personne
 ---
 
 ## Description :

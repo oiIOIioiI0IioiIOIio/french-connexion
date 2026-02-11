@@ -1,6 +1,17 @@
 ---
-dg-publish: true
+keywords:
+- gastronomie
+- club privé
+- Paris
+- chefs cuisiniers
+- élite
+summary: Le Club des Cent est une institution gastronomique française fondée en 1912
+  à Paris, dédiée à la promotion de l'excellence culinaire et à la découverte des
+  meilleures tables. Réservé à une élite de gastronomes, il rassemble des personnalités
+  influentes du monde des affaires, de la culture et de la restauration.
+type: Institution
 ---
+
 #club 
 **L’histoire**
 
@@ -38,4 +49,4 @@ membres notables :
 - [[Philippe Bouvard]] (journaliste et animateur)[AD Magazine](https://www.admagazine.fr/adadresses/article/enquete-coulisses-clubs-prives-parisiens) 
 
 - [[Pierre Arditi]] (acteur) ​[AD Magazine](https://www.admagazine.fr/adadresses/article/enquete-coulisses-clubs-prives-parisiens) 
-- 
+-

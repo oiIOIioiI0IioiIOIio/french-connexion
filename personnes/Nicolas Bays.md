@@ -1,6 +1,16 @@
 ---
-dg-publish: true
+keywords:
+- politique
+- député
+- Pas-de-Calais
+- socialiste
+- Défense nationale
+summary: Nicolas Bays est un homme politique français né en 1977, originaire du Pas-de-Calais.
+  Il a occupé des fonctions électives et administratives, notamment comme député et
+  vice-président de la commission de la Défense nationale.
+type: Personne
 ---
+
 Nom complet : Nicolas Bays
     
 Date de naissance : 1977

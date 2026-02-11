@@ -1,5 +1,14 @@
 ---
-dg-publish: true
+keywords:
+- politique
+- économie
+- ministre
+- Macron
+- finances
+summary: Bruno Le Maire est un homme politique français, actuellement ministre de
+  l’Économie, des Finances et de la Relance. Proche d'Emmanuel Macron, il entretient
+  des liens avec des institutions financières et des figures politiques influentes.
+type: Personne
 ---
 
 Titre : Ministre de l’Économie, des Finances et de la Relance  

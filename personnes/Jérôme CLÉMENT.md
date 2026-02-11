@@ -1,7 +1,16 @@
 ---
-dg-publish: true
+keywords:
+- audiovisuel
+- culture
+- ENA
+- Arte
+- haut fonctionnaire
+summary: Jérôme Clément est un haut fonctionnaire et dirigeant français, spécialisé
+  dans l'audiovisuel et la culture. Il a occupé des postes clés dans des institutions
+  publiques et des chaînes de télévision comme Arte et La Cinquième, tout en étant
+  engagé dans des projets culturels internationaux.
+type: Personne
 ---
-
 
 **Administrateur civil, Président de société d’audiovisuel**  
 Né le 18 mai 1945 à Paris 6e  
@@ -95,4 +104,4 @@ Père de quatre enfants : [[Sarah Clément]], [[Julien Clément]], [[Elsa Cléme
     - 205 avenue Jean-Jaurès, 92140 Clamart
     
     - Le Vieux Castel, 49350 Le Thoureil
-    - 
+    -

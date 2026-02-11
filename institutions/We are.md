@@ -1,6 +1,17 @@
 ---
-dg-publish: true
+keywords:
+- club privé
+- industries créatives
+- réseautage
+- programmation culturelle
+- décisionnaires
+summary: We Are Club est un espace privé situé à Paris, dédié aux professionnels des
+  médias, des industries créatives et aux décisionnaires. Il propose une programmation
+  variée (culturelle, économique, politique) et des infrastructures pour la production
+  de contenu, tout en favorisant les échanges interdisciplinaires.
+type: Institution
 ---
+
 #club
 Situé rive droite, à deux pas de Matignon, We Are Club regroupe les professionnels des médias. Son hôtel particulier -et de son jardin- de 1200 m2 ouvre ses portes aux artistes, entrepreneurs, et décisionnaires avec une programmation quotidienne mais également des espaces de production de contenu (studio Broadcast, lab culinaire…). Le club se revendique comme un lieu de transversalité où il « se passe tous les jours quelque chose ». Salle de cinéma, concert, exposition… Une sorte de « one-stop-playing » de la nouvelle scène artistique réservée à des membres en priorité issus des industries créatives. Restent ouverts au public, la restauration et ses espaces d’exposition.
 

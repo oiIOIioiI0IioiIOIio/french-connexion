@@ -1,7 +1,16 @@
 ---
-dg-publish: true
+keywords:
+- politique
+- députée
+- UMP
+- Sciences Po Paris
+- Yvelines
+summary: Aurore Bergé est une femme politique française née en 1986, connue pour son
+  engagement précoce au sein de l'UMP. Elle a été élue députée des Yvelines en 2017
+  après un parcours marqué par des collaborations politiques et une formation à Sciences
+  Po Paris.
+type: Personne
 ---
-
 
 Nom complet : Aurore Bergé
     

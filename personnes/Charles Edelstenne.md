@@ -1,6 +1,16 @@
 ---
-dg-publish: true
+keywords:
+- Dassault Aviation
+- aéronautique
+- industrie
+- dirigeant
+- avions
+summary: Charles Edelstenne est un dirigeant industriel français, connu pour son rôle
+  de président de Dassault Aviation. Il incarne l'expertise et l'innovation dans le
+  secteur aéronautique, notamment dans les avions militaires et d'affaires.
+type: Personne
 ---
+
 **[[Charles Edelstenne]]**
 
 - **Titre :** Président de [[Dassault Aviation]]

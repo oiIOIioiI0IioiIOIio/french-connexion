@@ -1,6 +1,17 @@
 ---
-dg-publish: true
+keywords:
+- CMA CGM
+- transport maritime
+- médias
+- transition énergétique
+- investissements
+summary: Rodolphe Saadé est un dirigeant d'entreprise français, PDG de CMA CGM, l'un
+  des principaux groupes mondiaux de transport maritime. Il a étendu l'influence du
+  groupe dans les médias et renforcé ses engagements en faveur de la transition énergétique
+  et des investissements internationaux.
+type: Personne
 ---
+
 dirige [[CMA CGM]], l'un des plus grands transporteurs maritimes mondiaux
 
 liens : 

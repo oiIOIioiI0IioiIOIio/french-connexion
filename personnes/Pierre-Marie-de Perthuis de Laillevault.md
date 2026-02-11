@@ -1,6 +1,16 @@
 ---
-dg-publish: true
+keywords:
+- publicitaire
+- journaliste
+- agence de communication
+- secteur agricole
+- Havas
+summary: Pierre-Marie de Perthuis de Laillevault est un publicitaire et journaliste
+  français, né en 1957. Il a fondé plusieurs agences de communication et occupé des
+  postes clés dans le secteur agricole et agroalimentaire.
+type: Personne
 ---
+
 PERTHUIS de LAILLEVAULT (Pierre, Marie, Bertrand de)
 Publicitaire
 
@@ -38,4 +48,3 @@ Marié le 20 juillet 1985 à [[Bénédicte Giraud]], magistrate
 ### Sources
 
 - _Who's Who in France_
-    

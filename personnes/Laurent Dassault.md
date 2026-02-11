@@ -1,6 +1,16 @@
 ---
-dg-publish: true
+keywords:
+- Dassault
+- héritier
+- aéronautique
+- médias
+- industrie
+summary: Laurent Dassault est un héritier de la famille Dassault, connue pour son
+  influence dans les secteurs de l'aéronautique et des médias. Il fait partie d'une
+  dynastie industrielle française impliquée dans des entreprises comme Dassault Aviation.
+type: Personne
 ---
+
 **[[Laurent Dassault]]**
 
 - **Titre :** Membre de la famille [[Dassault]]

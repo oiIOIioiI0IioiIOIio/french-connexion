@@ -1,6 +1,17 @@
 ---
-dg-publish: true
+keywords:
+- énergie
+- pétrole
+- dirigeant
+- économie
+- associations professionnelles
+summary: Pacifique Le Clère est un dirigeant français né en 1944, spécialisé dans
+  le secteur de l'énergie et des carburants. Il a occupé des postes clés dans des
+  entreprises comme Shell, Elf Aquitaine et Bolloré Energie, tout en s'engageant dans
+  des associations professionnelles et locales.
+type: Personne
 ---
+
 **LE CLÈRE (Pacifique, Gérard, Marie)**  
 Président de sociétés  
 Né le 1er février 1944 à [[Saint-Gonnery]] (Morbihan)  

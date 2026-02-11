@@ -1,6 +1,17 @@
 ---
-dg-publish: true
+keywords:
+- homme d'affaires
+- Groupe Bolloré
+- famille Bolloré
+- Sciences Po Bordeaux
+- réseau d'influence
+summary: Cédric Bailliencourt, également connu sous le nom de Courcol, est un homme
+  d'affaires français né en 1969, étroitement lié au Groupe Bolloré. Il occupe des
+  postes clés au sein de cette entreprise et est reconnu pour son influence dans les
+  milieux économiques et médiatiques français.
+type: Personne
 ---
+
 (dit COURCOL) 
 
 Homme d'affaires français  

@@ -1,6 +1,17 @@
 ---
-dg-publish: true
+keywords:
+- politique
+- Conseil d'État
+- UMP
+- Île-de-France
+- ENA
+summary: Valérie Pécresse est une femme politique française et membre du Conseil d'État,
+  connue pour son parcours dans les institutions publiques et son engagement régional
+  en Île-de-France. Diplômée de l'ENA et d'HEC, elle a occupé divers postes clés au
+  sein de l'UMP et de la Présidence de la République.
+type: Personne
 ---
+
 Intervenante d’[[Institut Montaigne]], personnalité politique et dirigeante régionale, elle collabore régulièrement avec des entreprises et des institutions de recherche en France.
 
 Membre du Conseil d'État et femme politique, née le 14 juillet 1967 à Neuilly-sur-Seine (Hauts-de-Seine). Fille de [[Dominique Roux]], universitaire, et de [[Catherine Bertagna]].

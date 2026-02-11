@@ -1,3 +1,16 @@
+---
+keywords:
+- dirigeant
+- entreprise
+- droit des affaires
+- Bolloré
+- président
+summary: Didier Destouches est un dirigeant d'entreprise français né en 1955, diplômé
+  en droit des affaires et de l'ESSEC. Il a occupé plusieurs postes clés dans des
+  groupes industriels et préside actuellement la société Le Nappage Moderne.
+type: Personne
+---
+
 **DESTOUCHES (Didier, Norbert)**  
 Président de société  
 Né le 28 septembre 1955 à Levallois-Perret

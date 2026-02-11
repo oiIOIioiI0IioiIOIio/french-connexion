@@ -1,6 +1,18 @@
 ---
-dg-publish: true
+keywords:
+- philanthropie
+- impact sociétal
+- investissement durable
+- ultra-conservatisme
+- réseau caritatif
+summary: Le Fonds du Bien Commun est une organisation philanthropique française fondée
+  en 2021 par Pierre-Édouard Stérin, axée sur le financement et l'accompagnement de
+  projets à impact sociétal. Critiquée pour ses liens avec des milieux ultra-conservateurs,
+  elle combine dons, investissements et incubation d'initiatives dans des domaines
+  comme l'éducation et la solidarité.
+type: Institution
 ---
+
 Le **Fonds du Bien Commun** est une organisation philanthropique française créée en 2021 par l'entrepreneur et milliardaire [[Pierre-Édouard Stérin]]. Il a été critiqué pour sa proximité avec des milieux ultra-conservateurs et pour le financement de structures idéologiquement homogènes.
 
 #### Structure et Activités

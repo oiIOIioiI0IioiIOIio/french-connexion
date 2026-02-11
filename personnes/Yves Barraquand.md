@@ -1,6 +1,17 @@
 ---
-dg-publish: true
+keywords:
+- homme d'affaires
+- haut fonctionnaire
+- Bolloré
+- PPR
+- relations Europe-Afrique
+summary: Yves Barraquand est un haut fonctionnaire et homme d'affaires français, né
+  en 1960, ayant occupé des postes clés dans des groupes industriels majeurs comme
+  Bolloré et PPR. Il a également été conseiller technique pour des figures politiques
+  et a contribué au développement des relations industrielles entre l'Europe et l'Afrique.
+type: Personne
 ---
+
 Homme d'affaires et haut fonctionnaire français  
 Né le 23 septembre 1960 à Arles  
 Fils de [[Frédéric Barraquand]], capitaine de l’infanterie de marine, et de [[Sylvana Guidi]], institutrice

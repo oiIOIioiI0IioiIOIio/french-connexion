@@ -1,6 +1,16 @@
 ---
-dg-publish: true
+keywords:
+- entrepreneur
+- télécom
+- Free
+- Iliad
+- médias
+summary: Xavier Niel est un entrepreneur français, fondateur du groupe Iliad, connu
+  pour l'opérateur télécom Free. Il est également actionnaire du journal Le Monde
+  et engagé dans des initiatives numériques aux côtés d'Emmanuel Macron.
+type: Personne
 ---
+
 **[[Xavier Niel]]**
 
 - **Titre :** Fondateur d'[[Iliad]] (Free)
@@ -13,4 +23,4 @@ Associé à [[Emmanuel Macron]] via les initiatives entrepreneuriales et numéri
 
 Conjointe : [[Delphine Arnault]]
 
-Chevalier de la [[Légion d'honneur]] 
+Chevalier de la [[Légion d'honneur]]

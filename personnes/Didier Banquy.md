@@ -1,3 +1,16 @@
+---
+keywords:
+- administrateur civil
+- budget
+- haut fonctionnaire
+- ENA
+- finances publiques
+summary: Didier Banquy est un haut fonctionnaire français né en 1952, spécialisé dans
+  la gestion budgétaire et administrative. Il a occupé des postes clés au sein de
+  l'État, notamment comme directeur de cabinet et secrétaire général d'institutions
+  financières.
+type: Personne
+---
 
 Administrateur civil. Né le 26 juin 1952 à Paris. Fils de [[Samuel Banquy]], ingénieur, et de [[Janine Testu]].
 

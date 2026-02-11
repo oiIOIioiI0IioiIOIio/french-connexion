@@ -1,5 +1,15 @@
 ---
-dg-publish: true
+keywords:
+- magistrat
+- Cour des comptes
+- culture
+- médias
+- administration publique
+summary: Christian Phéline est un haut magistrat français né en 1945, spécialisé dans
+  les domaines de la culture, des médias et de l'administration publique. Il a occupé
+  des postes clés au sein d'institutions culturelles et médiatiques, ainsi qu'à la
+  Cour des comptes.
+type: Personne
 ---
 
 Magistrat à la [[Cour des comptes]], né le 12 juin 1945 à Paris. Fils de [[Jean Phéline]], ingénieur, et de [[Mady Arkwright]], professeur.

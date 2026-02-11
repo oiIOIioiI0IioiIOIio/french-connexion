@@ -1,5 +1,14 @@
 ---
-dg-publish: true
+keywords:
+- Ingénieur
+- Dirigeant
+- Industrie chimique
+- Lafarge
+- Materis
+summary: Olivier Legrain est un ingénieur des mines et dirigeant d'entreprise français,
+  né en 1952. Il a occupé des postes clés dans des groupes industriels comme Rhône-Poulenc
+  et Lafarge, avant de devenir président de Materis.
+type: Personne
 ---
 
 Olivier, Henri, Claude. 

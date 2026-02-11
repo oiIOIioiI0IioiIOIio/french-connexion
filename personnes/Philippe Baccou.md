@@ -1,6 +1,17 @@
 ---
-dg-publish: true
+keywords:
+- Cour des comptes
+- Marine Le Pen
+- extrême droite
+- Club de l’Horloge
+- Horaces
+summary: Philippe Baccou est un ancien haut fonctionnaire de la Cour des comptes,
+  devenu conseiller influent dans les milieux d'extrême droite. Il a joué un rôle
+  clé auprès de Marine Le Pen et est associé à plusieurs cercles idéologiques et think
+  tanks nationalistes.
+type: Personne
 ---
+
 Retraité de la  [[Cour des comptes]] depuis 2014
 
 Conseiller officieux de [[Marine Le Pen]] pour la campagne présidentielle 2017

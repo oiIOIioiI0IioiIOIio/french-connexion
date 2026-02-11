@@ -1,5 +1,15 @@
 ---
-dg-publish: true
+keywords:
+- philosophe
+- animateur
+- auteur
+- Carla Bruni
+- famille intellectuelle
+summary: Raphaël Enthoven est un philosophe, animateur et auteur français né en 1975,
+  connu pour ses émissions et ouvrages sur la philosophie. Issu d'une famille d'intellectuels
+  et d'artistes, il a également été professeur et a entretenu des relations médiatisées,
+  notamment avec Carla Bruni.
+type: Personne
 ---
 
 Date de naissance : 9 novembre 1975

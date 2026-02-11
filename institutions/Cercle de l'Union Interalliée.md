@@ -1,6 +1,17 @@
 ---
-dg-publish: true
+keywords:
+- club privé
+- élites
+- rayonnement culturel
+- histoire française
+- réseau influent
+summary: Le Cercle de l'Union Interalliée, fondé en 1917, est un club privé parisien
+  destiné aux élites politiques, militaires et culturelles. Il incarne un lieu de
+  rayonnement de la France et d'échanges pour les personnalités influentes, tout en
+  préservant un art de vivre à la française.
+type: Institution
 ---
+
 #club
 **L’histoire**
 

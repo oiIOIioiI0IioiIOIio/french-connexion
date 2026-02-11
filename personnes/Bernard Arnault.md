@@ -1,5 +1,14 @@
 ---
-dg-publish: true
+keywords:
+- LVMH
+- luxe
+- fortune
+- entrepreneur
+- France
+summary: Bernard Arnault est un homme d'affaires français, PDG de LVMH, le premier
+  groupe mondial du luxe. Sa fortune est estimée à plus de 180 milliards de dollars,
+  faisant de lui l'une des personnes les plus riches au monde.
+type: Personne
 ---
 
 Dirige [[LVMH]], leader mondial du luxe, avec une fortune estimée à plus de 180 milliards de dollars.

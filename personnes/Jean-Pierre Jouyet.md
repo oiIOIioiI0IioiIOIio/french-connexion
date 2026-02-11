@@ -1,5 +1,15 @@
 ---
-dg-publish: true
+keywords:
+- haut fonctionnaire
+- conseiller politique
+- Emmanuel Macron
+- ENA
+- influence
+summary: Jean-Pierre Jouyet est un haut fonctionnaire et conseiller politique français,
+  connu pour son influence discrète dans les cercles du pouvoir. Il a occupé des postes
+  clés et collaboré étroitement avec des figures comme Emmanuel Macron et François
+  Hollande.
+type: Personne
 ---
 
 Ancien Secrétaire d'État et conseiller politique  

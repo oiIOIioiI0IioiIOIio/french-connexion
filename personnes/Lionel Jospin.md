@@ -1,5 +1,16 @@
 ---
-dg-publish: true
+keywords:
+- politique
+- gauche
+- Premier ministre
+- réformes économiques
+- réseaux d'influence
+summary: Lionel Jospin est un homme politique français, figure majeure de la gauche,
+  ayant occupé des fonctions gouvernementales et été Premier ministre de 1997 à 2002.
+  Il a entretenu des relations variées avec des personnalités du monde économique,
+  politique et culturel, marquées par des collaborations ou des tensions selon les
+  enjeux.
+type: Personne
 ---
 
 Liens : 
@@ -12,4 +23,4 @@ Proche de [[Jean-Marie Messier]]
 
 [[Pierre Bergé]] – Homme d'affaires, cofondateur d'[[Yves Saint Laurent]], Bergé était un proche de la gauche française et un soutien financier de plusieurs projets de Jospin, notamment dans le secteur culturel.  
 
-[[Bernard Arnault]] – L'un des plus grands noms de l'industrie du luxe avec [[LVMH]], Arnault a souvent été en contact avec les personnalités politiques de gauche, y compris Jospin, bien que leurs relations aient parfois été tendues en raison des divergences sur les politiques fiscales.  
+[[Bernard Arnault]] – L'un des plus grands noms de l'industrie du luxe avec [[LVMH]], Arnault a souvent été en contact avec les personnalités politiques de gauche, y compris Jospin, bien que leurs relations aient parfois été tendues en raison des divergences sur les politiques fiscales.

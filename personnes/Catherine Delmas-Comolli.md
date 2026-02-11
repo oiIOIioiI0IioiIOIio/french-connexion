@@ -1,6 +1,17 @@
 ---
-dg-publish: true
+keywords:
+- haute fonctionnaire
+- ENA
+- préfète
+- aviation civile
+- secteur privé
+summary: Catherine Delmas-Comolli est une haute fonctionnaire et dirigeante française,
+  née en 1948, ayant occupé des postes clés dans l'administration publique et le secteur
+  privé. Elle a notamment été préfète, conseillère de ministres et directrice générale
+  du groupe Lucien Barrière.
+type: Personne
 ---
+
 **DELMAS-COMOLLI (Catherine, Lucie)**  
 
 Née le 22 août 1948 à Versailles

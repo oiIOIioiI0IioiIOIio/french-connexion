@@ -1,6 +1,16 @@
 ---
-dg-publish: true
+keywords:
+- entrepreneur
+- grande distribution
+- E.Leclerc
+- pouvoir d’achat
+- consommation responsable
+summary: Michel-Édouard Leclerc est un entrepreneur français, dirigeant du groupe
+  E.Leclerc fondé par son père. Il est reconnu pour ses initiatives en faveur du pouvoir
+  d’achat et de la consommation responsable, ainsi que pour la modernisation du groupe.
+type: Personne
 ---
+
 Entrepreneur et dirigeant d’entreprise Né le 23 mai 1952 à Landerneau Finistère Fils de [[Édouard Leclerc]] fondateur du groupe de grande distribution [[E.Leclerc]] et de [[Hélène Leclerc]]
 
 ### État civil

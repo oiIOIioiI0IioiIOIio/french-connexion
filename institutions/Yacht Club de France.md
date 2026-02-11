@@ -1,6 +1,18 @@
 ---
-dg-publish: true
+keywords:
+- navigation
+- prestige
+- régates
+- membres d'honneur
+- histoire maritime
+summary: Fondé en 1867 sous le patronage de Napoléon III, le Yacht Club de France
+  est une institution prestigieuse dédiée à la promotion de la navigation de plaisance
+  et à la transmission de la passion maritime. Il rassemble des membres éminents,
+  organise des événements nautiques et cultive un réseau international de yacht clubs
+  alliés.
+type: Institution
 ---
+
 #club
 ****
 

@@ -1,6 +1,16 @@
 ---
-dg-publish: true
+keywords:
+- Fimalac
+- entrepreneur
+- finance
+- divertissement
+- France
+summary: Marc Ladreit de Lacharrière est un homme d'affaires français, connu pour
+  être le président du groupe Fimalac. Ce groupe opère dans divers secteurs tels que
+  le divertissement et la finance.
+type: Personne
 ---
+
 **[[Marc Ladreit de Lacharrière]]**
 
 - **Titre :** Président de [[Fimalac]]

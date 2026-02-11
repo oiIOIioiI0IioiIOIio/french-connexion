@@ -1,5 +1,14 @@
 ---
-dg-publish: true
+keywords:
+- chanteuse
+- mannequin
+- Première Dame
+- relations notables
+- carrière artistique
+summary: Carla Bruni est une chanteuse, mannequin et ancienne Première Dame de France,
+  née en Italie en 1967. Elle est connue pour sa carrière artistique et ses relations
+  avec des personnalités médiatiques et politiques.
+type: Personne
 ---
 
 Nom complet : Carla Gilberta Bruni Tedeschi

@@ -1,5 +1,15 @@
 ---
-dg-publish: true
+keywords:
+- économiste
+- essayiste
+- Institut Sapiens
+- conseiller politique
+- universitaire
+summary: Olivier Babeau est un universitaire, consultant et essayiste français né
+  en 1976, reconnu pour ses travaux en économie et ses engagements institutionnels.
+  Il a cofondé l'Institut Sapiens et collaboré avec plusieurs figures politiques et
+  médiatiques en France.
+type: Personne
 ---
 
 Date de naissance : 26 mars 1976
