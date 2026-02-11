@@ -197,7 +197,7 @@
 
         // Récupérer fichiers d'un dossier via API GitHub
         const fetchFiles = async (folder) => {
-          const response = await fetch(`https://api.github.com/repos/oiIOIioiI0IioiIOIio/french-connexion/contents/${folder}?ref=main`);
+          const response = await fetch(`https://api.github.com/repos/oiIOIioiI0IioiIOIio/french-connexion/${folder}?ref=main`);
           if (!response.ok) return [];
           const data = await response.json();
           
