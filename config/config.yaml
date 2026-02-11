@@ -9,9 +9,9 @@ entity_types:
   Institution:
     folder: "institutions"
     template: "src/templates/organisation.yaml"
-  école:
-folder: "écoles"
-template: "src/templates/organisation.yaml"
+  Ecole: # J'ai harmonisé la clé (Ecole) pour correspondre aux conventions de nommage, et corrigé l'indentation ci-dessous
+    folder: "écoles"
+    template: "src/templates/organisation.yaml"
   Media:
     folder: "medias"
     template: "src/templates/organisation.yaml"
@@ -22,8 +22,8 @@ template: "src/templates/organisation.yaml"
 # Configuration de l'IA (Mistral AI)
 llm:
   model: "open-mistral-nemo"
-  temperature: 0.2 # Légère tolérance pour la créativité structurelle
-  max_tokens: 2048 # Assez de place pour les champs dynamiques
+  temperature: 0.2
+  max_tokens: 2048
 
 # Configuration des Flux RSS (Veille)
 rss_feeds:
@@ -40,7 +40,6 @@ rss_feeds:
 # Paramètres de linkage (Génération de liens)
 linking:
   min_confidence_score: 0.8
-  # Formats de liens à ignorer (pour éviter les faux positifs)
   ignore_patterns:
     - "le"
     - "la"
