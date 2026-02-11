@@ -1,0 +1,19 @@
+```yaml
+---
+type: organisation
+nom: ""
+nom_court: "" # Acronyme ou nom court
+type_org: "" # entreprise, institution, media, parti, think_tank, ecole, fondation
+description: ""
+secteur: "" # Pour les entreprises
+siege: "" # Ville, Pays
+date_creation: ""
+dirigeants: [] # Liste des personnes clés
+membres: [] # Pour les clubs/institutions (liste des membres)
+affiliations: [] # Appartenance à des fédérations, groupes
+sites_web: []
+sources: []
+statut_note: "a_valider"
+tags: []
+date_creation_note: ""
+---
