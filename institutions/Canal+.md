@@ -1,4 +1,7 @@
 ---
+founded: '1984-11-04'
+headquarters: France
+industry: Télévision
 keywords:
 - télévision
 - médias
@@ -9,4 +12,5 @@ summary: Canal+ est un groupe audiovisuel français fondé en 1984, pionnier de 
   payante en Europe. Il propose des chaînes de télévision, des services de streaming
   et produit des contenus cinématographiques et sportifs.
 type: Institution
+wikipedia_enriched: true
 ---

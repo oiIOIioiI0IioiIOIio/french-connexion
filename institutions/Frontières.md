@@ -1,15 +1,21 @@
 ---
+founded: null
+headquarters: null
+industry: null
 keywords:
 - média
 - conservateur
 - identitaire
 - extrême droite
 - communication politique
+leader: null
 summary: Frontières, initialement nommé Livre Noir, est un média conservateur et identitaire
   fondé en 2021 par Erik Tegnér, François de Voyer et Swann Polydor. Proche de l'extrême
   droite, il entretient des liens avec d'autres médias et figures politiques comme
   Éric Zemmour.
 type: Institution
+website: null
+wikipedia_enriched: true
 ---
 
 Initialement lancé sous le nom _[[Livre Noir]]_ en 2021, a été fondé par [[Erik Tegnér]], [[François de Voyer]] et [[Swann Polydor]]. Dès ses débuts, il s'est positionné comme un média conservateur et identitaire, avec une ligne éditoriale proche de l'extrême droite.

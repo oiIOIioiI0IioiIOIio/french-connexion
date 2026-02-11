@@ -1,16 +1,23 @@
 ---
+birth_date: '1961-12-23'
+birth_place: Paris, France
+education: null
 keywords:
 - conseiller politique
 - Marine Le Pen
 - Bouygues Construction
 - Horaces
 - pseudonyme
+nationality: française
+occupation: homme politique
 summary: André Rougé est un ancien directeur des relations extérieures chez Bouygues
   Construction et collaborateur de Michel Debré, connu pour son rôle discret de conseiller
   sous pseudonyme lors de la campagne de Marine Le Pen. Il a également été impliqué
   dans un cercle influent de hauts fonctionnaires, les Horaces, où il aurait occupé
   une position centrale.
 type: Personne
+website: null
+wikipedia_enriched: true
 ---
 
 Directeur des relations extérieures dans le groupe [[Bouygues Construction]] de 2002 à 2018

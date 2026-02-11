@@ -1,15 +1,22 @@
 ---
+birth_date: '1930-12-31'
+birth_place: Birmingham, Angleterre
+education: null
 keywords:
 - KPMG
 - stratégie
 - risques
 - technologie
 - WCD Foundation
+nationality: anglaise
+occupation: actrice
 summary: Lisa Daniels est vice-présidente chargée de la croissance et de la stratégie
   chez KPMG LLP, avec trois décennies d'expertise en gestion des risques liés aux
   affaires et à la technologie. Elle contribue également au conseil d'administration
   de la WCD Foundation.
 type: Personne
+website: null
+wikipedia_enriched: true
 ---
 
 **Titre :** Vice-présidente, Croissance et Stratégie, KPMG LLP​

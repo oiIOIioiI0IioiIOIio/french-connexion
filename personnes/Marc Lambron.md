@@ -1,14 +1,21 @@
 ---
+birth_date: '1957-02-04'
+birth_place: Lyon, France
+education: null
 keywords:
 - écrivain
 - École normale supérieure
 - Sciences Po Paris
 - ENA
 - lettres
+nationality: française
+occupation: haut fonctionnaire, critique littéraire, écrivain
 summary: Marc Lambron est un écrivain français, diplômé de l'École normale supérieure,
   de l'université Paris IV et de Sciences Po Paris. Il a également été élève de l'ENA
   et a mené une carrière littéraire et administrative.
 type: Personne
+website: null
+wikipedia_enriched: true
 ---
 
 écrivain

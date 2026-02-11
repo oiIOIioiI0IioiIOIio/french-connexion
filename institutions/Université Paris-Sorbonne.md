@@ -1,4 +1,7 @@
 ---
+founded: '1971'
+headquarters: Paris, France
+industry: Éducation supérieure, lettres, arts et sciences humaines
 keywords:
 - éducation
 - recherche
@@ -10,4 +13,5 @@ summary: L'Université Paris-Sorbonne est une institution académique française
   de l'ancienne Université de Paris et incarne un héritage historique et culturel
   majeur.
 type: Institution
+wikipedia_enriched: true
 ---

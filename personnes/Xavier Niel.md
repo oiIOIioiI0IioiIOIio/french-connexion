@@ -1,14 +1,21 @@
 ---
+birth_date: '1967-08-25'
+birth_place: Maisons-Alfort, France
+education: null
 keywords:
 - entrepreneur
 - télécom
 - Free
 - Iliad
 - médias
+nationality: française
+occupation: homme d'affaires
 summary: Xavier Niel est un entrepreneur français, fondateur du groupe Iliad, connu
   pour l'opérateur télécom Free. Il est également actionnaire du journal Le Monde
   et engagé dans des initiatives numériques aux côtés d'Emmanuel Macron.
 type: Personne
+website: null
+wikipedia_enriched: true
 ---
 
 **[[Xavier Niel]]**

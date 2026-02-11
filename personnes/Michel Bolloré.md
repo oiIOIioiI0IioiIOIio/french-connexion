@@ -1,15 +1,20 @@
 ---
+birth_date: '1922-02-17'
+birth_place: Nantes, France
 keywords:
 - industriel
 - Bolloré
 - direction
 - entreprises
 - famille
+nationality: française
+occupation: industriel, homme d'affaires
 summary: Michel Bolloré est un industriel français né en 1945, membre d'une famille
   influente dans le secteur des affaires. Il a occupé de nombreux postes de direction
   dans des entreprises liées aux papeteries, aux plastiques et à la finance, tout
   en étant actif dans des cercles sociaux prestigieux.
 type: Personne
+wikipedia_enriched: true
 ---
 
 **BOLLORÉ (Michel, Yves, Marie, Ronan)**  

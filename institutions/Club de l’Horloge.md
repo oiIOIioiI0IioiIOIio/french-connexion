@@ -1,16 +1,22 @@
 ---
+founded: '1974'
+headquarters: France
+industry: Cercle de réflexion métapolitique
 keywords:
 - think tank
 - droite française
 - métapolitique
 - préférence nationale
 - influence idéologique
+leader: null
 summary: Le Club de l’Horloge est une association loi 1901 fondée en 1974, agissant
   comme un cercle de réflexion politique pour structurer et diffuser une idéologie
   de droite en France. Initialement discret, il a influencé la droite parlementaire
   et l’extrême droite, notamment via des concepts comme la « préférence nationale
   ».
 type: Institution
+website: null
+wikipedia_enriched: true
 ---
 
 ## Présentation générale

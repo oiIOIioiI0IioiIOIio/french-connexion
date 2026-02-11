@@ -1,4 +1,7 @@
 ---
+founded: '1891'
+headquarters: Paris, France
+industry: Sportif
 keywords:
 - polo
 - club sportif
@@ -9,4 +12,5 @@ summary: Le Polo de Paris est un club sportif prestigieux dédié principalement
   pratique du polo. Il incarne l'excellence et la tradition de ce sport équestre dans
   la capitale française.
 type: Institution
+wikipedia_enriched: true
 ---

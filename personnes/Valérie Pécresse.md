@@ -1,15 +1,22 @@
 ---
+birth_date: '1967-07-14'
+birth_place: Neuilly-sur-Seine, France
+education: HEC, ENA
 keywords:
 - politique
 - Conseil d'État
 - UMP
 - Île-de-France
 - ENA
+nationality: française
+occupation: femme politique
 summary: Valérie Pécresse est une femme politique française et membre du Conseil d'État,
   connue pour son parcours dans les institutions publiques et son engagement régional
   en Île-de-France. Diplômée de l'ENA et d'HEC, elle a occupé divers postes clés au
   sein de l'UMP et de la Présidence de la République.
 type: Personne
+website: null
+wikipedia_enriched: true
 ---
 
 Intervenante d’[[Institut Montaigne]], personnalité politique et dirigeante régionale, elle collabore régulièrement avec des entreprises et des institutions de recherche en France.

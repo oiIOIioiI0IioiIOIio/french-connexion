@@ -1,15 +1,21 @@
 ---
+founded: null
+headquarters: null
+industry: null
 keywords:
 - extrême droite
 - cercle de réflexion
 - Front national
 - conseil politique
 - élites
+leader: null
 summary: Les Horaces est un cercle de réflexion d'extrême droite créé en 2015, dirigé
   par André Rougé et composé de hauts fonctionnaires et cadres influents. Il a joué
   un rôle consultatif auprès de Marine Le Pen lors de la campagne présidentielle de
   2017, notamment sur des sujets économiques et sécuritaires.
 type: Institution
+website: null
+wikipedia_enriched: true
 ---
 
 Cercle de réflexion d’extrême droite fondé en décembre 2015 et dirigé par André Rougé.

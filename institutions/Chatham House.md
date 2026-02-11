@@ -1,4 +1,7 @@
 ---
+founded: '1920'
+headquarters: Londres
+industry: Institut de réflexion (think tank)
 keywords:
 - think tank
 - Londres
@@ -10,6 +13,8 @@ summary: Chatham House est un groupe de réflexion britannique indépendant bas�
   Il est reconnu pour son influence dans les débats géopolitiques et son rôle dans
   la formulation de recommandations stratégiques.
 type: Institution
+website: null
+wikipedia_enriched: true
 ---
 
 British think tank based in London

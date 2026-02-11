@@ -1,4 +1,5 @@
 ---
+industry: Enseignement supérieur et formation professionnelle
 keywords:
 - enseignement supérieur
 - élites
@@ -10,4 +11,5 @@ summary: Les Grandes Écoles sont des établissements d'enseignement supérieur 
   ou les sciences politiques. Elles jouent un rôle central dans le système éducatif
   et professionnel en France.
 type: Institution
+wikipedia_enriched: true
 ---

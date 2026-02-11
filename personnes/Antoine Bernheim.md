@@ -1,15 +1,22 @@
 ---
+birth_date: '1924-09-04'
+birth_place: Paris, France
+education: null
 keywords:
 - banquier
 - finance
 - Lazard
 - Generali
 - assurance
+nationality: française
+occupation: dirigeant d'entreprise et banquier
 summary: Antoine Bernheim était un banquier et homme d'affaires français influent,
   né en 1924. Il a occupé des postes clés dans des institutions financières majeures
   comme Lazard et Generali, marquant le secteur de l'assurance et de la finance en
   Europe.
 type: Personne
+website: null
+wikipedia_enriched: true
 ---
 
 Homme d'affaires et banquier français  

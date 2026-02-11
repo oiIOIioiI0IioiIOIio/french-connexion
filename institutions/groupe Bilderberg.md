@@ -1,4 +1,7 @@
 ---
+founded: mai 1954
+headquarters: Leyde, Pays-Bas
+industry: Diplomatie, affaires, politique, médias
 keywords:
 - conférence
 - élites
@@ -10,6 +13,7 @@ summary: Le groupe Bilderberg est une conférence annuelle informelle réunissan
   est de favoriser le dialogue et les échanges sur des enjeux globaux, mais son opacité
   suscite des théories conspirationnistes.
 type: Institution
+wikipedia_enriched: true
 ---
 
 https://fr.wikipedia.org/wiki/Groupe_Bilderberg

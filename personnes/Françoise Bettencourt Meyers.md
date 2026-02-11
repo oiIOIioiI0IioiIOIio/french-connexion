@@ -1,14 +1,21 @@
 ---
+birth_date: '1953-07-10'
+birth_place: Neuilly-sur-Seine, France
+education: null
 keywords:
 - L'Oréal
 - héritière
 - fortune
 - conseil d'administration
 - milliardaire
+nationality: française
+occupation: femme d'affaires, écrivaine
 summary: Françoise Bettencourt Meyers est l'héritière de L'Oréal et préside son conseil
   d'administration. Elle figure parmi les femmes les plus riches du monde, avec une
   fortune estimée à plus de 100 milliards de dollars.
 type: Personne
+website: null
+wikipedia_enriched: true
 ---
 
 **[[Françoise Bettencourt Meyers]]**

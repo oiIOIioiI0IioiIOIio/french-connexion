@@ -1,14 +1,19 @@
 ---
+birth_date: '1953-07-07'
+birth_place: Neuilly-sur-Seine, France
 keywords:
 - Dassault
 - héritier
 - aéronautique
 - médias
 - industrie
+nationality: française
+occupation: homme d'affaires
 summary: Laurent Dassault est un héritier de la famille Dassault, connue pour son
   influence dans les secteurs de l'aéronautique et des médias. Il fait partie d'une
   dynastie industrielle française impliquée dans des entreprises comme Dassault Aviation.
 type: Personne
+wikipedia_enriched: true
 ---
 
 **[[Laurent Dassault]]**

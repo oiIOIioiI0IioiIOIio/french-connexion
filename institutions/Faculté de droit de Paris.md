@@ -1,4 +1,7 @@
 ---
+founded: XIIe siècle
+headquarters: Paris
+industry: Éducation, Droit
 keywords:
 - droit
 - enseignement
@@ -9,4 +12,5 @@ summary: La Faculté de droit de Paris est une institution historique dédiée �
   et à la recherche en sciences juridiques. Elle a joué un rôle central dans le développement
   du droit en France et en Europe.
 type: Institution
+wikipedia_enriched: true
 ---

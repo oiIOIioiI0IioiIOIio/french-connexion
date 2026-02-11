@@ -1,16 +1,23 @@
 ---
+birth_date: '1937-07-12'
+birth_place: Meudon, France
+education: Sciences Po Paris, École nationale d'administration (ENA)
 keywords:
 - politique
 - gauche
 - Premier ministre
 - réformes économiques
 - réseaux d'influence
+nationality: française
+occupation: homme d'État, Premier ministre
 summary: Lionel Jospin est un homme politique français, figure majeure de la gauche,
   ayant occupé des fonctions gouvernementales et été Premier ministre de 1997 à 2002.
   Il a entretenu des relations variées avec des personnalités du monde économique,
   politique et culturel, marquées par des collaborations ou des tensions selon les
   enjeux.
 type: Personne
+website: null
+wikipedia_enriched: true
 ---
 
 Liens : 

@@ -1,4 +1,7 @@
 ---
+founded: '1783-03-19'
+headquarters: Paris
+industry: Éducation, Formation d'ingénieurs
 keywords:
 - école d'ingénieurs
 - recherche
@@ -10,4 +13,5 @@ summary: L'École des mines de Paris, également connue sous le nom de MINES Par
   et recherche. Elle fait partie de l'Institut Mines-Télécom et se spécialise dans
   les domaines des sciences de l'ingénieur et des technologies.
 type: Institution
+wikipedia_enriched: true
 ---

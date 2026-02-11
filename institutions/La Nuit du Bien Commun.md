@@ -1,4 +1,6 @@
 ---
+founded: '2017'
+industry: Caritatif, social et humanitaire
 keywords:
 - philanthropie
 - levée de fonds
@@ -10,4 +12,6 @@ summary: La Nuit du Bien Commun est un événement annuel visant à promouvoir l
   des porteurs de projets et des personnalités engagées pour une soirée de levée de
   fonds et de sensibilisation.
 type: Institution
+website: null
+wikipedia_enriched: true
 ---

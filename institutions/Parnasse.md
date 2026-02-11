@@ -1,15 +1,21 @@
 ---
+founded: null
+headquarters: null
+industry: religion (christianisme)
 keywords:
 - luxe
 - réseau
 - numérique
 - exclusivité
 - coaching
+leader: curé
 summary: Parnasse est une marque premium du groupe Orange, fondée en 2007, offrant
   des services numériques sur mesure et un accompagnement personnalisé à une clientèle
   exigeante. Elle organise des événements exclusifs et propose un réseau haut de gamme
   basé sur la cooptation et l'excellence.
 type: Institution
+website: null
+wikipedia_enriched: true
 ---
 
 #marque

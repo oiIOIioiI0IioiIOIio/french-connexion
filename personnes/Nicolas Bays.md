@@ -1,14 +1,21 @@
 ---
+birth_date: '1977-05-01'
+birth_place: Béthune, France
+education: null
 keywords:
 - politique
 - député
 - Pas-de-Calais
 - socialiste
 - Défense nationale
+nationality: française
+occupation: homme politique
 summary: Nicolas Bays est un homme politique français né en 1977, originaire du Pas-de-Calais.
   Il a occupé des fonctions électives et administratives, notamment comme député et
   vice-président de la commission de la Défense nationale.
 type: Personne
+website: null
+wikipedia_enriched: true
 ---
 
 Nom complet : Nicolas Bays

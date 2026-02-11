@@ -1,15 +1,20 @@
 ---
+birth_date: '1934-07-07'
+birth_place: Paris, France
 keywords:
 - Ingénieur
 - Finance
 - Président
 - École polytechnique
 - Fondations
+nationality: française
+occupation: ingénieur, conseiller ministériel, financier, dirigeant humanitaire
 summary: Bernard Esambert est un ingénieur et haut dirigeant français, né en 1934,
   ayant occupé des postes clés dans les secteurs public et privé, notamment dans la
   finance et l'industrie. Il a également été impliqué dans diverses institutions académiques
   et fondations, contribuant à la recherche médicale et à l'éducation.
 type: Personne
+wikipedia_enriched: true
 ---
 
 **ESAMBERT (Bernard)**  

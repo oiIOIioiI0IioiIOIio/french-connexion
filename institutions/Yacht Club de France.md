@@ -1,4 +1,7 @@
 ---
+founded: '1867'
+headquarters: Paris
+industry: Nautisme, navigation de plaisance, organisation de régates
 keywords:
 - navigation
 - prestige
@@ -11,6 +14,7 @@ summary: Fondé en 1867 sous le patronage de Napoléon III, le Yacht Club de Fra
   organise des événements nautiques et cultive un réseau international de yacht clubs
   alliés.
 type: Institution
+wikipedia_enriched: true
 ---
 
 #club

@@ -1,15 +1,22 @@
 ---
+birth_date: '1933-02-26'
+birth_place: Paris, France
+education: null
 keywords:
 - homme d'affaires
 - corporate raider
 - euroscepticisme
 - médias
 - politique
+nationality: franco-britannique
+occupation: homme d'affaires, homme politique, milliardaire
 summary: James Goldsmith était un homme d'affaires franco-britannique influent, connu
   pour ses activités dans les secteurs alimentaire et pharmaceutique ainsi que pour
   ses rachats hostiles d'entreprises. Il s'est également engagé en politique, défendant
   des positions eurosceptiques en France et au Royaume-Uni.
 type: Personne
+website: null
+wikipedia_enriched: true
 ---
 
 Homme d'affaires franco-britannique, né le 26 février 1933 à Paris et décédé le 18 juillet 1997 à Benahavís, en Espagne. 

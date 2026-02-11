@@ -1,4 +1,7 @@
 ---
+founded: '1907'
+headquarters: Cergy
+industry: Éducation, gestion et management
 keywords:
 - école de commerce
 - management
@@ -10,4 +13,5 @@ summary: L'ESSEC Business School est une grande école de commerce française fo
   Elle propose des formations variées, allant du bachelor au doctorat, et dispose
   de campus en France et à l'étranger.
 type: Institution
+wikipedia_enriched: true
 ---

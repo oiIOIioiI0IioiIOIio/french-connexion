@@ -1,16 +1,23 @@
 ---
+birth_date: '1952-03-25'
+birth_place: Mulhouse, France
+education: null
 keywords:
 - économiste
 - assurances
 - dirigeant
 - recherche
 - Medef
+nationality: français
+occupation: économiste, chercheur, dirigeant d'entreprise
 summary: Denis Kessler est un économiste et dirigeant d'entreprise français, né en
   1952, reconnu pour ses contributions académiques et ses fonctions clés dans le secteur
   des assurances et de la finance. Il a occupé des postes prestigieux, notamment à
   la tête du groupe SCOR et au sein du Medef, tout en menant une carrière universitaire
   et de recherche.
 type: Personne
+website: null
+wikipedia_enriched: true
 ---
 
 **KESSLER (Denis, Jean, Marie)**  

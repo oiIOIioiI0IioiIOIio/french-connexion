@@ -1,15 +1,22 @@
 ---
+birth_date: '1949-03-25'
+birth_place: Boulogne, Vendée, France
+education: null
 keywords:
 - politique
 - Puy du Fou
 - souverainisme
 - conservatisme
 - Mouvement pour la France
+nationality: française
+occupation: entrepreneur, haut fonctionnaire, homme politique, écrivain
 summary: Philippe de Villiers est un homme politique, entrepreneur et écrivain français,
   connu pour avoir fondé le parc à thème Puy du Fou et le Mouvement pour la France
   (MPF). Figure de la droite souverainiste, il a marqué la vie politique française
   par ses positions conservatrices et son opposition à l'intégration européenne.
 type: Personne
+website: null
+wikipedia_enriched: true
 ---
 
 De son nom complet Philippe Marie Jean Joseph Le Jolis de Villiers de Saintignon, est un entrepreneur, homme politique et écrivain français. 

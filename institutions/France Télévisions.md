@@ -1,4 +1,7 @@
 ---
+founded: '1992-09-07'
+headquarters: France
+industry: Audiovisuel, Télévision
 keywords:
 - audiovisuel
 - public
@@ -10,4 +13,6 @@ summary: France Télévisions est le groupe audiovisuel public français, respon
   chaînes nationales et régionales, jouant un rôle clé dans l'information et la culture
   en France.
 type: Institution
+website: https://www.france.tv
+wikipedia_enriched: true
 ---

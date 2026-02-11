@@ -1,16 +1,23 @@
 ---
+birth_date: '1952-04-01'
+birth_place: Boulogne-Billancourt, France
+education: null
 keywords:
 - industriel
 - groupe Bolloré
 - médias
 - finance
 - dirigeant
+nationality: française
+occupation: industriel, homme d'affaires, propriétaire de médias, milliardaire
 summary: Vincent Bolloré est un industriel français né en 1952, connu pour avoir dirigé
   et développé le groupe Bolloré, un conglomérat présent dans divers secteurs comme
   les médias, la logistique et l'énergie. Il a occupé de nombreuses fonctions dirigeantes
   dans des entreprises et institutions financières, tout en étant reconnu par plusieurs
   distinctions honorifiques.
 type: Personne
+website: null
+wikipedia_enriched: true
 ---
 
 **BOLLORÉ (Vincent, Marie)**  

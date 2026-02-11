@@ -1,4 +1,7 @@
 ---
+founded: '1819'
+headquarters: Paris
+industry: Enseignement supérieur, commerce, gestion, management
 keywords:
 - école de commerce
 - management
@@ -10,6 +13,7 @@ summary: ESCP Business School est une grande école de commerce européenne fond
   possède plusieurs campus en Europe et propose des programmes en management, finance
   et entrepreneuriat.
 type: Institution
+wikipedia_enriched: true
 ---
 
 https://fr.wikipedia.org/wiki/ESCP_Business_School

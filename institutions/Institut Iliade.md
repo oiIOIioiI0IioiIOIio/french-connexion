@@ -1,14 +1,19 @@
 ---
+founded: '2014'
+headquarters: France
+industry: Cercle de réflexion, formation politique
 keywords:
 - identitaire
 - think tank
 - nationalisme
 - antimondialisme
 - Europe
+leader: Philippe Conrad
 summary: L'Institut Iliade est un think tank identitaire fondé en 2014, inspiré par
   les idées de Dominique Venner. Il promeut la défense de l'identité culturelle, ethnique
   et civilisationnelle européenne à travers une vision grécoromaine, païenne et antimondialiste.
 type: Institution
+wikipedia_enriched: true
 ---
 
 **Think tank identitaire** fondé en 2014, à la suite du décès de **[[Dominique Venner]]**, essayiste d’extrême droite, ancien militant de l’OAS et historien nationaliste.

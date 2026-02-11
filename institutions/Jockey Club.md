@@ -1,4 +1,7 @@
 ---
+founded: '1836'
+headquarters: Paris, France
+industry: Club privé, courses hippiques
 keywords:
 - élite
 - courses hippiques
@@ -10,6 +13,7 @@ summary: Le Jockey Club, fondé en 1834, est une société élitiste dédiée à
   un cercle très fermé, réservé à une élite sociale partageant des valeurs de discrétion,
   de snobisme et de tradition aristocratique.
 type: Institution
+wikipedia_enriched: true
 ---
 
 #club 

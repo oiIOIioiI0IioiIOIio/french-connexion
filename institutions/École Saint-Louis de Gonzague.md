@@ -1,4 +1,7 @@
 ---
+founded: '1894'
+headquarters: Paris, France
+industry: Éducation
 keywords:
 - éducation
 - catholique
@@ -10,4 +13,5 @@ summary: L'École Saint-Louis de Gonzague est un établissement d'enseignement p
   rigoureux. Elle propose des formations allant de l'école primaire aux classes préparatoires
   aux grandes écoles.
 type: Institution
+wikipedia_enriched: true
 ---

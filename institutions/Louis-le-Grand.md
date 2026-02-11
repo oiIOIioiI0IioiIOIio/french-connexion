@@ -1,4 +1,7 @@
 ---
+founded: XVIe siècle
+headquarters: Paris, 5e arrondissement, France
+industry: Éducation secondaire et supérieure
 keywords:
 - lycée
 - Paris
@@ -9,4 +12,5 @@ summary: Louis-le-Grand est un établissement scolaire prestigieux situé à Par
   pour son excellence académique et son histoire riche. Il forme des élèves aux classes
   préparatoires aux grandes écoles françaises.
 type: Institution
+wikipedia_enriched: true
 ---

@@ -1,4 +1,7 @@
 ---
+founded: '1975-01-01'
+headquarters: France
+industry: Radiodiffusion
 keywords:
 - radiodiffusion
 - médias publics
@@ -10,4 +13,5 @@ summary: Radio France est le groupe audiovisuel public français de radiodiffusi
   dans la production et la diffusion de contenus culturels, éducatifs et d'information
   en France.
 type: Institution
+wikipedia_enriched: true
 ---

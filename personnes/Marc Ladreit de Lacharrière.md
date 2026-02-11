@@ -1,14 +1,21 @@
 ---
+birth_date: '1940-11-06'
+birth_place: Nice, France
+education: null
 keywords:
 - Fimalac
 - entrepreneur
 - finance
 - divertissement
 - France
+nationality: française
+occupation: dirigeant d'entreprise, milliardaire, mécène
 summary: Marc Ladreit de Lacharrière est un homme d'affaires français, connu pour
   être le président du groupe Fimalac. Ce groupe opère dans divers secteurs tels que
   le divertissement et la finance.
 type: Personne
+website: null
+wikipedia_enriched: true
 ---
 
 **[[Marc Ladreit de Lacharrière]]**
