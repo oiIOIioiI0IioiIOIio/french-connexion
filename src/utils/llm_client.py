@@ -2,41 +2,41 @@ import os
 import yaml
 import logging
 
-# Importation pour Mistral AI SDK v1.0+ (Version actuelle)
-# Cela remplace l'ancien 'MistralClient' et l'import depuis 'models.models'
+# --- GESTION DES VERSIONS AUTO-ADAPTATIVE ---
+# On essaie d'abord d'importer la nouvelle API (Mistral SDK >= 1.0.0)
 try:
     from mistralai import Mistral, ChatMessage
+    SDK_VERSION = "v1"
+    logging.info("🤖 Mistral AI SDK v1.0+ détecté.")
 except ImportError:
-    raise ImportError(
-        "ERREUR : La bibliothèque 'mistralai' n'est pas installée ou est obsolète.\n"
-        "Veuillez mettre à jour requirements.txt avec : mistralai>=1.0.0"
-    )
+    # Si ça échoue, on utilise l'ancienne API (Mistral SDK < 1.0.0)
+    from mistralai.client import MistralClient
+    from mistralai.models.models import ChatMessage
+    SDK_VERSION = "v0"
+    logging.warning("⚠️ Mistral AI SDK v0.x détecté. Utilisation du mode compatibilité.")
 
 logger = logging.getLogger("french_connection")
 
 class MistralClient:
     """
-    Client wrapper pour Mistral AI.
-    Compatible avec Mistral SDK >= 1.0.0
+    Client Wrapper compatible avec les versions 0.x et 1.0+ de Mistral AI.
     """
     
     def __init__(self):
-        # 1. Sécurité : Vérification de la clé API
         api_key = os.environ.get("MISTRAL_API_KEY")
         if not api_key:
             raise ValueError(
-                "ERREUR CRITIQUE : MISTRAL_API_KEY n'est pas définie dans les variables d'environnement.\n"
-                "Assurez-vous que le Secret est bien configuré dans GitHub Actions."
+                "ERREUR CRITIQUE : MISTRAL_API_KEY n'est pas définie.\n"
+                "Vérifiez les Secrets GitHub Actions."
             )
-        
-        # 2. Initialisation du client (Syntaxe v1.0)
-        try:
-            self.client = Mistral(api_key=api_key)
-        except Exception as e:
-            raise ConnectionError(f"Impossible d'initialiser le client Mistral : {e}")
 
-        # 3. Configuration du modèle
         self.model = os.getenv("MISTRAL_MODEL", "open-mistral-nemo")
+
+        # Initialisation selon la version détectée
+        if SDK_VERSION == "v1":
+            self.client = Mistral(api_key=api_key)
+        else:
+            self.client = MistralClient(api_key=api_key)
 
     def load_template(self, template_path):
         """Charge le template YAML."""
@@ -49,7 +49,8 @@ class MistralClient:
 
     def intelligent_restructure(self, text_content, title, template_path):
         """
-        Analyse le texte, le classe, remplit le template et enrichit la structure.
+        Analyse et restructure le contenu.
+        Gère les différences d'appel API entre v0 et v1.
         """
         template_content = self.load_template(template_path)
         
@@ -73,39 +74,49 @@ class MistralClient:
 
         user_message = f"Titre de la fiche : {title}\n\nContenu brut à analyser :\n{text_content}"
 
+        messages = [
+            ChatMessage(role="system", content=system_prompt),
+            ChatMessage(role="user", content=user_message)
+        ]
+
         try:
-            # Appel API Syntaxe v1.0+ : client.chat.complete(...)
-            response = self.client.chat.complete(
-                model=self.model,
-                messages=[
-                    ChatMessage(role="system", content=system_prompt),
-                    ChatMessage(role="user", content=user_message)
-                ],
-                temperature=0.2
-            )
-            
-            # Sécurité : Vérifier que la réponse contient des choix
+            # --- APPEL API ADAPTATIF ---
+            if SDK_VERSION == "v1":
+                # Syntaxe Nouvelle (v1.0+)
+                response = self.client.chat.complete(
+                    model=self.model,
+                    messages=messages,
+                    temperature=0.2
+                )
+            else:
+                # Syntaxe Ancienne (v0.x)
+                response = self.client.chat(
+                    model=self.model,
+                    messages=messages,
+                    temperature=0.2
+                )
+
+            # Parsing de la réponse (Structure identique dans v0 et v1)
             if not response.choices or not response.choices[0].message:
                 logger.error(f"Réponse vide de l'IA pour {title}")
                 return None
 
             yaml_str = response.choices[0].message.content
             
-            # Nettoyage robuste de la réponse Markdown
+            # Nettoyage robuste
             if "```yaml" in yaml_str:
                 yaml_str = yaml_str.split("```yaml")[1].split("```")[0].strip()
             elif "```" in yaml_str:
                 yaml_str = yaml_str.split("```")[1].split("```")[0].strip()
 
-            # Validation du parsing YAML pour éviter de casser le fichier
             try:
                 data = yaml.safe_load(yaml_str)
                 if not isinstance(data, dict):
-                    logger.error(f"L'IA n'a pas retourné un dictionnaire valide pour {title}")
+                    logger.error(f"Format invalide retourné par l'IA pour {title}")
                     return None
                 return data 
             except yaml.YAMLError as e:
-                logger.error(f"Erreur parsing YAML pour {title}: {e}\nExtrait: {yaml_str[:200]}")
+                logger.error(f"Erreur parsing YAML pour {title}: {e}")
                 return None
                     
         except Exception as e:
