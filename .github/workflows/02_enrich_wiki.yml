@@ -1,0 +1,36 @@
+name: 02 - Enrichissement Wikipedia
+
+on:
+  workflow_dispatch:
+  # schedule:
+  #   - cron: '0 9 * * 1' # Tous les lundis à 9h du matin
+
+permissions:
+  contents: write
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Enrichir les fiches via Wikipedia
+        env:
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+        run: python scripts/03_enrich_wikipedia.py
+
+      - name: Commit et Push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -m "feat: enrichissement des données via Wikipedia"
+          git push
