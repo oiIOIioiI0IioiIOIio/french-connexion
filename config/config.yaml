@@ -9,6 +9,9 @@ entity_types:
   Institution:
     folder: "institutions"
     template: "src/templates/organisation.yaml"
+  école:
+folder: "écoles"
+template: "src/templates/organisation.yaml"
   Media:
     folder: "medias"
     template: "src/templates/organisation.yaml"
