@@ -1,18 +1,36 @@
-# Traitement des données et fichiers Markdown
-pyyaml
-python-frontmatter
+# Requirements pour french-connexion
+# Mis à jour pour résoudre les problèmes d'import Mistral AI
 
-# API et Web
-requests
-wikipedia-api
-feedparser
+# ========================================
+# SDK Mistral AI
+# ========================================
+# Option 1 (RECOMMANDÉ) : Version moderne (1.0+)
+mistralai>=1.0.0
 
-# Intelligence Artificielle (Mistral)
-mistralai<1.0.0
+# Option 2 (Compatible) : Si vous devez rester en 0.x
+# mistralai>=0.4.0,<1.0.0
 
-# Traitement du langage (NLP) pour les liens
-spacy
+# Note: Le code llm_client.py corrigé est compatible avec les deux versions
 
-# Utilitaires
-python-dotenv
-tqdm
+# ========================================
+# Autres dépendances du projet
+# ========================================
+PyYAML>=6.0.1
+python-dotenv>=1.0.0
+
+# Pour le logging et les utilitaires
+colorlog>=6.7.0  # Logs colorés (optionnel)
+
+# Pour les tests (optionnel)
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# ========================================
+# Notes importantes
+# ========================================
+# 1. Pour installer : pip install -r requirements.txt
+# 2. Pour mettre à jour : pip install --upgrade -r requirements.txt
+# 3. Pour GitHub Actions, ce fichier sera utilisé automatiquement
+# 4. Variables d'environnement requises :
+#    - MISTRAL_API_KEY (obligatoire)
+#    - MISTRAL_MODEL (optionnel, défaut: open-mistral-nemo)
