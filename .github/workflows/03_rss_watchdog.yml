@@ -1,0 +1,36 @@
+name: 03 - Veille RSS Automatique
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Toutes les 6 heures
+  workflow_dispatch: # Permet aussi un lancement manuel pour test
+
+permissions:
+  contents: write
+
+jobs:
+  rss_watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Scanner les flux RSS
+        env:
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+        run: python scripts/04_rss_watchdog.py
+
+      - name: Commit et Push (si nouveautés)
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: ajout de brouillons depuis RSS"
+          git push
