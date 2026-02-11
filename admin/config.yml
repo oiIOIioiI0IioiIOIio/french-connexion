@@ -2,6 +2,9 @@ backend:
   name: github
   branch: main
   repo: oiIOIioiI0IioiIOIio/french-connexion
+  # Utilisation explicite de l'authentification GitHub avec les variables d'environnement
+  auth_type: pkce # ou implicit selon la version, mais 'pkce' est plus sûr
+  app_id: {{ env.GITHUB_CLIENT_ID }} # Note: Decap utilise parfois app_id ou client_id selon la config
 
 media_folder: "images"
 public_folder: "/images"
