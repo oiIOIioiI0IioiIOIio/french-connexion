@@ -1,29 +1,25 @@
 # Requirements pour french-connexion
 # Mis à jour avec toutes les dépendances nécessaires
-
 # ========================================
 # SDK Mistral AI
 # ========================================
 mistralai>=1.0.0
-
 # ========================================
 # Parsing et manipulation de fichiers
 # ========================================
 PyYAML>=6.0.1
 python-frontmatter>=1.0.0  # Pour parser les fichiers Markdown avec frontmatter
 python-dotenv>=1.0.0
-
 # ========================================
 # Utilitaires
 # ========================================
 colorlog>=6.7.0  # Logs colorés (optionnel mais recommandé)
-
+wikipedia         # Nécessaire pour le script d'enrichissement Wikipédia
 # ========================================
 # Pour les tests (optionnel)
 # ========================================
 pytest>=7.4.0
 pytest-cov>=4.1.0
-
 # ========================================
 # Notes importantes
 # ========================================
