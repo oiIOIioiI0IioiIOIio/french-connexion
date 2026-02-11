@@ -18,9 +18,6 @@ template: "src/templates/organisation.yaml"
   Fondation:
     folder: "think tanks"
     template: "src/templates/organisation.yaml"
-  Parti_Politique:
-    folder: "institutions-politiques"
-    template: "src/templates/organisation.yaml"
 
 # Configuration de l'IA (Mistral AI)
 llm:
