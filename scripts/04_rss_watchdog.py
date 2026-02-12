@@ -5,6 +5,7 @@ import yaml
 import frontmatter
 from pathlib import Path
 from datetime import datetime
+import subprocess
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
@@ -19,6 +20,23 @@ llm = MistralClient()
 # Chargement config
 with open("config/config.yaml", "r", encoding="utf-8") as f:
     CONFIG = yaml.safe_load(f)
+
+def configure_git():
+    """Configure Git user identity if not already set."""
+    try:
+        # Check if git user.name is set
+        result = subprocess.run(['git', 'config', 'user.name'], capture_output=True, text=True)
+        if not result.stdout.strip():
+            subprocess.run(['git', 'config', 'user.name', 'French Connexion Bot'], check=True)
+            logger.info("✓ Configuration Git user.name définie")
+        
+        # Check if git user.email is set
+        result = subprocess.run(['git', 'config', 'user.email'], capture_output=True, text=True)
+        if not result.stdout.strip():
+            subprocess.run(['git', 'config', 'user.email', 'bot@french-connexion.local'], check=True)
+            logger.info("✓ Configuration Git user.email définie")
+    except Exception as e:
+        logger.warning(f"Impossible de configurer Git : {e}")
 
 def process_feed(feed_url, keywords):
     """Lit un flux RSS et détecte les nouveaux articles."""
@@ -51,7 +69,8 @@ def extract_entities_and_create_draft(title, content, url):
     """
     
     try:
-        response = llm.client.chat.completions.create(
+        # Corrected API call for Mistral
+        response = llm.client.chat(
             model=llm.model,
             messages=[{"role": "user", "content": prompt}],
             temperature=0.2
@@ -94,10 +113,17 @@ entities_detected: {entities_str}
 def main():
     logger.info("👁️ Démarrage de la surveillance RSS...")
     
+    # Configure Git before any commits
+    configure_git()
+    
     for feed_conf in CONFIG.get('rss_feeds', []):
         process_feed(feed_conf['url'], feed_conf['keywords'])
-        
-git.commit_changes("feat: ajout automatique de brouillons depuis RSS")
+    
+    # Try to commit, but don't fail if it doesn't work
+    try:
+        git.commit_changes("feat: ajout automatique de brouillons depuis RSS")
+    except Exception as e:
+        logger.warning(f"Commit Git non effectué : {e}")
 
 if __name__ == "__main__":
     main()
