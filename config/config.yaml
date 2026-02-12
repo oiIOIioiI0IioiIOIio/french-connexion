@@ -18,6 +18,9 @@ entity_types:
   Fondation:
     folder: "think tanks"
     template: "src/templates/organisation.yaml"
+  Parti:
+    folder: "partis"
+    template: "src/templates/organisation.yaml"
 
 # Configuration de l'IA (Mistral AI)
 llm:
