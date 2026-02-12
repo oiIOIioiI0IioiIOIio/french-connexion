@@ -30,19 +30,15 @@ def process_file(file_path):
         content = post.content
         title = post.get('title', file_path.stem)
 
-        # Si le fichier a déjà un type, on peut choisir de le sauter ou de le mettre à jour
-        # Ici on saute si 'type' est déjà présent pour aller plus vite
-        if 'type' in post.metadata:
-             logger.info(f"ℹ️ {title} déjà classé. Ignoré.")
-             return
-
         logger.info(f"⚙️ Analyse intelligente de : {title}...")
 
+        # Liste des types valides depuis la configuration
+        valid_types = list(CONFIG['entity_types'].keys())
+
         # 1. On lance la restructuration intelligente
-        # Elle va décider du type toute seule en analysant le texte
-        # On passe un template par défaut, l'IA ajustera
+        # Elle va décider du type toute seule en analysant le contenu réel
         default_template = "src/templates/personne.yaml"  # Fallback
-        new_metadata = llm.intelligent_restructure(content, title, default_template)
+        new_metadata = llm.intelligent_restructure(content, title, default_template, entity_types=valid_types)
 
         if not new_metadata:
             logger.error(f"Échec de l'analyse pour {title}")
@@ -60,9 +56,10 @@ def process_file(file_path):
         target_folder = Path(config['folder'])
         target_folder.mkdir(exist_ok=True, parents=True)
 
-        # 3. Fusion des métadonnées
-        final_metadata = {**new_metadata}
-        # On s'assure que le dossier est bon
+        # 3. Fusion des métadonnées : on préserve les données existantes
+        #    et on met à jour avec les nouvelles informations
+        final_metadata = {**post.metadata, **new_metadata}
+        # On s'assure que le type est correct
         final_metadata['type'] = entity_type
 
         # 4. Écriture
@@ -87,7 +84,8 @@ def main():
     git.create_backup_tag()
 
     md_files = list(Path(".").rglob("*.md"))
-    md_files = [f for f in md_files if ".git" not in str(f) and "scripts" not in str(f) and "config" not in str(f)]
+    exclude_patterns = [".git", "scripts", "config", "admin", "README.md"]
+    md_files = [f for f in md_files if not any(pat in str(f) for pat in exclude_patterns)]
 
     for f in md_files:
         process_file(f)

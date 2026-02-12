@@ -15,17 +15,45 @@ class MistralClient:
         self.client = Mistral(api_key=api_key)
         self.model = os.getenv("MISTRAL_MODEL", "mistral-large-latest")
 
-    def intelligent_restructure(self, content: str, title: str, template_path: str) -> dict:
-        """Analyse le contenu et renvoie les métadonnées structurées (type, résumé, etc.)."""
-        logger.info(f"Appel à l'API Mistral pour structurer : {title}")
+    def intelligent_restructure(self, content: str, title: str, template_path: str, entity_types: list = None) -> dict:
+        """Analyse le contenu et renvoie les métadonnées structurées (type, résumé, etc.).
         
-        system_prompt = """
-        Tu es un assistant expert en analyse de documents. Ton rôle est de structurer l'information fournie.
-        Tu dois renvoyer UNIQUEMENT un objet JSON valide avec les clés suivantes :
-        - "type" : Le type de l'entité (parmi : Personne, Institution, Evenement, Concept).
-        - "summary" : Un résumé en 2 phrases.
-        - "keywords" : Une liste de 5 mots-clés pertinents.
+        Args:
+            content: Le contenu Markdown de la fiche.
+            title: Le titre de l'entité.
+            template_path: Chemin vers le template YAML (fallback).
+            entity_types: Liste des types d'entités valides issus de la configuration.
         """
+        logger.info(f"Appel à l'API Mistral pour structurer : {title}")
+
+        if entity_types is None:
+            entity_types = ["Personne", "Entreprise", "Institution", "Ecole", "Media", "Fondation", "Parti"]
+
+        types_list = ", ".join(entity_types)
+        
+        system_prompt = f"""
+Tu es un assistant expert en classification d'entités du réseau d'influence français.
+Ton rôle est d'analyser le contenu d'une fiche et de déterminer précisément le type d'entité décrite.
+
+TYPES DISPONIBLES (choisis EXACTEMENT l'un de ces types) : {types_list}
+
+RÈGLES DE CLASSIFICATION :
+- "Personne" : individu, personnalité politique, chef d'entreprise, intellectuel, artiste, etc.
+- "Entreprise" : société commerciale, groupe industriel, holding, banque, compagnie (ex: LVMH, Air France, BNP Paribas, Rothschild & Co).
+- "Institution" : organisme public, administration, organisation internationale, club privé, cercle, association (ex: Conseil d'État, ONU, Cercle de l'Union).
+- "Ecole" : établissement d'enseignement, université, grande école, lycée, académie scolaire (ex: ENA, Sciences Po, HEC, Polytechnique, Lycée du Parc).
+- "Media" : chaîne de télévision, radio, journal, magazine, agence de presse, média en ligne (ex: BFM TV, Le Monde, AFP, CNews, Canal+).
+- "Fondation" : think tank, fondation, institut de recherche ou de réflexion, centre d'analyse (ex: Institut Montaigne, Brookings, Terra Nova, Aspen Institute).
+- "Parti" : parti politique, mouvement politique, formation politique (ex: Les Républicains, Renaissance, Rassemblement National).
+
+IMPORTANT : Base ta classification sur le CONTENU RÉEL de la fiche, pas sur le type existant dans les métadonnées.
+Par exemple, une fiche décrivant une chaîne de télévision doit être classée "Media" même si son type actuel est "Institution".
+
+Renvoie UNIQUEMENT un objet JSON valide avec les clés suivantes :
+- "type" : Le type de l'entité (EXACTEMENT l'un des types listés ci-dessus).
+- "summary" : Un résumé en 2 phrases.
+- "keywords" : Une liste de 5 mots-clés pertinents.
+"""
 
         try:
             chat_response = self.client.chat.complete(

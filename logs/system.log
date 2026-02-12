@@ -5072,3 +5072,5 @@
 2026-02-12 17:45:42,048 - french_connection - INFO - 📡 Lecture du flux : Unknown Feed
 2026-02-12 17:45:42,083 - french_connection - INFO - Git commit réussi : feat: ajout automatique de brouillons depuis RSS
 2026-02-12 17:45:42,083 - french_connection - INFO - Git commit réussi : feat: ajout automatique de brouillons depuis RSS
+2026-02-12 18:34:07,985 - french_connection - INFO - Appel à l'API Mistral pour structurer : BFM TV
+2026-02-12 18:34:07,986 - french_connection - INFO - Appel à l'API Mistral pour structurer : Test
