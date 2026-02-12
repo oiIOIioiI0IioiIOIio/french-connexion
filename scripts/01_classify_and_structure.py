@@ -57,8 +57,11 @@ def process_file(file_path):
         target_folder.mkdir(exist_ok=True, parents=True)
 
         # 3. Fusion des métadonnées : on préserve les données existantes
-        #    et on met à jour avec les nouvelles informations
-        final_metadata = {**post.metadata, **new_metadata}
+        #    et on met à jour sélectivement avec les nouvelles informations
+        final_metadata = dict(post.metadata)
+        for key in ('type', 'summary', 'keywords'):
+            if key in new_metadata:
+                final_metadata[key] = new_metadata[key]
         # On s'assure que le type est correct
         final_metadata['type'] = entity_type
 
@@ -84,8 +87,10 @@ def main():
     git.create_backup_tag()
 
     md_files = list(Path(".").rglob("*.md"))
-    exclude_patterns = [".git", "scripts", "config", "admin", "README.md"]
-    md_files = [f for f in md_files if not any(pat in str(f) for pat in exclude_patterns)]
+    exclude_dirs = {".git", "scripts", "config", "admin"}
+    md_files = [f for f in md_files
+                if not any(part in exclude_dirs for part in f.parts)
+                and f.name != "README.md"]
 
     for f in md_files:
         process_file(f)
