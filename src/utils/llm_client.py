@@ -38,7 +38,7 @@ class MistralClient:
             )
             if chat_response.choices and chat_response.choices[0].message:
                 return json.loads(chat_response.choices[0].message.content)
-            return {}
+            return {} 
         except Exception as e:
             logger.error(f"Erreur lors de l'appel à l'API Mistral : {e}")
             return {}
@@ -74,7 +74,49 @@ class MistralClient:
 
             if chat_response.choices and chat_response.choices[0].message:
                 return json.loads(chat_response.choices[0].message.content)
-            return {}
+            return {} 
         except Exception as e:
             logger.error(f"Erreur lors de l'extraction de données : {e}")
             return {}
+
+    def extract_entities_for_rss(self, title: str, summary: str) -> str:
+        """
+        Méthode utilitaire simple pour extraire les entités (personnes / organisations)
+        à partir d'un titre et d'un résumé. Retourne la cha��ne brute renvoyée par le modèle
+        (idéalement une liste JSON comme ['Nom1','Nom2']).
+        """
+        logger.info(f"Appel à l'API Mistral pour extraire des entités : {title}")
+
+        prompt = f"""
+        Analyse ce titre et ce résumé d'article de presse.
+        Extrais les noms des personnes ou organisations importantes (élites, dirigeants).
+        Si tu en trouves, retourne-les sous forme de liste JSON : ["Nom1", "Nom2"].
+        Si rien d'intéressant, retourne [].
+
+        Titre: {title}
+        Résumé: {summary}
+        """
+
+        try:
+            chat_response = self.client.chat.complete(
+                model=self.model,
+                messages=[
+                    {"role": "user", "content": prompt}
+                ],
+                response_format={"type": "text"}
+            )
+            # Return raw content if available
+            if chat_response.choices and chat_response.choices[0].message:
+                return chat_response.choices[0].message.content
+            # Fallback for dict-like response
+            if isinstance(chat_response, dict):
+                choices = chat_response.get('choices') or []
+                if choices:
+                    first = choices[0]
+                    if isinstance(first, dict):
+                        msg = first.get('message') or {}
+                        return msg.get('content') or first.get('content') or str(first)
+            return str(chat_response)
+        except Exception as e:
+            logger.error(f"Erreur lors de l'appel Mistral pour les entités RSS : {e}")
+            return '[]'
