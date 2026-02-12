@@ -5042,3 +5042,31 @@
 2026-02-12 14:40:19,243 - french_connection - INFO - 📡 Lecture du flux : Unknown Feed
 2026-02-12 14:40:20,099 - french_connection - INFO - 📡 Lecture du flux : Unknown Feed
 2026-02-12 14:40:20,099 - french_connection - INFO - 📡 Lecture du flux : Unknown Feed
+2026-02-12 17:45:40,947 - french_connection - INFO - 👁️ Démarrage de la surveillance RSS...
+2026-02-12 17:45:40,947 - french_connection - INFO - 👁️ Démarrage de la surveillance RSS...
+2026-02-12 17:45:40,951 - french_connection - INFO - ✓ Configuration Git user.name définie
+2026-02-12 17:45:40,951 - french_connection - INFO - ✓ Configuration Git user.name définie
+2026-02-12 17:45:40,955 - french_connection - INFO - ✓ Configuration Git user.email définie
+2026-02-12 17:45:40,955 - french_connection - INFO - ✓ Configuration Git user.email définie
+2026-02-12 17:45:41,149 - french_connection - INFO - 📡 Lecture du flux : Le Monde.fr - Actualités et Infos en France et dans le monde
+2026-02-12 17:45:41,149 - french_connection - INFO - 📡 Lecture du flux : Le Monde.fr - Actualités et Infos en France et dans le monde
+2026-02-12 17:45:41,149 - french_connection - INFO - 🎯 Article pertinent détecté : Bruno Retailleau annonce sa candidature à la présidentielle 2027 et dénonce les « dérives de l’Etat de droit »
+2026-02-12 17:45:41,149 - french_connection - INFO - 🎯 Article pertinent détecté : Bruno Retailleau annonce sa candidature à la présidentielle 2027 et dénonce les « dérives de l’Etat de droit »
+2026-02-12 17:45:41,152 - french_connection - ERROR - Erreur lors de l'extraction d'entités pour Bruno Retailleau annonce sa candidature à la présidentielle 2027 et dénonce les « dérives de l’Etat de droit » : 'Chat' object is not callable
+2026-02-12 17:45:41,152 - french_connection - ERROR - Erreur lors de l'extraction d'entités pour Bruno Retailleau annonce sa candidature à la présidentielle 2027 et dénonce les « dérives de l’Etat de droit » : 'Chat' object is not callable
+2026-02-12 17:45:41,152 - french_connection - INFO - 🎯 Article pertinent détecté : Sanofi, menacé de relégation, évince son patron
+2026-02-12 17:45:41,152 - french_connection - INFO - 🎯 Article pertinent détecté : Sanofi, menacé de relégation, évince son patron
+2026-02-12 17:45:41,152 - french_connection - ERROR - Erreur lors de l'extraction d'entités pour Sanofi, menacé de relégation, évince son patron : 'Chat' object is not callable
+2026-02-12 17:45:41,152 - french_connection - ERROR - Erreur lors de l'extraction d'entités pour Sanofi, menacé de relégation, évince son patron : 'Chat' object is not callable
+2026-02-12 17:45:41,152 - french_connection - INFO - 🎯 Article pertinent détecté : Intempéries au Portugal : un tronçon de l’autoroute principale du pays s’effondre, le gouvernement lance une inspection des infrastructures
+2026-02-12 17:45:41,152 - french_connection - INFO - 🎯 Article pertinent détecté : Intempéries au Portugal : un tronçon de l’autoroute principale du pays s’effondre, le gouvernement lance une inspection des infrastructures
+2026-02-12 17:45:41,153 - french_connection - ERROR - Erreur lors de l'extraction d'entités pour Intempéries au Portugal : un tronçon de l’autoroute principale du pays s’effondre, le gouvernement lance une inspection des infrastructures : 'Chat' object is not callable
+2026-02-12 17:45:41,153 - french_connection - ERROR - Erreur lors de l'extraction d'entités pour Intempéries au Portugal : un tronçon de l’autoroute principale du pays s’effondre, le gouvernement lance une inspection des infrastructures : 'Chat' object is not callable
+2026-02-12 17:45:41,153 - french_connection - INFO - 🎯 Article pertinent détecté : Le repas à 1 euro pour tous les étudiants généralisé en mai, un défi pour les Restos U : « On a peur de ne pas y arriver »
+2026-02-12 17:45:41,153 - french_connection - INFO - 🎯 Article pertinent détecté : Le repas à 1 euro pour tous les étudiants généralisé en mai, un défi pour les Restos U : « On a peur de ne pas y arriver »
+2026-02-12 17:45:41,153 - french_connection - ERROR - Erreur lors de l'extraction d'entités pour Le repas à 1 euro pour tous les étudiants généralisé en mai, un défi pour les Restos U : « On a peur de ne pas y arriver » : 'Chat' object is not callable
+2026-02-12 17:45:41,153 - french_connection - ERROR - Erreur lors de l'extraction d'entités pour Le repas à 1 euro pour tous les étudiants généralisé en mai, un défi pour les Restos U : « On a peur de ne pas y arriver » : 'Chat' object is not callable
+2026-02-12 17:45:41,321 - french_connection - INFO - 📡 Lecture du flux : Unknown Feed
+2026-02-12 17:45:41,321 - french_connection - INFO - 📡 Lecture du flux : Unknown Feed
+2026-02-12 17:45:42,048 - french_connection - INFO - 📡 Lecture du flux : Unknown Feed
+2026-02-12 17:45:42,048 - french_connection - INFO - 📡 Lecture du flux : Unknown Feed
