@@ -23,7 +23,10 @@ with open("config/config.yaml", "r", encoding="utf-8") as f:
 def process_feed(feed_url, keywords):
     """Lit un flux RSS et détecte les nouveaux articles."""
     feed = feedparser.parse(feed_url)
-    logger.info(f"📡 Lecture du flux : {feed.feed.title}")
+    
+    # Safe check for feed title
+    feed_title = getattr(feed.feed, 'title', 'Unknown Feed')
+    logger.info(f"📡 Lecture du flux : {feed_title}")
     
     for entry in feed.entries:
         title = entry.title
@@ -33,6 +36,7 @@ def process_feed(feed_url, keywords):
         if any(kw.lower() in title.lower() or kw.lower() in summary.lower() for kw in keywords):
             logger.info(f"🎯 Article pertinent détecté : {title}")
             extract_entities_and_create_draft(title, summary, entry.link)
+
 
 def extract_entities_and_create_draft(title, content, url):
     """Utilise l'IA pour extraire les entités du texte et créer des brouillons."""
@@ -47,7 +51,7 @@ def extract_entities_and_create_draft(title, content, url):
     """
     
     try:
-        response = llm.client.chat(
+        response = llm.client.chat.completions.create(
             model=llm.model,
             messages=[{"role": "user", "content": prompt}],
             temperature=0.2
@@ -86,13 +90,14 @@ entities_detected: {entities_str}
     except Exception as e:
         logger.error(f"Erreur lors de l'extraction d'entités pour {title} : {e}")
 
+
 def main():
     logger.info("👁️ Démarrage de la surveillance RSS...")
     
     for feed_conf in CONFIG.get('rss_feeds', []):
         process_feed(feed_conf['url'], feed_conf['keywords'])
         
-    git.commit_changes("feat: ajout automatique de brouillons depuis RSS")
+git.commit_changes("feat: ajout automatique de brouillons depuis RSS")
 
 if __name__ == "__main__":
     main()
