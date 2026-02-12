@@ -6,12 +6,12 @@ keywords:
 - théâtre
 - cinéma
 - télévision
-- France
+- artiste
 nationality: française
 occupation: acteur
 summary: Pierre Arditi est un acteur français renommé, connu pour ses rôles au théâtre,
   au cinéma et à la télévision. Il a marqué plusieurs générations par son talent et
-  sa polyvalence dans des œuvres variées.
+  sa longévité dans le milieu artistique.
 type: Personne
 wikipedia_enriched: true
 ---

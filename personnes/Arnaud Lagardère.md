@@ -4,16 +4,16 @@ birth_place: Boulogne-Billancourt, France
 education: null
 keywords:
 - homme d'affaires
-- réseau influent
-- groupe Lagardère
-- relations politiques
-- famille
+- réseau d'influence
+- élites
+- famille Lagardère
+- personnalité politique
 nationality: française
 occupation: chef d'entreprise
 summary: Arnaud Lagardère est un homme d'affaires français, héritier du groupe Lagardère,
-  connu pour son réseau influent dans les milieux politiques et économiques. Il entretient
-  des relations étroites avec plusieurs personnalités majeures et a une vie familiale
-  marquée par deux mariages et six enfants.
+  connu pour son réseau d'influence au sein des élites politiques et économiques.
+  Il entretient des relations étroites avec de nombreuses personnalités majeures en
+  France et à l'international.
 type: Personne
 website: null
 wikipedia_enriched: true

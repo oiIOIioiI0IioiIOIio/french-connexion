@@ -5,14 +5,14 @@ education: École des hautes études en sciences sociales, École d'économie de
 keywords:
 - économiste
 - inégalités
-- Le Capital au XXIe siècle
-- France
 - recherche
+- économie
+- intellectuel
 nationality: française
 occupation: économiste, écrivain, enseignant-chercheur
 summary: Thomas Piketty est un économiste français renommé, spécialisé dans l'étude
   des inégalités économiques et sociales. Ses travaux, notamment 'Le Capital au XXIe
-  siècle', ont eu un impact majeur sur les débats contemporains en économie.
+  siècle', ont eu un impact majeur sur les débats publics internationaux.
 type: Personne
 website: null
 wikipedia_enriched: true

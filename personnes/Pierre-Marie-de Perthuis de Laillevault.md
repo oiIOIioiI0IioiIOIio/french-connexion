@@ -1,13 +1,14 @@
 ---
 keywords:
 - publicitaire
-- journaliste
-- agence de communication
-- secteur agricole
-- Havas
-summary: Pierre-Marie de Perthuis de Laillevault est un publicitaire et journaliste
-  français, né en 1957. Il a fondé plusieurs agences de communication et occupé des
-  postes clés dans le secteur agricole et agroalimentaire.
+- médias
+- agence
+- agricole
+- carrière
+summary: Pierre-Marie de Perthuis de Laillevault est un publicitaire et professionnel
+  des médias, fondateur d'agences comme Prosper et The Sales Machine Group. Il a également
+  occupé des fonctions dans le secteur agricole, notamment comme secrétaire général
+  d'Offre et Demande Agricole (Oda).
 type: Personne
 ---
 

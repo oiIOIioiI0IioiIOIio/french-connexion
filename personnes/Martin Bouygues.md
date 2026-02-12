@@ -5,15 +5,15 @@ education: null
 keywords:
 - PDG
 - Bouygues
-- entreprise familiale
-- télécommunications
-- construction
+- entreprise
+- dirigeant
+- conglomérat
 nationality: français
 occupation: homme d’affaires, dirigeant d’entreprise
-summary: Martin Bouygues est un homme d'affaires français, actuellement PDG du groupe
-  Bouygues, un conglomérat diversifié présent dans les secteurs des télécommunications,
-  des médias et de la construction. Il a succédé à son père, Francis Bouygues, à la
-  tête de l'entreprise familiale en 1989.
+summary: Martin Bouygues est une personnalité influente du monde des affaires en France,
+  connu pour son rôle de PDG du groupe Bouygues. Il incarne la direction d'un des
+  principaux conglomérats français, actif dans les secteurs des télécommunications,
+  des médias et de la construction.
 type: Personne
 website: null
 wikipedia_enriched: true

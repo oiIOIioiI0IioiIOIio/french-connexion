@@ -5,14 +5,14 @@ education: null
 keywords:
 - Emmanuel Besnier
 - Lactalis
-- industrie laitière
-- Président
 - PDG
+- industrie laitière
+- entrepreneur
 nationality: française
 occupation: industriel laitier, président du conseil de surveillance
-summary: Emmanuel Besnier est un dirigeant d'entreprise français, actuellement président-directeur
-  général de Lactalis. Il dirige le leader mondial de l'industrie laitière, connu
-  pour des marques comme Président et Galbani.
+summary: Emmanuel Besnier est un chef d'entreprise français, actuel président-directeur
+  général de Lactalis, le géant mondial de l'industrie laitière. Il dirige un groupe
+  connu pour des marques emblématiques comme Président et Galbani.
 type: Personne
 website: null
 wikipedia_enriched: true

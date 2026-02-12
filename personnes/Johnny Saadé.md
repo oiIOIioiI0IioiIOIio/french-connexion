@@ -1,12 +1,13 @@
 ---
 keywords:
-- Johnny Saadé
+- entrepreneur
 - viticulture
 - Bargylus
-- château Marsyas
-- Rodolphe Saadé
-summary: Johnny Saadé est un entrepreneur impliqué dans les activités viticoles familiales.
-  Il a co-fondé le domaine de Bargylus en Syrie et le château Marsyas au Liban.
+- Château Marsyas
+- famille Saadé
+summary: Johnny Saadé est un entrepreneur et co-fondateur de domaines viticoles prestigieux
+  au Moyen-Orient, notamment Bargylus en Syrie et Château Marsyas au Liban. Il est
+  également membre d'une famille influente dans les affaires, liée au groupe CMA CGM.
 type: Personne
 ---
 

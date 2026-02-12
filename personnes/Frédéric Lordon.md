@@ -3,16 +3,17 @@ birth_date: '1962-01-15'
 birth_place: null
 education: null
 keywords:
-- économiste
 - philosophe
+- économiste
+- intellectuel
+- débats économiques
 - Fondapol
-- débats
-- politiques économiques
 nationality: français
 occupation: économiste, philosophe
-summary: Frédéric Lordon est un philosophe et économiste français connu pour ses travaux
-  critiques sur les politiques économiques. Il participe activement à des débats intellectuels
-  et collabore avec des think tanks comme Fondapol.
+summary: Frédéric Lordon est un philosophe et économiste français, connu pour ses
+  travaux critiques sur le capitalisme et ses interventions dans les débats économiques.
+  Il participe activement à des réseaux intellectuels et collabore avec des think
+  tanks comme Fondapol.
 type: Personne
 website: null
 wikipedia_enriched: true

@@ -1,13 +1,13 @@
 ---
 keywords:
-- Sophie Abergel
+- individu
 - personnalité
-- contributions
-- domaine professionnel
-- analyse
-summary: Sophie Abergel est une personnalité dont les contributions ou activités spécifiques
-  ne sont pas détaillées dans le document fourni. Elle pourrait être associée à un
-  domaine académique, professionnel ou artistique nécessitant des informations complémentaires
-  pour une analyse précise.
+- professionnel
+- réseau d'influence
+- France
+summary: Sophie Abergel est une personnalité individuelle, dont la fiche ne précise
+  pas le domaine d'activité mais indique clairement qu'il s'agit d'une personne physique.
+  Son profil suggère une possible implication dans un secteur professionnel ou public
+  sans affiliation institutionnelle directe.
 type: Personne
 ---

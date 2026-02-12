@@ -1,13 +1,13 @@
 ---
 keywords:
 - ingénieur
-- École nationale des ponts et chaussées
-- cadre dirigeant
 - Perenco
 - pétrole
-summary: Jean-Michel Runacher est un ingénieur français diplômé de l'École nationale
-  des ponts et chaussées. Il a occupé des postes de cadre dirigeant au sein de la
-  société pétrolière Perenco.
+- cadre dirigeant
+- École des ponts
+summary: Jean-Michel Runacher est un ingénieur formé à l'École nationale des ponts
+  et chaussées et a occupé des postes de direction au sein de l'entreprise pétrolière
+  Perenco. Son parcours allie expertise technique et expérience dans le secteur énergétique.
 type: Personne
 ---
 

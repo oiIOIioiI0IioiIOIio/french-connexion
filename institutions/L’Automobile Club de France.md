@@ -1,14 +1,14 @@
 ---
 keywords:
-- automobile
 - club privé
-- histoire
-- exclusivité
-- réglementation
-summary: L'Automobile Club de France (ACF), fondé en 1895, est le premier club automobile
-  au monde, dédié à la promotion de l'automobile, du sport automobile et du tourisme.
-  Il joue un rôle historique dans la réglementation du secteur, abrite des infrastructures
-  luxueuses et reste un symbole d'exclusivité et de tradition.
+- automobile
+- élitisme
+- réglementation sportive
+- cercle historique
+summary: L’Automobile Club de France (ACF) est un club privé historique fondé en 1895,
+  dédié aux passionnés d’automobile et à l’organisation d’événements sportifs et touristiques.
+  Il siège dans un bâtiment prestigieux à Paris et fonctionne comme un cercle élitiste
+  avec des règles d’admission strictes.
 type: Institution
 ---
 

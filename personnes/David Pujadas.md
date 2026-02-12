@@ -4,15 +4,15 @@ birth_place: Barcelone, Espagne
 education: null
 keywords:
 - journaliste
-- télévision
-- information
-- France 2
 - présentateur
+- télévision
+- médias
+- France 2
 nationality: française
 occupation: journaliste, présentateur de journal, animateur
-summary: David Pujadas est un journaliste français reconnu pour son travail dans le
-  domaine de l'information télévisée. Il a notamment présenté le journal de 20 heures
-  sur France 2 pendant plusieurs années.
+summary: David Pujadas est un journaliste français reconnu, principalement connu pour
+  son rôle de présentateur de journaux télévisés. Il a marqué le paysage médiatique
+  français par sa carrière dans des chaînes majeures comme France 2 et LCI.
 type: Personne
 website: null
 wikipedia_enriched: true

@@ -2,17 +2,17 @@
 birth_date: '1957-09-16'
 birth_place: Paris, France
 keywords:
-- économie
 - politique
+- économie
 - européen
+- ministre
 - finances
-- Macron
 nationality: française
 occupation: haut fonctionnaire et homme politique
-summary: Pierre Moscovici est un homme politique français, ancien Ministre de l'Économie
-  et des Finances, reconnu pour son influence dans les sphères économiques européennes.
-  Il entretient des relations étroites avec des figures politiques et des institutions
-  financières majeures.
+summary: Pierre Moscovici est une personnalité politique française, ancien ministre
+  de l'Économie et des Finances, et une figure influente dans les cercles économiques
+  européens. Il entretient des relations étroites avec des acteurs politiques et financiers
+  majeurs, notamment au sein de l'Union européenne.
 type: Personne
 wikipedia_enriched: true
 ---

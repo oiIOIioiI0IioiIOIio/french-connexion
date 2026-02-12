@@ -4,16 +4,16 @@ birth_place: Cholet, France
 education: null
 keywords:
 - politique
-- Vendée
 - Sénat
+- Vendée
 - Les Républicains
 - ministre
 nationality: française
 occupation: homme politique
-summary: Bruno Retailleau est un homme politique français diplômé de Sciences Po Paris,
-  ayant débuté sa carrière aux côtés de Philippe de Villiers. Il a occupé des fonctions
-  locales en Vendée et nationales, notamment comme président du groupe Les Républicains
-  au Sénat et ministre de l'Intérieur en 2024.
+summary: Bruno Retailleau est un homme politique français, diplômé de Sciences Po
+  Paris et figure majeure de la droite en Vendée. Il a occupé des fonctions électives
+  locales et nationales, notamment comme président du groupe Les Républicains au Sénat
+  et ministre de l'Intérieur en 2024.
 type: Personne
 website: null
 wikipedia_enriched: true

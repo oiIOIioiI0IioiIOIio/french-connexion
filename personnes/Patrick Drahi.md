@@ -7,7 +7,7 @@ keywords:
 - Altice
 - télécommunications
 - médias
-- acquisitions
+- homme d'affaires
 nationality:
 - marocaine
 - française
@@ -15,10 +15,9 @@ nationality:
 - portugaise
 - christophienne
 occupation: entrepreneur et homme d'affaires
-summary: Patrick Drahi est un entrepreneur franco-israélo-portugais, connu pour avoir
-  fondé le groupe Altice, un acteur majeur dans les secteurs des télécommunications
-  et des médias. Son parcours entrepreneurial a marqué l'industrie par des acquisitions
-  stratégiques et une expansion internationale.
+summary: Patrick Drahi est un entrepreneur et homme d'affaires franco-israélo-portugais,
+  connu pour avoir fondé le groupe Altice. Il est une figure majeure des télécommunications
+  et des médias en Europe et aux États-Unis.
 type: Personne
 website: null
 wikipedia_enriched: true

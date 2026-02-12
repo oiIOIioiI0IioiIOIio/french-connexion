@@ -4,15 +4,15 @@ birth_place: Grenoble, France
 education: null
 keywords:
 - Vivendi
+- PDG
 - télécommunications
 - médias
-- années 1990
 - Jospin
 nationality: française
 occupation: haut fonctionnaire, homme d'affaires
-summary: Jean-Marie Messier est un homme d'affaires français connu pour avoir dirigé
-  Vivendi dans les années 1990. Il a marqué le secteur des télécommunications et des
-  médias, collaborant notamment avec des figures politiques comme Lionel Jospin.
+summary: Jean-Marie Messier est une personnalité du monde des affaires, connu pour
+  avoir dirigé Vivendi dans les années 1990. Il a marqué les secteurs des télécommunications
+  et des médias, avec des liens politiques notables.
 type: Personne
 website: null
 wikipedia_enriched: true

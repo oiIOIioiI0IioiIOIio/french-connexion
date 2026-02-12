@@ -5,13 +5,13 @@ keywords:
 - Alain Wertheimer
 - Chanel
 - couture
-- Gérard Wertheimer
-- Coco Chanel
+- luxe
+- frère
 nationality: française
 occupation: homme d'affaires
-summary: Alain Wertheimer est l'un des coprésidents de Chanel, une maison de couture
-  de renommée mondiale. Il dirige l'entreprise aux côtés de son frère Gérard Wertheimer,
-  perpétuant l'héritage de Coco Chanel.
+summary: Alain Wertheimer est un homme d'affaires français, co-président de la maison
+  de luxe Chanel aux côtés de son frère Gérard Wertheimer. Il joue un rôle clé dans
+  la gestion et la stratégie de cette entreprise emblématique fondée par Coco Chanel.
 type: Personne
 wikipedia_enriched: true
 ---

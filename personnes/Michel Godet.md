@@ -3,16 +3,16 @@ birth_date: '1948-04-09'
 birth_place: null
 education: null
 keywords:
-- économie
-- stratégie
-- compétitivité
+- économiste
+- stratège
 - IFRI
-- think tank
+- compétitivité
+- Europe
 nationality: null
 occupation: économiste
-summary: Michel Godet est un économiste et stratège reconnu, spécialisé dans les questions
-  de compétitivité européenne. Il collabore avec des institutions financières et des
-  think tanks pour analyser les enjeux économiques et stratégiques.
+summary: Michel Godet est un économiste et stratège reconnu, collaborant avec des
+  think tanks et institutions financières. Ses travaux portent sur la compétitivité
+  et les enjeux économiques européens.
 type: Personne
 website: null
 wikipedia_enriched: true

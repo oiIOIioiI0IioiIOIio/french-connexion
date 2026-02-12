@@ -3,16 +3,16 @@ birth_date: '1949-03-08'
 birth_place: Limoges, France
 education: null
 keywords:
+- commentateur
 - politique
-- médias
 - IRIS
+- médias
 - débats
-- François Hollande
 nationality: française
 occupation: homme politique, magistrat
-summary: Alain Marsaud est un commentateur politique influent et membre du conseil
-  d’administration de l'IRIS. Il intervient régulièrement dans des médias renommés
-  et participe à des débats avec des figures politiques majeures.
+summary: Alain Marsaud est un commentateur politique et membre du conseil d'administration
+  de l'IRIS, actif dans les débats institutionnels. Il collabore régulièrement avec
+  des médias influents et interagit avec des figures politiques de premier plan.
 type: Personne
 website: null
 wikipedia_enriched: true

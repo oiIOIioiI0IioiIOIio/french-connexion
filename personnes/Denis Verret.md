@@ -2,16 +2,16 @@
 birth_date: '1949-12-25'
 birth_place: Paris, France
 keywords:
+- expert
 - politique économique
 - IRIS
-- conseil d’administration
 - OCDE
-- expertise internationale
+- conseil d’administration
 nationality: française
 occupation: haut fonctionnaire et dirigeant d'entreprise
-summary: Denis Verret est un expert reconnu en politique économique, siégeant au conseil
-  d’administration de l'IRIS. Il travaille en collaboration avec des entreprises internationales
-  et des institutions comme l'OCDE.
+summary: Denis Verret est un expert en politique économique, siégeant au conseil d’administration
+  de l'IRIS et collaborant avec des organisations comme l'OCDE. Son expertise couvre
+  les enjeux économiques et les relations entre entreprises et institutions internationales.
 type: Personne
 wikipedia_enriched: true
 ---

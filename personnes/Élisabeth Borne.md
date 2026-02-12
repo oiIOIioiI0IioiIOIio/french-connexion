@@ -5,15 +5,15 @@ birth_place: Paris, France
 education: Polytechnicienne, ingénieure générale des ponts et chaussées
 keywords:
 - politique
-- Première ministre
-- France
-- fonction publique
 - gouvernement
+- Première ministre
+- fonctionnaire
+- Macron
 nationality: française
 occupation: haute fonctionnaire, femme d'État, Première ministre
-summary: Élisabeth Borne est une femme politique française qui a occupé le poste de
-  Première ministre de la République française. Elle est connue pour son parcours
-  dans la haute fonction publique et son engagement politique.
+summary: Élisabeth Borne est une haute fonctionnaire et femme politique française,
+  ayant occupé le poste de Première ministre sous la présidence d'Emmanuel Macron.
+  Elle a également exercé plusieurs fonctions ministérielles avant de diriger le gouvernement.
 type: Personne
 wikipedia_enriched: true
 ---

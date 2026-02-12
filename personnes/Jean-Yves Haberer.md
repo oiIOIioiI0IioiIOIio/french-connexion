@@ -6,14 +6,14 @@ keywords:
 - PDG
 - Crédit Lyonnais
 - banque
-- dirigeant
-- secteur financier
+- finance
+- haut fonctionnaire
 nationality: Française
 occupation: Inspecteur des finances, directeur de cabinets ministériels, directeur
   du Trésor, président de Paribas, président du Crédit Lyonnais
-summary: Jean-Yves Haberer est un haut dirigeant français connu pour avoir occupé
-  le poste de PDG du Crédit Lyonnais. Son parcours est marqué par son influence dans
-  le secteur bancaire français.
+summary: Jean-Yves Haberer est une personnalité du monde financier français, connu
+  pour avoir dirigé le Crédit Lyonnais. Son parcours inclut des fonctions majeures
+  dans le secteur bancaire et public.
 type: Personne
 website: null
 wikipedia_enriched: true

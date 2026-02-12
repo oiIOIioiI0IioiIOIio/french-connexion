@@ -1,13 +1,14 @@
 ---
 keywords:
 - administrateur
-- Fiat
+- entreprise
+- famille Agnelli
 - Exor
-- finance
-- Agnelli
+- cercles privés
 summary: Ruy Brandolini d'Adda est un homme d'affaires et administrateur de sociétés
-  italien, né en 1948. Issu d'une famille influente liée à Fiat et Agnelli, il a occupé
-  des postes clés dans des groupes comme Exor, Sequana Capital et Château Margaux.
+  issu d'une famille influente, lié aux cercles économiques et industriels européens.
+  Il a occupé des postes clés dans des groupes comme Exor, Fiat, et Sequana Capital,
+  tout en étant actif dans des cercles privés prestigieux.
 type: Personne
 ---
 

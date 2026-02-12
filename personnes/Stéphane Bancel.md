@@ -4,15 +4,15 @@ birth_place: Marseille, France
 education: null
 keywords:
 - Moderna
-- vaccin COVID-19
-- biotechnologie
-- Anthony Fauci
-- leadership
+- vaccin
+- COVID-19
+- dirigeant
+- réseau d'influence
 nationality: français
 occupation: homme d'affaires, directeur général
-summary: Stéphane Bancel est le directeur général de Moderna, une entreprise biotechnologique
-  pionnière. Il est reconnu pour son leadership dans le développement du vaccin contre
-  la COVID-19 et ses collaborations avec des figures comme Anthony Fauci.
+summary: Stéphane Bancel est un dirigeant d'entreprise français, actuellement PDG
+  de Moderna. Il est reconnu pour son rôle clé dans le développement du vaccin contre
+  la COVID-19 et ses liens avec des réseaux d'influence internationaux.
 type: Personne
 website: null
 wikipedia_enriched: true

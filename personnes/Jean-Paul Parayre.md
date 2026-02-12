@@ -4,14 +4,15 @@ birth_place: Lorient, France
 keywords:
 - ingénieur
 - dirigeant
-- PSA Peugeot-Citroën
-- Dumez
+- Peugeot
 - Bolloré
+- conseil d'administration
 nationality: française
 occupation: chef d'entreprise
-summary: Jean-Paul Parayre est un ingénieur et dirigeant d'entreprises français, né
-  en 1937. Il a occupé des postes clés dans plusieurs grands groupes industriels et
-  financiers, notamment PSA Peugeot-Citroën, Dumez et Bolloré.
+summary: Jean-Paul Parayre est un ingénieur et haut dirigeant français, ayant occupé
+  des postes clés dans plusieurs grandes entreprises comme Peugeot SA, Dumez, et le
+  groupe Bolloré. Sa carrière inclut également des fonctions publiques et des mandats
+  dans divers conseils d'administration.
 type: Personne
 wikipedia_enriched: true
 ---

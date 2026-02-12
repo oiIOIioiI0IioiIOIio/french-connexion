@@ -1,12 +1,13 @@
 ---
 keywords:
-- Jean de Yturbe
+- individu
 - personnalité
-- histoire
-- contributions
-- contexte
-summary: Jean de Yturbe est une personnalité dont les activités et contributions restent
-  à préciser dans ce contexte. Il pourrait être associé à des domaines comme la politique,
-  la culture ou les affaires.
+- réseaux d'influence
+- aristocratie
+- France
+summary: Jean de Yturbe est une personnalité individuelle, probablement issue d'un
+  milieu influent ou aristocratique. Son profil suggère un rôle dans les réseaux d'influence
+  français, sans précision sur une affiliation institutionnelle ou professionnelle
+  spécifique.
 type: Personne
 ---

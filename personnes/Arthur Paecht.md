@@ -4,15 +4,15 @@ birth_place: Vienne, Autriche
 education: null
 keywords:
 - consultant
-- stratégie
+- IRIS
 - multinationales
 - Airbus
 - Total
 nationality: française
 occupation: homme politique
-summary: Arthur Paecht est un ancien dirigeant de l'IRIS et consultant pour des multinationales
-  majeures. Il a développé des relations stratégiques avec des entreprises comme Airbus
-  et Total.
+summary: Arthur Paecht est un consultant et ancien dirigeant de l'IRIS, spécialisé
+  dans les relations stratégiques avec des multinationales. Il a collaboré avec des
+  entreprises majeures comme Airbus et Total.
 type: Personne
 website: null
 wikipedia_enriched: true

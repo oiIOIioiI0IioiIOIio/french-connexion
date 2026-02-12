@@ -9,9 +9,9 @@ keywords:
 - CNC
 nationality: française
 occupation: actrice, réalisatrice, autrice
-summary: Sophie Marceau est une actrice française renommée, engagée dans des initiatives
-  culturelles et collaborant avec des institutions majeures du cinéma. Elle est également
-  membre d'Aspen, une organisation favorisant les échanges intellectuels et culturels.
+summary: Sophie Marceau est une actrice et réalisatrice française emblématique, active
+  dans le milieu culturel et engagée dans des cercles d'influence comme Aspen. Elle
+  collabore avec des institutions culturelles et des personnalités du cinéma.
 type: Personne
 wikipedia_enriched: true
 ---

@@ -4,15 +4,15 @@ birth_place: Hope, Arkansas, États-Unis
 education: Yale
 keywords:
 - président
+- politique
 - États-Unis
-- diplomatie
+- relations internationales
 - Young Leaders
-- mandat
 nationality: américaine
 occupation: homme d'État, président des États-Unis
-summary: Bill Clinton est le 42ème président des États-Unis, connu pour son leadership
-  durant les années 1990. Son mandat a été marqué par des collaborations internationales
-  et son implication dans des programmes comme celui des Young Leaders de la French-American
+summary: Bill Clinton est une personnalité politique américaine, ayant servi comme
+  42ᵉ président des États-Unis. Il est connu pour ses relations internationales et
+  son engagement dans des programmes comme les Young Leaders de la French-American
   Foundation.
 type: Personne
 website: null

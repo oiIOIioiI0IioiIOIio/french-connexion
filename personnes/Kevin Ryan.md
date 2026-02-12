@@ -7,12 +7,12 @@ keywords:
 - philanthrope
 - Gilt Groupe
 - Young Leader
-- collaboration
+- technologie
 nationality: américaine
 occupation: entrepreneur
-summary: Kevin Ryan est un entrepreneur et philanthrope reconnu, notamment pour avoir
-  fondé Gilt Groupe. Il a été distingué comme Young Leader et a collaboré avec des
-  figures majeures du monde des affaires.
+summary: Kevin Ryan est un entrepreneur et philanthrope américain, reconnu comme Young
+  Leader en 2003 par la French-American Foundation. Il est notamment le fondateur
+  de Gilt Groupe et a collaboré avec des figures majeures du secteur technologique.
 type: Personne
 website: null
 wikipedia_enriched: true

@@ -5,13 +5,14 @@ keywords:
 - compositeur
 - pianiste
 - professeur
-- École polytechnique
-- Collège de France
+- académique
+- musique
 nationality: franco-suisse
 occupation: compositeur, pianiste, universitaire
-summary: Karol Beffa est un compositeur et pianiste français reconnu, également professeur
-  dans plusieurs institutions académiques prestigieuses. Il enseigne notamment à l'École
-  polytechnique, à l'École normale supérieure et au Collège de France.
+summary: Karol Beffa est un compositeur, pianiste et professeur français reconnu,
+  enseignant dans des institutions prestigieuses comme l'École polytechnique, l'École
+  normale supérieure et le Collège de France. Son parcours allie création musicale,
+  performance et transmission académique.
 type: Personne
 wikipedia_enriched: true
 ---

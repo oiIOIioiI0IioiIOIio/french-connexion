@@ -1,13 +1,13 @@
 ---
 keywords:
-- club privé
+- cercle privé
+- réseau d'influence
 - élite
-- réseau
+- club confidentiel
 - hommes d'affaires
-- confidentialité
-summary: Le Traveller's Club est un cercle privé fondé en 1903, réservé à une élite
-  composée principalement d'hommes d'affaires influents. Il incarne un réseau ultraconfidentiel
-  où se côtoient des personnalités du monde économique et politique.
+summary: Le Traveller's Club est un cercle privé ultraconfidentiel fondé en 1903,
+  réservé à une élite composée principalement d'hommes d'affaires influents. Il fonctionne
+  comme un réseau d'influence et de sociabilité pour ses membres triés sur le volet.
 type: Institution
 ---
 

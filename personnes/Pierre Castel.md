@@ -2,16 +2,16 @@
 birth_date: '1926-10-17'
 birth_place: Berson, France
 keywords:
-- Pierre Castel
-- groupe Castel
-- vin
-- boissons
 - entrepreneur
+- vin
+- Castel
+- boissons
+- fondateur
 nationality: française
 occupation: entrepreneur, homme d'affaires, président-fondateur du Groupe Castel
-summary: Pierre Castel est le fondateur du groupe Castel, un acteur majeur dans le
-  secteur des boissons, en particulier la production et la distribution de vin. Son
-  entreprise est devenue une référence internationale dans ce domaine.
+summary: Pierre Castel est un entrepreneur français, fondateur du groupe Castel, un
+  leader dans le secteur des boissons, en particulier du vin. Son parcours illustre
+  l'ascension d'un acteur clé de l'industrie agroalimentaire française.
 type: Personne
 wikipedia_enriched: true
 ---

@@ -4,15 +4,15 @@ birth_place: Neuilly-sur-Seine, France
 education: null
 keywords:
 - géopolitique
+- conseiller
 - IFRI
-- OCDE
-- Joseph Stiglitz
-- Europe
+- réseau
+- expert
 nationality: français
 occupation: géopolitologue
-summary: Dominique Moïsi est un expert reconnu en géopolitique et conseiller spécial
-  à l'IFRI. Il collabore avec des institutions internationales et des figures influentes
-  du monde économique et politique.
+summary: Dominique Moïsi est un expert en géopolitique et conseiller spécial, reconnu
+  pour ses analyses et ses collaborations avec des institutions internationales. Il
+  entretient un réseau influent au sein des cercles politiques et économiques européens.
 type: Personne
 website: null
 wikipedia_enriched: true

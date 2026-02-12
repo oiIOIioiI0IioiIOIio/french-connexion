@@ -3,12 +3,12 @@ keywords:
 - dirigeant
 - banque
 - Conseil d'État
+- ENA
 - immobilier
-- assurances
 summary: Christian de Gournay est un haut fonctionnaire et dirigeant d'entreprise
-  français, né en 1952. Il a occupé des postes clés dans le secteur bancaire, les
-  assurances et l'immobilier, notamment comme président de Cogedim et membre du Conseil
-  d'État.
+  français, diplômé de HEC et de l'ENA. Il a occupé des postes clés dans le secteur
+  bancaire, assurantiel et immobilier, notamment comme président de Cogedim et dirigeant
+  au sein du groupe AGF.
 type: Personne
 ---
 

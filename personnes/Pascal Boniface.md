@@ -4,15 +4,15 @@ birth_place: Paris, France
 education: null
 keywords:
 - géopolitique
-- diplomatie
+- diplomate
 - IRIS
-- entreprises multinationales
+- conseiller
 - institutions internationales
 nationality: française
 occupation: géopolitologue
 summary: Pascal Boniface est un expert en géopolitique, fondateur et directeur de
-  l'IRIS. Il a une carrière diplomatique et conseille des entreprises multinationales
-  ainsi que des institutions internationales.
+  l'IRIS. Il a une carrière marquée par des fonctions diplomatiques et des collaborations
+  avec des institutions internationales et des personnalités influentes.
 type: Personne
 website: null
 wikipedia_enriched: true

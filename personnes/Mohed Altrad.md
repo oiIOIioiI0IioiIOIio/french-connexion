@@ -4,15 +4,15 @@ birth_place: Syrie
 education: null
 keywords:
 - entrepreneur
+- dirigeant
 - Altrad
 - industrie
 - construction
-- dirigeant
 nationality: français
 occupation: homme d'affaires, homme politique, auteur
 summary: Mohed Altrad est un entrepreneur et dirigeant d'entreprise, fondateur et
   président du groupe Altrad, spécialisé dans les services industriels et la construction.
-  Il est reconnu comme une figure emblématique de l'entrepreneuriat contemporain.
+  Il est une figure emblématique de l'entrepreneuriat contemporain.
 type: Personne
 website: null
 wikipedia_enriched: true

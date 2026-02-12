@@ -3,16 +3,16 @@ birth_date: '1946-04-29'
 birth_place: null
 education: null
 keywords:
+- analyste
 - géopolitique
-- think tanks
+- think tank
 - IFRI
-- Brookings Institution
-- Chatham House
+- expert
 nationality: française
 occupation: intellectuel, professeur
-summary: François Ewald est un analyste et expert en géopolitique, membre du conseil
-  d’orientation de l’IFRI. Il collabore avec des think tanks internationaux renommés
-  et participe à des échanges stratégiques dans ce domaine.
+summary: François Ewald est un analyste et expert en géopolitique, connu pour ses
+  collaborations avec des think tanks internationaux. Il participe activement à des
+  cercles d'influence et à des réflexions stratégiques.
 type: Personne
 website: null
 wikipedia_enriched: true

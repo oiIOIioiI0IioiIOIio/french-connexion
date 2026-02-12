@@ -1,15 +1,14 @@
 ---
 keywords:
 - philosophe
-- politique
+- haut fonctionnaire
+- conseiller politique
 - ENS
 - UMP
-- conseiller
 summary: Frédéric Guillaud est un philosophe et haut fonctionnaire français, ancien
-  élève de l'École normale supérieure et agrégé de philosophie. Il a occupé des postes
-  clés dans les milieux politiques et institutionnels, notamment comme conseiller
-  sous Nicolas Sarkozy et directeur des études de l'UMP, tout en participant à la
-  campagne de Marine Le Pen en 2017.
+  élève de l'ENS et agrégé de philosophie. Il a occupé des fonctions politiques et
+  administratives, notamment comme conseiller sous Nicolas Sarkozy et directeur des
+  études de l'UMP, tout en participant à la campagne de Marine Le Pen en 2017.
 type: Personne
 ---
 

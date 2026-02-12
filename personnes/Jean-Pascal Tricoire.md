@@ -3,17 +3,16 @@ birth_date: '1963-05-11'
 birth_place: Beaupréau, France
 education: null
 keywords:
+- dirigeant
 - Schneider Electric
 - transition numérique
 - efficacité énergétique
-- PDG
-- transformation industrielle
+- industrie
 nationality: français
 occupation: dirigeant d'entreprise
-summary: Jean-Pascal Tricoire est le président-directeur général de Schneider Electric,
-  un leader dans la transformation numérique et énergétique. Il a collaboré avec Maud
-  Bailly sur des projets d'efficacité énergétique et de transition numérique dans
-  les entreprises industrielles.
+summary: Jean-Pascal Tricoire est un dirigeant d'entreprise français, actuellement
+  président-directeur général de Schneider Electric. Il est reconnu pour son engagement
+  dans la transition numérique et l'efficacité énergétique des industries.
 type: Personne
 website: null
 wikipedia_enriched: true

@@ -2,13 +2,13 @@
 keywords:
 - magistrat
 - Cour des comptes
-- culture
 - médias
 - administration publique
-summary: Christian Phéline est un haut magistrat français né en 1945, spécialisé dans
-  les domaines de la culture, des médias et de l'administration publique. Il a occupé
-  des postes clés au sein d'institutions culturelles et médiatiques, ainsi qu'à la
-  Cour des comptes.
+- culture
+summary: Christian Phéline est un haut magistrat français, membre de la Cour des comptes,
+  avec une carrière marquée par des fonctions clés dans les secteurs culturel, médiatique
+  et administratif. Il a occupé des postes stratégiques au sein d'institutions publiques
+  et de médias, tout en enseignant et en contribuant à des organismes de régulation.
 type: Personne
 ---
 

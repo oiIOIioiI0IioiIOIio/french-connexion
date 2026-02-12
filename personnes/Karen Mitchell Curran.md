@@ -1,14 +1,14 @@
 ---
 keywords:
 - KPMG
-- secteur de la santé
-- direction
+- associée
+- secteur santé
 - WCD Foundation
-- expérience professionnelle
-summary: Karen Mitchell Curran est une associée directrice de bureau chez KPMG à Fort
-  Lauderdale, avec plus de 37 ans d'expérience, spécialisée dans le secteur de la
-  santé. Elle occupe également le poste de présidente du conseil d'administration
-  de la WCD Foundation.
+- professionnelle
+summary: Karen Mitchell Curran est une professionnelle expérimentée, associée directrice
+  de bureau chez KPMG à Fort Lauderdale, avec une expertise notable dans le secteur
+  de la santé. Elle occupe également des responsabilités au sein d'organisations comme
+  la WCD Foundation.
 type: Personne
 ---
 

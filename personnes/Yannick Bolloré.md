@@ -3,16 +3,17 @@ birth_date: '1980-02-01'
 birth_place: Neuilly-sur-Seine, France
 education: null
 keywords:
-- Yannick Bolloré
-- Vivendi
-- French-American Foundation
-- Emmanuel Macron
 - dirigeant
+- médias
+- réseaux
+- politique
+- influence
 nationality: française
 occupation: homme d'affaires
-summary: Yannick Bolloré est un dirigeant d'entreprise français, connu pour son rôle
-  dans le groupe Vivendi. Il est également impliqué dans des réseaux influents comme
-  la French-American Foundation et entretient des liens avec Emmanuel Macron.
+summary: Yannick Bolloré est un dirigeant d'entreprise et personnalité influente du
+  secteur des médias, connu pour ses liens avec des cercles politiques et économiques.
+  Il est notamment associé à des réseaux d'influence comme la French-American Foundation
+  et proche d'Emmanuel Macron.
 type: Personne
 website: null
 wikipedia_enriched: true

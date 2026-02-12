@@ -2,16 +2,16 @@
 birth_date: '1928-02-10'
 birth_place: Aubiet, France
 keywords:
-- Jean-Luc Lagardère
+- industriel
+- médias
 - Matra
 - Hachette
 - Arnaud Lagardère
-- Corinne Levasseur
 nationality: française
 occupation: chef d'entreprise, industriel, patron de presse
-summary: Jean-Luc Lagardère était un homme d'affaires français, connu pour avoir dirigé
-  les groupes Matra et Hachette. Il est également reconnu comme le père d'Arnaud Lagardère
-  et l'époux de Corinne Levasseur.
+summary: Jean-Luc Lagardère était un industriel français, figure majeure des médias
+  et de l'aéronautique, ayant dirigé les groupes Matra et Hachette. Il est également
+  connu pour son influence dans les cercles économiques et politiques français.
 type: Personne
 wikipedia_enriched: true
 ---

@@ -1,13 +1,14 @@
 ---
 keywords:
-- Ingénieur
-- Président
-- PSA Peugeot-Citroën
-- Dumez
-- Bolloré
-summary: Jean-Paul Parayre est un ingénieur et dirigeant d'entreprises français, né
-  en 1937. Il a occupé des postes clés dans des groupes industriels majeurs comme
-  Peugeot, Dumez et Bolloré, ainsi que des fonctions publiques.
+- ingénieur
+- président
+- dirigeant
+- Polytechnique
+- entreprises
+summary: Jean-Paul Parayre est un ingénieur et haut dirigeant français, ayant occupé
+  des postes clés dans plusieurs grandes entreprises comme Peugeot SA, Dumez et le
+  Groupe Bolloré. Il a également exercé des fonctions publiques et reçu des distinctions
+  honorifiques pour sa carrière.
 type: Personne
 ---
 

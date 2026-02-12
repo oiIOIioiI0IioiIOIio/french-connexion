@@ -1,14 +1,14 @@
 ---
 keywords:
+- avocat
 - droits de l'homme
-- avocat international
-- conseiller spécial
-- Aung San Suu Kyi
-- Organisation des États américains
+- conseiller international
+- personnalité politique
+- réseau d'influence
 summary: Jared Genser est un avocat international spécialisé dans la défense des droits
-  de l'homme, reconnu pour son travail depuis 2011. Il a conseillé des organisations
-  comme l'Organisation des États américains et soutenu des personnalités telles qu'Aung
-  San Suu Kyi et Leopoldo López.
+  de l'homme, reconnu pour son travail auprès d'organisations internationales et de
+  personnalités politiques. Il a collaboré avec des figures emblématiques et participé
+  à des programmes d'influence comme celui de la French-American Foundation.
 type: Personne
 ---
 

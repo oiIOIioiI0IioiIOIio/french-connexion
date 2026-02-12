@@ -3,16 +3,16 @@ birth_date: '1956-07-06'
 birth_place: Boulogne-Billancourt, France
 education: null
 keywords:
-- Jean-Paul Agon
-- L'Oréal
 - PDG
-- industrie cosmétique
+- L'Oréal
+- cosmétique
+- industrie
 - dirigeant
 nationality: français
 occupation: chef d'entreprise
-summary: Jean-Paul Agon est un dirigeant d'entreprise français, connu pour avoir été
-  le PDG de L'Oréal pendant de nombreuses années. Il est considéré comme une figure
-  majeure de l'industrie cosmétique mondiale.
+summary: Jean-Paul Agon est une personnalité majeure du secteur cosmétique, connu
+  pour avoir dirigé L'Oréal pendant de nombreuses années. Il reste une figure influente
+  dans l'industrie française et internationale.
 type: Personne
 website: null
 wikipedia_enriched: true

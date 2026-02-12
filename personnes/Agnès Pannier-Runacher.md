@@ -3,18 +3,18 @@ birth_date: '1974-06-19'
 birth_place: Paris 12e, France
 education: null
 keywords:
-- politique
+- femme politique
+- ministre
+- ENA
 - transition énergétique
-- industrie
-- haute fonction publique
 - réseau d'influence
 nationality: française
 occupation: haute fonctionnaire, cadre dirigeante d'entreprise, femme politique
-summary: Agnès Pannier-Runacher est une femme politique française née en 1974, occupant
-  des postes ministériels clés sous les gouvernements Macron, notamment dans les domaines
-  de l'industrie et de la transition énergétique. Elle a également eu une carrière
-  variée dans la haute fonction publique et le secteur privé, marquée par des collaborations
-  avec des figures influentes de la politique et de l'économie.
+summary: Agnès Pannier-Runacher est une femme politique française, ancienne élève
+  de l'ENA et Sciences Po, ayant occupé plusieurs postes ministériels clés sous les
+  gouvernements Macron. Elle a également exercé des fonctions dirigeantes dans des
+  institutions publiques et privées, notamment à la Caisse des Dépôts et à la Compagnie
+  des Alpes.
 type: Personne
 website: null
 wikipedia_enriched: true

@@ -1,13 +1,14 @@
 ---
 keywords:
 - ENA
+- haut fonctionnaire
 - Cour nationale du droit d'asile
-- UNI
+- militant
 - fiscalité
-- Marine Le Pen
-summary: Vincent Uher est un haut fonctionnaire français diplômé de l'ENA, spécialisé
-  dans le droit d'asile et la fiscalité. Il a également été militant étudiant de droite
-  et a collaboré avec Marine Le Pen.
+summary: Vincent Uher est un haut fonctionnaire français, diplômé de l'ENA et président
+  de formation de jugement à la Cour nationale du droit d'asile. Il a également été
+  militant étudiant de droite et a collaboré avec Marine Le Pen sur des questions
+  fiscales.
 type: Personne
 ---
 

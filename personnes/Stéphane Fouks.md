@@ -2,16 +2,16 @@
 birth_date: '1960-04-06'
 birth_place: Paris, France
 keywords:
-- Stéphane Fouks
 - conseil d’administration
 - IRIS
-- secteur industriel
+- industrie
 - groupes privés
+- influence
 nationality: français
 occupation: conseiller en communication, vice-président de Havas
-summary: Stéphane Fouks est un professionnel influent dans le secteur industriel,
-  siégeant au conseil d’administration de l'IRIS. Il entretient des collaborations
-  avec plusieurs grands groupes privés, renforçant son expertise et son réseau.
+summary: Stéphane Fouks est une personnalité influente dans les milieux industriels
+  et stratégiques, siégeant au conseil d’administration de l'IRIS. Il entretient des
+  collaborations avec plusieurs grands groupes privés.
 type: Personne
 wikipedia_enriched: true
 ---

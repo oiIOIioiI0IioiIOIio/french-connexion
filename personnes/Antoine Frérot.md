@@ -3,17 +3,17 @@ birth_date: '1958-06-03'
 birth_place: Fontainebleau, France
 education: null
 keywords:
-- Veolia
 - PDG
-- réseaux professionnels
-- gestion des ressources
-- collaborations industrielles
+- Veolia
+- dirigeant
+- réseau d'influence
+- entreprises multinationales
 nationality: français
 occupation: chef d'entreprise
-summary: Antoine Frérot est le PDG de Veolia, une entreprise leader dans la gestion
-  optimisée des ressources à l'échelle mondiale. Il a développé un réseau professionnel
-  influent grâce à des collaborations avec des figures majeures du monde des affaires
-  et de la politique.
+summary: Antoine Frérot est un dirigeant d'entreprise français, actuellement PDG de
+  Veolia, un groupe spécialisé dans la gestion des ressources. Son parcours est marqué
+  par des collaborations avec des figures influentes du monde des affaires et de la
+  politique.
 type: Personne
 website: null
 wikipedia_enriched: true

@@ -4,15 +4,15 @@ birth_place: Neuilly-sur-Seine, France
 education: Normalien, énarque
 keywords:
 - politique
-- économie
 - ministre
 - Macron
+- économie
 - finances
 nationality: française
 occupation: homme politique, écrivain
 summary: Bruno Le Maire est un homme politique français, actuellement ministre de
-  l’Économie, des Finances et de la Relance. Proche d'Emmanuel Macron, il entretient
-  des liens avec des institutions financières et des figures politiques influentes.
+  l'Économie, des Finances et de la Relance. Il est une figure clé du gouvernement
+  Macron, avec des liens étroits dans les sphères politiques et financières.
 type: Personne
 website: null
 wikipedia_enriched: true

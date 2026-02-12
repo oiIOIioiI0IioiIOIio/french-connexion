@@ -3,16 +3,16 @@ birth_date: '1948-01-03'
 birth_place: Strasbourg, France
 education: null
 keywords:
+- conseiller
 - économie
-- conseil
+- banque
 - IRIS
-- Rothschild
-- BNP Paribas
+- géopolitique
 nationality: française
 occupation: homme politique
-summary: Francis Wurtz est un professionnel du secteur économique et membre du conseil
-  d’administration de l'IRIS. Il exerce également des fonctions de conseil pour des
-  entreprises majeures comme Rothschild et BNP Paribas.
+summary: Francis Wurtz est un professionnel du secteur économique, membre du conseil
+  d’administration de l'IRIS et consultant pour des entreprises majeures comme Rothschild
+  et BNP Paribas. Son expertise couvre les domaines bancaire et géopolitique.
 type: Personne
 website: null
 wikipedia_enriched: true

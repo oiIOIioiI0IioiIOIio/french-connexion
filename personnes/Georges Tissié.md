@@ -4,10 +4,11 @@ keywords:
 - BRED
 - Horaces
 - CAP économie
-- Marine Le Pen
-summary: Georges Tissié est un permanent de la Confédération des PME (CPME) et président
-  du conseil d’administration de la BRED. Il a également été membre des Horaces et
-  a collaboré avec le CAP économie, combinant engagements officieux et officiels.
+- réseaux d'influence
+summary: Georges Tissié est un acteur influent dans les milieux économiques et politiques
+  français, notamment en tant que permanent de la CPME et président du conseil d’administration
+  de la BRED. Il est également membre de cercles d’influence comme les Horaces et
+  le CAP économie.
 type: Personne
 ---
 

@@ -2,14 +2,12 @@
 keywords:
 - dirigeant
 - entreprise
-- ingénierie
-- cosmétique
-- réseaux professionnels
-summary: Daniel Guillermin est un dirigeant d'entreprise français né en 1954, ayant
-  occupé des postes clés dans des groupes internationaux comme Spie Batignolles, Yves
-  Rocher, Bolloré Technologies et Shiseido. Il est actuellement président-directeur
-  général de Shiseido International France et s'implique dans plusieurs organisations
-  professionnelles et associatives.
+- ingénieur
+- Shiseido
+- carrière
+summary: Daniel Guillermin est un dirigeant d'entreprise français, président-directeur
+  général de Shiseido International France. Il a occupé des postes clés dans plusieurs
+  groupes industriels et est membre de divers cercles professionnels et associatifs.
 type: Personne
 ---
 

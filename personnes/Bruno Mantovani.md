@@ -7,13 +7,13 @@ keywords:
 - chef d'orchestre
 - musique contemporaine
 - Conservatoire de Paris
-- France
+- culture
 nationality: française
 occupation: compositeur, chef d'orchestre
 summary: Bruno Mantovani est un compositeur et chef d'orchestre français reconnu pour
-  ses œuvres contemporaines. Il a occupé des postes prestigieux dans le domaine musical,
-  notamment en tant que directeur du Conservatoire national supérieur de musique et
-  de danse de Paris.
+  ses contributions majeures à la musique contemporaine. Il a occupé des postes prestigieux,
+  notamment celui de directeur du Conservatoire national supérieur de musique et de
+  danse de Paris.
 type: Personne
 website: null
 wikipedia_enriched: true

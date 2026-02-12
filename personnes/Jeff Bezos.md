@@ -5,15 +5,14 @@ education: null
 keywords:
 - entrepreneur
 - Amazon
+- PDG
+- Washington Post
 - Blue Origin
-- technologie
-- commerce électronique
 nationality: américain
 occupation: entrepreneur, industriel, propriétaire de médias, milliardaire
-summary: Jeff Bezos est un entrepreneur et homme d'affaires américain, fondateur d'Amazon,
-  l'une des plus grandes entreprises de commerce électronique au monde. Il a également
-  fondé Blue Origin, une société aérospatiale, et est connu pour ses investissements
-  dans divers secteurs technologiques et médiatiques.
+summary: Jeff Bezos est un entrepreneur et homme d'affaires américain, fondateur et
+  ancien PDG d'Amazon. Il est également propriétaire du Washington Post et de l'entreprise
+  aérospatiale Blue Origin.
 type: Personne
 website: null
 wikipedia_enriched: true

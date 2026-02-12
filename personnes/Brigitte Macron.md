@@ -3,11 +3,11 @@ birth_date: '1953-04-13'
 birth_place: Amiens, France
 education: null
 keywords:
-- Brigitte Macron
+- personnalité
 - Première dame
-- Éducation
-- Engagement social
-- France
+- éducation
+- engagement
+- politique
 nationality: Française
 occupation: Professeure de lettres, Première dame de France
 summary: Brigitte Macron est une personnalité publique française, connue pour être

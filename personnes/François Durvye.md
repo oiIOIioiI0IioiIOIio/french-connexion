@@ -1,14 +1,13 @@
 ---
 keywords:
+- Polytechnique
 - capital-risque
-- stratégie
-- conservatisme
-- Rassemblement National
 - Otium Capital
-summary: François Durvye est un dirigeant et économiste français, Directeur Général
-  d'Otium Capital, le family office de Pierre-Édouard Stérin. Il joue un rôle clé
-  dans les sphères économiques et politiques, notamment en tant qu'intermédiaire entre
-  le monde des affaires et l'extrême droite française.
+- Rassemblement National
+- Périclès
+summary: François Durvye est un haut dirigeant et économiste français, directeur général
+  du family office Otium Capital. Il joue un rôle clé dans les réseaux d'influence
+  politique, notamment en lien avec le Rassemblement National et le projet Périclès.
 type: Personne
 ---
 

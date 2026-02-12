@@ -5,14 +5,14 @@ education: null
 keywords:
 - politique
 - Premier ministre
+- conseil d’administration
 - IRIS
-- François Hollande
-- Nicolas Sarkozy
+- réseau d’influence
 nationality: Française, Espagnole
 occupation: Homme d'État
-summary: Manuel Valls est un homme politique français, ancien Premier ministre et
-  membre du conseil d’administration de l'IRIS. Il entretient des relations avec des
-  figures politiques majeures comme François Hollande et Nicolas Sarkozy.
+summary: Manuel Valls est une personnalité politique française, ancien Premier ministre
+  et actuellement membre du conseil d’administration de l'IRIS. Il entretient des
+  liens étroits avec des figures majeures de la vie politique française.
 type: Personne
 website: null
 wikipedia_enriched: true

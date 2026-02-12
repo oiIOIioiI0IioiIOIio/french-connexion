@@ -1,13 +1,13 @@
 ---
 keywords:
-- Jean Arnault
+- famille Arnault
 - LVMH
 - gouvernance
 - stratégie
-- héritage familial
-summary: Jean Arnault est un membre influent de la famille Arnault, impliqué dans
-  la gouvernance et la stratégie du groupe LVMH. Il contribue à la préservation et
-  au développement de l'héritage familial au sein de ce conglomérat du luxe.
+- héritage
+summary: Jean Arnault est un membre de la famille Arnault, impliqué dans la gouvernance
+  et la stratégie du groupe LVMH. Il contribue à la pérennité de l'héritage familial
+  au sein de ce conglomérat du luxe.
 type: Personne
 ---
 

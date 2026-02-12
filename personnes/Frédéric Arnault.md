@@ -3,16 +3,16 @@ birth_date: '1994-11-07'
 birth_place: null
 education: null
 keywords:
-- Frédéric Arnault
 - LVMH
 - stratégie digitale
 - innovation
+- famille Arnault
 - luxe
 nationality: français
 occupation: homme d'affaires
-summary: Frédéric Arnault est le fils de Bernard Arnault et Hélène Mercier, et il
-  occupe un poste clé dans la transformation numérique du groupe LVMH. Il supervise
-  la stratégie digitale et l'innovation au sein de ce conglomérat du luxe.
+summary: Frédéric Arnault est un dirigeant et membre de la famille Arnault, connu
+  pour son rôle dans la transformation numérique du groupe LVMH. Il supervise la stratégie
+  digitale et l'innovation au sein du conglomérat de luxe.
 type: Personne
 website: null
 wikipedia_enriched: true

@@ -15,10 +15,10 @@ occupation:
 - haute fonctionnaire
 - directrice générale du Fonds monétaire international
 - présidente de la Banque centrale européenne
-summary: Christine Lagarde est une figure majeure de la finance internationale, actuellement
-  présidente de la Banque centrale européenne après avoir dirigé le FMI. Elle est
-  reconnue pour son influence dans les politiques économiques européennes et ses connexions
-  avec les institutions financières mondiales.
+summary: Christine Lagarde est une personnalité politique et économique française,
+  actuellement présidente de la Banque centrale européenne. Elle a précédemment occupé
+  le poste de directrice générale du FMI et entretient des liens étroits avec les
+  réseaux financiers internationaux.
 type: Personne
 website: null
 wikipedia_enriched: true

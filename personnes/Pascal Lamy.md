@@ -3,17 +3,17 @@ birth_date: '1947-04-08'
 birth_place: Levallois-Perret, France
 education: null
 keywords:
-- Pascal Lamy
+- diplomatie
+- économie
 - OMC
-- négociations internationales
-- économie mondiale
 - IRIS
+- négociations internationales
 nationality: française
 occupation: haut fonctionnaire, homme politique
-summary: Pascal Lamy est une figure majeure des relations économiques internationales,
-  ayant occupé des postes clés comme Directeur Général de l'Organisation Mondiale
-  du Commerce. Il est reconnu pour son influence dans les négociations globales et
-  ses liens avec les leaders économiques mondiaux.
+summary: Pascal Lamy est une personnalité influente dans les sphères économiques et
+  politiques internationales, ayant occupé des postes clés comme Directeur Général
+  de l'OMC. Il est également engagé dans des think tanks et réseaux d'influence, notamment
+  en tant que président d'honneur de l'IRIS.
 type: Personne
 website: null
 wikipedia_enriched: true

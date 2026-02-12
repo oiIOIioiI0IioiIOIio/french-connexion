@@ -1,14 +1,13 @@
 ---
 keywords:
 - administrateur
-- industrie du tabac
-- École polytechnique
-- Bolloré
-- Imperial Tobacco
-summary: Pierre Louis Imbert est un administrateur et dirigeant français spécialisé
-  dans l'industrie du tabac, ayant occupé des postes clés dans des groupes comme Seita,
-  Bolloré et Imperial Tobacco. Diplômé de l'École polytechnique, il a marqué le secteur
-  par sa carrière internationale et ses responsabilités stratégiques.
+- dirigeant
+- tabac
+- Polytechnique
+- industrie
+summary: Pierre Louis Imbert est un administrateur et dirigeant d'entreprises spécialisé
+  dans le secteur du tabac. Il a occupé des postes clés dans des groupes comme Bolloré,
+  Imperial Tobacco et Tobaccor.
 type: Personne
 ---
 

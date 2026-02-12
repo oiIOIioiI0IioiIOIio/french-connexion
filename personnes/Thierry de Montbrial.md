@@ -12,7 +12,7 @@ nationality: français
 occupation: économiste, géopolitologue
 summary: Thierry de Montbrial est un expert en relations internationales, fondateur
   et président de l'IFRI. Il entretient des liens étroits avec des dirigeants politiques
-  et des entreprises majeures, tout en participant activement à des conférences internationales.
+  et des entreprises majeures, tout en participant à des conférences internationales.
 type: Personne
 website: null
 wikipedia_enriched: true

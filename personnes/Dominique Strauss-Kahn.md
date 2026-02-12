@@ -6,14 +6,14 @@ keywords:
 - économiste
 - FMI
 - politique
-- institutions internationales
+- réseau international
 - Institut Montaigne
 nationality: française
 occupation: économiste, homme politique, haut fonctionnaire international
-summary: Dominique Strauss-Kahn est un économiste et homme politique français, connu
-  pour avoir dirigé le FMI et collaboré avec des institutions internationales majeures.
-  Il entretient des relations avec des personnalités influentes comme Christine Lagarde
-  et est associé à l'Institut Montaigne.
+summary: Dominique Strauss-Kahn est un économiste et homme politique français, ancien
+  directeur général du FMI et collaborateur de think tanks comme l'Institut Montaigne.
+  Il entretient un réseau d'influence marqué par ses connexions avec des institutions
+  internationales et des personnalités politiques.
 type: Personne
 website: null
 wikipedia_enriched: true

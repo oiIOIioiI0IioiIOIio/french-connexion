@@ -2,12 +2,12 @@
 keywords:
 - Rothschild
 - famille
-- banque
+- héritage
 - finance
-- Europe
-summary: Minna Caroline von Rothschild est une membre éminente de la célèbre famille
-  Rothschild, connue pour son influence dans les domaines bancaire et financier. Son
-  héritage s'inscrit dans l'histoire économique et sociale européenne.
+- dynastie
+summary: Minna Caroline von Rothschild est une membre de la célèbre famille Rothschild,
+  connue pour son influence dans les sphères financières et économiques. Elle incarne
+  l'héritage d'une dynastie historique aux ramifications internationales.
 type: Personne
 ---
 

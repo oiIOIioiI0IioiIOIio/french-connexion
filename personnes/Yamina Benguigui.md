@@ -6,16 +6,15 @@ keywords:
 - cinéma
 - productrice
 - politique
-- Francophonie
-- identité
+- femme
+- engagement
 nationality: française
 occupation:
 - réalisatrice
 - femme politique
-summary: Yamina Benguigui est une réalisatrice et productrice de cinéma française
-  connue pour ses œuvres explorant les questions d'identité et d'intégration. Elle
-  a également exercé des fonctions politiques, notamment en tant que ministre déléguée
-  chargée de la Francophonie.
+summary: Yamina Benguigui est une personnalité connue pour son travail dans le cinéma
+  en tant que productrice et pour son engagement en politique. Elle a marqué les domaines
+  culturel et public en France.
 type: Personne
 website: null
 wikipedia_enriched: true

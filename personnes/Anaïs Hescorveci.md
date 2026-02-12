@@ -1,12 +1,12 @@
 ---
 keywords:
 - individu
-- identité
-- recherche
-- biographie
-- profession
-summary: Anaïs Hescorveci est une figure dont les détails biographiques ou professionnels
-  ne sont pas précisés dans le document. Son nom suggère une possible identité individuelle
-  nécessitant des recherches complémentaires pour en définir le rôle exact.
+- personnalité
+- parcours
+- influence
+- humain
+summary: Anaïs Hescorveci est une personnalité individuelle dont la fiche suggère
+  une description liée à son parcours ou son influence. Son profil semble relever
+  d'un acteur humain plutôt que d'une organisation ou structure collective.
 type: Personne
 ---

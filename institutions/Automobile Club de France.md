@@ -3,15 +3,15 @@ founded: '1895-11-12'
 headquarters: Paris, France
 industry: Automobile club
 keywords:
+- association
 - automobile
-- club
-- France
-- sport mécanique
-- histoire
-summary: L'Automobile Club de France est une association fondée en 1895 pour promouvoir
-  l'industrie automobile et organiser des événements liés à la course et à la mobilité.
-  Il joue un rôle historique dans le développement des sports mécaniques et des infrastructures
-  routières en France.
+- cercle
+- historique
+- influence
+summary: L'Automobile Club de France est une association privée historique fondée
+  en 1895, dédiée à la promotion de l'automobile et à l'organisation d'événements
+  liés à ce secteur. Il s'agit d'un cercle influent regroupant des personnalités du
+  monde automobile, industriel et politique.
 type: Institution
 wikipedia_enriched: true
 ---

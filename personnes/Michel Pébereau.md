@@ -4,15 +4,15 @@ birth_place: Paris, France
 education: null
 keywords:
 - banque
-- dirigeant
-- BNP Paribas
 - finance
-- président
+- BNP Paribas
+- dirigeant
+- économie
 nationality: français
 occupation: haut fonctionnaire, dirigeant d'entreprise
-summary: Michel Pébereau est un haut dirigeant français connu pour avoir présidé BNP
-  Paribas. Il a joué un rôle clé dans le développement et la consolidation du secteur
-  bancaire en France.
+summary: Michel Pébereau est une personnalité du monde bancaire et financier français,
+  connu pour avoir dirigé BNP Paribas. Il a marqué le secteur par son leadership et
+  ses réformes stratégiques.
 type: Personne
 website: null
 wikipedia_enriched: true

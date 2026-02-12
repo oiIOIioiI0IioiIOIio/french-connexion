@@ -1,14 +1,14 @@
 ---
 keywords:
+- dirigeant
 - énergie
 - pétrole
-- dirigeant
-- économie
-- associations professionnelles
-summary: Pacifique Le Clère est un dirigeant français né en 1944, spécialisé dans
-  le secteur de l'énergie et des carburants. Il a occupé des postes clés dans des
-  entreprises comme Shell, Elf Aquitaine et Bolloré Energie, tout en s'engageant dans
-  des associations professionnelles et locales.
+- carrière
+- maire
+summary: Pacifique Le Clère est un dirigeant d'entreprises spécialisé dans le secteur
+  de l'énergie et des carburants, ayant occupé des postes clés dans des groupes comme
+  Shell, Elf Aquitaine et Bolloré Energie. Il cumule également des mandats politiques
+  locaux et des engagements associatifs.
 type: Personne
 ---
 

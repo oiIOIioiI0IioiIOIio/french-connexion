@@ -3,16 +3,16 @@ birth_date: '1949-03-05'
 birth_place: Roubaix, France
 education: null
 keywords:
+- homme d'affaires
 - LVMH
 - luxe
 - fortune
-- entrepreneur
-- France
+- PDG
 nationality: française
 occupation: entrepreneur, chef d'entreprise, propriétaire de médias, milliardaire
 summary: Bernard Arnault est un homme d'affaires français, PDG de LVMH, le premier
-  groupe mondial du luxe. Sa fortune est estimée à plus de 180 milliards de dollars,
-  faisant de lui l'une des personnes les plus riches au monde.
+  groupe mondial du luxe. Il figure parmi les personnes les plus riches du monde avec
+  une fortune dépassant 180 milliards de dollars.
 type: Personne
 website: null
 wikipedia_enriched: true

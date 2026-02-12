@@ -3,16 +3,16 @@ birth_date: '1940-06-25'
 birth_place: null
 education: null
 keywords:
+- expert
 - défense
 - sécurité
 - IFRI
-- Ministère de la Défense
 - Dassault Aviation
 nationality: null
 occupation: professeur émérite, délégué général
-summary: Jean-Pierre Boisivon est un expert reconnu en défense et sécurité, actif
-  au sein de l'IFRI. Il travaille en étroite collaboration avec des institutions publiques
-  et des entreprises du secteur de la défense.
+summary: Jean-Pierre Boisivon est un expert en défense et sécurité, actif au sein
+  de l'IFRI et collaborant avec des institutions publiques et des entreprises du secteur.
+  Ses travaux portent sur les enjeux stratégiques et les partenariats industriels.
 type: Personne
 website: null
 wikipedia_enriched: true

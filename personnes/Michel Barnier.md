@@ -4,16 +4,15 @@ birth_place: La Tronche, France
 education: null
 keywords:
 - politique
+- diplomatie
 - Union européenne
 - négociations
 - IRIS
-- international
 nationality: française
 occupation: homme d'État, Premier ministre, négociateur en chef du Brexit
-summary: Michel Barnier est un homme politique français, ancien négociateur en chef
-  pour l'Union européenne et membre consultatif de l'IRIS. Il est reconnu pour son
-  expertise en négociations internationales et ses relations avec les institutions
-  européennes.
+summary: Michel Barnier est une personnalité politique française, ancien négociateur
+  en chef pour l'Union européenne et membre consultatif de l'IRIS. Il est reconnu
+  pour son expertise en diplomatie et ses relations avec les institutions européennes.
 type: Personne
 website: null
 wikipedia_enriched: true

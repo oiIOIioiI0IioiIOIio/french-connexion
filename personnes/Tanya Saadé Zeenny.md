@@ -1,14 +1,14 @@
 ---
 keywords:
-- CMA CGM
 - dirigeante
+- CMA CGM
+- famille Saadé
+- philanthropie
 - entreprise familiale
-- fondation
-- expansion
-summary: Tanya Saadé Zeenny est une dirigeante influente au sein du groupe CMA CGM,
-  où elle occupe le poste de directrice générale déléguée. Elle préside également
-  la fondation CMA CGM, jouant un rôle clé dans le développement et la réputation
-  de l'entreprise familiale.
+summary: Tanya Saadé Zeenny est une dirigeante d'entreprise et membre influente de
+  la famille Saadé, jouant un rôle clé dans la gestion du groupe CMA CGM. Elle préside
+  également la fondation du groupe, renforçant son engagement dans les domaines philanthropiques
+  et stratégiques.
 type: Personne
 ---
 

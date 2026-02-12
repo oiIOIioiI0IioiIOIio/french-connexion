@@ -1,14 +1,14 @@
 ---
 keywords:
 - KPMG
+- consultante
 - stratégie
 - vente au détail
-- consommation
 - leadership
-summary: Stacy Nahas est une associée chez KPMG LLP à Dallas, où elle occupe le rôle
-  de leader national des opérations pour la croissance et la stratégie. Elle cumule
-  plus de 30 ans d'expérience dans le conseil aux entreprises des secteurs de la vente
-  au détail et de la consommation.
+summary: Stacy Nahas est une associée chez KPMG, spécialisée dans les stratégies de
+  croissance pour les entreprises des secteurs de la vente au détail et de la consommation.
+  Elle cumule plus de 30 ans d'expérience dans le conseil et occupe un rôle de leader
+  national au sein du cabinet.
 type: Personne
 ---
 

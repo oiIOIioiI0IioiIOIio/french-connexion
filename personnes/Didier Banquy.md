@@ -1,14 +1,15 @@
 ---
 keywords:
-- administrateur civil
-- budget
 - haut fonctionnaire
 - ENA
-- finances publiques
-summary: Didier Banquy est un haut fonctionnaire français né en 1952, spécialisé dans
-  la gestion budgétaire et administrative. Il a occupé des postes clés au sein de
-  l'État, notamment comme directeur de cabinet et secrétaire général d'institutions
-  financières.
+- administrateur civil
+- budget
+- CNCE
+summary: Didier Banquy est un haut fonctionnaire français, diplômé de l'ENA et de
+  Sciences Po, ayant occupé des postes clés dans l'administration publique et des
+  entreprises publiques comme la CNCE et le PMU. Sa carrière inclut des fonctions
+  politiques et administratives, notamment auprès de Nicolas Sarkozy et Dominique
+  Bussereau.
 type: Personne
 ---
 

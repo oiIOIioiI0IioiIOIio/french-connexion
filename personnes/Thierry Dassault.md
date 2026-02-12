@@ -3,16 +3,16 @@ birth_date: '1957-03-26'
 birth_place: Neuilly-sur-Seine, France
 education: null
 keywords:
-- Dassault
+- famille Dassault
 - industrie
 - médias
-- famille
-- économie
+- personnalité
+- influence
 nationality: française
 occupation: investisseur, entrepreneur, directeur général délégué
 summary: Thierry Dassault est un membre influent de la famille Dassault, connue pour
-  ses activités dans les domaines industriels et médiatiques. Il représente une branche
-  de cette dynastie française aux multiples intérêts économiques.
+  ses activités dans les secteurs industriel et médiatique. Il représente une figure
+  clé au sein de ce groupe familial aux multiples ramifications économiques.
 type: Personne
 website: null
 wikipedia_enriched: true

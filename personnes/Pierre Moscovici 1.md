@@ -1,14 +1,14 @@
 ---
 keywords:
 - politique
-- France
-- Affaires européennes
-- Économie
+- ministre
+- commissaire européen
 - Cour des comptes
-summary: Pierre Moscovici est un homme politique français né en 1957, diplômé de Sciences
-  Po Paris et de l'ENA. Il a occupé plusieurs postes ministériels et européens, notamment
-  comme Commissaire européen aux Affaires économiques et monétaires, avant de devenir
-  Premier président de la Cour des comptes.
+- ENA
+summary: Pierre Moscovici est un homme politique français, ancien ministre et commissaire
+  européen, actuellement premier président de la Cour des comptes. Diplômé de Sciences
+  Po et de l'ENA, il a occupé plusieurs postes clés dans les institutions françaises
+  et européennes.
 type: Personne
 ---
 

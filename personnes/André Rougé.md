@@ -4,17 +4,16 @@ birth_place: Paris, France
 education: null
 keywords:
 - conseiller politique
-- Marine Le Pen
 - Bouygues Construction
+- Marine Le Pen
 - Horaces
-- pseudonyme
+- hauts fonctionnaires
 nationality: française
 occupation: homme politique
-summary: André Rougé est un ancien directeur des relations extérieures chez Bouygues
-  Construction et collaborateur de Michel Debré, connu pour son rôle discret de conseiller
-  sous pseudonyme lors de la campagne de Marine Le Pen. Il a également été impliqué
-  dans un cercle influent de hauts fonctionnaires, les Horaces, où il aurait occupé
-  une position centrale.
+summary: André Rougé est un haut cadre ayant travaillé dans le secteur privé et joué
+  un rôle discret dans la sphère politique, notamment comme conseiller de Marine Le
+  Pen. Son parcours inclut des fonctions dans le groupe Bouygues et une implication
+  dans des cercles d'influence comme les Horaces.
 type: Personne
 website: null
 wikipedia_enriched: true

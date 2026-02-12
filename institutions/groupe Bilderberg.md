@@ -3,15 +3,15 @@ founded: mai 1954
 headquarters: Leyde, Pays-Bas
 industry: Diplomatie, affaires, politique, médias
 keywords:
-- conférence
+- cercle
+- influence
 - élites
+- conférence
 - géopolitique
-- secret
-- réseau
-summary: Le groupe Bilderberg est une conférence annuelle informelle réunissant des
-  personnalités influentes du monde politique, économique et médiatique. Son objectif
-  est de favoriser le dialogue et les échanges sur des enjeux globaux, mais son opacité
-  suscite des théories conspirationnistes.
+summary: Le groupe Bilderberg est un rassemblement informel et annuel d'influenceurs
+  internationaux, incluant des personnalités politiques, économiques et médiatiques.
+  Il est souvent associé à des théories conspirationnistes en raison de son caractère
+  discret et de son rôle dans les discussions géopolitiques.
 type: Institution
 wikipedia_enriched: true
 ---

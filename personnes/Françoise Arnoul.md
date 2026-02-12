@@ -4,14 +4,14 @@ birth_place: Constantine, Algérie française
 keywords:
 - actrice
 - cinéma
+- culture
 - Bernard Pivot
 - décès
-- mémoire
 nationality: française
 occupation: actrice
 summary: Françoise Arnoul était une actrice française emblématique, connue pour ses
-  rôles au cinéma et sa proximité avec des personnalités culturelles. Son décès en
-  2021 a ému son ami Bernard Pivot, qui a partagé des souvenirs marquants à son sujet.
+  rôles au cinéma et ses relations dans le milieu culturel. Son amitié avec Bernard
+  Pivot a été mise en lumière à travers les hommages rendus après son décès en 2021.
 type: Personne
 wikipedia_enriched: true
 ---

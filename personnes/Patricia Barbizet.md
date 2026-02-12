@@ -7,12 +7,12 @@ keywords:
 - Artemis
 - Christie's
 - entreprise
-- management
+- influence
 nationality: française
 occupation: personnalité du monde des affaires
-summary: Patricia Barbizet est une dirigeante française connue pour avoir été directrice
-  générale du groupe Artemis. Elle a également occupé des fonctions clés, notamment
-  la présidence de la maison de ventes aux enchères Christie's.
+summary: Patricia Barbizet est une dirigeante française, connue pour avoir été directrice
+  générale du groupe Artemis et présidente de Christie's. Elle a joué un rôle clé
+  dans le développement d'entreprises liées à l'art et aux investissements.
 type: Personne
 website: null
 wikipedia_enriched: true

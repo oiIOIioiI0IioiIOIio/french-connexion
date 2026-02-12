@@ -3,15 +3,15 @@ birth_date: '1947-09-29'
 birth_place: Rennes, France
 keywords:
 - chef
-- cuisine
+- cuisinier
 - gastronomie
 - L'Ambroisie
-- étoilé
+- restaurant
 nationality: Française
 occupation: Chef cuisinier
 summary: Bernard Pacaud est un chef cuisinier français renommé, célèbre pour son restaurant
-  triplement étoilé L'Ambroisie à Paris. Il est reconnu pour son excellence culinaire
-  et son influence dans la gastronomie française.
+  triplement étoilé L'Ambroisie à Paris. Il est une figure emblématique de la gastronomie
+  française et a marqué l'histoire culinaire par son excellence et son savoir-faire.
 type: Personne
 wikipedia_enriched: true
 ---

@@ -5,13 +5,14 @@ keywords:
 - chanteuse
 - mannequin
 - Première Dame
-- relations notables
-- carrière artistique
+- artiste
+- relations médiatiques
 nationality: italo-française
 occupation: mannequin, auteure-compositrice-interprète
 summary: Carla Bruni est une chanteuse, mannequin et ancienne Première Dame de France,
-  née en Italie en 1967. Elle est connue pour sa carrière artistique et ses relations
-  avec des personnalités médiatiques et politiques.
+  connue pour sa carrière artistique et ses relations avec des personnalités influentes.
+  Elle a épousé Nicolas Sarkozy en 2008 et a marqué la scène culturelle française
+  et internationale.
 type: Personne
 wikipedia_enriched: true
 ---

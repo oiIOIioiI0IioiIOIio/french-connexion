@@ -4,15 +4,15 @@ birth_place: Athènes, Grèce
 education: null
 keywords:
 - historienne
-- Empire byzantin
-- médiévale
-- académique
-- Grèce
+- byzantiniste
+- académicienne
+- chercheuse
+- universitaire
 nationality: grecque, française
 occupation: médiéviste, universitaire
-summary: Hélène Ahrweiler est une historienne renommée, spécialisée dans l'étude de
-  l'Empire byzantin et de l'histoire médiévale. Elle a également occupé des fonctions
-  académiques et administratives prestigieuses en France et en Grèce.
+summary: Hélène Ahrweiler est une historienne française de renom, spécialisée dans
+  l'histoire byzantine. Elle a également occupé des fonctions académiques et administratives
+  prestigieuses en France et en Europe.
 type: Personne
 website: null
 wikipedia_enriched: true

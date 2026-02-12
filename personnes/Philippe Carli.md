@@ -4,16 +4,15 @@ birth_place: null
 education: null
 keywords:
 - ingénieur
+- dirigeant
 - médias
 - Crédit mutuel
 - EBRA
-- démission
 nationality: français
 occupation: dirigeant d'entreprise
-summary: Philippe Carli est un ingénieur français diplômé de l'École supérieure d'électricité,
-  ayant occupé le poste de président du groupe EBRA, pôle presse du Crédit mutuel,
-  de 2017 à 2025. Il a démissionné suite à des révélations sur ses interactions en
-  ligne avec des comptes d'extrême droite.
+summary: Philippe Carli est un ingénieur et dirigeant français, ancien président du
+  groupe EBRA, pôle presse du Crédit mutuel. Il a démissionné en 2025 après des révélations
+  sur ses liens présumés avec l'extrême droite.
 type: Personne
 website: null
 wikipedia_enriched: true

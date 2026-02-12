@@ -1,13 +1,13 @@
 ---
 keywords:
-- Manuela Erdödy
-- Arnaud Lagardère
-- Alexandre Lagardère
-- Emery Lagardère
+- épouse
+- famille
+- Lagardère
+- personnalité
 - mariage
-summary: Manuela Erdödy est connue pour avoir été la première épouse d'Arnaud Lagardère,
-  avec qui elle a été mariée de 1992 à 2010. Elle est également la mère de deux enfants,
-  Alexandre et Emery Lagardère.
+summary: Manuela Erdödy est une personnalité connue pour avoir été l'épouse d'Arnaud
+  Lagardère et la mère de ses deux enfants. Son parcours est principalement lié à
+  la sphère familiale du groupe Lagardère.
 type: Personne
 ---
 

@@ -3,16 +3,16 @@ birth_date: '1977-12-21'
 birth_place: Amiens, France
 education: École nationale d'administration (ENA)
 keywords:
-- président
-- France
+- Président
 - politique
 - La République En Marche
 - Rothschild
+- Élysée
 nationality: française
 occupation: homme d'État, président de la République française
-summary: Emmanuel Macron est le président de la République française, élu en 2017
-  et réélu en 2022. Il est associé au mouvement politique La République En Marche
-  et entretient des relations avec des élites politiques, médiatiques et économiques.
+summary: Emmanuel Macron est une personnalité politique française, actuellement Président
+  de la République. Il est associé au mouvement La République En Marche et entretient
+  des liens avec des cercles économiques et médiatiques influents.
 type: Personne
 website: null
 wikipedia_enriched: true

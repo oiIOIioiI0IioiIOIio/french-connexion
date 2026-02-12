@@ -2,12 +2,13 @@
 keywords:
 - Rothschild
 - famille
+- personnalité
 - finance
-- banque
-- héritage
-summary: Kate Emma Rothschild est un membre de la célèbre famille Rothschild, connue
-  pour son influence dans les domaines de la finance et de la banque. Son héritage
-  familial est marqué par une longue histoire de pouvoir économique et politique.
+- dynastie
+summary: Kate Emma Rothschild est une personnalité appartenant à la célèbre famille
+  Rothschild, connue pour son influence dans les milieux financiers et économiques.
+  Son affiliation familiale en fait une figure notable dans l'histoire des dynasties
+  européennes.
 type: Personne
 ---
 

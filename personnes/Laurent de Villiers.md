@@ -1,13 +1,13 @@
 ---
 keywords:
-- Laurent de Villiers
-- abus sexuels
-- famille
+- individu
+- auteur
 - témoignage
-- reconstruction
-summary: Laurent de Villiers, né en 1984, est connu pour avoir dénoncé des abus sexuels
-  commis par son frère aîné et pour avoir partagé son histoire dans un livre. Il a
-  quitté la France pour les États-Unis afin de reconstruire sa vie après ces épreuves.
+- famille
+- abus
+summary: Laurent de Villiers est un individu ayant traversé des épreuves personnelles
+  marquantes, notamment des abus familiaux. Il a partagé son histoire dans un livre
+  et tenté de se reconstruire à l'étranger.
 type: Personne
 ---
 

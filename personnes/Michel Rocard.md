@@ -4,14 +4,13 @@ birth_place: Courbevoie, France
 keywords:
 - politique
 - Premier ministre
-- France
 - Fondapol
+- socialiste
 - homme d'État
 nationality: française
 occupation: homme d'État, Premier ministre, haut fonctionnaire, militant politique
-summary: Michel Rocard était un homme politique français, connu pour avoir été Premier
-  ministre. Il a également été membre consultant de la Fondation pour l'innovation
-  politique (Fondapol).
+summary: Michel Rocard était une personnalité politique française, notamment ancien
+  Premier ministre. Il a également été consultant pour des think tanks comme Fondapol.
 type: Personne
 wikipedia_enriched: true
 ---

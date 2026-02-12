@@ -11,8 +11,9 @@ keywords:
 nationality: française
 occupation: enseignant-chercheur et économiste
 summary: Éric Pichet est un économiste et membre de la Fondation pour l'innovation
-  politique (Fondapol). Il collabore avec des institutions financières majeures et
-  des économistes renommés dans le domaine de l'économie.
+  politique (Fondapol), reconnu pour ses collaborations avec des institutions financières
+  majeures. Il entretient des liens avec des figures influentes du monde économique
+  et académique.
 type: Personne
 website: null
 wikipedia_enriched: true

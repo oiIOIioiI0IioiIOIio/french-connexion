@@ -7,12 +7,12 @@ keywords:
 - Parti socialiste
 - présidentielle
 - ministre
-- France
+- femme politique
 nationality: française
 occupation: haute fonctionnaire, femme politique
-summary: Ségolène Royal est une femme politique française, connue pour son engagement
-  dans le Parti socialiste. Elle a été candidate à l'élection présidentielle de 2007
-  et a occupé plusieurs postes ministériels.
+summary: Ségolène Royal est une femme politique française, figure historique du Parti
+  socialiste. Elle a été candidate à l'élection présidentielle de 2007 et a occupé
+  plusieurs postes ministériels.
 type: Personne
 website: null
 wikipedia_enriched: true

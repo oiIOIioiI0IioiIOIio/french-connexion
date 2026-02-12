@@ -2,13 +2,12 @@
 keywords:
 - audiovisuel
 - culture
-- ENA
-- Arte
 - haut fonctionnaire
+- Arte
+- ENA
 summary: Jérôme Clément est un haut fonctionnaire et dirigeant français, spécialisé
   dans l'audiovisuel et la culture. Il a occupé des postes clés dans des institutions
-  publiques et des chaînes de télévision comme Arte et La Cinquième, tout en étant
-  engagé dans des projets culturels internationaux.
+  publiques et des chaînes de télévision comme Arte France et La Cinquième.
 type: Personne
 ---
 

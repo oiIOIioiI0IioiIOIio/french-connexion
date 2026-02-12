@@ -1,13 +1,13 @@
 ---
 keywords:
-- Amalie Goldschmidt
 - banque
-- Bischoffsheim
-- Goldschmidt
+- famille Goldschmidt
+- famille Bischoffsheim
 - BNP Paribas
-summary: Amalie Goldschmidt était l'épouse de Louis Raphaël Bischoffsheim, un banquier
-  influent. Son mariage a consolidé les alliances entre les familles Goldschmidt et
-  Bischoffsheim, jouant un rôle clé dans la création d'institutions financières majeures.
+- mariage
+summary: Amalie Goldschmidt est une figure historique liée à des familles bancaires
+  influentes du XIXe siècle. Son mariage avec Louis Raphaël Bischoffsheim a contribué
+  à la création d'une banque majeure, ancêtre de BNP Paribas.
 type: Personne
 ---
 

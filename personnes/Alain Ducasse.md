@@ -5,14 +5,14 @@ education: null
 keywords:
 - chef
 - gastronomie
-- restaurants étoilés
-- cuisine française
-- renommée internationale
+- restaurants
+- cuisine
+- étoilé
 nationality: Monégasque
 occupation: Chef cuisinier
-summary: Alain Ducasse est un chef cuisinier français de renommée mondiale, reconnu
-  pour son expertise en gastronomie et ses nombreux restaurants étoilés. Il a contribué
-  à moderniser la cuisine française tout en préservant ses traditions culinaires.
+summary: Alain Ducasse est un chef cuisinier français de renommée mondiale, connu
+  pour ses restaurants étoilés et son influence dans la gastronomie. Il a également
+  développé des activités dans la formation culinaire et l'édition de livres de cuisine.
 type: Personne
 website: null
 wikipedia_enriched: true

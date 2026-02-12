@@ -5,14 +5,15 @@ education: null
 keywords:
 - politique
 - député
-- Pas-de-Calais
 - socialiste
 - Défense nationale
+- collaborateur
 nationality: française
 occupation: homme politique
-summary: Nicolas Bays est un homme politique français né en 1977, originaire du Pas-de-Calais.
-  Il a occupé des fonctions électives et administratives, notamment comme député et
-  vice-président de la commission de la Défense nationale.
+summary: Nicolas Bays est un homme politique français, ancien député du Pas-de-Calais
+  et collaborateur d'élus locaux et européens. Il a occupé des fonctions clés, notamment
+  à la commission de la Défense nationale et comme chef de cabinet de Jean-Michel
+  Blanquer.
 type: Personne
 website: null
 wikipedia_enriched: true

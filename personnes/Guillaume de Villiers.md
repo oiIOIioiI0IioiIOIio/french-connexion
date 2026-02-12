@@ -1,13 +1,13 @@
 ---
 keywords:
-- Guillaume de Villiers
+- personnalité
 - affaire judiciaire
-- abus sexuels
-- non-lieu
 - famille de Villiers
-summary: Guillaume de Villiers, né en 1977, est le fils aîné de Philippe de Villiers.
-  Il a été au cœur d'une affaire judiciaire pour abus sexuels, close par un non-lieu
-  en 2014 faute de preuves suffisantes.
+- non-lieu
+- procédure
+summary: Guillaume de Villiers est une personnalité liée à une affaire judiciaire
+  médiatisée, fils aîné de Philippe de Villiers. Son parcours a été marqué par des
+  accusations d'abus sexuels, closes par un non-lieu en 2014.
 type: Personne
 ---
 

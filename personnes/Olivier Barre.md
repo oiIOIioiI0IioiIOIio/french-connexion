@@ -1,14 +1,14 @@
 ---
 keywords:
-- homme d'affaires
 - haut fonctionnaire
-- secteur bancaire
+- homme d'affaires
+- ENA
+- banque
 - conseil
-- Raymond Barre
-summary: Olivier Barre est un homme d'affaires et haut fonctionnaire français, fils
-  de l'ancien Premier ministre Raymond Barre. Il a occupé des postes clés dans les
-  secteurs bancaire, industriel et du conseil, notamment chez KBL France et Europe
-  Finance et Industrie.
+summary: Olivier Barre est un haut fonctionnaire et homme d'affaires français, diplômé
+  de Sciences Po et de l'ENA. Il a occupé des postes clés dans le secteur bancaire,
+  industriel et du conseil, tout en maintenant des liens avec des groupes influents
+  comme Bolloré.
 type: Personne
 ---
 

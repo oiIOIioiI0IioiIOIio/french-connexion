@@ -6,13 +6,13 @@ keywords:
 - dirigeante
 - Engie
 - énergie
-- management
-- stratégie
+- entreprise
+- leadership
 nationality: française
 occupation: femme d'affaires, directrice générale
-summary: Isabelle Kocher est une dirigeante française connue pour avoir été la directrice
-  générale d'Engie, un groupe énergétique majeur. Elle a marqué le secteur par ses
-  réformes et sa vision stratégique.
+summary: Isabelle Kocher est une dirigeante d'entreprise française, connue pour avoir
+  été directrice générale du groupe Engie. Elle a marqué le secteur de l'énergie par
+  son leadership et ses réformes stratégiques.
 type: Personne
 website: null
 wikipedia_enriched: true

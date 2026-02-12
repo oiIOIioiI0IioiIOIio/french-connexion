@@ -2,16 +2,16 @@
 birth_date: '1952-03-20'
 birth_place: Conflans-Sainte-Honorine, France
 keywords:
-- chef
+- cuisinier
+- restaurant
 - gastronomie
-- cuisine française
-- restaurant étoilé
-- innovation culinaire
+- Paris
+- chef
 nationality: française
 occupation: chef cuisinier
-summary: Jean-Pierre Vigato est un chef cuisinier français reconnu pour son expertise
-  culinaire et ses contributions à la gastronomie. Il est notamment célèbre pour son
-  restaurant étoilé et son approche innovante de la cuisine traditionnelle.
+summary: Jean-Pierre Vigato est un chef cuisinier français renommé, connu pour son
+  restaurant gastronomique parisien. Il incarne une figure emblématique de la haute
+  cuisine française.
 type: Personne
 wikipedia_enriched: true
 ---

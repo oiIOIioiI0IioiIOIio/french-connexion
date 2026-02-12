@@ -3,16 +3,16 @@ birth_date: '1947-01-29'
 birth_place: null
 education: null
 keywords:
-- télécommunications
-- Institut Montaigne
-- Orange
-- innovation
 - dirigeant
+- télécommunications
+- innovation
+- réseaux
+- think tank
 nationality: française
 occupation: haut fonctionnaire
-summary: Jean-Paul Cluzel est un expert en télécommunications et membre de l'Institut
-  Montaigne. Il collabore avec des entreprises comme Orange et contribue à des réflexions
-  sur l'innovation.
+summary: Jean-Paul Cluzel est une personnalité influente, ancien dirigeant dans les
+  télécommunications et membre de l'Institut Montaigne. Il collabore avec des entreprises
+  et des think tanks sur des enjeux d'innovation.
 type: Personne
 website: null
 wikipedia_enriched: true

@@ -1,12 +1,12 @@
 ---
 keywords:
+- militaire
 - général
-- armée
+- chef d'état-major
 - défense
-- France
-- état-major
+- personnalité
 summary: Pierre de Villiers est un général français, ancien chef d'état-major des
-  armées. Il est connu pour son engagement dans la défense nationale et ses prises
-  de position publiques sur les questions militaires.
+  armées. Il est connu pour son rôle militaire et ses prises de position publiques
+  sur la défense nationale.
 type: Personne
 ---

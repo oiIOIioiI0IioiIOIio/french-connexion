@@ -4,16 +4,16 @@ birth_place: null
 education: null
 keywords:
 - économiste
+- macroéconomie
 - MIT
 - Harvard
 - FMI
-- conseil d'orientation
 nationality: français
 occupation: économiste
-summary: Olivier Blanchard est un économiste de renommée internationale, reconnu pour
-  ses contributions académiques et son influence dans les cercles politiques et financiers.
-  Il a occupé des postes prestigieux au MIT, à Harvard et au FMI, tout en conseillant
-  des institutions comme l'IFRI.
+summary: Olivier Blanchard est un économiste de renom, ancien professeur au MIT et
+  à Harvard, spécialisé en macroéconomie. Il est également membre du conseil d’orientation
+  de l’IFRI et a collaboré avec des institutions financières internationales comme
+  le FMI.
 type: Personne
 website: null
 wikipedia_enriched: true

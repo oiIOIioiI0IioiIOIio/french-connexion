@@ -5,12 +5,13 @@ keywords:
 - banque
 - dirigeant
 - Suez
-- Stern
 - Crédit Lyonnais
+- finance
 nationality: française
 occupation: haut fonctionnaire, banquier, dirigeant d'entreprise
-summary: Jean Peyrelevade est un dirigeant français renommé dans le secteur bancaire.
-  Il a occupé des postes clés dans plusieurs grandes institutions financières françaises.
+summary: Jean Peyrelevade est un haut dirigeant français du secteur bancaire, ayant
+  occupé des postes clés dans plusieurs grandes banques. Son parcours inclut la direction
+  d'institutions financières majeures comme Suez, Stern et le Crédit Lyonnais.
 type: Personne
 wikipedia_enriched: true
 ---

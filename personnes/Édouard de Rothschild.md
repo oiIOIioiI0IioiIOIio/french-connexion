@@ -4,14 +4,14 @@ birth_place: Neuilly-sur-Seine, France
 keywords:
 - banquier
 - homme d'affaires
-- Rothschild
 - finance
-- Europe
+- Rothschild
+- famille
 nationality: franco-israélo-américain
 occupation: homme d'affaires
-summary: Édouard de Rothschild est un banquier et homme d'affaires français issu de
-  la célèbre famille Rothschild. Il a joué un rôle significatif dans le secteur financier
-  et les affaires en Europe.
+summary: Édouard de Rothschild est un banquier et homme d'affaires français, membre
+  de la famille Rothschild, connue pour son influence dans le secteur financier. Il
+  a occupé des postes clés dans des institutions bancaires et des entreprises prestigieuses.
 type: Personne
 wikipedia_enriched: true
 ---

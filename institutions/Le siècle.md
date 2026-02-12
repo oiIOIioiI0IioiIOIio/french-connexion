@@ -1,14 +1,13 @@
 ---
 keywords:
+- club
 - réseau
 - élites
 - influence
-- confidentialité
-- France
-summary: Le Siècle est un club influent fondé en 1944, rassemblant des personnalités
-  éminentes des sphères politique, économique, médiatique et culturelle en France.
-  Ses membres, souvent discrets, jouent un rôle clé dans les réseaux de pouvoir et
-  les décisions stratégiques du pays.
+- confidentiel
+summary: Le Siècle est un club privé fondé en 1944, réunissant des élites influentes
+  issues des sphères politique, économique, médiatique et culturelle. Il fonctionne
+  comme un réseau discret d'échanges et d'influence entre ses membres.
 type: Institution
 ---
 

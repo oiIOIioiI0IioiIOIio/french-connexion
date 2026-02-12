@@ -4,15 +4,15 @@ birth_place: Montreuil, France
 keywords:
 - haut fonctionnaire
 - conseiller politique
-- Emmanuel Macron
 - ENA
-- influence
+- Emmanuel Macron
+- Conseil d'État
 nationality: française
 occupation: haut fonctionnaire, lobbyiste, homme politique
-summary: Jean-Pierre Jouyet est un haut fonctionnaire et conseiller politique français,
-  connu pour son influence discrète dans les cercles du pouvoir. Il a occupé des postes
-  clés et collaboré étroitement avec des figures comme Emmanuel Macron et François
-  Hollande.
+summary: Jean-Pierre Jouyet est un haut fonctionnaire et homme politique français,
+  connu pour son rôle clé dans les coulisses du pouvoir et ses liens avec Emmanuel
+  Macron. Ancien secrétaire d'État, il a également été associé à des institutions
+  prestigieuses comme le Conseil d'État et a cofondé un syndicat réformiste à l'ENA.
 type: Personne
 wikipedia_enriched: true
 ---

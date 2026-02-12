@@ -1,13 +1,13 @@
 ---
 keywords:
 - journaliste
+- conseil d'administration
 - IRIS
 - médias
 - débat public
-- conseil d'administration
-summary: Bertrand de la Villardière est un journaliste reconnu, impliqué dans des
-  instances influentes comme l'IRIS. Il contribue régulièrement au débat public via
-  des collaborations avec des médias majeurs tels que TF1 et France 2.
+summary: Bertrand de la Villardière est un journaliste influent et membre du conseil
+  d'administration de l'IRIS. Il contribue régulièrement au débat public via des collaborations
+  avec des médias nationaux.
 type: Personne
 ---
 

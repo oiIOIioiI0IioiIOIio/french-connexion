@@ -10,9 +10,9 @@ keywords:
 - France
 nationality: française
 occupation: femme politique
-summary: Amélie de Montchalin est une femme politique française qui a occupé le poste
-  de ministre de la Transformation et de la Fonction publiques. Elle est connue pour
-  son engagement dans la modernisation de l'administration publique en France.
+summary: Amélie de Montchalin est une personnalité politique française, ayant occupé
+  le poste de ministre de la Transformation et de la Fonction publiques. Elle est
+  connue pour son engagement dans la modernisation de l'administration publique.
 type: Personne
 wikipedia_enriched: true
 ---

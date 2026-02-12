@@ -9,9 +9,9 @@ keywords:
 - Nicolas Sarkozy
 nationality: française
 occupation: homme d'État
-summary: Jean-Marc Ayrault est un homme politique français, ancien Premier ministre
-  et membre consultatif de l'Institut Montaigne. Il est connu pour ses liens avec
-  des figures politiques majeures comme François Hollande et Nicolas Sarkozy.
+summary: Jean-Marc Ayrault est une personnalité politique française, ancien Premier
+  ministre et membre consultatif de l'Institut Montaigne. Il est connu pour ses liens
+  avec des figures majeures de la vie politique française.
 type: Personne
 wikipedia_enriched: true
 ---

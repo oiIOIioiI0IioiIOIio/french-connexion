@@ -1,13 +1,13 @@
 ---
 keywords:
 - dirigeante
+- entreprise
 - Compagnie du Ponant
 - Rodolphe Saadé
-- François-Henri Pinault
-- acquisition
-summary: Véronique Albertini-Saadé est une dirigeante française, connue pour son rôle
-  de numéro deux à la Compagnie du Ponant. Elle a quitté l'entreprise en 2020 après
-  son rachat par la holding de François-Henri Pinault.
+- CMA CGM
+summary: Véronique Albertini-Saadé est une dirigeante d'entreprise, connue pour son
+  rôle de numéro deux à la Compagnie du Ponant. Elle est également l'épouse de Rodolphe
+  Saadé, PDG du groupe CMA CGM.
 type: Personne
 ---
 

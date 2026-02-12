@@ -3,16 +3,17 @@ birth_date: '1977-06-04'
 birth_place: Roubaix, France
 education: null
 keywords:
-- Antoine Arnault
 - LVMH
 - luxe
-- Bernard Arnault
 - gestion
+- famille Arnault
+- innovation
 nationality: française
 occupation: homme d'affaires
-summary: Antoine Arnault est un dirigeant français, fils de Bernard Arnault, et joue
-  un rôle clé dans la gestion et l'innovation des filiales du groupe LVMH. Il contribue
-  activement au développement du secteur du luxe.
+summary: Antoine Arnault est une personnalité influente dans le secteur du luxe, connu
+  pour son rôle dans la gestion et l'innovation au sein du groupe LVMH. Il est le
+  fils de Bernard Arnault, PDG du groupe, et participe activement au développement
+  de ses filiales.
 type: Personne
 website: null
 wikipedia_enriched: true

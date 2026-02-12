@@ -1,12 +1,12 @@
 ---
 keywords:
 - individu
-- identité
+- personnalité
 - biographie
-- contexte
-- recherche
-summary: Hélène Leclerc est une figure dont le nom apparaît dans divers contextes,
-  mais sans détails biographiques précis fournis ici. Son rôle ou ses contributions
-  spécifiques restent à préciser selon le domaine concerné.
+- humain
+- profil
+summary: Hélène Leclerc est une personnalité individuelle, dont la fiche suggère une
+  description liée à une personne physique. Son activité ou son rôle spécifique n'est
+  pas précisé, mais elle relève clairement de la catégorie des individus.
 type: Personne
 ---

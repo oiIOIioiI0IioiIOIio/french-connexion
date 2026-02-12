@@ -2,12 +2,12 @@
 keywords:
 - politique
 - président
-- France
 - UMP
-- Sarkozy
+- Les Républicains
+- ministre
 summary: Nicolas Sarkozy est un homme politique français, ancien président de la République
-  française de 2007 à 2012. Il a également occupé plusieurs postes ministériels et
-  joué un rôle clé dans la vie politique française.
+  française et figure majeure de la droite française. Il a également occupé plusieurs
+  postes ministériels avant et après son mandat présidentiel.
 type: Personne
 ---
 

@@ -3,17 +3,17 @@ birth_date: '1975-01-20'
 birth_place: Londres, Royaume-Uni
 education: null
 keywords:
-- politique
-- Royaume-Uni
+- homme politique
 - Goldsmith
 - Rothschild
-- aristocratie
+- Royaume-Uni
+- réseau d'influence
 nationality: britannique
 occupation: homme politique
 summary: Zac Goldsmith est un homme politique britannique issu d'une famille influente,
-  connu pour ses liens avec les dynasties Goldsmith et Rothschild. Il a occupé des
-  fonctions politiques tout en entretenant des relations familiales marquantes dans
-  les milieux économiques et aristocratiques.
+  lié aux dynasties Goldsmith et Rothschild. Il a occupé des fonctions politiques
+  au Royaume-Uni et est connu pour ses engagements environnementaux et son réseau
+  familial.
 type: Personne
 website: null
 wikipedia_enriched: true

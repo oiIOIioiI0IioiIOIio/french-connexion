@@ -1,13 +1,13 @@
 ---
 keywords:
 - écologiste
-- environnement
-- décroissance
+- écrivain
 - The Ecologist
-- britannique
+- Green Party
+- militant
 summary: Edward 'Teddy' Goldsmith était un écologiste et écrivain britannique, connu
-  pour son engagement en faveur de l'environnement et de la décroissance. Il a cofondé
-  le magazine *The Ecologist* et a été une figure influente dans le mouvement écologiste
-  mondial.
+  pour son engagement en faveur de l'environnement et la fondation du magazine *The
+  Ecologist*. Il a également cofondé le parti politique britannique *Green Party*
+  et milité pour des causes écologistes et anti-mondialisation.
 type: Personne
 ---

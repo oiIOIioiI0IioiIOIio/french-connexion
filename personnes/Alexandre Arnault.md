@@ -4,15 +4,15 @@ birth_place: Neuilly-sur-Seine, France
 education: null
 keywords:
 - LVMH
-- luxe
-- transformation digitale
-- Bernard Arnault
+- luxury
 - dirigeant
+- famille Arnault
+- transformation digitale
 nationality: française
 occupation: homme d'affaires
-summary: Alexandre Arnault est un dirigeant influent au sein de LVMH, contribuant
-  à la stratégie et à la transformation digitale du groupe. Il perpétue l'héritage
-  familial dans l'industrie du luxe en modernisant les marques du conglomérat.
+summary: Alexandre Arnault est un dirigeant et héritier du groupe LVMH, jouant un
+  rôle clé dans la stratégie et la transformation digitale du géant du luxe. Il incarne
+  la nouvelle génération de la famille Arnault à la tête de l'empire familial.
 type: Personne
 website: null
 wikipedia_enriched: true

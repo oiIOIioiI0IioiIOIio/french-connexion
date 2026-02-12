@@ -10,9 +10,9 @@ keywords:
 - stratégie
 nationality: française
 occupation: femme d'affaires
-summary: Delphine Arnault est une cadre dirigeante influente de LVMH, jouant un rôle
-  stratégique dans le développement de plusieurs marques du groupe. Elle est la fille
-  de Bernard Arnault et Hélène Mercier, figures majeures du luxe et des affaires.
+summary: Delphine Arnault est une personnalité influente du secteur du luxe, fille
+  de Bernard Arnault et cadre dirigeante au sein du groupe LVMH. Elle joue un rôle
+  stratégique dans le développement de plusieurs marques emblématiques du groupe.
 type: Personne
 website: null
 wikipedia_enriched: true

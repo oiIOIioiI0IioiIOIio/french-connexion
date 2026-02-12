@@ -6,15 +6,15 @@ education: Normalien, agrégé de lettres
 keywords:
 - politique
 - président
+- Ve République
+- homme d'État
 - France
-- modernisation
-- Trente Glorieuses
 nationality: française
 occupation: haut fonctionnaire, homme d'État, président de la République française,
   Premier ministre
 summary: Georges Pompidou était un homme d'État français, Premier ministre puis président
-  de la République française. Il a marqué la politique française par son rôle dans
-  la modernisation du pays durant les Trente Glorieuses.
+  de la République. Il a marqué la vie politique française par son rôle central sous
+  la Ve République.
 type: Personne
 wikipedia_enriched: true
 ---

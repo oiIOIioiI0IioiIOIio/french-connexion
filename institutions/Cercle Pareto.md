@@ -3,15 +3,16 @@ founded: '1974'
 headquarters: France
 industry: Cercle de réflexion métapolitique
 keywords:
-- Pareto
-- 80/20
-- efficacité
-- productivité
-- analyse
+- club privé
+- réseautage
+- élites
+- influence
+- cercle
 leader: null
-summary: Le Cercle Pareto est un principe issu de la loi de Pareto, aussi connue sous
-  le nom de règle des 80/20. Il met en évidence que 80% des effets sont produits par
-  20% des causes dans divers domaines.
+summary: Le Cercle Pareto est un club privé français réunissant des personnalités
+  influentes issues des milieux économiques, politiques et médiatiques. Il vise à
+  favoriser les échanges et le réseautage entre ses membres dans un cadre discret
+  et élitiste.
 type: Institution
 website: null
 wikipedia_enriched: true

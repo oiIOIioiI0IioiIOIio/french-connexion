@@ -5,15 +5,16 @@ education: null
 keywords:
 - homme d'affaires
 - corporate raider
-- euroscepticisme
-- médias
+- L'Express
+- eurosceptique
 - politique
 nationality: franco-britannique
 occupation: homme d'affaires, homme politique, milliardaire
 summary: James Goldsmith était un homme d'affaires franco-britannique influent, connu
   pour ses activités dans les secteurs alimentaire et pharmaceutique ainsi que pour
-  ses rachats hostiles d'entreprises. Il s'est également engagé en politique, défendant
-  des positions eurosceptiques en France et au Royaume-Uni.
+  ses rachats hostiles d'entreprises. Il s'est également engagé en politique, notamment
+  en fondant le Referendum Party et en menant une liste eurosceptique aux élections
+  européennes de 1994.
 type: Personne
 website: null
 wikipedia_enriched: true

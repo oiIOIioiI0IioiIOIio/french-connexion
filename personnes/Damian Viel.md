@@ -1,13 +1,13 @@
 ---
 keywords:
-- Banijay
 - audiovisuel
 - production
+- Banijay
 - Courbit
-- médias
-summary: Damian Viel est une personnalité associée au groupe Banijay, une entreprise
-  spécialisée dans la production de contenus audiovisuels. Il est lié au groupe Courbit,
-  un acteur majeur dans ce secteur.
+- personnalité
+summary: Damian Viel est une personnalité associée au secteur audiovisuel, notamment
+  en lien avec le groupe Banijay et le groupe Courbit. Son rôle semble lié à la production
+  ou à la direction dans ce domaine.
 type: Personne
 ---
 

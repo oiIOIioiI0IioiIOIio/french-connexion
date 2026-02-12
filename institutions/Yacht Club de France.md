@@ -3,16 +3,15 @@ founded: '1867'
 headquarters: Paris
 industry: Nautisme, navigation de plaisance, organisation de régates
 keywords:
+- club privé
 - navigation
-- prestige
-- régates
 - membres d'honneur
-- histoire maritime
-summary: Fondé en 1867 sous le patronage de Napoléon III, le Yacht Club de France
-  est une institution prestigieuse dédiée à la promotion de la navigation de plaisance
-  et à la transmission de la passion maritime. Il rassemble des membres éminents,
-  organise des événements nautiques et cultive un réseau international de yacht clubs
-  alliés.
+- régates
+- réseau international
+summary: Le Yacht Club de France, fondé en 1867, est un club privé prestigieux dédié
+  à la promotion de la navigation de plaisance et à la transmission de la passion
+  maritime. Il rassemble des membres influents et organise des événements, régates
+  et publications tout en maintenant un réseau international de yachts clubs alliés.
 type: Institution
 wikipedia_enriched: true
 ---

@@ -11,9 +11,9 @@ keywords:
 nationality: allemande
 occupation: banquier, mécène
 summary: Maximilian von Goldschmidt-Rothschild était un banquier et mécène allemand,
-  connu pour son mariage avec Minna Caroline von Rothschild en 1878. Cette union a
-  renforcé son statut parmi les personnalités les plus riches et influentes de l'Empire
-  allemand.
+  membre influent des familles Goldschmidt et Rothschild par alliance. Il a joué un
+  rôle clé dans la finance et la haute société de l'Empire allemand grâce à son mariage
+  et son héritage.
 type: Personne
 website: null
 wikipedia_enriched: true

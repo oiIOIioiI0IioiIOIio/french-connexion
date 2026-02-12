@@ -4,16 +4,16 @@ birth_place: Vincennes, France
 education: null
 keywords:
 - préfet
+- haut fonctionnaire
 - ENA
-- gendarmerie
 - Sciences Po
-- politique
+- gendarmerie
 nationality: française
 occupation: haut fonctionnaire, homme politique
 summary: Christophe Bay est un haut fonctionnaire français, ancien préfet et conseiller
-  dans plusieurs institutions publiques. Il a occupé des postes clés au sein du ministère
-  de l'Intérieur et de la gendarmerie nationale, tout en ayant des engagements politiques
-  marqués à droite.
+  dans plusieurs institutions publiques, notamment au sein de la gendarmerie nationale
+  et du ministère de l'Intérieur. Son parcours inclut des engagements politiques et
+  syndicaux durant ses études à Sciences Po Paris.
 type: Personne
 website: null
 wikipedia_enriched: true

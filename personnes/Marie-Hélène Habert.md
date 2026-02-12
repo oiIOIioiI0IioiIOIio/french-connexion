@@ -1,13 +1,13 @@
 ---
 keywords:
-- Marie-Hélène Habert
 - famille Habert
 - industrie
 - philanthropie
-- France
-summary: Marie-Hélène Habert est une figure influente des milieux industriels et philanthropiques
-  en France. Elle incarne l'héritage et l'engagement d'une famille majeure dans le
-  paysage économique français.
+- réseau d'influence
+- personnalité
+summary: Marie-Hélène Habert est une personnalité influente liée à la famille Habert,
+  active dans les secteurs industriel et philanthropique en France. Elle incarne l'héritage
+  et l'influence d'une dynastie familiale majeure.
 type: Personne
 ---
 

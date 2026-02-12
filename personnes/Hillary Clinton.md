@@ -5,15 +5,15 @@ education: null
 keywords:
 - politique
 - États-Unis
-- Secrétaire d'État
+- Première Dame
 - Sénatrice
-- leadership
+- Secrétaire d'État
 nationality: américaine
 occupation: femme politique
-summary: Hillary Clinton est une figure politique américaine majeure, ayant occupé
-  des rôles clés comme Première Dame, Sénatrice et Secrétaire d'État. Son influence
-  s'étend à travers des collaborations avec des dirigeants tels que Bill Clinton et
-  Barack Obama.
+summary: Hillary Clinton est une personnalité politique américaine, connue pour ses
+  rôles d'ancienne Première Dame, Sénatrice et Secrétaire d'État. Elle a également
+  été associée à des programmes d'influence comme celui des Young Leaders de la French-American
+  Foundation.
 type: Personne
 website: null
 wikipedia_enriched: true

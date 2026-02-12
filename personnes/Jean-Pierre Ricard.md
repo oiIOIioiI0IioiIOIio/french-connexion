@@ -3,16 +3,16 @@ birth_date: '1944-09-25'
 birth_place: Marseille, France
 education: null
 keywords:
-- stratégies de développement
+- stratège
+- développement
 - réseau Aspen
 - institutions internationales
-- Total
-- Airbus
+- secteur économique
 nationality: française
 occupation: cardinal, archevêque émérite
-summary: Jean-Pierre Ricard est un expert en stratégies de développement, membre du
-  réseau Aspen. Il travaille en collaboration avec des institutions internationales
-  et des entreprises majeures comme Total et Airbus.
+summary: Jean-Pierre Ricard est un expert en stratégies de développement, actif dans
+  des cercles d'influence comme Aspen. Il entretient des liens avec des institutions
+  internationales et des grands groupes industriels.
 type: Personne
 website: null
 wikipedia_enriched: true

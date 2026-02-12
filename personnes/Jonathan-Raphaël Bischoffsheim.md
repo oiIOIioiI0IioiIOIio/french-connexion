@@ -5,17 +5,17 @@ education: null
 keywords:
 - famille Bischoffsheim
 - banque
+- dynastie
+- personnalité
 - Europe
-- histoire
-- influence
 nationality: belge
 occupation:
 - banquier
 - homme politique
 - philanthrope
-summary: Jonathan-Raphaël Bischoffsheim est un membre de la famille Bischoffsheim,
-  une lignée influente dans les domaines bancaire et politique en Europe. Son rôle
-  précis et ses contributions restent à préciser dans un contexte historique ou économique.
+summary: Jonathan-Raphaël Bischoffsheim est un individu appartenant à la famille Bischoffsheim,
+  une dynastie influente dans les milieux bancaires et politiques européens. Son rôle
+  précis au sein de cette famille ou dans d'autres sphères n'est pas détaillé ici.
 type: Personne
 website: null
 wikipedia_enriched: true

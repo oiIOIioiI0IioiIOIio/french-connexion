@@ -1,14 +1,14 @@
 ---
 keywords:
 - digitalisation
-- transformation numérique
-- secteur bancaire
+- banque
 - innovation
-- collaboration stratégique
-summary: Maud Bailly est une figure influente dans la transformation numérique des
-  secteurs bancaire et énergétique, ainsi que dans la digitalisation des grandes entreprises.
-  Elle a collaboré avec plusieurs dirigeants majeurs sur des projets stratégiques
-  d'innovation et de partenariat.
+- conseil d'administration
+- transformation numérique
+summary: Maud Bailly est une personnalité influente dans les secteurs bancaire et
+  numérique, connue pour son rôle dans la transformation digitale des entreprises.
+  Elle a collaboré avec des figures majeures du luxe, de l'énergie et de la finance
+  sur des projets stratégiques.
 type: Personne
 ---
 

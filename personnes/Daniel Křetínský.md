@@ -3,17 +3,16 @@ birth_date: '1975-07-09'
 birth_place: Brno, Tchéquie
 education: null
 keywords:
+- homme d'affaires
 - médias
 - énergie
 - holding
-- édition
-- fortune
+- acquisitions
 nationality: tchèque
 occupation: avocat, homme d'affaires, milliardaire
-summary: Daniel Křetínský est un homme d'affaires tchèque ayant construit sa fortune
-  dans l'énergie avant de se diversifier dans les médias en France. Il détient plusieurs
-  magazines et a été actionnaire majeur du groupe Le Monde, tout en cherchant à étendre
-  son influence dans l'édition.
+summary: Daniel Křetínský est un homme d'affaires tchèque, actif dans les secteurs
+  de l'énergie et des médias. Il est connu pour ses acquisitions stratégiques dans
+  la presse française et ses participations dans des groupes médiatiques majeurs.
 type: Personne
 website: null
 wikipedia_enriched: true

@@ -1,14 +1,14 @@
 ---
 keywords:
 - club privé
-- réseau créatif
-- exclusivité
-- design
+- réseau
+- créatifs
 - membres
-summary: Soho House est un réseau international de clubs privés fondé en 1995 à Londres
-  par Nick Jones, ciblant les professionnels créatifs. Son adresse parisienne, ouverte
-  en 2021, allie héritage historique et design contemporain dans un cadre intimiste
-  et exclusif.
+- exclusivité
+summary: Soho House Paris est un club privé exclusif réservé aux professionnels de
+  la création, offrant des espaces de networking, de détente et d'événements dans
+  un cadre luxueux. Il s'inscrit dans un réseau international de clubs similaires,
+  avec des règles strictes de confidentialité et d'adhésion.
 type: Institution
 ---
 

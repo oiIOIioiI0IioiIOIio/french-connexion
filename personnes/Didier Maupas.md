@@ -1,12 +1,12 @@
 ---
 keywords:
-- Didier Maupas
+- individu
 - personnalité
-- contributions
-- domaine professionnel
-- analyse contextuelle
-summary: Didier Maupas est une personnalité dont les activités ou contributions spécifiques
-  ne sont pas détaillées dans le contenu fourni. Il pourrait être associé à un domaine
-  professionnel ou académique nécessitant une analyse contextuelle supplémentaire.
+- réseau d'influence
+- France
+- Didier Maupas
+summary: Didier Maupas est un individu mentionné sans détails supplémentaires dans
+  cette fiche. Son nom suggère qu'il pourrait s'agir d'une personnalité ou d'un acteur
+  du réseau d'influence français.
 type: Personne
 ---

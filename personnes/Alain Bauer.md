@@ -3,16 +3,16 @@ birth_date: '1962-05-08'
 birth_place: Paris, France
 education: null
 keywords:
-- géopolitique
 - universitaire
-- IRIS
-- Sciences Po Paris
-- colloques internationaux
+- géopolitique
+- expert
+- colloques
+- recherche
 nationality: français
 occupation: professeur de criminologie
-summary: Alain Bauer est un universitaire et expert en géopolitique reconnu, membre
-  du conseil d’administration de l'IRIS. Il participe activement à des colloques internationaux
-  et collabore avec des institutions académiques prestigieuses comme Sciences Po Paris.
+summary: Alain Bauer est un universitaire et expert en géopolitique, reconnu pour
+  ses interventions dans des colloques internationaux. Il collabore avec des institutions
+  académiques et des centres de recherche comme Sciences Po Paris.
 type: Personne
 website: null
 wikipedia_enriched: true

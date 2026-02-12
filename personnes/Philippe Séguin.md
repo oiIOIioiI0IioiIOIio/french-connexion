@@ -7,12 +7,12 @@ keywords:
 - parlementaire
 - IRIS
 - législatif
-- Villepin
+- réseaux
 nationality: française
 occupation: magistrat, homme d'État
-summary: Philippe Séguin était un homme politique français, ancien parlementaire et
-  membre du conseil d’administration de l'IRIS. Il était reconnu pour son expertise
-  législative et ses liens avec des personnalités politiques comme Dominique de Villepin.
+summary: Philippe Séguin était une personnalité politique française, ancien parlementaire
+  et membre influent du paysage institutionnel. Il a marqué la vie publique par son
+  expertise législative et ses réseaux politiques.
 type: Personne
 website: null
 wikipedia_enriched: true

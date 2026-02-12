@@ -1,13 +1,13 @@
 ---
 keywords:
-- Goldschmidt
 - famille
-- membre
-- histoire
-- influence
-summary: Rosette Goldschmidt est une membre de la famille Goldschmidt, une lignée
-  influente dans divers domaines historiques et économiques. Son rôle précis au sein
-  de cette famille reste à préciser selon des sources complémentaires.
+- Goldschmidt
+- personnalité
+- finance
+- dynastie
+summary: Rosette Goldschmidt est une personnalité associée à la famille Goldschmidt,
+  une dynastie influente dans les milieux financiers et industriels. Son rôle précis
+  au sein de cette famille ou dans d'autres sphères reste à préciser.
 type: Personne
 ---
 

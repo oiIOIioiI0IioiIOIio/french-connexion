@@ -2,16 +2,16 @@
 birth_date: '1935-07-29'
 birth_place: Issac, France
 keywords:
+- homme d'affaires
 - AXA
 - Institut Montaigne
-- assurance
-- homme d'affaires
-- réseaux professionnels
+- économie
+- réseau d'influence
 nationality: française
 occupation: homme d'affaires
-summary: Claude Bébéar est un homme d'affaires français, connu pour avoir été le président
-  d'AXA et le fondateur de l'Institut Montaigne. Il a marqué le secteur de l'assurance
-  et des think tanks en France par son influence et ses réseaux professionnels.
+summary: Claude Bébéar est un homme d'affaires français, ancien président du groupe
+  AXA et fondateur de l'Institut Montaigne. Il est une figure influente du monde économique
+  et politique en France.
 type: Personne
 wikipedia_enriched: true
 ---

@@ -1,14 +1,14 @@
 ---
 keywords:
+- conseil d’orientation
+- IFRI
+- Aspen
 - politiques globales
-- partenariats internationaux
 - dialogues transatlantiques
-- responsables politiques
-- entreprises multinationales
-summary: Elisabeth Lulin est une experte en politiques globales et directrice générale
-  d'Aspen, engagée dans des analyses stratégiques et des partenariats internationaux.
-  Elle collabore avec des institutions, médias et entreprises pour promouvoir des
-  dialogues transatlantiques et des initiatives multipartites.
+summary: Elisabeth Lulin est une personnalité influente dans les cercles de réflexion
+  et les politiques globales, dirigeante d'Aspen France. Elle collabore avec des institutions
+  internationales, des médias et des entreprises, tout en conseillant des responsables
+  politiques.
 type: Personne
 ---
 

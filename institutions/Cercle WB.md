@@ -1,14 +1,15 @@
 ---
 keywords:
 - club privé
+- dirigeants
 - réseautage
-- gastronomie
-- œnologie
+- luxe
 - philanthropie
-summary: Le Cercle WB est un club privé de luxe dédié aux dirigeants d'entreprise,
+summary: Le Cercle WB est un club privé haut de gamme dédié aux dirigeants d'entreprise,
   combinant conférences économiques, dégustations de vins et dîners gastronomiques
-  dans des palaces parisiens. Il vise à créer un réseau exclusif tout en intégrant
-  une dimension philanthropique.
+  dans des palaces parisiens. Il fonctionne sur cooptation avec une cotisation annuelle
+  élevée et vise à mêler réseautage, philanthropie et partage d'expériences entre
+  membres influents.
 type: Institution
 ---
 

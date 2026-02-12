@@ -5,14 +5,14 @@ education: null
 keywords:
 - politique
 - Élysée
+- gouvernement
 - secrétaire général
-- administration
-- France
+- haut fonctionnaire
 nationality: française
 occupation: haut fonctionnaire
-summary: Alexis Kohler est une figure politique française, actuellement secrétaire
+summary: Alexis Kohler est une personnalité politique française, actuellement secrétaire
   général de la Présidence de la République à l'Élysée. Il joue un rôle clé dans la
-  coordination des activités administratives et politiques du palais présidentiel.
+  coordination de l'action gouvernementale et les affaires présidentielles.
 type: Personne
 website: null
 wikipedia_enriched: true

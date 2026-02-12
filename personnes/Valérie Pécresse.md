@@ -6,14 +6,14 @@ keywords:
 - politique
 - Conseil d'État
 - UMP
+- députée
 - Île-de-France
-- ENA
 nationality: française
 occupation: femme politique
-summary: Valérie Pécresse est une femme politique française et membre du Conseil d'État,
-  connue pour son parcours dans les institutions publiques et son engagement régional
-  en Île-de-France. Diplômée de l'ENA et d'HEC, elle a occupé divers postes clés au
-  sein de l'UMP et de la Présidence de la République.
+summary: Valérie Pécresse est une personnalité politique française, membre du Conseil
+  d'État et figure majeure de la droite républicaine. Elle a occupé des fonctions
+  électives et administratives, notamment comme députée, conseillère régionale et
+  porte-parole de l'UMP.
 type: Personne
 website: null
 wikipedia_enriched: true

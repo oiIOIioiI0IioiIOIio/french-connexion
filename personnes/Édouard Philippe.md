@@ -3,17 +3,16 @@ birth_date: '1970-11-28'
 birth_place: Rouen, France
 education: Sciences Po, ENA
 keywords:
+- politique
 - Premier ministre
-- maire du Havre
-- politique française
-- French-American Foundation
-- Emmanuel Macron
+- maire
+- Havre
+- Macron
 nationality: française
 occupation: haut fonctionnaire, homme d'État
-summary: Édouard Philippe est un homme politique français ayant occupé les fonctions
-  de Premier ministre et de maire du Havre. Il a été associé à des figures politiques
-  majeures et a participé à des programmes internationaux comme celui de la French-American
-  Foundation.
+summary: Édouard Philippe est une personnalité politique française, ancien Premier
+  ministre et maire du Havre. Il a occupé des fonctions clés sous les présidences
+  de Nicolas Sarkozy et Emmanuel Macron.
 type: Personne
 website: null
 wikipedia_enriched: true

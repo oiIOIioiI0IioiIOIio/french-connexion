@@ -1,12 +1,13 @@
 ---
 keywords:
-- Adrien Chaltiel
 - individu
-- identité
-- profession
-- contributions
-summary: Adrien Chaltiel est une personne dont les détails spécifiques ne sont pas
-  précisés dans le contenu fourni. Son rôle ou ses contributions restent à déterminer
-  selon des sources complémentaires.
+- personnalité
+- professionnel
+- actif
+- français
+summary: Adrien Chaltiel est un individu dont la fiche suggère une personnalité, probablement
+  active dans un domaine spécifique comme la politique, les affaires ou l'intellect.
+  Son profil nécessite une classification en tant que personne physique plutôt qu'une
+  entité collective ou organisationnelle.
 type: Personne
 ---

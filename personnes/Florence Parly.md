@@ -6,13 +6,13 @@ keywords:
 - politique
 - ministre
 - Armées
+- gouvernement
 - France
-- défense
 nationality: française
 occupation: haute fonctionnaire, femme politique, dirigeante d'entreprise
-summary: Florence Parly est une femme politique française connue pour avoir occupé
-  le poste de ministre des Armées. Elle a joué un rôle clé dans la gestion des affaires
-  militaires et de la défense nationale en France.
+summary: Florence Parly est une personnalité politique française, connue pour avoir
+  occupé le poste de ministre des Armées. Elle a également exercé d'autres fonctions
+  gouvernementales et dans le secteur public.
 type: Personne
 website: null
 wikipedia_enriched: true

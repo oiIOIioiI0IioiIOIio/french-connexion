@@ -1,14 +1,13 @@
 ---
 keywords:
 - politique
-- ministres
+- ministre
+- fonctionnaire
+- Éducation nationale
 - transports
-- écologie
-- collaborations
 summary: Élisabeth Borne est une haute fonctionnaire et femme politique française,
-  ayant occupé plusieurs postes ministériels sous les présidences de François Hollande
-  et Emmanuel Macron. Son parcours inclut des collaborations marquantes avec des figures
-  politiques et des institutions clés, notamment dans les secteurs de l'éducation,
+  ayant occupé des postes ministériels sous les présidences de François Hollande et
+  Emmanuel Macron. Son parcours inclut des rôles clés dans les secteurs de l'éducation,
   des transports et de l'écologie.
 type: Personne
 ---

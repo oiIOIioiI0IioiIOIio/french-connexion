@@ -5,9 +5,9 @@ education: null
 keywords:
 - journaliste
 - animateur
-- radio
+- humoriste
 - télévision
-- écrivain
+- radio
 nationality: française
 occupation:
 - journaliste
@@ -17,9 +17,9 @@ occupation:
 - écrivain
 - auteur de théâtre
 - dialoguiste
-summary: Philippe Bouvard est un journaliste, écrivain et animateur de télévision
-  et de radio français. Il est notamment connu pour avoir présenté l'émission Les
-  Grosses Têtes sur RTL pendant plusieurs décennies.
+summary: Philippe Bouvard est un journaliste, humoriste et animateur de télévision
+  et de radio français. Il est notamment connu pour avoir animé l'émission 'Les Grosses
+  Têtes' sur RTL pendant plusieurs décennies.
 type: Personne
 website: null
 wikipedia_enriched: true

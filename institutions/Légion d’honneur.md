@@ -3,11 +3,11 @@ founded: '1802-05-19'
 headquarters: null
 industry: Décoration honorifique
 keywords:
-- distinction
+- décoration
 - honneur
+- État
+- récompense
 - Napoléon
-- mérite
-- France
 leader: null
 summary: La Légion d’honneur est la plus haute distinction honorifique française,
   créée par Napoléon Bonaparte en 1802. Elle récompense les mérites éminents civils

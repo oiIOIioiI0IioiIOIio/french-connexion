@@ -5,13 +5,13 @@ keywords:
 - politique
 - ministre
 - Parlement
-- France
 - gouvernement
+- France
 nationality: française
 occupation: homme politique
-summary: Franck Riester est un homme politique français actuellement ministre délégué
-  chargé des Relations avec le Parlement. Il a occupé plusieurs postes ministériels
-  et est connu pour son engagement dans la vie politique nationale.
+summary: Franck Riester est une personnalité politique française, actuellement ministre
+  délégué chargé des Relations avec le Parlement. Il a occupé plusieurs fonctions
+  gouvernementales et locales au cours de sa carrière.
 type: Personne
 wikipedia_enriched: true
 ---

@@ -1,12 +1,12 @@
 ---
 keywords:
+- individu
 - personnalité
-- recherche
-- éducation
-- culture
-- contributions
-summary: Yves-André Clément est une personnalité dont les contributions ou activités
-  spécifiques ne sont pas détaillées dans le contenu fourni. Il pourrait être associé
-  à des domaines tels que la recherche, l'éducation ou la culture.
+- biographie
+- influence
+- professionnel
+summary: Yves-André Clément est un individu dont la fiche présente des éléments biographiques
+  ou professionnels. Son activité ou son influence semble liée à un domaine spécifique,
+  probablement politique, économique ou intellectuel.
 type: Personne
 ---

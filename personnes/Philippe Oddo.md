@@ -7,12 +7,12 @@ keywords:
 - entrepreneur
 - Oddo BHF
 - finance
-- France
+- associé-gérant
 nationality: française
 occupation: entrepreneur et banquier
-summary: Philippe Oddo est un entrepreneur et banquier français reconnu, jouant un
-  rôle clé dans le secteur financier. Il est associé-gérant du groupe Oddo BHF, une
-  institution bancaire et financière internationale.
+summary: Philippe Oddo est un entrepreneur et banquier français, connu pour son rôle
+  d'associé-gérant au sein du groupe Oddo BHF. Il incarne une figure influente dans
+  le secteur financier et bancaire en France.
 type: Personne
 website: null
 wikipedia_enriched: true

@@ -3,12 +3,12 @@ keywords:
 - banque
 - finance
 - Rothschild
-- Bolloré
 - dirigeante
+- analyste
 summary: Luce Gendry est une figure majeure du secteur bancaire et financier français,
-  ayant occupé des postes clés dans plusieurs institutions prestigieuses. Elle est
-  notamment associée-gérante chez Rothschild & Cie depuis 1996 et a contribué au développement
-  de groupes comme Bolloré.
+  associée-gérante chez Rothschild & Cie depuis 1996. Elle a occupé des postes clés
+  dans plusieurs institutions financières, notamment au sein du Groupe Bolloré et
+  de la Générale Occidentale.
 type: Personne
 ---
 

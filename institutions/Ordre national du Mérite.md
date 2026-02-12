@@ -4,14 +4,15 @@ headquarters: Algérie
 industry: null
 keywords:
 - décoration
-- France
-- mérite
 - honorifique
-- distinction
+- État
+- mérites
+- ministère
 leader: Président de la République algérienne démocratique et populaire
 summary: L'Ordre national du Mérite est une distinction honorifique française créée
-  en 1963 pour récompenser les mérites distingués, civils ou militaires. Il complète
-  la Légion d'honneur et reconnaît des contributions variées à la nation.
+  en 1963 pour récompenser les mérites distingués, civils ou militaires. Il s'agit
+  d'une institution publique sous la tutelle du ministère de la Justice, chargée de
+  promouvoir les valeurs de dévouement et d'engagement.
 type: Institution
 website: null
 wikipedia_enriched: true

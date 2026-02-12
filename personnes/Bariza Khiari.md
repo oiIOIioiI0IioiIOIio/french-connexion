@@ -3,16 +3,16 @@ birth_date: '1946-09-03'
 birth_place: Ksar Sbahi, Algérie
 education: null
 keywords:
-- Bariza Khiari
+- conseil d’administration
 - IRIS
-- analyse stratégique
 - politiques publiques
 - institutions européennes
+- analyse stratégique
 nationality: française
 occupation: femme politique, sénatrice, membre du bureau exécutif d'un parti politique
-summary: Bariza Khiari est une experte en analyse stratégique et en politiques publiques,
-  active au sein du conseil d’administration de l'IRIS. Elle œuvre pour la promotion
-  des politiques publiques auprès des institutions européennes.
+summary: Bariza Khiari est une personnalité engagée dans les sphères stratégiques
+  et politiques, notamment au sein de l'IRIS et des institutions européennes. Son
+  expertise couvre l'analyse géopolitique et la promotion des politiques publiques.
 type: Personne
 website: null
 wikipedia_enriched: true

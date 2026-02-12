@@ -1,14 +1,13 @@
 ---
 keywords:
 - dirigeante
+- entreprise
 - retraite
-- gouvernance
-- diversité
-- Women Corporate Directors
-summary: Cynthia (Cindy) Brinkley est une dirigeante d'entreprise à la retraite, reconnue
-  pour son leadership dans le secteur corporatif. Elle a été impliquée dans des organisations
-  telles que Women Corporate Directors, promouvant la diversité et la gouvernance
-  féminine.
+- corporate
+- femme
+summary: Cynthia Brinkley, également connue sous le nom de Cindy Brinkley, est une
+  dirigeante d'entreprise à la retraite. Elle a occupé des postes de direction et
+  est associée à des organisations comme Women Corporate Directors.
 type: Personne
 ---
 

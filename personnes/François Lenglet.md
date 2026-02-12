@@ -4,14 +4,14 @@ birth_place: Antony, France
 keywords:
 - journaliste
 - économie
-- finance
 - médias
 - analyse
+- finance
 nationality: française
 occupation: journaliste spécialisé en économie
-summary: François Lenglet est un journaliste français reconnu pour son expertise en
-  économie et en finance. Il est notamment connu pour ses interventions dans les médias
-  et ses analyses économiques approfondies.
+summary: François Lenglet est un journaliste français reconnu, spécialisé dans l'analyse
+  économique et financière. Il est notamment connu pour ses interventions médiatiques
+  et ses ouvrages sur l'économie.
 type: Personne
 wikipedia_enriched: true
 ---

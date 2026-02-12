@@ -4,11 +4,12 @@ keywords:
 - haut fonctionnaire
 - Bolloré
 - PPR
-- relations Europe-Afrique
-summary: Yves Barraquand est un haut fonctionnaire et homme d'affaires français, né
-  en 1960, ayant occupé des postes clés dans des groupes industriels majeurs comme
-  Bolloré et PPR. Il a également été conseiller technique pour des figures politiques
-  et a contribué au développement des relations industrielles entre l'Europe et l'Afrique.
+- réseau d'influence
+summary: Yves Barraquand est un haut fonctionnaire et homme d'affaires français, ayant
+  occupé des postes clés dans des groupes industriels comme Bolloré et PPR, ainsi
+  que des fonctions politiques auprès de figures comme Ségolène Royal et Jean-Yves
+  Le Drian. Sa carrière illustre les liens étroits entre les sphères publique et privée
+  en France.
 type: Personne
 ---
 

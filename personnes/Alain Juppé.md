@@ -5,14 +5,14 @@ education: École normale supérieure, École nationale d'administration (ENA)
 keywords:
 - politique
 - Premier ministre
+- maire
 - Bordeaux
-- Young Leader
-- réseau
+- réseau d'influence
 nationality: française
 occupation: homme d'État
-summary: Alain Juppé est une figure politique française, ayant occupé les fonctions
-  de Premier ministre et de maire de Bordeaux. Il a été reconnu comme Young Leader
-  en 1981 et a collaboré avec plusieurs personnalités politiques majeures.
+summary: Alain Juppé est une personnalité politique française, ancien Premier ministre
+  et maire de Bordeaux. Il a été actif dans les cercles du pouvoir, collaborant avec
+  des figures comme Jacques Chirac et Nicolas Sarkozy.
 type: Personne
 website: null
 wikipedia_enriched: true

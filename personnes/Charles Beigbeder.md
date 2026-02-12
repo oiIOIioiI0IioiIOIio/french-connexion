@@ -4,15 +4,15 @@ birth_place: Neuilly-sur-Seine, France
 education: null
 keywords:
 - entrepreneur
-- politique
+- homme d'affaires
 - énergie
 - finance
-- innovation
+- politique
 nationality: française
 occupation: entrepreneur et investisseur
-summary: Charles Beigbeder est un entrepreneur et homme politique français connu pour
-  ses engagements dans les secteurs de l'énergie et de la finance. Il a fondé plusieurs
-  entreprises et s'est impliqué dans des projets innovants ainsi que dans la vie politique.
+summary: Charles Beigbeder est un entrepreneur et homme d'affaires français, connu
+  pour ses activités dans les secteurs de l'énergie et de la finance. Il a fondé plusieurs
+  entreprises et s'est également impliqué dans la vie politique et associative.
 type: Personne
 website: null
 wikipedia_enriched: true

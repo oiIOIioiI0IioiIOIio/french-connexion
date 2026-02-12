@@ -1,13 +1,13 @@
 ---
 keywords:
-- conseiller économique
-- Emmanuel Macron
-- French Tech
+- conseiller
+- économie
+- Macron
 - réseaux bancaires
-- Rothschild
-summary: Gianpiero Fiorani est un conseiller économique d'environ 50 ans, ayant travaillé
-  aux côtés d'Emmanuel Macron. Il est connecté aux écosystèmes de l'innovation, de
-  la finance et des institutions françaises.
+- French Tech
+summary: Gianpiero Fiorani est un conseiller économique influent, anciennement proche
+  d'Emmanuel Macron. Il entretient des liens avec les milieux institutionnels, bancaires
+  et les think tanks économiques en France.
 type: Personne
 ---
 

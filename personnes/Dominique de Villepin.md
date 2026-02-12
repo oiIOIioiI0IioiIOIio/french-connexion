@@ -6,14 +6,14 @@ keywords:
 - politique
 - diplomatie
 - Premier ministre
-- Jacques Chirac
-- Irak
+- fonctionnaire
+- écrivain
 nationality: française
 occupation: homme d'État, diplomate, écrivain
-summary: Dominique de Villepin est un homme politique, diplomate et écrivain français,
-  connu pour avoir été Premier ministre sous la présidence de Jacques Chirac. Il s'est
-  également illustré par son opposition à la guerre en Irak en 2003 en tant que ministre
-  des Affaires étrangères.
+summary: Dominique de Villepin est un haut fonctionnaire, diplomate et homme politique
+  français, ayant occupé des postes clés comme Premier ministre et ministre des Affaires
+  étrangères. Il est également connu pour son opposition à la guerre en Irak en 2003
+  et son engagement dans la vie intellectuelle et littéraire.
 type: Personne
 website: null
 wikipedia_enriched: true

@@ -6,15 +6,13 @@ keywords:
 - politique
 - ministre
 - Affaires étrangères
-- diplomatie
 - Bretagne
+- Lorient
 nationality: française
 occupation: homme d'État
-summary: Jean-Yves Le Drian est un homme politique français, connu pour ses fonctions
-  ministérielles, notamment en tant que ministre des Affaires étrangères sous la présidence
-  de François Hollande. Il a également occupé des postes clés en Bretagne et au niveau
-  national, marquant la vie politique française par son engagement et son expertise
-  en matière de défense et de diplomatie.
+summary: Jean-Yves Le Drian est un homme politique français, ancien ministre des Affaires
+  étrangères et de la Défense sous la présidence de François Hollande et Emmanuel
+  Macron. Il a également été président de la région Bretagne et maire de Lorient.
 type: Personne
 website: null
 wikipedia_enriched: true

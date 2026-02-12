@@ -2,13 +2,13 @@
 keywords:
 - consultant
 - stratégie
-- Asie
 - McKinsey
-- marchés émergents
-summary: Jacques Penhirin est un consultant international et directeur de société,
-  spécialisé en stratégie marketing et développement d'affaires. Il a occupé des postes
-  clés dans des cabinets de conseil renommés et possède une expertise approfondie
-  des marchés asiatiques et émergents.
+- Asie
+- réseaux d'affaires
+summary: Jacques Penhirin est un consultant international et directeur de société
+  spécialisé en stratégie marketing et développement des affaires, notamment en Asie.
+  Il a occupé des postes clés dans des cabinets de conseil renommés comme McKinsey
+  & Company et A.T. Kearney.
 type: Personne
 ---
 

@@ -2,16 +2,16 @@
 birth_date: '1951-04-17'
 birth_place: Paris, France
 keywords:
+- homme d'affaires
 - Chanel
-- Wertheimer
-- couture
+- famille Wertheimer
 - luxe
-- Coco Chanel
+- couture
 nationality: française
 occupation: homme d'affaires
-summary: Gérard Wertheimer est l'un des coprésidents de Chanel, une maison de couture
-  de renommée mondiale fondée par Coco Chanel. Avec son frère, il détient et dirige
-  cette entreprise emblématique du secteur du luxe.
+summary: Gérard Wertheimer est un homme d'affaires français, co-président de la maison
+  de luxe Chanel aux côtés de son frère Alain. Il appartient à la famille Wertheimer,
+  propriétaire majoritaire de cette entreprise emblématique.
 type: Personne
 wikipedia_enriched: true
 ---

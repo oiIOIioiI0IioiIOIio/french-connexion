@@ -5,14 +5,14 @@ education: null
 keywords:
 - historien
 - Napoléon
-- Empire
 - recherche
-- France
+- universitaire
+- auteur
 nationality: française
 occupation: historien, universitaire
-summary: Jean Tulard est un historien français reconnu pour ses travaux sur la période
-  napoléonienne et l'Empire. Ses recherches et publications ont grandement contribué
-  à la compréhension de cette époque historique.
+summary: Jean Tulard est un historien français reconnu, spécialiste de l'époque napoléonienne
+  et de l'histoire politique. Il a également enseigné et publié de nombreux ouvrages
+  académiques.
 type: Personne
 website: null
 wikipedia_enriched: true

@@ -4,17 +4,17 @@ birth_place: Paris, France
 education: null
 keywords:
 - politique
-- France
+- gouvernement
+- Young Leaders
 - secrétaire d'État
-- Young Global Leader
-- French-American Foundation
+- réseaux d'influence
 nationality: française
 occupation:
 - femme politique
 - essayiste
-summary: Marlène Schiappa est une femme politique française ayant occupé le poste
-  de secrétaire d'État. Elle a été reconnue comme Young Global Leader en 2020 par
-  la French-American Foundation.
+summary: Marlène Schiappa est une personnalité politique française, connue pour avoir
+  été secrétaire d'État et membre du programme Young Global Leaders. Elle a occupé
+  des fonctions gouvernementales et s'implique dans des réseaux d'influence internationaux.
 type: Personne
 website: null
 wikipedia_enriched: true

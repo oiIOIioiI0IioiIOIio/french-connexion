@@ -4,14 +4,15 @@ birth_place: Eaubonne, France
 education: null
 keywords:
 - politique
-- France
-- ministre
-- Armées
 - gouvernement
+- ministre
+- défense
+- Armée
 nationality: française
 occupation: homme d'État, Premier ministre
-summary: Sébastien Lecornu est un homme politique français actuellement en fonction.
-  Il occupe le poste de ministre des Armées depuis 2022.
+summary: Sébastien Lecornu est une personnalité politique française, actuellement
+  ministre des Armées. Il occupe des fonctions gouvernementales majeures dans le domaine
+  de la défense et de la sécurité nationale.
 type: Personne
 website: null
 wikipedia_enriched: true

@@ -3,17 +3,17 @@ birth_date: '1954-06-09'
 birth_place: Paris, France
 education: null
 keywords:
-- Laurent Batsch
-- Université Paris-Dauphine
-- Fondation Dauphine
-- dirigeant académique
-- sciences des organisations
+- président
+- université
+- Dauphine
+- enseignement supérieur
+- académique
 nationality: française
 occupation: enseignant-chercheur en sciences de gestion, président d'université, médiateur
-summary: Laurent Batsch est un dirigeant académique français, connu pour avoir présidé
-  l'Université Paris-Dauphine ainsi que sa fondation. Son action a contribué au développement
-  et à la notoriété de cette institution spécialisée en sciences des organisations
-  et de la décision.
+summary: Laurent Batsch est une personnalité académique et administrative française,
+  connu pour avoir présidé l'Université Paris-Dauphine ainsi que sa fondation. Son
+  parcours est marqué par son engagement dans l'enseignement supérieur et la gestion
+  universitaire.
 type: Personne
 website: null
 wikipedia_enriched: true

@@ -4,15 +4,15 @@ birth_place: Strasbourg, France
 education: null
 keywords:
 - relations internationales
-- IFRI
-- Sciences Po Paris
 - diplomatie
-- expertise politique
+- expert
+- IFRI
+- Sciences Po
 nationality: française
 occupation: journaliste, directeur des rédactions
-summary: Erik Izraelewicz est un expert en relations internationales, associé à des
-  institutions comme l'IFRI et Sciences Po Paris. Il est reconnu pour ses collaborations
-  avec des diplomates et des spécialistes de la politique internationale.
+summary: Erik Izraelewicz est un expert en relations internationales, collaborant
+  avec des institutions académiques et des cercles diplomatiques. Il est notamment
+  membre consultatif de l'IFRI et associé à Sciences Po Paris.
 type: Personne
 website: null
 wikipedia_enriched: true

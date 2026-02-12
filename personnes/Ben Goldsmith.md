@@ -1,13 +1,13 @@
 ---
 keywords:
 - financier
-- Goldsmith
+- famille Goldsmith
 - Rothschild
-- alliances familiales
-- héritage
-summary: Ben Goldsmith est un financier britannique issu d'une famille influente,
-  notamment connu pour être le fils de James Goldsmith. Il a épousé Kate Emma Rothschild,
-  perpétuant les liens historiques entre les familles Goldschmidt et Rothschild.
+- alliances matrimoniales
+- dynastie
+summary: Ben Goldsmith est un financier britannique issu de la famille Goldsmith,
+  connue pour ses liens historiques avec les dynasties financières européennes. Il
+  a également entretenu des alliances matrimoniales avec la famille Rothschild.
 type: Personne
 ---
 

@@ -6,13 +6,13 @@ keywords:
 - entrepreneur
 - Auchan
 - grande distribution
-- France
-- fondateur
+- famille Mulliez
+- commerce
 nationality: française
 occupation: homme d'affaires
-summary: Gérard Mulliez est un entrepreneur français connu pour avoir fondé le groupe
-  Auchan, l'une des principales enseignes de grande distribution en Europe. Son parcours
-  incarne l'essor et l'influence de la distribution moderne en France et à l'international.
+summary: Gérard Mulliez est un entrepreneur français, fondateur du groupe Auchan,
+  l'un des leaders européens de la grande distribution. Son parcours illustre l'ascension
+  d'une dynastie familiale dans le secteur du commerce de détail.
 type: Personne
 website: null
 wikipedia_enriched: true

@@ -6,14 +6,13 @@ keywords:
 - entrepreneur
 - grande distribution
 - E.Leclerc
-- prix discount
-- auto-service
+- coopérative
+- prix accessibles
 nationality: française
 occupation: entrepreneur
-summary: Édouard Leclerc était un entrepreneur français, fondateur du groupe E.Leclerc,
-  une enseigne majeure de la grande distribution en France. Il a révolutionné le secteur
-  en introduisant des concepts comme les prix discount et l'auto-service dans les
-  années 1940-1950.
+summary: Édouard Leclerc était un entrepreneur français, fondateur du groupe de grande
+  distribution E.Leclerc. Il a marqué l'économie française par son modèle de distribution
+  coopérative et son engagement pour des prix accessibles.
 type: Personne
 website: null
 wikipedia_enriched: true

@@ -5,15 +5,14 @@ education: null
 keywords:
 - économiste
 - Nobel
-- asymétrie de l'information
-- néolibéralisme
-- justice économique
+- inégalités
+- politiques économiques
+- intellectuel
 nationality: américain
 occupation: économiste
 summary: Joseph Stiglitz est un économiste américain de renom, lauréat du prix Nobel
-  d'économie en 2001 pour ses travaux sur l'asymétrie de l'information. Il est également
-  connu pour ses critiques des politiques économiques néolibérales et son engagement
-  en faveur d'une économie plus équitable.
+  d'économie en 2001. Il est connu pour ses travaux sur les inégalités économiques
+  et ses critiques des politiques néolibérales.
 type: Personne
 website: null
 wikipedia_enriched: true

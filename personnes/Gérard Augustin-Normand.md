@@ -1,12 +1,12 @@
 ---
 keywords:
-- Gérard Augustin-Normand
-- industrie navale
-- architecture
-- contributions
-- figure historique
-summary: Gérard Augustin-Normand est une figure notable, probablement reconnue dans
-  un domaine spécifique tel que l'industrie navale ou l'architecture. Son travail
-  et ses contributions ont marqué son secteur d'activité.
+- maritime
+- industrie
+- construction navale
+- économie
+- personnalité
+summary: Gérard Augustin-Normand est une personnalité liée au secteur maritime et
+  industriel français. Il est notamment connu pour son rôle dans la construction navale
+  et son influence dans les milieux économiques et politiques.
 type: Personne
 ---

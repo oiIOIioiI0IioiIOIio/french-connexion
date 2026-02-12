@@ -2,16 +2,17 @@
 birth_date: '1960-02-05'
 birth_place: Montréal, Canada
 keywords:
+- Hélène Mercier
 - Bernard Arnault
 - patrimoine
 - famille Arnault
-- affaires
 - influence
 nationality: québécoise
 occupation: pianiste concertiste
-summary: Hélène Mercier est l'épouse de Bernard Arnault et participe activement à
-  la gestion du patrimoine familial. Elle contribue également à renforcer l'influence
-  de la famille Arnault dans le secteur des affaires à l'échelle internationale.
+summary: Hélène Mercier est une personnalité influente, connue pour son rôle dans
+  la gestion du patrimoine de la famille Arnault et sa contribution à l'image du groupe
+  LVMH. Elle est également reconnue pour son engagement dans des cercles d'affaires
+  et de représentation sociale.
 type: Personne
 wikipedia_enriched: true
 ---

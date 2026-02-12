@@ -1,14 +1,14 @@
 ---
 keywords:
-- Henriette Goldschmidt
-- famille Goldschmidt
-- famille Bischoffsheim
 - banque
-- alliance matrimoniale
-summary: Henriette Goldschmidt était une figure notable liée aux familles bancaires
+- famille
+- dynastie
+- mariage
+- finance
+summary: Henriette Goldschmidt est une figure historique liée aux familles bancaires
   Goldschmidt et Bischoffsheim par son mariage avec Jonathan-Raphaël Bischoffsheim.
-  Son union a renforcé les alliances économiques et sociales entre ces deux dynasties
-  financières.
+  Elle a joué un rôle dans le renforcement des alliances entre ces dynasties financières
+  européennes.
 type: Personne
 ---
 

@@ -3,16 +3,16 @@ birth_date: '1934-03-13'
 birth_place: Strasbourg, France
 education: null
 keywords:
+- expert
 - politiques publiques
-- IRIS
+- conseil d’administration
 - banques d’affaires
-- Goldman Sachs
-- Rothschild
+- IRIS
 nationality: française
 occupation: diplomate
 summary: François Scheer est un expert en politiques publiques et membre du conseil
   d’administration de l'IRIS. Il entretient des collaborations avec des institutions
-  financières majeures comme Goldman Sachs et Rothschild.
+  et des banques d’affaires comme Goldman Sachs et Rothschild.
 type: Personne
 website: null
 wikipedia_enriched: true

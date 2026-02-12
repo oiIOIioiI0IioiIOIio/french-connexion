@@ -4,14 +4,14 @@ birth_place: Saint-Mandé, France
 keywords:
 - géopolitique
 - IRIS
-- forums internationaux
-- Brookings Institution
 - conseil d’administration
+- forums internationaux
+- expert
 nationality: française
 occupation: dirigeant d'entreprise, homme politique
-summary: Marc-Antoine Jamet est un expert en géopolitique et membre du conseil d’administration
-  de l'IRIS. Il intervient régulièrement dans des forums internationaux et collabore
-  avec des institutions renommées comme la Brookings Institution.
+summary: Marc-Antoine Jamet est un expert en géopolitique, membre du conseil d’administration
+  de l'IRIS et actif dans les forums internationaux. Il collabore avec des institutions
+  renommées comme la Brookings Institution.
 type: Personne
 wikipedia_enriched: true
 ---

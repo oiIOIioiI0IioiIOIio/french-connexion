@@ -5,9 +5,9 @@ keywords:
 - IRIS
 - Crédit Agricole
 - BNP Paribas
-summary: Paul Boury est un professionnel du secteur financier et membre du conseil
-  d’administration de l'IRIS. Il collabore avec des institutions bancaires majeures
-  telles que le Crédit Agricole et BNP Paribas.
+summary: Paul Boury est un professionnel du secteur financier, siégeant au conseil
+  d’administration de l'IRIS. Il est connecté à des acteurs majeurs de la finance
+  comme le Crédit Agricole et BNP Paribas.
 type: Personne
 ---
 
