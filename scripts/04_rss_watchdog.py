@@ -1,132 +1,103 @@
-import logging
-import subprocess
+import sys
 import os
 import feedparser
-from datetime import datetime
+import yaml
+import frontmatter
 from pathlib import Path
+from datetime import datetime
 
-# Imports LangChain (vérifiez que vos importations correspondent à votre version)
-# L'erreur indique l'utilisation d'un objet 'Chat', probablement ChatOpenAI
-try:
-    from langchain_openai import ChatOpenAI
-    from langchain_core.messages import HumanMessage
-except ImportError:
-    from langchain.chat_models import ChatOpenAI
-    from langchain.schema import HumanMessage
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
-# Configuration du logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-logger = logging.getLogger("french_connection")
+from src.utils.logger import setup_logger
+from src.utils.git_handler import GitHandler
+from src.utils.llm_client import MistralClient
 
-# Configuration
-RSS_FEEDS = [
-    "https://www.lemonde.fr/rss/une.xml",
-    # Ajoutez d'autres flux ici si nécessaire
-]
-DRAFTS_DIR = Path("_drafts") # Répertoire cible pour les brouillons
+logger = setup_logger()
+git = GitHandler()
+llm = MistralClient()
 
-def configure_git_identity():
-    """
-    Configure l'identité Git localement pour ce repository.
-    Corrige l'erreur : 'Author identity unknown'
-    """
-    try:
-        # Utilisation de l'identité du bot GitHub Actions
-        subprocess.run(["git", "config", "user.email", "github-actions[bot]@users.noreply.github.com"], check=True)
-        subprocess.run(["git", "config", "user.name", "github-actions[bot]"], check=True)
-        logger.info("Identité Git configurée avec succès.")
-    except subprocess.CalledProcessError as e:
-        logger.error(f"Impossible de configurer l'identité Git : {e}")
+# Chargement config
+with open("config/config.yaml", "r", encoding="utf-8") as f:
+    CONFIG = yaml.safe_load(f)
 
-def extract_entities(text):
-    """
-    Extrait les entités en utilisant le modèle LLM.
-    Corrige l'erreur : 'Chat' object has no attribute 'completions'
-    """
-    try:
-        # Initialisation du modèle (ChatOpenAI)
-        # Assurez-vous que la clé API est définie dans les variables d'environnement (OPENAI_API_KEY)
-        llm = ChatOpenAI(temperature=0, model_name="gpt-4") # ou gpt-3.5-turbo
-
-        prompt = f"Extrait les entités nommées (personnes, lieux, organisations) du texte suivant : {text}"
-        
-        # CORRECTION ICI : Utiliser .invoke() au lieu de .completions.create()
-        # L'objet ChatOpenAI s'utilise via la méthode invoke() ou l'opérateur ()
-        response = llm.invoke([HumanMessage(content=prompt)])
-        
-        return response.content
-    except Exception as e:
-        logger.error(f"Erreur lors de l'extraction d'entités pour '{text[:50]}...' : {e}")
-        return None
-
-def process_feed(url):
-    logger.info(f"📡 Lecture du flux : {url}")
-    feed = feedparser.parse(url)
-    feed_title = feed.feed.get('title', 'Unknown Feed')
+def process_feed(feed_url, keywords):
+    """Lit un flux RSS et détecte les nouveaux articles."""
+    feed = feedparser.parse(feed_url)
+    
+    # Safe check for feed title
+    feed_title = getattr(feed.feed, 'title', 'Unknown Feed')
     logger.info(f"📡 Lecture du flux : {feed_title}")
-
+    
     for entry in feed.entries:
-        # Logique de filtrage (exemple fictif basé sur les logs)
-        # Dans votre script original, cette logique détermine si l'article est "pertinent"
-        title = entry.get('title', '')
-        link = entry.get('link', '')
+        title = entry.title
+        summary = entry.get('summary', "")
         
-        # Exemple de détection simple (à adapter selon votre logique métier réelle)
-        if "Macron" in title or "France" in title or "ONU" in title:
+        # Vérification des mots-clés
+        if any(kw.lower() in title.lower() or kw.lower() in summary.lower() for kw in keywords):
             logger.info(f"🎯 Article pertinent détecté : {title}")
-            
-            # Extraction des entités
-            entities = extract_entities(title)
-            logger.info(f"   Entités trouvées : {entities}")
+            extract_entities_and_create_draft(title, summary, entry.link)
 
-            # Création du fichier brouillon
-            if entities:
-                safe_title = "".join([c for c in title if c.isalnum() or c in (' ', '-', '_')]).rstrip()
-                filename = DRAFTS_DIR / f"{datetime.now().strftime('%Y-%m-%d')}-{safe_title[:50]}.md"
-                
-                if not filename.exists():
-                    DRAFTS_DIR.mkdir(parents=True, exist_ok=True)
-                    with open(filename, "w", encoding="utf-8") as f:
-                        f.write(f"# {title}\n\n")
-                        f.write(f"**Source :** {link}\n\n")
-                        f.write(f"**Entités :** {entities}\n\n")
-                        f.write(f"**Date :** {entry.get('published', 'N/A')}\n")
-                    logger.info(f"   Brouillon créé : {filename}")
 
-def commit_changes():
+def extract_entities_and_create_draft(title, content, url):
+    """Utilise l'IA pour extraire les entités du texte et créer des brouillons."""
+    prompt = f"""
+    Analyse ce titre et ce résumé d'article de presse.
+    Extrais les noms des personnes ou organisations importantes (élites, dirigeants).
+    Si tu en trouves, retourne-les sous forme de liste JSON : ["Nom1", "Nom2"].
+    Si rien d'intéressant, retourne [].
+    
+    Titre: {title}
+    Résumé: {content}
+    """
+    
     try:
-        # 1. Configurer l'identité AVANT le commit
-        configure_git_identity()
-
-        # 2. Ajouter les fichiers
-        subprocess.run(["git", "add", "."], check=True)
+        response = llm.client.chat.completions.create(
+            model=llm.model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.2
+        )
         
-        # 3. Commiter
-        commit_msg = f"chore: ajout de brouillons depuis RSS"
-        # Vérification si y'a des changements à commiter
-        result = subprocess.run(["git", "diff", "--cached", "--quiet"], check=False)
-        if result.returncode != 0:
-            subprocess.run(["git", "commit", "-m", commit_msg], check=True)
+        # Parsing simple de la réponse (supposant que l'IA respecte le format JSON)
+        # Idéalement, on utiliserait une fonction de parsing robuste ici
+        entities_str = response.choices[0].message.content
+        
+        # Création des brouillons
+        draft_folder = Path("00_Brouillons_RSS")
+        draft_folder.mkdir(exist_ok=True)
+        
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        filename = draft_folder / f"{timestamp}_{title[:30].replace('/', '-')}.md"
+        
+        draft_content = f"""
+---
+type: draft
+source_url: {url}
+date_detection: {datetime.now().isoformat()}
+entities_detected: {entities_str}
+---
+
+# {title}
+
+{content}
+
+*Note : Ce fichier a été généré automatiquement via le flux RSS. À valider et classer.*
+"""
+        with open(filename, 'w', encoding='utf-8') as f:
+            f.write(draft_content)
             
-            # 4. Push (optionnel, selon vos besoins)
-            subprocess.run(["git", "push"], check=True)
-            logger.info("Changements commités et poussés avec succès.")
-        else:
-            logger.info("Aucun nouveau changement à commiter.")
-
-    except subprocess.CalledProcessError as e:
-        logger.error(f"Erreur Git : {e}")
+        logger.info(f"📝 Brouillon créé : {filename.name}")
+        
     except Exception as e:
-        logger.error(f"Erreur inattendue lors du commit : {e}")
+        logger.error(f"Erreur lors de l'extraction d'entités pour {title} : {e}")
 
-if __name__ == "__main__":
+
+def main():
     logger.info("👁️ Démarrage de la surveillance RSS...")
     
-    for feed_url in RSS_FEEDS:
-        try:
-            process_feed(feed_url)
-        except Exception as e:
-            logger.error(f"Erreur lors du traitement du flux {feed_url} : {e}")
-    
-    # Commiter les résultats à la fin
-    commit_changes()
+    for feed_conf in CONFIG.get('rss_feeds', []):
+        process_feed(feed_conf['url'], feed_conf['keywords'])
+        
+git.commit_changes("feat: ajout automatique de brouillons depuis RSS")
+
+if __name__ == "__main__":
+    main()
