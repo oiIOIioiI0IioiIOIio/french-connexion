@@ -5016,3 +5016,29 @@
 2026-02-12 14:13:50,943 - french_connection - INFO - 📡 Lecture du flux : Unknown Feed
 2026-02-12 14:13:51,415 - french_connection - INFO - 📡 Lecture du flux : Unknown Feed
 2026-02-12 14:13:51,415 - french_connection - INFO - 📡 Lecture du flux : Unknown Feed
+2026-02-12 14:40:18,898 - french_connection - ERROR - Erreur Git lors du commit : Command '['git', '-C', PosixPath('.'), 'commit', '-m', 'feat: ajout automatique de brouillons depuis RSS']' returned non-zero exit status 128.
+2026-02-12 14:40:18,898 - french_connection - ERROR - Erreur Git lors du commit : Command '['git', '-C', PosixPath('.'), 'commit', '-m', 'feat: ajout automatique de brouillons depuis RSS']' returned non-zero exit status 128.
+2026-02-12 14:40:18,898 - french_connection - INFO - 👁️ Démarrage de la surveillance RSS...
+2026-02-12 14:40:18,898 - french_connection - INFO - 👁️ Démarrage de la surveillance RSS...
+2026-02-12 14:40:18,992 - french_connection - INFO - 📡 Lecture du flux : Le Monde.fr - Actualités et Infos en France et dans le monde
+2026-02-12 14:40:18,992 - french_connection - INFO - 📡 Lecture du flux : Le Monde.fr - Actualités et Infos en France et dans le monde
+2026-02-12 14:40:18,992 - french_connection - INFO - 🎯 Article pertinent détecté : Emmanuel Macron, en nommant des proches à des postes-clés, est accusé de fragiliser les institutions
+2026-02-12 14:40:18,992 - french_connection - INFO - 🎯 Article pertinent détecté : Emmanuel Macron, en nommant des proches à des postes-clés, est accusé de fragiliser les institutions
+2026-02-12 14:40:18,995 - french_connection - ERROR - Erreur lors de l'extraction d'entités pour Emmanuel Macron, en nommant des proches à des postes-clés, est accusé de fragiliser les institutions : 'Chat' object has no attribute 'completions'
+2026-02-12 14:40:18,995 - french_connection - ERROR - Erreur lors de l'extraction d'entités pour Emmanuel Macron, en nommant des proches à des postes-clés, est accusé de fragiliser les institutions : 'Chat' object has no attribute 'completions'
+2026-02-12 14:40:18,995 - french_connection - INFO - 🎯 Article pertinent détecté : Narcotrafic : l’Assemblée vote l’extension de la protection des lanceurs d’alerte, malgré l’opposition du gouvernement
+2026-02-12 14:40:18,995 - french_connection - INFO - 🎯 Article pertinent détecté : Narcotrafic : l’Assemblée vote l’extension de la protection des lanceurs d’alerte, malgré l’opposition du gouvernement
+2026-02-12 14:40:18,995 - french_connection - ERROR - Erreur lors de l'extraction d'entités pour Narcotrafic : l’Assemblée vote l’extension de la protection des lanceurs d’alerte, malgré l’opposition du gouvernement : 'Chat' object has no attribute 'completions'
+2026-02-12 14:40:18,995 - french_connection - ERROR - Erreur lors de l'extraction d'entités pour Narcotrafic : l’Assemblée vote l’extension de la protection des lanceurs d’alerte, malgré l’opposition du gouvernement : 'Chat' object has no attribute 'completions'
+2026-02-12 14:40:18,995 - french_connection - INFO - 🎯 Article pertinent détecté : Dominique Glaymann, sociologue : « Plutôt que l’insertion des jeunes, c’est l’accès des débutants à un emploi stable qu’il faut améliorer »
+2026-02-12 14:40:18,995 - french_connection - INFO - 🎯 Article pertinent détecté : Dominique Glaymann, sociologue : « Plutôt que l’insertion des jeunes, c’est l’accès des débutants à un emploi stable qu’il faut améliorer »
+2026-02-12 14:40:18,995 - french_connection - ERROR - Erreur lors de l'extraction d'entités pour Dominique Glaymann, sociologue : « Plutôt que l’insertion des jeunes, c’est l’accès des débutants à un emploi stable qu’il faut améliorer » : 'Chat' object has no attribute 'completions'
+2026-02-12 14:40:18,995 - french_connection - ERROR - Erreur lors de l'extraction d'entités pour Dominique Glaymann, sociologue : « Plutôt que l’insertion des jeunes, c’est l’accès des débutants à un emploi stable qu’il faut améliorer » : 'Chat' object has no attribute 'completions'
+2026-02-12 14:40:18,996 - french_connection - INFO - 🎯 Article pertinent détecté : WhatsApp : le Kremlin confirme le blocage de l’application de messagerie en Russie
+2026-02-12 14:40:18,996 - french_connection - INFO - 🎯 Article pertinent détecté : WhatsApp : le Kremlin confirme le blocage de l’application de messagerie en Russie
+2026-02-12 14:40:18,996 - french_connection - ERROR - Erreur lors de l'extraction d'entités pour WhatsApp : le Kremlin confirme le blocage de l’application de messagerie en Russie : 'Chat' object has no attribute 'completions'
+2026-02-12 14:40:18,996 - french_connection - ERROR - Erreur lors de l'extraction d'entités pour WhatsApp : le Kremlin confirme le blocage de l’application de messagerie en Russie : 'Chat' object has no attribute 'completions'
+2026-02-12 14:40:19,243 - french_connection - INFO - 📡 Lecture du flux : Unknown Feed
+2026-02-12 14:40:19,243 - french_connection - INFO - 📡 Lecture du flux : Unknown Feed
+2026-02-12 14:40:20,099 - french_connection - INFO - 📡 Lecture du flux : Unknown Feed
+2026-02-12 14:40:20,099 - french_connection - INFO - 📡 Lecture du flux : Unknown Feed
