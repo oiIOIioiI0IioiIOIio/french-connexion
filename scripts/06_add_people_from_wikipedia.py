@@ -46,6 +46,28 @@ MAX_DEPTH = 3
 CONFIDENCE_THRESHOLD = 0.6  # Score minimum pour validation
 EXPONENTIAL_EXPLORATION = True  # Exploration complète sans limite
 
+# Structures de retour par défaut pour les erreurs
+EMPTY_ENTITY_RESPONSE = {
+    'people': [],
+    'institutions': [],
+    'main_subject': '',
+    'subject_type': 'unknown',
+    'description': '',
+    'keywords': [],
+    'context': '',
+    'relevance_explanation': ''
+}
+
+EMPTY_QUERY_RESPONSE = {
+    'query_type': 'unknown',
+    'people': [],
+    'institutions': [],
+    'interpretation': '',
+    'main_subject': '',
+    'subject_category': '',
+    'explanation': ''
+}
+
 class PersonEntity:
     """Classe pour représenter une personne avec toutes ses métadonnées"""
     
@@ -253,12 +275,155 @@ Retourne un JSON complet :
             
             return result
         
-        return {}
+        return EMPTY_ENTITY_RESPONSE.copy()
         
     except Exception as e:
         logger.error(f"❌ Erreur Mistral identification : {e}")
         EXPLORATION_STATS['errors'] += 1
-        return {}
+        return EMPTY_ENTITY_RESPONSE.copy()
+
+def answer_initial_query_directly(query: str) -> dict:
+    """
+    🎯 RÉPOND DIRECTEMENT à la requête initiale AVANT l'exploration récursive
+    Distingue les requêtes sur des GROUPES DE PERSONNES vs des INSTITUTIONS
+    """
+    logger.info(f"🎯 Réponse directe à la requête : {query}")
+    
+    prompt = f"""
+Tu es un expert en analyse de requêtes et identification d'entités.
+
+REQUÊTE : "{query}"
+
+Ta mission : déterminer si cette requête demande des PERSONNES ou une INSTITUTION, puis répondre DIRECTEMENT.
+
+RÈGLES DE CLASSIFICATION STRICTES :
+
+1. REQUÊTE SUR DES PERSONNES (liste de personnes) :
+   - Contient : "dirigeants", "membres", "présidents", "ministres", "personnes", "qui sont", etc.
+   - Exemples : "les dirigeants de LVMH", "les membres du Siècle", "les présidents français"
+   - Type : "people_group"
+   
+2. REQUÊTE SUR UNE PERSONNE UNIQUE :
+   - Nom propre d'une personne spécifique
+   - Exemples : "Emmanuel Macron", "Bernard Arnault", "Jeffrey Epstein"
+   - Type : "single_person"
+   
+3. REQUÊTE SUR UNE INSTITUTION :
+   - Nom d'organisation, entreprise, club, think tank
+   - Exemples : "Le Siècle", "LVMH", "Groupe Bilderberg"
+   - Type : "institution"
+
+INSTRUCTIONS SELON LE TYPE :
+
+Si type = "people_group" :
+- Identifie l'organisation/contexte mentionné
+- Liste TOUTES les personnes pertinentes (dirigeants, membres, etc.)
+- Minimum 5-20 personnes selon le contexte
+
+Si type = "single_person" :
+- Identifie la personne
+- Liste ses relations principales (5-15 personnes)
+
+Si type = "institution" :
+- Identifie l'institution
+- Liste ses membres/dirigeants principaux (10-30 personnes)
+
+EXEMPLES DÉTAILLÉS :
+
+Requête "les dirigeants de LVMH" →
+{{
+  "query_type": "people_group",
+  "main_subject": "LVMH",
+  "subject_category": "entreprise",
+  "interpretation": "Liste des dirigeants et cadres dirigeants de LVMH",
+  "people": [
+    "Bernard Arnault",
+    "Antoine Arnault",
+    "Delphine Arnault",
+    "Sidney Toledano",
+    "Pietro Beccari",
+    "Michael Burke",
+    "Jean-Jacques Guiony",
+    "Chantal Gaemperle"
+  ],
+  "institutions": ["LVMH", "Christian Dior", "Louis Vuitton", "Moët Hennessy"],
+  "explanation": "Requête demandant explicitement les DIRIGEANTS (personnes) de LVMH, pas l'entreprise elle-même"
+}}
+
+Requête "Le Siècle" →
+{{
+  "query_type": "institution",
+  "main_subject": "Le Siècle",
+  "subject_category": "club d'influence",
+  "interpretation": "Club réunissant les élites françaises - liste de ses membres",
+  "people": [
+    "Henri de Castries",
+    "Anne Lauvergeon",
+    "Nicole Notat",
+    "Thierry Breton",
+    "Christine Lagarde",
+    "Bernard Arnault",
+    "François Pérol"
+  ],
+  "institutions": ["Le Siècle", "MEDEF", "Institut Montaigne"],
+  "explanation": "Institution dont on veut connaître les membres"
+}}
+
+Requête "Bernard Arnault" →
+{{
+  "query_type": "single_person",
+  "main_subject": "Bernard Arnault",
+  "subject_category": "chef d'entreprise",
+  "interpretation": "Personne spécifique et son réseau",
+  "people": [
+    "Bernard Arnault",
+    "Antoine Arnault",
+    "Delphine Arnault",
+    "Sidney Toledano",
+    "François Pinault",
+    "Emmanuel Macron"
+  ],
+  "institutions": ["LVMH", "Christian Dior", "Le Siècle"],
+  "explanation": "Personne unique dont on explore le réseau"
+}}
+
+IMPORTANT :
+- Si la requête contient "dirigeants", "membres", "qui sont", "liste", etc. → query_type = "people_group"
+- TOUJOURS privilégier "people_group" en cas de doute avec des mots au pluriel
+- Liste EXHAUSTIVE de personnes (utilise ta connaissance générale)
+
+Retourne un JSON complet :
+"""
+    
+    try:
+        chat_response = llm.client.chat.complete(
+            model=llm.model,
+            messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"},
+            temperature=0.2
+        )
+        
+        if chat_response.choices and chat_response.choices[0].message:
+            result = json.loads(chat_response.choices[0].message.content)
+            
+            query_type = result.get('query_type', 'unknown')
+            people = result.get('people', [])
+            institutions = result.get('institutions', [])
+            interpretation = result.get('interpretation', '')
+            
+            logger.info(f"✅ Type de requête identifié : {query_type}")
+            logger.info(f"✅ Sujet principal : {result.get('main_subject', 'N/A')}")
+            logger.info(f"✅ Interprétation : {interpretation}")
+            logger.info(f"✅ {len(people)} personnes identifiées directement")
+            logger.info(f"✅ {len(institutions)} institutions identifiées")
+            
+            return result
+        
+        return EMPTY_QUERY_RESPONSE.copy()
+        
+    except Exception as e:
+        logger.error(f"❌ Erreur réponse directe : {e}")
+        return EMPTY_QUERY_RESPONSE.copy()
 
 def answer_initial_query_directly(query: str) -> dict:
     """
@@ -818,7 +983,7 @@ Sois STRICT : privilégie la QUALITÉ sur la QUANTITÉ. Un réseau de 20 personn
         return (False, 0.0, f"Erreur technique : {e}")
 
 def explore_network_exponential(initial_query: str, current_depth: int = 0, 
-                               max_depth: int = MAX_DEPTH) -> None:
+                               max_depth: int = MAX_DEPTH, initial_query_type: str = None) -> None:
     """
     🌳 Exploration EXPONENTIELLE du réseau (tous les chemins, pas de limite)
     Exploration complète niveau par niveau
@@ -834,6 +999,8 @@ def explore_network_exponential(initial_query: str, current_depth: int = 0,
     logger.info(f"{'='*70}")
     
     # PHASE 1 : MISTRAL IDENTIFIE LES ENTITÉS
+    # Passer le hint de type si disponible (uniquement au niveau 0)
+    query_type_hint = initial_query_type if current_depth == 0 else None
     # Passer le hint de type si disponible
     query_type_hint = None
     if current_depth == 0 and hasattr(explore_network_exponential, '_initial_query_type'):
@@ -855,6 +1022,9 @@ def explore_network_exponential(initial_query: str, current_depth: int = 0,
         subject_type = 'personne'  # Traiter comme des personnes
         logger.info(f"🎯 Requête de type 'people_group' détectée - focus sur les personnes")
     
+    # Ajouter le sujet principal UNIQUEMENT si c'est une personne unique
+    if subject_type == 'personne' and main_subject and main_subject not in people and current_depth == 0:
+        # Vérifier que ce n'est pas un terme générique
     # Ajouter le sujet principal UNIQUEMENT si c'est une personne unique au niveau racine
     # Conditions: personne, nom présent, non déjà dans la liste, profondeur 0, et pas un terme générique
     if subject_type == 'personne' and main_subject and main_subject not in people and current_depth == 0:
@@ -1446,6 +1616,20 @@ def is_generic_people_term(name: str) -> bool:
         'gens', 'individus', 'acteurs', 'participants', 'représentants'
     ]
     
+    name_lower = name.lower().strip()
+    
+    # Vérifier correspondance exacte
+    if name_lower in generic_terms:
+        return True
+    
+    # Vérifier correspondance par mots complets (pattern compilé une seule fois)
+    if not hasattr(is_generic_people_term, '_pattern'):
+        # Créer un pattern combiné pour tous les termes
+        escaped_terms = [re.escape(term) for term in generic_terms]
+        pattern = r'\b(?:' + '|'.join(escaped_terms) + r')\b'
+        is_generic_people_term._pattern = re.compile(pattern)
+    
+    return bool(is_generic_people_term._pattern.search(name_lower))
     name_lower = name.lower()
     return any(term in name_lower for term in generic_terms)
 
@@ -1538,6 +1722,9 @@ def main(query: str = None):
         for i, person in enumerate(initial_people, 1):
             print(f"   {i}. {person}")
     
+    # ========== PHASE 1 : EXPLORATION EXPONENTIELLE ==========
+    print(f"\n🌳 Phase 1 : Exploration exponentielle (3 niveaux)...\n")
+    explore_network_exponential(query, current_depth=0, max_depth=MAX_DEPTH, initial_query_type=query_type)
     # Stocker le type de requête pour l'exploration
     explore_network_exponential._initial_query_type = query_type
     
