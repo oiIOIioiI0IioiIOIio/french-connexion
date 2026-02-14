@@ -28,6 +28,10 @@ wikipedia.set_lang("fr")
 with open("config/config.yaml", "r", encoding="utf-8") as f:
     CONFIG = yaml.safe_load(f)
 
+# Variables globales pour tracker les personnes déjà traitées
+VISITED_PEOPLE = set()
+ALL_FOUND_PEOPLE = []
+
 def extract_organization_from_query(query: str) -> list:
     """
     Extrait les noms d'organisations/institutions de la requête pour créer des liens
@@ -49,6 +53,7 @@ EXEMPLES :
 - "dirigeant du Groupe EBRA" → ["Groupe EBRA"]
 - "ministres de l'économie français" → ["Ministère de l'Économie"]
 - "membres du Siècle" → ["Le Siècle"]
+- "Jeffrey Epstein" → []
 
 Retourne un JSON avec :
 - "organizations": liste de noms d'organisations (ou liste vide si aucune)
@@ -77,11 +82,71 @@ Format: {{"organizations": ["Nom1", "Nom2"]}}
         logger.error(f"Erreur lors de l'extraction d'organisations : {e}")
         return []
 
-def search_people_on_wikipedia(query: str) -> list:
+def extract_main_subject_from_query(query: str) -> str:
     """
-    Recherche sur Wikipedia et extrait une liste de personnes à partir d'une requête
+    Extrait le sujet principal de la requête (personne ou organisation)
+    Ex: "Jeffrey Epstein" → "Jeffrey Epstein"
+    Ex: "les PDG du CAC 40" → "CAC 40" (pour créer une fiche organisation)
     """
-    logger.info(f"🔍 Recherche Wikipedia pour : {query}")
+    logger.info(f"🎯 Extraction du sujet principal de la requête : {query}")
+    
+    prompt = f"""
+Tu es un expert en analyse de requêtes.
+
+REQUÊTE : "{query}"
+
+Identifie le SUJET PRINCIPAL de cette requête :
+- Si c'est une personne spécifique, retourne son nom complet
+- Si c'est une organisation/institution, retourne son nom
+- Si c'est un groupe de personnes (ex: "les PDG du CAC 40"), retourne l'organisation principale
+
+EXEMPLES :
+- "Jeffrey Epstein" → "Jeffrey Epstein"
+- "les PDG du CAC 40" → "CAC 40"
+- "dirigeant du Groupe EBRA" → "Groupe EBRA"
+- "Emmanuel Macron" → "Emmanuel Macron"
+- "membres du Siècle" → "Le Siècle"
+
+Retourne un JSON avec :
+- "subject": le nom du sujet principal
+- "type": "personne" ou "organisation"
+
+Format: {{"subject": "Nom", "type": "personne"}}
+"""
+    
+    try:
+        chat_response = llm.client.chat.complete(
+            model=llm.model,
+            messages=[
+                {"role": "user", "content": prompt}
+            ],
+            response_format={"type": "json_object"}
+        )
+        
+        if chat_response.choices and chat_response.choices[0].message:
+            result = json.loads(chat_response.choices[0].message.content)
+            subject = result.get('subject', '')
+            subject_type = result.get('type', 'personne')
+            logger.info(f"✅ Sujet principal : {subject} (type: {subject_type})")
+            return subject, subject_type
+        
+        return "", "personne"
+        
+    except Exception as e:
+        logger.error(f"Erreur lors de l'extraction du sujet : {e}")
+        return "", "personne"
+
+def search_people_on_wikipedia_recursive(query: str, current_depth: int = 0, max_depth: int = 3) -> list:
+    """
+    Recherche récursive sur Wikipedia avec exploration en profondeur
+    """
+    global VISITED_PEOPLE, ALL_FOUND_PEOPLE
+    
+    if current_depth >= max_depth:
+        logger.info(f"🛑 Profondeur maximale atteinte ({max_depth})")
+        return []
+    
+    logger.info(f"🔍 Recherche Wikipedia (profondeur {current_depth + 1}/{max_depth}) pour : {query}")
     
     try:
         search_results = wikipedia.search(query, results=5)
@@ -95,7 +160,38 @@ def search_people_on_wikipedia(query: str) -> list:
         
         logger.info(f"📄 Page trouvée : {page.title}")
         
-        people_list = extract_people_from_text(content, query)
+        # Ajouter la personne principale si pas déjà visitée
+        people_list = []
+        if page.title not in VISITED_PEOPLE:
+            people_list.append({
+                'name': page.title,
+                'depth': current_depth,
+                'found_via': query if current_depth > 0 else 'requête principale'
+            })
+            VISITED_PEOPLE.add(page.title)
+            logger.info(f"✅ Personne principale ajoutée : {page.title} (profondeur {current_depth})")
+        
+        # Extraire les personnes liées
+        related_people = extract_people_from_text(content, query)
+        
+        # Ajouter les personnes liées
+        for person in related_people:
+            if person not in VISITED_PEOPLE:
+                people_list.append({
+                    'name': person,
+                    'depth': current_depth + 1,
+                    'found_via': page.title
+                })
+                VISITED_PEOPLE.add(person)
+        
+        ALL_FOUND_PEOPLE.extend(people_list)
+        
+        # Explorer récursivement les personnes liées (si profondeur < max)
+        if current_depth < max_depth - 1:
+            logger.info(f"🌳 Exploration des {len(related_people)} personnes liées...")
+            for person in related_people[:5]:  # Limiter à 5 personnes par niveau
+                if person not in VISITED_PEOPLE:
+                    search_people_on_wikipedia_recursive(person, current_depth + 1, max_depth)
         
         return people_list
         
@@ -107,7 +203,33 @@ def search_people_on_wikipedia(query: str) -> list:
         try:
             page = wikipedia.page(e.options[0])
             content = page.content
-            people_list = extract_people_from_text(content, query)
+            
+            people_list = []
+            if page.title not in VISITED_PEOPLE:
+                people_list.append({
+                    'name': page.title,
+                    'depth': current_depth,
+                    'found_via': query if current_depth > 0 else 'requête principale'
+                })
+                VISITED_PEOPLE.add(page.title)
+            
+            related_people = extract_people_from_text(content, query)
+            for person in related_people:
+                if person not in VISITED_PEOPLE:
+                    people_list.append({
+                        'name': person,
+                        'depth': current_depth + 1,
+                        'found_via': page.title
+                    })
+                    VISITED_PEOPLE.add(person)
+            
+            ALL_FOUND_PEOPLE.extend(people_list)
+            
+            if current_depth < max_depth - 1:
+                for person in related_people[:5]:
+                    if person not in VISITED_PEOPLE:
+                        search_people_on_wikipedia_recursive(person, current_depth + 1, max_depth)
+            
             return people_list
         except:
             return []
@@ -130,12 +252,13 @@ Tu es un assistant spécialisé dans l'extraction de noms de personnes depuis de
 REQUÊTE ORIGINALE : "{original_query}"
 
 À partir du texte Wikipedia ci-dessous, extrais une liste de noms complets de personnes 
-qui correspondent à la requête.
+qui sont mentionnées de manière significative (pas juste en passant).
 
 RÈGLES :
 - Retourne UNIQUEMENT les noms complets (Prénom Nom)
 - N'inclus que des personnes réelles (pas de personnages fictifs)
-- Maximum 20 personnes
+- Maximum 15 personnes
+- Privilégie les personnes avec des relations importantes (collaborateurs, famille, associés)
 - Format : liste JSON sous la clé "names": ["Nom1", "Nom2", ...]
 - Si aucune personne trouvée, retourne {{"names": []}}
 
@@ -171,32 +294,43 @@ Retourne un objet JSON avec la clé "names" contenant la liste :
         logger.error(f"Erreur lors de l'extraction de noms : {e}")
         return []
 
-def validate_person_relevance(person_name: str, original_query: str) -> tuple:
+def validate_person_relevance(person_name: str, original_query: str, depth: int) -> tuple:
     """
     Valide que la personne correspond bien à la requête originale via Mistral
     Retourne (True/False, raison)
     """
-    logger.info(f"🔍 Validation de pertinence : {person_name}")
+    logger.info(f"🔍 Validation de pertinence : {person_name} (profondeur {depth})")
+    
+    # Si c'est la personne principale (depth 0), toujours valider
+    if depth == 0:
+        return (True, "Sujet principal de la requête")
     
     prompt = f"""
 Tu es un expert en validation de données.
 
 REQUÊTE ORIGINALE : "{original_query}"
 PERSONNE À VALIDER : "{person_name}"
+PROFONDEUR DE RECHERCHE : {depth} (0 = personne principale, 1-3 = personnes liées)
 
-Ta mission : déterminer si cette personne correspond VRAIMENT à la requête.
+Ta mission : déterminer si cette personne est PERTINENTE pour la requête.
+
+CRITÈRES DE VALIDATION :
+- Profondeur 0 : TOUJOURS valider (c'est le sujet principal)
+- Profondeur 1 : Valider si lien DIRECT et SIGNIFICATIF avec la requête
+- Profondeur 2-3 : Valider si lien IMPORTANT (famille proche, associés directs, collaborateurs clés)
 
 EXEMPLES :
-- Requête "les présidents de la 5e république" + Personne "Abraham Lincoln" → NON (président américain)
-- Requête "les présidents de la 5e république" + Personne "Emmanuel Macron" → OUI (président français)
-- Requête "les ministres de l'économie français" + Personne "Bruno Le Maire" → OUI
-- Requête "les PDG du CAC 40" + Personne "Bernard Arnault" → OUI
+- Requête "Jeffrey Epstein" + Profondeur 0 + "Jeffrey Epstein" → OUI (sujet principal)
+- Requête "Jeffrey Epstein" + Profondeur 1 + "Ghislaine Maxwell" → OUI (associée directe)
+- Requête "Jeffrey Epstein" + Profondeur 2 + "Bill Clinton" → OUI (relation documentée)
+- Requête "Jeffrey Epstein" + Profondeur 3 + "Barack Obama" → NON (lien trop indirect)
+- Requête "les présidents de la 5e république" + Profondeur 1 + "Emmanuel Macron" → OUI
 
 Retourne un JSON avec :
 - "valid": true ou false
 - "reason": explication courte (1 phrase)
 
-Sois STRICT : si la personne ne correspond pas EXACTEMENT à la requête, retourne false.
+Sois STRICT pour profondeur 2-3, SOUPLE pour profondeur 0-1.
 """
     
     try:
@@ -214,7 +348,7 @@ Sois STRICT : si la personne ne correspond pas EXACTEMENT à la requête, retour
             reason = result.get('reason', 'Pas de raison fournie')
             
             if is_valid:
-                logger.info(f"✅ {person_name} → VALIDÉ")
+                logger.info(f"✅ {person_name} → VALIDÉ (profondeur {depth})")
             else:
                 logger.warning(f"❌ {person_name} → REJETÉ : {reason}")
             
@@ -328,14 +462,14 @@ def get_person_info_from_wikipedia(person_name: str) -> dict:
         logger.error(f"Erreur pour {person_name} : {e}")
         return None
 
-def create_person_file(person_name: str, person_data: dict, organizations: list = []):
+def create_person_file(person_name: str, person_data: dict, organizations: list = [], found_via: str = "", depth: int = 0):
     """
     Crée un fichier Markdown pour une personne dans le dossier personnes/
     """
     personnes_folder = Path("personnes")
     personnes_folder.mkdir(exist_ok=True)
     
-    # CORRECTION : regex corrigé sur une seule ligne
+    # Regex corrigé sur une seule ligne
     safe_filename = re.sub(r'[^\w\s-]', '', person_name).strip().replace(' ', '-')
     file_path = personnes_folder / f"{safe_filename}.md"
     
@@ -346,7 +480,7 @@ def create_person_file(person_name: str, person_data: dict, organizations: list 
     liens = person_data.get('liens', [])
     famille = person_data.get('famille', [])
     
-    # Section Organisations (NOUVEAU)
+    # Section Organisations
     org_text = ""
     if organizations and len(organizations) > 0:
         org_text = "\n## Organisations\n\n"
@@ -369,10 +503,16 @@ def create_person_file(person_name: str, person_data: dict, organizations: list 
             if member and len(member.strip()) > 2:
                 famille_text += f"- [[{member}]]\n"
     
+    # Section Découverte (si trouvé via exploration)
+    discovery_text = ""
+    if depth > 0 and found_via:
+        discovery_text = f"\n> 🔍 Trouvé via **[[{found_via}]]** (profondeur {depth})\n"
+    
     bio = person_data.get('bio', '')
     wiki_url = person_data.get('wikipedia_url', '')
     
     content = f"""{bio}
+{discovery_text}
 {org_text}
 {famille_text}
 {relations_text}
@@ -407,8 +547,10 @@ def create_person_file(person_name: str, person_data: dict, organizations: list 
         'presse': [],
         'sources': [wiki_url] if wiki_url else [],
         'statut_note': 'a_valider',
-        'tags': ['elite', 'wikipedia'],
-        'date_creation_note': datetime.now().strftime('%Y-%m-%d')
+        'tags': ['elite', 'wikipedia', f'profondeur-{depth}'],
+        'date_creation_note': datetime.now().strftime('%Y-%m-%d'),
+        'found_via': found_via,
+        'search_depth': depth
     }
     
     post = frontmatter.Post(content, **metadata)
@@ -420,10 +562,16 @@ def create_person_file(person_name: str, person_data: dict, organizations: list 
 
 def main(query: str = None):
     """
-    Script principal avec validation
+    Script principal avec validation et exploration récursive
     """
+    global VISITED_PEOPLE, ALL_FOUND_PEOPLE
+    
+    # Réinitialiser les variables globales
+    VISITED_PEOPLE = set()
+    ALL_FOUND_PEOPLE = []
+    
     print("\n" + "="*60)
-    print("🔍 AJOUT DE PERSONNES VIA WIKIPEDIA")
+    print("🔍 AJOUT DE PERSONNES VIA WIKIPEDIA (Exploration 3 degrés)")
     print("="*60)
     
     if not query:
@@ -431,6 +579,7 @@ def main(query: str = None):
         print("  - les présidents de la 5e république")
         print("  - les ministres de l'économie français")
         print("  - les PDG du CAC 40")
+        print("  - Jeffrey Epstein")
         print("  - dirigeant du Groupe EBRA")
         print("="*60)
         
@@ -442,47 +591,57 @@ def main(query: str = None):
     
     logger.info(f"🚀 Lancement de la recherche : '{query}'")
     
-    # Extraction des organisations de la requête
+    # Extraction du sujet principal et des organisations
+    main_subject, subject_type = extract_main_subject_from_query(query)
     organizations = extract_organization_from_query(query)
+    
+    if main_subject:
+        logger.info(f"🎯 Sujet principal : {main_subject} (type: {subject_type})")
     if organizations:
         logger.info(f"🏢 Organisations détectées : {organizations}")
     
-    people_list = search_people_on_wikipedia(query)
+    # Recherche récursive (3 degrés)
+    print(f"\n🌳 Exploration en profondeur (3 degrés)...")
+    search_people_on_wikipedia_recursive(query, current_depth=0, max_depth=3)
     
-    if not people_list or len(people_list) == 0:
+    if not ALL_FOUND_PEOPLE or len(ALL_FOUND_PEOPLE) == 0:
         logger.warning("❌ Aucune personne trouvée pour cette requête")
         return
     
-    print(f"\n📋 {len(people_list)} personnes trouvées :")
-    for i, person in enumerate(people_list, 1):
-        print(f"   {i}. {person}")
+    print(f"\n📋 {len(ALL_FOUND_PEOPLE)} personnes trouvées :")
+    for i, person_data in enumerate(ALL_FOUND_PEOPLE, 1):
+        print(f"   {i}. {person_data['name']} (profondeur {person_data['depth']}, via: {person_data['found_via']})")
     
     # Validation et traitement
     added_count = 0
     validated_people = []
     rejected_people = []
     
-    for person_name in people_list:
-        logger.info(f"\n{'='*50}")
-        logger.info(f"Traitement de : {person_name}")
+    for person_data in ALL_FOUND_PEOPLE:
+        person_name = person_data['name']
+        depth = person_data['depth']
+        found_via = person_data['found_via']
         
-        # VALIDATION STRICTE
-        is_valid, reason = validate_person_relevance(person_name, query)
+        logger.info(f"\n{'='*50}")
+        logger.info(f"Traitement de : {person_name} (profondeur {depth})")
+        
+        # VALIDATION
+        is_valid, reason = validate_person_relevance(person_name, query, depth)
         
         if not is_valid:
-            rejected_people.append((person_name, reason))
+            rejected_people.append((person_name, reason, depth))
             logger.warning(f"⚠️  {person_name} rejeté : {reason}")
             continue
         
         # Si validé, récupération des données
-        person_data = get_person_info_from_wikipedia(person_name)
+        wiki_data = get_person_info_from_wikipedia(person_name)
         
-        if person_data:
-            create_person_file(person_name, person_data, organizations)
-            validated_people.append(person_name)
+        if wiki_data:
+            create_person_file(person_name, wiki_data, organizations, found_via, depth)
+            validated_people.append((person_name, depth, found_via))
             added_count += 1
         else:
-            rejected_people.append((person_name, "Impossible de récupérer les données Wikipedia"))
+            rejected_people.append((person_name, "Impossible de récupérer les données Wikipedia", depth))
             logger.warning(f"⚠️  Impossible de récupérer les données pour {person_name}")
     
     # RÉSUMÉ FINAL
@@ -492,21 +651,22 @@ def main(query: str = None):
     
     if validated_people:
         print(f"\n✅ Personnes VALIDÉES (ajoutées) : {len(validated_people)}")
-        for i, name in enumerate(validated_people, 1):
-            print(f"   {i}. {name}")
+        for i, (name, depth, found_via) in enumerate(validated_people, 1):
+            print(f"   {i}. {name} (profondeur {depth}, via: {found_via})")
     
     if rejected_people:
-        print(f"\n❌ Personnes REJETÉES (hors sujet) : {len(rejected_people)}")
-        for i, (name, reason) in enumerate(rejected_people, 1):
-            print(f"   {i}. {name} → {reason}")
+        print(f"\n❌ Personnes REJETÉES : {len(rejected_people)}")
+        for i, (name, reason, depth) in enumerate(rejected_people, 1):
+            print(f"   {i}. {name} (profondeur {depth}) → {reason}")
     
     print("\n" + "="*60)
     print(f"🎉 RÉSULTAT FINAL : {added_count} fiches créées, {len(rejected_people)} rejetées")
+    print(f"🌳 Exploration sur {max([p['depth'] for p in ALL_FOUND_PEOPLE]) + 1} niveaux")
     print("="*60)
     
     # Commit Git
     if added_count > 0:
-        commit_msg = f"feat: ajout de {added_count} personnes validées via Wikipedia - {query}"
+        commit_msg = f"feat: ajout de {added_count} personnes via Wikipedia (3 degrés) - {query}"
         git.commit_changes(commit_msg)
         logger.info("✅ Changements committés")
 
