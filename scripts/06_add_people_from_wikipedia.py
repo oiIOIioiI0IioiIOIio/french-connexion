@@ -1472,7 +1472,7 @@ def is_generic_people_term(name: str) -> bool:
     if name_lower in generic_terms:
         return True
     
-    # Vérifier correspondance par mots complets (re is imported at top of file)
+    # Vérifier correspondance par mots complets
     for term in generic_terms:
         if re.search(rf'\b{re.escape(term)}\b', name_lower):
             return True
