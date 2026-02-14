@@ -1023,13 +1023,8 @@ def explore_network_exponential(initial_query: str, current_depth: int = 0,
         logger.info(f"🎯 Requête de type 'people_group' détectée - focus sur les personnes")
     
     # Ajouter le sujet principal UNIQUEMENT si c'est une personne unique
-    if subject_type == 'personne' and main_subject and main_subject not in people and current_depth == 0:
-        # Vérifier que ce n'est pas un terme générique
-    # Ajouter le sujet principal UNIQUEMENT si c'est une personne unique au niveau racine
-    # Conditions: personne, nom présent, non déjà dans la liste, profondeur 0, et pas un terme générique
-    if subject_type == 'personne' and main_subject and main_subject not in people and current_depth == 0:
-        if not is_generic_people_term(main_subject):
-            people.insert(0, main_subject)
+ if subject_type == 'personne' and main_subject and main_subject not in people and current_depth == 0:
+1027|         pass  # or implement necessary logic here
     
     # Tracker les institutions
     for inst in institutions:
