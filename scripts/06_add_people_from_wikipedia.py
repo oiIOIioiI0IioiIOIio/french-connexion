@@ -258,7 +258,16 @@ Retourne un JSON complet :
     except Exception as e:
         logger.error(f"❌ Erreur Mistral identification : {e}")
         EXPLORATION_STATS['errors'] += 1
-        return {}
+        return {
+            'people': [],
+            'institutions': [],
+            'main_subject': '',
+            'subject_type': 'unknown',
+            'description': '',
+            'keywords': [],
+            'context': '',
+            'relevance_explanation': ''
+        }
 
 def answer_initial_query_directly(query: str) -> dict:
     """
@@ -401,7 +410,15 @@ Retourne un JSON complet :
         
     except Exception as e:
         logger.error(f"❌ Erreur réponse directe : {e}")
-        return {}
+        return {
+            'query_type': 'unknown',
+            'people': [],
+            'institutions': [],
+            'interpretation': '',
+            'main_subject': '',
+            'subject_category': '',
+            'explanation': ''
+        }
 
 def mistral_extract_detailed_relationships(person_name: str, bio_text: str, 
                                           all_known_people: Set[str]) -> List[RelationshipDetail]:
@@ -818,7 +835,7 @@ Sois STRICT : privilégie la QUALITÉ sur la QUANTITÉ. Un réseau de 20 personn
         return (False, 0.0, f"Erreur technique : {e}")
 
 def explore_network_exponential(initial_query: str, current_depth: int = 0, 
-                               max_depth: int = MAX_DEPTH) -> None:
+                               max_depth: int = MAX_DEPTH, initial_query_type: str = None) -> None:
     """
     🌳 Exploration EXPONENTIELLE du réseau (tous les chemins, pas de limite)
     Exploration complète niveau par niveau
@@ -834,10 +851,8 @@ def explore_network_exponential(initial_query: str, current_depth: int = 0,
     logger.info(f"{'='*70}")
     
     # PHASE 1 : MISTRAL IDENTIFIE LES ENTITÉS
-    # Passer le hint de type si disponible
-    query_type_hint = None
-    if current_depth == 0 and hasattr(explore_network_exponential, '_initial_query_type'):
-        query_type_hint = explore_network_exponential._initial_query_type
+    # Passer le hint de type si disponible (uniquement au niveau 0)
+    query_type_hint = initial_query_type if current_depth == 0 else None
     
     entities = mistral_identify_entities_comprehensive(initial_query, query_type_hint=query_type_hint)
     
@@ -1446,8 +1461,19 @@ def is_generic_people_term(name: str) -> bool:
         'gens', 'individus', 'acteurs', 'participants', 'représentants'
     ]
     
-    name_lower = name.lower()
-    return any(term in name_lower for term in generic_terms)
+    name_lower = name.lower().strip()
+    
+    # Vérifier correspondance exacte
+    if name_lower in generic_terms:
+        return True
+    
+    # Vérifier correspondance par mots complets
+    import re
+    for term in generic_terms:
+        if re.search(rf'\b{re.escape(term)}\b', name_lower):
+            return True
+    
+    return False
 
 def main(query: str = None):
     """
@@ -1538,12 +1564,9 @@ def main(query: str = None):
         for i, person in enumerate(initial_people, 1):
             print(f"   {i}. {person}")
     
-    # Stocker le type de requête pour l'exploration
-    explore_network_exponential._initial_query_type = query_type
-    
     # ========== PHASE 1 : EXPLORATION EXPONENTIELLE ==========
     print(f"\n🌳 Phase 1 : Exploration exponentielle (3 niveaux)...\n")
-    explore_network_exponential(query, current_depth=0, max_depth=MAX_DEPTH)
+    explore_network_exponential(query, current_depth=0, max_depth=MAX_DEPTH, initial_query_type=query_type)
     
     if not ALL_FOUND_ENTITIES:
         logger.warning("❌ Aucune entité trouvée")
