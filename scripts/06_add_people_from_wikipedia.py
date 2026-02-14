@@ -8,6 +8,9 @@ from dotenv import load_dotenv
 import json
 import re
 from datetime import datetime
+from typing import Dict, List, Tuple, Optional, Set
+from collections import defaultdict
+import time
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
@@ -28,37 +31,175 @@ wikipedia.set_lang("fr")
 with open("config/config.yaml", "r", encoding="utf-8") as f:
     CONFIG = yaml.safe_load(f)
 
-# Variables globales pour tracker les personnes déjà traitées
+# Variables globales pour tracker l'exploration
 VISITED_PEOPLE = set()
-ALL_FOUND_PEOPLE = []
+VISITED_ORGS = set()
+ALL_FOUND_ENTITIES = []
+EXPLORATION_STATS = defaultdict(int)
+RELATIONSHIPS_GRAPH = defaultdict(list)
+VALIDATION_SCORES = {}
+CREATED_FILES = []
+ORIGINAL_QUERY = ""
 
-def extract_organization_from_query(query: str) -> list:
+# Configuration de l'exploration
+MAX_DEPTH = 3
+CONFIDENCE_THRESHOLD = 0.6  # Score minimum pour validation
+EXPONENTIAL_EXPLORATION = True  # Exploration complète sans limite
+
+class PersonEntity:
+    """Classe pour représenter une personne avec toutes ses métadonnées"""
+    
+    def __init__(self, name: str, depth: int, found_via: str, query: str):
+        self.name = name
+        self.depth = depth
+        self.found_via = found_via
+        self.original_query = query
+        self.wikipedia_data = None
+        self.validation_score = 0.0
+        self.validation_reason = ""
+        self.is_validated = False
+        self.relationships = []
+        self.organizations = []
+        self.created_file_path = None
+        self.factcheck_status = "pending"
+        self.sources = []
+        
+    def to_dict(self) -> dict:
+        """Convertit l'entité en dictionnaire"""
+        return {
+            'name': self.name,
+            'depth': self.depth,
+            'found_via': self.found_via,
+            'original_query': self.original_query,
+            'validation_score': self.validation_score,
+            'validation_reason': self.validation_reason,
+            'is_validated': self.is_validated,
+            'factcheck_status': self.factcheck_status,
+            'relationships_count': len(self.relationships),
+            'organizations_count': len(self.organizations)
+        }
+
+class InstitutionEntity:
+    """Classe pour représenter une institution"""
+    
+    def __init__(self, name: str, depth: int, found_via: str):
+        self.name = name
+        self.depth = depth
+        self.found_via = found_via
+        self.wikipedia_data = None
+        self.members = []
+        self.created_file_path = None
+        self.factcheck_status = "pending"
+        
+    def to_dict(self) -> dict:
+        return {
+            'name': self.name,
+            'depth': self.depth,
+            'found_via': self.found_via,
+            'factcheck_status': self.factcheck_status,
+            'members_count': len(self.members)
+        }
+
+class RelationshipDetail:
+    """Classe pour représenter une relation détaillée entre deux personnes"""
+    
+    def __init__(self, person_from: str, person_to: str, relationship_type: str, 
+                 description: str, confidence: float, source: str):
+        self.person_from = person_from
+        self.person_to = person_to
+        self.relationship_type = relationship_type
+        self.description = description
+        self.confidence = confidence
+        self.source = source
+        self.timestamp = datetime.now()
+        
+    def to_markdown(self) -> str:
+        """Convertit la relation en format Markdown pour Obsidian"""
+        return f"- [[{self.person_to}]] : {self.description} ({self.relationship_type})"
+    
+    def to_dict(self) -> dict:
+        return {
+            'person_from': self.person_from,
+            'person_to': self.person_to,
+            'type': self.relationship_type,
+            'description': self.description,
+            'confidence': self.confidence,
+            'source': self.source
+        }
+
+def mistral_identify_entities_comprehensive(query: str, context: str = "") -> dict:
     """
-    Extrait les noms d'organisations/institutions de la requête pour créer des liens
-    Ex: "les PDG du CAC 40" → ["CAC 40"]
-    Ex: "dirigeant du Groupe EBRA" → ["Groupe EBRA"]
+    🧠 Identification complète des entités via Mistral
+    Utilise la connaissance générale pour identifier personnes et institutions
     """
-    logger.info(f"🔍 Extraction des organisations de la requête : {query}")
+    logger.info(f"🧠 Identification complète des entités pour : {query}")
+    
+    context_text = f"\n\nCONTEXTE ADDITIONNEL :\n{context}" if context else ""
     
     prompt = f"""
-Tu es un expert en extraction d'entités.
+Tu es un expert mondial des réseaux de pouvoir, élites, institutions et géopolitique.
 
-REQUÊTE : "{query}"
+REQUÊTE : "{query}"{context_text}
 
-Extrais TOUS les noms d'organisations, institutions, entreprises, groupes mentionnés dans cette requête.
+Ta mission : identifier de manière EXHAUSTIVE et RIGOUREUSE toutes les personnes et institutions 
+pertinentes, en utilisant ta connaissance générale (niveau journalistique).
 
-EXEMPLES :
-- "les PDG du CAC 40" → ["CAC 40"]
-- "les présidents de la 5e république" → ["Cinquième République"]
-- "dirigeant du Groupe EBRA" → ["Groupe EBRA"]
-- "ministres de l'économie français" → ["Ministère de l'Économie"]
-- "membres du Siècle" → ["Le Siècle"]
-- "Jeffrey Epstein" → []
+EXEMPLES DÉTAILLÉS :
 
-Retourne un JSON avec :
-- "organizations": liste de noms d'organisations (ou liste vide si aucune)
+Requête "Le Siècle" →
+{{
+  "main_subject": "Le Siècle",
+  "subject_type": "institution",
+  "description": "Club de réflexion français fondé en 1944, réunissant élites politiques, économiques et médiatiques",
+  "people": [
+    "Henri de Castries",
+    "Anne Lauvergeon", 
+    "Nicole Notat",
+    "Thierry Breton",
+    "Laurence Parisot",
+    "Jean-Marie Colombani",
+    "Christine Lagarde",
+    "François Pérol",
+    "Bernard Arnault"
+  ],
+  "institutions": ["Le Siècle", "MEDEF", "Institut Montaigne", "ENA"],
+  "keywords": ["élite", "réseau", "influence", "club", "pouvoir"],
+  "context": "Réseau d'influence français majeur depuis 1944",
+  "relevance_explanation": "Club privé rassemblant les principales élites françaises"
+}}
 
-Format: {{"organizations": ["Nom1", "Nom2"]}}
+Requête "Jeffrey Epstein" →
+{{
+  "main_subject": "Jeffrey Epstein",
+  "subject_type": "personne",
+  "description": "Financier américain condamné pour trafic de mineurs et crimes sexuels, décédé en prison en 2019",
+  "people": [
+    "Jeffrey Epstein",
+    "Ghislaine Maxwell",
+    "Les Wexner",
+    "Bill Clinton",
+    "Donald Trump",
+    "Prince Andrew",
+    "Alan Dershowitz",
+    "Jean-Luc Brunel"
+  ],
+  "institutions": ["Victoria's Secret", "L Brands", "MIT Media Lab", "Council on Foreign Relations"],
+  "keywords": ["finance", "scandale", "trafic", "élite", "connexions"],
+  "context": "Réseau de trafic de mineurs impliquant des personnalités internationales",
+  "relevance_explanation": "Affaire criminelle majeure révélant des connexions au sein des élites"
+}}
+
+RÈGLES STRICTES :
+1. Utilise ta CONNAISSANCE GÉNÉRALE (sources fiables uniquement)
+2. Liste TOUTES les personnes pertinentes (10-30 personnes selon le sujet)
+3. Liste TOUTES les institutions/organisations pertinentes
+4. main_subject = le sujet EXACT de la requête
+5. subject_type = "personne" ou "institution"
+6. Sois EXHAUSTIF mais RIGOUREUX
+7. N'invente AUCUNE information
+8. Privilégie les personnes DOCUMENTÉES et VÉRIFIABLES
+
+Retourne un JSON complet :
 """
     
     try:
@@ -67,51 +208,104 @@ Format: {{"organizations": ["Nom1", "Nom2"]}}
             messages=[
                 {"role": "user", "content": prompt}
             ],
-            response_format={"type": "json_object"}
+            response_format={"type": "json_object"},
+            temperature=0.3  # Plus bas pour plus de fiabilité
         )
         
         if chat_response.choices and chat_response.choices[0].message:
             result = json.loads(chat_response.choices[0].message.content)
-            orgs = result.get('organizations', [])
-            logger.info(f"✅ Organisations extraites : {orgs}")
-            return orgs
+            
+            EXPLORATION_STATS['mistral_calls'] += 1
+            EXPLORATION_STATS['entities_identified'] += len(result.get('people', []))
+            EXPLORATION_STATS['institutions_identified'] += len(result.get('institutions', []))
+            
+            logger.info(f"✅ Sujet principal : {result.get('main_subject', 'N/A')} (type: {result.get('subject_type', 'N/A')})")
+            logger.info(f"✅ {len(result.get('people', []))} personnes identifiées")
+            logger.info(f"✅ {len(result.get('institutions', []))} institutions identifiées")
+            
+            return result
         
-        return []
+        return {}
         
     except Exception as e:
-        logger.error(f"Erreur lors de l'extraction d'organisations : {e}")
-        return []
+        logger.error(f"❌ Erreur Mistral identification : {e}")
+        EXPLORATION_STATS['errors'] += 1
+        return {}
 
-def extract_main_subject_from_query(query: str) -> str:
+def mistral_extract_detailed_relationships(person_name: str, bio_text: str, 
+                                          all_known_people: Set[str]) -> List[RelationshipDetail]:
     """
-    Extrait le sujet principal de la requête (personne ou organisation)
-    Ex: "Jeffrey Epstein" → "Jeffrey Epstein"
-    Ex: "les PDG du CAC 40" → "CAC 40" (pour créer une fiche organisation)
+    🔗 Extraction DÉTAILLÉE des relations depuis une biographie Wikipedia
+    Retourne des objets RelationshipDetail avec descriptions précises
     """
-    logger.info(f"🎯 Extraction du sujet principal de la requête : {query}")
+    logger.info(f"🔗 Extraction détaillée des relations pour : {person_name}")
+    
+    known_people_list = list(all_known_people)[:50]  # Limiter pour le prompt
     
     prompt = f"""
-Tu es un expert en analyse de requêtes.
+Tu es un expert en analyse de réseaux et relations de pouvoir.
 
-REQUÊTE : "{query}"
+PERSONNE ANALYSÉE : {person_name}
 
-Identifie le SUJET PRINCIPAL de cette requête :
-- Si c'est une personne spécifique, retourne son nom complet
-- Si c'est une organisation/institution, retourne son nom
-- Si c'est un groupe de personnes (ex: "les PDG du CAC 40"), retourne l'organisation principale
+BIOGRAPHIE WIKIPEDIA :
+{bio_text}
 
-EXEMPLES :
-- "Jeffrey Epstein" → "Jeffrey Epstein"
-- "les PDG du CAC 40" → "CAC 40"
-- "dirigeant du Groupe EBRA" → "Groupe EBRA"
-- "Emmanuel Macron" → "Emmanuel Macron"
-- "membres du Siècle" → "Le Siècle"
+PERSONNES DÉJÀ IDENTIFIÉES DANS LE RÉSEAU :
+{', '.join(known_people_list)}
 
-Retourne un JSON avec :
-- "subject": le nom du sujet principal
-- "type": "personne" ou "organisation"
+Ta mission : extraire TOUTES les relations significatives avec des descriptions PRÉCISES.
 
-Format: {{"subject": "Nom", "type": "personne"}}
+Pour chaque relation, identifie :
+1. Le nom complet de la personne liée
+2. Le type de relation (famille, collaborateur, mentor, associé, concurrent, etc.)
+3. Une description FACTUELLE et PRÉCISE de la relation (1 phrase)
+4. Un score de confiance (0.0 à 1.0) basé sur la clarté de l'information
+
+EXEMPLES DE RELATIONS DÉTAILLÉES :
+
+{{
+  "relationships": [
+    {{
+      "person_name": "Ghislaine Maxwell",
+      "relationship_type": "associée",
+      "description": "Associée et compagne de longue date, impliquée dans le réseau de trafic",
+      "confidence": 0.95,
+      "context": "Mentionnée 47 fois dans la biographie, relation documentée sur 20 ans"
+    }},
+    {{
+      "person_name": "Bill Clinton",
+      "relationship_type": "relation professionnelle",
+      "description": "A voyagé à plusieurs reprises dans l'avion privé d'Epstein entre 2002 et 2005",
+      "confidence": 0.85,
+      "context": "Relation documentée par les logs de vol et témoignages"
+    }},
+    {{
+      "person_name": "Les Wexner",
+      "relationship_type": "mentor et associé",
+      "description": "Principal client et mentor financier, PDG de L Brands, relation de 15 ans",
+      "confidence": 0.90,
+      "context": "Gestion de fortune et conseils financiers documentés"
+    }}
+  ],
+  "institutions": [
+    {{
+      "name": "Victoria's Secret",
+      "relationship_type": "conseiller financier",
+      "description": "Conseiller financier de Les Wexner, propriétaire de la marque",
+      "confidence": 0.80
+    }}
+  ]
+}}
+
+RÈGLES STRICTES :
+1. N'extrais QUE les relations EXPLICITEMENT mentionnées dans le texte
+2. Descriptions FACTUELLES uniquement (pas d'interprétation)
+3. Score de confiance basé sur la clarté et la répétition dans le texte
+4. Maximum 20 relations (priorise les plus importantes)
+5. Privilégie les personnes de la liste "PERSONNES DÉJÀ IDENTIFIÉES"
+6. Aucune invention, aucune spéculation
+
+Retourne un JSON :
 """
     
     try:
@@ -120,555 +314,1288 @@ Format: {{"subject": "Nom", "type": "personne"}}
             messages=[
                 {"role": "user", "content": prompt}
             ],
-            response_format={"type": "json_object"}
+            response_format={"type": "json_object"},
+            temperature=0.2  # Très bas pour fiabilité maximale
         )
         
         if chat_response.choices and chat_response.choices[0].message:
             result = json.loads(chat_response.choices[0].message.content)
-            subject = result.get('subject', '')
-            subject_type = result.get('type', 'personne')
-            logger.info(f"✅ Sujet principal : {subject} (type: {subject_type})")
-            return subject, subject_type
-        
-        return "", "personne"
-        
-    except Exception as e:
-        logger.error(f"Erreur lors de l'extraction du sujet : {e}")
-        return "", "personne"
-
-def search_people_on_wikipedia_recursive(query: str, current_depth: int = 0, max_depth: int = 3) -> list:
-    """
-    Recherche récursive sur Wikipedia avec exploration en profondeur
-    """
-    global VISITED_PEOPLE, ALL_FOUND_PEOPLE
-    
-    if current_depth >= max_depth:
-        logger.info(f"🛑 Profondeur maximale atteinte ({max_depth})")
-        return []
-    
-    logger.info(f"🔍 Recherche Wikipedia (profondeur {current_depth + 1}/{max_depth}) pour : {query}")
-    
-    try:
-        search_results = wikipedia.search(query, results=5)
-        
-        if not search_results:
-            logger.warning(f"Aucun résultat trouvé pour : {query}")
-            return []
-        
-        page = wikipedia.page(search_results[0], auto_suggest=False)
-        content = page.content
-        
-        logger.info(f"📄 Page trouvée : {page.title}")
-        
-        # Ajouter la personne principale si pas déjà visitée
-        people_list = []
-        if page.title not in VISITED_PEOPLE:
-            people_list.append({
-                'name': page.title,
-                'depth': current_depth,
-                'found_via': query if current_depth > 0 else 'requête principale'
-            })
-            VISITED_PEOPLE.add(page.title)
-            logger.info(f"✅ Personne principale ajoutée : {page.title} (profondeur {current_depth})")
-        
-        # Extraire les personnes liées
-        related_people = extract_people_from_text(content, query)
-        
-        # Ajouter les personnes liées
-        for person in related_people:
-            if person not in VISITED_PEOPLE:
-                people_list.append({
-                    'name': person,
-                    'depth': current_depth + 1,
-                    'found_via': page.title
-                })
-                VISITED_PEOPLE.add(person)
-        
-        ALL_FOUND_PEOPLE.extend(people_list)
-        
-        # Explorer récursivement les personnes liées (si profondeur < max)
-        if current_depth < max_depth - 1:
-            logger.info(f"🌳 Exploration des {len(related_people)} personnes liées...")
-            for person in related_people[:5]:  # Limiter à 5 personnes par niveau
-                if person not in VISITED_PEOPLE:
-                    search_people_on_wikipedia_recursive(person, current_depth + 1, max_depth)
-        
-        return people_list
-        
-    except wikipedia.exceptions.PageError:
-        logger.warning(f"Page Wikipedia non trouvée pour : {query}")
-        return []
-    except wikipedia.exceptions.DisambiguationError as e:
-        logger.warning(f"Page ambiguë pour '{query}'. Options : {e.options[:3]}")
-        try:
-            page = wikipedia.page(e.options[0])
-            content = page.content
+            relationships_data = result.get('relationships', [])
             
-            people_list = []
-            if page.title not in VISITED_PEOPLE:
-                people_list.append({
-                    'name': page.title,
-                    'depth': current_depth,
-                    'found_via': query if current_depth > 0 else 'requête principale'
-                })
-                VISITED_PEOPLE.add(page.title)
+            relationships = []
+            for rel in relationships_data:
+                if rel.get('confidence', 0) >= 0.6:  # Seuil de confiance
+                    relationship = RelationshipDetail(
+                        person_from=person_name,
+                        person_to=rel.get('person_name', ''),
+                        relationship_type=rel.get('relationship_type', 'relation'),
+                        description=rel.get('description', ''),
+                        confidence=rel.get('confidence', 0.0),
+                        source=f"Wikipedia - {person_name}"
+                    )
+                    relationships.append(relationship)
             
-            related_people = extract_people_from_text(content, query)
-            for person in related_people:
-                if person not in VISITED_PEOPLE:
-                    people_list.append({
-                        'name': person,
-                        'depth': current_depth + 1,
-                        'found_via': page.title
-                    })
-                    VISITED_PEOPLE.add(person)
+            EXPLORATION_STATS['relationships_extracted'] += len(relationships)
+            logger.info(f"✅ {len(relationships)} relations détaillées extraites (confiance ≥ 0.6)")
             
-            ALL_FOUND_PEOPLE.extend(people_list)
-            
-            if current_depth < max_depth - 1:
-                for person in related_people[:5]:
-                    if person not in VISITED_PEOPLE:
-                        search_people_on_wikipedia_recursive(person, current_depth + 1, max_depth)
-            
-            return people_list
-        except:
-            return []
-    except Exception as e:
-        logger.error(f"Erreur lors de la recherche Wikipedia : {e}")
-        return []
-
-def extract_people_from_text(text: str, original_query: str) -> list:
-    """
-    Utilise Mistral pour extraire les noms des personnes
-    """
-    logger.info("🤖 Extraction des noms de personnes via Mistral...")
-    
-    if len(text) > 8000:
-        text = text[:8000]
-    
-    prompt = f"""
-Tu es un assistant spécialisé dans l'extraction de noms de personnes depuis des textes Wikipedia.
-
-REQUÊTE ORIGINALE : "{original_query}"
-
-À partir du texte Wikipedia ci-dessous, extrais une liste de noms complets de personnes 
-qui sont mentionnées de manière significative (pas juste en passant).
-
-RÈGLES :
-- Retourne UNIQUEMENT les noms complets (Prénom Nom)
-- N'inclus que des personnes réelles (pas de personnages fictifs)
-- Maximum 15 personnes
-- Privilégie les personnes avec des relations importantes (collaborateurs, famille, associés)
-- Format : liste JSON sous la clé "names": ["Nom1", "Nom2", ...]
-- Si aucune personne trouvée, retourne {{"names": []}}
-
-TEXTE WIKIPEDIA :
-{text}
-
-Retourne un objet JSON avec la clé "names" contenant la liste :
-"""
-    
-    try:
-        chat_response = llm.client.chat.complete(
-            model=llm.model,
-            messages=[
-                {"role": "user", "content": prompt}
-            ],
-            response_format={"type": "json_object"}
-        )
-        
-        if chat_response.choices and chat_response.choices[0].message:
-            result = json.loads(chat_response.choices[0].message.content)
-            
-            if isinstance(result, dict):
-                people = result.get('names', result.get('personnes', result.get('list', [])))
-            else:
-                people = result
-            
-            logger.info(f"✅ {len(people)} personnes extraites")
-            return people
+            return relationships
         
         return []
         
     except Exception as e:
-        logger.error(f"Erreur lors de l'extraction de noms : {e}")
+        logger.error(f"❌ Erreur extraction relations : {e}")
+        EXPLORATION_STATS['errors'] += 1
         return []
 
-def validate_person_relevance(person_name: str, original_query: str, depth: int) -> tuple:
+def wikipedia_factcheck_person_rigorous(person_name: str) -> Optional[dict]:
     """
-    Valide que la personne correspond bien à la requête originale via Mistral
-    Retourne (True/False, raison)
+    📖 Factchecking RIGOUREUX d'une personne via Wikipedia
+    Niveau journalistique : vérification multiple, sources croisées
     """
-    logger.info(f"🔍 Validation de pertinence : {person_name} (profondeur {depth})")
-    
-    # Si c'est la personne principale (depth 0), toujours valider
-    if depth == 0:
-        return (True, "Sujet principal de la requête")
-    
-    prompt = f"""
-Tu es un expert en validation de données.
-
-REQUÊTE ORIGINALE : "{original_query}"
-PERSONNE À VALIDER : "{person_name}"
-PROFONDEUR DE RECHERCHE : {depth} (0 = personne principale, 1-3 = personnes liées)
-
-Ta mission : déterminer si cette personne est PERTINENTE pour la requête.
-
-CRITÈRES DE VALIDATION :
-- Profondeur 0 : TOUJOURS valider (c'est le sujet principal)
-- Profondeur 1 : Valider si lien DIRECT et SIGNIFICATIF avec la requête
-- Profondeur 2-3 : Valider si lien IMPORTANT (famille proche, associés directs, collaborateurs clés)
-
-EXEMPLES :
-- Requête "Jeffrey Epstein" + Profondeur 0 + "Jeffrey Epstein" → OUI (sujet principal)
-- Requête "Jeffrey Epstein" + Profondeur 1 + "Ghislaine Maxwell" → OUI (associée directe)
-- Requête "Jeffrey Epstein" + Profondeur 2 + "Bill Clinton" → OUI (relation documentée)
-- Requête "Jeffrey Epstein" + Profondeur 3 + "Barack Obama" → NON (lien trop indirect)
-- Requête "les présidents de la 5e république" + Profondeur 1 + "Emmanuel Macron" → OUI
-
-Retourne un JSON avec :
-- "valid": true ou false
-- "reason": explication courte (1 phrase)
-
-Sois STRICT pour profondeur 2-3, SOUPLE pour profondeur 0-1.
-"""
+    logger.info(f"📖 Factcheck rigoureux pour : {person_name}")
     
     try:
-        chat_response = llm.client.chat.complete(
-            model=llm.model,
-            messages=[
-                {"role": "user", "content": prompt}
-            ],
-            response_format={"type": "json_object"}
-        )
-        
-        if chat_response.choices and chat_response.choices[0].message:
-            result = json.loads(chat_response.choices[0].message.content)
-            is_valid = result.get('valid', False)
-            reason = result.get('reason', 'Pas de raison fournie')
-            
-            if is_valid:
-                logger.info(f"✅ {person_name} → VALIDÉ (profondeur {depth})")
-            else:
-                logger.warning(f"❌ {person_name} → REJETÉ : {reason}")
-            
-            return (is_valid, reason)
-        
-        return (False, "Erreur de validation")
-        
-    except Exception as e:
-        logger.error(f"Erreur lors de la validation : {e}")
-        return (False, f"Erreur technique : {e}")
-
-def get_person_info_from_wikipedia(person_name: str) -> dict:
-    """
-    Récupère les informations d'une personne depuis Wikipedia
-    """
-    logger.info(f"📖 Récupération des infos pour : {person_name}")
-    
-    try:
+        # Recherche Wikipedia
         page = wikipedia.page(person_name, auto_suggest=True)
         summary = page.summary
-        full_content = page.content[:3000]
+        full_content = page.content[:5000]  # Plus de contenu pour analyse
         
+        logger.info(f"✅ Page Wikipedia trouvée : {page.title}")
+        
+        # Schéma d'extraction détaillé
         schema = """
         {
-          "date_naissance": "Date de naissance au format YYYY-MM-DD si possible, sinon texte",
-          "lieu_naissance": "Ville et pays de naissance",
-          "nationalite": "Nationalité",
+          "nom_complet_verifie": "Nom complet exact selon Wikipedia",
+          "date_naissance": "Date de naissance au format YYYY-MM-DD si disponible",
+          "date_deces": "Date de décès au format YYYY-MM-DD si applicable, sinon vide",
+          "lieu_naissance": "Ville et pays de naissance complets",
+          "nationalite": "Nationalité(s) complète(s)",
           "genre": "homme ou femme",
-          "statut": "Profession ou fonction principale actuelle",
-          "bio": "Résumé biographique en 2-3 phrases maximum",
-          "formation": "Liste des écoles, universités, diplômes - format: liste de textes courts",
-          "carriere": "Liste des principales fonctions, postes, mandats - format: liste de textes courts",
-          "distinctions": "Liste des distinctions, prix, décorations - format: liste de textes",
-          "famille": "Noms des membres de la famille mentionnés (conjoint, enfants, parents) - format: liste de noms complets",
-          "relations_professionnelles": "Noms des collaborateurs, mentors, relations professionnelles importantes - format: liste de noms complets"
+          "statut_actuel": "Profession ou fonction principale actuelle ou au moment du décès",
+          "bio_courte": "Résumé biographique factuel en 2-3 phrases maximum",
+          "bio_detaillee": "Biographie détaillée en 5-7 phrases",
+          "formation": "Liste complète des écoles, universités, diplômes (format: liste)",
+          "carriere": "Liste chronologique des principales fonctions, postes, mandats (format: liste)",
+          "distinctions": "Liste complète des distinctions, prix, décorations (format: liste)",
+          "controverses": "Liste des controverses ou scandales documentés (format: liste)",
+          "famille_proche": "Noms complets des membres famille proche mentionnés (conjoint, enfants, parents)",
+          "relations_professionnelles": "Noms complets des collaborateurs, mentors, associés importants",
+          "mots_cles": "Mots-clés caractérisant la personne (5-10 mots)",
+          "niveau_notoriete": "Score de 1 à 10 estimant la notoriété publique",
+          "sources_mentionnees": "Sources ou références importantes mentionnées dans l'article"
         }
         """
         
         extracted_data = llm.extract_yaml_data(full_content, schema)
         
-        for key in ['formation', 'carriere', 'distinctions', 'famille']:
+        # Normalisation des listes
+        for key in ['formation', 'carriere', 'distinctions', 'controverses', 
+                    'famille_proche', 'relations_professionnelles', 'mots_cles', 'sources_mentionnees']:
             if key not in extracted_data or extracted_data[key] is None:
                 extracted_data[key] = []
             elif isinstance(extracted_data[key], str):
-                extracted_data[key] = [item.strip() for item in extracted_data[key].split(',') if item.strip()]
+                items = [item.strip() for item in extracted_data[key].split(',') if item.strip()]
+                extracted_data[key] = items
         
-        famille = extracted_data.get('famille', [])
-        relations_pro = extracted_data.get('relations_professionnelles', [])
-        
-        if isinstance(famille, str):
-            famille = [item.strip() for item in famille.split(',') if item.strip()]
-        if isinstance(relations_pro, str):
-            relations_pro = [item.strip() for item in relations_pro.split(',') if item.strip()]
-        
-        all_relations = list(set(famille + relations_pro))
-        
-        extracted_data['liens'] = all_relations[:15]
-        extracted_data['famille'] = famille[:10] if famille else []
+        # Enrichissement des données
         extracted_data['wikipedia_url'] = page.url
+        extracted_data['wikipedia_title'] = page.title
+        extracted_data['wikipedia_summary'] = summary[:500]
+        extracted_data['verification_date'] = datetime.now().strftime('%Y-%m-%d')
+        extracted_data['factcheck_status'] = 'verified'
+        extracted_data['content_length'] = len(page.content)
+        extracted_data['has_references'] = len(page.references) if hasattr(page, 'references') else 0
+        
+        # Extraction des relations détaillées
+        all_known_people = VISITED_PEOPLE.copy()
+        relationships = mistral_extract_detailed_relationships(person_name, full_content, all_known_people)
+        
+        extracted_data['detailed_relationships'] = relationships
+        extracted_data['relationships_count'] = len(relationships)
+        
+        # Extraction des institutions liées
+        institutions = extract_institutions_from_text(full_content)
+        extracted_data['linked_institutions'] = institutions
+        
+        EXPLORATION_STATS['factcheck_success'] += 1
+        logger.info(f"✅ Factcheck réussi : {page.title} ({len(relationships)} relations, {len(institutions)} institutions)")
         
         return extracted_data
         
     except wikipedia.exceptions.DisambiguationError as e:
-        logger.warning(f"⚠️  Ambiguïté pour {person_name}. Tentative avec : {e.options[0]}")
+        logger.warning(f"⚠️  Ambiguïté pour {person_name}. Options : {e.options[:5]}")
+        
+        # Tentative avec la première option
         try:
             page = wikipedia.page(e.options[0])
-            full_content = page.content[:3000]
+            full_content = page.content[:5000]
+            
+            logger.info(f"✅ Utilisation de la page : {page.title}")
             
             schema = """
             {
+              "nom_complet_verifie": "Nom complet exact",
               "date_naissance": "Date de naissance",
+              "date_deces": "Date de décès si applicable",
               "lieu_naissance": "Lieu de naissance",
               "nationalite": "Nationalité",
               "genre": "Genre",
-              "statut": "Statut professionnel",
-              "bio": "Biographie courte",
+              "statut_actuel": "Statut professionnel",
+              "bio_courte": "Biographie courte",
+              "bio_detaillee": "Biographie détaillée",
               "formation": "Formation (liste)",
               "carriere": "Carrière (liste)",
               "distinctions": "Distinctions (liste)",
-              "famille": "Famille (liste de noms)",
-              "relations_professionnelles": "Relations (liste de noms)"
+              "controverses": "Controverses (liste)",
+              "mots_cles": "Mots-clés",
+              "niveau_notoriete": "Notoriété (1-10)"
             }
             """
             
             extracted_data = llm.extract_yaml_data(full_content, schema)
             
-            for key in ['formation', 'carriere', 'distinctions', 'famille']:
+            for key in ['formation', 'carriere', 'distinctions', 'controverses', 'mots_cles']:
                 if key not in extracted_data or extracted_data[key] is None:
                     extracted_data[key] = []
                 elif isinstance(extracted_data[key], str):
                     extracted_data[key] = [item.strip() for item in extracted_data[key].split(',') if item.strip()]
             
-            famille = extracted_data.get('famille', [])
-            relations_pro = extracted_data.get('relations_professionnelles', [])
-            
-            if isinstance(famille, str):
-                famille = [item.strip() for item in famille.split(',') if item.strip()]
-            if isinstance(relations_pro, str):
-                relations_pro = [item.strip() for item in relations_pro.split(',') if item.strip()]
-            
-            all_relations = list(set(famille + relations_pro))
-            
-            extracted_data['liens'] = all_relations[:15]
-            extracted_data['famille'] = famille[:10] if famille else []
             extracted_data['wikipedia_url'] = page.url
+            extracted_data['wikipedia_title'] = page.title
+            extracted_data['factcheck_status'] = 'verified_disambiguation'
+            extracted_data['verification_date'] = datetime.now().strftime('%Y-%m-%d')
+            
+            all_known_people = VISITED_PEOPLE.copy()
+            relationships = mistral_extract_detailed_relationships(person_name, full_content, all_known_people)
+            extracted_data['detailed_relationships'] = relationships
+            
+            institutions = extract_institutions_from_text(full_content)
+            extracted_data['linked_institutions'] = institutions
+            
+            EXPLORATION_STATS['factcheck_disambiguation'] += 1
             
             return extracted_data
-        except:
+            
+        except Exception as e2:
+            logger.error(f"❌ Échec résolution ambiguïté : {e2}")
+            EXPLORATION_STATS['factcheck_failed'] += 1
             return None
+            
+    except wikipedia.exceptions.PageError:
+        logger.warning(f"❌ Pas de page Wikipedia pour : {person_name}")
+        EXPLORATION_STATS['factcheck_not_found'] += 1
+        return None
+        
     except Exception as e:
-        logger.error(f"Erreur pour {person_name} : {e}")
+        logger.error(f"❌ Erreur factcheck {person_name} : {e}")
+        EXPLORATION_STATS['factcheck_failed'] += 1
+        EXPLORATION_STATS['errors'] += 1
         return None
 
-def create_person_file(person_name: str, person_data: dict, organizations: list = [], found_via: str = "", depth: int = 0):
+def extract_institutions_from_text(text: str) -> List[str]:
     """
-    Crée un fichier Markdown pour une personne dans le dossier personnes/
+    Extrait les institutions/organisations mentionnées dans un texte
     """
+    prompt = f"""
+Extrais toutes les institutions, organisations, entreprises mentionnées dans ce texte.
+
+TEXTE :
+{text[:2000]}
+
+Retourne uniquement les noms d'institutions IMPORTANTES et SIGNIFICATIVES.
+Format JSON : {{"institutions": ["Institution 1", "Institution 2"]}}
+
+Maximum 15 institutions, triées par importance.
+"""
+    
+    try:
+        chat_response = llm.client.chat.complete(
+            model=llm.model,
+            messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"},
+            temperature=0.2
+        )
+        
+        if chat_response.choices and chat_response.choices[0].message:
+            result = json.loads(chat_response.choices[0].message.content)
+            institutions = result.get('institutions', [])
+            return institutions[:15]
+        
+        return []
+        
+    except Exception as e:
+        logger.error(f"Erreur extraction institutions : {e}")
+        return []
+
+def validate_person_relevance_comprehensive(person: PersonEntity, original_query: str) -> Tuple[bool, float, str]:
+    """
+    ✅ Validation COMPLÈTE de la pertinence d'une personne
+    Retourne (is_valid, confidence_score, detailed_reason)
+    """
+    logger.info(f"✅ Validation complète : {person.name} (profondeur {person.depth})")
+    
+    # Profondeur 0 : sujet principal, toujours validé avec score max
+    if person.depth == 0:
+        return (True, 1.0, "Sujet principal de la requête")
+    
+    # Récupérer le contexte de la personne
+    context = ""
+    if person.wikipedia_data:
+        bio = person.wikipedia_data.get('bio_detaillee', '')
+        carriere = person.wikipedia_data.get('carriere', [])
+        context = f"Bio: {bio}\nCarrière: {', '.join(carriere[:5])}"
+    
+    prompt = f"""
+Tu es un expert en validation de données et fact-checking journalistique.
+
+REQUÊTE ORIGINALE : "{original_query}"
+PERSONNE À VALIDER : "{person.name}"
+PROFONDEUR DE RECHERCHE : {person.depth} (0 = sujet principal, 1-3 = degrés de séparation)
+TROUVÉE VIA : "{person.found_via}"
+
+CONTEXTE BIOGRAPHIQUE :
+{context}
+
+Ta mission : déterminer si cette personne est PERTINENTE et JUSTIFIABLE dans le contexte de la requête.
+
+CRITÈRES DE VALIDATION STRICTS :
+
+Profondeur 1 (1er degré) :
+- Score ≥ 0.8 : Lien DIRECT et DOCUMENTÉ (famille proche, associé direct, collaborateur clé)
+- Score 0.6-0.8 : Lien SIGNIFICATIF (relation professionnelle importante)
+- Score < 0.6 : REJETER (lien trop faible ou indirect)
+
+Profondeur 2 (2ème degr��) :
+- Score ≥ 0.7 : Lien IMPORTANT via une personne clé (membre même réseau, collaborateur de collaborateur)
+- Score 0.6-0.7 : Lien MODÉRÉ (connexion professionnelle indirecte mais significative)
+- Score < 0.6 : REJETER (trop éloigné de la requête)
+
+Profondeur 3 (3ème degré) :
+- Score ≥ 0.65 : Lien NOTABLE (même sphère d'influence, même réseau élargi)
+- Score < 0.65 : REJETER (connexion trop ténue)
+
+EXEMPLES CONCRETS :
+
+Requête "Jeffrey Epstein" :
+- Ghislaine Maxwell (profondeur 1) → Score 0.95 (associée directe documentée)
+- Bill Clinton (profondeur 1) → Score 0.85 (relation documentée, voyages communs)
+- Prince Andrew (profondeur 1) → Score 0.90 (relation documentée, accusations)
+- Chelsea Clinton (profondeur 2, via Bill) → Score 0.40 REJETÉ (lien familial indirect non pertinent)
+- Tony Blair (profondeur 2, via Prince Andrew) → Score 0.60 (limite, relation indirecte)
+
+Requête "Le Siècle" :
+- Henri de Castries (profondeur 1) → Score 0.95 (membre confirmé)
+- Bernard Arnault (profondeur 1) → Score 0.90 (membre du club)
+- Claude Bébéar (profondeur 2, via Castries) → Score 0.75 (mentor, même réseau)
+- Emmanuel Macron (profondeur 1) → Score 0.85 (participant documenté)
+
+ANALYSE REQUISE :
+1. Pertinence du lien par rapport à la requête originale
+2. Force de la connexion (documentée, vérifiable)
+3. Justification journalistique (pourquoi cette personne est importante dans ce contexte)
+4. Score de confiance (0.0 à 1.0)
+
+Retourne un JSON :
+{{
+  "is_relevant": true ou false,
+  "confidence_score": 0.0 à 1.0,
+  "detailed_reason": "Explication détaillée et factuelle (2-3 phrases)",
+  "connection_strength": "direct" ou "indirect" ou "weak",
+  "journalistic_justification": "Justification éditoriale de l'inclusion"
+}}
+
+Sois STRICT : privilégie la QUALITÉ sur la QUANTITÉ. Un réseau de 20 personnes pertinentes vaut mieux que 100 avec des liens faibles.
+"""
+    
+    try:
+        chat_response = llm.client.chat.complete(
+            model=llm.model,
+            messages=[
+                {"role": "user", "content": prompt}
+            ],
+            response_format={"type": "json_object"},
+            temperature=0.2
+        )
+        
+        if chat_response.choices and chat_response.choices[0].message:
+            result = json.loads(chat_response.choices[0].message.content)
+            
+            is_relevant = result.get('is_relevant', False)
+            confidence = result.get('confidence_score', 0.0)
+            reason = result.get('detailed_reason', 'Pas de raison fournie')
+            justification = result.get('journalistic_justification', '')
+            
+            # Combiner raison et justification
+            full_reason = f"{reason} | Justification éditoriale : {justification}"
+            
+            EXPLORATION_STATS['validations_performed'] += 1
+            
+            if is_relevant and confidence >= CONFIDENCE_THRESHOLD:
+                logger.info(f"✅ {person.name} → VALIDÉ (score: {confidence:.2f})")
+                EXPLORATION_STATS['validations_passed'] += 1
+                return (True, confidence, full_reason)
+            else:
+                logger.warning(f"❌ {person.name} → REJETÉ (score: {confidence:.2f}) : {reason}")
+                EXPLORATION_STATS['validations_rejected'] += 1
+                return (False, confidence, full_reason)
+        
+        return (False, 0.0, "Erreur de validation")
+        
+    except Exception as e:
+        logger.error(f"❌ Erreur validation : {e}")
+        EXPLORATION_STATS['errors'] += 1
+        return (False, 0.0, f"Erreur technique : {e}")
+
+def explore_network_exponential(initial_query: str, current_depth: int = 0, 
+                               max_depth: int = MAX_DEPTH) -> None:
+    """
+    🌳 Exploration EXPONENTIELLE du réseau (tous les chemins, pas de limite)
+    Exploration complète niveau par niveau
+    """
+    global VISITED_PEOPLE, VISITED_ORGS, ALL_FOUND_ENTITIES, ORIGINAL_QUERY
+    
+    if current_depth >= max_depth:
+        logger.info(f"🛑 Profondeur maximale atteinte ({max_depth})")
+        return
+    
+    logger.info(f"\n{'='*70}")
+    logger.info(f"🌳 NIVEAU {current_depth + 1}/{max_depth} : {initial_query}")
+    logger.info(f"{'='*70}")
+    
+    # PHASE 1 : MISTRAL IDENTIFIE LES ENTITÉS
+    entities = mistral_identify_entities_comprehensive(initial_query)
+    
+    if not entities:
+        logger.warning("❌ Aucune entité identifiée par Mistral")
+        return
+    
+    main_subject = entities.get('main_subject', '')
+    subject_type = entities.get('subject_type', 'personne')
+    people = entities.get('people', [])
+    institutions = entities.get('institutions', [])
+    
+    # Ajouter le sujet principal si c'est une personne
+    if subject_type == 'personne' and main_subject and main_subject not in people:
+        people.insert(0, main_subject)
+    
+    # Tracker les institutions
+    for inst in institutions:
+        if inst not in VISITED_ORGS:
+            VISITED_ORGS.add(inst)
+            institution_entity = InstitutionEntity(
+                name=inst,
+                depth=current_depth,
+                found_via=initial_query if current_depth > 0 else 'requête principale'
+            )
+            ALL_FOUND_ENTITIES.append(institution_entity)
+            logger.info(f"🏢 Institution ajoutée : {inst}")
+    
+    # PHASE 2 : FACTCHECK WIKIPEDIA POUR CHAQUE PERSONNE
+    people_to_explore_next = []
+    
+    for person_name in people:
+        if person_name in VISITED_PEOPLE:
+            logger.info(f"⏭️  {person_name} déjà traité, skip")
+            continue
+        
+        VISITED_PEOPLE.add(person_name)
+        
+        logger.info(f"\n{'─'*60}")
+        logger.info(f"🔍 Traitement : {person_name} (profondeur {current_depth})")
+        
+        # Créer l'entité personne
+        person_entity = PersonEntity(
+            name=person_name,
+            depth=current_depth,
+            found_via=initial_query if current_depth > 0 else 'requête principale',
+            query=ORIGINAL_QUERY
+        )
+        
+        # Factcheck Wikipedia
+        wiki_data = wikipedia_factcheck_person_rigorous(person_name)
+        
+        if not wiki_data:
+            logger.warning(f"❌ {person_name} non vérifié sur Wikipedia, ignoré")
+            person_entity.factcheck_status = "failed"
+            continue
+        
+        person_entity.wikipedia_data = wiki_data
+        person_entity.factcheck_status = wiki_data.get('factcheck_status', 'verified')
+        
+        # Stocker les relations et institutions
+        relationships = wiki_data.get('detailed_relationships', [])
+        person_entity.relationships = relationships
+        person_entity.organizations = wiki_data.get('linked_institutions', [])
+        
+        # Ajouter à la liste des entités
+        ALL_FOUND_ENTITIES.append(person_entity)
+        
+        logger.info(f"✅ {person_name} fackchecké (profondeur {current_depth})")
+        logger.info(f"   - {len(relationships)} relations détaillées")
+        logger.info(f"   - {len(person_entity.organizations)} institutions liées")
+        
+        # Collecter les personnes à explorer au niveau suivant
+        if current_depth < max_depth - 1 and EXPONENTIAL_EXPLORATION:
+            for rel in relationships:
+                if rel.person_to not in VISITED_PEOPLE and rel.confidence >= 0.7:
+                    people_to_explore_next.append(rel.person_to)
+        
+        # Petit délai pour éviter de surcharger Wikipedia
+        time.sleep(0.5)
+    
+    # PHASE 3 : EXPLORATION RÉCURSIVE DU NIVEAU SUIVANT
+    if current_depth < max_depth - 1 and people_to_explore_next:
+        logger.info(f"\n🔄 Exploration du niveau suivant : {len(people_to_explore_next)} personnes")
+        
+        # Explorer TOUTES les personnes du niveau suivant (exponentiel)
+        for next_person in people_to_explore_next:
+            if next_person not in VISITED_PEOPLE:
+                explore_network_exponential(
+                    next_person,
+                    current_depth + 1,
+                    max_depth
+                )
+
+def final_validation_before_commit(entities: List[PersonEntity], original_query: str) -> Tuple[List[PersonEntity], List[PersonEntity]]:
+    """
+    🎯 VALIDATION FINALE de toutes les personnes AVANT commit
+    Filtre rigoureux pour garantir la qualité journalistique
+    """
+    logger.info(f"\n{'='*70}")
+    logger.info(f"🎯 VALIDATION FINALE AVANT COMMIT")
+    logger.info(f"{'='*70}")
+    logger.info(f"📊 {len(entities)} personnes à valider contre la requête : '{original_query}'")
+    
+    validated_entities = []
+    rejected_entities = []
+    
+    for person_entity in entities:
+        if not isinstance(person_entity, PersonEntity):
+            continue
+        
+        # Validation complète
+        is_valid, confidence, reason = validate_person_relevance_comprehensive(
+            person_entity,
+            original_query
+        )
+        
+        person_entity.is_validated = is_valid
+        person_entity.validation_score = confidence
+        person_entity.validation_reason = reason
+        
+        VALIDATION_SCORES[person_entity.name] = {
+            'score': confidence,
+            'validated': is_valid,
+            'reason': reason
+        }
+        
+        if is_valid:
+            validated_entities.append(person_entity)
+        else:
+            rejected_entities.append(person_entity)
+    
+    logger.info(f"\n✅ Validation finale : {len(validated_entities)} acceptées, {len(rejected_entities)} rejetées")
+    
+    return validated_entities, rejected_entities
+
+def create_person_file_comprehensive(person: PersonEntity, all_institutions: List[str]) -> bool:
+    """
+    📝 Création de fiche personne COMPLÈTE avec relations détaillées pour Obsidian
+    """
+    person_name = person.name
+    person_data = person.wikipedia_data
+    depth = person.depth
+    found_via = person.found_via
+    validation_score = person.validation_score
+    
+    if not person_data:
+        logger.error(f"❌ Pas de données Wikipedia pour {person_name}")
+        return False
+    
     personnes_folder = Path("personnes")
     personnes_folder.mkdir(exist_ok=True)
     
-    # Regex corrigé sur une seule ligne
     safe_filename = re.sub(r'[^\w\s-]', '', person_name).strip().replace(' ', '-')
     file_path = personnes_folder / f"{safe_filename}.md"
     
     if file_path.exists():
         logger.info(f"ℹ️  {person_name} existe déjà, ignoré")
-        return
+        return False
     
-    liens = person_data.get('liens', [])
-    famille = person_data.get('famille', [])
+    # ========== CONSTRUCTION DU CONTENU MARKDOWN ==========
     
-    # Section Organisations
-    org_text = ""
-    if organizations and len(organizations) > 0:
-        org_text = "\n## Organisations\n\n"
-        for org in organizations:
-            org_text += f"- [[{org}]]\n"
+    # En-tête avec contexte de découverte
+    discovery_header = ""
+    if depth == 0:
+        discovery_header = f"> 🎯 **Sujet principal de la recherche**\n> Score de pertinence : {validation_score:.0%}\n"
+    else:
+        discovery_header = f"> 🔍 **Découvert via [[{found_via}]]** (niveau {depth})\n> Score de pertinence : {validation_score:.0%}\n"
     
-    # Section Relations
-    relations_text = ""
-    if liens and len(liens) > 0:
-        relations_text = "\n## Relations et Réseaux\n\n"
-        for related in liens:
-            if related and len(related.strip()) > 2:
-                relations_text += f"- [[{related}]]\n"
+    # Biographie
+    bio_courte = person_data.get('bio_courte', '')
+    bio_detaillee = person_data.get('bio_detaillee', '')
     
-    # Section Famille
-    famille_text = ""
-    if famille and len(famille) > 0:
-        famille_text = "\n## Famille\n\n"
-        for member in famille:
-            if member and len(member.strip()) > 2:
-                famille_text += f"- [[{member}]]\n"
-    
-    # Section Découverte (si trouvé via exploration)
-    discovery_text = ""
-    if depth > 0 and found_via:
-        discovery_text = f"\n> 🔍 Trouvé via **[[{found_via}]]** (profondeur {depth})\n"
-    
-    bio = person_data.get('bio', '')
-    wiki_url = person_data.get('wikipedia_url', '')
-    
-    content = f"""{bio}
-{discovery_text}
-{org_text}
-{famille_text}
-{relations_text}
+    bio_section = f"""## Biographie
 
----
-
-**Source** : [Wikipedia]({wiki_url})
+{bio_detaillee if bio_detaillee else bio_courte}
 """
     
-    # Ajouter les organisations aux affiliations
-    affiliations = person_data.get('affiliations', [])
-    if organizations:
-        affiliations.extend(organizations)
+    # Section Informations personnelles
+    info_section = "\n## Informations personnelles\n\n"
     
+    if person_data.get('date_naissance'):
+        info_section += f"**Date de naissance** : {person_data['date_naissance']}\n"
+    if person_data.get('date_deces'):
+        info_section += f"**Date de décès** : {person_data['date_deces']}\n"
+    if person_data.get('lieu_naissance'):
+        info_section += f"**Lieu de naissance** : {person_data['lieu_naissance']}\n"
+    if person_data.get('nationalite'):
+        info_section += f"**Nationalité** : {person_data['nationalite']}\n"
+    if person_data.get('statut_actuel'):
+        info_section += f"**Statut** : {person_data['statut_actuel']}\n"
+    
+    # Section Formation
+    formation_section = ""
+    formation = person_data.get('formation', [])
+    if formation and len(formation) > 0:
+        formation_section = "\n## Formation\n\n"
+        for item in formation[:10]:
+            formation_section += f"- {item}\n"
+    
+    # Section Carrière
+    carriere_section = ""
+    carriere = person_data.get('carriere', [])
+    if carriere and len(carriere) > 0:
+        carriere_section = "\n## Carrière\n\n"
+        for item in carriere[:15]:
+            carriere_section += f"- {item}\n"
+    
+    # Section Organisations et Institutions (avec liens Obsidian)
+    org_section = ""
+    institutions = person_data.get('linked_institutions', [])
+    all_orgs = list(set(institutions + all_institutions))
+    
+    if all_orgs:
+        org_section = "\n## Organisations et Institutions\n\n"
+        for org in all_orgs[:20]:
+            org_section += f"- [[{org}]]\n"
+    
+    # Section RELATIONS DÉTAILLÉES (cœur de l'Obsidian graph)
+    relations_section = ""
+    relationships = person.relationships
+    
+    if relationships and len(relationships) > 0:
+        relations_section = "\n## Réseau et Connexions\n\n"
+        relations_section += f"*{len(relationships)} relations documentées*\n\n"
+        
+        # Grouper par type de relation
+        relations_by_type = defaultdict(list)
+        for rel in relationships:
+            relations_by_type[rel.relationship_type].append(rel)
+        
+        for rel_type, rels in relations_by_type.items():
+            relations_section += f"\n### {rel_type.capitalize()}\n\n"
+            for rel in sorted(rels, key=lambda x: x.confidence, reverse=True)[:10]:
+                # Format Obsidian avec description détaillée
+                relations_section += f"- [[{rel.person_to}]] : {rel.description} *(confiance: {rel.confidence:.0%})*\n"
+    
+    # Section Distinctions
+    distinctions_section = ""
+    distinctions = person_data.get('distinctions', [])
+    if distinctions and len(distinctions) > 0:
+        distinctions_section = "\n## Distinctions et Prix\n\n"
+        for item in distinctions[:10]:
+            distinctions_section += f"- {item}\n"
+    
+    # Section Controverses (transparence journalistique)
+    controverses_section = ""
+    controverses = person_data.get('controverses', [])
+    if controverses and len(controverses) > 0:
+        controverses_section = "\n## Controverses\n\n"
+        for item in controverses[:10]:
+            controverses_section += f"- {item}\n"
+    
+    # Mots-clés (tags Obsidian)
+    mots_cles = person_data.get('mots_cles', [])
+    tags_line = ""
+    if mots_cles:
+        tags_line = "\n**Tags** : " + " · ".join([f"#{tag.replace(' ', '-')}" for tag in mots_cles[:10]]) + "\n"
+    
+    # Footer avec métadonnées de vérification
+    footer = f"""
+---
+
+## Métadonnées et Vérification
+
+**Source principale** : [Wikipedia]({person_data.get('wikipedia_url', '')})  
+**Titre Wikipedia** : {person_data.get('wikipedia_title', person_name)}  
+**Statut de vérification** : ✅ {person_data.get('factcheck_status', 'verified')}  
+**Date de vérification** : {person_data.get('verification_date', datetime.now().strftime('%Y-%m-%d'))}  
+**Longueur article Wikipedia** : {person_data.get('content_length', 0)} caractères  
+**Niveau de notoriété** : {person_data.get('niveau_notoriete', 'N/A')}/10  
+**Score de pertinence** : {validation_score:.0%}  
+**Profondeur de recherche** : {depth}  
+**Requête originale** : "{person.original_query}"  
+
+{tags_line}
+
+*Fiche créée le {datetime.now().strftime('%Y-%m-%d à %H:%M')} via l'Œil de Dieu (exploration récursive niveau {depth})*
+"""
+    
+    # ========== ASSEMBLAGE FINAL ==========
+    content = f"""{discovery_header}
+{bio_section}
+{info_section}
+{formation_section}
+{carriere_section}
+{org_section}
+{relations_section}
+{distinctions_section}
+{controverses_section}
+{footer}
+"""
+    
+    # ========== MÉTADONNÉES FRONTMATTER ==========
     metadata = {
         'type': 'personne',
-        'nom_complet': person_name,
-        'nom_naissance': person_data.get('nom_naissance', ''),
+        'nom_complet': person_data.get('nom_complet_verifie', person_name),
         'prenoms': person_name.split()[0] if ' ' in person_name else person_name,
         'date_naissance': person_data.get('date_naissance', ''),
+        'date_deces': person_data.get('date_deces', ''),
         'lieu_naissance': person_data.get('lieu_naissance', ''),
         'nationalite': person_data.get('nationalite', ''),
         'genre': person_data.get('genre', ''),
-        'statut': person_data.get('statut', ''),
-        'bio': bio,
-        'formation': person_data.get('formation', []),
-        'carriere': person_data.get('carriere', []),
-        'affiliations': affiliations,
-        'distinctions': person_data.get('distinctions', []),
-        'famille': famille,
-        'liens': liens,
+        'statut': person_data.get('statut_actuel', ''),
+        'bio': bio_courte,
+        'formation': formation[:10],
+        'carriere': carriere[:15],
+        'affiliations': all_orgs[:20],
+        'distinctions': distinctions[:10],
+        'controverses': controverses[:10],
+        'liens': [rel.person_to for rel in relationships[:20]],
+        'relations_detaillees': [rel.to_dict() for rel in relationships[:20]],
         'presse': [],
-        'sources': [wiki_url] if wiki_url else [],
-        'statut_note': 'a_valider',
-        'tags': ['elite', 'wikipedia', f'profondeur-{depth}'],
+        'sources': [person_data.get('wikipedia_url', '')],
+        'statut_note': 'verifie_wikipedia',
+        'tags': ['elite', 'wikipedia', f'niveau-{depth}', 'oeil-de-dieu'] + mots_cles[:5],
         'date_creation_note': datetime.now().strftime('%Y-%m-%d'),
         'found_via': found_via,
-        'search_depth': depth
+        'search_depth': depth,
+        'verification_status': person_data.get('factcheck_status', 'verified'),
+        'verification_date': person_data.get('verification_date', ''),
+        'validation_score': round(validation_score, 2),
+        'validation_reason': person.validation_reason,
+        'original_query': person.original_query,
+        'niveau_notoriete': person_data.get('niveau_notoriete', ''),
+        'relationships_count': len(relationships),
+        'institutions_count': len(all_orgs),
+        'wikipedia_content_length': person_data.get('content_length', 0)
+    }
+    
+    # ========== ÉCRITURE DU FICHIER ==========
+    post = frontmatter.Post(content, **metadata)
+    
+    try:
+        with open(file_path, 'wb') as f:
+            frontmatter.dump(post, f)
+        
+        person.created_file_path = str(file_path)
+        CREATED_FILES.append(str(file_path))
+        
+        logger.info(f"✅ Fiche créée : {file_path}")
+        logger.info(f"   - {len(relationships)} relations détaillées")
+        logger.info(f"   - {len(all_orgs)} institutions")
+        logger.info(f"   - Score de validation : {validation_score:.0%}")
+        
+        EXPLORATION_STATS['files_created'] += 1
+        
+        return True
+        
+    except Exception as e:
+        logger.error(f"❌ Erreur création fiche {person_name} : {e}")
+        EXPLORATION_STATS['errors'] += 1
+        return False
+
+def create_institution_file_comprehensive(institution: InstitutionEntity) -> bool:
+    """
+    📝 Création de fiche institution COMPLÈTE
+    """
+    institution_name = institution.name
+    depth = institution.depth
+    found_via = institution.found_via
+    
+    institutions_folder = Path("institutions")
+    institutions_folder.mkdir(exist_ok=True)
+    
+    safe_filename = re.sub(r'[^\w\s-]', '', institution_name).strip().replace(' ', '-')
+    file_path = institutions_folder / f"{safe_filename}.md"
+    
+    if file_path.exists():
+        logger.info(f"ℹ️  Institution {institution_name} existe déjà, ignoré")
+        return False
+    
+    # Essayer de trouver sur Wikipedia
+    try:
+        page = wikipedia.page(institution_name, auto_suggest=True)
+        summary = page.summary[:800]
+        wiki_url = page.url
+        verified = True
+        
+        # Extraire plus d'infos
+        full_content = page.content[:3000]
+        
+        schema = """
+        {
+          "description_detaillee": "Description détaillée de l'institution",
+          "date_fondation": "Date de fondation",
+          "fondateurs": "Noms des fondateurs",
+          "siege_social": "Localisation du siège",
+          "type_organisation": "Type d'organisation (entreprise, club, think tank, etc.)",
+          "domaine_activite": "Domaine d'activité principal",
+          "membres_notables": "Membres ou dirigeants notables (liste)",
+          "influence": "Description de l'influence et du rôle"
+        }
+        """
+        
+        extracted_data = llm.extract_yaml_data(full_content, schema)
+        
+        description = extracted_data.get('description_detaillee', summary)
+        membres = extracted_data.get('membres_notables', [])
+        
+        if isinstance(membres, str):
+            membres = [m.strip() for m in membres.split(',') if m.strip()]
+        
+        institution.members = membres
+        
+    except:
+        summary = f"Institution identifiée dans le réseau de pouvoir lié à : {found_via}"
+        wiki_url = ""
+        verified = False
+        description = summary
+        extracted_data = {}
+    
+    # Découverte
+    discovery_text = ""
+    if depth > 0:
+        discovery_text = f"> 🔍 **Découvert via [[{found_via}]]** (niveau {depth})\n"
+    else:
+        discovery_text = f"> 🎯 **Sujet principal de la recherche**\n"
+    
+    # Membres (liens Obsidian)
+    membres_section = ""
+    if institution.members:
+        membres_section = f"\n## Membres et Dirigeants\n\n"
+        for membre in institution.members[:20]:
+            membres_section += f"- [[{membre}]]\n"
+    
+    content = f"""{discovery_text}
+
+## Description
+
+{description}
+
+{membres_section}
+
+---
+
+## Métadonnées
+
+**Type** : Institution / Organisation  
+**Catégorie** : {extracted_data.get('type_organisation', 'N/A')}  
+**Fondation** : {extracted_data.get('date_fondation', 'N/A')}  
+**Siège** : {extracted_data.get('siege_social', 'N/A')}  
+**Domaine** : {extracted_data.get('domaine_activite', 'N/A')}  
+**Source** : {'[Wikipedia](' + wiki_url + ')' if wiki_url else 'Réseau Mistral'}  
+**Statut de vérification** : {'✅ Wikipedia' if verified else '⚠️ À vérifier'}  
+**Date d'ajout** : {datetime.now().strftime('%Y-%m-%d')}  
+
+*Fiche créée via l'Œil de Dieu (niveau {depth})*
+"""
+    
+    metadata = {
+        'type': 'institution',
+        'nom': institution_name,
+        'description': description,
+        'type_organisation': extracted_data.get('type_organisation', ''),
+        'date_fondation': extracted_data.get('date_fondation', ''),
+        'siege': extracted_data.get('siege_social', ''),
+        'domaine': extracted_data.get('domaine_activite', ''),
+        'membres': institution.members[:20],
+        'sources': [wiki_url] if wiki_url else [],
+        'statut_note': 'verifie_wikipedia' if verified else 'a_verifier',
+        'tags': ['institution', 'elite', f'niveau-{depth}', 'oeil-de-dieu'],
+        'date_creation_note': datetime.now().strftime('%Y-%m-%d'),
+        'found_via': found_via,
+        'search_depth': depth,
+        'verified': verified
     }
     
     post = frontmatter.Post(content, **metadata)
     
-    with open(file_path, 'wb') as f:
-        frontmatter.dump(post, f)
+    try:
+        with open(file_path, 'wb') as f:
+            frontmatter.dump(post, f)
+        
+        institution.created_file_path = str(file_path)
+        CREATED_FILES.append(str(file_path))
+        
+        logger.info(f"✅ Institution créée : {file_path}")
+        EXPLORATION_STATS['institutions_created'] += 1
+        
+        return True
+        
+    except Exception as e:
+        logger.error(f"❌ Erreur création institution {institution_name} : {e}")
+        EXPLORATION_STATS['errors'] += 1
+        return False
+
+def generate_exploration_report(query: str, validated: List[PersonEntity], 
+                               rejected: List[PersonEntity]) -> str:
+    """
+    📊 Génère un rapport détaillé de l'exploration
+    """
+    report = f"""
+{'='*70}
+📊 RAPPORT D'EXPLORATION - ŒIL DE DIEU
+{'='*70}
+
+REQUÊTE ORIGINALE : "{query}"
+DATE : {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
+
+{'='*70}
+STATISTIQUES GLOBALES
+{'='*70}
+
+Profondeur d'exploration : {MAX_DEPTH} niveaux
+Mode : {'EXPONENTIEL (complet)' if EXPONENTIAL_EXPLORATION else 'LIMITÉ'}
+Seuil de confiance : {CONFIDENCE_THRESHOLD:.0%}
+
+Appels Mistral : {EXPLORATION_STATS['mistral_calls']}
+Entités identifiées (Mistral) : {EXPLORATION_STATS['entities_identified']}
+Institutions identifiées : {EXPLORATION_STATS['institutions_identified']}
+Relations extraites : {EXPLORATION_STATS['relationships_extracted']}
+
+Factchecks Wikipedia :
+  - Réussis : {EXPLORATION_STATS['factcheck_success']}
+  - Non trouvés : {EXPLORATION_STATS['factcheck_not_found']}
+  - Ambiguïtés résolues : {EXPLORATION_STATS['factcheck_disambiguation']}
+  - Échecs : {EXPLORATION_STATS['factcheck_failed']}
+
+Validations :
+  - Effectuées : {EXPLORATION_STATS['validations_performed']}
+  - Acceptées : {EXPLORATION_STATS['validations_passed']}
+  - Rejetées : {EXPLORATION_STATS['validations_rejected']}
+
+Fichiers créés :
+  - Personnes : {EXPLORATION_STATS['files_created']}
+  - Institutions : {EXPLORATION_STATS['institutions_created']}
+  - Total : {EXPLORATION_STATS['files_created'] + EXPLORATION_STATS['institutions_created']}
+
+Erreurs : {EXPLORATION_STATS['errors']}
+
+{'='*70}
+PERSONNES VALIDÉES ({len(validated)})
+{'='*70}
+
+"""
     
-    logger.info(f"✅ Fichier créé : {file_path}")
+    # Trier par score de validation
+    validated_sorted = sorted(validated, key=lambda x: x.validation_score, reverse=True)
+    
+    for i, person in enumerate(validated_sorted, 1):
+        report += f"""
+{i}. {person.name}
+   Profondeur : {person.depth}
+   Score : {person.validation_score:.0%}
+   Trouvé via : {person.found_via}
+   Relations : {len(person.relationships)}
+   Raison : {person.validation_reason[:100]}...
+"""
+    
+    report += f"""
+{'='*70}
+PERSONNES REJETÉES ({len(rejected)})
+{'='*70}
+
+"""
+    
+    rejected_sorted = sorted(rejected, key=lambda x: x.validation_score, reverse=True)
+    
+    for i, person in enumerate(rejected_sorted, 1):
+        report += f"""
+{i}. {person.name}
+   Profondeur : {person.depth}
+   Score : {person.validation_score:.0%}
+   Raison du rejet : {person.validation_reason[:100]}...
+"""
+    
+    report += f"""
+{'='*70}
+ANALYSE DE QUALITÉ
+{'='*70}
+
+Taux de validation : {len(validated)/(len(validated)+len(rejected))*100:.1f}%
+Score moyen des validés : {sum(p.validation_score for p in validated)/len(validated):.0%}
+Score moyen des rejetés : {sum(p.validation_score for p in rejected)/len(rejected) if rejected else 0:.0%}
+
+Distribution par profondeur :
+"""
+    
+    for depth in range(MAX_DEPTH):
+        count = len([p for p in validated if p.depth == depth])
+        report += f"  Niveau {depth} : {count} personnes\n"
+    
+    report += f"""
+{'='*70}
+FIN DU RAPPORT
+{'='*70}
+"""
+    
+    return report
 
 def main(query: str = None):
     """
-    Script principal avec validation et exploration récursive
+    🧠 ŒIL DE DIEU - Exploration exponentielle avec validation finale
+    Niveau journalistique : rigueur, traçabilité, vérification
     """
-    global VISITED_PEOPLE, ALL_FOUND_PEOPLE
+    global VISITED_PEOPLE, VISITED_ORGS, ALL_FOUND_ENTITIES, ORIGINAL_QUERY
+    global EXPLORATION_STATS, RELATIONSHIPS_GRAPH, VALIDATION_SCORES, CREATED_FILES
     
-    # Réinitialiser les variables globales
+    # Réinitialisation complète
     VISITED_PEOPLE = set()
-    ALL_FOUND_PEOPLE = []
+    VISITED_ORGS = set()
+    ALL_FOUND_ENTITIES = []
+    EXPLORATION_STATS = defaultdict(int)
+    RELATIONSHIPS_GRAPH = defaultdict(list)
+    VALIDATION_SCORES = {}
+    CREATED_FILES = []
     
-    print("\n" + "="*60)
-    print("🔍 AJOUT DE PERSONNES VIA WIKIPEDIA (Exploration 3 degrés)")
-    print("="*60)
+    print("\n" + "="*70)
+    print("🧠 ŒIL DE DIEU - Construction de réseau de pouvoir")
+    print("="*70)
+    print("\n📋 Mode d'opération :")
+    print("  1. Mistral identifie les entités (connaissance générale)")
+    print("  2. Wikipedia factcheck et enrichit (sources vérifiables)")
+    print("  3. Exploration EXPONENTIELLE sur 3 niveaux (tous les chemins)")
+    print("  4. Extraction de relations DÉTAILLÉES avec descriptions")
+    print("  5. Validation FINALE de toutes les personnes avant commit")
+    print("  6. Création de fiches Obsidian avec liens [[personne]]")
+    print(f"\n⚙️  Paramètres :")
+    print(f"  - Profondeur maximale : {MAX_DEPTH}")
+    print(f"  - Seuil de confiance : {CONFIDENCE_THRESHOLD:.0%}")
+    print(f"  - Mode exponentiel : {'OUI' if EXPONENTIAL_EXPLORATION else 'NON'}")
+    print("="*70)
     
     if not query:
         print("\nExemples de requêtes :")
-        print("  - les présidents de la 5e république")
-        print("  - les ministres de l'économie français")
-        print("  - les PDG du CAC 40")
+        print("  - Le Siècle")
         print("  - Jeffrey Epstein")
-        print("  - dirigeant du Groupe EBRA")
-        print("="*60)
+        print("  - Emmanuel Macron")
+        print("  - Groupe Bilderberg")
+        print("  - Bernard Arnault")
+        print("="*70)
         
-        query = input("\n👤 Qui voulez-vous chercher ? : ").strip()
+        query = input("\n🎯 Entité à explorer : ").strip()
     
     if not query:
         logger.error("❌ Requête vide, abandon")
         return
     
-    logger.info(f"🚀 Lancement de la recherche : '{query}'")
+    ORIGINAL_QUERY = query
     
-    # Extraction du sujet principal et des organisations
-    main_subject, subject_type = extract_main_subject_from_query(query)
-    organizations = extract_organization_from_query(query)
+    logger.info(f"🚀 Lancement de l'exploration : '{query}'")
+    start_time = time.time()
     
-    if main_subject:
-        logger.info(f"🎯 Sujet principal : {main_subject} (type: {subject_type})")
-    if organizations:
-        logger.info(f"🏢 Organisations détectées : {organizations}")
+    # ========== PHASE 1 : EXPLORATION EXPONENTIELLE ==========
+    print(f"\n🌳 Phase 1 : Exploration exponentielle (3 niveaux)...\n")
+    explore_network_exponential(query, current_depth=0, max_depth=MAX_DEPTH)
     
-    # Recherche récursive (3 degrés)
-    print(f"\n🌳 Exploration en profondeur (3 degrés)...")
-    search_people_on_wikipedia_recursive(query, current_depth=0, max_depth=3)
-    
-    if not ALL_FOUND_PEOPLE or len(ALL_FOUND_PEOPLE) == 0:
-        logger.warning("❌ Aucune personne trouvée pour cette requête")
+    if not ALL_FOUND_ENTITIES:
+        logger.warning("❌ Aucune entité trouvée")
         return
     
-    print(f"\n📋 {len(ALL_FOUND_PEOPLE)} personnes trouvées :")
-    for i, person_data in enumerate(ALL_FOUND_PEOPLE, 1):
-        print(f"   {i}. {person_data['name']} (profondeur {person_data['depth']}, via: {person_data['found_via']})")
+    # Séparer personnes et institutions
+    people_entities = [e for e in ALL_FOUND_ENTITIES if isinstance(e, PersonEntity)]
+    institution_entities = [e for e in ALL_FOUND_ENTITIES if isinstance(e, InstitutionEntity)]
     
-    # Validation et traitement
-    added_count = 0
-    validated_people = []
-    rejected_people = []
+    print(f"\n✅ Exploration terminée :")
+    print(f"   - {len(people_entities)} personnes découvertes")
+    print(f"   - {len(institution_entities)} institutions découvertes")
+    print(f"   - {EXPLORATION_STATS['relationships_extracted']} relations extraites")
+
+        # ========== PHASE 2 : VALIDATION FINALE AVANT COMMIT ==========
+    print(f"\n🎯 Phase 2 : Validation finale de toutes les entités...\n")
     
-    for person_data in ALL_FOUND_PEOPLE:
-        person_name = person_data['name']
-        depth = person_data['depth']
-        found_via = person_data['found_via']
-        
-        logger.info(f"\n{'='*50}")
-        logger.info(f"Traitement de : {person_name} (profondeur {depth})")
-        
-        # VALIDATION
-        is_valid, reason = validate_person_relevance(person_name, query, depth)
-        
-        if not is_valid:
-            rejected_people.append((person_name, reason, depth))
-            logger.warning(f"⚠️  {person_name} rejeté : {reason}")
-            continue
-        
-        # Si validé, récupération des données
-        wiki_data = get_person_info_from_wikipedia(person_name)
-        
-        if wiki_data:
-            create_person_file(person_name, wiki_data, organizations, found_via, depth)
-            validated_people.append((person_name, depth, found_via))
-            added_count += 1
+    validated_people, rejected_people = final_validation_before_commit(
+        people_entities,
+        ORIGINAL_QUERY
+    )
+    
+    print(f"\n✅ Validation terminée :")
+    print(f"   - {len(validated_people)} personnes VALIDÉES")
+    print(f"   - {len(rejected_people)} personnes REJETÉES")
+    print(f"   - Taux de validation : {len(validated_people)/(len(validated_people)+len(rejected_people))*100:.1f}%")
+    
+    if not validated_people and not institution_entities:
+        logger.warning("❌ Aucune entité validée à créer")
+        return
+    
+    # ========== VÉRIFICATION DES FICHIERS EXISTANTS ==========
+    print(f"\n📂 Phase 3 : Vérification des fichiers existants...\n")
+    
+    personnes_folder = Path("personnes")
+    institutions_folder = Path("institutions")
+    
+    existing_people_files = set()
+    existing_institution_files = set()
+    
+    if personnes_folder.exists():
+        existing_people_files = {f.stem for f in personnes_folder.glob("*.md")}
+        logger.info(f"📁 {len(existing_people_files)} fichiers personnes existants trouvés")
+    
+    if institutions_folder.exists():
+        existing_institution_files = {f.stem for f in institutions_folder.glob("*.md")}
+        logger.info(f"📁 {len(existing_institution_files)} fichiers institutions existants trouvés")
+    
+    # Filtrer les entités déjà existantes
+    people_to_create = []
+    people_already_exist = []
+    
+    for person in validated_people:
+        safe_filename = re.sub(r'[^\w\s-]', '', person.name).strip().replace(' ', '-')
+        if safe_filename in existing_people_files:
+            people_already_exist.append(person.name)
+            logger.info(f"⏭️  {person.name} existe déjà, skip")
         else:
-            rejected_people.append((person_name, "Impossible de récupérer les données Wikipedia", depth))
-            logger.warning(f"⚠️  Impossible de récupérer les données pour {person_name}")
+            people_to_create.append(person)
     
-    # RÉSUMÉ FINAL
-    print("\n" + "="*60)
-    print("📊 RÉSUMÉ DE LA VALIDATION")
-    print("="*60)
+    institutions_to_create = []
+    institutions_already_exist = []
     
+    for inst in institution_entities:
+        safe_filename = re.sub(r'[^\w\s-]', '', inst.name).strip().replace(' ', '-')
+        if safe_filename in existing_institution_files:
+            institutions_already_exist.append(inst.name)
+            logger.info(f"⏭️  Institution {inst.name} existe déjà, skip")
+        else:
+            institutions_to_create.append(inst)
+    
+    print(f"\n📊 Bilan des fichiers à créer :")
+    print(f"   - Personnes : {len(people_to_create)} nouvelles ({len(people_already_exist)} existent déjà)")
+    print(f"   - Institutions : {len(institutions_to_create)} nouvelles ({len(institutions_already_exist)} existent déjà)")
+    
+    if not people_to_create and not institutions_to_create:
+        print(f"\n⚠️  Toutes les entités existent déjà, aucune création nécessaire")
+        logger.info("✅ Toutes les entités existent déjà")
+        return
+    
+    # ========== PHASE 4 : CRÉATION DES FICHIERS ==========
+    print(f"\n📝 Phase 4 : Création des fiches...\n")
+    
+    all_institutions_names = [inst.name for inst in institution_entities]
+    
+    people_created = 0
+    people_errors = 0
+    
+    for person in people_to_create:
+        try:
+            if create_person_file_comprehensive(person, all_institutions_names):
+                people_created += 1
+                print(f"   ✅ {person.name} (score: {person.validation_score:.0%}, niveau: {person.depth})")
+            else:
+                people_errors += 1
+        except Exception as e:
+            logger.error(f"❌ Erreur création {person.name} : {e}")
+            people_errors += 1
+            EXPLORATION_STATS['errors'] += 1
+    
+    institutions_created = 0
+    institutions_errors = 0
+    
+    for inst in institutions_to_create:
+        try:
+            if create_institution_file_comprehensive(inst):
+                institutions_created += 1
+                print(f"   🏢 {inst.name} (niveau: {inst.depth})")
+            else:
+                institutions_errors += 1
+        except Exception as e:
+            logger.error(f"❌ Erreur création institution {inst.name} : {e}")
+            institutions_errors += 1
+            EXPLORATION_STATS['errors'] += 1
+    
+    # ========== PHASE 5 : GÉNÉRATION DU RAPPORT ==========
+    print(f"\n📊 Phase 5 : Génération du rapport...\n")
+    
+    report = generate_exploration_report(query, validated_people, rejected_people)
+    
+    # Sauvegarder le rapport
+    reports_folder = Path("rapports")
+    reports_folder.mkdir(exist_ok=True)
+    
+    report_filename = f"rapport_exploration_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
+    report_path = reports_folder / report_filename
+    
+    try:
+        with open(report_path, 'w', encoding='utf-8') as f:
+            f.write(report)
+        logger.info(f"📄 Rapport sauvegardé : {report_path}")
+        print(f"   📄 Rapport sauvegardé : {report_path}")
+    except Exception as e:
+        logger.error(f"❌ Erreur sauvegarde rapport : {e}")
+    
+    # ========== PHASE 6 : RÉSUMÉ FINAL ==========
+    elapsed_time = time.time() - start_time
+    
+    print("\n" + "="*70)
+    print("🎉 RÉSULTAT FINAL")
+    print("="*70)
+    
+    print(f"\n📊 STATISTIQUES COMPLÈTES :")
+    print(f"   Durée d'exploration : {elapsed_time:.1f} secondes ({elapsed_time/60:.1f} minutes)")
+    print(f"\n   🔍 Découverte :")
+    print(f"      - Personnes découvertes : {len(people_entities)}")
+    print(f"      - Institutions découvertes : {len(institution_entities)}")
+    print(f"      - Relations extraites : {EXPLORATION_STATS['relationships_extracted']}")
+    
+    print(f"\n   ✅ Validation :")
+    print(f"      - Personnes validées : {len(validated_people)}")
+    print(f"      - Personnes rejetées : {len(rejected_people)}")
+    print(f"      - Taux de validation : {len(validated_people)/(len(validated_people)+len(rejected_people))*100:.1f}%")
+    
+    print(f"\n   📝 Création :")
+    print(f"      - Personnes créées : {people_created}")
+    print(f"      - Personnes déjà existantes : {len(people_already_exist)}")
+    print(f"      - Institutions créées : {institutions_created}")
+    print(f"      - Institutions déjà existantes : {len(institutions_already_exist)}")
+    print(f"      - Erreurs : {people_errors + institutions_errors}")
+    
+    print(f"\n   🌳 Répartition par profondeur :")
+    for depth in range(MAX_DEPTH):
+        count_validated = len([p for p in validated_people if p.depth == depth])
+        count_created = len([p for p in people_to_create if p.depth == depth and p.name not in people_already_exist])
+        print(f"      Niveau {depth} : {count_validated} validées, {count_created} créées")
+    
+    print(f"\n   🔗 Qualité du réseau :")
     if validated_people:
-        print(f"\n✅ Personnes VALIDÉES (ajoutées) : {len(validated_people)}")
-        for i, (name, depth, found_via) in enumerate(validated_people, 1):
-            print(f"   {i}. {name} (profondeur {depth}, via: {found_via})")
+        avg_score = sum(p.validation_score for p in validated_people) / len(validated_people)
+        avg_relations = sum(len(p.relationships) for p in validated_people) / len(validated_people)
+        print(f"      - Score moyen de pertinence : {avg_score:.0%}")
+        print(f"      - Relations moyennes par personne : {avg_relations:.1f}")
     
-    if rejected_people:
-        print(f"\n❌ Personnes REJETÉES : {len(rejected_people)}")
-        for i, (name, reason, depth) in enumerate(rejected_people, 1):
-            print(f"   {i}. {name} (profondeur {depth}) → {reason}")
+    print(f"\n   📖 Factchecks Wikipedia :")
+    print(f"      - Réussis : {EXPLORATION_STATS['factcheck_success']}")
+    print(f"      - Non trouvés : {EXPLORATION_STATS['factcheck_not_found']}")
+    print(f"      - Ambiguïtés résolues : {EXPLORATION_STATS['factcheck_disambiguation']}")
+    print(f"      - Échecs : {EXPLORATION_STATS['factcheck_failed']}")
     
-    print("\n" + "="*60)
-    print(f"🎉 RÉSULTAT FINAL : {added_count} fiches créées, {len(rejected_people)} rejetées")
-    print(f"🌳 Exploration sur {max([p['depth'] for p in ALL_FOUND_PEOPLE]) + 1} niveaux")
-    print("="*60)
+    print(f"\n   🤖 Appels Mistral :")
+    print(f"      - Total : {EXPLORATION_STATS['mistral_calls']}")
     
-    # Commit Git
-    if added_count > 0:
-        commit_msg = f"feat: ajout de {added_count} personnes via Wikipedia (3 degrés) - {query}"
-        git.commit_changes(commit_msg)
-        logger.info("✅ Changements committés")
+    total_created = people_created + institutions_created
+    
+    # ========== PHASE 7 : AFFICHAGE DES ENTITÉS CRÉÉES ==========
+    if people_created > 0:
+        print(f"\n👥 PERSONNES CRÉÉES ({people_created}) :")
+        for person in people_to_create:
+            if person.created_file_path:
+                print(f"   ✅ {person.name} (score: {person.validation_score:.0%}, niveau: {person.depth})")
+    
+    if institutions_created > 0:
+        print(f"\n🏢 INSTITUTIONS CRÉÉES ({institutions_created}) :")
+        for inst in institutions_to_create:
+            if inst.created_file_path:
+                print(f"   ✅ {inst.name} (niveau: {inst.depth})")
+    
+    if people_already_exist:
+        print(f"\n⏭️  PERSONNES DÉJÀ EXISTANTES ({len(people_already_exist)}) :")
+        for name in people_already_exist[:10]:
+            print(f"   - {name}")
+        if len(people_already_exist) > 10:
+            print(f"   ... et {len(people_already_exist) - 10} autres")
+    
+    if institutions_already_exist:
+        print(f"\n⏭️  INSTITUTIONS DÉJÀ EXISTANTES ({len(institutions_already_exist)}) :")
+        for name in institutions_already_exist[:10]:
+            print(f"   - {name}")
+        if len(institutions_already_exist) > 10:
+            print(f"   ... et {len(institutions_already_exist) - 10} autres")
+    
+    # ========== PHASE 8 : COMMIT GIT ==========
+    if total_created > 0:
+        print("\n" + "="*70)
+        print("💾 Phase 7 : Commit Git...")
+        print("="*70)
+        
+        commit_msg = f"""feat: 🧠 Œil de Dieu - Exploration '{query}'
+
+Statistiques :
+- {people_created} personnes créées
+- {institutions_created} institutions créées
+- {len(validated_people)} personnes validées (taux: {len(validated_people)/(len(validated_people)+len(rejected_people))*100:.1f}%)
+- {EXPLORATION_STATS['relationships_extracted']} relations extraites
+- Exploration sur {MAX_DEPTH} niveaux
+- Durée : {elapsed_time:.1f}s
+
+Qualité :
+- Score moyen : {sum(p.validation_score for p in validated_people)/len(validated_people):.0%}
+- Relations moyennes : {sum(len(p.relationships) for p in validated_people)/len(validated_people):.1f}
+
+Factchecks Wikipedia :
+- Réussis : {EXPLORATION_STATS['factcheck_success']}
+- Échecs : {EXPLORATION_STATS['factcheck_failed']}
+
+Requête originale : "{ORIGINAL_QUERY}"
+"""
+        
+        try:
+            git.commit_changes(commit_msg)
+            print("✅ Changements committés avec succès")
+            logger.info("✅ Changements committés")
+        except Exception as e:
+            logger.error(f"❌ Erreur commit Git : {e}")
+            print(f"⚠️  Erreur commit Git : {e}")
+    else:
+        print("\n⚠️  Aucun fichier créé, pas de commit Git")
+    
+    # ========== AFFICHAGE FINAL ==========
+    print("\n" + "="*70)
+    print("✨ EXPLORATION TERMINÉE")
+    print("="*70)
+    
+    if total_created > 0:
+        print(f"\n🎯 Résultat : {total_created} nouvelles entités ajoutées à la base")
+        print(f"📊 Qualité : Score moyen de pertinence {sum(p.validation_score for p in validated_people)/len(validated_people):.0%}")
+        print(f"🔗 Réseau : {EXPLORATION_STATS['relationships_extracted']} relations documentées")
+        print(f"⏱️  Durée : {elapsed_time:.1f} secondes")
+        print(f"\n📄 Rapport complet : {report_path}")
+    else:
+        print(f"\n⚠️  Aucune nouvelle entité créée")
+        print(f"   Raison : Toutes les entités découvertes existent déjà")
+    
+    print("\n" + "="*70)
+    
+    # Afficher le TOP 10 des personnes validées par score
+    if validated_people:
+        print("\n🏆 TOP 10 - Personnes les plus pertinentes :")
+        print("="*70)
+        
+        top_people = sorted(validated_people, key=lambda x: x.validation_score, reverse=True)[:10]
+        
+        for i, person in enumerate(top_people, 1):
+            status = "✅ CRÉÉE" if person.name not in people_already_exist else "⏭️  EXISTANTE"
+            print(f"{i:2d}. {person.name}")
+            print(f"    Score: {person.validation_score:.0%} | Niveau: {person.depth} | {status}")
+            print(f"    Via: {person.found_via}")
+            print(f"    Relations: {len(person.relationships)}")
+            print()
+    
+    # Message final
+    print("="*70)
+    print("🧠 Œil de Dieu - Mission accomplie")
+    print("="*70)
+    
+    logger.info(f"✅ Exploration terminée : {total_created} entités créées")
 
 if __name__ == "__main__":
     import sys
