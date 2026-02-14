@@ -275,7 +275,7 @@ Retourne un JSON complet :
             
             return result
         
-        return {}
+        return EMPTY_ENTITY_RESPONSE.copy()
         
     except Exception as e:
         logger.error(f"❌ Erreur Mistral identification : {e}")
@@ -419,7 +419,7 @@ Retourne un JSON complet :
             
             return result
         
-        return {}
+        return EMPTY_QUERY_RESPONSE.copy()
         
     except Exception as e:
         logger.error(f"❌ Erreur réponse directe : {e}")
@@ -1472,12 +1472,14 @@ def is_generic_people_term(name: str) -> bool:
     if name_lower in generic_terms:
         return True
     
-    # Vérifier correspondance par mots complets
-    for term in generic_terms:
-        if re.search(rf'\b{re.escape(term)}\b', name_lower):
-            return True
+    # Vérifier correspondance par mots complets (pattern compilé une seule fois)
+    if not hasattr(is_generic_people_term, '_pattern'):
+        # Créer un pattern combiné pour tous les termes
+        escaped_terms = [re.escape(term) for term in generic_terms]
+        pattern = r'\b(?:' + '|'.join(escaped_terms) + r')\b'
+        is_generic_people_term._pattern = re.compile(pattern)
     
-    return False
+    return bool(is_generic_people_term._pattern.search(name_lower))
 
 def main(query: str = None):
     """
