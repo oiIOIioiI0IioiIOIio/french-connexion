@@ -46,6 +46,28 @@ MAX_DEPTH = 3
 CONFIDENCE_THRESHOLD = 0.6  # Score minimum pour validation
 EXPONENTIAL_EXPLORATION = True  # Exploration complète sans limite
 
+# Structures de retour par défaut pour les erreurs
+EMPTY_ENTITY_RESPONSE = {
+    'people': [],
+    'institutions': [],
+    'main_subject': '',
+    'subject_type': 'unknown',
+    'description': '',
+    'keywords': [],
+    'context': '',
+    'relevance_explanation': ''
+}
+
+EMPTY_QUERY_RESPONSE = {
+    'query_type': 'unknown',
+    'people': [],
+    'institutions': [],
+    'interpretation': '',
+    'main_subject': '',
+    'subject_category': '',
+    'explanation': ''
+}
+
 class PersonEntity:
     """Classe pour représenter une personne avec toutes ses métadonnées"""
     
@@ -258,16 +280,7 @@ Retourne un JSON complet :
     except Exception as e:
         logger.error(f"❌ Erreur Mistral identification : {e}")
         EXPLORATION_STATS['errors'] += 1
-        return {
-            'people': [],
-            'institutions': [],
-            'main_subject': '',
-            'subject_type': 'unknown',
-            'description': '',
-            'keywords': [],
-            'context': '',
-            'relevance_explanation': ''
-        }
+        return EMPTY_ENTITY_RESPONSE.copy()
 
 def answer_initial_query_directly(query: str) -> dict:
     """
@@ -410,15 +423,7 @@ Retourne un JSON complet :
         
     except Exception as e:
         logger.error(f"❌ Erreur réponse directe : {e}")
-        return {
-            'query_type': 'unknown',
-            'people': [],
-            'institutions': [],
-            'interpretation': '',
-            'main_subject': '',
-            'subject_category': '',
-            'explanation': ''
-        }
+        return EMPTY_QUERY_RESPONSE.copy()
 
 def mistral_extract_detailed_relationships(person_name: str, bio_text: str, 
                                           all_known_people: Set[str]) -> List[RelationshipDetail]:
@@ -1467,8 +1472,7 @@ def is_generic_people_term(name: str) -> bool:
     if name_lower in generic_terms:
         return True
     
-    # Vérifier correspondance par mots complets
-    import re
+    # Vérifier correspondance par mots complets (re is imported at top of file)
     for term in generic_terms:
         if re.search(rf'\b{re.escape(term)}\b', name_lower):
             return True
