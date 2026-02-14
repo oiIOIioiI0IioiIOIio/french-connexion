@@ -172,8 +172,6 @@ Requête "les dirigeants de LVMH" →
   "relevance_explanation": "Cadres dirigeants de LVMH - ce sont des PERSONNES occupant des fonctions de direction"
 }}
 
-EXEMPLES DÉTAILLÉS :
-
 Requête "Le Siècle" →
 {{
   "main_subject": "Le Siècle",
@@ -857,9 +855,9 @@ def explore_network_exponential(initial_query: str, current_depth: int = 0,
         subject_type = 'personne'  # Traiter comme des personnes
         logger.info(f"🎯 Requête de type 'people_group' détectée - focus sur les personnes")
     
-    # Ajouter le sujet principal UNIQUEMENT si c'est une personne unique
+    # Ajouter le sujet principal UNIQUEMENT si c'est une personne unique au niveau racine
+    # Conditions: personne, nom présent, non déjà dans la liste, profondeur 0, et pas un terme générique
     if subject_type == 'personne' and main_subject and main_subject not in people and current_depth == 0:
-        # Vérifier que ce n'est pas un terme générique
         if not is_generic_people_term(main_subject):
             people.insert(0, main_subject)
     
@@ -1546,6 +1544,10 @@ def main(query: str = None):
     # ========== PHASE 1 : EXPLORATION EXPONENTIELLE ==========
     print(f"\n🌳 Phase 1 : Exploration exponentielle (3 niveaux)...\n")
     explore_network_exponential(query, current_depth=0, max_depth=MAX_DEPTH)
+    
+    # Nettoyer l'attribut temporaire après utilisation
+    if hasattr(explore_network_exponential, '_initial_query_type'):
+        delattr(explore_network_exponential, '_initial_query_type')
     
     if not ALL_FOUND_ENTITIES:
         logger.warning("❌ Aucune entité trouvée")
