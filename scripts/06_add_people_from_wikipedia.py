@@ -1541,13 +1541,14 @@ def main(query: str = None):
     # Stocker le type de requête pour l'exploration
     explore_network_exponential._initial_query_type = query_type
     
-    # ========== PHASE 1 : EXPLORATION EXPONENTIELLE ==========
-    print(f"\n🌳 Phase 1 : Exploration exponentielle (3 niveaux)...\n")
-    explore_network_exponential(query, current_depth=0, max_depth=MAX_DEPTH)
-    
-    # Nettoyer l'attribut temporaire après utilisation
-    if hasattr(explore_network_exponential, '_initial_query_type'):
-        delattr(explore_network_exponential, '_initial_query_type')
+    try:
+        # ========== PHASE 1 : EXPLORATION EXPONENTIELLE ==========
+        print(f"\n🌳 Phase 1 : Exploration exponentielle (3 niveaux)...\n")
+        explore_network_exponential(query, current_depth=0, max_depth=MAX_DEPTH)
+    finally:
+        # Nettoyer l'attribut temporaire après utilisation (même en cas d'exception)
+        if hasattr(explore_network_exponential, '_initial_query_type'):
+            delattr(explore_network_exponential, '_initial_query_type')
     
     if not ALL_FOUND_ENTITIES:
         logger.warning("❌ Aucune entité trouvée")
