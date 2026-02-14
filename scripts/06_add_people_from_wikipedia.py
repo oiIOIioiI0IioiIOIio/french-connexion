@@ -28,6 +28,55 @@ wikipedia.set_lang("fr")
 with open("config/config.yaml", "r", encoding="utf-8") as f:
     CONFIG = yaml.safe_load(f)
 
+def extract_organization_from_query(query: str) -> list:
+    """
+    Extrait les noms d'organisations/institutions de la requête pour créer des liens
+    Ex: "les PDG du CAC 40" → ["CAC 40"]
+    Ex: "dirigeant du Groupe EBRA" → ["Groupe EBRA"]
+    """
+    logger.info(f"🔍 Extraction des organisations de la requête : {query}")
+    
+    prompt = f"""
+Tu es un expert en extraction d'entités.
+
+REQUÊTE : "{query}"
+
+Extrais TOUS les noms d'organisations, institutions, entreprises, groupes mentionnés dans cette requête.
+
+EXEMPLES :
+- "les PDG du CAC 40" → ["CAC 40"]
+- "les présidents de la 5e république" → ["Cinquième République"]
+- "dirigeant du Groupe EBRA" → ["Groupe EBRA"]
+- "ministres de l'économie français" → ["Ministère de l'Économie"]
+- "membres du Siècle" → ["Le Siècle"]
+
+Retourne un JSON avec :
+- "organizations": liste de noms d'organisations (ou liste vide si aucune)
+
+Format: {{"organizations": ["Nom1", "Nom2"]}}
+"""
+    
+    try:
+        chat_response = llm.client.chat.complete(
+            model=llm.model,
+            messages=[
+                {"role": "user", "content": prompt}
+            ],
+            response_format={"type": "json_object"}
+        )
+        
+        if chat_response.choices and chat_response.choices[0].message:
+            result = json.loads(chat_response.choices[0].message.content)
+            orgs = result.get('organizations', [])
+            logger.info(f"✅ Organisations extraites : {orgs}")
+            return orgs
+        
+        return []
+        
+    except Exception as e:
+        logger.error(f"Erreur lors de l'extraction d'organisations : {e}")
+        return []
+
 def search_people_on_wikipedia(query: str) -> list:
     """
     Recherche sur Wikipedia et extrait une liste de personnes à partir d'une requête
@@ -279,15 +328,15 @@ def get_person_info_from_wikipedia(person_name: str) -> dict:
         logger.error(f"Erreur pour {person_name} : {e}")
         return None
 
-def create_person_file(person_name: str, person_data: dict):
+def create_person_file(person_name: str, person_data: dict, organizations: list = []):
     """
     Crée un fichier Markdown pour une personne dans le dossier personnes/
     """
     personnes_folder = Path("personnes")
     personnes_folder.mkdir(exist_ok=True)
     
-    safe_filename = re.sub(r'[^
-      \w\s-]', '', person_name).strip().replace(' ', ' ')
+    # CORRECTION : regex corrigé sur une seule ligne
+    safe_filename = re.sub(r'[^\w\s-]', '', person_name).strip().replace(' ', '-')
     file_path = personnes_folder / f"{safe_filename}.md"
     
     if file_path.exists():
@@ -297,6 +346,14 @@ def create_person_file(person_name: str, person_data: dict):
     liens = person_data.get('liens', [])
     famille = person_data.get('famille', [])
     
+    # Section Organisations (NOUVEAU)
+    org_text = ""
+    if organizations and len(organizations) > 0:
+        org_text = "\n## Organisations\n\n"
+        for org in organizations:
+            org_text += f"- [[{org}]]\n"
+    
+    # Section Relations
     relations_text = ""
     if liens and len(liens) > 0:
         relations_text = "\n## Relations et Réseaux\n\n"
@@ -304,6 +361,7 @@ def create_person_file(person_name: str, person_data: dict):
             if related and len(related.strip()) > 2:
                 relations_text += f"- [[{related}]]\n"
     
+    # Section Famille
     famille_text = ""
     if famille and len(famille) > 0:
         famille_text = "\n## Famille\n\n"
@@ -314,7 +372,20 @@ def create_person_file(person_name: str, person_data: dict):
     bio = person_data.get('bio', '')
     wiki_url = person_data.get('wikipedia_url', '')
     
-    content = f"""{bio}\n\n{famille_text}\n{relations_text}\n---\n\n**Source** : [Wikipedia]({wiki_url})\n"""
+    content = f"""{bio}
+{org_text}
+{famille_text}
+{relations_text}
+
+---
+
+**Source** : [Wikipedia]({wiki_url})
+"""
+    
+    # Ajouter les organisations aux affiliations
+    affiliations = person_data.get('affiliations', [])
+    if organizations:
+        affiliations.extend(organizations)
     
     metadata = {
         'type': 'personne',
@@ -329,7 +400,7 @@ def create_person_file(person_name: str, person_data: dict):
         'bio': bio,
         'formation': person_data.get('formation', []),
         'carriere': person_data.get('carriere', []),
-        'affiliations': person_data.get('affiliations', []),
+        'affiliations': affiliations,
         'distinctions': person_data.get('distinctions', []),
         'famille': famille,
         'liens': liens,
@@ -360,6 +431,7 @@ def main(query: str = None):
         print("  - les présidents de la 5e république")
         print("  - les ministres de l'économie français")
         print("  - les PDG du CAC 40")
+        print("  - dirigeant du Groupe EBRA")
         print("="*60)
         
         query = input("\n👤 Qui voulez-vous chercher ? : ").strip()
@@ -369,6 +441,11 @@ def main(query: str = None):
         return
     
     logger.info(f"🚀 Lancement de la recherche : '{query}'")
+    
+    # Extraction des organisations de la requête
+    organizations = extract_organization_from_query(query)
+    if organizations:
+        logger.info(f"🏢 Organisations détectées : {organizations}")
     
     people_list = search_people_on_wikipedia(query)
     
@@ -401,7 +478,7 @@ def main(query: str = None):
         person_data = get_person_info_from_wikipedia(person_name)
         
         if person_data:
-            create_person_file(person_name, person_data)
+            create_person_file(person_name, person_data, organizations)
             validated_people.append(person_name)
             added_count += 1
         else:
