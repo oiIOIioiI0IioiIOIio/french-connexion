@@ -1,0 +1,360 @@
+import sys
+import os
+import wikipedia
+import yaml
+import frontmatter
+from pathlib import Path
+from dotenv import load_dotenv
+import json
+import re
+from datetime import datetime
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+from src.utils.logger import setup_logger
+from src.utils.git_handler import GitHandler
+from src.utils.llm_client import MistralClient
+
+# Configuration
+load_dotenv()
+logger = setup_logger()
+git = GitHandler()
+llm = MistralClient()
+
+# Wikipedia en français
+wikipedia.set_lang("fr")
+
+# Chargement config
+with open("config/config.yaml", "r", encoding="utf-8") as f:
+    CONFIG = yaml.safe_load(f)
+
+def search_people_on_wikipedia(query: str) -> list:
+    """
+    Recherche sur Wikipedia et extrait une liste de personnes à partir d'une requête
+    """
+    logger.info(f"🔍 Recherche Wikipedia pour : {query}")
+    
+    try:
+        search_results = wikipedia.search(query, results=5)
+        
+        if not search_results:
+            logger.warning(f"Aucun résultat trouvé pour : {query}")
+            return []
+        
+        page = wikipedia.page(search_results[0], auto_suggest=False)
+        content = page.content
+        
+        logger.info(f"📄 Page trouvée : {page.title}")
+        
+        people_list = extract_people_from_text(content, query)
+        
+        return people_list
+        
+    except wikipedia.exceptions.PageError:
+        logger.warning(f"Page Wikipedia non trouvée pour : {query}")
+        return []
+    except wikipedia.exceptions.DisambiguationError as e:
+        logger.warning(f"Page ambiguë pour '{query}'. Options : {e.options[:3]}")
+        try:
+            page = wikipedia.page(e.options[0])
+            content = page.content
+            people_list = extract_people_from_text(content, query)
+            return people_list
+        except:
+            return []
+    except Exception as e:
+        logger.error(f"Erreur lors de la recherche Wikipedia : {e}")
+        return []
+
+def extract_people_from_text(text: str, original_query: str) -> list:
+    """
+    Utilise Mistral pour extraire les noms des personnes
+    """
+    logger.info("🤖 Extraction des noms de personnes via Mistral...")
+    
+    if len(text) > 8000:
+        text = text[:8000]
+    
+    prompt = f"""
+Tu es un assistant spécialisé dans l'extraction de noms de personnes depuis des textes Wikipedia.
+
+REQUÊTE ORIGINALE : "{original_query}"
+
+À partir du texte Wikipedia ci-dessous, extrais une liste de noms complets de personnes 
+qui correspondent à la requête.
+
+RÈGLES :
+- Retourne UNIQUEMENT les noms complets (Prénom Nom)
+- N'inclus que des personnes réelles (pas de personnages fictifs)
+- Maximum 20 personnes
+- Format : liste JSON sous la clé "names": ["Nom1", "Nom2", ...]
+- Si aucune personne trouvée, retourne {{"names": []}}
+
+TEXTE WIKIPEDIA :
+{text}
+
+Retourne un objet JSON avec la clé "names" contenant la liste :
+"""
+    
+    try:
+        chat_response = llm.client.chat.complete(
+            model=llm.model,
+            messages=[
+                {"role": "user", "content": prompt}
+            ],
+            response_format={"type": "json_object"}
+        )
+        
+        if chat_response.choices and chat_response.choices[0].message:
+            result = json.loads(chat_response.choices[0].message.content)
+            
+            if isinstance(result, dict):
+                people = result.get('names', result.get('personnes', result.get('list', [])))
+            else:
+                people = result
+            
+            logger.info(f"✅ {len(people)} personnes extraites")
+            return people
+        
+        return []
+        
+    except Exception as e:
+        logger.error(f"Erreur lors de l'extraction de noms : {e}")
+        return []
+
+def get_person_info_from_wikipedia(person_name: str) -> dict:
+    """
+    Récupère les informations d'une personne depuis Wikipedia
+    """
+    logger.info(f"📖 Récupération des infos pour : {person_name}")
+    
+    try:
+        page = wikipedia.page(person_name, auto_suggest=True)
+        summary = page.summary
+        full_content = page.content[:3000]
+        
+        schema = """
+        {
+          "date_naissance": "Date de naissance au format YYYY-MM-DD si possible, sinon texte",
+          "lieu_naissance": "Ville et pays de naissance",
+          "nationalite": "Nationalité",
+          "genre": "homme ou femme",
+          "statut": "Profession ou fonction principale actuelle",
+          "bio": "Résumé biographique en 2-3 phrases maximum",
+          "formation": "Liste des écoles, universités, diplômes - format: liste de textes courts",
+          "carriere": "Liste des principales fonctions, postes, mandats - format: liste de textes courts",
+          "distinctions": "Liste des distinctions, prix, décorations - format: liste de textes",
+          "famille": "Noms des membres de la famille mentionnés (conjoint, enfants, parents) - format: liste de noms complets",
+          "relations_professionnelles": "Noms des collaborateurs, mentors, relations professionnelles importantes - format: liste de noms complets"
+        }
+        """
+        
+        extracted_data = llm.extract_yaml_data(full_content, schema)
+        
+        for key in ['formation', 'carriere', 'distinctions', 'famille']:
+            if key not in extracted_data or extracted_data[key] is None:
+                extracted_data[key] = []
+            elif isinstance(extracted_data[key], str):
+                extracted_data[key] = [item.strip() for item in extracted_data[key].split(',') if item.strip()]
+        
+        famille = extracted_data.get('famille', [])
+        relations_pro = extracted_data.get('relations_professionnelles', [])
+        
+        if isinstance(famille, str):
+            famille = [item.strip() for item in famille.split(',') if item.strip()]
+        if isinstance(relations_pro, str):
+            relations_pro = [item.strip() for item in relations_pro.split(',') if item.strip()]
+        
+        all_relations = list(set(famille + relations_pro))
+        
+        extracted_data['liens'] = all_relations[:15]
+        extracted_data['famille'] = famille[:10] if famille else []
+        extracted_data['wikipedia_url'] = page.url
+        
+        return extracted_data
+        
+    except wikipedia.exceptions.DisambiguationError as e:
+        logger.warning(f"⚠️  Ambiguïté pour {person_name}. Tentative avec : {e.options[0]}")
+        try:
+            page = wikipedia.page(e.options[0])
+            full_content = page.content[:3000]
+            
+            schema = """
+            {
+              "date_naissance": "Date de naissance",
+              "lieu_naissance": "Lieu de naissance",
+              "nationalite": "Nationalité",
+              "genre": "Genre",
+              "statut": "Statut professionnel",
+              "bio": "Biographie courte",
+              "formation": "Formation (liste)",
+              "carriere": "Carrière (liste)",
+              "distinctions": "Distinctions (liste)",
+              "famille": "Famille (liste de noms)",
+              "relations_professionnelles": "Relations (liste de noms)"
+            }
+            """
+            
+            extracted_data = llm.extract_yaml_data(full_content, schema)
+            
+            for key in ['formation', 'carriere', 'distinctions', 'famille']:
+                if key not in extracted_data or extracted_data[key] is None:
+                    extracted_data[key] = []
+                elif isinstance(extracted_data[key], str):
+                    extracted_data[key] = [item.strip() for item in extracted_data[key].split(',') if item.strip()]
+            
+            famille = extracted_data.get('famille', [])
+            relations_pro = extracted_data.get('relations_professionnelles', [])
+            
+            if isinstance(famille, str):
+                famille = [item.strip() for item in famille.split(',') if item.strip()]
+            if isinstance(relations_pro, str):
+                relations_pro = [item.strip() for item in relations_pro.split(',') if item.strip()]
+            
+            all_relations = list(set(famille + relations_pro))
+            
+            extracted_data['liens'] = all_relations[:15]
+            extracted_data['famille'] = famille[:10] if famille else []
+            extracted_data['wikipedia_url'] = page.url
+            
+            return extracted_data
+        except:
+            return None
+    except Exception as e:
+        logger.error(f"Erreur pour {person_name} : {e}")
+        return None
+
+def create_person_file(person_name: str, person_data: dict):
+    """
+    Crée un fichier Markdown pour une personne dans le dossier personnes/
+    """
+    personnes_folder = Path("personnes")
+    personnes_folder.mkdir(exist_ok=True)
+    
+    safe_filename = re.sub(r'[^-]', '', person_name).strip().replace(' ', ' ')
+    file_path = personnes_folder / f"{safe_filename}.md"
+    
+    if file_path.exists():
+        logger.info(f"ℹ️  {person_name} existe déjà, ignoré")
+        return
+    
+    liens = person_data.get('liens', [])
+    famille = person_data.get('famille', [])
+    
+    relations_text = ""
+    if liens and len(liens) > 0:
+        relations_text = "\n## Relations et Réseaux\n\n"
+        for related in liens:
+            if related and len(related.strip()) > 2:
+                relations_text += f"- [[{related}]]\n"
+    
+    famille_text = ""
+    if famille and len(famille) > 0:
+        famille_text = "\n## Famille\n\n"
+        for member in famille:
+            if member and len(member.strip()) > 2:
+                famille_text += f"- [[{member}]]\n"
+    
+    bio = person_data.get('bio', '')
+    wiki_url = person_data.get('wikipedia_url', '')
+    
+    content = f"""{bio}\n
+{famille_text}\n{relations_text}\n---\n
+**Source** : [Wikipedia]({wiki_url})\n"""
+    
+    metadata = {
+        'type': 'personne',
+        'nom_complet': person_name,
+        'nom_naissance': person_data.get('nom_naissance', ''),
+        'prenoms': person_name.split()[0] if ' ' in person_name else person_name,
+        'date_naissance': person_data.get('date_naissance', ''),
+        'lieu_naissance': person_data.get('lieu_naissance', ''),
+        'nationalite': person_data.get('nationalite', ''),
+        'genre': person_data.get('genre', ''),
+        'statut': person_data.get('statut', ''),
+        'bio': bio,
+        'formation': person_data.get('formation', []),
+        'carriere': person_data.get('carriere', []),
+        'affiliations': person_data.get('affiliations', []),
+        'distinctions': person_data.get('distinctions', []),
+        'famille': famille,
+        'liens': liens,
+        'presse': [],
+        'sources': [wiki_url] if wiki_url else [],
+        'statut_note': 'a_valider',
+        'tags': ['elite', 'wikipedia'],
+        'date_creation_note': datetime.now().strftime('%Y-%m-%d')
+    }
+    
+    post = frontmatter.Post(content, **metadata)
+    
+    with open(file_path, 'wb') as f:
+        frontmatter.dump(post, f)
+    
+    logger.info(f"✅ Fichier créé : {file_path}")
+
+def main(query: str = None):
+    """
+    Script principal
+    """
+    print("\n" + "="*60)
+    print("🔍 AJOUT DE PERSONNES VIA WIKIPEDIA")
+    print("="*60)
+    
+    if not query:
+        print("\nExemples de requêtes :")
+        print("  - les présidents de la 5e république")
+        print("  - les ministres de l'économie français")
+        print("  - les PDG du CAC 40")
+        print("="*60)
+        
+        query = input("\n👤 Qui voulez-vous chercher ? : ").strip()
+    
+    if not query:
+        logger.error("❌ Requête vide, abandon")
+        return
+    
+    logger.info(f"🚀 Lancement de la recherche : '{query}'")
+    
+    people_list = search_people_on_wikipedia(query)
+    
+    if not people_list or len(people_list) == 0:
+        logger.warning("❌ Aucune personne trouvée pour cette requête")
+        return
+    
+    print(f"\n📋 {len(people_list)} personnes trouvées :")
+    for i, person in enumerate(people_list, 1):
+        print(f"   {i}. {person}")
+    
+    added_count = 0
+    for person_name in people_list:
+        logger.info(f"\n{'='*50}")
+        logger.info(f"Traitement de : {person_name}")
+        
+        person_data = get_person_info_from_wikipedia(person_name)
+        
+        if person_data:
+            create_person_file(person_name, person_data)
+            added_count += 1
+        else:
+            logger.warning(f"⚠️  Impossible de récupérer les données pour {person_name}")
+    
+    logger.info(f"\n{'='*50}")
+    logger.info(f"✅ {added_count} personnes ajoutées avec succès")
+    
+    if added_count > 0:
+        commit_msg = f"feat: ajout de {added_count} personnes via Wikipedia - {query}"
+        git.commit_changes(commit_msg)
+        logger.info("✅ Changements committés")
+    
+    print("\n" + "="*60)
+    print(f"🎉 TERMINÉ ! {added_count} nouvelles fiches créées")
+    print("="*60)
+
+if __name__ == "__main__":
+    import sys
+    if len(sys.argv) > 1:
+        query_arg = ' '.join(sys.argv[1:])
+        main(query_arg)
+    else:
+        main()
