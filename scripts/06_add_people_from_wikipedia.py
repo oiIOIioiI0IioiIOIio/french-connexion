@@ -1112,9 +1112,10 @@ def explore_network_exponential(initial_query: str, current_depth: int = 0,
             
             if not file_path.exists():
                 # Créer le fichier immédiatement avec les données actuelles
-                # Note: on passe une liste vide pour les institutions car on les collecte plus tard
-                all_institutions = []
-                if create_person_file_comprehensive(person_entity, all_institutions):
+                # Note: On collecte les institutions découvertes jusqu'à présent
+                # (pas toutes, car l'exploration est en cours)
+                current_institutions = [e.name for e in ALL_FOUND_ENTITIES if isinstance(e, InstitutionEntity)]
+                if create_person_file_comprehensive(person_entity, current_institutions):
                     logger.info(f"📝 Fichier créé immédiatement : {file_path}")
                     person_entity.created_file_path = file_path
                     CREATED_FILES.append(str(file_path))
