@@ -42,7 +42,7 @@ CREATED_FILES = []
 ORIGINAL_QUERY = ""
 
 # Configuration de l'exploration
-MAX_DEPTH = 3
+MAX_DEPTH = 2
 CONFIDENCE_THRESHOLD = 0.6  # Score minimum pour validation
 EXPONENTIAL_EXPLORATION = True  # Exploration complète sans limite
 
@@ -1039,6 +1039,23 @@ def explore_network_exponential(initial_query: str, current_depth: int = 0,
             )
             ALL_FOUND_ENTITIES.append(institution_entity)
             logger.info(f"🏢 Institution ajoutée : {inst}")
+            
+            # 🆕 CRÉATION IMMÉDIATE DU FICHIER INSTITUTION
+            try:
+                institutions_folder = Path("institutions")
+                institutions_folder.mkdir(exist_ok=True)
+                safe_filename = re.sub(r'[^\w\s-]', '', inst).strip().replace(' ', '-')
+                file_path = institutions_folder / f"{safe_filename}.md"
+                
+                if not file_path.exists():
+                    if create_institution_file_comprehensive(institution_entity):
+                        logger.info(f"🏢 Fichier institution créé : {file_path}")
+                        institution_entity.created_file_path = file_path
+                        CREATED_FILES.append(str(file_path))
+                else:
+                    logger.info(f"⏭️  Institution existe déjà : {file_path}")
+            except Exception as e:
+                logger.error(f"⚠️  Erreur création institution {inst} : {e}")
     
     # PHASE 2 : FACTCHECK WIKIPEDIA POUR CHAQUE PERSONNE
     people_to_explore_next = []
@@ -1083,6 +1100,29 @@ def explore_network_exponential(initial_query: str, current_depth: int = 0,
         logger.info(f"✅ {person_name} fackchecké (profondeur {current_depth})")
         logger.info(f"   - {len(relationships)} relations détaillées")
         logger.info(f"   - {len(person_entity.organizations)} institutions liées")
+        
+        # 🆕 CRÉATION IMMÉDIATE DU FICHIER (ne pas attendre la fin de l'exploration)
+        # Cela permet de préserver le progrès même si le script est interrompu
+        try:
+            # Vérifier si le fichier existe déjà
+            personnes_folder = Path("personnes")
+            personnes_folder.mkdir(exist_ok=True)
+            safe_filename = re.sub(r'[^\w\s-]', '', person_name).strip().replace(' ', '-')
+            file_path = personnes_folder / f"{safe_filename}.md"
+            
+            if not file_path.exists():
+                # Créer le fichier immédiatement avec les données actuelles
+                # Note: on passe une liste vide pour les institutions car on les collecte plus tard
+                all_institutions = []
+                if create_person_file_comprehensive(person_entity, all_institutions):
+                    logger.info(f"📝 Fichier créé immédiatement : {file_path}")
+                    person_entity.created_file_path = file_path
+                    CREATED_FILES.append(str(file_path))
+            else:
+                logger.info(f"⏭️  Fichier existe déjà : {file_path}")
+        except Exception as e:
+            logger.error(f"⚠️  Erreur création immédiate pour {person_name} : {e}")
+            # Continuer même si la création échoue - l'entité est déjà dans ALL_FOUND_ENTITIES
         
         # Collecter les personnes à explorer au niveau suivant
         if current_depth < max_depth - 1 and EXPONENTIAL_EXPLORATION:
@@ -1720,14 +1760,13 @@ def main(query: str = None):
             print(f"   {i}. {person}")
     
     # ========== PHASE 1 : EXPLORATION EXPONENTIELLE ==========
-    print(f"\n🌳 Phase 1 : Exploration exponentielle (3 niveaux)...\n")
-    explore_network_exponential(query, current_depth=0, max_depth=MAX_DEPTH, initial_query_type=query_type)
+    print(f"\n🌳 Phase 1 : Exploration exponentielle (2 niveaux max)...\n")
+    print(f"   📝 Les fichiers sont créés immédiatement pendant l'exploration\n")
+    
     # Stocker le type de requête pour l'exploration
     explore_network_exponential._initial_query_type = query_type
     
     try:
-        # ========== PHASE 1 : EXPLORATION EXPONENTIELLE ==========
-        print(f"\n🌳 Phase 1 : Exploration exponentielle (3 niveaux)...\n")
         explore_network_exponential(query, current_depth=0, max_depth=MAX_DEPTH)
     finally:
         # Nettoyer l'attribut temporaire après utilisation (même en cas d'exception)
@@ -1813,8 +1852,10 @@ def main(query: str = None):
         logger.info("✅ Toutes les entités existent déjà")
         return
     
-    # ========== PHASE 4 : CRÉATION DES FICHIERS ==========
-    print(f"\n📝 Phase 4 : Création des fiches...\n")
+    # ========== PHASE 4 : CRÉATION DES FICHIERS MANQUANTS ==========
+    # Note: Avec la création immédiate pendant l'exploration, cette phase
+    # ne devrait créer que les fichiers qui ont échoué lors de la création immédiate
+    print(f"\n📝 Phase 4 : Vérification et création des fiches manquantes...\n")
     
     all_institutions_names = [inst.name for inst in institution_entities]
     
