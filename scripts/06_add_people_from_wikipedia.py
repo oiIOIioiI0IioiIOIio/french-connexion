@@ -1026,7 +1026,7 @@ def explore_network_exponential(initial_query: str, current_depth: int = 0,
     # Conditions: personne, nom présent, non déjà dans la liste, profondeur 0, et pas un terme générique
     if subject_type == 'personne' and main_subject and main_subject not in people and current_depth == 0:
         if not is_generic_people_term(main_subject):
-            people.insert(0, main_subject
+            people.insert(0, main_subject)
     
     # Tracker les institutions
     for inst in institutions:
