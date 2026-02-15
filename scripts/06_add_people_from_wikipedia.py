@@ -1112,8 +1112,11 @@ def explore_network_exponential(initial_query: str, current_depth: int = 0,
             
             if not file_path.exists():
                 # Créer le fichier immédiatement avec les données actuelles
-                # Note: On collecte les institutions découvertes jusqu'à présent
-                # (pas toutes, car l'exploration est en cours)
+                # Note: On collecte les institutions découvertes jusqu'à présent.
+                # Ce n'est pas toutes les institutions (l'exploration est en cours),
+                # mais c'est acceptable car l'objectif est de préserver le progrès
+                # même si le script est interrompu. Les fichiers avec moins d'institutions
+                # sont mieux que pas de fichiers du tout en cas d'interruption.
                 current_institutions = [e.name for e in ALL_FOUND_ENTITIES if isinstance(e, InstitutionEntity)]
                 if create_person_file_comprehensive(person_entity, current_institutions):
                     logger.info(f"📝 Fichier créé immédiatement : {file_path}")
