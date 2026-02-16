@@ -1,3 +1,70 @@
+"""
+🧠 ŒIL DE DIEU - Script d'exploration intelligente de réseaux
+Enhanced Version with Smart Batch Processing and Pre-validation
+
+NOUVEAUTÉS (Enhanced Features):
+==============================
+
+1. 📋 DEEP QUERY ANALYSIS
+   - Analyse approfondie de la requête avant toute exploration
+   - Plan de recherche généré avec priorités et estimations
+   - Focus areas identifiés automatiquement
+
+2. 🎯 PRÉ-VALIDATION INTELLIGENTE
+   - Évaluation des entités AVANT appels Wikipedia (économie d'API calls)
+   - Score 0-100 pour chaque entité avec raisonnement
+   - Seuil configurable (MIN_PRIORITY_SCORE = 70)
+   - Skip automatique des entités peu pertinentes
+
+3. ⚙️ LIMITES CONFIGURABLES
+   - MAX_ENTITIES_PER_RUN : Limite d'entités à traiter (15 en GH Actions, 50 en local)
+   - MAX_WIKIPEDIA_CALLS : Limite d'appels Wikipedia (20 en GH Actions, 100 en local)
+   - TIME_LIMIT_SECONDS : Limite de temps (300s = 5min en GH Actions)
+   - Détection automatique de l'environnement GitHub Actions
+
+4. 🛡️ GRACEFUL SHUTDOWN
+   - Arrêt propre quand une limite est atteinte
+   - Sauvegarde des résultats partiels
+   - Messages clairs sur la raison de l'arrêt
+   - Pas de timeout brutal
+
+5. 📊 SUIVI DE PROGRESSION
+   - Affichage "Processing X/Y entities..."
+   - Temps écoulé en temps réel
+   - Compteurs de pré-validations
+   - Statistiques d'économie d'API calls
+
+6. 🔄 FLUX OPTIMISÉ
+   Avant : Query → Identify ALL → Wikipedia ALL → Validate → Create
+   Après  : Query → Deep Analysis → Plan → For each: Pre-validate → Wikipedia → Create
+   
+VARIABLES D'ENVIRONNEMENT:
+========================
+- GITHUB_ACTIONS : Détecté automatiquement (ajuste les limites)
+- MAX_ENTITIES : Override de MAX_ENTITIES_PER_RUN
+- MAX_WIKI_CALLS : Override de MAX_WIKIPEDIA_CALLS
+- TIME_LIMIT : Override de TIME_LIMIT_SECONDS
+- MISTRAL_API_KEY : Clé API Mistral (obligatoire)
+
+EXEMPLES D'UTILISATION:
+=====================
+# Mode local (limites étendues)
+python scripts/06_add_people_from_wikipedia.py "Le Siècle"
+
+# Mode GitHub Actions (limites strictes, automatique)
+# Ou forcer des limites spécifiques:
+MAX_ENTITIES=10 TIME_LIMIT=180 python scripts/06_add_people_from_wikipedia.py "Le Siècle"
+
+STATISTIQUES SUIVIES:
+===================
+- pre_validations_performed : Nombre de pré-validations effectuées
+- pre_validations_passed : Nombre acceptées (score ≥ 70)
+- pre_validations_rejected : Nombre rejetées (économie d'API calls)
+- wikipedia_limit_reached : Nombre de fois où la limite Wikipedia est atteinte
+- WIKIPEDIA_CALLS_COUNT : Compteur d'appels Wikipedia effectués
+
+"""
+
 import sys
 import os
 import wikipedia
