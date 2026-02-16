@@ -2387,7 +2387,6 @@ def main(query: str = None):
         print(f"      - Temps utilisé : {elapsed_total:.0f}s / {TIME_LIMIT_SECONDS}s ({elapsed_total/TIME_LIMIT_SECONDS*100:.1f}%)")
     if EXPLORATION_STATS.get('wikipedia_limit_reached', 0) > 0:
         print(f"      ⚠️  Limite Wikipedia atteinte : {EXPLORATION_STATS['wikipedia_limit_reached']} fois")
-
     
     total_created = people_created + institutions_created
     
