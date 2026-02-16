@@ -40,11 +40,27 @@ RELATIONSHIPS_GRAPH = defaultdict(list)
 VALIDATION_SCORES = {}
 CREATED_FILES = []
 ORIGINAL_QUERY = ""
+RESEARCH_PLAN = {}  # Plan de recherche généré par Mistral
+WIKIPEDIA_CALLS_COUNT = 0  # Compteur d'appels Wikipedia
+START_TIME = 0  # Heure de démarrage
 
 # Configuration de l'exploration
 MAX_DEPTH = 3
 CONFIDENCE_THRESHOLD = 0.6  # Score minimum pour validation
 EXPONENTIAL_EXPLORATION = True  # Exploration complète sans limite
+
+# ========== CONFIGURATION AVANCÉE : LIMITES ET TIMEOUTS ==========
+# Détection de l'environnement GitHub Actions
+IS_GITHUB_ACTION = os.getenv('GITHUB_ACTIONS') == 'true'
+
+# Limites configurables pour éviter les timeouts
+MAX_ENTITIES_PER_RUN = int(os.getenv('MAX_ENTITIES', '15' if IS_GITHUB_ACTION else '50'))
+MAX_WIKIPEDIA_CALLS = int(os.getenv('MAX_WIKI_CALLS', '20' if IS_GITHUB_ACTION else '100'))
+TIME_LIMIT_SECONDS = int(os.getenv('TIME_LIMIT', '300' if IS_GITHUB_ACTION else '0'))  # 5 min pour GH Actions
+
+# Seuils de qualité et pré-validation
+MIN_PRIORITY_SCORE = 70  # Score minimum pour traiter une entité (0-100)
+ENABLE_PRE_VALIDATION = True  # Validation avant appels Wikipedia (économie d'API calls)
 
 # Structures de retour par défaut pour les erreurs
 EMPTY_ENTITY_RESPONSE = {
@@ -568,6 +584,251 @@ Retourne un JSON complet :
         logger.error(f"❌ Erreur réponse directe : {e}")
         return {}
 
+def mistral_analyze_query_deeply(query: str) -> dict:
+    """
+    🧠 ANALYSE APPROFONDIE de la requête avant exploration
+    Génère une compréhension détaillée avec contexte, priorités et stratégie
+    """
+    logger.info(f"🧠 Analyse approfondie de la requête : {query}")
+    
+    prompt = f"""
+Tu es un expert en analyse de requêtes pour la cartographie de réseaux de pouvoir et d'influence.
+
+REQUÊTE : "{query}"
+
+Ta mission : effectuer une ANALYSE APPROFONDIE avant toute exploration.
+
+Analyse la requête sur plusieurs dimensions :
+
+1. **Contexte et Intent** : Que veut vraiment savoir l'utilisateur ?
+2. **Entités clés** : Quelles sont les personnes/institutions centrales ?
+3. **Priorités** : Quelles entités sont les plus importantes ? (score 0-100)
+4. **Étendue** : Combien d'entités sont pertinentes au total ?
+5. **Focus** : Quels aspects privilégier (pouvoir, business, politique, scandales) ?
+6. **Profondeur recommandée** : 1, 2 ou 3 niveaux d'exploration ?
+
+EXEMPLE - Requête "Le Siècle" :
+{{
+  "query_analysis": "Club d'influence français réunissant élites politiques, économiques et médiatiques. L'utilisateur veut cartographier le réseau de pouvoir français.",
+  "query_intent": "Découvrir membres et connexions d'un réseau d'influence majeur",
+  "main_entities": [
+    {{"name": "Le Siècle", "type": "institution", "priority": 100}},
+    {{"name": "Henri de Castries", "type": "person", "priority": 95}},
+    {{"name": "Anne Lauvergeon", "type": "person", "priority": 90}},
+    {{"name": "Nicole Notat", "type": "person", "priority": 85}}
+  ],
+  "estimated_total_entities": 30,
+  "estimated_high_priority": 15,
+  "recommended_depth": 2,
+  "focus_areas": ["réseaux d'influence", "élites françaises", "connexions politico-économiques"],
+  "quality_threshold": 75,
+  "time_estimate_minutes": 8,
+  "complexity": "medium"
+}}
+
+EXEMPLE - Requête "les dirigeants de LVMH" :
+{{
+  "query_analysis": "Recherche des cadres dirigeants d'un groupe de luxe. Focus sur hiérarchie et famille Arnault.",
+  "query_intent": "Identifier les personnes au pouvoir dans l'entreprise",
+  "main_entities": [
+    {{"name": "Bernard Arnault", "type": "person", "priority": 100}},
+    {{"name": "Antoine Arnault", "type": "person", "priority": 95}},
+    {{"name": "Delphine Arnault", "type": "person", "priority": 95}},
+    {{"name": "LVMH", "type": "institution", "priority": 90}}
+  ],
+  "estimated_total_entities": 20,
+  "estimated_high_priority": 10,
+  "recommended_depth": 2,
+  "focus_areas": ["dirigeants entreprise", "famille Arnault", "luxe"],
+  "quality_threshold": 70,
+  "time_estimate_minutes": 5,
+  "complexity": "low"
+}}
+
+RÈGLES :
+- Sois RÉALISTE sur estimated_total_entities
+- Priority score : 100 = essentiel, 80-99 = très important, 70-79 = important, <70 = secondaire
+- recommended_depth : 1 (personne unique), 2 (réseau moyen), 3 (réseau complexe)
+- quality_threshold : seuil de score minimum recommandé (70-85 typiquement)
+
+Retourne un JSON complet :
+"""
+    
+    try:
+        chat_response = llm.client.chat.complete(
+            model=llm.model,
+            messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"},
+            temperature=0.3
+        )
+        
+        if chat_response.choices and chat_response.choices[0].message:
+            result = json.loads(chat_response.choices[0].message.content)
+            EXPLORATION_STATS['mistral_calls'] += 1
+            
+            logger.info(f"✅ Analyse complète :")
+            logger.info(f"   Intent : {result.get('query_intent', 'N/A')}")
+            logger.info(f"   Entités estimées : {result.get('estimated_total_entities', 'N/A')}")
+            logger.info(f"   Profondeur recommandée : {result.get('recommended_depth', 'N/A')}")
+            logger.info(f"   Complexité : {result.get('complexity', 'N/A')}")
+            
+            return result
+        
+        return {}
+        
+    except Exception as e:
+        logger.error(f"❌ Erreur analyse approfondie : {e}")
+        EXPLORATION_STATS['errors'] += 1
+        return {}
+
+def generate_research_plan(query: str) -> dict:
+    """
+    📋 GÉNÈRE UN PLAN DE RECHERCHE complet
+    Combine l'analyse approfondie avec une stratégie d'exécution
+    """
+    logger.info(f"📋 Génération du plan de recherche")
+    
+    # Analyse approfondie de la requête
+    deep_analysis = mistral_analyze_query_deeply(query)
+    
+    if not deep_analysis:
+        return {
+            'query_analysis': 'Analyse non disponible',
+            'primary_targets': [],
+            'secondary_targets': [],
+            'estimated_total': 20,
+            'recommended_depth': 2,
+            'focus_areas': [],
+            'quality_threshold': MIN_PRIORITY_SCORE
+        }
+    
+    # Séparer entités primaires et secondaires
+    main_entities = deep_analysis.get('main_entities', [])
+    primary_targets = [e['name'] for e in main_entities if e.get('priority', 0) >= 85]
+    secondary_targets = [e['name'] for e in main_entities if 70 <= e.get('priority', 0) < 85]
+    
+    plan = {
+        'query_analysis': deep_analysis.get('query_analysis', ''),
+        'query_intent': deep_analysis.get('query_intent', ''),
+        'primary_targets': primary_targets,
+        'secondary_targets': secondary_targets,
+        'estimated_total': deep_analysis.get('estimated_total_entities', 20),
+        'estimated_high_priority': deep_analysis.get('estimated_high_priority', 10),
+        'recommended_depth': deep_analysis.get('recommended_depth', 2),
+        'focus_areas': deep_analysis.get('focus_areas', []),
+        'quality_threshold': deep_analysis.get('quality_threshold', MIN_PRIORITY_SCORE),
+        'time_estimate_minutes': deep_analysis.get('time_estimate_minutes', 10),
+        'complexity': deep_analysis.get('complexity', 'medium')
+    }
+    
+    logger.info(f"✅ Plan de recherche généré :")
+    logger.info(f"   Cibles primaires : {len(primary_targets)}")
+    logger.info(f"   Cibles secondaires : {len(secondary_targets)}")
+    logger.info(f"   Estimation totale : {plan['estimated_total']} entités")
+    
+    return plan
+
+def mistral_score_entity_relevance(entity_name: str, query: str, research_plan: dict) -> Tuple[int, str]:
+    """
+    🎯 PRÉ-VALIDATION d'une entité AVANT appel Wikipedia
+    Score 0-100 + raisonnement (économie d'API calls)
+    """
+    logger.info(f"🎯 Pré-validation de : {entity_name}")
+    
+    focus_areas = research_plan.get('focus_areas', [])
+    focus_text = ', '.join(focus_areas) if focus_areas else 'général'
+    
+    prompt = f"""
+Tu es un expert en évaluation de pertinence d'entités pour la cartographie de réseaux.
+
+REQUÊTE ORIGINALE : "{query}"
+ENTITÉ À ÉVALUER : "{entity_name}"
+FOCUS DE LA RECHERCHE : {focus_text}
+
+Ta mission : déterminer si cette entité MÉRITE un appel Wikipedia (coûteux).
+
+Critères d'évaluation :
+1. **Pertinence directe** : L'entité est-elle directement liée à la requête ? (40 points)
+2. **Importance** : Est-ce une personne/institution influente dans ce contexte ? (30 points)
+3. **Documentabilité** : Existe-t-il probablement une page Wikipedia fiable ? (20 points)
+4. **Valeur ajoutée** : Apporte-t-elle des informations uniques au réseau ? (10 points)
+
+EXEMPLES :
+
+Requête "Le Siècle", Entité "Bernard Arnault" :
+{{
+  "score": 95,
+  "reasoning": "Membre historique du Siècle, milliardaire, PDG LVMH. Très pertinent et bien documenté.",
+  "should_explore": true,
+  "confidence": "high"
+}}
+
+Requête "Le Siècle", Entité "Jean Dupont" :
+{{
+  "score": 35,
+  "reasoning": "Nom commun, pas de lien évident avec Le Siècle, probablement peu pertinent.",
+  "should_explore": false,
+  "confidence": "low"
+}}
+
+Requête "dirigeants LVMH", Entité "Bernard Arnault" :
+{{
+  "score": 100,
+  "reasoning": "PDG et fondateur de LVMH, cible principale et essentielle.",
+  "should_explore": true,
+  "confidence": "very_high"
+}}
+
+Requête "dirigeants LVMH", Entité "Emmanuel Macron" :
+{{
+  "score": 60,
+  "reasoning": "Président français, peut avoir des liens avec LVMH mais pas un dirigeant. Pertinence modérée.",
+  "should_explore": false,
+  "confidence": "medium"
+}}
+
+RÈGLES :
+- Score ≥ 70 : OUI, explorer (should_explore: true)
+- Score < 70 : NON, skip (should_explore: false)
+- Sois STRICT : économiser les appels Wikipedia est crucial
+- Base-toi sur la PERTINENCE par rapport à la requête, pas la célébrité générale
+
+Retourne un JSON :
+"""
+    
+    try:
+        chat_response = llm.client.chat.complete(
+            model=llm.model,
+            messages=[{"role": "user", "content": prompt}],
+            response_format={"type": "json_object"},
+            temperature=0.2  # Très bas pour cohérence
+        )
+        
+        if chat_response.choices and chat_response.choices[0].message:
+            result = json.loads(chat_response.choices[0].message.content)
+            EXPLORATION_STATS['mistral_calls'] += 1
+            EXPLORATION_STATS['pre_validations_performed'] = EXPLORATION_STATS.get('pre_validations_performed', 0) + 1
+            
+            score = result.get('score', 0)
+            reasoning = result.get('reasoning', 'Aucune raison fournie')
+            
+            if score >= MIN_PRIORITY_SCORE:
+                EXPLORATION_STATS['pre_validations_passed'] = EXPLORATION_STATS.get('pre_validations_passed', 0) + 1
+            else:
+                EXPLORATION_STATS['pre_validations_rejected'] = EXPLORATION_STATS.get('pre_validations_rejected', 0) + 1
+            
+            logger.info(f"   Score : {score}/100 - {reasoning[:80]}...")
+            
+            return (score, reasoning)
+        
+        return (50, "Erreur lors de l'évaluation")
+        
+    except Exception as e:
+        logger.error(f"❌ Erreur pré-validation : {e}")
+        EXPLORATION_STATS['errors'] += 1
+        return (50, f"Erreur : {str(e)}")
+
+
 def mistral_extract_detailed_relationships(person_name: str, bio_text: str, 
                                           all_known_people: Set[str]) -> List[RelationshipDetail]:
     """
@@ -688,9 +949,20 @@ def wikipedia_factcheck_person_rigorous(person_name: str) -> Optional[dict]:
     📖 Factchecking RIGOUREUX d'une personne via Wikipedia
     Niveau journalistique : vérification multiple, sources croisées
     """
+    global WIKIPEDIA_CALLS_COUNT
+    
     logger.info(f"📖 Factcheck rigoureux pour : {person_name}")
     
+    # Vérifier limite d'appels Wikipedia
+    if MAX_WIKIPEDIA_CALLS > 0 and WIKIPEDIA_CALLS_COUNT >= MAX_WIKIPEDIA_CALLS:
+        logger.warning(f"⚠️  Limite d'appels Wikipedia atteinte ({MAX_WIKIPEDIA_CALLS})")
+        EXPLORATION_STATS['wikipedia_limit_reached'] = EXPLORATION_STATS.get('wikipedia_limit_reached', 0) + 1
+        return None
+    
     try:
+        # Incrémenter le compteur d'appels Wikipedia
+        WIKIPEDIA_CALLS_COUNT += 1
+        
         # Recherche Wikipedia
         page = wikipedia.page(person_name, auto_suggest=True)
         summary = page.summary
@@ -987,11 +1259,26 @@ def explore_network_exponential(initial_query: str, current_depth: int = 0,
     """
     🌳 Exploration EXPONENTIELLE du réseau (tous les chemins, pas de limite)
     Exploration complète niveau par niveau
+    ENHANCED: Avec limites configurables et pré-validation
     """
     global VISITED_PEOPLE, VISITED_ORGS, ALL_FOUND_ENTITIES, ORIGINAL_QUERY
+    global WIKIPEDIA_CALLS_COUNT, START_TIME
     
     if current_depth >= max_depth:
         logger.info(f"🛑 Profondeur maximale atteinte ({max_depth})")
+        return
+    
+    # Vérifier la limite de temps
+    if TIME_LIMIT_SECONDS > 0 and (time.time() - START_TIME) > TIME_LIMIT_SECONDS:
+        logger.warning(f"⚠️  LIMITE DE TEMPS ATTEINTE ({TIME_LIMIT_SECONDS}s / {TIME_LIMIT_SECONDS//60}min)")
+        print(f"\n⚠️  Arrêt gracieux : limite de temps atteinte ({TIME_LIMIT_SECONDS//60} minutes)")
+        return
+    
+    # Vérifier la limite d'entités
+    processed_entities = len([e for e in ALL_FOUND_ENTITIES if isinstance(e, PersonEntity)])
+    if MAX_ENTITIES_PER_RUN > 0 and processed_entities >= MAX_ENTITIES_PER_RUN:
+        logger.warning(f"⚠️  LIMITE D'ENTITÉS ATTEINTE ({MAX_ENTITIES_PER_RUN})")
+        print(f"\n⚠️  Arrêt gracieux : limite d'entités atteinte ({MAX_ENTITIES_PER_RUN} personnes)")
         return
     
     logger.info(f"\n{'='*70}")
@@ -1040,13 +1327,47 @@ def explore_network_exponential(initial_query: str, current_depth: int = 0,
             ALL_FOUND_ENTITIES.append(institution_entity)
             logger.info(f"🏢 Institution ajoutée : {inst}")
     
-    # PHASE 2 : FACTCHECK WIKIPEDIA POUR CHAQUE PERSONNE
+    # PHASE 2 : FACTCHECK WIKIPEDIA POUR CHAQUE PERSONNE (AVEC PRÉ-VALIDATION)
     people_to_explore_next = []
     
-    for person_name in people:
+    # Afficher la progression
+    total_people = len(people)
+    print(f"\n   📊 Traitement de {total_people} personnes au niveau {current_depth + 1}...")
+    
+    for idx, person_name in enumerate(people, 1):
+        # Vérifier les limites à chaque itération
+        processed_count = len([e for e in ALL_FOUND_ENTITIES if isinstance(e, PersonEntity)])
+        
+        if MAX_ENTITIES_PER_RUN > 0 and processed_count >= MAX_ENTITIES_PER_RUN:
+            logger.warning(f"⚠️  Limite d'entités atteinte lors du traitement")
+            print(f"   ⚠️  Arrêt à {processed_count}/{MAX_ENTITIES_PER_RUN} entités")
+            break
+        
+        if TIME_LIMIT_SECONDS > 0 and (time.time() - START_TIME) > TIME_LIMIT_SECONDS:
+            logger.warning(f"⚠️  Limite de temps atteinte lors du traitement")
+            elapsed = int(time.time() - START_TIME)
+            print(f"   ⚠️  Arrêt après {elapsed}s (limite : {TIME_LIMIT_SECONDS}s)")
+            break
+        
         if person_name in VISITED_PEOPLE:
             logger.info(f"⏭️  {person_name} déjà traité, skip")
             continue
+        
+        # Afficher la progression
+        elapsed = int(time.time() - START_TIME)
+        print(f"   🔄 Traitement {idx}/{total_people}: {person_name[:40]}... (temps: {elapsed}s, entités: {processed_count}/{MAX_ENTITIES_PER_RUN})")
+        
+        # ========== PRÉ-VALIDATION AVANT WIKIPEDIA (NOUVEAU) ==========
+        if ENABLE_PRE_VALIDATION and current_depth > 0:  # Pré-valider sauf niveau 0
+            score, reasoning = mistral_score_entity_relevance(person_name, ORIGINAL_QUERY, RESEARCH_PLAN)
+            
+            if score < MIN_PRIORITY_SCORE:
+                logger.info(f"⏭️  {person_name} ignoré (score: {score}/100) - {reasoning[:60]}...")
+                print(f"      ⏭️  Ignoré (score: {score}/100)")
+                continue
+            else:
+                logger.info(f"✅ {person_name} validé pour exploration (score: {score}/100)")
+                print(f"      ✅ Score: {score}/100 - Wikipedia lookup...")
         
         VISITED_PEOPLE.add(person_name)
         
@@ -1096,6 +1417,19 @@ def explore_network_exponential(initial_query: str, current_depth: int = 0,
     # PHASE 3 : EXPLORATION RÉCURSIVE DU NIVEAU SUIVANT
     if current_depth < max_depth - 1 and people_to_explore_next:
         logger.info(f"\n🔄 Exploration du niveau suivant : {len(people_to_explore_next)} personnes")
+        
+        # Vérifier à nouveau les limites avant le niveau suivant
+        processed_count = len([e for e in ALL_FOUND_ENTITIES if isinstance(e, PersonEntity)])
+        if MAX_ENTITIES_PER_RUN > 0 and processed_count >= MAX_ENTITIES_PER_RUN:
+            logger.warning(f"⚠️  Limite d'entités atteinte, pas d'exploration récursive")
+            print(f"\n   ⚠️  Limite d'entités atteinte ({processed_count}/{MAX_ENTITIES_PER_RUN}), arrêt de l'exploration récursive")
+            return
+        
+        if TIME_LIMIT_SECONDS > 0 and (time.time() - START_TIME) > TIME_LIMIT_SECONDS:
+            logger.warning(f"⚠️  Limite de temps atteinte, pas d'exploration récursive")
+            elapsed = int(time.time() - START_TIME)
+            print(f"\n   ⚠️  Limite de temps atteinte ({elapsed}s), arrêt de l'exploration récursive")
+            return
         
         # Explorer TOUTES les personnes du niveau suivant (exponentiel)
         for next_person in people_to_explore_next:
@@ -1543,6 +1877,17 @@ Fichiers créés :
 
 Erreurs : {EXPLORATION_STATS['errors']}
 
+LIMITES ET OPTIMISATIONS (NOUVEAUTÉ) :
+  - Environnement : {'GitHub Actions' if IS_GITHUB_ACTION else 'Local'}
+  - Limite d'entités : {MAX_ENTITIES_PER_RUN}
+  - Limite appels Wikipedia : {MAX_WIKIPEDIA_CALLS if MAX_WIKIPEDIA_CALLS > 0 else 'Aucune'}
+  - Limite de temps : {TIME_LIMIT_SECONDS}s ({TIME_LIMIT_SECONDS//60}min) si > 0 else 'Aucune'
+  - Pré-validations effectuées : {EXPLORATION_STATS.get('pre_validations_performed', 0)}
+  - Pré-validations acceptées : {EXPLORATION_STATS.get('pre_validations_passed', 0)}
+  - Pré-validations rejetées : {EXPLORATION_STATS.get('pre_validations_rejected', 0)}
+  - Wikipedia calls économisés : {EXPLORATION_STATS.get('pre_validations_rejected', 0)}
+  - Appels Wikipedia effectués : {WIKIPEDIA_CALLS_COUNT}
+
 {'='*70}
 PERSONNES VALIDÉES ({len(validated)})
 {'='*70}
@@ -1634,9 +1979,11 @@ def main(query: str = None):
     """
     🧠 ŒIL DE DIEU - Exploration exponentielle avec validation finale
     Niveau journalistique : rigueur, traçabilité, vérification
+    ENHANCED: Smart batch processing avec limites et pré-validation
     """
     global VISITED_PEOPLE, VISITED_ORGS, ALL_FOUND_ENTITIES, ORIGINAL_QUERY
     global EXPLORATION_STATS, RELATIONSHIPS_GRAPH, VALIDATION_SCORES, CREATED_FILES
+    global RESEARCH_PLAN, WIKIPEDIA_CALLS_COUNT, START_TIME
     
     # Réinitialisation complète
     VISITED_PEOPLE = set()
@@ -1646,20 +1993,32 @@ def main(query: str = None):
     RELATIONSHIPS_GRAPH = defaultdict(list)
     VALIDATION_SCORES = {}
     CREATED_FILES = []
+    RESEARCH_PLAN = {}
+    WIKIPEDIA_CALLS_COUNT = 0
+    START_TIME = time.time()
     
     print("\n" + "="*70)
     print("🧠 ŒIL DE DIEU - Construction de réseau de pouvoir")
     print("="*70)
-    print("\n📋 Mode d'opération :")
-    print("  1. Mistral identifie les entités (connaissance générale)")
-    print("  2. Wikipedia factcheck et enrichit (sources vérifiables)")
-    print("  3. Exploration EXPONENTIELLE sur 3 niveaux (tous les chemins)")
-    print("  4. Extraction de relations DÉTAILLÉES avec descriptions")
-    print("  5. Validation FINALE de toutes les personnes avant commit")
-    print("  6. Création de fiches Obsidian avec liens [[personne]]")
+    print("\n📋 Mode d'opération ENHANCED :")
+    print("  1. Analyse APPROFONDIE de la requête avec plan de recherche")
+    print("  2. PRÉ-VALIDATION des entités (économie d'API calls)")
+    print("  3. Mistral identifie les entités (connaissance générale)")
+    print("  4. Wikipedia factcheck et enrichit (sources vérifiables)")
+    print("  5. Exploration INTELLIGENTE avec limites configurables")
+    print("  6. Extraction de relations DÉTAILLÉES avec descriptions")
+    print("  7. Validation FINALE de toutes les personnes avant commit")
+    print("  8. Création de fiches Obsidian avec liens [[personne]]")
     print(f"\n⚙️  Paramètres :")
+    print(f"  - Environnement : {'GitHub Actions' if IS_GITHUB_ACTION else 'Local'}")
     print(f"  - Profondeur maximale : {MAX_DEPTH}")
+    print(f"  - Limite d'entités : {MAX_ENTITIES_PER_RUN}")
+    print(f"  - Limite Wikipedia : {MAX_WIKIPEDIA_CALLS}")
+    if TIME_LIMIT_SECONDS > 0:
+        print(f"  - Limite de temps : {TIME_LIMIT_SECONDS}s ({TIME_LIMIT_SECONDS//60}min)")
     print(f"  - Seuil de confiance : {CONFIDENCE_THRESHOLD:.0%}")
+    print(f"  - Score minimum : {MIN_PRIORITY_SCORE}/100")
+    print(f"  - Pré-validation : {'ACTIVÉE' if ENABLE_PRE_VALIDATION else 'DÉSACTIVÉE'}")
     print(f"  - Mode exponentiel : {'OUI' if EXPONENTIAL_EXPLORATION else 'NON'}")
     print("="*70)
     
@@ -1681,7 +2040,31 @@ def main(query: str = None):
     ORIGINAL_QUERY = query
     
     logger.info(f"🚀 Lancement de l'exploration : '{query}'")
-    start_time = time.time()
+    
+    # ========== PHASE -1 : GÉNÉRATION DU PLAN DE RECHERCHE ==========
+    print(f"\n📋 Phase -1 : Génération du plan de recherche...\n")
+    
+    RESEARCH_PLAN = generate_research_plan(query)
+    
+    if RESEARCH_PLAN:
+        print(f"✅ Plan de recherche généré :")
+        print(f"   Intent : {RESEARCH_PLAN.get('query_intent', 'N/A')}")
+        print(f"   Analyse : {RESEARCH_PLAN.get('query_analysis', 'N/A')[:150]}...")
+        print(f"   Cibles primaires : {len(RESEARCH_PLAN.get('primary_targets', []))}")
+        print(f"   Cibles secondaires : {len(RESEARCH_PLAN.get('secondary_targets', []))}")
+        print(f"   Estimation totale : {RESEARCH_PLAN.get('estimated_total', 0)} entités")
+        print(f"   Profondeur recommandée : {RESEARCH_PLAN.get('recommended_depth', 2)}")
+        print(f"   Temps estimé : {RESEARCH_PLAN.get('time_estimate_minutes', 0)} minutes")
+        print(f"   Complexité : {RESEARCH_PLAN.get('complexity', 'N/A')}")
+        print(f"   Focus : {', '.join(RESEARCH_PLAN.get('focus_areas', []))}")
+    else:
+        print(f"⚠️  Plan de recherche non disponible, utilisation des paramètres par défaut")
+        RESEARCH_PLAN = {
+            'query_analysis': 'Analyse non disponible',
+            'primary_targets': [],
+            'estimated_total': 20,
+            'recommended_depth': 2
+        }
     
     # ========== PHASE 0 : RÉPONSE DIRECTE À LA REQUÊTE ==========
     print(f"\n🎯 Phase 0 : Analyse et réponse directe à la requête...\n")
@@ -1915,6 +2298,29 @@ def main(query: str = None):
     
     print(f"\n   🤖 Appels Mistral :")
     print(f"      - Total : {EXPLORATION_STATS['mistral_calls']}")
+    
+    print(f"\n   🎯 Pré-validations (nouveauté) :")
+    if EXPLORATION_STATS.get('pre_validations_performed', 0) > 0:
+        pre_val_passed = EXPLORATION_STATS.get('pre_validations_passed', 0)
+        pre_val_rejected = EXPLORATION_STATS.get('pre_validations_rejected', 0)
+        pre_val_total = EXPLORATION_STATS.get('pre_validations_performed', 0)
+        print(f"      - Effectuées : {pre_val_total}")
+        print(f"      - Acceptées : {pre_val_passed} ({pre_val_passed/pre_val_total*100:.1f}%)")
+        print(f"      - Rejetées : {pre_val_rejected} ({pre_val_rejected/pre_val_total*100:.1f}%)")
+        print(f"      - Appels Wikipedia économisés : {pre_val_rejected}")
+    else:
+        print(f"      - Aucune (désactivée ou niveau 0)")
+    
+    print(f"\n   📊 Limites et contraintes :")
+    print(f"      - Limite d'entités : {MAX_ENTITIES_PER_RUN} {'(GitHub Actions)' if IS_GITHUB_ACTION else '(Local)'}")
+    print(f"      - Entités traitées : {len(people_entities)}/{MAX_ENTITIES_PER_RUN}")
+    print(f"      - Appels Wikipedia : {WIKIPEDIA_CALLS_COUNT}/{MAX_WIKIPEDIA_CALLS if MAX_WIKIPEDIA_CALLS > 0 else '∞'}")
+    if TIME_LIMIT_SECONDS > 0:
+        elapsed_total = time.time() - START_TIME
+        print(f"      - Temps utilisé : {elapsed_total:.0f}s / {TIME_LIMIT_SECONDS}s ({elapsed_total/TIME_LIMIT_SECONDS*100:.1f}%)")
+    if EXPLORATION_STATS.get('wikipedia_limit_reached', 0) > 0:
+        print(f"      ⚠️  Limite Wikipedia atteinte : {EXPLORATION_STATS['wikipedia_limit_reached']} fois")
+
     
     total_created = people_created + institutions_created
     
