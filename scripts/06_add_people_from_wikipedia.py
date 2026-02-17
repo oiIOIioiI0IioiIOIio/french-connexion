@@ -78,6 +78,7 @@ from datetime import datetime
 from typing import Dict, List, Tuple, Optional, Set
 from collections import defaultdict
 import time
+from mistralai import SDKError
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
@@ -231,6 +232,81 @@ class RelationshipDetail:
             'confidence': self.confidence,
             'source': self.source
         }
+
+def safe_mistral_call(prompt: str, system_prompt: str = None, temperature: float = 0.2, response_format: dict = None) -> dict:
+    """
+    🛡️ Wrapper sécurisé pour les appels Mistral API avec gestion d'erreurs complète
+    
+    Args:
+        prompt: Le prompt utilisateur
+        system_prompt: Le prompt système (optionnel)
+        temperature: Température pour la génération
+        response_format: Format de réponse attendu (e.g., {"type": "json_object"})
+    
+    Returns:
+        dict: Réponse parsée ou dict vide en cas d'erreur
+    """
+    try:
+        messages = []
+        if system_prompt:
+            messages.append({"role": "system", "content": system_prompt})
+        messages.append({"role": "user", "content": prompt})
+        
+        call_params = {
+            "model": llm.model,
+            "messages": messages,
+            "temperature": temperature
+        }
+        
+        if response_format:
+            call_params["response_format"] = response_format
+        
+        chat_response = llm.client.chat.complete(**call_params)
+        
+        # Validation de la réponse
+        if not chat_response or not hasattr(chat_response, 'choices'):
+            logger.error("❌ Réponse Mistral invalide : pas de choices")
+            return {}
+        
+        if not chat_response.choices or len(chat_response.choices) == 0:
+            logger.error("❌ Réponse Mistral invalide : choices vide")
+            return {}
+        
+        first_choice = chat_response.choices[0]
+        if not hasattr(first_choice, 'message') or not first_choice.message:
+            logger.error("❌ Réponse Mistral invalide : pas de message")
+            return {}
+        
+        content = first_choice.message.content
+        if not content:
+            logger.error("❌ Réponse Mistral invalide : contenu vide")
+            return {}
+        
+        # Si format JSON attendu, parser et valider
+        if response_format and response_format.get("type") == "json_object":
+            try:
+                result = json.loads(content)
+                if not isinstance(result, dict):
+                    logger.error(f"❌ Réponse JSON invalide : n'est pas un dict")
+                    return {}
+                return result
+            except json.JSONDecodeError as e:
+                logger.error(f"❌ Erreur parsing JSON : {e}")
+                logger.error(f"Contenu reçu : {content[:200]}...")
+                return {}
+        
+        # Sinon retourner le contenu brut dans un dict
+        return {"content": content}
+        
+    except SDKError as e:
+        logger.error(f"❌ Erreur SDK Mistral : {e}")
+        return {}
+    except AttributeError as e:
+        logger.error(f"❌ Erreur structure réponse Mistral : {e}")
+        return {}
+    except Exception as e:
+        logger.error(f"❌ Erreur Mistral API : {type(e).__name__}: {e}")
+        return {}
 
 def mistral_identify_entities_comprehensive(query: str, context: str = "", query_type_hint: str = None) -> dict:
     """
@@ -507,149 +583,6 @@ Retourne un JSON complet :
     except Exception as e:
         logger.error(f"❌ Erreur réponse directe : {e}")
         return EMPTY_QUERY_RESPONSE.copy()
-
-def answer_initial_query_directly(query: str) -> dict:
-    """
-    🎯 RÉPOND DIRECTEMENT à la requête initiale AVANT l'exploration récursive
-    Distingue les requêtes sur des GROUPES DE PERSONNES vs des INSTITUTIONS
-    """
-    logger.info(f"🎯 Réponse directe à la requête : {query}")
-    
-    prompt = f"""
-Tu es un expert en analyse de requêtes et identification d'entités.
-
-REQUÊTE : "{query}"
-
-Ta mission : déterminer si cette requête demande des PERSONNES ou une INSTITUTION, puis répondre DIRECTEMENT.
-
-RÈGLES DE CLASSIFICATION STRICTES :
-
-1. REQUÊTE SUR DES PERSONNES (liste de personnes) :
-   - Contient : "dirigeants", "membres", "présidents", "ministres", "personnes", "qui sont", etc.
-   - Exemples : "les dirigeants de LVMH", "les membres du Siècle", "les présidents français"
-   - Type : "people_group"
-   
-2. REQUÊTE SUR UNE PERSONNE UNIQUE :
-   - Nom propre d'une personne spécifique
-   - Exemples : "Emmanuel Macron", "Bernard Arnault", "Jeffrey Epstein"
-   - Type : "single_person"
-   
-3. REQUÊTE SUR UNE INSTITUTION :
-   - Nom d'organisation, entreprise, club, think tank
-   - Exemples : "Le Siècle", "LVMH", "Groupe Bilderberg"
-   - Type : "institution"
-
-INSTRUCTIONS SELON LE TYPE :
-
-Si type = "people_group" :
-- Identifie l'organisation/contexte mentionné
-- Liste TOUTES les personnes pertinentes (dirigeants, membres, etc.)
-- Minimum 5-20 personnes selon le contexte
-
-Si type = "single_person" :
-- Identifie la personne
-- Liste ses relations principales (5-15 personnes)
-
-Si type = "institution" :
-- Identifie l'institution
-- Liste ses membres/dirigeants principaux (10-30 personnes)
-
-EXEMPLES DÉTAILLÉS :
-
-Requête "les dirigeants de LVMH" →
-{{
-  "query_type": "people_group",
-  "main_subject": "LVMH",
-  "subject_category": "entreprise",
-  "interpretation": "Liste des dirigeants et cadres dirigeants de LVMH",
-  "people": [
-    "Bernard Arnault",
-    "Antoine Arnault",
-    "Delphine Arnault",
-    "Sidney Toledano",
-    "Pietro Beccari",
-    "Michael Burke",
-    "Jean-Jacques Guiony",
-    "Chantal Gaemperle"
-  ],
-  "institutions": ["LVMH", "Christian Dior", "Louis Vuitton", "Moët Hennessy"],
-  "explanation": "Requête demandant explicitement les DIRIGEANTS (personnes) de LVMH, pas l'entreprise elle-même"
-}}
-
-Requête "Le Siècle" →
-{{
-  "query_type": "institution",
-  "main_subject": "Le Siècle",
-  "subject_category": "club d'influence",
-  "interpretation": "Club réunissant les élites françaises - liste de ses membres",
-  "people": [
-    "Henri de Castries",
-    "Anne Lauvergeon",
-    "Nicole Notat",
-    "Thierry Breton",
-    "Christine Lagarde",
-    "Bernard Arnault",
-    "François Pérol"
-  ],
-  "institutions": ["Le Siècle", "MEDEF", "Institut Montaigne"],
-  "explanation": "Institution dont on veut connaître les membres"
-}}
-
-Requête "Bernard Arnault" →
-{{
-  "query_type": "single_person",
-  "main_subject": "Bernard Arnault",
-  "subject_category": "chef d'entreprise",
-  "interpretation": "Personne spécifique et son réseau",
-  "people": [
-    "Bernard Arnault",
-    "Antoine Arnault",
-    "Delphine Arnault",
-    "Sidney Toledano",
-    "François Pinault",
-    "Emmanuel Macron"
-  ],
-  "institutions": ["LVMH", "Christian Dior", "Le Siècle"],
-  "explanation": "Personne unique dont on explore le réseau"
-}}
-
-IMPORTANT :
-- Si la requête contient "dirigeants", "membres", "qui sont", "liste", etc. → query_type = "people_group"
-- TOUJOURS privilégier "people_group" en cas de doute avec des mots au pluriel
-- Liste EXHAUSTIVE de personnes (utilise ta connaissance générale)
-
-Retourne un JSON complet :
-"""
-    
-    try:
-        chat_response = llm.client.chat.complete(
-            model=llm.model,
-            messages=[{"role": "user", "content": prompt}],
-            response_format={"type": "json_object"},
-            temperature=0.2
-        )
-        
-        if chat_response.choices and chat_response.choices[0].message:
-            result = json.loads(chat_response.choices[0].message.content)
-            
-            query_type = result.get('query_type', 'unknown')
-            people = result.get('people', [])
-            institutions = result.get('institutions', [])
-            interpretation = result.get('interpretation', '')
-            
-            logger.info(f"✅ Type de requête identifié : {query_type}")
-            logger.info(f"✅ Sujet principal : {result.get('main_subject', 'N/A')}")
-            logger.info(f"✅ Interprétation : {interpretation}")
-            logger.info(f"✅ {len(people)} personnes identifiées directement")
-            logger.info(f"✅ {len(institutions)} institutions identifiées")
-            
-            return result
-        
-        return {}
-        
-    except Exception as e:
-        logger.error(f"❌ Erreur réponse directe : {e}")
-        return {}
 
 def mistral_analyze_query_deeply(query: str) -> dict:
     """
@@ -2304,7 +2237,7 @@ def main(query: str = None):
         logger.error(f"❌ Erreur sauvegarde rapport : {e}")
     
     # ========== PHASE 6 : RÉSUMÉ FINAL ==========
-    elapsed_time = time.time() - start_time
+    elapsed_time = time.time() - START_TIME
     
     print("\n" + "="*70)
     print("🎉 RÉSULTAT FINAL")
