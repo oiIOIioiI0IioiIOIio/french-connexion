@@ -7,9 +7,32 @@ from src.utils.logger import setup_logger
 logger = setup_logger()
 
 # Configuration du retry avec backoff exponentiel pour les erreurs 429
-MAX_RETRIES = int(os.getenv("MAX_RETRIES", "5"))
-RETRY_BASE_DELAY = int(os.getenv("RETRY_BASE_DELAY", "2"))  # Délai initial en secondes
-RETRY_MAX_DELAY = int(os.getenv("RETRY_MAX_DELAY", "60"))  # Délai maximum en secondes
+try:
+    MAX_RETRIES = int(os.getenv("MAX_RETRIES", "5"))
+    if MAX_RETRIES < 1:
+        logger.warning(f"MAX_RETRIES must be >= 1, using default of 5")
+        MAX_RETRIES = 5
+except ValueError:
+    logger.warning(f"Invalid MAX_RETRIES value, using default of 5")
+    MAX_RETRIES = 5
+
+try:
+    RETRY_BASE_DELAY = int(os.getenv("RETRY_BASE_DELAY", "2"))
+    if RETRY_BASE_DELAY < 1:
+        logger.warning(f"RETRY_BASE_DELAY must be >= 1, using default of 2")
+        RETRY_BASE_DELAY = 2
+except ValueError:
+    logger.warning(f"Invalid RETRY_BASE_DELAY value, using default of 2")
+    RETRY_BASE_DELAY = 2
+
+try:
+    RETRY_MAX_DELAY = int(os.getenv("RETRY_MAX_DELAY", "60"))
+    if RETRY_MAX_DELAY < RETRY_BASE_DELAY:
+        logger.warning(f"RETRY_MAX_DELAY must be >= RETRY_BASE_DELAY, using default of 60")
+        RETRY_MAX_DELAY = 60
+except ValueError:
+    logger.warning(f"Invalid RETRY_MAX_DELAY value, using default of 60")
+    RETRY_MAX_DELAY = 60
 
 class MistralClient:
     def __init__(self):
@@ -31,7 +54,7 @@ class MistralClient:
                 response = self.client.chat.complete(**call_params)
                 
                 # Validate response structure to catch potential rate limit issues early
-                if not response or not hasattr(response, 'choices'):
+                if not response or not hasattr(response, 'choices') or not response.choices or len(response.choices) == 0:
                     if attempt < MAX_RETRIES - 1:
                         delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
                         logger.warning(f"⏳ Response invalide - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
@@ -43,7 +66,7 @@ class MistralClient:
                 
                 # Validate JSON parsing for json_object responses
                 if call_params.get('response_format', {}).get('type') == 'json_object':
-                    if response.choices and response.choices[0].message:
+                    if response.choices[0].message:
                         content = response.choices[0].message.content
                         if content:
                             try:
@@ -60,7 +83,7 @@ class MistralClient:
                 return response
                 
             except SDKError as e:
-                # Handle 429 rate limit errors
+                # Handle 429 rate limit errors explicitly
                 if hasattr(e, 'status_code') and e.status_code == 429:
                     if attempt < MAX_RETRIES - 1:
                         delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
@@ -68,7 +91,16 @@ class MistralClient:
                         time.sleep(delay)
                         continue
                 
-                # Handle other potentially transient SDKErrors
+                # Handle other potentially transient SDKErrors based on status codes
+                # Common transient HTTP status codes: 408 (timeout), 503 (unavailable), 504 (gateway timeout)
+                if hasattr(e, 'status_code') and e.status_code in [408, 500, 502, 503, 504]:
+                    if attempt < MAX_RETRIES - 1:
+                        delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
+                        logger.warning(f"⏳ Erreur transitoire HTTP {e.status_code} - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
+                        time.sleep(delay)
+                        continue
+                
+                # Fallback to string matching for errors without status codes (connection errors, etc.)
                 error_message = str(e).lower()
                 is_transient = any(keyword in error_message for keyword in [
                     'timeout', 'connection', 'network', 'temporary', 'unavailable'
