@@ -112,11 +112,6 @@ RESEARCH_PLAN = {}  # Plan de recherche généré par Mistral
 WIKIPEDIA_CALLS_COUNT = 0  # Compteur d'appels Wikipedia
 START_TIME = 0  # Heure de démarrage
 
-# Configuration du retry avec backoff exponentiel pour les erreurs 429
-MAX_RETRIES = 5
-RETRY_BASE_DELAY = 2  # Délai initial en secondes
-RETRY_MAX_DELAY = 60  # Délai maximum en secondes
-
 # Configuration de l'exploration
 MAX_DEPTH = 3
 CONFIDENCE_THRESHOLD = 0.6  # Score minimum pour validation
@@ -238,33 +233,6 @@ class RelationshipDetail:
             'source': self.source
         }
 
-def _mistral_chat_complete_with_retry(**call_params):
-    """
-    🔄 Wrapper pour llm.client.chat.complete() avec retry et backoff exponentiel
-    pour gérer les erreurs 429 (Rate Limited) de l'API Mistral.
-    
-    Args:
-        **call_params: Paramètres passés directement à llm.client.chat.complete()
-    
-    Returns:
-        Réponse brute de l'API Mistral
-    
-    Raises:
-        SDKError: Si toutes les tentatives échouent ou erreur non-429
-        Exception: Pour les erreurs non liées au rate limiting
-    """
-    for attempt in range(MAX_RETRIES):
-        try:
-            return llm.client.chat.complete(**call_params)
-        except SDKError as e:
-            if hasattr(e, 'status_code') and e.status_code == 429:
-                if attempt < MAX_RETRIES - 1:
-                    delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
-                    logger.warning(f"⏳ Rate limit (429) - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
-                    time.sleep(delay)
-                    continue
-            raise
-
 
 def safe_mistral_call(prompt: str, system_prompt: str = None, temperature: float = 0.2, response_format: dict = None) -> dict:
     """
@@ -294,7 +262,7 @@ def safe_mistral_call(prompt: str, system_prompt: str = None, temperature: float
         if response_format:
             call_params["response_format"] = response_format
         
-        chat_response = _mistral_chat_complete_with_retry(**call_params)
+        chat_response = llm._chat_complete_with_retry(**call_params)
         
         # Validation de la réponse
         if not chat_response or not hasattr(chat_response, 'choices'):
@@ -445,7 +413,7 @@ Retourne un JSON complet :
 """
     
     try:
-        chat_response = _mistral_chat_complete_with_retry(
+        chat_response = llm._chat_complete_with_retry(
             model=llm.model,
             messages=[
                 {"role": "user", "content": prompt}
@@ -588,7 +556,7 @@ Retourne un JSON complet :
 """
     
     try:
-        chat_response = _mistral_chat_complete_with_retry(
+        chat_response = llm._chat_complete_with_retry(
             model=llm.model,
             messages=[{"role": "user", "content": prompt}],
             response_format={"type": "json_object"},
@@ -688,7 +656,7 @@ Retourne un JSON complet :
 """
     
     try:
-        chat_response = _mistral_chat_complete_with_retry(
+        chat_response = llm._chat_complete_with_retry(
             model=llm.model,
             messages=[{"role": "user", "content": prompt}],
             response_format={"type": "json_object"},
@@ -830,7 +798,7 @@ Retourne un JSON :
 """
     
     try:
-        chat_response = _mistral_chat_complete_with_retry(
+        chat_response = llm._chat_complete_with_retry(
             model=llm.model,
             messages=[{"role": "user", "content": prompt}],
             response_format={"type": "json_object"},
@@ -939,7 +907,7 @@ Retourne un JSON :
 """
     
     try:
-        chat_response = _mistral_chat_complete_with_retry(
+        chat_response = llm._chat_complete_with_retry(
             model=llm.model,
             messages=[
                 {"role": "user", "content": prompt}
@@ -1150,7 +1118,7 @@ Maximum 15 institutions, triées par importance.
 """
     
     try:
-        chat_response = _mistral_chat_complete_with_retry(
+        chat_response = llm._chat_complete_with_retry(
             model=llm.model,
             messages=[{"role": "user", "content": prompt}],
             response_format={"type": "json_object"},
@@ -1249,7 +1217,7 @@ Sois STRICT : privilégie la QUALITÉ sur la QUANTITÉ. Un réseau de 20 personn
 """
     
     try:
-        chat_response = _mistral_chat_complete_with_retry(
+        chat_response = llm._chat_complete_with_retry(
             model=llm.model,
             messages=[
                 {"role": "user", "content": prompt}
