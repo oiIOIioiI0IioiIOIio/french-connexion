@@ -64,11 +64,40 @@ Renvoie UNIQUEMENT un objet JSON valide avec les clés suivantes :
                 ],
                 response_format={"type": "json_object"}
             )
-            if chat_response.choices and chat_response.choices[0].message:
-                return json.loads(chat_response.choices[0].message.content)
-            return {} 
+            
+            if not chat_response or not hasattr(chat_response, 'choices'):
+                logger.error("❌ Réponse Mistral invalide : structure incorrecte")
+                return {}
+            
+            if not chat_response.choices or len(chat_response.choices) == 0:
+                logger.error("❌ Réponse Mistral invalide : pas de choices")
+                return {}
+            
+            first_choice = chat_response.choices[0]
+            if not hasattr(first_choice, 'message') or not first_choice.message:
+                logger.error("❌ Réponse Mistral invalide : pas de message")
+                return {}
+            
+            content_str = first_choice.message.content
+            if not content_str:
+                logger.error("❌ Réponse Mistral invalide : contenu vide")
+                return {}
+            
+            result = json.loads(content_str)
+            if not isinstance(result, dict):
+                logger.error("❌ Réponse JSON n'est pas un dictionnaire")
+                return {}
+            
+            return result
+            
+        except json.JSONDecodeError as e:
+            logger.error(f"❌ Erreur parsing JSON Mistral : {e}")
+            return {}
+        except ConnectionError as e:
+            logger.error(f"❌ Erreur connexion Mistral API : {e}")
+            return {}
         except Exception as e:
-            logger.error(f"Erreur lors de l'appel à l'API Mistral : {e}")
+            logger.error(f"❌ Erreur lors de l'appel à l'API Mistral : {type(e).__name__}: {e}")
             return {}
 
     def extract_yaml_data(self, text: str, schema_description: str) -> dict:
@@ -100,11 +129,39 @@ Renvoie UNIQUEMENT un objet JSON valide avec les clés suivantes :
                 response_format={"type": "json_object"}
             )
 
-            if chat_response.choices and chat_response.choices[0].message:
-                return json.loads(chat_response.choices[0].message.content)
-            return {} 
+            if not chat_response or not hasattr(chat_response, 'choices'):
+                logger.error("❌ Réponse Mistral invalide : structure incorrecte")
+                return {}
+            
+            if not chat_response.choices or len(chat_response.choices) == 0:
+                logger.error("❌ Réponse Mistral invalide : pas de choices")
+                return {}
+            
+            first_choice = chat_response.choices[0]
+            if not hasattr(first_choice, 'message') or not first_choice.message:
+                logger.error("❌ Réponse Mistral invalide : pas de message")
+                return {}
+            
+            content = first_choice.message.content
+            if not content:
+                logger.error("❌ Réponse Mistral invalide : contenu vide")
+                return {}
+            
+            result = json.loads(content)
+            if not isinstance(result, dict):
+                logger.error("❌ Réponse JSON n'est pas un dictionnaire")
+                return {}
+            
+            return result
+            
+        except json.JSONDecodeError as e:
+            logger.error(f"❌ Erreur parsing JSON : {e}")
+            return {}
+        except ConnectionError as e:
+            logger.error(f"❌ Erreur connexion Mistral API : {e}")
+            return {}
         except Exception as e:
-            logger.error(f"Erreur lors de l'extraction de données : {e}")
+            logger.error(f"❌ Erreur lors de l'extraction de données : {type(e).__name__}: {e}")
             return {}
 
     def extract_entities_for_rss(self, title: str, summary: str) -> str:
