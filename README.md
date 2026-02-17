@@ -521,6 +521,195 @@ def auto_standardize(entity_type, mapping_rules):
 
 ---
 
+### Script 6 : `06_add_people_from_wikipedia.py` ⭐🆕
+
+**Rôle** : **Exploration intelligente de réseaux** avec IA avancée et limites configurables.
+
+**VERSION ENHANCED** avec nouveautés critiques :
+
+**Workflow optimisé** :
+```
+1. 📋 DEEP QUERY ANALYSIS
+   - Mistral analyse la requête en profondeur
+   - Génère un plan de recherche avec priorités
+   - Estime le nombre d'entités et le temps nécessaire
+
+2. 🎯 PRÉ-VALIDATION INTELLIGENTE
+   - Avant chaque appel Wikipedia (coûteux), Mistral évalue la pertinence
+   - Score 0-100 : seules les entités ≥ 70 sont explorées
+   - Économie massive d'API calls Wikipedia
+
+3. 🌳 EXPLORATION MULTI-NIVEAUX
+   - Niveau 0 : Entités principales (sans pré-validation)
+   - Niveau 1-2 : Relations (avec pré-validation stricte)
+   - Limites strictes pour éviter timeouts GitHub Actions
+
+4. ✅ VALIDATION FINALE
+   - Validation de la pertinence de chaque personne trouvée
+   - Création des fiches Obsidian avec liens [[...]]
+   - Rapport détaillé avec statistiques
+
+5. 🛡️ GRACEFUL SHUTDOWN
+   - Arrêt automatique si limite atteinte (entités/temps/Wikipedia)
+   - Sauvegarde des résultats partiels
+   - Pas de timeout brutal
+```
+
+**Paramètres configurables** :
+```python
+# Détection automatique de l'environnement
+IS_GITHUB_ACTION = os.getenv('GITHUB_ACTIONS') == 'true'
+
+# Limites par défaut
+MAX_ENTITIES_PER_RUN = 15 (GH Actions) ou 50 (Local)
+MAX_WIKIPEDIA_CALLS = 20 (GH Actions) ou 100 (Local)  
+TIME_LIMIT_SECONDS = 300s (GH Actions) ou Aucune (Local)
+MIN_PRIORITY_SCORE = 70  # Score minimum pour exploration
+
+# Override via variables d'environnement
+MAX_ENTITIES=30 TIME_LIMIT=600 python scripts/06_add_people_from_wikipedia.py "Le Siècle"
+```
+
+**Nouvelles fonctions critiques** :
+
+1. **`mistral_analyze_query_deeply(query)`**
+   - Analyse approfondie de la requête
+   - Retour : Plan avec priorités, estimation, complexité
+   ```json
+   {
+     "query_analysis": "Club d'influence français...",
+     "primary_targets": ["Henri de Castries", "Anne Lauvergeon"],
+     "estimated_total_entities": 30,
+     "recommended_depth": 2,
+     "focus_areas": ["réseaux d'influence", "élites"],
+     "quality_threshold": 75
+   }
+   ```
+
+2. **`mistral_score_entity_relevance(entity, query, plan)`**
+   - Pré-validation AVANT appel Wikipedia
+   - Retour : (score 0-100, raisonnement)
+   - Économie massive : skip les entités < 70
+   ```python
+   score, reason = mistral_score_entity_relevance("Jean Dupont", "Le Siècle", plan)
+   # (35, "Nom commun, pas de lien évident avec Le Siècle")
+   # → SKIP, pas d'appel Wikipedia
+   ```
+
+3. **`generate_research_plan(query)`**
+   - Combine deep analysis avec stratégie d'exécution
+   - Sépare cibles primaires (priorité ≥ 85) des secondaires
+   - Retour : Plan structuré prêt à l'emploi
+
+**Statistiques trackées** :
+```python
+EXPLORATION_STATS = {
+    'pre_validations_performed': 45,      # Pré-validations effectuées
+    'pre_validations_passed': 18,         # Score ≥ 70 (40%)
+    'pre_validations_rejected': 27,       # Score < 70 (60% économisés!)
+    'wikipedia_limit_reached': 0,         # Limite atteinte ou non
+    'mistral_calls': 68,                  # Appels Mistral total
+    'factcheck_success': 18,              # Wikipedia trouvés
+    # ... autres stats existantes
+}
+```
+
+**Flux de contrôle avec limites** :
+```python
+for entity in prioritized_entities:
+    # Vérifications AVANT traitement
+    if processed_count >= MAX_ENTITIES_PER_RUN:
+        print(f"⚠️ Limite d'entités atteinte ({MAX_ENTITIES_PER_RUN})")
+        break
+    
+    if time.time() - start_time > TIME_LIMIT_SECONDS:
+        print(f"⚠️ Limite de temps atteinte ({TIME_LIMIT_SECONDS}s)")
+        break
+    
+    # Pré-validation (nouveau, économie d'API)
+    if ENABLE_PRE_VALIDATION and depth > 0:
+        score, reason = mistral_score_entity_relevance(entity, query, plan)
+        if score < MIN_PRIORITY_SCORE:
+            print(f"⏭️ {entity} ignoré (score: {score}/100)")
+            continue  # Pas d'appel Wikipedia !
+    
+    # Wikipedia (coûteux, seulement si pertinent)
+    wiki_data = wikipedia_factcheck_person_rigorous(entity)
+    if wiki_data:
+        create_person_file(entity, wiki_data)
+        processed_count += 1
+```
+
+**Affichage enrichi** :
+```
+🧠 ŒIL DE DIEU - Construction de réseau de pouvoir
+==============================================================
+
+⚙️ Paramètres :
+  - Environnement : GitHub Actions
+  - Limite d'entités : 15
+  - Limite Wikipedia : 20
+  - Limite de temps : 300s (5min)
+  - Score minimum : 70/100
+  - Pré-validation : ACTIVÉE
+
+📋 Phase -1 : Génération du plan de recherche...
+✅ Plan généré : 25 entités estimées, focus: [élites, influence]
+
+🎯 Phase 0 : Analyse de la requête...
+✅ 12 personnes identifiées
+
+🌳 Phase 1 : Exploration intelligente...
+   🔄 Traitement 1/12: Henri de Castries... (temps: 5s, entités: 0/15)
+      ✅ Score: 95/100 - Wikipedia lookup...
+   🔄 Traitement 2/12: Jean Dupont... (temps: 8s, entités: 1/15)
+      ⏭️ Ignoré (score: 35/100)
+   ...
+   ⚠️ Limite d'entités atteinte (15), arrêt
+
+📊 STATISTIQUES FINALES :
+   🎯 Pré-validations :
+      - Effectuées : 45
+      - Acceptées : 18 (40%)
+      - Rejetées : 27 (60%)
+      - Wikipedia calls économisés : 27
+
+   📊 Limites :
+      - Entités traitées : 15/15 (100%)
+      - Appels Wikipedia : 18/20 (90%)
+      - Temps utilisé : 285s / 300s (95%)
+```
+
+**⚠️ Conséquences critiques** :
+- **Coût API optimisé** : Pré-validation économise ~60% d'appels Wikipedia
+- **Pas de timeout GitHub Actions** : Limites strictes garantissent l'arrêt avant 6min
+- **Résultats partiels sauvegardés** : Arrêt gracieux = données préservées
+- **Prioritisation intelligente** : Traite d'abord les entités les plus pertinentes
+- **Statistiques détaillées** : Permet d'optimiser les seuils (MIN_PRIORITY_SCORE)
+
+**Cas d'usage** :
+```bash
+# Mode GitHub Actions (automatique via workflow)
+# Limites : 15 entités, 20 Wikipedia, 5min
+
+# Mode local développement (limites étendues)
+python scripts/06_add_people_from_wikipedia.py "Le Siècle"
+# Limites : 50 entités, 100 Wikipedia, aucune limite temps
+
+# Mode custom (override)
+MAX_ENTITIES=10 MIN_SCORE=80 python scripts/06_add_people_from_wikipedia.py "Groupe Bilderberg"
+```
+
+**Variables d'environnement supportées** :
+- `GITHUB_ACTIONS` : Détecté automatiquement (ajuste les limites)
+- `MAX_ENTITIES` : Override de MAX_ENTITIES_PER_RUN
+- `MAX_WIKI_CALLS` : Override de MAX_WIKIPEDIA_CALLS
+- `TIME_LIMIT` : Override de TIME_LIMIT_SECONDS (secondes)
+- `MISTRAL_API_KEY` : Clé API Mistral (obligatoire)
+- `MISTRAL_MODEL` : Modèle Mistral à utiliser (optionnel)
+
+---
+
 ## 📄 Templates YAML
 
 ### `src/templates/personne.yaml`
@@ -682,6 +871,14 @@ python scripts/02_link_entities.py
 | `03_enrich_wikipedia.py` | Fiches non enrichies | ✅ Oui | 1 appel/fiche |
 | `04_rss_watchdog.py` | Brouillons uniquement | ✅ Oui | 1 appel/article |
 | `05_repo_optimizer.py` | ⚠️ Toutes les fiches d'un type | ⚠️ Backup requis | Gratuit |
+| `06_add_people_from_wikipedia.py` 🆕 | Nouvelles fiches uniquement | ✅ Oui | 2-4 appels/personne (optimisé) |
+
+**Note sur Script 06** : Grâce à la pré-validation, économise ~60% d'appels Wikipedia. Coût typique :
+- 1 appel Mistral pour analyse initiale + plan
+- 1 appel Mistral pour pré-validation (skip si score < 70)
+- 1 appel Wikipedia (seulement si pertinent)
+- 1 appel Mistral pour extraction relations
+- **Total réel** : ~2 appels Mistral par personne validée vs ~4 sans pré-validation
 
 ### Points d'attention critiques :
 
