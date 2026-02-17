@@ -1,7 +1,6 @@
 import os
 import json
-from mistralai import Mistral
-from mistralai.exceptions import SDKError
+from mistralai import Mistral, SDKError
 from src.utils.logger import setup_logger
 
 logger = setup_logger()

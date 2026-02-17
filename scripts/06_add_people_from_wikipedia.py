@@ -78,7 +78,7 @@ from datetime import datetime
 from typing import Dict, List, Tuple, Optional, Set
 from collections import defaultdict
 import time
-from mistralai.exceptions import SDKError
+from mistralai import SDKError
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
