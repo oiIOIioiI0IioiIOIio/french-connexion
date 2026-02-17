@@ -37,6 +37,9 @@ jobs:
       - name: Recherche et ajout des personnes
         env:
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          MAX_RETRIES: 5
+          RETRY_BASE_DELAY: 2
+          RETRY_MAX_DELAY: 60
         run: |
           python scripts/06_add_people_from_wikipedia.py "${{ inputs.query }}"
 

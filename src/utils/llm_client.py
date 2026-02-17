@@ -7,9 +7,9 @@ from src.utils.logger import setup_logger
 logger = setup_logger()
 
 # Configuration du retry avec backoff exponentiel pour les erreurs 429
-MAX_RETRIES = 5
-RETRY_BASE_DELAY = 2  # Délai initial en secondes
-RETRY_MAX_DELAY = 60  # Délai maximum en secondes
+MAX_RETRIES = int(os.getenv("MAX_RETRIES", "5"))
+RETRY_BASE_DELAY = int(os.getenv("RETRY_BASE_DELAY", "2"))  # Délai initial en secondes
+RETRY_MAX_DELAY = int(os.getenv("RETRY_MAX_DELAY", "60"))  # Délai maximum en secondes
 
 class MistralClient:
     def __init__(self):
@@ -28,14 +28,59 @@ class MistralClient:
         """
         for attempt in range(MAX_RETRIES):
             try:
-                return self.client.chat.complete(**call_params)
+                response = self.client.chat.complete(**call_params)
+                
+                # Validate response structure to catch potential rate limit issues early
+                if not response or not hasattr(response, 'choices'):
+                    if attempt < MAX_RETRIES - 1:
+                        delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
+                        logger.warning(f"⏳ Response invalide - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
+                        time.sleep(delay)
+                        continue
+                    else:
+                        logger.error("❌ Réponse invalide après tous les retries")
+                        return response
+                
+                # Validate JSON parsing for json_object responses
+                if call_params.get('response_format', {}).get('type') == 'json_object':
+                    if response.choices and response.choices[0].message:
+                        content = response.choices[0].message.content
+                        if content:
+                            try:
+                                # Try to parse JSON to validate early
+                                json.loads(content)
+                            except json.JSONDecodeError:
+                                # JSON parse error might indicate rate limit issue
+                                if attempt < MAX_RETRIES - 1:
+                                    delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
+                                    logger.warning(f"⏳ Erreur parsing JSON (possible rate limit) - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
+                                    time.sleep(delay)
+                                    continue
+                
+                return response
+                
             except SDKError as e:
+                # Handle 429 rate limit errors
                 if hasattr(e, 'status_code') and e.status_code == 429:
                     if attempt < MAX_RETRIES - 1:
                         delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
                         logger.warning(f"⏳ Rate limit (429) - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
                         time.sleep(delay)
                         continue
+                
+                # Handle other potentially transient SDKErrors
+                error_message = str(e).lower()
+                is_transient = any(keyword in error_message for keyword in [
+                    'timeout', 'connection', 'network', 'temporary', 'unavailable'
+                ])
+                
+                if is_transient and attempt < MAX_RETRIES - 1:
+                    delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
+                    logger.warning(f"⏳ Erreur transitoire ({type(e).__name__}) - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
+                    time.sleep(delay)
+                    continue
+                
+                # Non-transient error or final attempt
                 raise
 
     def _validate_and_parse_response(self, chat_response, expect_json: bool = True) -> dict:
@@ -134,10 +179,7 @@ Renvoie UNIQUEMENT un objet JSON valide avec les clés suivantes :
             return self._validate_and_parse_response(chat_response, expect_json=True)
             
         except SDKError as e:
-            logger.error(f"❌ Erreur SDK Mistral : {e}")
-            return {}
-        except json.JSONDecodeError as e:
-            logger.error(f"❌ Erreur parsing JSON Mistral : {e}")
+            logger.error(f"❌ Erreur SDK Mistral (après retries) : {e}")
             return {}
         except Exception as e:
             logger.error(f"❌ Erreur lors de l'appel à l'API Mistral : {type(e).__name__}: {e}")
@@ -175,10 +217,7 @@ Renvoie UNIQUEMENT un objet JSON valide avec les clés suivantes :
             return self._validate_and_parse_response(chat_response, expect_json=True)
             
         except SDKError as e:
-            logger.error(f"❌ Erreur SDK Mistral : {e}")
-            return {}
-        except json.JSONDecodeError as e:
-            logger.error(f"❌ Erreur parsing JSON : {e}")
+            logger.error(f"❌ Erreur SDK Mistral (après retries) : {e}")
             return {}
         except Exception as e:
             logger.error(f"❌ Erreur lors de l'extraction de données : {type(e).__name__}: {e}")
@@ -222,6 +261,9 @@ Renvoie UNIQUEMENT un objet JSON valide avec les clés suivantes :
                         msg = first.get('message') or {}
                         return msg.get('content') or first.get('content') or str(first)
             return str(chat_response)
+        except SDKError as e:
+            logger.error(f"❌ Erreur SDK Mistral (après retries) pour les entités RSS : {e}")
+            return '[]'
         except Exception as e:
-            logger.error(f"Erreur lors de l'appel Mistral pour les entités RSS : {e}")
+            logger.error(f"❌ Erreur lors de l'appel Mistral pour les entités RSS : {e}")
             return '[]'

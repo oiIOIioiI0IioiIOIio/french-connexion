@@ -292,7 +292,7 @@ def safe_mistral_call(prompt: str, system_prompt: str = None, temperature: float
                     return {}
                 return result
             except json.JSONDecodeError as e:
-                logger.error(f"❌ Erreur parsing JSON : {e}")
+                logger.error(f"❌ Erreur parsing JSON (après retries) : {e}")
                 logger.error(f"Contenu reçu : {content[:200]}...")
                 return {}
         
@@ -300,7 +300,7 @@ def safe_mistral_call(prompt: str, system_prompt: str = None, temperature: float
         return {"content": content}
         
     except SDKError as e:
-        logger.error(f"❌ Erreur SDK Mistral : {e}")
+        logger.error(f"❌ Erreur SDK Mistral (après retries) : {e}")
         return {}
     except AttributeError as e:
         logger.error(f"❌ Erreur structure réponse Mistral : {e}")
@@ -437,6 +437,10 @@ Retourne un JSON complet :
         
         return EMPTY_ENTITY_RESPONSE.copy()
         
+    except SDKError as e:
+        logger.error(f"❌ Erreur SDK Mistral (après retries) identification : {e}")
+        EXPLORATION_STATS['errors'] += 1
+        return EMPTY_ENTITY_RESPONSE.copy()
     except Exception as e:
         logger.error(f"❌ Erreur Mistral identification : {e}")
         EXPLORATION_STATS['errors'] += 1
@@ -581,6 +585,9 @@ Retourne un JSON complet :
         
         return EMPTY_QUERY_RESPONSE.copy()
         
+    except SDKError as e:
+        logger.error(f"❌ Erreur SDK Mistral (après retries) réponse directe : {e}")
+        return EMPTY_QUERY_RESPONSE.copy()
     except Exception as e:
         logger.error(f"❌ Erreur réponse directe : {e}")
         return EMPTY_QUERY_RESPONSE.copy()
@@ -677,6 +684,10 @@ Retourne un JSON complet :
         
         return {}
         
+    except SDKError as e:
+        logger.error(f"❌ Erreur SDK Mistral (après retries) analyse approfondie : {e}")
+        EXPLORATION_STATS['errors'] += 1
+        return {}
     except Exception as e:
         logger.error(f"❌ Erreur analyse approfondie : {e}")
         EXPLORATION_STATS['errors'] += 1
@@ -824,6 +835,10 @@ Retourne un JSON :
         
         return (50, "Erreur lors de l'évaluation")
         
+    except SDKError as e:
+        logger.error(f"❌ Erreur SDK Mistral (après retries) pré-validation : {e}")
+        EXPLORATION_STATS['errors'] += 1
+        return (50, f"Erreur SDK : {str(e)}")
     except Exception as e:
         logger.error(f"❌ Erreur pré-validation : {e}")
         EXPLORATION_STATS['errors'] += 1
@@ -940,6 +955,10 @@ Retourne un JSON :
         
         return []
         
+    except SDKError as e:
+        logger.error(f"❌ Erreur SDK Mistral (après retries) extraction relations : {e}")
+        EXPLORATION_STATS['errors'] += 1
+        return []
     except Exception as e:
         logger.error(f"❌ Erreur extraction relations : {e}")
         EXPLORATION_STATS['errors'] += 1
@@ -1132,8 +1151,11 @@ Maximum 15 institutions, triées par importance.
         
         return []
         
+    except SDKError as e:
+        logger.error(f"❌ Erreur SDK Mistral (après retries) extraction institutions : {e}")
+        return []
     except Exception as e:
-        logger.error(f"Erreur extraction institutions : {e}")
+        logger.error(f"❌ Erreur extraction institutions : {e}")
         return []
 
 def validate_person_relevance_comprehensive(person: PersonEntity, original_query: str) -> Tuple[bool, float, str]:
@@ -1250,6 +1272,10 @@ Sois STRICT : privilégie la QUALITÉ sur la QUANTITÉ. Un réseau de 20 personn
         
         return (False, 0.0, "Erreur de validation")
         
+    except SDKError as e:
+        logger.error(f"❌ Erreur SDK Mistral (après retries) validation : {e}")
+        EXPLORATION_STATS['errors'] += 1
+        return (False, 0.0, f"Erreur SDK : {e}")
     except Exception as e:
         logger.error(f"❌ Erreur validation : {e}")
         EXPLORATION_STATS['errors'] += 1
