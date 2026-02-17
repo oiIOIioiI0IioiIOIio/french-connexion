@@ -34,6 +34,9 @@ except ValueError:
     logger.warning(f"Invalid RETRY_MAX_DELAY value, using default of 60")
     RETRY_MAX_DELAY = 60
 
+# Keywords for detecting transient errors in error messages
+TRANSIENT_ERROR_KEYWORDS = ['timeout', 'connection', 'network', 'temporary', 'unavailable']
+
 class MistralClient:
     def __init__(self):
         api_key = os.getenv("MISTRAL_API_KEY")
@@ -43,6 +46,13 @@ class MistralClient:
         # Initialisation du client (Nouvelle syntaxe v1)
         self.client = Mistral(api_key=api_key)
         self.model = os.getenv("MISTRAL_MODEL", "mistral-large-latest")
+    
+    def _is_valid_response(self, response):
+        """Check if response has valid structure with choices."""
+        return (response and 
+                hasattr(response, 'choices') and 
+                response.choices and 
+                len(response.choices) > 0)
 
     def _chat_complete_with_retry(self, **call_params):
         """
@@ -53,8 +63,8 @@ class MistralClient:
             try:
                 response = self.client.chat.complete(**call_params)
                 
-                # Validate response structure to catch potential rate limit issues early
-                if not response or not hasattr(response, 'choices') or not response.choices or len(response.choices) == 0:
+                # Validate response structure to catch potential issues early
+                if not self._is_valid_response(response):
                     if attempt < MAX_RETRIES - 1:
                         delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
                         logger.warning(f"⏳ Response invalide - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
@@ -65,6 +75,8 @@ class MistralClient:
                         return response
                 
                 # Validate JSON parsing for json_object responses
+                # This catches cases where API returns malformed JSON, which may indicate
+                # the API is under stress or experiencing issues
                 if call_params.get('response_format', {}).get('type') == 'json_object':
                     if response.choices[0].message:
                         content = response.choices[0].message.content
@@ -73,10 +85,10 @@ class MistralClient:
                                 # Try to parse JSON to validate early
                                 json.loads(content)
                             except json.JSONDecodeError:
-                                # JSON parse error might indicate rate limit issue
+                                # Retry on JSON parse errors as they may indicate API stress
                                 if attempt < MAX_RETRIES - 1:
                                     delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
-                                    logger.warning(f"⏳ Erreur parsing JSON (possible rate limit) - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
+                                    logger.warning(f"⏳ JSON malformé (API stress possible) - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
                                     time.sleep(delay)
                                     continue
                 
@@ -102,9 +114,7 @@ class MistralClient:
                 
                 # Fallback to string matching for errors without status codes (connection errors, etc.)
                 error_message = str(e).lower()
-                is_transient = any(keyword in error_message for keyword in [
-                    'timeout', 'connection', 'network', 'temporary', 'unavailable'
-                ])
+                is_transient = any(keyword in error_message for keyword in TRANSIENT_ERROR_KEYWORDS)
                 
                 if is_transient and attempt < MAX_RETRIES - 1:
                     delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
