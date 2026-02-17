@@ -78,6 +78,7 @@ from datetime import datetime
 from typing import Dict, List, Tuple, Optional, Set
 from collections import defaultdict
 import time
+from mistralai.exceptions import SDKError
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
@@ -297,14 +298,11 @@ def safe_mistral_call(prompt: str, system_prompt: str = None, temperature: float
         # Sinon retourner le contenu brut dans un dict
         return {"content": content}
         
+    except SDKError as e:
+        logger.error(f"❌ Erreur SDK Mistral : {e}")
+        return {}
     except AttributeError as e:
         logger.error(f"❌ Erreur structure réponse Mistral : {e}")
-        return {}
-    except ConnectionError as e:
-        logger.error(f"❌ Erreur connexion Mistral API : {e}")
-        return {}
-    except TimeoutError as e:
-        logger.error(f"❌ Timeout Mistral API : {e}")
         return {}
     except Exception as e:
         logger.error(f"❌ Erreur Mistral API : {type(e).__name__}: {e}")

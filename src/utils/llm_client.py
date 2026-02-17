@@ -1,6 +1,7 @@
 import os
 import json
 from mistralai import Mistral
+from mistralai.exceptions import SDKError
 from src.utils.logger import setup_logger
 
 logger = setup_logger()
@@ -14,6 +15,49 @@ class MistralClient:
         # Initialisation du client (Nouvelle syntaxe v1)
         self.client = Mistral(api_key=api_key)
         self.model = os.getenv("MISTRAL_MODEL", "mistral-large-latest")
+
+    def _validate_and_parse_response(self, chat_response, expect_json: bool = True) -> dict:
+        """
+        Valide et parse une réponse Mistral API de manière sécurisée.
+        
+        Args:
+            chat_response: Réponse brute de l'API
+            expect_json: Si True, parse le contenu comme JSON
+            
+        Returns:
+            dict: Contenu parsé ou dict vide en cas d'erreur
+        """
+        if not chat_response or not hasattr(chat_response, 'choices'):
+            logger.error("❌ Réponse Mistral invalide : structure incorrecte")
+            return {}
+        
+        if not chat_response.choices or len(chat_response.choices) == 0:
+            logger.error("❌ Réponse Mistral invalide : pas de choices")
+            return {}
+        
+        first_choice = chat_response.choices[0]
+        if not hasattr(first_choice, 'message') or not first_choice.message:
+            logger.error("❌ Réponse Mistral invalide : pas de message")
+            return {}
+        
+        content = first_choice.message.content
+        if not content:
+            logger.error("❌ Réponse Mistral invalide : contenu vide")
+            return {}
+        
+        if expect_json:
+            try:
+                result = json.loads(content)
+                if not isinstance(result, dict):
+                    logger.error("❌ Réponse JSON n'est pas un dictionnaire")
+                    return {}
+                return result
+            except json.JSONDecodeError as e:
+                logger.error(f"❌ Erreur parsing JSON : {e}")
+                logger.error(f"Contenu reçu : {content[:200]}...")
+                return {}
+        else:
+            return {"content": content}
 
     def intelligent_restructure(self, content: str, title: str, template_path: str, entity_types: list = None) -> dict:
         """Analyse le contenu et renvoie les métadonnées structurées (type, résumé, etc.).
@@ -65,36 +109,13 @@ Renvoie UNIQUEMENT un objet JSON valide avec les clés suivantes :
                 response_format={"type": "json_object"}
             )
             
-            if not chat_response or not hasattr(chat_response, 'choices'):
-                logger.error("❌ Réponse Mistral invalide : structure incorrecte")
-                return {}
+            return self._validate_and_parse_response(chat_response, expect_json=True)
             
-            if not chat_response.choices or len(chat_response.choices) == 0:
-                logger.error("❌ Réponse Mistral invalide : pas de choices")
-                return {}
-            
-            first_choice = chat_response.choices[0]
-            if not hasattr(first_choice, 'message') or not first_choice.message:
-                logger.error("❌ Réponse Mistral invalide : pas de message")
-                return {}
-            
-            content_str = first_choice.message.content
-            if not content_str:
-                logger.error("❌ Réponse Mistral invalide : contenu vide")
-                return {}
-            
-            result = json.loads(content_str)
-            if not isinstance(result, dict):
-                logger.error("❌ Réponse JSON n'est pas un dictionnaire")
-                return {}
-            
-            return result
-            
+        except SDKError as e:
+            logger.error(f"❌ Erreur SDK Mistral : {e}")
+            return {}
         except json.JSONDecodeError as e:
             logger.error(f"❌ Erreur parsing JSON Mistral : {e}")
-            return {}
-        except ConnectionError as e:
-            logger.error(f"❌ Erreur connexion Mistral API : {e}")
             return {}
         except Exception as e:
             logger.error(f"❌ Erreur lors de l'appel à l'API Mistral : {type(e).__name__}: {e}")
@@ -129,36 +150,13 @@ Renvoie UNIQUEMENT un objet JSON valide avec les clés suivantes :
                 response_format={"type": "json_object"}
             )
 
-            if not chat_response or not hasattr(chat_response, 'choices'):
-                logger.error("❌ Réponse Mistral invalide : structure incorrecte")
-                return {}
+            return self._validate_and_parse_response(chat_response, expect_json=True)
             
-            if not chat_response.choices or len(chat_response.choices) == 0:
-                logger.error("❌ Réponse Mistral invalide : pas de choices")
-                return {}
-            
-            first_choice = chat_response.choices[0]
-            if not hasattr(first_choice, 'message') or not first_choice.message:
-                logger.error("❌ Réponse Mistral invalide : pas de message")
-                return {}
-            
-            content = first_choice.message.content
-            if not content:
-                logger.error("❌ Réponse Mistral invalide : contenu vide")
-                return {}
-            
-            result = json.loads(content)
-            if not isinstance(result, dict):
-                logger.error("❌ Réponse JSON n'est pas un dictionnaire")
-                return {}
-            
-            return result
-            
+        except SDKError as e:
+            logger.error(f"❌ Erreur SDK Mistral : {e}")
+            return {}
         except json.JSONDecodeError as e:
             logger.error(f"❌ Erreur parsing JSON : {e}")
-            return {}
-        except ConnectionError as e:
-            logger.error(f"❌ Erreur connexion Mistral API : {e}")
             return {}
         except Exception as e:
             logger.error(f"❌ Erreur lors de l'extraction de données : {type(e).__name__}: {e}")
