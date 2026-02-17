@@ -1355,10 +1355,6 @@ def explore_network_exponential(initial_query: str, current_depth: int = 0,
     # PHASE 1 : MISTRAL IDENTIFIE LES ENTITÉS
     # Passer le hint de type si disponible (uniquement au niveau 0)
     query_type_hint = initial_query_type if current_depth == 0 else None
-    # Passer le hint de type si disponible
-    query_type_hint = None
-    if current_depth == 0 and hasattr(explore_network_exponential, '_initial_query_type'):
-        query_type_hint = explore_network_exponential._initial_query_type
     
     entities = mistral_identify_entities_comprehensive(initial_query, query_type_hint=query_type_hint)
     
@@ -2172,17 +2168,6 @@ def main(query: str = None):
     # ========== PHASE 1 : EXPLORATION EXPONENTIELLE ==========
     print(f"\n🌳 Phase 1 : Exploration exponentielle (3 niveaux)...\n")
     explore_network_exponential(query, current_depth=0, max_depth=MAX_DEPTH, initial_query_type=query_type)
-    # Stocker le type de requête pour l'exploration
-    explore_network_exponential._initial_query_type = query_type
-    
-    try:
-        # ========== PHASE 1 : EXPLORATION EXPONENTIELLE ==========
-        print(f"\n🌳 Phase 1 : Exploration exponentielle (3 niveaux)...\n")
-        explore_network_exponential(query, current_depth=0, max_depth=MAX_DEPTH)
-    finally:
-        # Nettoyer l'attribut temporaire après utilisation (même en cas d'exception)
-        if hasattr(explore_network_exponential, '_initial_query_type'):
-            delattr(explore_network_exponential, '_initial_query_type')
     
     if not ALL_FOUND_ENTITIES:
         logger.warning("❌ Aucune entité trouvée")
