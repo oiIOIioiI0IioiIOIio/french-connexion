@@ -1,9 +1,15 @@
 import os
 import json
+import time
 from mistralai import Mistral, SDKError
 from src.utils.logger import setup_logger
 
 logger = setup_logger()
+
+# Configuration du retry avec backoff exponentiel pour les erreurs 429
+MAX_RETRIES = 5
+RETRY_BASE_DELAY = 2  # Délai initial en secondes
+RETRY_MAX_DELAY = 60  # Délai maximum en secondes
 
 class MistralClient:
     def __init__(self):
@@ -14,6 +20,23 @@ class MistralClient:
         # Initialisation du client (Nouvelle syntaxe v1)
         self.client = Mistral(api_key=api_key)
         self.model = os.getenv("MISTRAL_MODEL", "mistral-large-latest")
+
+    def _chat_complete_with_retry(self, **call_params):
+        """
+        🔄 Wrapper pour self.client.chat.complete() avec retry et backoff exponentiel
+        pour gérer les erreurs 429 (Rate Limited) de l'API Mistral.
+        """
+        for attempt in range(MAX_RETRIES):
+            try:
+                return self.client.chat.complete(**call_params)
+            except SDKError as e:
+                if hasattr(e, 'status_code') and e.status_code == 429:
+                    if attempt < MAX_RETRIES - 1:
+                        delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
+                        logger.warning(f"⏳ Rate limit (429) - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
+                        time.sleep(delay)
+                        continue
+                raise
 
     def _validate_and_parse_response(self, chat_response, expect_json: bool = True) -> dict:
         """
@@ -99,7 +122,7 @@ Renvoie UNIQUEMENT un objet JSON valide avec les clés suivantes :
 """
 
         try:
-            chat_response = self.client.chat.complete(
+            chat_response = self._chat_complete_with_retry(
                 model=self.model,
                 messages=[
                     {"role": "system", "content": system_prompt},
@@ -140,7 +163,7 @@ Renvoie UNIQUEMENT un objet JSON valide avec les clés suivantes :
         """
 
         try:
-            chat_response = self.client.chat.complete(
+            chat_response = self._chat_complete_with_retry(
                 model=self.model,
                 messages=[
                     {"role": "system", "content": system_prompt},
@@ -180,7 +203,7 @@ Renvoie UNIQUEMENT un objet JSON valide avec les clés suivantes :
         """
 
         try:
-            chat_response = self.client.chat.complete(
+            chat_response = self._chat_complete_with_retry(
                 model=self.model,
                 messages=[
                     {"role": "user", "content": prompt}

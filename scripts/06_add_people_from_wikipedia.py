@@ -233,6 +233,7 @@ class RelationshipDetail:
             'source': self.source
         }
 
+
 def safe_mistral_call(prompt: str, system_prompt: str = None, temperature: float = 0.2, response_format: dict = None) -> dict:
     """
     🛡️ Wrapper sécurisé pour les appels Mistral API avec gestion d'erreurs complète
@@ -261,7 +262,7 @@ def safe_mistral_call(prompt: str, system_prompt: str = None, temperature: float
         if response_format:
             call_params["response_format"] = response_format
         
-        chat_response = llm.client.chat.complete(**call_params)
+        chat_response = llm._chat_complete_with_retry(**call_params)
         
         # Validation de la réponse
         if not chat_response or not hasattr(chat_response, 'choices'):
@@ -412,7 +413,7 @@ Retourne un JSON complet :
 """
     
     try:
-        chat_response = llm.client.chat.complete(
+        chat_response = llm._chat_complete_with_retry(
             model=llm.model,
             messages=[
                 {"role": "user", "content": prompt}
@@ -555,7 +556,7 @@ Retourne un JSON complet :
 """
     
     try:
-        chat_response = llm.client.chat.complete(
+        chat_response = llm._chat_complete_with_retry(
             model=llm.model,
             messages=[{"role": "user", "content": prompt}],
             response_format={"type": "json_object"},
@@ -655,7 +656,7 @@ Retourne un JSON complet :
 """
     
     try:
-        chat_response = llm.client.chat.complete(
+        chat_response = llm._chat_complete_with_retry(
             model=llm.model,
             messages=[{"role": "user", "content": prompt}],
             response_format={"type": "json_object"},
@@ -797,7 +798,7 @@ Retourne un JSON :
 """
     
     try:
-        chat_response = llm.client.chat.complete(
+        chat_response = llm._chat_complete_with_retry(
             model=llm.model,
             messages=[{"role": "user", "content": prompt}],
             response_format={"type": "json_object"},
@@ -906,7 +907,7 @@ Retourne un JSON :
 """
     
     try:
-        chat_response = llm.client.chat.complete(
+        chat_response = llm._chat_complete_with_retry(
             model=llm.model,
             messages=[
                 {"role": "user", "content": prompt}
@@ -1117,7 +1118,7 @@ Maximum 15 institutions, triées par importance.
 """
     
     try:
-        chat_response = llm.client.chat.complete(
+        chat_response = llm._chat_complete_with_retry(
             model=llm.model,
             messages=[{"role": "user", "content": prompt}],
             response_format={"type": "json_object"},
@@ -1216,7 +1217,7 @@ Sois STRICT : privilégie la QUALITÉ sur la QUANTITÉ. Un réseau de 20 personn
 """
     
     try:
-        chat_response = llm.client.chat.complete(
+        chat_response = llm._chat_complete_with_retry(
             model=llm.model,
             messages=[
                 {"role": "user", "content": prompt}
