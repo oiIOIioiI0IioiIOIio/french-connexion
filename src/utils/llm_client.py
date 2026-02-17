@@ -35,7 +35,10 @@ except ValueError:
     RETRY_MAX_DELAY = 60
 
 # Keywords for detecting transient errors in error messages
-TRANSIENT_ERROR_KEYWORDS = ['timeout', 'connection', 'network', 'temporary', 'unavailable']
+TRANSIENT_ERROR_KEYWORDS = ('timeout', 'connection', 'network', 'temporary', 'unavailable')
+
+# HTTP status codes that indicate transient errors
+TRANSIENT_HTTP_STATUS_CODES = (408, 500, 502, 503, 504)
 
 class MistralClient:
     def __init__(self):
@@ -78,19 +81,18 @@ class MistralClient:
                 # This catches cases where API returns malformed JSON, which may indicate
                 # the API is under stress or experiencing issues
                 if call_params.get('response_format', {}).get('type') == 'json_object':
-                    if response.choices[0].message:
-                        content = response.choices[0].message.content
-                        if content:
-                            try:
-                                # Try to parse JSON to validate early
-                                json.loads(content)
-                            except json.JSONDecodeError:
-                                # Retry on JSON parse errors as they may indicate API stress
-                                if attempt < MAX_RETRIES - 1:
-                                    delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
-                                    logger.warning(f"⏳ JSON malformé (API stress possible) - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
-                                    time.sleep(delay)
-                                    continue
+                    message = response.choices[0].message
+                    if message and message.content:
+                        try:
+                            # Try to parse JSON to validate early
+                            json.loads(message.content)
+                        except json.JSONDecodeError:
+                            # Retry on JSON parse errors as they may indicate API stress
+                            if attempt < MAX_RETRIES - 1:
+                                delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
+                                logger.warning(f"⏳ JSON malformé (API stress possible) - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
+                                time.sleep(delay)
+                                continue
                 
                 return response
                 
@@ -104,8 +106,8 @@ class MistralClient:
                         continue
                 
                 # Handle other potentially transient SDKErrors based on status codes
-                # Common transient HTTP status codes: 408 (timeout), 503 (unavailable), 504 (gateway timeout)
-                if hasattr(e, 'status_code') and e.status_code in [408, 500, 502, 503, 504]:
+                # Common transient HTTP status codes: 408 (timeout), 500-504 (server errors)
+                if hasattr(e, 'status_code') and e.status_code in TRANSIENT_HTTP_STATUS_CODES:
                     if attempt < MAX_RETRIES - 1:
                         delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
                         logger.warning(f"⏳ Erreur transitoire HTTP {e.status_code} - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
