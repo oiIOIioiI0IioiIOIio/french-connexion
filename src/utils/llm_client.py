@@ -7,9 +7,38 @@ from src.utils.logger import setup_logger
 logger = setup_logger()
 
 # Configuration du retry avec backoff exponentiel pour les erreurs 429
-MAX_RETRIES = 5
-RETRY_BASE_DELAY = 2  # Délai initial en secondes
-RETRY_MAX_DELAY = 60  # Délai maximum en secondes
+try:
+    MAX_RETRIES = int(os.getenv("MAX_RETRIES", "5"))
+    if MAX_RETRIES < 1:
+        logger.warning(f"MAX_RETRIES must be >= 1, using default of 5")
+        MAX_RETRIES = 5
+except ValueError:
+    logger.warning(f"Invalid MAX_RETRIES value, using default of 5")
+    MAX_RETRIES = 5
+
+try:
+    RETRY_BASE_DELAY = int(os.getenv("RETRY_BASE_DELAY", "2"))
+    if RETRY_BASE_DELAY < 1:
+        logger.warning(f"RETRY_BASE_DELAY must be >= 1, using default of 2")
+        RETRY_BASE_DELAY = 2
+except ValueError:
+    logger.warning(f"Invalid RETRY_BASE_DELAY value, using default of 2")
+    RETRY_BASE_DELAY = 2
+
+try:
+    RETRY_MAX_DELAY = int(os.getenv("RETRY_MAX_DELAY", "60"))
+    if RETRY_MAX_DELAY < RETRY_BASE_DELAY:
+        logger.warning(f"RETRY_MAX_DELAY must be >= RETRY_BASE_DELAY, using default of 60")
+        RETRY_MAX_DELAY = 60
+except ValueError:
+    logger.warning(f"Invalid RETRY_MAX_DELAY value, using default of 60")
+    RETRY_MAX_DELAY = 60
+
+# Keywords for detecting transient errors in error messages
+TRANSIENT_ERROR_KEYWORDS = ('timeout', 'connection', 'network', 'temporary', 'unavailable')
+
+# HTTP status codes that indicate transient errors
+TRANSIENT_HTTP_STATUS_CODES = (408, 500, 502, 503, 504)
 
 class MistralClient:
     def __init__(self):
@@ -20,6 +49,13 @@ class MistralClient:
         # Initialisation du client (Nouvelle syntaxe v1)
         self.client = Mistral(api_key=api_key)
         self.model = os.getenv("MISTRAL_MODEL", "mistral-large-latest")
+    
+    def _is_valid_response(self, response):
+        """Check if response has valid structure with choices."""
+        return (response and 
+                hasattr(response, 'choices') and 
+                response.choices and 
+                len(response.choices) > 0)
 
     def _chat_complete_with_retry(self, **call_params):
         """
@@ -28,14 +64,67 @@ class MistralClient:
         """
         for attempt in range(MAX_RETRIES):
             try:
-                return self.client.chat.complete(**call_params)
+                response = self.client.chat.complete(**call_params)
+                
+                # Validate response structure to catch potential issues early
+                if not self._is_valid_response(response):
+                    if attempt < MAX_RETRIES - 1:
+                        delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
+                        logger.warning(f"⏳ Response invalide - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
+                        time.sleep(delay)
+                        continue
+                    else:
+                        logger.error("❌ Réponse invalide après tous les retries")
+                        return response
+                
+                # Validate JSON parsing for json_object responses
+                # This catches cases where API returns malformed JSON, which may indicate
+                # the API is under stress or experiencing issues
+                if call_params.get('response_format', {}).get('type') == 'json_object':
+                    message = response.choices[0].message
+                    if message and message.content:
+                        try:
+                            # Try to parse JSON to validate early
+                            json.loads(message.content)
+                        except json.JSONDecodeError:
+                            # Retry on JSON parse errors as they may indicate API stress
+                            if attempt < MAX_RETRIES - 1:
+                                delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
+                                logger.warning(f"⏳ JSON malformé (API stress possible) - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
+                                time.sleep(delay)
+                                continue
+                
+                return response
+                
             except SDKError as e:
+                # Handle 429 rate limit errors explicitly
                 if hasattr(e, 'status_code') and e.status_code == 429:
                     if attempt < MAX_RETRIES - 1:
                         delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
                         logger.warning(f"⏳ Rate limit (429) - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
                         time.sleep(delay)
                         continue
+                
+                # Handle other potentially transient SDKErrors based on status codes
+                # Common transient HTTP status codes: 408 (timeout), 500-504 (server errors)
+                if hasattr(e, 'status_code') and e.status_code in TRANSIENT_HTTP_STATUS_CODES:
+                    if attempt < MAX_RETRIES - 1:
+                        delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
+                        logger.warning(f"⏳ Erreur transitoire HTTP {e.status_code} - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
+                        time.sleep(delay)
+                        continue
+                
+                # Fallback to string matching for errors without status codes (connection errors, etc.)
+                error_message = str(e).lower()
+                is_transient = any(keyword in error_message for keyword in TRANSIENT_ERROR_KEYWORDS)
+                
+                if is_transient and attempt < MAX_RETRIES - 1:
+                    delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
+                    logger.warning(f"⏳ Erreur transitoire ({type(e).__name__}) - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
+                    time.sleep(delay)
+                    continue
+                
+                # Non-transient error or final attempt
                 raise
 
     def _validate_and_parse_response(self, chat_response, expect_json: bool = True) -> dict:
@@ -134,10 +223,7 @@ Renvoie UNIQUEMENT un objet JSON valide avec les clés suivantes :
             return self._validate_and_parse_response(chat_response, expect_json=True)
             
         except SDKError as e:
-            logger.error(f"❌ Erreur SDK Mistral : {e}")
-            return {}
-        except json.JSONDecodeError as e:
-            logger.error(f"❌ Erreur parsing JSON Mistral : {e}")
+            logger.error(f"❌ Erreur SDK Mistral (après retries) : {e}")
             return {}
         except Exception as e:
             logger.error(f"❌ Erreur lors de l'appel à l'API Mistral : {type(e).__name__}: {e}")
@@ -175,10 +261,7 @@ Renvoie UNIQUEMENT un objet JSON valide avec les clés suivantes :
             return self._validate_and_parse_response(chat_response, expect_json=True)
             
         except SDKError as e:
-            logger.error(f"❌ Erreur SDK Mistral : {e}")
-            return {}
-        except json.JSONDecodeError as e:
-            logger.error(f"❌ Erreur parsing JSON : {e}")
+            logger.error(f"❌ Erreur SDK Mistral (après retries) : {e}")
             return {}
         except Exception as e:
             logger.error(f"❌ Erreur lors de l'extraction de données : {type(e).__name__}: {e}")
@@ -222,6 +305,9 @@ Renvoie UNIQUEMENT un objet JSON valide avec les clés suivantes :
                         msg = first.get('message') or {}
                         return msg.get('content') or first.get('content') or str(first)
             return str(chat_response)
+        except SDKError as e:
+            logger.error(f"❌ Erreur SDK Mistral (après retries) pour les entités RSS : {e}")
+            return '[]'
         except Exception as e:
-            logger.error(f"Erreur lors de l'appel Mistral pour les entités RSS : {e}")
+            logger.error(f"❌ Erreur lors de l'appel Mistral pour les entités RSS : {e}")
             return '[]'
