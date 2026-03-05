@@ -150,10 +150,10 @@
 
           <div class="flex items-center gap-2">
             <span class="text-sm font-medium text-gray-600">Affichage:</span>
-            <button @click="showMetadata = !showMetadata" :class="{'bg-primary text-white': showMetadata, 'bg-gray-200 text-gray-600': !showMetadata}" :aria-pressed="String(showMetadata)" aria-label="Afficher/masquer les métadonnées" class="px-3 py-1.5 text-sm rounded-lg transition-colors">
+            <button @click="showMetadata = !showMetadata" :class="{'bg-primary text-white': showMetadata, 'bg-gray-200 text-gray-600': !showMetadata}" :aria-pressed="showMetadata" aria-label="Afficher/masquer les métadonnées" class="px-3 py-1.5 text-sm rounded-lg transition-colors">
               {{ showMetadata ? 'Métadonnées ✓' : 'Métadonnées' }}
             </button>
-            <button @click="showConnections = !showConnections" :class="{'bg-primary text-white': showConnections, 'bg-gray-200 text-gray-600': !showConnections}" :aria-pressed="String(showConnections)" aria-label="Afficher/masquer les connexions" class="px-3 py-1.5 text-sm rounded-lg transition-colors">
+            <button @click="showConnections = !showConnections" :class="{'bg-primary text-white': showConnections, 'bg-gray-200 text-gray-600': !showConnections}" :aria-pressed="showConnections" aria-label="Afficher/masquer les connexions" class="px-3 py-1.5 text-sm rounded-lg transition-colors">
               {{ showConnections ? 'Connexions ✓' : 'Connexions' }}
             </button>
           </div>
@@ -442,11 +442,17 @@
 
           loading.value = true;
           loadProgress.value = '';
+          let hasFailures = false;
           try {
             const promises = folders.map(folder => fetchFiles(folder));
             const results = await Promise.all(promises);
-            allFiles.value = results.flat();
-            setCachedData(allFiles.value);
+            // Check if any folder returned a failure marker
+            hasFailures = results.some(r => r._failed);
+            allFiles.value = results.flat().filter(f => !f._failed);
+            // Only cache complete datasets
+            if (!hasFailures && allFiles.value.length > 0) {
+              setCachedData(allFiles.value);
+            }
             console.log(`Chargé ${allFiles.value.length} fiches depuis GitHub.`);
           } catch (e) {
             console.error("Erreur critique:", e);
@@ -463,8 +469,8 @@
             const response = await fetch(apiUrl);
 
             if (response.status === 403) {
-              showToast('Limite API GitHub atteinte. Données en cache utilisées si disponibles.', 'warning', 5000);
-              return [];
+              showToast(`Limite API GitHub atteinte pour « ${folder} ». Données partielles.`, 'warning', 5000);
+              return [{ _failed: true }];
             }
             if (!response.ok) return [];
 
@@ -528,7 +534,7 @@
 
             for (const line of lines) {
               if (line.trim().startsWith('- ') && currentKey) {
-                currentArray.push(line.trim().substring(2).replace(/^['"]|['"]$/g, ''));
+                currentArray.push(line.trim().substring(2).replace(/^['"]|['"]$/, ''));
                 continue;
               }
 
@@ -572,16 +578,20 @@
         // Extract wiki-style connections [[name]]
         const extractConnections = (content) => {
           const regex = /\[\[([^\]]+)\]\]/g;
+          const seen = new Set();
           const connections = [];
           let match;
           while ((match = regex.exec(content)) !== null) {
             const conn = match[1].trim();
-            if (conn && !connections.includes(conn)) {
+            if (conn && !seen.has(conn)) {
+              seen.add(conn);
               connections.push(conn);
             }
           }
           return connections;
         };
+
+        const frCollator = new Intl.Collator('fr');
 
         const filteredFiles = computed(() => {
           let files = allFiles.value;
@@ -605,11 +615,11 @@
           // Sorting
           const sorted = [...files];
           if (sortBy.value === 'name') {
-            sorted.sort((a, b) => (a.metadata.title || a.name).localeCompare(b.metadata.title || b.name, 'fr'));
+            sorted.sort((a, b) => frCollator.compare(a.metadata.title || a.name, b.metadata.title || b.name));
           } else if (sortBy.value === 'name-desc') {
-            sorted.sort((a, b) => (b.metadata.title || b.name).localeCompare(a.metadata.title || a.name, 'fr'));
+            sorted.sort((a, b) => frCollator.compare(b.metadata.title || b.name, a.metadata.title || a.name));
           } else if (sortBy.value === 'type') {
-            sorted.sort((a, b) => (a.metadata.type || '').localeCompare(b.metadata.type || '', 'fr'));
+            sorted.sort((a, b) => frCollator.compare(a.metadata.type || '', b.metadata.type || ''));
           } else if (sortBy.value === 'connections') {
             sorted.sort((a, b) => (b.connections?.length || 0) - (a.connections?.length || 0));
           } else if (sortBy.value === 'date') {

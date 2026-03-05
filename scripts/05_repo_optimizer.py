@@ -13,8 +13,12 @@ logger = setup_logger()
 git = GitHandler()
 
 # Chargement de la configuration au niveau du module
-with open(os.path.join(os.path.dirname(__file__), '..', 'config', 'config.yaml'), 'r', encoding='utf-8') as _f:
-    CONFIG = yaml.safe_load(_f)
+_config_path = os.path.join(os.path.dirname(__file__), '..', 'config', 'config.yaml')
+try:
+    with open(_config_path, 'r', encoding='utf-8') as _f:
+        CONFIG = yaml.safe_load(_f)
+except FileNotFoundError:
+    raise FileNotFoundError(f"Configuration requise introuvable : {_config_path}")
 
 def analyze_field_consistency(entity_type):
     """
