@@ -58,27 +58,9 @@ def process_feed(feed_url, keywords):
 
 def extract_entities_and_create_draft(title, content, url):
     """Utilise l'IA pour extraire les entités du texte et créer des brouillons."""
-    prompt = f"""
-    Analyse ce titre et ce résumé d'article de presse.
-    Extrais les noms des personnes ou organisations importantes (élites, dirigeants).
-    Si tu en trouves, retourne-les sous forme de liste JSON : ["Nom1", "Nom2"].
-    Si rien d'intéressant, retourne [].
-    
-    Titre: {title}
-    Résumé: {content}
-    """
-    
     try:
-        # Corrected API call for Mistral
-        response = llm.client.chat(
-            model=llm.model,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.2
-        )
-        
-        # Parsing simple de la réponse (supposant que l'IA respecte le format JSON)
-        # Idéalement, on utiliserait une fonction de parsing robuste ici
-        entities_str = response.choices[0].message.content
+        # Use the proper retry-enabled method from the MistralClient
+        entities_str = llm.extract_entities_for_rss(title, content)
         
         # Création des brouillons
         draft_folder = Path("00_Brouillons_RSS")

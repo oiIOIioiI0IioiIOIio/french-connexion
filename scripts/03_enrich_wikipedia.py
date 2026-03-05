@@ -70,10 +70,12 @@ def process_file(file_path):
         except wikipedia.exceptions.DisambiguationError as e:
             logger.warning(f"Page ambiguë pour {title} : {e.options}")
             # On essaie la première option suggérée
+            if not e.options:
+                return
             try:
                 wiki_page = wikipedia.page(e.options[0])
                 wiki_summary = wiki_page.summary
-            except:
+            except Exception:
                 return
 
         # 2. Définition du schéma d'extraction
