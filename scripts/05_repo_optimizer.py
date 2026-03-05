@@ -12,6 +12,10 @@ from src.utils.git_handler import GitHandler
 logger = setup_logger()
 git = GitHandler()
 
+# Chargement de la configuration au niveau du module
+with open(os.path.join(os.path.dirname(__file__), '..', 'config', 'config.yaml'), 'r', encoding='utf-8') as _f:
+    CONFIG = yaml.safe_load(_f)
+
 def analyze_field_consistency(entity_type):
     """
     Analyse toutes les fiches d'un type pour voir quels champs sont utilisés.
@@ -63,9 +67,6 @@ def auto_standardize(entity_type, mapping_rules):
 
 # Exemple d'utilisation (à intégrer dans le main si besoin)
 if __name__ == "__main__":
-    with open("config/config.yaml", "r", encoding="utf-8") as f:
-        CONFIG = yaml.safe_load(f)
-        
     # Analyse des personnes
     analyze_field_consistency("Personne")
     

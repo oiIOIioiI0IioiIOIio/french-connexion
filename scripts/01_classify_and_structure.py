@@ -49,8 +49,8 @@ def process_file(file_path):
 
         # Si le type n'est pas dans la config, on fallback sur Institution
         if entity_type not in CONFIG['entity_types']:
-             logger.warning(f"Type '{entity_type}' inconnu, classé comme 'Institution'")
-             entity_type = "Institution"
+            logger.warning(f"Type '{entity_type}' inconnu, classé comme 'Institution'")
+            entity_type = "Institution"
 
         config = CONFIG['entity_types'][entity_type]
         target_folder = Path(config['folder'])
