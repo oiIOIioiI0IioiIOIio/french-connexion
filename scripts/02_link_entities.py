@@ -49,13 +49,16 @@ MAX_LINK_PASSES = 3
 
 # Regex pour identifier les zones protégées qui ne doivent pas recevoir de liens
 # (blocs de code, URLs, sections source, titres markdown)
+# Note: on utilise [\s\S] au lieu de . pour les blocs de code multi-lignes
+# afin de pouvoir utiliser re.MULTILINE sans re.DOTALL (qui casserait .*$ dans
+# les patterns de titres et de sources)
 _PROTECTED_ZONES_RE = re.compile(
-    r'```.*?```'               # blocs de code
+    r'```[\s\S]*?```'          # blocs de code (multi-lignes)
     r'|`[^`]+`'                # code inline
     r'|https?://\S+'           # URLs
     r'|\*\*Source\*\*\s*:.*$'  # lignes de source/attribution
     r'|^#{1,6}\s+.*$',        # titres markdown
-    re.MULTILINE | re.DOTALL
+    re.MULTILINE
 )
 
 
@@ -312,7 +315,7 @@ def main():
                 if not any(part in exclude_dirs for part in f.parts)
                 and f.name != "README.md"]
 
-    total_links_created = 0
+    total_files_modified = 0
 
     # Passes récursives : chaque passe peut révéler de nouveaux liens
     for pass_num in range(1, MAX_LINK_PASSES + 1):
@@ -321,7 +324,7 @@ def main():
         for f in md_files:
             if link_document(f):
                 total_modified += 1
-        total_links_created += total_modified
+        total_files_modified += total_modified
         logger.info(f"   ➡️ {total_modified} fichiers modifiés lors de la passe {pass_num}")
         if total_modified == 0:
             logger.info(f"✅ Convergence atteinte à la passe {pass_num}, aucun nouveau lien")
@@ -330,7 +333,7 @@ def main():
     # Mise à jour des backlinks dans le frontmatter
     update_backlinks_in_frontmatter()
 
-    logger.info(f"📊 Résumé : {total_links_created} fichiers modifiés au total, "
+    logger.info(f"📊 Résumé : {total_files_modified} fichiers modifiés au total, "
                 f"{len(BACKLINKS)} entités avec des backlinks")
 
     # Ne commiter que si le script n'est pas exécuté par GitHub Actions
