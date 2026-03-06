@@ -14,18 +14,25 @@ from src.utils.git_handler import GitHandler
 logger = setup_logger()
 git = GitHandler()
 
-# Charger le modèle NER Français (à faire: python -m spacy download fr_core_news_lg)
+# Charger le modèle NER Français — essayer le modèle large d'abord, puis le moyen
 try:
     nlp = spacy.load("fr_core_news_lg")
 except OSError:
-    logger.error("Modèle Spacy manquant. Lancez: python -m spacy download fr_core_news_lg")
-    sys.exit(1)
+    try:
+        nlp = spacy.load("fr_core_news_md")
+        logger.warning("Modèle fr_core_news_lg indisponible, utilisation de fr_core_news_md")
+    except OSError:
+        logger.error("Aucun modèle Spacy français trouvé. Lancez: python -m spacy download fr_core_news_lg")
+        sys.exit(1)
 
 # Charger la config pour les patterns à ignorer
 with open("config/config.yaml", "r", encoding="utf-8") as f:
     CONFIG = yaml.safe_load(f)
 
 IGNORE_PATTERNS = set(CONFIG.get('linking', {}).get('ignore_patterns', []))
+
+# Longueur minimale pour qu'un nom d'entité soit considéré pour le linking
+MIN_ENTITY_NAME_LENGTH = CONFIG.get('linking', {}).get('min_entity_name_length', 4)
 
 # Index de toutes les entités connues pour le linking
 # Format: { "nom_normalisé": {"path": "chemin/fichier.md", "display": "Nom Complet"} }
@@ -39,6 +46,17 @@ BACKLINKS = {}
 
 # Nombre max de passes récursives
 MAX_LINK_PASSES = 3
+
+# Regex pour identifier les zones protégées qui ne doivent pas recevoir de liens
+# (blocs de code, URLs, sections source, titres markdown)
+_PROTECTED_ZONES_RE = re.compile(
+    r'```.*?```'               # blocs de code
+    r'|`[^`]+`'                # code inline
+    r'|https?://\S+'           # URLs
+    r'|\*\*Source\*\*\s*:.*$'  # lignes de source/attribution
+    r'|^#{1,6}\s+.*$',        # titres markdown
+    re.MULTILINE | re.DOTALL
+)
 
 
 def normalize_name(name: str) -> str:
@@ -103,6 +121,26 @@ def build_entity_index():
     logger.info(f"✅ Index construit : {len(ENTITY_INDEX)} entrées")
 
 
+def _get_protected_ranges(content: str) -> list:
+    """Calcule les plages de texte protégées (code, URLs, sources, titres).
+    
+    Ces zones ne doivent pas recevoir de liens pour éviter de créer
+    des associations trompeuses dans des contextes non-éditoriaux.
+    """
+    ranges = []
+    for m in _PROTECTED_ZONES_RE.finditer(content):
+        ranges.append((m.start(), m.end()))
+    return ranges
+
+
+def _is_in_protected_zone(start: int, end: int, protected_ranges: list) -> bool:
+    """Vérifie si une position chevauche une zone protégée."""
+    for pstart, pend in protected_ranges:
+        if start < pend and end > pstart:
+            return True
+    return False
+
+
 def _is_inside_link(content: str, start: int, end: int) -> bool:
     """Vérifie si la position start..end est déjà à l'intérieur d'un lien [[...]]."""
     # Cherche le [[ le plus proche avant start
@@ -120,10 +158,19 @@ def link_document(file_path):
     
     Utilise Spacy NER + correspondance directe dans l'index. Ne relie que la première
     occurrence de chaque entité. Ignore les mentions déjà liées.
+    
+    Principes éthiques appliqués :
+    - Ne crée des liens que vers des entités documentées dans le dépôt
+    - Ne lie pas à l'intérieur de blocs de code, URLs, sections source ou titres
+    - Requiert une longueur minimale de nom pour éviter les faux positifs
+    - Ne crée pas d'auto-liens (une fiche ne pointe pas vers elle-même)
     """
     post = frontmatter.load(file_path)
     content = post.content
     doc = nlp(content)
+
+    # Calculer les zones protégées une seule fois
+    protected_ranges = _get_protected_ranges(content)
 
     modified = False
     already_linked = set()  # Entités déjà liées dans ce document
@@ -133,7 +180,7 @@ def link_document(file_path):
     for ent in doc.ents:
         if ent.label_ in ["PERSON", "ORG", "LOC", "MISC"]:
             text = ent.text.strip()
-            if len(text) < 3:
+            if len(text) < MIN_ENTITY_NAME_LENGTH:
                 continue
             norm_text = normalize_name(text)
             if norm_text in IGNORE_PATTERNS:
@@ -147,7 +194,7 @@ def link_document(file_path):
     # (pour les cas où Spacy ne détecte pas une entité connue)
     for norm_key, entry in ENTITY_INDEX.items():
         display = entry["display"]
-        if display in content and normalize_name(display) not in already_linked:
+        if len(display) >= MIN_ENTITY_NAME_LENGTH and display in content and normalize_name(display) not in already_linked:
             if display not in [e[0] for e in ner_entities]:
                 ner_entities.append((display, norm_key))
 
@@ -176,17 +223,24 @@ def link_document(file_path):
             continue
 
         # Trouver la première occurrence qui n'est PAS déjà dans un lien
+        # et qui n'est PAS dans une zone protégée (source, URL, code, titre)
         search_start = 0
         replaced = False
         while search_start < len(content):
             idx = content.find(text, search_start)
             if idx == -1:
                 break
-            if _is_inside_link(content, idx, idx + len(text)):
-                search_start = idx + len(text)
+            end_idx = idx + len(text)
+            if _is_inside_link(content, idx, end_idx):
+                search_start = end_idx
+                continue
+            if _is_in_protected_zone(idx, end_idx, protected_ranges):
+                search_start = end_idx
                 continue
             # Remplacer cette occurrence
-            content = content[:idx] + wiki_link + content[idx + len(text):]
+            content = content[:idx] + wiki_link + content[end_idx:]
+            # Recalculer les zones protégées après modification
+            protected_ranges = _get_protected_ranges(content)
             replaced = True
             break
 
@@ -258,6 +312,8 @@ def main():
                 if not any(part in exclude_dirs for part in f.parts)
                 and f.name != "README.md"]
 
+    total_links_created = 0
+
     # Passes récursives : chaque passe peut révéler de nouveaux liens
     for pass_num in range(1, MAX_LINK_PASSES + 1):
         logger.info(f"🔄 Passe de linking {pass_num}/{MAX_LINK_PASSES}...")
@@ -265,6 +321,7 @@ def main():
         for f in md_files:
             if link_document(f):
                 total_modified += 1
+        total_links_created += total_modified
         logger.info(f"   ➡️ {total_modified} fichiers modifiés lors de la passe {pass_num}")
         if total_modified == 0:
             logger.info(f"✅ Convergence atteinte à la passe {pass_num}, aucun nouveau lien")
@@ -273,7 +330,15 @@ def main():
     # Mise à jour des backlinks dans le frontmatter
     update_backlinks_in_frontmatter()
 
-    git.commit_changes("feat: génération automatique des liens et backlinks (multi-passes)")
+    logger.info(f"📊 Résumé : {total_links_created} fichiers modifiés au total, "
+                f"{len(BACKLINKS)} entités avec des backlinks")
+
+    # Ne commiter que si le script n'est pas exécuté par GitHub Actions
+    # (le workflow gère le commit/push lui-même)
+    if not os.environ.get("GITHUB_ACTIONS"):
+        git.commit_changes("feat: génération automatique des liens et backlinks (multi-passes)")
+    else:
+        logger.info("🔄 Exécution CI détectée — le commit sera géré par le workflow")
 
 if __name__ == "__main__":
     main()

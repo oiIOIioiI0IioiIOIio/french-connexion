@@ -43,6 +43,7 @@ rss_feeds:
 # Paramètres de linkage (Génération de liens)
 linking:
   min_confidence_score: 0.8
+  min_entity_name_length: 4  # Longueur minimale pour éviter les faux positifs
   ignore_patterns:
     - "le"
     - "la"
@@ -50,3 +51,11 @@ linking:
     - "un"
     - "une"
     - "déjà"
+    - "france"
+    - "paris"
+    - "etat"
+    - "republique"
+    - "europe"
+    - "monde"
+    - "ancien"
+    - "premier"
