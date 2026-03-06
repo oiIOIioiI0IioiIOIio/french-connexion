@@ -4,6 +4,7 @@ import yaml
 import frontmatter
 from pathlib import Path
 import shutil
+import time
 from dotenv import load_dotenv  # Nécessite : pip install python-dotenv
 
 # Ajout du path
@@ -20,6 +21,9 @@ logger = setup_logger()
 git = GitHandler()
 llm = MistralClient()
 
+# Delay between processing each entity to avoid rate limits
+INTER_ENTITY_DELAY = float(os.getenv("INTER_ENTITY_DELAY", "3.0"))
+
 # CORRECTION ICI : L'indentation est fixée pour charger la config à l'intérieur du bloc with
 with open("config/config.yaml", "r", encoding="utf-8") as f:
     CONFIG = yaml.safe_load(f)
@@ -30,7 +34,7 @@ def process_file(file_path):
         content = post.content
         title = post.get('title', file_path.stem)
 
-        logger.info(f"⚙️ Analyse intelligente de : {title}...")
+        logger.info(f"Analyse intelligente de : {title}...")
 
         # Liste des types valides depuis la configuration
         valid_types = list(CONFIG['entity_types'].keys())
@@ -77,19 +81,19 @@ def process_file(file_path):
         new_path = target_folder / file_path.name
         if file_path != new_path:
             shutil.move(str(file_path), str(new_path))
-            logger.info(f"📁 Déplacé vers {target_folder}")
+            logger.info(f"Déplacé vers {target_folder}")
 
         # CORRECTION ICI : Ouverture en mode binaire 'wb' pour éviter l'erreur "write() argument must be str, not bytes"
         with open(new_path, 'wb') as f:
             frontmatter.dump(new_post, f)
 
-        logger.info(f"✨ Succès : {title} structuré en {entity_type}")
+        logger.info(f"Succès : {title} structuré en {entity_type}")
 
     except Exception as e:
         logger.error(f"Erreur critique sur {file_path} : {e}", exc_info=True)
 
 def main():
-    logger.info("🚀 Lancement du restructurateur autonome...")
+    logger.info("Lancement du restructurateur autonome...")
     git.create_backup_tag()
 
     md_files = list(Path(".").rglob("*.md"))
@@ -98,11 +102,16 @@ def main():
                 if not any(part in exclude_dirs for part in f.parts)
                 and f.name != "README.md"]
 
-    for f in md_files:
+    total = len(md_files)
+    for i, f in enumerate(md_files):
+        logger.info(f"Processing {i + 1}/{total}...")
         process_file(f)
+        # Delay between entities to avoid API rate limits
+        if i < total - 1:
+            time.sleep(INTER_ENTITY_DELAY)
 
     git.commit_changes("feat: restructuration intelligente et classification par IA")
-    logger.info("🏁 Terminé.")
+    logger.info("Terminé.")
 
 if __name__ == "__main__":
     main()

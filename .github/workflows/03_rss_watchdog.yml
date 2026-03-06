@@ -27,6 +27,10 @@ jobs:
       - name: Scanner les flux RSS
         env:
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          MAX_RETRIES: "8"
+          RETRY_BASE_DELAY: "5"
+          RETRY_MAX_DELAY: "120"
+          API_CALL_DELAY: "2.0"
         run: python scripts/04_rss_watchdog.py
 
       - name: Commit et Push (si nouveautés)

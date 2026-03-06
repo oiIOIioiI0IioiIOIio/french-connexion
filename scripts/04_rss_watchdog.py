@@ -28,13 +28,13 @@ def configure_git():
         result = subprocess.run(['git', 'config', 'user.name'], capture_output=True, text=True)
         if not result.stdout.strip():
             subprocess.run(['git', 'config', 'user.name', 'French Connexion Bot'], check=True)
-            logger.info("✓ Configuration Git user.name définie")
+            logger.info("Configuration Git user.name définie")
         
         # Check if git user.email is set
         result = subprocess.run(['git', 'config', 'user.email'], capture_output=True, text=True)
         if not result.stdout.strip():
             subprocess.run(['git', 'config', 'user.email', 'bot@french-connexion.local'], check=True)
-            logger.info("✓ Configuration Git user.email définie")
+            logger.info("Configuration Git user.email définie")
     except Exception as e:
         logger.warning(f"Impossible de configurer Git : {e}")
 
@@ -44,7 +44,7 @@ def process_feed(feed_url, keywords):
     
     # Safe check for feed title
     feed_title = getattr(feed.feed, 'title', 'Unknown Feed')
-    logger.info(f"📡 Lecture du flux : {feed_title}")
+    logger.info(f"Lecture du flux : {feed_title}")
     
     for entry in feed.entries:
         title = entry.title
@@ -52,7 +52,7 @@ def process_feed(feed_url, keywords):
         
         # Vérification des mots-clés
         if any(kw.lower() in title.lower() or kw.lower() in summary.lower() for kw in keywords):
-            logger.info(f"🎯 Article pertinent détecté : {title}")
+            logger.info(f"Article pertinent détecté : {title}")
             extract_entities_and_create_draft(title, summary, entry.link)
 
 
@@ -86,14 +86,14 @@ entities_detected: {entities_str}
         with open(filename, 'w', encoding='utf-8') as f:
             f.write(draft_content)
             
-        logger.info(f"📝 Brouillon créé : {filename.name}")
+        logger.info(f"Brouillon créé : {filename.name}")
         
     except Exception as e:
         logger.error(f"Erreur lors de l'extraction d'entités pour {title} : {e}")
 
 
 def main():
-    logger.info("👁️ Démarrage de la surveillance RSS...")
+    logger.info("Démarrage de la surveillance RSS...")
     
     # Configure Git before any commits
     configure_git()

@@ -1,6 +1,7 @@
 import sys
 import os
 import json
+import time
 import wikipedia
 import frontmatter
 from pathlib import Path
@@ -25,6 +26,9 @@ wikipedia.set_lang("fr")
 
 # Timeout pour les requêtes HTTP externes
 HTTP_TIMEOUT = 10
+
+# Delay between processing each entity to avoid rate limits
+INTER_ENTITY_DELAY = float(os.getenv("INTER_ENTITY_DELAY", "3.0"))
 
 
 def get_schema_for_type(entity_type):
@@ -130,14 +134,14 @@ def fetch_wikidata_info(title: str) -> dict:
             if positions:
                 info["positions_wikidata"] = positions
 
-        logger.info(f"✅ Wikidata : {len(info)} champs récupérés pour {title}")
+        logger.info(f"Wikidata : {len(info)} champs récupérés pour {title}")
         return info
 
     except (URLError, json.JSONDecodeError, KeyError) as e:
-        logger.warning(f"⚠️ Wikidata indisponible pour {title}: {e}")
+        logger.warning(f"Wikidata indisponible pour {title}: {e}")
         return {}
     except Exception as e:
-        logger.warning(f"⚠️ Erreur Wikidata pour {title}: {e}")
+        logger.warning(f"Erreur Wikidata pour {title}: {e}")
         return {}
 
 
@@ -168,14 +172,14 @@ def fetch_hatvp_info(name: str) -> dict:
             "hatvp_url": f"https://www.hatvp.fr/consulter-les-declarations/?nom={quote(name)}"
         }
 
-        logger.info(f"✅ HATVP : déclaration trouvée pour {name}")
+        logger.info(f"HATVP : déclaration trouvée pour {name}")
         return info
 
     except (URLError, json.JSONDecodeError) as e:
-        logger.debug(f"ℹ️ HATVP : pas de données pour {name} ({e})")
+        logger.debug(f"HATVP : pas de données pour {name} ({e})")
         return {}
     except Exception as e:
-        logger.debug(f"ℹ️ HATVP : erreur pour {name} ({e})")
+        logger.debug(f"HATVP : erreur pour {name} ({e})")
         return {}
 
 
@@ -189,10 +193,10 @@ def process_file(file_path):
 
         # On saute si déjà enrichi
         if 'wikipedia_enriched' in metadata:
-            logger.info(f"ℹ️ {title} déjà enrichi. Ignoré.")
+            logger.info(f"{title} déjà enrichi. Ignoré.")
             return
 
-        logger.info(f"📖 Recherche Wikipedia pour : {title} ({entity_type})...")
+        logger.info(f"Recherche Wikipedia pour : {title} ({entity_type})...")
 
         # 1. Récupération du résumé Wikipedia
         wiki_url = ""
@@ -257,13 +261,13 @@ def process_file(file_path):
         with open(file_path, 'wb') as f:
             frontmatter.dump(frontmatter.Post(content, **metadata), f)
 
-        logger.info(f"✅ {title} enrichi ({len(sources)} sources)")
+        logger.info(f"{title} enrichi ({len(sources)} sources)")
 
     except Exception as e:
         logger.error(f"Erreur critique sur {file_path} : {e}", exc_info=True)
 
 def main():
-    logger.info("🚀 Lancement de l'enrichissement multi-sources (Wikipedia + Wikidata + HATVP)...")
+    logger.info("Lancement de l'enrichissement multi-sources (Wikipedia + Wikidata + HATVP)...")
     
     # Cible uniquement les dossiers d'entités
     target_folders = ["personnes", "institutions", "companies", "écoles", "medias", "think tanks"]
@@ -273,10 +277,15 @@ def main():
         if Path(folder).exists():
             md_files.extend(Path(folder).rglob("*.md"))
     
-    for f in md_files:
+    total = len(md_files)
+    for i, f in enumerate(md_files):
+        logger.info(f"Processing {i + 1}/{total}...")
         process_file(f)
+        # Delay between entities to avoid API rate limits
+        if i < total - 1:
+            time.sleep(INTER_ENTITY_DELAY)
         
-    logger.info("🏁 Enrichissement terminé.")
+    logger.info("Enrichissement terminé.")
 
 if __name__ == "__main__":
     main()
