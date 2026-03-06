@@ -28,18 +28,6 @@ llm:
   temperature: 0.2
   max_tokens: 2048
 
-# Configuration des Flux RSS (Veille)
-rss_feeds:
-  - name: "Le Monde - Politique"
-    url: "http://www.lemonde.fr/rss/une.xml"
-    keywords: ["élite", "nomination", "gouvernement", "patron", "dirigeant", "ministre"]
-  - name: "Les Échos"
-    url: "https://www.lesechos.fr/rss/rss_actualites.xml"
-    keywords: ["PDG", "conseil d'administration", "stratégie", "CAC40"]
-  - name: "AFP - Monde"
-    url: "https://www.afp.com/fr/actualites/accueil/rss"
-    keywords: ["président", "directeur", "chef"]
-
 # Paramètres de linkage (Génération de liens)
 linking:
   min_confidence_score: 0.8

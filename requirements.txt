@@ -18,7 +18,6 @@ spacy>=3.7.0  # NER pour la génération automatique de liens
 # Utilitaires
 # ========================================
 colorlog>=6.7.0  # Logs colorés (optionnel mais recommandé)
-feedparser>=6.0.10  # Pour parser les flux RSS
 wikipedia         # Nécessaire pour le script d'enrichissement Wikipédia
 # ========================================
 # Pour les tests (optionnel)
