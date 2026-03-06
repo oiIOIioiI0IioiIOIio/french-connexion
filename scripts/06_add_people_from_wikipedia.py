@@ -1525,7 +1525,7 @@ def explore_network_exponential(initial_query: str, current_depth: int = 0,
         
         VISITED_PEOPLE.add(person_name)
         
-        logger.info(f"\n{'─'*60}")
+        logger.info(f"\n{'-'*60}")
         logger.info(f" Traitement : {person_name} (profondeur {current_depth})")
         
         # Créer l'entité personne

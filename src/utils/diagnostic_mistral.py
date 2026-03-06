@@ -1,61 +1,61 @@
 #!/usr/bin/env python3
 """
-Script de diagnostic pour vérifier l'installation du SDK Mistral AI
+Script de diagnostic pour verifier l'installation du SDK Mistral AI
 """
 
 import sys
 
 print("=== DIAGNOSTIC MISTRAL AI SDK ===\n")
 
-# Test 1: Vérifier si mistralai est installé
+# Test 1: Verifier si mistralai est installe
 try:
     import mistralai
-    print("✅ Package 'mistralai' installé")
+    print("[OK] Package 'mistralai' installe")
     
-    # Essayer de récupérer la version
+    # Essayer de recuperer la version
     try:
         version = mistralai.__version__
         print(f"   Version : {version}")
     except AttributeError:
-        print("   ⚠️  Impossible de déterminer la version")
+        print("   [WARN] Impossible de determiner la version")
     
 except ImportError:
-    print("❌ Package 'mistralai' NON installé")
+    print("[FAIL] Package 'mistralai' NON installe")
     print("\nInstallez-le avec :")
     print("   pip install mistralai")
     sys.exit(1)
 
-# Test 2: Vérifier l'API v1.0+ (nouvelle)
+# Test 2: Verifier l'API v1.0+ (nouvelle)
 print("\n--- Test API v1.0+ ---")
 try:
     from mistralai import Mistral, ChatMessage
-    print("✅ API v1.0+ disponible (Mistral, ChatMessage)")
-    print("   Recommandé : Utilisez cette version")
+    print("[OK] API v1.0+ disponible (Mistral, ChatMessage)")
+    print("   Recommande : Utilisez cette version")
 except ImportError as e:
-    print(f"❌ API v1.0+ non disponible")
-    print(f"   Détails : {e}")
+    print("[FAIL] API v1.0+ non disponible")
+    print(f"   Details : {e}")
 
-# Test 3: Vérifier l'API v0.x (ancienne)
+# Test 3: Verifier l'API v0.x (ancienne)
 print("\n--- Test API v0.x ---")
 try:
     from mistralai.client import MistralClient
-    print("✅ API v0.x disponible (MistralClient)")
-    print("   Note : Version ancienne, considérez une mise à jour")
+    print("[OK] API v0.x disponible (MistralClient)")
+    print("   Note : Version ancienne, considerez une mise a jour")
     
-    # Test différents chemins d'import pour ChatMessage
+    # Test differents chemins d'import pour ChatMessage
     try:
         from mistralai.models.chat_completion import ChatMessage
-        print("   ✅ ChatMessage importable depuis mistralai.models.chat_completion")
+        print("   [OK] ChatMessage importable depuis mistralai.models.chat_completion")
     except ImportError:
         try:
             from mistralai.models.models import ChatMessage
-            print("   ✅ ChatMessage importable depuis mistralai.models.models")
+            print("   [OK] ChatMessage importable depuis mistralai.models.models")
         except ImportError:
-            print("   ⚠️  ChatMessage non trouvé dans les emplacements habituels")
+            print("   [WARN] ChatMessage non trouve dans les emplacements habituels")
             
 except ImportError as e:
-    print(f"❌ API v0.x non disponible")
-    print(f"   Détails : {e}")
+    print("[FAIL] API v0.x non disponible")
+    print(f"   Details : {e}")
 
 # Test 4: Liste des modules disponibles
 print("\n--- Contenu du package mistralai ---")
@@ -71,17 +71,17 @@ except Exception as e:
 print("\n=== RECOMMANDATIONS ===")
 try:
     from mistralai import Mistral
-    print("✅ Votre installation est à jour (v1.0+)")
+    print("[OK] Votre installation est a jour (v1.0+)")
     print("   Aucune action requise")
 except ImportError:
     try:
         from mistralai.client import MistralClient
-        print("⚠️  Vous utilisez une version ancienne (v0.x)")
-        print("   Recommandation : Mettez à jour avec :")
+        print("[WARN] Vous utilisez une version ancienne (v0.x)")
+        print("   Recommandation : Mettez a jour avec :")
         print("   pip install --upgrade mistralai")
     except ImportError:
-        print("❌ Installation corrompue ou incomplète")
-        print("   Recommandation : Réinstallez :")
+        print("[FAIL] Installation corrompue ou incomplete")
+        print("   Recommandation : Reinstallez :")
         print("   pip uninstall mistralai")
         print("   pip install mistralai")
 
