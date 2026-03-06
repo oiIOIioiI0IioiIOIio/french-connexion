@@ -10,7 +10,6 @@
 - **NLP**: Spacy (reconnaissance d'entités nommées)
 - **Frontend**: Vue.js 3 + Tailwind CSS
 - **Format de données**: Markdown avec YAML frontmatter
-- **Veille**: Flux RSS + parsing
 - **Versionning**: Git avec commits automatiques
 
 ---
@@ -20,7 +19,7 @@
 ```
 french-connexion/
 ├── config/
-│   └── config.yaml              # Configuration centrale (types, IA, RSS)
+│   └── config.yaml              # Configuration centrale (types, IA)
 ├── src/
 │   ├── utils/                   # Modules utilitaires réutilisables
 │   │   ├── logger.py           # Système de logging
@@ -35,7 +34,6 @@ french-connexion/
 │   ├── 01_classify_and_structure.py    # Classification & structuration IA
 │   ├── 02_link_entities.py             # Création de liens wiki [[...]]
 │   ├── 03_enrich_wikipedia.py          # Enrichissement via Wikipedia
-│   ├── 04_rss_watchdog.py              # Veille automatique RSS
 │   └── 05_repo_optimizer.py            # Standardisation des métadonnées
 ├── personnes/                   # Dossier des fiches personnes
 ├── institutions/                # Dossier des fiches institutions
@@ -71,11 +69,6 @@ llm:                   # Configuration de l'IA
   temperature: 0.2
   max_tokens: 2048
 
-rss_feeds:             # Flux RSS à surveiller
-  - name: "Le Monde"
-    url: "..."
-    keywords: ["élite", "nomination", ...]
-
 linking:               # Paramètres de création de liens
   min_confidence_score: 0.8
   ignore_patterns: ["le", "la", ...]
@@ -84,7 +77,6 @@ linking:               # Paramètres de création de liens
 **⚠️ Conséquences des modifications** :
 - Modifier un `folder` déplacera les fichiers lors du prochain run de `01_classify_and_structure.py`
 - Changer le modèle IA affectera la qualité et le coût des analyses
-- Ajouter des mots-clés RSS augmente la portée de la veille automatique
 
 ---
 
@@ -428,55 +420,6 @@ metadata['wikipedia_enriched'] = True
 - Si le titre ne correspond pas exactement à Wikipedia, la recherche échoue
 - Gestion des pages ambiguës : essaie la première suggestion
 - Les données extraites peuvent écraser les données manuelles existantes
-
----
-
-### Script 4 : `04_rss_watchdog.py`
-
-**Rôle** : **Veille automatique** sur les flux RSS pour détecter les nouvelles entités.
-
-**Workflow** :
-```
-1. Charger la config (flux RSS + mots-clés)
-2. Pour chaque flux RSS :
-   a. Parser les articles (feedparser)
-   b. Filtrer par mots-clés ("élite", "nomination", "PDG", etc.)
-   c. Si match → extraire les entités nommées avec l'IA
-   d. Créer des brouillons dans "00_Brouillons_RSS/"
-3. Commit Git automatique
-```
-
-**Code clé** :
-```python
-def process_feed(feed_url, keywords):
-    feed = feedparser.parse(feed_url)
-    
-    for entry in feed.entries:
-        title = entry.title
-        summary = entry.get('summary', "")
-        
-        # Vérification mots-clés
-        if any(kw.lower() in title.lower() for kw in keywords):
-            extract_entities_and_create_draft(title, summary, entry.link)
-
-def extract_entities_and_create_draft(title, content, url):
-    prompt = f"""
-    Extrais les noms des personnes ou organisations importantes.
-    Retourne une liste JSON : ["Nom1", "Nom2"]
-    
-    Titre: {title}
-    Résumé: {content}
-    """
-    
-    response = llm.client.chat(...)
-    # Créer des brouillons pour validation manuelle
-```
-
-**⚠️ Conséquences** :
-- Exécution périodique recommandée (cron job quotidien)
-- Les brouillons nécessitent validation manuelle avant intégration
-- Risque de faux positifs si les mots-clés sont trop larges
-- Nécessite configuration Git (user.name/email)
 
 ---
 
@@ -869,7 +812,6 @@ python scripts/02_link_entities.py
 | `01_classify_and_structure.py` | Tous les `.md` non classés | ⚠️ Oui (via Git) | 1 appel/fichier |
 | `02_link_entities.py` | Tous les `.md` | ✅ Oui | Gratuit (Spacy local) |
 | `03_enrich_wikipedia.py` | Fiches non enrichies | ✅ Oui | 1 appel/fiche |
-| `04_rss_watchdog.py` | Brouillons uniquement | ✅ Oui | 1 appel/article |
 | `05_repo_optimizer.py` | ⚠️ Toutes les fiches d'un type | ⚠️ Backup requis | Gratuit |
 | `06_add_people_from_wikipedia.py` 🆕 | Nouvelles fiches uniquement | ✅ Oui | 2-4 appels/personne (optimisé) |
 
