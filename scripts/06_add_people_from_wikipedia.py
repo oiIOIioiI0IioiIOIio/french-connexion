@@ -1,40 +1,40 @@
 """
-🧠 ŒIL DE DIEU - Script d'exploration intelligente de réseaux
+ ŒIL DE DIEU - Script d'exploration intelligente de réseaux
 Enhanced Version with Smart Batch Processing and Pre-validation
 
 NOUVEAUTÉS (Enhanced Features):
 ==============================
 
-1. 📋 DEEP QUERY ANALYSIS
+1.  DEEP QUERY ANALYSIS
    - Analyse approfondie de la requête avant toute exploration
    - Plan de recherche généré avec priorités et estimations
    - Focus areas identifiés automatiquement
 
-2. 🎯 PRÉ-VALIDATION INTELLIGENTE
+2.  PRÉ-VALIDATION INTELLIGENTE
    - Évaluation des entités AVANT appels Wikipedia (économie d'API calls)
    - Score 0-100 pour chaque entité avec raisonnement
    - Seuil configurable (MIN_PRIORITY_SCORE = 70)
    - Skip automatique des entités peu pertinentes
 
-3. ⚙️ LIMITES CONFIGURABLES
+3.  LIMITES CONFIGURABLES
    - MAX_ENTITIES_PER_RUN : Limite d'entités à traiter (15 en GH Actions, 50 en local)
    - MAX_WIKIPEDIA_CALLS : Limite d'appels Wikipedia (20 en GH Actions, 100 en local)
    - TIME_LIMIT_SECONDS : Limite de temps (300s = 5min en GH Actions)
    - Détection automatique de l'environnement GitHub Actions
 
-4. 🛡️ GRACEFUL SHUTDOWN
+4.  GRACEFUL SHUTDOWN
    - Arrêt propre quand une limite est atteinte
    - Sauvegarde des résultats partiels
    - Messages clairs sur la raison de l'arrêt
    - Pas de timeout brutal
 
-5. 📊 SUIVI DE PROGRESSION
+5.  SUIVI DE PROGRESSION
    - Affichage "Processing X/Y entities..."
    - Temps écoulé en temps réel
    - Compteurs de pré-validations
    - Statistiques d'économie d'API calls
 
-6. 🔄 FLUX OPTIMISÉ
+6.  FLUX OPTIMISÉ
    Avant : Query → Identify ALL → Wikipedia ALL → Validate → Create
    Après  : Query → Deep Analysis → Plan → For each: Pre-validate → Wikipedia → Create
    
@@ -214,14 +214,14 @@ def fetch_wikidata_for_person(person_name: str) -> dict:
             except (KeyError, IndexError):
                 pass
 
-        logger.debug(f"✅ Wikidata : {len(info)} champs pour {person_name}")
+        logger.debug(f" Wikidata : {len(info)} champs pour {person_name}")
         return info
 
     except (URLError, json.JSONDecodeError) as e:
-        logger.debug(f"ℹ️ Wikidata indisponible pour {person_name}: {e}")
+        logger.debug(f" Wikidata indisponible pour {person_name}: {e}")
         return {}
     except Exception as e:
-        logger.debug(f"ℹ️ Erreur Wikidata pour {person_name}: {e}")
+        logger.debug(f" Erreur Wikidata pour {person_name}: {e}")
         return {}
 
 
@@ -249,7 +249,7 @@ def fetch_hatvp_for_person(name: str) -> dict:
             "hatvp_function": declaration.get("fonction", ""),
             "hatvp_url": f"https://www.hatvp.fr/consulter-les-declarations/?nom={quote(name)}"
         }
-        logger.debug(f"✅ HATVP : déclaration trouvée pour {name}")
+        logger.debug(f" HATVP : déclaration trouvée pour {name}")
         return info
 
     except (URLError, json.JSONDecodeError):
@@ -341,7 +341,7 @@ class RelationshipDetail:
 
 def safe_mistral_call(prompt: str, system_prompt: str = None, temperature: float = 0.2, response_format: dict = None) -> dict:
     """
-    🛡️ Wrapper sécurisé pour les appels Mistral API avec gestion d'erreurs complète
+     Wrapper sécurisé pour les appels Mistral API avec gestion d'erreurs complète
     
     Args:
         prompt: Le prompt utilisateur
@@ -371,21 +371,21 @@ def safe_mistral_call(prompt: str, system_prompt: str = None, temperature: float
         
         # Validation de la réponse
         if not chat_response or not hasattr(chat_response, 'choices'):
-            logger.error("❌ Réponse Mistral invalide : pas de choices")
+            logger.error(" Réponse Mistral invalide : pas de choices")
             return {}
         
         if not chat_response.choices or len(chat_response.choices) == 0:
-            logger.error("❌ Réponse Mistral invalide : choices vide")
+            logger.error(" Réponse Mistral invalide : choices vide")
             return {}
         
         first_choice = chat_response.choices[0]
         if not hasattr(first_choice, 'message') or not first_choice.message:
-            logger.error("❌ Réponse Mistral invalide : pas de message")
+            logger.error(" Réponse Mistral invalide : pas de message")
             return {}
         
         content = first_choice.message.content
         if not content:
-            logger.error("❌ Réponse Mistral invalide : contenu vide")
+            logger.error(" Réponse Mistral invalide : contenu vide")
             return {}
         
         # Si format JSON attendu, parser et valider
@@ -393,11 +393,11 @@ def safe_mistral_call(prompt: str, system_prompt: str = None, temperature: float
             try:
                 result = json.loads(content)
                 if not isinstance(result, dict):
-                    logger.error(f"❌ Réponse JSON invalide : n'est pas un dict")
+                    logger.error(f" Réponse JSON invalide : n'est pas un dict")
                     return {}
                 return result
             except json.JSONDecodeError as e:
-                logger.error(f"❌ Erreur parsing JSON (après retries) : {e}")
+                logger.error(f" Erreur parsing JSON (après retries) : {e}")
                 logger.error(f"Contenu reçu : {content[:200]}...")
                 return {}
         
@@ -405,21 +405,21 @@ def safe_mistral_call(prompt: str, system_prompt: str = None, temperature: float
         return {"content": content}
         
     except SDKError as e:
-        logger.error(f"❌ Erreur SDK Mistral (après retries) : {e}")
+        logger.error(f" Erreur SDK Mistral (après retries) : {e}")
         return {}
     except AttributeError as e:
-        logger.error(f"❌ Erreur structure réponse Mistral : {e}")
+        logger.error(f" Erreur structure réponse Mistral : {e}")
         return {}
     except Exception as e:
-        logger.error(f"❌ Erreur Mistral API : {type(e).__name__}: {e}")
+        logger.error(f" Erreur Mistral API : {type(e).__name__}: {e}")
         return {}
 
 def mistral_identify_entities_comprehensive(query: str, context: str = "", query_type_hint: str = None) -> dict:
     """
-    🧠 Identification complète des entités via Mistral
+     Identification complète des entités via Mistral
     Utilise la connaissance générale pour identifier personnes et institutions
     """
-    logger.info(f"🧠 Identification complète des entités pour : {query}")
+    logger.info(f" Identification complète des entités pour : {query}")
     
     context_text = f"\n\nCONTEXTE ADDITIONNEL :\n{context}" if context else ""
     type_hint = f"\n\nHINT : Cette requête est de type '{query_type_hint}'" if query_type_hint else ""
@@ -432,7 +432,7 @@ REQUÊTE : "{query}"{context_text}{type_hint}
 Ta mission : identifier de manière EXHAUSTIVE et RIGOUREUSE toutes les personnes et institutions 
 pertinentes, en utilisant ta connaissance générale (niveau journalistique).
 
-⚠️ RÈGLE CRITIQUE : 
+ RÈGLE CRITIQUE : 
 - Si la requête contient "dirigeants", "membres", "présidents", "ministres" → ce sont des PERSONNES
 - JAMAIS traiter un groupe de personnes comme une institution
 - "dirigeants de X" = personnes, pas institution
@@ -534,29 +534,29 @@ Retourne un JSON complet :
             EXPLORATION_STATS['entities_identified'] += len(result.get('people', []))
             EXPLORATION_STATS['institutions_identified'] += len(result.get('institutions', []))
             
-            logger.info(f"✅ Sujet principal : {result.get('main_subject', 'N/A')} (type: {result.get('subject_type', 'N/A')})")
-            logger.info(f"✅ {len(result.get('people', []))} personnes identifiées")
-            logger.info(f"✅ {len(result.get('institutions', []))} institutions identifiées")
+            logger.info(f" Sujet principal : {result.get('main_subject', 'N/A')} (type: {result.get('subject_type', 'N/A')})")
+            logger.info(f" {len(result.get('people', []))} personnes identifiées")
+            logger.info(f" {len(result.get('institutions', []))} institutions identifiées")
             
             return result
         
         return EMPTY_ENTITY_RESPONSE.copy()
         
     except SDKError as e:
-        logger.error(f"❌ Erreur SDK Mistral (après retries) identification : {e}")
+        logger.error(f" Erreur SDK Mistral (après retries) identification : {e}")
         EXPLORATION_STATS['errors'] += 1
         return EMPTY_ENTITY_RESPONSE.copy()
     except Exception as e:
-        logger.error(f"❌ Erreur Mistral identification : {e}")
+        logger.error(f" Erreur Mistral identification : {e}")
         EXPLORATION_STATS['errors'] += 1
         return EMPTY_ENTITY_RESPONSE.copy()
 
 def answer_initial_query_directly(query: str) -> dict:
     """
-    🎯 RÉPOND DIRECTEMENT à la requête initiale AVANT l'exploration récursive
+     RÉPOND DIRECTEMENT à la requête initiale AVANT l'exploration récursive
     Distingue les requêtes sur des GROUPES DE PERSONNES vs des INSTITUTIONS
     """
-    logger.info(f"🎯 Réponse directe à la requête : {query}")
+    logger.info(f" Réponse directe à la requête : {query}")
     
     prompt = f"""
 Tu es un expert en analyse de requêtes et identification d'entités.
@@ -680,29 +680,29 @@ Retourne un JSON complet :
             institutions = result.get('institutions', [])
             interpretation = result.get('interpretation', '')
             
-            logger.info(f"✅ Type de requête identifié : {query_type}")
-            logger.info(f"✅ Sujet principal : {result.get('main_subject', 'N/A')}")
-            logger.info(f"✅ Interprétation : {interpretation}")
-            logger.info(f"✅ {len(people)} personnes identifiées directement")
-            logger.info(f"✅ {len(institutions)} institutions identifiées")
+            logger.info(f" Type de requête identifié : {query_type}")
+            logger.info(f" Sujet principal : {result.get('main_subject', 'N/A')}")
+            logger.info(f" Interprétation : {interpretation}")
+            logger.info(f" {len(people)} personnes identifiées directement")
+            logger.info(f" {len(institutions)} institutions identifiées")
             
             return result
         
         return EMPTY_QUERY_RESPONSE.copy()
         
     except SDKError as e:
-        logger.error(f"❌ Erreur SDK Mistral (après retries) réponse directe : {e}")
+        logger.error(f" Erreur SDK Mistral (après retries) réponse directe : {e}")
         return EMPTY_QUERY_RESPONSE.copy()
     except Exception as e:
-        logger.error(f"❌ Erreur réponse directe : {e}")
+        logger.error(f" Erreur réponse directe : {e}")
         return EMPTY_QUERY_RESPONSE.copy()
 
 def mistral_analyze_query_deeply(query: str) -> dict:
     """
-    🧠 ANALYSE APPROFONDIE de la requête avant exploration
+     ANALYSE APPROFONDIE de la requête avant exploration
     Génère une compréhension détaillée avec contexte, priorités et stratégie
     """
-    logger.info(f"🧠 Analyse approfondie de la requête : {query}")
+    logger.info(f" Analyse approfondie de la requête : {query}")
     
     prompt = f"""
 Tu es un expert en analyse de requêtes pour la cartographie de réseaux de pouvoir et d'influence.
@@ -779,7 +779,7 @@ Retourne un JSON complet :
             result = json.loads(chat_response.choices[0].message.content)
             EXPLORATION_STATS['mistral_calls'] += 1
             
-            logger.info(f"✅ Analyse complète :")
+            logger.info(f" Analyse complète :")
             logger.info(f"   Intent : {result.get('query_intent', 'N/A')}")
             logger.info(f"   Entités estimées : {result.get('estimated_total_entities', 'N/A')}")
             logger.info(f"   Profondeur recommandée : {result.get('recommended_depth', 'N/A')}")
@@ -790,20 +790,20 @@ Retourne un JSON complet :
         return {}
         
     except SDKError as e:
-        logger.error(f"❌ Erreur SDK Mistral (après retries) analyse approfondie : {e}")
+        logger.error(f" Erreur SDK Mistral (après retries) analyse approfondie : {e}")
         EXPLORATION_STATS['errors'] += 1
         return {}
     except Exception as e:
-        logger.error(f"❌ Erreur analyse approfondie : {e}")
+        logger.error(f" Erreur analyse approfondie : {e}")
         EXPLORATION_STATS['errors'] += 1
         return {}
 
 def generate_research_plan(query: str) -> dict:
     """
-    📋 GÉNÈRE UN PLAN DE RECHERCHE complet
+     GÉNÈRE UN PLAN DE RECHERCHE complet
     Combine l'analyse approfondie avec une stratégie d'exécution
     """
-    logger.info(f"📋 Génération du plan de recherche")
+    logger.info(f" Génération du plan de recherche")
     
     # Analyse approfondie de la requête
     deep_analysis = mistral_analyze_query_deeply(query)
@@ -838,7 +838,7 @@ def generate_research_plan(query: str) -> dict:
         'complexity': deep_analysis.get('complexity', 'medium')
     }
     
-    logger.info(f"✅ Plan de recherche généré :")
+    logger.info(f" Plan de recherche généré :")
     logger.info(f"   Cibles primaires : {len(primary_targets)}")
     logger.info(f"   Cibles secondaires : {len(secondary_targets)}")
     logger.info(f"   Estimation totale : {plan['estimated_total']} entités")
@@ -847,10 +847,10 @@ def generate_research_plan(query: str) -> dict:
 
 def mistral_score_entity_relevance(entity_name: str, query: str, research_plan: dict) -> Tuple[int, str]:
     """
-    🎯 PRÉ-VALIDATION d'une entité AVANT appel Wikipedia
+     PRÉ-VALIDATION d'une entité AVANT appel Wikipedia
     Score 0-100 + raisonnement (économie d'API calls)
     """
-    logger.info(f"🎯 Pré-validation de : {entity_name}")
+    logger.info(f" Pré-validation de : {entity_name}")
     
     focus_areas = research_plan.get('focus_areas', [])
     focus_text = ', '.join(focus_areas) if focus_areas else 'général'
@@ -941,11 +941,11 @@ Retourne un JSON :
         return (50, "Erreur lors de l'évaluation")
         
     except SDKError as e:
-        logger.error(f"❌ Erreur SDK Mistral (après retries) pré-validation : {e}")
+        logger.error(f" Erreur SDK Mistral (après retries) pré-validation : {e}")
         EXPLORATION_STATS['errors'] += 1
         return (50, f"Erreur SDK : {str(e)}")
     except Exception as e:
-        logger.error(f"❌ Erreur pré-validation : {e}")
+        logger.error(f" Erreur pré-validation : {e}")
         EXPLORATION_STATS['errors'] += 1
         return (50, f"Erreur : {str(e)}")
 
@@ -953,10 +953,10 @@ Retourne un JSON :
 def mistral_extract_detailed_relationships(person_name: str, bio_text: str, 
                                           all_known_people: Set[str]) -> List[RelationshipDetail]:
     """
-    🔗 Extraction DÉTAILLÉE des relations depuis une biographie Wikipedia
+     Extraction DÉTAILLÉE des relations depuis une biographie Wikipedia
     Retourne des objets RelationshipDetail avec descriptions précises
     """
-    logger.info(f"🔗 Extraction détaillée des relations pour : {person_name}")
+    logger.info(f" Extraction détaillée des relations pour : {person_name}")
     
     known_people_list = list(all_known_people)[:50]  # Limiter pour le prompt
     
@@ -1054,33 +1054,33 @@ Retourne un JSON :
                     relationships.append(relationship)
             
             EXPLORATION_STATS['relationships_extracted'] += len(relationships)
-            logger.info(f"✅ {len(relationships)} relations détaillées extraites (confiance ≥ 0.6)")
+            logger.info(f" {len(relationships)} relations détaillées extraites (confiance ≥ 0.6)")
             
             return relationships
         
         return []
         
     except SDKError as e:
-        logger.error(f"❌ Erreur SDK Mistral (après retries) extraction relations : {e}")
+        logger.error(f" Erreur SDK Mistral (après retries) extraction relations : {e}")
         EXPLORATION_STATS['errors'] += 1
         return []
     except Exception as e:
-        logger.error(f"❌ Erreur extraction relations : {e}")
+        logger.error(f" Erreur extraction relations : {e}")
         EXPLORATION_STATS['errors'] += 1
         return []
 
 def wikipedia_factcheck_person_rigorous(person_name: str) -> Optional[dict]:
     """
-    📖 Factchecking RIGOUREUX d'une personne via Wikipedia
+     Factchecking RIGOUREUX d'une personne via Wikipedia
     Niveau journalistique : vérification multiple, sources croisées
     """
     global WIKIPEDIA_CALLS_COUNT
     
-    logger.info(f"📖 Factcheck rigoureux pour : {person_name}")
+    logger.info(f" Factcheck rigoureux pour : {person_name}")
     
     # Vérifier limite d'appels Wikipedia
     if MAX_WIKIPEDIA_CALLS > 0 and WIKIPEDIA_CALLS_COUNT >= MAX_WIKIPEDIA_CALLS:
-        logger.warning(f"⚠️  Limite d'appels Wikipedia atteinte ({MAX_WIKIPEDIA_CALLS})")
+        logger.warning(f"  Limite d'appels Wikipedia atteinte ({MAX_WIKIPEDIA_CALLS})")
         EXPLORATION_STATS['wikipedia_limit_reached'] = EXPLORATION_STATS.get('wikipedia_limit_reached', 0) + 1
         return None
     
@@ -1093,7 +1093,7 @@ def wikipedia_factcheck_person_rigorous(person_name: str) -> Optional[dict]:
         summary = page.summary
         full_content = page.content[:5000]  # Plus de contenu pour analyse
         
-        logger.info(f"✅ Page Wikipedia trouvée : {page.title}")
+        logger.info(f" Page Wikipedia trouvée : {page.title}")
         
         # Schéma d'extraction détaillé
         schema = """
@@ -1177,19 +1177,19 @@ def wikipedia_factcheck_person_rigorous(person_name: str) -> Optional[dict]:
         extracted_data['all_sources'] = all_sources
 
         EXPLORATION_STATS['factcheck_success'] += 1
-        logger.info(f"✅ Factcheck réussi : {page.title} ({len(relationships)} relations, {len(institutions)} institutions, {len(all_sources)} sources)")
+        logger.info(f" Factcheck réussi : {page.title} ({len(relationships)} relations, {len(institutions)} institutions, {len(all_sources)} sources)")
         
         return extracted_data
         
     except wikipedia.exceptions.DisambiguationError as e:
-        logger.warning(f"⚠️  Ambiguïté pour {person_name}. Options : {e.options[:5]}")
+        logger.warning(f"  Ambiguïté pour {person_name}. Options : {e.options[:5]}")
         
         # Tentative avec la première option
         try:
             page = wikipedia.page(e.options[0])
             full_content = page.content[:5000]
             
-            logger.info(f"✅ Utilisation de la page : {page.title}")
+            logger.info(f" Utilisation de la page : {page.title}")
             
             schema = """
             {
@@ -1236,17 +1236,17 @@ def wikipedia_factcheck_person_rigorous(person_name: str) -> Optional[dict]:
             return extracted_data
             
         except Exception as e2:
-            logger.error(f"❌ Échec résolution ambiguïté : {e2}")
+            logger.error(f" Échec résolution ambiguïté : {e2}")
             EXPLORATION_STATS['factcheck_failed'] += 1
             return None
             
     except wikipedia.exceptions.PageError:
-        logger.warning(f"❌ Pas de page Wikipedia pour : {person_name}")
+        logger.warning(f" Pas de page Wikipedia pour : {person_name}")
         EXPLORATION_STATS['factcheck_not_found'] += 1
         return None
         
     except Exception as e:
-        logger.error(f"❌ Erreur factcheck {person_name} : {e}")
+        logger.error(f" Erreur factcheck {person_name} : {e}")
         EXPLORATION_STATS['factcheck_failed'] += 1
         EXPLORATION_STATS['errors'] += 1
         return None
@@ -1283,18 +1283,18 @@ Maximum 15 institutions, triées par importance.
         return []
         
     except SDKError as e:
-        logger.error(f"❌ Erreur SDK Mistral (après retries) extraction institutions : {e}")
+        logger.error(f" Erreur SDK Mistral (après retries) extraction institutions : {e}")
         return []
     except Exception as e:
-        logger.error(f"❌ Erreur extraction institutions : {e}")
+        logger.error(f" Erreur extraction institutions : {e}")
         return []
 
 def validate_person_relevance_comprehensive(person: PersonEntity, original_query: str) -> Tuple[bool, float, str]:
     """
-    ✅ Validation COMPLÈTE de la pertinence d'une personne
+     Validation COMPLÈTE de la pertinence d'une personne
     Retourne (is_valid, confidence_score, detailed_reason)
     """
-    logger.info(f"✅ Validation complète : {person.name} (profondeur {person.depth})")
+    logger.info(f" Validation complète : {person.name} (profondeur {person.depth})")
     
     # Profondeur 0 : sujet principal, toujours validé avec score max
     if person.depth == 0:
@@ -1327,7 +1327,7 @@ Profondeur 1 (1er degré) :
 - Score 0.6-0.8 : Lien SIGNIFICATIF (relation professionnelle importante)
 - Score < 0.6 : REJETER (lien trop faible ou indirect)
 
-Profondeur 2 (2ème degr��) :
+Profondeur 2 (2ème degré) :
 - Score ≥ 0.7 : Lien IMPORTANT via une personne clé (membre même réseau, collaborateur de collaborateur)
 - Score 0.6-0.7 : Lien MODÉRÉ (connexion professionnelle indirecte mais significative)
 - Score < 0.6 : REJETER (trop éloigné de la requête)
@@ -1393,29 +1393,29 @@ Sois STRICT : privilégie la QUALITÉ sur la QUANTITÉ. Un réseau de 20 personn
             EXPLORATION_STATS['validations_performed'] += 1
             
             if is_relevant and confidence >= CONFIDENCE_THRESHOLD:
-                logger.info(f"✅ {person.name} → VALIDÉ (score: {confidence:.2f})")
+                logger.info(f" {person.name} → VALIDÉ (score: {confidence:.2f})")
                 EXPLORATION_STATS['validations_passed'] += 1
                 return (True, confidence, full_reason)
             else:
-                logger.warning(f"❌ {person.name} → REJETÉ (score: {confidence:.2f}) : {reason}")
+                logger.warning(f" {person.name} → REJETÉ (score: {confidence:.2f}) : {reason}")
                 EXPLORATION_STATS['validations_rejected'] += 1
                 return (False, confidence, full_reason)
         
         return (False, 0.0, "Erreur de validation")
         
     except SDKError as e:
-        logger.error(f"❌ Erreur SDK Mistral (après retries) validation : {e}")
+        logger.error(f" Erreur SDK Mistral (après retries) validation : {e}")
         EXPLORATION_STATS['errors'] += 1
         return (False, 0.0, f"Erreur SDK : {e}")
     except Exception as e:
-        logger.error(f"❌ Erreur validation : {e}")
+        logger.error(f" Erreur validation : {e}")
         EXPLORATION_STATS['errors'] += 1
         return (False, 0.0, f"Erreur technique : {e}")
 
 def explore_network_exponential(initial_query: str, current_depth: int = 0, 
                                max_depth: int = MAX_DEPTH, initial_query_type: str = None) -> None:
     """
-    🌳 Exploration EXPONENTIELLE du réseau (tous les chemins, pas de limite)
+     Exploration EXPONENTIELLE du réseau (tous les chemins, pas de limite)
     Exploration complète niveau par niveau
     ENHANCED: Avec limites configurables et pré-validation
     """
@@ -1423,24 +1423,24 @@ def explore_network_exponential(initial_query: str, current_depth: int = 0,
     global WIKIPEDIA_CALLS_COUNT, START_TIME
     
     if current_depth >= max_depth:
-        logger.info(f"🛑 Profondeur maximale atteinte ({max_depth})")
+        logger.info(f" Profondeur maximale atteinte ({max_depth})")
         return
     
     # Vérifier la limite de temps
     if TIME_LIMIT_SECONDS > 0 and (time.time() - START_TIME) > TIME_LIMIT_SECONDS:
-        logger.warning(f"⚠️  LIMITE DE TEMPS ATTEINTE ({TIME_LIMIT_SECONDS}s / {TIME_LIMIT_SECONDS//60}min)")
-        print(f"\n⚠️  Arrêt gracieux : limite de temps atteinte ({TIME_LIMIT_SECONDS//60} minutes)")
+        logger.warning(f"  LIMITE DE TEMPS ATTEINTE ({TIME_LIMIT_SECONDS}s / {TIME_LIMIT_SECONDS//60}min)")
+        print(f"\n  Arrêt gracieux : limite de temps atteinte ({TIME_LIMIT_SECONDS//60} minutes)")
         return
     
     # Vérifier la limite d'entités
     processed_entities = len([e for e in ALL_FOUND_ENTITIES if isinstance(e, PersonEntity)])
     if MAX_ENTITIES_PER_RUN > 0 and processed_entities >= MAX_ENTITIES_PER_RUN:
-        logger.warning(f"⚠️  LIMITE D'ENTITÉS ATTEINTE ({MAX_ENTITIES_PER_RUN})")
-        print(f"\n⚠️  Arrêt gracieux : limite d'entités atteinte ({MAX_ENTITIES_PER_RUN} personnes)")
+        logger.warning(f"  LIMITE D'ENTITÉS ATTEINTE ({MAX_ENTITIES_PER_RUN})")
+        print(f"\n  Arrêt gracieux : limite d'entités atteinte ({MAX_ENTITIES_PER_RUN} personnes)")
         return
     
     logger.info(f"\n{'='*70}")
-    logger.info(f"🌳 NIVEAU {current_depth + 1}/{max_depth} : {initial_query}")
+    logger.info(f" NIVEAU {current_depth + 1}/{max_depth} : {initial_query}")
     logger.info(f"{'='*70}")
     
     # PHASE 1 : MISTRAL IDENTIFIE LES ENTITÉS
@@ -1450,7 +1450,7 @@ def explore_network_exponential(initial_query: str, current_depth: int = 0,
     entities = mistral_identify_entities_comprehensive(initial_query, query_type_hint=query_type_hint)
     
     if not entities:
-        logger.warning("❌ Aucune entité identifiée par Mistral")
+        logger.warning(" Aucune entité identifiée par Mistral")
         return
     
     main_subject = entities.get('main_subject', '')
@@ -1461,7 +1461,7 @@ def explore_network_exponential(initial_query: str, current_depth: int = 0,
     # Si c'est un people_group, traiter comme une liste de personnes, pas comme institution
     if subject_type == 'people_group':
         subject_type = 'personne'  # Traiter comme des personnes
-        logger.info(f"🎯 Requête de type 'people_group' détectée - focus sur les personnes")
+        logger.info(f" Requête de type 'people_group' détectée - focus sur les personnes")
     
    # Ajouter le sujet principal UNIQUEMENT si c'est une personne unique au niveau racine
     # Conditions: personne, nom présent, non déjà dans la liste, profondeur 0, et pas un terme générique
@@ -1479,54 +1479,54 @@ def explore_network_exponential(initial_query: str, current_depth: int = 0,
                 found_via=initial_query if current_depth > 0 else 'requête principale'
             )
             ALL_FOUND_ENTITIES.append(institution_entity)
-            logger.info(f"🏢 Institution ajoutée : {inst}")
+            logger.info(f" Institution ajoutée : {inst}")
     
     # PHASE 2 : FACTCHECK WIKIPEDIA POUR CHAQUE PERSONNE (AVEC PRÉ-VALIDATION)
     people_to_explore_next = []
     
     # Afficher la progression
     total_people = len(people)
-    print(f"\n   📊 Traitement de {total_people} personnes au niveau {current_depth + 1}...")
+    print(f"\n    Traitement de {total_people} personnes au niveau {current_depth + 1}...")
     
     for idx, person_name in enumerate(people, 1):
         # Vérifier les limites à chaque itération
         processed_count = len([e for e in ALL_FOUND_ENTITIES if isinstance(e, PersonEntity)])
         
         if MAX_ENTITIES_PER_RUN > 0 and processed_count >= MAX_ENTITIES_PER_RUN:
-            logger.warning(f"⚠️  Limite d'entités atteinte lors du traitement")
-            print(f"   ⚠️  Arrêt à {processed_count}/{MAX_ENTITIES_PER_RUN} entités")
+            logger.warning(f"  Limite d'entités atteinte lors du traitement")
+            print(f"     Arrêt à {processed_count}/{MAX_ENTITIES_PER_RUN} entités")
             break
         
         if TIME_LIMIT_SECONDS > 0 and (time.time() - START_TIME) > TIME_LIMIT_SECONDS:
-            logger.warning(f"⚠️  Limite de temps atteinte lors du traitement")
+            logger.warning(f"  Limite de temps atteinte lors du traitement")
             elapsed = int(time.time() - START_TIME)
-            print(f"   ⚠️  Arrêt après {elapsed}s (limite : {TIME_LIMIT_SECONDS}s)")
+            print(f"     Arrêt après {elapsed}s (limite : {TIME_LIMIT_SECONDS}s)")
             break
         
         if person_name in VISITED_PEOPLE:
-            logger.info(f"⏭️  {person_name} déjà traité, skip")
+            logger.info(f"  {person_name} déjà traité, skip")
             continue
         
         # Afficher la progression
         elapsed = int(time.time() - START_TIME)
-        print(f"   🔄 Traitement {idx}/{total_people}: {person_name[:40]}... (temps: {elapsed}s, entités: {processed_count}/{MAX_ENTITIES_PER_RUN})")
+        print(f"    Traitement {idx}/{total_people}: {person_name[:40]}... (temps: {elapsed}s, entités: {processed_count}/{MAX_ENTITIES_PER_RUN})")
         
         # ========== PRÉ-VALIDATION AVANT WIKIPEDIA (NOUVEAU) ==========
         if ENABLE_PRE_VALIDATION and current_depth > 0:  # Pré-valider sauf niveau 0
             score, reasoning = mistral_score_entity_relevance(person_name, ORIGINAL_QUERY, RESEARCH_PLAN)
             
             if score < MIN_PRIORITY_SCORE:
-                logger.info(f"⏭️  {person_name} ignoré (score: {score}/100) - {reasoning[:60]}...")
-                print(f"      ⏭️  Ignoré (score: {score}/100)")
+                logger.info(f"  {person_name} ignoré (score: {score}/100) - {reasoning[:60]}...")
+                print(f"        Ignoré (score: {score}/100)")
                 continue
             else:
-                logger.info(f"✅ {person_name} validé pour exploration (score: {score}/100)")
-                print(f"      ✅ Score: {score}/100 - Wikipedia lookup...")
+                logger.info(f" {person_name} validé pour exploration (score: {score}/100)")
+                print(f"       Score: {score}/100 - Wikipedia lookup...")
         
         VISITED_PEOPLE.add(person_name)
         
         logger.info(f"\n{'─'*60}")
-        logger.info(f"🔍 Traitement : {person_name} (profondeur {current_depth})")
+        logger.info(f" Traitement : {person_name} (profondeur {current_depth})")
         
         # Créer l'entité personne
         person_entity = PersonEntity(
@@ -1540,7 +1540,7 @@ def explore_network_exponential(initial_query: str, current_depth: int = 0,
         wiki_data = wikipedia_factcheck_person_rigorous(person_name)
         
         if not wiki_data:
-            logger.warning(f"❌ {person_name} non vérifié sur Wikipedia, ignoré")
+            logger.warning(f" {person_name} non vérifié sur Wikipedia, ignoré")
             person_entity.factcheck_status = "failed"
             continue
         
@@ -1555,7 +1555,7 @@ def explore_network_exponential(initial_query: str, current_depth: int = 0,
         # Ajouter à la liste des entités
         ALL_FOUND_ENTITIES.append(person_entity)
         
-        logger.info(f"✅ {person_name} fackchecké (profondeur {current_depth})")
+        logger.info(f" {person_name} fackchecké (profondeur {current_depth})")
         logger.info(f"   - {len(relationships)} relations détaillées")
         logger.info(f"   - {len(person_entity.organizations)} institutions liées")
         
@@ -1570,19 +1570,19 @@ def explore_network_exponential(initial_query: str, current_depth: int = 0,
     
     # PHASE 3 : EXPLORATION RÉCURSIVE DU NIVEAU SUIVANT
     if current_depth < max_depth - 1 and people_to_explore_next:
-        logger.info(f"\n🔄 Exploration du niveau suivant : {len(people_to_explore_next)} personnes")
+        logger.info(f"\n Exploration du niveau suivant : {len(people_to_explore_next)} personnes")
         
         # Vérifier à nouveau les limites avant le niveau suivant
         processed_count = len([e for e in ALL_FOUND_ENTITIES if isinstance(e, PersonEntity)])
         if MAX_ENTITIES_PER_RUN > 0 and processed_count >= MAX_ENTITIES_PER_RUN:
-            logger.warning(f"⚠️  Limite d'entités atteinte, pas d'exploration récursive")
-            print(f"\n   ⚠️  Limite d'entités atteinte ({processed_count}/{MAX_ENTITIES_PER_RUN}), arrêt de l'exploration récursive")
+            logger.warning(f"  Limite d'entités atteinte, pas d'exploration récursive")
+            print(f"\n     Limite d'entités atteinte ({processed_count}/{MAX_ENTITIES_PER_RUN}), arrêt de l'exploration récursive")
             return
         
         if TIME_LIMIT_SECONDS > 0 and (time.time() - START_TIME) > TIME_LIMIT_SECONDS:
-            logger.warning(f"⚠️  Limite de temps atteinte, pas d'exploration récursive")
+            logger.warning(f"  Limite de temps atteinte, pas d'exploration récursive")
             elapsed = int(time.time() - START_TIME)
-            print(f"\n   ⚠️  Limite de temps atteinte ({elapsed}s), arrêt de l'exploration récursive")
+            print(f"\n     Limite de temps atteinte ({elapsed}s), arrêt de l'exploration récursive")
             return
         
         # Explorer TOUTES les personnes du niveau suivant (exponentiel)
@@ -1596,13 +1596,13 @@ def explore_network_exponential(initial_query: str, current_depth: int = 0,
 
 def final_validation_before_commit(entities: List[PersonEntity], original_query: str) -> Tuple[List[PersonEntity], List[PersonEntity]]:
     """
-    🎯 VALIDATION FINALE de toutes les personnes AVANT commit
+     VALIDATION FINALE de toutes les personnes AVANT commit
     Filtre rigoureux pour garantir la qualité journalistique
     """
     logger.info(f"\n{'='*70}")
-    logger.info(f"🎯 VALIDATION FINALE AVANT COMMIT")
+    logger.info(f" VALIDATION FINALE AVANT COMMIT")
     logger.info(f"{'='*70}")
-    logger.info(f"📊 {len(entities)} personnes à valider contre la requête : '{original_query}'")
+    logger.info(f" {len(entities)} personnes à valider contre la requête : '{original_query}'")
     
     validated_entities = []
     rejected_entities = []
@@ -1632,13 +1632,13 @@ def final_validation_before_commit(entities: List[PersonEntity], original_query:
         else:
             rejected_entities.append(person_entity)
     
-    logger.info(f"\n✅ Validation finale : {len(validated_entities)} acceptées, {len(rejected_entities)} rejetées")
+    logger.info(f"\n Validation finale : {len(validated_entities)} acceptées, {len(rejected_entities)} rejetées")
     
     return validated_entities, rejected_entities
 
 def create_person_file_comprehensive(person: PersonEntity, all_institutions: List[str]) -> bool:
     """
-    📝 Création de fiche personne COMPLÈTE avec relations détaillées pour Obsidian
+     Création de fiche personne COMPLÈTE avec relations détaillées pour Obsidian
     """
     person_name = person.name
     person_data = person.wikipedia_data
@@ -1647,7 +1647,7 @@ def create_person_file_comprehensive(person: PersonEntity, all_institutions: Lis
     validation_score = person.validation_score
     
     if not person_data:
-        logger.error(f"❌ Pas de données Wikipedia pour {person_name}")
+        logger.error(f" Pas de données Wikipedia pour {person_name}")
         return False
     
     personnes_folder = Path("personnes")
@@ -1657,7 +1657,7 @@ def create_person_file_comprehensive(person: PersonEntity, all_institutions: Lis
     file_path = personnes_folder / f"{safe_filename}.md"
     
     if file_path.exists():
-        logger.info(f"ℹ️  {person_name} existe déjà, ignoré")
+        logger.info(f"  {person_name} existe déjà, ignoré")
         return False
     
     # ========== CONSTRUCTION DU CONTENU MARKDOWN ==========
@@ -1665,9 +1665,9 @@ def create_person_file_comprehensive(person: PersonEntity, all_institutions: Lis
     # En-tête avec contexte de découverte
     discovery_header = ""
     if depth == 0:
-        discovery_header = f"> 🎯 **Sujet principal de la recherche**\n> Score de pertinence : {validation_score:.0%}\n"
+        discovery_header = f">  **Sujet principal de la recherche**\n> Score de pertinence : {validation_score:.0%}\n"
     else:
-        discovery_header = f"> 🔍 **Découvert via [[{found_via}]]** (niveau {depth})\n> Score de pertinence : {validation_score:.0%}\n"
+        discovery_header = f">  **Découvert via [[{found_via}]]** (niveau {depth})\n> Score de pertinence : {validation_score:.0%}\n"
     
     # Biographie
     bio_courte = person_data.get('bio_courte', '')
@@ -1786,7 +1786,7 @@ def create_person_file_comprehensive(person: PersonEntity, all_institutions: Lis
 ## Métadonnées et Vérification
 
 **Titre Wikipedia** : {person_data.get('wikipedia_title', person_name)}  
-**Statut de vérification** : ✅ {person_data.get('factcheck_status', 'verified')}  
+**Statut de vérification** :  {person_data.get('factcheck_status', 'verified')}  
 **Date de vérification** : {person_data.get('verification_date', datetime.now().strftime('%Y-%m-%d'))}  
 **Longueur article Wikipedia** : {person_data.get('content_length', 0)} caractères  
 **Niveau de notoriété** : {person_data.get('niveau_notoriete', 'N/A')}/10  
@@ -1863,7 +1863,7 @@ def create_person_file_comprehensive(person: PersonEntity, all_institutions: Lis
         person.created_file_path = str(file_path)
         CREATED_FILES.append(str(file_path))
         
-        logger.info(f"✅ Fiche créée : {file_path}")
+        logger.info(f" Fiche créée : {file_path}")
         logger.info(f"   - {len(relationships)} relations détaillées")
         logger.info(f"   - {len(all_orgs)} institutions")
         logger.info(f"   - Score de validation : {validation_score:.0%}")
@@ -1873,13 +1873,13 @@ def create_person_file_comprehensive(person: PersonEntity, all_institutions: Lis
         return True
         
     except Exception as e:
-        logger.error(f"❌ Erreur création fiche {person_name} : {e}")
+        logger.error(f" Erreur création fiche {person_name} : {e}")
         EXPLORATION_STATS['errors'] += 1
         return False
 
 def create_institution_file_comprehensive(institution: InstitutionEntity) -> bool:
     """
-    📝 Création de fiche institution COMPLÈTE
+     Création de fiche institution COMPLÈTE
     """
     institution_name = institution.name
     depth = institution.depth
@@ -1892,7 +1892,7 @@ def create_institution_file_comprehensive(institution: InstitutionEntity) -> boo
     file_path = institutions_folder / f"{safe_filename}.md"
     
     if file_path.exists():
-        logger.info(f"ℹ️  Institution {institution_name} existe déjà, ignoré")
+        logger.info(f"  Institution {institution_name} existe déjà, ignoré")
         return False
     
     # Essayer de trouver sur Wikipedia
@@ -1942,9 +1942,9 @@ def create_institution_file_comprehensive(institution: InstitutionEntity) -> boo
     # Découverte
     discovery_text = ""
     if depth > 0:
-        discovery_text = f"> 🔍 **Découvert via [[{found_via}]]** (niveau {depth})\n"
+        discovery_text = f">  **Découvert via [[{found_via}]]** (niveau {depth})\n"
     else:
-        discovery_text = f"> 🎯 **Sujet principal de la recherche**\n"
+        discovery_text = f">  **Sujet principal de la recherche**\n"
     
     # Membres (liens Obsidian)
     membres_section = ""
@@ -1984,7 +1984,7 @@ def create_institution_file_comprehensive(institution: InstitutionEntity) -> boo
 **Fondation** : {extracted_data.get('date_fondation', 'N/A')}  
 **Siège** : {extracted_data.get('siege_social', 'N/A')}  
 **Domaine** : {extracted_data.get('domaine_activite', 'N/A')}  
-**Statut de vérification** : {'✅ Vérifié' if verified else '⚠️ À vérifier'}  
+**Statut de vérification** : {' Vérifié' if verified else ' À vérifier'}  
 **Date d'ajout** : {datetime.now().strftime('%Y-%m-%d')}  
 
 *Fiche générée — exploration récursive niveau {depth}*
@@ -2018,24 +2018,24 @@ def create_institution_file_comprehensive(institution: InstitutionEntity) -> boo
         institution.created_file_path = str(file_path)
         CREATED_FILES.append(str(file_path))
         
-        logger.info(f"✅ Institution créée : {file_path}")
+        logger.info(f" Institution créée : {file_path}")
         EXPLORATION_STATS['institutions_created'] += 1
         
         return True
         
     except Exception as e:
-        logger.error(f"❌ Erreur création institution {institution_name} : {e}")
+        logger.error(f" Erreur création institution {institution_name} : {e}")
         EXPLORATION_STATS['errors'] += 1
         return False
 
 def generate_exploration_report(query: str, validated: List[PersonEntity], 
                                rejected: List[PersonEntity]) -> str:
     """
-    📊 Génère un rapport détaillé de l'exploration
+     Génère un rapport détaillé de l'exploration
     """
     report = f"""
 {'='*70}
-📊 RAPPORT D'EXPLORATION - ŒIL DE DIEU
+ RAPPORT D'EXPLORATION - ŒIL DE DIEU
 {'='*70}
 
 REQUÊTE ORIGINALE : "{query}"
@@ -2172,7 +2172,7 @@ def is_generic_people_term(name: str) -> bool:
 
 def main(query: str = None):
     """
-    🧠 ŒIL DE DIEU - Exploration exponentielle avec validation finale
+     ŒIL DE DIEU - Exploration exponentielle avec validation finale
     Niveau journalistique : rigueur, traçabilité, vérification
     ENHANCED: Smart batch processing avec limites et pré-validation
     """
@@ -2193,9 +2193,9 @@ def main(query: str = None):
     START_TIME = time.time()
     
     print("\n" + "="*70)
-    print("🧠 ŒIL DE DIEU - Construction de réseau de pouvoir")
+    print(" ŒIL DE DIEU - Construction de réseau de pouvoir")
     print("="*70)
-    print("\n📋 Mode d'opération ENHANCED :")
+    print("\n Mode d'opération ENHANCED :")
     print("  1. Analyse APPROFONDIE de la requête avec plan de recherche")
     print("  2. PRÉ-VALIDATION des entités (économie d'API calls)")
     print("  3. Mistral identifie les entités (connaissance générale)")
@@ -2204,7 +2204,7 @@ def main(query: str = None):
     print("  6. Extraction de relations DÉTAILLÉES avec descriptions")
     print("  7. Validation FINALE de toutes les personnes avant commit")
     print("  8. Création de fiches Obsidian avec liens [[personne]]")
-    print(f"\n⚙️  Paramètres :")
+    print(f"\n  Paramètres :")
     print(f"  - Environnement : {'GitHub Actions' if IS_GITHUB_ACTION else 'Local'}")
     print(f"  - Profondeur maximale : {MAX_DEPTH}")
     print(f"  - Limite d'entités : {MAX_ENTITIES_PER_RUN}")
@@ -2226,23 +2226,23 @@ def main(query: str = None):
         print("  - Bernard Arnault")
         print("="*70)
         
-        query = input("\n🎯 Entité à explorer : ").strip()
+        query = input("\n Entité à explorer : ").strip()
     
     if not query:
-        logger.error("❌ Requête vide, abandon")
+        logger.error(" Requête vide, abandon")
         return
     
     ORIGINAL_QUERY = query
     
-    logger.info(f"🚀 Lancement de l'exploration : '{query}'")
+    logger.info(f" Lancement de l'exploration : '{query}'")
     
     # ========== PHASE -1 : GÉNÉRATION DU PLAN DE RECHERCHE ==========
-    print(f"\n📋 Phase -1 : Génération du plan de recherche...\n")
+    print(f"\n Phase -1 : Génération du plan de recherche...\n")
     
     RESEARCH_PLAN = generate_research_plan(query)
     
     if RESEARCH_PLAN:
-        print(f"✅ Plan de recherche généré :")
+        print(f" Plan de recherche généré :")
         print(f"   Intent : {RESEARCH_PLAN.get('query_intent', 'N/A')}")
         print(f"   Analyse : {RESEARCH_PLAN.get('query_analysis', 'N/A')[:150]}...")
         print(f"   Cibles primaires : {len(RESEARCH_PLAN.get('primary_targets', []))}")
@@ -2253,7 +2253,7 @@ def main(query: str = None):
         print(f"   Complexité : {RESEARCH_PLAN.get('complexity', 'N/A')}")
         print(f"   Focus : {', '.join(RESEARCH_PLAN.get('focus_areas', []))}")
     else:
-        print(f"⚠️  Plan de recherche non disponible, utilisation des paramètres par défaut")
+        print(f"  Plan de recherche non disponible, utilisation des paramètres par défaut")
         RESEARCH_PLAN = {
             'query_analysis': 'Analyse non disponible',
             'primary_targets': [],
@@ -2262,12 +2262,12 @@ def main(query: str = None):
         }
     
     # ========== PHASE 0 : RÉPONSE DIRECTE À LA REQUÊTE ==========
-    print(f"\n🎯 Phase 0 : Analyse et réponse directe à la requête...\n")
+    print(f"\n Phase 0 : Analyse et réponse directe à la requête...\n")
     
     initial_answer = answer_initial_query_directly(query)
     
     if not initial_answer:
-        logger.warning("❌ Impossible de répondre à la requête")
+        logger.warning(" Impossible de répondre à la requête")
         return
     
     query_type = initial_answer.get('query_type', 'unknown')
@@ -2275,7 +2275,7 @@ def main(query: str = None):
     initial_people = initial_answer.get('people', [])
     initial_institutions = initial_answer.get('institutions', [])
     
-    print(f"\n✅ Analyse de la requête :")
+    print(f"\n Analyse de la requête :")
     print(f"   - Type : {query_type}")
     print(f"   - Interprétation : {interpretation}")
     print(f"   - {len(initial_people)} personnes identifiées initialement")
@@ -2283,56 +2283,56 @@ def main(query: str = None):
     
     # Afficher la réponse directe
     if query_type == 'people_group':
-        print(f"\n📋 RÉPONSE DIRECTE - Liste des personnes :")
+        print(f"\n RÉPONSE DIRECTE - Liste des personnes :")
         for i, person in enumerate(initial_people, 1):
             print(f"   {i}. {person}")
     elif query_type == 'single_person':
-        print(f"\n👤 RÉPONSE DIRECTE - Personne principale : {initial_answer.get('main_subject', '')}")
+        print(f"\n RÉPONSE DIRECTE - Personne principale : {initial_answer.get('main_subject', '')}")
         print(f"   Réseau immédiat ({len(initial_people)-1} personnes) :")
         for person in initial_people[1:]:
             print(f"   - {person}")
     elif query_type == 'institution':
-        print(f"\n🏢 RÉPONSE DIRECTE - Institution : {initial_answer.get('main_subject', '')}")
+        print(f"\n RÉPONSE DIRECTE - Institution : {initial_answer.get('main_subject', '')}")
         print(f"   Membres/Dirigeants ({len(initial_people)} personnes) :")
         for i, person in enumerate(initial_people, 1):
             print(f"   {i}. {person}")
     
     # ========== PHASE 1 : EXPLORATION EXPONENTIELLE ==========
-    print(f"\n🌳 Phase 1 : Exploration exponentielle (3 niveaux)...\n")
+    print(f"\n Phase 1 : Exploration exponentielle (3 niveaux)...\n")
     explore_network_exponential(query, current_depth=0, max_depth=MAX_DEPTH, initial_query_type=query_type)
     
     if not ALL_FOUND_ENTITIES:
-        logger.warning("❌ Aucune entité trouvée")
+        logger.warning(" Aucune entité trouvée")
         return
     
     # Séparer personnes et institutions
     people_entities = [e for e in ALL_FOUND_ENTITIES if isinstance(e, PersonEntity)]
     institution_entities = [e for e in ALL_FOUND_ENTITIES if isinstance(e, InstitutionEntity)]
     
-    print(f"\n✅ Exploration terminée :")
+    print(f"\n Exploration terminée :")
     print(f"   - {len(people_entities)} personnes découvertes")
     print(f"   - {len(institution_entities)} institutions découvertes")
     print(f"   - {EXPLORATION_STATS['relationships_extracted']} relations extraites")
 
         # ========== PHASE 2 : VALIDATION FINALE AVANT COMMIT ==========
-    print(f"\n🎯 Phase 2 : Validation finale de toutes les entités...\n")
+    print(f"\n Phase 2 : Validation finale de toutes les entités...\n")
     
     validated_people, rejected_people = final_validation_before_commit(
         people_entities,
         ORIGINAL_QUERY
     )
     
-    print(f"\n✅ Validation terminée :")
+    print(f"\n Validation terminée :")
     print(f"   - {len(validated_people)} personnes VALIDÉES")
     print(f"   - {len(rejected_people)} personnes REJETÉES")
     print(f"   - Taux de validation : {len(validated_people)/(len(validated_people)+len(rejected_people))*100:.1f}%")
     
     if not validated_people and not institution_entities:
-        logger.warning("❌ Aucune entité validée à créer")
+        logger.warning(" Aucune entité validée à créer")
         return
     
     # ========== VÉRIFICATION DES FICHIERS EXISTANTS ==========
-    print(f"\n📂 Phase 3 : Vérification des fichiers existants...\n")
+    print(f"\n Phase 3 : Vérification des fichiers existants...\n")
     
     personnes_folder = Path("personnes")
     institutions_folder = Path("institutions")
@@ -2342,11 +2342,11 @@ def main(query: str = None):
     
     if personnes_folder.exists():
         existing_people_files = {f.stem for f in personnes_folder.glob("*.md")}
-        logger.info(f"📁 {len(existing_people_files)} fichiers personnes existants trouvés")
+        logger.info(f" {len(existing_people_files)} fichiers personnes existants trouvés")
     
     if institutions_folder.exists():
         existing_institution_files = {f.stem for f in institutions_folder.glob("*.md")}
-        logger.info(f"📁 {len(existing_institution_files)} fichiers institutions existants trouvés")
+        logger.info(f" {len(existing_institution_files)} fichiers institutions existants trouvés")
     
     # Filtrer les entités déjà existantes
     people_to_create = []
@@ -2356,7 +2356,7 @@ def main(query: str = None):
         safe_filename = re.sub(r'[^\w\s-]', '', person.name).strip().replace(' ', '-')
         if safe_filename in existing_people_files:
             people_already_exist.append(person.name)
-            logger.info(f"⏭️  {person.name} existe déjà, skip")
+            logger.info(f"  {person.name} existe déjà, skip")
         else:
             people_to_create.append(person)
     
@@ -2367,21 +2367,21 @@ def main(query: str = None):
         safe_filename = re.sub(r'[^\w\s-]', '', inst.name).strip().replace(' ', '-')
         if safe_filename in existing_institution_files:
             institutions_already_exist.append(inst.name)
-            logger.info(f"⏭️  Institution {inst.name} existe déjà, skip")
+            logger.info(f"  Institution {inst.name} existe déjà, skip")
         else:
             institutions_to_create.append(inst)
     
-    print(f"\n📊 Bilan des fichiers à créer :")
+    print(f"\n Bilan des fichiers à créer :")
     print(f"   - Personnes : {len(people_to_create)} nouvelles ({len(people_already_exist)} existent déjà)")
     print(f"   - Institutions : {len(institutions_to_create)} nouvelles ({len(institutions_already_exist)} existent déjà)")
     
     if not people_to_create and not institutions_to_create:
-        print(f"\n⚠️  Toutes les entités existent déjà, aucune création nécessaire")
-        logger.info("✅ Toutes les entités existent déjà")
+        print(f"\n  Toutes les entités existent déjà, aucune création nécessaire")
+        logger.info(" Toutes les entités existent déjà")
         return
     
     # ========== PHASE 4 : CRÉATION DES FICHIERS ==========
-    print(f"\n📝 Phase 4 : Création des fiches...\n")
+    print(f"\n Phase 4 : Création des fiches...\n")
     
     all_institutions_names = [inst.name for inst in institution_entities]
     
@@ -2392,11 +2392,11 @@ def main(query: str = None):
         try:
             if create_person_file_comprehensive(person, all_institutions_names):
                 people_created += 1
-                print(f"   ✅ {person.name} (score: {person.validation_score:.0%}, niveau: {person.depth})")
+                print(f"    {person.name} (score: {person.validation_score:.0%}, niveau: {person.depth})")
             else:
                 people_errors += 1
         except Exception as e:
-            logger.error(f"❌ Erreur création {person.name} : {e}")
+            logger.error(f" Erreur création {person.name} : {e}")
             people_errors += 1
             EXPLORATION_STATS['errors'] += 1
     
@@ -2407,16 +2407,16 @@ def main(query: str = None):
         try:
             if create_institution_file_comprehensive(inst):
                 institutions_created += 1
-                print(f"   🏢 {inst.name} (niveau: {inst.depth})")
+                print(f"    {inst.name} (niveau: {inst.depth})")
             else:
                 institutions_errors += 1
         except Exception as e:
-            logger.error(f"❌ Erreur création institution {inst.name} : {e}")
+            logger.error(f" Erreur création institution {inst.name} : {e}")
             institutions_errors += 1
             EXPLORATION_STATS['errors'] += 1
     
     # ========== PHASE 5 : GÉNÉRATION DU RAPPORT ==========
-    print(f"\n📊 Phase 5 : Génération du rapport...\n")
+    print(f"\n Phase 5 : Génération du rapport...\n")
     
     report = generate_exploration_report(query, validated_people, rejected_people)
     
@@ -2430,60 +2430,60 @@ def main(query: str = None):
     try:
         with open(report_path, 'w', encoding='utf-8') as f:
             f.write(report)
-        logger.info(f"📄 Rapport sauvegardé : {report_path}")
-        print(f"   📄 Rapport sauvegardé : {report_path}")
+        logger.info(f" Rapport sauvegardé : {report_path}")
+        print(f"    Rapport sauvegardé : {report_path}")
     except Exception as e:
-        logger.error(f"❌ Erreur sauvegarde rapport : {e}")
+        logger.error(f" Erreur sauvegarde rapport : {e}")
     
     # ========== PHASE 6 : RÉSUMÉ FINAL ==========
     elapsed_time = time.time() - START_TIME
     
     print("\n" + "="*70)
-    print("🎉 RÉSULTAT FINAL")
+    print(" RÉSULTAT FINAL")
     print("="*70)
     
-    print(f"\n📊 STATISTIQUES COMPLÈTES :")
+    print(f"\n STATISTIQUES COMPLÈTES :")
     print(f"   Durée d'exploration : {elapsed_time:.1f} secondes ({elapsed_time/60:.1f} minutes)")
-    print(f"\n   🔍 Découverte :")
+    print(f"\n    Découverte :")
     print(f"      - Personnes découvertes : {len(people_entities)}")
     print(f"      - Institutions découvertes : {len(institution_entities)}")
     print(f"      - Relations extraites : {EXPLORATION_STATS['relationships_extracted']}")
     
-    print(f"\n   ✅ Validation :")
+    print(f"\n    Validation :")
     print(f"      - Personnes validées : {len(validated_people)}")
     print(f"      - Personnes rejetées : {len(rejected_people)}")
     print(f"      - Taux de validation : {len(validated_people)/(len(validated_people)+len(rejected_people))*100:.1f}%")
     
-    print(f"\n   📝 Création :")
+    print(f"\n    Création :")
     print(f"      - Personnes créées : {people_created}")
     print(f"      - Personnes déjà existantes : {len(people_already_exist)}")
     print(f"      - Institutions créées : {institutions_created}")
     print(f"      - Institutions déjà existantes : {len(institutions_already_exist)}")
     print(f"      - Erreurs : {people_errors + institutions_errors}")
     
-    print(f"\n   🌳 Répartition par profondeur :")
+    print(f"\n    Répartition par profondeur :")
     for depth in range(MAX_DEPTH):
         count_validated = len([p for p in validated_people if p.depth == depth])
         count_created = len([p for p in people_to_create if p.depth == depth and p.name not in people_already_exist])
         print(f"      Niveau {depth} : {count_validated} validées, {count_created} créées")
     
-    print(f"\n   🔗 Qualité du réseau :")
+    print(f"\n    Qualité du réseau :")
     if validated_people:
         avg_score = sum(p.validation_score for p in validated_people) / len(validated_people)
         avg_relations = sum(len(p.relationships) for p in validated_people) / len(validated_people)
         print(f"      - Score moyen de pertinence : {avg_score:.0%}")
         print(f"      - Relations moyennes par personne : {avg_relations:.1f}")
     
-    print(f"\n   📖 Factchecks Wikipedia :")
+    print(f"\n    Factchecks Wikipedia :")
     print(f"      - Réussis : {EXPLORATION_STATS['factcheck_success']}")
     print(f"      - Non trouvés : {EXPLORATION_STATS['factcheck_not_found']}")
     print(f"      - Ambiguïtés résolues : {EXPLORATION_STATS['factcheck_disambiguation']}")
     print(f"      - Échecs : {EXPLORATION_STATS['factcheck_failed']}")
     
-    print(f"\n   🤖 Appels Mistral :")
+    print(f"\n    Appels Mistral :")
     print(f"      - Total : {EXPLORATION_STATS['mistral_calls']}")
     
-    print(f"\n   🎯 Pré-validations (nouveauté) :")
+    print(f"\n    Pré-validations (nouveauté) :")
     if EXPLORATION_STATS.get('pre_validations_performed', 0) > 0:
         pre_val_passed = EXPLORATION_STATS.get('pre_validations_passed', 0)
         pre_val_rejected = EXPLORATION_STATS.get('pre_validations_rejected', 0)
@@ -2495,7 +2495,7 @@ def main(query: str = None):
     else:
         print(f"      - Aucune (désactivée ou niveau 0)")
     
-    print(f"\n   📊 Limites et contraintes :")
+    print(f"\n    Limites et contraintes :")
     print(f"      - Limite d'entités : {MAX_ENTITIES_PER_RUN} {'(GitHub Actions)' if IS_GITHUB_ACTION else '(Local)'}")
     print(f"      - Entités traitées : {len(people_entities)}/{MAX_ENTITIES_PER_RUN}")
     print(f"      - Appels Wikipedia : {WIKIPEDIA_CALLS_COUNT}/{MAX_WIKIPEDIA_CALLS if MAX_WIKIPEDIA_CALLS > 0 else '∞'}")
@@ -2503,32 +2503,32 @@ def main(query: str = None):
         elapsed_total = time.time() - START_TIME
         print(f"      - Temps utilisé : {elapsed_total:.0f}s / {TIME_LIMIT_SECONDS}s ({elapsed_total/TIME_LIMIT_SECONDS*100:.1f}%)")
     if EXPLORATION_STATS.get('wikipedia_limit_reached', 0) > 0:
-        print(f"      ⚠️  Limite Wikipedia atteinte : {EXPLORATION_STATS['wikipedia_limit_reached']} fois")
+        print(f"        Limite Wikipedia atteinte : {EXPLORATION_STATS['wikipedia_limit_reached']} fois")
     
     total_created = people_created + institutions_created
     
     # ========== PHASE 7 : AFFICHAGE DES ENTITÉS CRÉÉES ==========
     if people_created > 0:
-        print(f"\n👥 PERSONNES CRÉÉES ({people_created}) :")
+        print(f"\n PERSONNES CRÉÉES ({people_created}) :")
         for person in people_to_create:
             if person.created_file_path:
-                print(f"   ✅ {person.name} (score: {person.validation_score:.0%}, niveau: {person.depth})")
+                print(f"    {person.name} (score: {person.validation_score:.0%}, niveau: {person.depth})")
     
     if institutions_created > 0:
-        print(f"\n🏢 INSTITUTIONS CRÉÉES ({institutions_created}) :")
+        print(f"\n INSTITUTIONS CRÉÉES ({institutions_created}) :")
         for inst in institutions_to_create:
             if inst.created_file_path:
-                print(f"   ✅ {inst.name} (niveau: {inst.depth})")
+                print(f"    {inst.name} (niveau: {inst.depth})")
     
     if people_already_exist:
-        print(f"\n⏭️  PERSONNES DÉJÀ EXISTANTES ({len(people_already_exist)}) :")
+        print(f"\n  PERSONNES DÉJÀ EXISTANTES ({len(people_already_exist)}) :")
         for name in people_already_exist[:10]:
             print(f"   - {name}")
         if len(people_already_exist) > 10:
             print(f"   ... et {len(people_already_exist) - 10} autres")
     
     if institutions_already_exist:
-        print(f"\n⏭️  INSTITUTIONS DÉJÀ EXISTANTES ({len(institutions_already_exist)}) :")
+        print(f"\n  INSTITUTIONS DÉJÀ EXISTANTES ({len(institutions_already_exist)}) :")
         for name in institutions_already_exist[:10]:
             print(f"   - {name}")
         if len(institutions_already_exist) > 10:
@@ -2537,10 +2537,10 @@ def main(query: str = None):
     # ========== PHASE 8 : COMMIT GIT ==========
     if total_created > 0:
         print("\n" + "="*70)
-        print("💾 Phase 7 : Commit Git...")
+        print(" Phase 7 : Commit Git...")
         print("="*70)
         
-        commit_msg = f"""feat: 🧠 Œil de Dieu - Exploration '{query}'
+        commit_msg = f"""feat:  Œil de Dieu - Exploration '{query}'
 
 Statistiques :
 - {people_created} personnes créées
@@ -2563,40 +2563,40 @@ Requête originale : "{ORIGINAL_QUERY}"
         
         try:
             git.commit_changes(commit_msg)
-            print("✅ Changements committés avec succès")
-            logger.info("✅ Changements committés")
+            print(" Changements committés avec succès")
+            logger.info(" Changements committés")
         except Exception as e:
-            logger.error(f"❌ Erreur commit Git : {e}")
-            print(f"⚠️  Erreur commit Git : {e}")
+            logger.error(f" Erreur commit Git : {e}")
+            print(f"  Erreur commit Git : {e}")
     else:
-        print("\n⚠️  Aucun fichier créé, pas de commit Git")
+        print("\n  Aucun fichier créé, pas de commit Git")
     
     # ========== AFFICHAGE FINAL ==========
     print("\n" + "="*70)
-    print("✨ EXPLORATION TERMINÉE")
+    print(" EXPLORATION TERMINÉE")
     print("="*70)
     
     if total_created > 0:
-        print(f"\n🎯 Résultat : {total_created} nouvelles entités ajoutées à la base")
-        print(f"📊 Qualité : Score moyen de pertinence {sum(p.validation_score for p in validated_people)/len(validated_people):.0%}")
-        print(f"🔗 Réseau : {EXPLORATION_STATS['relationships_extracted']} relations documentées")
-        print(f"⏱️  Durée : {elapsed_time:.1f} secondes")
-        print(f"\n📄 Rapport complet : {report_path}")
+        print(f"\n Résultat : {total_created} nouvelles entités ajoutées à la base")
+        print(f" Qualité : Score moyen de pertinence {sum(p.validation_score for p in validated_people)/len(validated_people):.0%}")
+        print(f" Réseau : {EXPLORATION_STATS['relationships_extracted']} relations documentées")
+        print(f"  Durée : {elapsed_time:.1f} secondes")
+        print(f"\n Rapport complet : {report_path}")
     else:
-        print(f"\n⚠️  Aucune nouvelle entité créée")
+        print(f"\n  Aucune nouvelle entité créée")
         print(f"   Raison : Toutes les entités découvertes existent déjà")
     
     print("\n" + "="*70)
     
     # Afficher le TOP 10 des personnes validées par score
     if validated_people:
-        print("\n🏆 TOP 10 - Personnes les plus pertinentes :")
+        print("\n TOP 10 - Personnes les plus pertinentes :")
         print("="*70)
         
         top_people = sorted(validated_people, key=lambda x: x.validation_score, reverse=True)[:10]
         
         for i, person in enumerate(top_people, 1):
-            status = "✅ CRÉÉE" if person.name not in people_already_exist else "⏭️  EXISTANTE"
+            status = " CRÉÉE" if person.name not in people_already_exist else "  EXISTANTE"
             print(f"{i:2d}. {person.name}")
             print(f"    Score: {person.validation_score:.0%} | Niveau: {person.depth} | {status}")
             print(f"    Via: {person.found_via}")
@@ -2605,10 +2605,10 @@ Requête originale : "{ORIGINAL_QUERY}"
     
     # Message final
     print("="*70)
-    print("🧠 Œil de Dieu - Mission accomplie")
+    print(" Œil de Dieu - Mission accomplie")
     print("="*70)
     
-    logger.info(f"✅ Exploration terminée : {total_created} entités créées")
+    logger.info(f" Exploration terminée : {total_created} entités créées")
 
 if __name__ == "__main__":
     import sys

@@ -1,6 +1,7 @@
 import os
 import json
 import time
+import random
 from mistralai import Mistral, SDKError
 from src.utils.logger import setup_logger
 
@@ -8,31 +9,39 @@ logger = setup_logger()
 
 # Configuration du retry avec backoff exponentiel pour les erreurs 429
 try:
-    MAX_RETRIES = int(os.getenv("MAX_RETRIES", "5"))
+    MAX_RETRIES = int(os.getenv("MAX_RETRIES", "8"))
     if MAX_RETRIES < 1:
-        logger.warning(f"MAX_RETRIES must be >= 1, using default of 5")
-        MAX_RETRIES = 5
+        logger.warning("MAX_RETRIES must be >= 1, using default of 8")
+        MAX_RETRIES = 8
 except ValueError:
-    logger.warning(f"Invalid MAX_RETRIES value, using default of 5")
-    MAX_RETRIES = 5
+    logger.warning("Invalid MAX_RETRIES value, using default of 8")
+    MAX_RETRIES = 8
 
 try:
-    RETRY_BASE_DELAY = int(os.getenv("RETRY_BASE_DELAY", "2"))
+    RETRY_BASE_DELAY = int(os.getenv("RETRY_BASE_DELAY", "5"))
     if RETRY_BASE_DELAY < 1:
-        logger.warning(f"RETRY_BASE_DELAY must be >= 1, using default of 2")
-        RETRY_BASE_DELAY = 2
+        logger.warning("RETRY_BASE_DELAY must be >= 1, using default of 5")
+        RETRY_BASE_DELAY = 5
 except ValueError:
-    logger.warning(f"Invalid RETRY_BASE_DELAY value, using default of 2")
-    RETRY_BASE_DELAY = 2
+    logger.warning("Invalid RETRY_BASE_DELAY value, using default of 5")
+    RETRY_BASE_DELAY = 5
 
 try:
-    RETRY_MAX_DELAY = int(os.getenv("RETRY_MAX_DELAY", "60"))
+    RETRY_MAX_DELAY = int(os.getenv("RETRY_MAX_DELAY", "120"))
     if RETRY_MAX_DELAY < RETRY_BASE_DELAY:
-        logger.warning(f"RETRY_MAX_DELAY must be >= RETRY_BASE_DELAY, using default of 60")
-        RETRY_MAX_DELAY = 60
+        logger.warning("RETRY_MAX_DELAY must be >= RETRY_BASE_DELAY, using default of 120")
+        RETRY_MAX_DELAY = 120
 except ValueError:
-    logger.warning(f"Invalid RETRY_MAX_DELAY value, using default of 60")
-    RETRY_MAX_DELAY = 60
+    logger.warning("Invalid RETRY_MAX_DELAY value, using default of 120")
+    RETRY_MAX_DELAY = 120
+
+# Minimum delay between consecutive API calls (throttle) to avoid rate limits
+try:
+    API_CALL_DELAY = float(os.getenv("API_CALL_DELAY", "2.0"))
+    if API_CALL_DELAY < 0:
+        API_CALL_DELAY = 2.0
+except ValueError:
+    API_CALL_DELAY = 2.0
 
 # Keywords for detecting transient errors in error messages
 TRANSIENT_ERROR_KEYWORDS = ('timeout', 'connection', 'network', 'temporary', 'unavailable')
@@ -44,11 +53,21 @@ class MistralClient:
     def __init__(self):
         api_key = os.getenv("MISTRAL_API_KEY")
         if not api_key:
-            raise ValueError("MISTRAL_API_KEY n'est pas définie dans les variables d'environnement.")
+            raise ValueError("MISTRAL_API_KEY n'est pas definie dans les variables d'environnement.")
         
         # Initialisation du client (Nouvelle syntaxe v1)
         self.client = Mistral(api_key=api_key)
         self.model = os.getenv("MISTRAL_MODEL", "mistral-large-latest")
+        self._last_call_time = 0.0
+    
+    def _throttle(self):
+        """Enforce minimum delay between consecutive API calls to avoid rate limits."""
+        if API_CALL_DELAY > 0:
+            elapsed = time.time() - self._last_call_time
+            if elapsed < API_CALL_DELAY:
+                wait = API_CALL_DELAY - elapsed
+                logger.debug(f"Throttle: waiting {wait:.1f}s before next API call")
+                time.sleep(wait)
     
     def _is_valid_response(self, response):
         """Check if response has valid structure with choices."""
@@ -59,38 +78,37 @@ class MistralClient:
 
     def _chat_complete_with_retry(self, **call_params):
         """
-        🔄 Wrapper pour self.client.chat.complete() avec retry et backoff exponentiel
-        pour gérer les erreurs 429 (Rate Limited) de l'API Mistral.
+        Wrapper pour self.client.chat.complete() avec retry, backoff exponentiel
+        et jitter pour gerer les erreurs 429 (Rate Limited) de l'API Mistral.
         """
+        self._throttle()
+        
         for attempt in range(MAX_RETRIES):
             try:
+                self._last_call_time = time.time()
                 response = self.client.chat.complete(**call_params)
                 
                 # Validate response structure to catch potential issues early
                 if not self._is_valid_response(response):
                     if attempt < MAX_RETRIES - 1:
-                        delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
-                        logger.warning(f"⏳ Response invalide - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
+                        delay = self._compute_delay(attempt)
+                        logger.warning(f"Response invalide - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay:.1f}s...")
                         time.sleep(delay)
                         continue
                     else:
-                        logger.error("❌ Réponse invalide après tous les retries")
+                        logger.error("Reponse invalide apres tous les retries")
                         return response
                 
                 # Validate JSON parsing for json_object responses
-                # This catches cases where API returns malformed JSON, which may indicate
-                # the API is under stress or experiencing issues
                 if call_params.get('response_format', {}).get('type') == 'json_object':
                     message = response.choices[0].message
                     if message and message.content:
                         try:
-                            # Try to parse JSON to validate early
                             json.loads(message.content)
                         except json.JSONDecodeError:
-                            # Retry on JSON parse errors as they may indicate API stress
                             if attempt < MAX_RETRIES - 1:
-                                delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
-                                logger.warning(f"⏳ JSON malformé (API stress possible) - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
+                                delay = self._compute_delay(attempt)
+                                logger.warning(f"JSON malformed (possible API stress) - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay:.1f}s...")
                                 time.sleep(delay)
                                 continue
                 
@@ -100,86 +118,98 @@ class MistralClient:
                 # Handle 429 rate limit errors explicitly
                 if hasattr(e, 'status_code') and e.status_code == 429:
                     if attempt < MAX_RETRIES - 1:
-                        delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
-                        logger.warning(f"⏳ Rate limit (429) - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
+                        delay = self._compute_delay(attempt, rate_limited=True)
+                        logger.warning(f"Rate limit (429) - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay:.1f}s...")
                         time.sleep(delay)
                         continue
                 
                 # Handle other potentially transient SDKErrors based on status codes
-                # Common transient HTTP status codes: 408 (timeout), 500-504 (server errors)
                 if hasattr(e, 'status_code') and e.status_code in TRANSIENT_HTTP_STATUS_CODES:
                     if attempt < MAX_RETRIES - 1:
-                        delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
-                        logger.warning(f"⏳ Erreur transitoire HTTP {e.status_code} - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
+                        delay = self._compute_delay(attempt)
+                        logger.warning(f"Erreur transitoire HTTP {e.status_code} - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay:.1f}s...")
                         time.sleep(delay)
                         continue
                 
-                # Fallback to string matching for errors without status codes (connection errors, etc.)
+                # Fallback to string matching for errors without status codes
                 error_message = str(e).lower()
                 is_transient = any(keyword in error_message for keyword in TRANSIENT_ERROR_KEYWORDS)
                 
                 if is_transient and attempt < MAX_RETRIES - 1:
-                    delay = min(RETRY_BASE_DELAY * (2 ** attempt), RETRY_MAX_DELAY)
-                    logger.warning(f"⏳ Erreur transitoire ({type(e).__name__}) - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay}s...")
+                    delay = self._compute_delay(attempt)
+                    logger.warning(f"Erreur transitoire ({type(e).__name__}) - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay:.1f}s...")
                     time.sleep(delay)
                     continue
                 
                 # Non-transient error or final attempt
                 raise
+    
+    def _compute_delay(self, attempt, rate_limited=False):
+        """Compute backoff delay with jitter.
+        
+        For rate-limited requests, use a higher base multiplier to give the
+        API more time to recover.
+        """
+        multiplier = 3 if rate_limited else 2
+        base = RETRY_BASE_DELAY * (multiplier ** attempt)
+        delay = min(base, RETRY_MAX_DELAY)
+        # Add random jitter (0-25% of delay) to avoid thundering herd
+        jitter = delay * random.uniform(0, 0.25)
+        return delay + jitter
 
     def _validate_and_parse_response(self, chat_response, expect_json: bool = True) -> dict:
         """
-        Valide et parse une réponse Mistral API de manière sécurisée.
+        Valide et parse une reponse Mistral API de maniere securisee.
         
         Args:
-            chat_response: Réponse brute de l'API
+            chat_response: Reponse brute de l'API
             expect_json: Si True, parse le contenu comme JSON
             
         Returns:
-            dict: Contenu parsé ou dict vide en cas d'erreur
+            dict: Contenu parse ou dict vide en cas d'erreur
         """
         if not chat_response or not hasattr(chat_response, 'choices'):
-            logger.error("❌ Réponse Mistral invalide : structure incorrecte")
+            logger.error("Reponse Mistral invalide : structure incorrecte")
             return {}
         
         if not chat_response.choices or len(chat_response.choices) == 0:
-            logger.error("❌ Réponse Mistral invalide : pas de choices")
+            logger.error("Reponse Mistral invalide : pas de choices")
             return {}
         
         first_choice = chat_response.choices[0]
         if not hasattr(first_choice, 'message') or not first_choice.message:
-            logger.error("❌ Réponse Mistral invalide : pas de message")
+            logger.error("Reponse Mistral invalide : pas de message")
             return {}
         
         content = first_choice.message.content
         if not content:
-            logger.error("❌ Réponse Mistral invalide : contenu vide")
+            logger.error("Reponse Mistral invalide : contenu vide")
             return {}
         
         if expect_json:
             try:
                 result = json.loads(content)
                 if not isinstance(result, dict):
-                    logger.error("❌ Réponse JSON n'est pas un dictionnaire")
+                    logger.error("Reponse JSON n'est pas un dictionnaire")
                     return {}
                 return result
             except json.JSONDecodeError as e:
-                logger.error(f"❌ Erreur parsing JSON : {e}")
-                logger.error(f"Contenu reçu : {content[:200]}...")
+                logger.error(f"Erreur parsing JSON : {e}")
+                logger.error(f"Contenu recu : {content[:200]}...")
                 return {}
         else:
             return {"content": content}
 
     def intelligent_restructure(self, content: str, title: str, template_path: str, entity_types: list = None) -> dict:
-        """Analyse le contenu et renvoie les métadonnées structurées (type, résumé, etc.).
+        """Analyse le contenu et renvoie les metadonnees structurees (type, resume, etc.).
         
         Args:
             content: Le contenu Markdown de la fiche.
-            title: Le titre de l'entité.
+            title: Le titre de l'entite.
             template_path: Chemin vers le template YAML (fallback).
-            entity_types: Liste des types d'entités valides issus de la configuration.
+            entity_types: Liste des types d'entites valides issus de la configuration.
         """
-        logger.info(f"Appel à l'API Mistral pour structurer : {title}")
+        logger.info(f"Appel a l'API Mistral pour structurer : {title}")
 
         if entity_types is None:
             entity_types = ["Personne", "Entreprise", "Institution", "Ecole", "Media", "Fondation", "Parti"]
@@ -231,18 +261,18 @@ Renvoie UNIQUEMENT un objet JSON valide avec les clés suivantes :
             return self._validate_and_parse_response(chat_response, expect_json=True)
             
         except SDKError as e:
-            logger.error(f"❌ Erreur SDK Mistral (après retries) : {e}")
+            logger.error(f"Erreur SDK Mistral (apres retries) : {e}")
             return {}
         except Exception as e:
-            logger.error(f"❌ Erreur lors de l'appel à l'API Mistral : {type(e).__name__}: {e}")
+            logger.error(f"Erreur lors de l'appel a l'API Mistral : {type(e).__name__}: {e}")
             return {}
 
     def extract_yaml_data(self, text: str, schema_description: str) -> dict:
         """
-        Extrait des données précises (métadonnées) depuis un texte brut (ex: Wikipedia)
-        en suivant un schéma strict fourni en prompt. Ne génère pas de texte narratif.
+        Extrait des donnees precises (metadonnees) depuis un texte brut (ex: Wikipedia)
+        en suivant un schema strict fourni en prompt. Ne genere pas de texte narratif.
         """
-        logger.info("Appel à l'API Mistral pour extraire des données précises (ex: dates, lieux)...")
+        logger.info("Appel a l'API Mistral pour extraire des donnees precises (ex: dates, lieux)...")
         
         system_prompt = f"""
         Tu es un extracteur de données métier. Ton unique but est d'extraire des informations factuelles précises du texte fourni.
@@ -269,19 +299,19 @@ Renvoie UNIQUEMENT un objet JSON valide avec les clés suivantes :
             return self._validate_and_parse_response(chat_response, expect_json=True)
             
         except SDKError as e:
-            logger.error(f"❌ Erreur SDK Mistral (après retries) : {e}")
+            logger.error(f"Erreur SDK Mistral (apres retries) : {e}")
             return {}
         except Exception as e:
-            logger.error(f"❌ Erreur lors de l'extraction de données : {type(e).__name__}: {e}")
+            logger.error(f"Erreur lors de l'extraction de donnees : {type(e).__name__}: {e}")
             return {}
 
     def extract_entities_for_rss(self, title: str, summary: str) -> str:
         """
-        Méthode utilitaire simple pour extraire les entités (personnes / organisations)
-        à partir d'un titre et d'un résumé. Retourne la cha��ne brute renvoyée par le modèle
-        (idéalement une liste JSON comme ['Nom1','Nom2']).
+        Methode utilitaire simple pour extraire les entites (personnes / organisations)
+        a partir d'un titre et d'un resume. Retourne la chaine brute renvoyee par le modele
+        (idealement une liste JSON comme ['Nom1','Nom2']).
         """
-        logger.info(f"Appel à l'API Mistral pour extraire des entités : {title}")
+        logger.info(f"Appel a l'API Mistral pour extraire des entites : {title}")
 
         prompt = f"""
         Analyse ce titre et ce résumé d'article de presse.
@@ -314,8 +344,8 @@ Renvoie UNIQUEMENT un objet JSON valide avec les clés suivantes :
                         return msg.get('content') or first.get('content') or str(first)
             return str(chat_response)
         except SDKError as e:
-            logger.error(f"❌ Erreur SDK Mistral (après retries) pour les entités RSS : {e}")
+            logger.error(f"Erreur SDK Mistral (apres retries) pour les entites RSS : {e}")
             return '[]'
         except Exception as e:
-            logger.error(f"❌ Erreur lors de l'appel Mistral pour les entités RSS : {e}")
+            logger.error(f"Erreur lors de l'appel Mistral pour les entites RSS : {e}")
             return '[]'

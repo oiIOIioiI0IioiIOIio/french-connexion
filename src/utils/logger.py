@@ -3,10 +3,18 @@ import sys
 from pathlib import Path
 
 def setup_logger(name="french_connection", log_file="logs/system.log"):
-    """Configure un logger qui écrit à la fois dans la console et un fichier."""
+    """Configure un logger qui ecrit a la fois dans la console et un fichier.
+    
+    Prevents duplicate handlers when called multiple times with the same name.
+    """
     Path("logs").mkdir(exist_ok=True)
     
     logger = logging.getLogger(name)
+    
+    # Avoid adding duplicate handlers if already configured
+    if logger.handlers:
+        return logger
+    
     logger.setLevel(logging.INFO)
     
     # Format des logs
