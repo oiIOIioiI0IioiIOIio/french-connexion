@@ -65,6 +65,12 @@ def process_file(file_path):
         # On s'assure que le type est correct
         final_metadata['type'] = entity_type
 
+        # Préserver et enrichir les sources existantes
+        existing_sources = final_metadata.get('sources', []) or []
+        if not isinstance(existing_sources, list):
+            existing_sources = [existing_sources]
+        final_metadata['sources'] = existing_sources
+
         # 4. Écriture
         new_post = frontmatter.Post(content, **final_metadata)
 

@@ -79,6 +79,9 @@ from typing import Dict, List, Tuple, Optional, Set
 from collections import defaultdict
 import time
 from mistralai import SDKError
+from urllib.request import urlopen, Request
+from urllib.parse import quote
+from urllib.error import URLError
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
@@ -151,6 +154,108 @@ EMPTY_QUERY_RESPONSE = {
     'subject_category': '',
     'explanation': ''
 }
+
+# Timeout pour les requêtes HTTP externes
+HTTP_TIMEOUT = 10
+
+
+def fetch_wikidata_for_person(person_name: str) -> dict:
+    """Récupère des données structurées complémentaires depuis Wikidata.
+    
+    Source officielle et ouverte. Permet de croiser les dates, identifiants
+    et fonctions avec Wikipedia pour renforcer la fiabilité factuelle.
+    """
+    try:
+        search_url = (
+            "https://www.wikidata.org/w/api.php?"
+            f"action=wbsearchentities&search={quote(person_name)}&language=fr&limit=1&format=json"
+        )
+        req = Request(search_url, headers={"User-Agent": "FrenchConnexion/1.0"})
+        with urlopen(req, timeout=HTTP_TIMEOUT) as resp:
+            data = json.loads(resp.read().decode())
+
+        results = data.get("search", [])
+        if not results:
+            return {}
+
+        entity_id = results[0]["id"]
+        wikidata_url = f"https://www.wikidata.org/wiki/{entity_id}"
+
+        entity_api = f"https://www.wikidata.org/wiki/Special:EntityData/{entity_id}.json"
+        req = Request(entity_api, headers={"User-Agent": "FrenchConnexion/1.0"})
+        with urlopen(req, timeout=HTTP_TIMEOUT) as resp:
+            entity_data = json.loads(resp.read().decode())
+
+        entity = entity_data.get("entities", {}).get(entity_id, {})
+        claims = entity.get("claims", {})
+
+        info = {"wikidata_id": entity_id, "wikidata_url": wikidata_url}
+
+        # P856 = site web officiel
+        if "P856" in claims:
+            try:
+                info["website"] = claims["P856"][0]["mainsnak"]["datavalue"]["value"]
+            except (KeyError, IndexError):
+                pass
+
+        # P569 = date de naissance
+        if "P569" in claims:
+            try:
+                raw = claims["P569"][0]["mainsnak"]["datavalue"]["value"]["time"]
+                info["birth_date_wd"] = raw.lstrip("+").split("T")[0]
+            except (KeyError, IndexError):
+                pass
+
+        # P570 = date de décès
+        if "P570" in claims:
+            try:
+                raw = claims["P570"][0]["mainsnak"]["datavalue"]["value"]["time"]
+                info["death_date_wd"] = raw.lstrip("+").split("T")[0]
+            except (KeyError, IndexError):
+                pass
+
+        logger.debug(f"✅ Wikidata : {len(info)} champs pour {person_name}")
+        return info
+
+    except (URLError, json.JSONDecodeError) as e:
+        logger.debug(f"ℹ️ Wikidata indisponible pour {person_name}: {e}")
+        return {}
+    except Exception as e:
+        logger.debug(f"ℹ️ Erreur Wikidata pour {person_name}: {e}")
+        return {}
+
+
+def fetch_hatvp_for_person(name: str) -> dict:
+    """Interroge l'API publique HATVP (Haute Autorité pour la Transparence
+    de la Vie Publique) pour les déclarations d'intérêts.
+    
+    Source officielle française, conformément aux obligations de transparence.
+    """
+    try:
+        search_url = (
+            f"https://www.hatvp.fr/api/v1/declarations?"
+            f"nom={quote(name)}&format=json"
+        )
+        req = Request(search_url, headers={"User-Agent": "FrenchConnexion/1.0"})
+        with urlopen(req, timeout=HTTP_TIMEOUT) as resp:
+            data = json.loads(resp.read().decode())
+
+        if not data or not isinstance(data, list) or len(data) == 0:
+            return {}
+
+        declaration = data[0]
+        info = {
+            "hatvp_declared": True,
+            "hatvp_function": declaration.get("fonction", ""),
+            "hatvp_url": f"https://www.hatvp.fr/consulter-les-declarations/?nom={quote(name)}"
+        }
+        logger.debug(f"✅ HATVP : déclaration trouvée pour {name}")
+        return info
+
+    except (URLError, json.JSONDecodeError):
+        return {}
+    except Exception:
+        return {}
 
 class PersonEntity:
     """Classe pour représenter une personne avec toutes ses métadonnées"""
@@ -999,13 +1104,13 @@ def wikipedia_factcheck_person_rigorous(person_name: str) -> Optional[dict]:
           "lieu_naissance": "Ville et pays de naissance complets",
           "nationalite": "Nationalité(s) complète(s)",
           "genre": "homme ou femme",
-          "statut_actuel": "Profession ou fonction principale actuelle ou au moment du décès",
-          "bio_courte": "Résumé biographique factuel en 2-3 phrases maximum",
-          "bio_detaillee": "Biographie détaillée en 5-7 phrases",
+          "statut_actuel": "Fonction ou titre officiel principal actuel (ou au moment du décès)",
+          "bio_courte": "Description factuelle en 1-2 phrases : fonction principale, institution, dates clés. Style encyclopédique impersonnel. NE PAS commencer par le prénom. Exemple : Haut fonctionnaire, directeur général de la Caisse des dépôts depuis 2017.",
+          "bio_detaillee": "Description factuelle en 4-6 phrases. Fonctions occupées, mandats, affiliations institutionnelles, dates clés. Style encyclopédique neutre et impersonnel, comme une notice Who's Who. NE JAMAIS commencer par 'Prénom Nom est...' ni utiliser un ton promotionnel. Citer les faits, postes, institutions, dates.",
           "formation": "Liste complète des écoles, universités, diplômes (format: liste)",
           "carriere": "Liste chronologique des principales fonctions, postes, mandats (format: liste)",
           "distinctions": "Liste complète des distinctions, prix, décorations (format: liste)",
-          "controverses": "Liste des controverses ou scandales documentés (format: liste)",
+          "controverses": "Liste des controverses ou scandales documentés dans l'article Wikipedia (format: liste). Ne rien inventer.",
           "famille_proche": "Noms complets des membres famille proche mentionnés (conjoint, enfants, parents)",
           "relations_professionnelles": "Noms complets des collaborateurs, mentors, associés importants",
           "mots_cles": "Mots-clés caractérisant la personne (5-10 mots)",
@@ -1045,8 +1150,34 @@ def wikipedia_factcheck_person_rigorous(person_name: str) -> Optional[dict]:
         institutions = extract_institutions_from_text(full_content)
         extracted_data['linked_institutions'] = institutions
         
+        # Enrichissement via Wikidata (données structurées complémentaires)
+        wikidata_info = fetch_wikidata_for_person(person_name)
+        if wikidata_info:
+            extracted_data['wikidata_id'] = wikidata_info.get('wikidata_id', '')
+            extracted_data['wikidata_url'] = wikidata_info.get('wikidata_url', '')
+            # Compléter les données manquantes
+            if not extracted_data.get('date_naissance') and wikidata_info.get('birth_date_wd'):
+                extracted_data['date_naissance'] = wikidata_info['birth_date_wd']
+            if not extracted_data.get('date_deces') and wikidata_info.get('death_date_wd'):
+                extracted_data['date_deces'] = wikidata_info['death_date_wd']
+
+        # Enrichissement HATVP (transparence vie publique)
+        hatvp_info = fetch_hatvp_for_person(person_name)
+        if hatvp_info:
+            extracted_data['hatvp_declared'] = True
+            extracted_data['hatvp_function'] = hatvp_info.get('hatvp_function', '')
+            extracted_data['hatvp_url'] = hatvp_info.get('hatvp_url', '')
+
+        # Collecte des sources
+        all_sources = [page.url]
+        if wikidata_info.get('wikidata_url'):
+            all_sources.append(wikidata_info['wikidata_url'])
+        if hatvp_info.get('hatvp_url'):
+            all_sources.append(hatvp_info['hatvp_url'])
+        extracted_data['all_sources'] = all_sources
+
         EXPLORATION_STATS['factcheck_success'] += 1
-        logger.info(f"✅ Factcheck réussi : {page.title} ({len(relationships)} relations, {len(institutions)} institutions)")
+        logger.info(f"✅ Factcheck réussi : {page.title} ({len(relationships)} relations, {len(institutions)} institutions, {len(all_sources)} sources)")
         
         return extracted_data
         
@@ -1068,13 +1199,13 @@ def wikipedia_factcheck_person_rigorous(person_name: str) -> Optional[dict]:
               "lieu_naissance": "Lieu de naissance",
               "nationalite": "Nationalité",
               "genre": "Genre",
-              "statut_actuel": "Statut professionnel",
-              "bio_courte": "Biographie courte",
-              "bio_detaillee": "Biographie détaillée",
+              "statut_actuel": "Fonction ou titre officiel principal",
+              "bio_courte": "Description factuelle en 1-2 phrases, style encyclopédique. NE PAS commencer par le prénom.",
+              "bio_detaillee": "Description factuelle en 4-6 phrases, style notice Who's Who. NE JAMAIS commencer par Prénom Nom est...",
               "formation": "Formation (liste)",
               "carriere": "Carrière (liste)",
               "distinctions": "Distinctions (liste)",
-              "controverses": "Controverses (liste)",
+              "controverses": "Controverses documentées (liste)",
               "mots_cles": "Mots-clés",
               "niveau_notoriete": "Notoriété (1-10)"
             }
@@ -1628,13 +1759,32 @@ def create_person_file_comprehensive(person: PersonEntity, all_institutions: Lis
     if mots_cles:
         tags_line = "\n**Tags** : " + " · ".join([f"#{tag.replace(' ', '-')}" for tag in mots_cles[:10]]) + "\n"
     
-    # Footer avec métadonnées de vérification
+    # Footer avec métadonnées de vérification et SOURCES
+    all_sources = person_data.get('all_sources', [person_data.get('wikipedia_url', '')])
+    sources_section = "\n## Sources\n\n"
+    for src in all_sources:
+        if src:
+            if 'wikipedia' in src:
+                sources_section += f"- [Wikipedia]({src})\n"
+            elif 'wikidata' in src:
+                sources_section += f"- [Wikidata]({src})\n"
+            elif 'hatvp' in src:
+                sources_section += f"- [HATVP - Transparence]({src})\n"
+            else:
+                sources_section += f"- [{src}]({src})\n"
+
+    # Données HATVP (si disponibles)
+    hatvp_section = ""
+    if person_data.get('hatvp_declared'):
+        hatvp_section = f"\n## Transparence (HATVP)\n\n"
+        hatvp_section += f"**Fonction déclarée** : {person_data.get('hatvp_function', 'N/A')}\n"
+        hatvp_section += f"**Déclarations** : [Consulter sur HATVP]({person_data.get('hatvp_url', '')})\n"
+
     footer = f"""
 ---
 
 ## Métadonnées et Vérification
 
-**Source principale** : [Wikipedia]({person_data.get('wikipedia_url', '')})  
 **Titre Wikipedia** : {person_data.get('wikipedia_title', person_name)}  
 **Statut de vérification** : ✅ {person_data.get('factcheck_status', 'verified')}  
 **Date de vérification** : {person_data.get('verification_date', datetime.now().strftime('%Y-%m-%d'))}  
@@ -1646,7 +1796,7 @@ def create_person_file_comprehensive(person: PersonEntity, all_institutions: Lis
 
 {tags_line}
 
-*Fiche créée le {datetime.now().strftime('%Y-%m-%d à %H:%M')} via l'Œil de Dieu (exploration récursive niveau {depth})*
+*Fiche générée le {datetime.now().strftime('%Y-%m-%d à %H:%M')} — exploration récursive niveau {depth}*
 """
     
     # ========== ASSEMBLAGE FINAL ==========
@@ -1659,6 +1809,8 @@ def create_person_file_comprehensive(person: PersonEntity, all_institutions: Lis
 {relations_section}
 {distinctions_section}
 {controverses_section}
+{hatvp_section}
+{sources_section}
 {footer}
 """
     
@@ -1682,7 +1834,9 @@ def create_person_file_comprehensive(person: PersonEntity, all_institutions: Lis
         'liens': [rel.person_to for rel in relationships[:20]],
         'relations_detaillees': [rel.to_dict() for rel in relationships[:20]],
         'presse': [],
-        'sources': [person_data.get('wikipedia_url', '')],
+        'sources': [s for s in person_data.get('all_sources', [person_data.get('wikipedia_url', '')]) if s],
+        'wikidata_id': person_data.get('wikidata_id', ''),
+        'hatvp_declared': person_data.get('hatvp_declared', False),
         'statut_note': 'verifie_wikipedia',
         'tags': ['elite', 'wikipedia', f'niveau-{depth}', 'oeil-de-dieu'] + mots_cles[:5],
         'date_creation_note': datetime.now().strftime('%Y-%m-%d'),
@@ -1753,14 +1907,14 @@ def create_institution_file_comprehensive(institution: InstitutionEntity) -> boo
         
         schema = """
         {
-          "description_detaillee": "Description détaillée de l'institution",
+          "description_detaillee": "Description factuelle de l'institution : date de création, objet, siège, activité principale. Style encyclopédique, sans ton promotionnel.",
           "date_fondation": "Date de fondation",
           "fondateurs": "Noms des fondateurs",
           "siege_social": "Localisation du siège",
           "type_organisation": "Type d'organisation (entreprise, club, think tank, etc.)",
           "domaine_activite": "Domaine d'activité principal",
           "membres_notables": "Membres ou dirigeants notables (liste)",
-          "influence": "Description de l'influence et du rôle"
+          "influence": "Rôle et influence documentés, sans jugement de valeur"
         }
         """
         
@@ -1774,13 +1928,17 @@ def create_institution_file_comprehensive(institution: InstitutionEntity) -> boo
         
         institution.members = membres
         
-    except:
+    except Exception:
         summary = f"Institution identifiée dans le réseau de pouvoir lié à : {found_via}"
         wiki_url = ""
         verified = False
         description = summary
         extracted_data = {}
     
+    # Enrichissement via Wikidata
+    wikidata_info = fetch_wikidata_for_person(institution_name)
+    wikidata_url = wikidata_info.get('wikidata_url', '')
+
     # Découverte
     discovery_text = ""
     if depth > 0:
@@ -1794,7 +1952,19 @@ def create_institution_file_comprehensive(institution: InstitutionEntity) -> boo
         membres_section = f"\n## Membres et Dirigeants\n\n"
         for membre in institution.members[:20]:
             membres_section += f"- [[{membre}]]\n"
-    
+
+    # Sources
+    inst_sources = []
+    sources_md = "\n## Sources\n\n"
+    if wiki_url:
+        inst_sources.append(wiki_url)
+        sources_md += f"- [Wikipedia]({wiki_url})\n"
+    if wikidata_url:
+        inst_sources.append(wikidata_url)
+        sources_md += f"- [Wikidata]({wikidata_url})\n"
+    if not inst_sources:
+        sources_md += "- Aucune source vérifiable\n"
+
     content = f"""{discovery_text}
 
 ## Description
@@ -1802,6 +1972,8 @@ def create_institution_file_comprehensive(institution: InstitutionEntity) -> boo
 {description}
 
 {membres_section}
+
+{sources_md}
 
 ---
 
@@ -1812,11 +1984,10 @@ def create_institution_file_comprehensive(institution: InstitutionEntity) -> boo
 **Fondation** : {extracted_data.get('date_fondation', 'N/A')}  
 **Siège** : {extracted_data.get('siege_social', 'N/A')}  
 **Domaine** : {extracted_data.get('domaine_activite', 'N/A')}  
-**Source** : {'[Wikipedia](' + wiki_url + ')' if wiki_url else 'Réseau Mistral'}  
-**Statut de vérification** : {'✅ Wikipedia' if verified else '⚠️ À vérifier'}  
+**Statut de vérification** : {'✅ Vérifié' if verified else '⚠️ À vérifier'}  
 **Date d'ajout** : {datetime.now().strftime('%Y-%m-%d')}  
 
-*Fiche créée via l'Œil de Dieu (niveau {depth})*
+*Fiche générée — exploration récursive niveau {depth}*
 """
     
     metadata = {
@@ -1828,7 +1999,8 @@ def create_institution_file_comprehensive(institution: InstitutionEntity) -> boo
         'siege': extracted_data.get('siege_social', ''),
         'domaine': extracted_data.get('domaine_activite', ''),
         'membres': institution.members[:20],
-        'sources': [wiki_url] if wiki_url else [],
+        'sources': inst_sources,
+        'wikidata_id': wikidata_info.get('wikidata_id', ''),
         'statut_note': 'verifie_wikipedia' if verified else 'a_verifier',
         'tags': ['institution', 'elite', f'niveau-{depth}', 'oeil-de-dieu'],
         'date_creation_note': datetime.now().strftime('%Y-%m-%d'),
