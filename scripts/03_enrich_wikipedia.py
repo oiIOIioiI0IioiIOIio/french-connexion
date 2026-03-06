@@ -21,10 +21,10 @@ load_dotenv()
 logger = setup_logger()
 llm = MistralClient()
 
-# Wikipedia en francais
+# Wikipedia en français
 wikipedia.set_lang("fr")
 
-# Timeout pour les requetes HTTP externes
+# Timeout pour les requêtes HTTP externes
 HTTP_TIMEOUT = 10
 
 # Delay between processing each entity to avoid rate limits
@@ -134,7 +134,7 @@ def fetch_wikidata_info(title: str) -> dict:
             if positions:
                 info["positions_wikidata"] = positions
 
-        logger.info(f"Wikidata : {len(info)} champs recuperes pour {title}")
+        logger.info(f"Wikidata : {len(info)} champs récupérés pour {title}")
         return info
 
     except (URLError, json.JSONDecodeError, KeyError) as e:
@@ -172,11 +172,11 @@ def fetch_hatvp_info(name: str) -> dict:
             "hatvp_url": f"https://www.hatvp.fr/consulter-les-declarations/?nom={quote(name)}"
         }
 
-        logger.info(f"HATVP : declaration trouvee pour {name}")
+        logger.info(f"HATVP : déclaration trouvée pour {name}")
         return info
 
     except (URLError, json.JSONDecodeError) as e:
-        logger.debug(f"HATVP : pas de donnees pour {name} ({e})")
+        logger.debug(f"HATVP : pas de données pour {name} ({e})")
         return {}
     except Exception as e:
         logger.debug(f"HATVP : erreur pour {name} ({e})")
@@ -193,7 +193,7 @@ def process_file(file_path):
 
         # On saute si déjà enrichi
         if 'wikipedia_enriched' in metadata:
-            logger.info(f"{title} deja enrichi. Ignore.")
+            logger.info(f"{title} déjà enrichi. Ignoré.")
             return
 
         logger.info(f"Recherche Wikipedia pour : {title} ({entity_type})...")
@@ -269,8 +269,8 @@ def process_file(file_path):
 def main():
     logger.info("Lancement de l'enrichissement multi-sources (Wikipedia + Wikidata + HATVP)...")
     
-    # Cible uniquement les dossiers d'entites
-    target_folders = ["personnes", "institutions", "companies", "ecoles", "medias", "think tanks"]
+    # Cible uniquement les dossiers d'entités
+    target_folders = ["personnes", "institutions", "companies", "écoles", "medias", "think tanks"]
     
     md_files = []
     for folder in target_folders:
@@ -285,7 +285,7 @@ def main():
         if i < total - 1:
             time.sleep(INTER_ENTITY_DELAY)
         
-    logger.info("Enrichissement termine.")
+    logger.info("Enrichissement terminé.")
 
 if __name__ == "__main__":
     main()

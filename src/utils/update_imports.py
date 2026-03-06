@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Script pour mettre a jour automatiquement les imports de MistralClient
+Script pour mettre à jour automatiquement les imports de MistralClient
 vers MistralAIClient dans tous les fichiers Python du projet.
 """
 
@@ -9,7 +9,7 @@ import re
 from pathlib import Path
 
 def update_imports(file_path):
-    """Met a jour les imports dans un fichier."""
+    """Met à jour les imports dans un fichier."""
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             content = f.read()
@@ -48,12 +48,12 @@ def update_imports(file_path):
         return False
 
 def scan_and_update(root_dir='.'):
-    """Scanne tous les fichiers Python et met a jour les imports."""
+    """Scanne tous les fichiers Python et met à jour les imports."""
     root_path = Path(root_dir)
     updated_files = []
     skipped_files = []
     
-    # Fichiers a exclure
+    # Fichiers à exclure
     exclude_patterns = {
         'venv', '.venv', 'env', '__pycache__', '.git', 
         'node_modules', 'dist', 'build'
@@ -66,11 +66,11 @@ def scan_and_update(root_dir='.'):
             continue
         
         if py_file.name == 'llm_client.py':
-            print(f"[SKIP] Ignore (fichier source) : {py_file}")
+            print(f"[SKIP] Ignoré (fichier source) : {py_file}")
             skipped_files.append(py_file)
             continue
         
-        print(f"Verification : {py_file}")
+        print(f"Vérification : {py_file}")
         
         try:
             with open(py_file, 'r', encoding='utf-8') as f:
@@ -82,33 +82,33 @@ def scan_and_update(root_dir='.'):
             continue
         
         if update_imports(py_file):
-            print(f"   [OK] Mis a jour")
+            print(f"   [OK] Mis à jour")
             updated_files.append(py_file)
         else:
-            print(f"   [INFO] Aucun changement necessaire")
+            print(f"   [INFO] Aucun changement nécessaire")
     
     # Rapport
     print("\n" + "="*50)
     print("RAPPORT")
     print("="*50)
-    print(f"[OK] Fichiers mis a jour : {len(updated_files)}")
-    print(f"[SKIP] Fichiers ignores : {len(skipped_files)}")
+    print(f"[OK] Fichiers mis à jour : {len(updated_files)}")
+    print(f"[SKIP] Fichiers ignorés : {len(skipped_files)}")
     
     if updated_files:
-        print("\nFichiers modifies :")
+        print("\nFichiers modifiés :")
         for f in updated_files:
             print(f"   - {f}")
     
     print("\n[IMPORTANT]")
-    print("   1. Verifiez manuellement les changements avec 'git diff'")
+    print("   1. Vérifiez manuellement les changements avec 'git diff'")
     print("   2. Testez votre code avant de committer")
-    print("   3. Certains cas complexes peuvent necessiter une modification manuelle")
+    print("   3. Certains cas complexes peuvent nécessiter une modification manuelle")
 
 if __name__ == "__main__":
     import sys
     
     print("[WARN] Ce script va modifier vos fichiers Python !")
-    print("   Assurez-vous d'avoir une sauvegarde ou que vos changements sont committes.")
+    print("   Assurez-vous d'avoir une sauvegarde ou que vos changements sont committés.")
     
     response = input("\n   Continuer ? (oui/non) : ").strip().lower()
     
@@ -116,4 +116,4 @@ if __name__ == "__main__":
         root = sys.argv[1] if len(sys.argv) > 1 else '.'
         scan_and_update(root)
     else:
-        print("\n[CANCEL] Annule par l'utilisateur")
+        print("\n[CANCEL] Annulé par l'utilisateur")

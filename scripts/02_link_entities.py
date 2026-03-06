@@ -74,7 +74,7 @@ def build_entity_index():
     
     Indexe le nom principal, le nom de fichier, et les alias éventuels du frontmatter.
     """
-    logger.info("Construction de l'index des entites...")
+    logger.info("Construction de l'index des entités...")
     md_files = list(Path(".").rglob("*.md"))
     exclude_dirs = {".git", "scripts", "config", "admin", "rapports"}
 
@@ -121,7 +121,7 @@ def build_entity_index():
             if nc_norm and nc_norm not in IGNORE_PATTERNS:
                 ENTITY_INDEX[nc_norm] = {"path": rel_path, "display": display_name}
 
-    logger.info(f"Index construit : {len(ENTITY_INDEX)} entrees")
+    logger.info(f"Index construit : {len(ENTITY_INDEX)} entrées")
 
 
 def _get_protected_ranges(content: str) -> list:
@@ -250,7 +250,7 @@ def link_document(file_path):
         if replaced:
             modified = True
             already_linked.add(norm_text)
-            logger.debug(f"Lien cree : {text} -> [[{display_name}]]")
+            logger.debug(f"Lien créé : {text} -> [[{display_name}]]")
 
             # Backlinks
             if display_name not in BACKLINKS:
@@ -267,7 +267,7 @@ def link_document(file_path):
 
 def update_backlinks_in_frontmatter():
     """Met à jour le champ 'liens' du frontmatter avec les backlinks découverts."""
-    logger.info("Mise a jour des backlinks dans le frontmatter...")
+    logger.info("Mise à jour des backlinks dans le frontmatter...")
     updated = 0
     for entity_name, referencing_files in BACKLINKS.items():
         # Trouver le fichier de cette entité
@@ -303,7 +303,7 @@ def update_backlinks_in_frontmatter():
         except Exception as e:
             logger.warning(f"Erreur backlink pour {entity_name}: {e}")
 
-    logger.info(f"{updated} fiches mises a jour avec des backlinks")
+    logger.info(f"{updated} fiches mises à jour avec des backlinks")
 
 
 def main():
@@ -325,23 +325,23 @@ def main():
             if link_document(f):
                 total_modified += 1
         total_files_modified += total_modified
-        logger.info(f"   -> {total_modified} fichiers modifies lors de la passe {pass_num}")
+        logger.info(f"   -> {total_modified} fichiers modifiés lors de la passe {pass_num}")
         if total_modified == 0:
-            logger.info(f"Convergence atteinte a la passe {pass_num}, aucun nouveau lien")
+            logger.info(f"Convergence atteinte à la passe {pass_num}, aucun nouveau lien")
             break
 
     # Mise à jour des backlinks dans le frontmatter
     update_backlinks_in_frontmatter()
 
-    logger.info(f"Resume : {total_files_modified} fichiers modifies au total, "
-                f"{len(BACKLINKS)} entites avec des backlinks")
+    logger.info(f"Résumé : {total_files_modified} fichiers modifiés au total, "
+                f"{len(BACKLINKS)} entités avec des backlinks")
 
     # Ne commiter que si le script n'est pas exécuté par GitHub Actions
     # (le workflow gère le commit/push lui-même)
     if not os.environ.get("GITHUB_ACTIONS"):
         git.commit_changes("feat: génération automatique des liens et backlinks (multi-passes)")
     else:
-        logger.info("Execution CI detectee -- le commit sera gere par le workflow")
+        logger.info("Exécution CI détectée -- le commit sera géré par le workflow")
 
 if __name__ == "__main__":
     main()
