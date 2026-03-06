@@ -11,6 +11,10 @@ PyYAML>=6.0.1
 python-frontmatter>=1.0.0  # Pour parser les fichiers Markdown avec frontmatter
 python-dotenv>=1.0.0
 # ========================================
+# NLP (Traitement du langage naturel)
+# ========================================
+spacy>=3.7.0  # NER pour la génération automatique de liens
+# ========================================
 # Utilitaires
 # ========================================
 colorlog>=6.7.0  # Logs colorés (optionnel mais recommandé)
