@@ -204,9 +204,17 @@ RÈGLES DE CLASSIFICATION :
 IMPORTANT : Base ta classification sur le CONTENU RÉEL de la fiche, pas sur le type existant dans les métadonnées.
 Par exemple, une fiche décrivant une chaîne de télévision doit être classée "Media" même si son type actuel est "Institution".
 
+STYLE DU RÉSUMÉ — RÈGLES STRICTES :
+- Écris comme un journaliste d'investigation ou un rédacteur d'encyclopédie.
+- Le résumé doit être FACTUEL et IMPERSONNEL : fonctions occupées, dates, faits vérifiables.
+- NE COMMENCE JAMAIS par "Prénom Mon est..." ou "X est un(e)...". Commence directement par le fait principal (ex: "Haut fonctionnaire, ancien directeur de cabinet du Premier ministre (2017-2020)").
+- PAS de ton promotionnel ni laudatif. PAS de jugement de valeur.
+- Cite les fonctions, mandats, affiliations institutionnelles concrètes.
+- Le résumé doit permettre de situer l'entité dans une cartographie des élites.
+
 Renvoie UNIQUEMENT un objet JSON valide avec les clés suivantes :
 - "type" : Le type de l'entité (EXACTEMENT l'un des types listés ci-dessus).
-- "summary" : Un résumé en 2 phrases.
+- "summary" : Un résumé factuel en 2 phrases (style encyclopédique, pas de "X est un(e)...").
 - "keywords" : Une liste de 5 mots-clés pertinents.
 """
 
