@@ -1,7 +1,7 @@
 # Requirements pour french-connexion
-# Mis à jour avec toutes les dépendances nécessaires
+# Mis a jour avec toutes les dependances necessaires
 # ========================================
-# SDK Mistral AI
+# SDK Mistral AI (optionnel - ameliore la qualite quand disponible)
 # ========================================
 mistralai>=1.0.0
 # ========================================
@@ -13,12 +13,12 @@ python-dotenv>=1.0.0
 # ========================================
 # NLP (Traitement du langage naturel)
 # ========================================
-spacy>=3.7.0  # NER pour la génération automatique de liens
+spacy>=3.7.0  # NER pour la generation automatique de liens et extraction de relations
 # ========================================
 # Utilitaires
 # ========================================
-colorlog>=6.7.0  # Logs colorés (optionnel mais recommandé)
-wikipedia         # Nécessaire pour le script d'enrichissement Wikipédia
+colorlog>=6.7.0  # Logs colores (optionnel mais recommande)
+wikipedia         # Necessaire pour l'enrichissement Wikipedia
 # ========================================
 # Pour les tests (optionnel)
 # ========================================
@@ -28,8 +28,8 @@ pytest-cov>=4.1.0
 # Notes importantes
 # ========================================
 # 1. Pour installer : pip install -r requirements.txt
-# 2. Pour mettre à jour : pip install --upgrade -r requirements.txt
-# 3. Pour GitHub Actions, ce fichier sera utilisé automatiquement
-# 4. Variables d'environnement requises :
-#    - MISTRAL_API_KEY (obligatoire)
-#    - MISTRAL_MODEL (optionnel, défaut: open-mistral-nemo)
+# 2. Pour le modele Spacy : python -m spacy download fr_core_news_lg
+# 3. Pour GitHub Actions, ce fichier sera utilise automatiquement
+# 4. Variables d'environnement optionnelles :
+#    - MISTRAL_API_KEY (optionnel, ameliore la qualite de l'extraction)
+#    - MISTRAL_MODEL (optionnel, defaut: open-mistral-nemo)

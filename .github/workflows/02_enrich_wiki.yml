@@ -2,8 +2,6 @@ name: 02 - Enrichissement Wikipedia
 
 on:
   workflow_dispatch:
-  # schedule:
-  #   - cron: '0 9 * * 1' # Tous les lundis à 9h du matin
 
 permissions:
   contents: write
@@ -28,13 +26,6 @@ jobs:
         env:
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           MISTRAL_MODEL: "open-mistral-nemo"
-          MAX_RETRIES: "12"
-          RETRY_BASE_DELAY: "5"
-          RETRY_MAX_DELAY: "300"
-          API_CALL_DELAY: "5.0"
-          INTER_ENTITY_DELAY: "8.0"
-          ADAPTIVE_THROTTLE_INCREMENT: "2.0"
-          LLM_CACHE_DIR: ".cache/llm"
         run: python scripts/03_enrich_wikipedia.py
 
       - name: Commit et Push
@@ -42,5 +33,5 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add .
-          git diff --quiet && git diff --staged --quiet || git commit -m "feat: enrichissement des données via Wikipedia"
+          git diff --quiet && git diff --staged --quiet || git commit -m "feat: enrichissement des donnees via Wikipedia"
           git push

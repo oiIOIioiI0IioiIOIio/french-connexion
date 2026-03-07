@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       query:
-        description: 'Qui voulez-vous chercher ? (ex: les présidents de la 5e république, les ministres actuels, etc.)'
+        description: 'Qui voulez-vous chercher ? (ex: Le Siecle, Bernard Arnault, les ministres actuels)'
         required: true
         type: string
 
@@ -15,7 +15,7 @@ jobs:
   add-people:
     runs-on: ubuntu-latest
     steps:
-      - name: Récupération du code
+      - name: Recuperation du code
         uses: actions/checkout@v4
 
       - name: Configuration Python
@@ -24,10 +24,13 @@ jobs:
           python-version: '3.10'
           cache: 'pip'
 
-      - name: Installation des dépendances
+      - name: Installation des dependances
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
+      - name: Download Spacy French model
+        run: python -m spacy download fr_core_news_lg
 
       - name: Configuration Git
         run: |
@@ -38,13 +41,6 @@ jobs:
         env:
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           MISTRAL_MODEL: "open-mistral-nemo"
-          MAX_RETRIES: "12"
-          RETRY_BASE_DELAY: "5"
-          RETRY_MAX_DELAY: "300"
-          API_CALL_DELAY: "5.0"
-          INTER_ENTITY_DELAY: "8.0"
-          ADAPTIVE_THROTTLE_INCREMENT: "2.0"
-          LLM_CACHE_DIR: ".cache/llm"
         run: |
           python scripts/06_add_people_from_wikipedia.py "${{ inputs.query }}"
 
