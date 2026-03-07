@@ -3,6 +3,8 @@ import json
 import time
 import random
 import re
+import hashlib
+from pathlib import Path
 from mistralai import Mistral, SDKError
 from src.utils.logger import setup_logger
 
@@ -10,13 +12,13 @@ logger = setup_logger()
 
 # Configuration du retry avec backoff exponentiel pour les erreurs 429
 try:
-    MAX_RETRIES = int(os.getenv("MAX_RETRIES", "8"))
+    MAX_RETRIES = int(os.getenv("MAX_RETRIES", "12"))
     if MAX_RETRIES < 1:
-        logger.warning("MAX_RETRIES must be >= 1, using default of 8")
-        MAX_RETRIES = 8
+        logger.warning("MAX_RETRIES must be >= 1, using default of 12")
+        MAX_RETRIES = 12
 except ValueError:
-    logger.warning("Invalid MAX_RETRIES value, using default of 8")
-    MAX_RETRIES = 8
+    logger.warning("Invalid MAX_RETRIES value, using default of 12")
+    MAX_RETRIES = 12
 
 try:
     RETRY_BASE_DELAY = int(os.getenv("RETRY_BASE_DELAY", "5"))
@@ -28,21 +30,32 @@ except ValueError:
     RETRY_BASE_DELAY = 5
 
 try:
-    RETRY_MAX_DELAY = int(os.getenv("RETRY_MAX_DELAY", "120"))
+    RETRY_MAX_DELAY = int(os.getenv("RETRY_MAX_DELAY", "300"))
     if RETRY_MAX_DELAY < RETRY_BASE_DELAY:
-        logger.warning("RETRY_MAX_DELAY must be >= RETRY_BASE_DELAY, using default of 120")
-        RETRY_MAX_DELAY = 120
+        logger.warning("RETRY_MAX_DELAY must be >= RETRY_BASE_DELAY, using default of 300")
+        RETRY_MAX_DELAY = 300
 except ValueError:
-    logger.warning("Invalid RETRY_MAX_DELAY value, using default of 120")
-    RETRY_MAX_DELAY = 120
+    logger.warning("Invalid RETRY_MAX_DELAY value, using default of 300")
+    RETRY_MAX_DELAY = 300
 
 # Minimum delay between consecutive API calls (throttle) to avoid rate limits
 try:
-    API_CALL_DELAY = float(os.getenv("API_CALL_DELAY", "2.0"))
+    API_CALL_DELAY = float(os.getenv("API_CALL_DELAY", "5.0"))
     if API_CALL_DELAY < 0:
-        API_CALL_DELAY = 2.0
+        API_CALL_DELAY = 5.0
 except ValueError:
-    API_CALL_DELAY = 2.0
+    API_CALL_DELAY = 5.0
+
+# Adaptive throttle increment applied after each 429 error (seconds)
+try:
+    ADAPTIVE_THROTTLE_INCREMENT = float(os.getenv("ADAPTIVE_THROTTLE_INCREMENT", "2.0"))
+    if ADAPTIVE_THROTTLE_INCREMENT < 0:
+        ADAPTIVE_THROTTLE_INCREMENT = 2.0
+except ValueError:
+    ADAPTIVE_THROTTLE_INCREMENT = 2.0
+
+# Response cache directory (set to empty string to disable caching)
+CACHE_DIR = os.getenv("LLM_CACHE_DIR", ".cache/llm")
 
 # Keywords for detecting transient errors in error messages
 TRANSIENT_ERROR_KEYWORDS = ('timeout', 'connection', 'network', 'temporary', 'unavailable')
@@ -60,15 +73,85 @@ class MistralClient:
         self.client = Mistral(api_key=api_key)
         self.model = os.getenv("MISTRAL_MODEL", "open-mistral-nemo")
         self._last_call_time = 0.0
+        # Adaptive throttle: starts at configured value, increases on 429 errors
+        self._adaptive_delay = API_CALL_DELAY
+        self._consecutive_429_count = 0
+        # Initialize cache directory
+        self._cache_dir = None
+        if CACHE_DIR:
+            self._cache_dir = Path(CACHE_DIR)
+            self._cache_dir.mkdir(parents=True, exist_ok=True)
     
     def _throttle(self):
-        """Enforce minimum delay between consecutive API calls to avoid rate limits."""
-        if API_CALL_DELAY > 0:
+        """Enforce minimum delay between consecutive API calls to avoid rate limits.
+        
+        Uses adaptive delay that increases after 429 errors to self-adjust
+        to the API rate limit.
+        """
+        current_delay = self._adaptive_delay
+        if current_delay > 0:
             elapsed = time.time() - self._last_call_time
-            if elapsed < API_CALL_DELAY:
-                wait = API_CALL_DELAY - elapsed
-                logger.debug(f"Throttle: waiting {wait:.1f}s before next API call")
+            if elapsed < current_delay:
+                wait = current_delay - elapsed
+                logger.debug(f"Throttle: waiting {wait:.1f}s before next API call (adaptive delay: {current_delay:.1f}s)")
                 time.sleep(wait)
+    
+    def _on_rate_limit(self):
+        """Called when a 429 rate limit error is received.
+        
+        Increases the adaptive throttle delay for all future calls
+        so the script progressively slows down.
+        """
+        self._consecutive_429_count += 1
+        old_delay = self._adaptive_delay
+        self._adaptive_delay += ADAPTIVE_THROTTLE_INCREMENT
+        logger.info(
+            f"Adaptive throttle: delay increased {old_delay:.1f}s -> {self._adaptive_delay:.1f}s "
+            f"(consecutive 429s: {self._consecutive_429_count})"
+        )
+    
+    def _on_success(self):
+        """Called when an API call succeeds. Partially reduces adaptive delay."""
+        if self._consecutive_429_count > 0:
+            self._consecutive_429_count = 0
+            # Slowly reduce back toward the base delay, but not all at once
+            if self._adaptive_delay > API_CALL_DELAY:
+                new_delay = max(API_CALL_DELAY, self._adaptive_delay - ADAPTIVE_THROTTLE_INCREMENT * 0.5)
+                if new_delay < self._adaptive_delay:
+                    logger.debug(f"Adaptive throttle: delay reduced {self._adaptive_delay:.1f}s -> {new_delay:.1f}s after success")
+                    self._adaptive_delay = new_delay
+    
+    def _cache_key(self, **call_params):
+        """Generate a deterministic cache key from API call parameters."""
+        # Serialize the relevant parts of the call for hashing
+        key_data = json.dumps(call_params, sort_keys=True, default=str)
+        return hashlib.sha256(key_data.encode()).hexdigest()
+    
+    def _get_cached_response(self, cache_key):
+        """Retrieve a cached response if available."""
+        if not self._cache_dir:
+            return None
+        cache_file = self._cache_dir / f"{cache_key}.json"
+        if cache_file.exists():
+            try:
+                with open(cache_file, 'r', encoding='utf-8') as f:
+                    cached = json.load(f)
+                logger.info(f"Cache hit for key {cache_key[:12]}...")
+                return cached
+            except (json.JSONDecodeError, IOError):
+                return None
+        return None
+    
+    def _set_cached_response(self, cache_key, response_content):
+        """Store a parsed response in the cache."""
+        if not self._cache_dir:
+            return
+        cache_file = self._cache_dir / f"{cache_key}.json"
+        try:
+            with open(cache_file, 'w', encoding='utf-8') as f:
+                json.dump(response_content, f, ensure_ascii=False, indent=2)
+        except IOError as e:
+            logger.debug(f"Failed to write cache: {e}")
     
     def _is_valid_response(self, response):
         """Check if response has valid structure with choices."""
@@ -101,6 +184,9 @@ class MistralClient:
         """
         Wrapper pour self.client.chat.complete() avec retry, backoff exponentiel
         et jitter pour gérer les erreurs 429 (Rate Limited) de l'API Mistral.
+        
+        Includes adaptive throttling: after 429 errors, the delay between ALL
+        future calls is increased to proactively avoid further rate limits.
         """
         self._throttle()
         
@@ -133,11 +219,15 @@ class MistralClient:
                                 time.sleep(delay)
                                 continue
                 
+                # Success: adjust adaptive throttle down
+                self._on_success()
                 return response
                 
             except SDKError as e:
                 # Handle 429 rate limit errors explicitly
                 if hasattr(e, 'status_code') and e.status_code == 429:
+                    # Increase adaptive throttle for all future calls
+                    self._on_rate_limit()
                     if attempt < MAX_RETRIES - 1:
                         # Try to use server-provided retry-after delay
                         server_delay = self._extract_retry_after(e)
@@ -235,13 +325,11 @@ class MistralClient:
             template_path: Chemin vers le template YAML (fallback).
             entity_types: Liste des types d'entités valides issus de la configuration.
         """
-        logger.info(f"Appel à l'API Mistral pour structurer : {title}")
-
         if entity_types is None:
             entity_types = ["Personne", "Entreprise", "Institution", "Ecole", "Media", "Fondation", "Parti"]
 
         types_list = ", ".join(entity_types)
-        
+
         system_prompt = f"""
 Tu es un assistant expert en classification d'entités du réseau d'influence français.
 Ton rôle est d'analyser le contenu d'une fiche et de déterminer précisément le type d'entité décrite.
@@ -274,17 +362,34 @@ Renvoie UNIQUEMENT un objet JSON valide avec les clés suivantes :
 - "keywords" : Une liste de 5 mots-clés pertinents.
 """
 
+        # Build call params for cache key and API call
+        call_params = dict(
+            model=self.model,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": f"Titre : {title}\n\nContenu :\n{content}"}
+            ],
+            response_format={"type": "json_object"}
+        )
+
+        # Check cache first
+        cache_key = self._cache_key(**call_params)
+        cached = self._get_cached_response(cache_key)
+        if cached is not None:
+            return cached
+
+        logger.info(f"Appel à l'API Mistral pour structurer : {title}")
+
         try:
-            chat_response = self._chat_complete_with_retry(
-                model=self.model,
-                messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": f"Titre : {title}\n\nContenu :\n{content}"}
-                ],
-                response_format={"type": "json_object"}
-            )
+            chat_response = self._chat_complete_with_retry(**call_params)
             
-            return self._validate_and_parse_response(chat_response, expect_json=True)
+            result = self._validate_and_parse_response(chat_response, expect_json=True)
+            
+            # Cache successful non-empty results
+            if result:
+                self._set_cached_response(cache_key, result)
+            
+            return result
             
         except SDKError as e:
             logger.error(f"Erreur SDK Mistral (après retries) : {e}")
@@ -298,8 +403,6 @@ Renvoie UNIQUEMENT un objet JSON valide avec les clés suivantes :
         Extrait des données précises (métadonnées) depuis un texte brut (ex: Wikipedia)
         en suivant un schéma strict fourni en prompt. Ne génère pas de texte narratif.
         """
-        logger.info("Appel à l'API Mistral pour extraire des données précises (ex: dates, lieux)...")
-        
         system_prompt = f"""
         Tu es un extracteur de données métier. Ton unique but est d'extraire des informations factuelles précises du texte fourni.
         
@@ -312,17 +415,33 @@ Renvoie UNIQUEMENT un objet JSON valide avec les clés suivantes :
         {schema_description}
         """
 
-        try:
-            chat_response = self._chat_complete_with_retry(
-                model=self.model,
-                messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": f"Texte source (Wikipedia) :\n\n{text}"}
-                ],
-                response_format={"type": "json_object"}
-            )
+        call_params = dict(
+            model=self.model,
+            messages=[
+                {"role": "system", "content": system_prompt},
+                {"role": "user", "content": f"Texte source (Wikipedia) :\n\n{text}"}
+            ],
+            response_format={"type": "json_object"}
+        )
 
-            return self._validate_and_parse_response(chat_response, expect_json=True)
+        # Check cache first
+        cache_key = self._cache_key(**call_params)
+        cached = self._get_cached_response(cache_key)
+        if cached is not None:
+            return cached
+
+        logger.info("Appel à l'API Mistral pour extraire des données précises (ex: dates, lieux)...")
+
+        try:
+            chat_response = self._chat_complete_with_retry(**call_params)
+
+            result = self._validate_and_parse_response(chat_response, expect_json=True)
+            
+            # Cache successful non-empty results
+            if result:
+                self._set_cached_response(cache_key, result)
+            
+            return result
             
         except SDKError as e:
             logger.error(f"Erreur SDK Mistral (après retries) : {e}")

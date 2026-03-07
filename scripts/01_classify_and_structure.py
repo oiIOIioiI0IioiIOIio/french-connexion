@@ -22,17 +22,63 @@ git = GitHandler()
 llm = MistralClient()
 
 # Delay between processing each entity to avoid rate limits
-INTER_ENTITY_DELAY = float(os.getenv("INTER_ENTITY_DELAY", "3.0"))
+INTER_ENTITY_DELAY = float(os.getenv("INTER_ENTITY_DELAY", "8.0"))
+
+# Batch processing: process BATCH_SIZE entities, then take a BATCH_COOLDOWN break
+try:
+    BATCH_SIZE = int(os.getenv("BATCH_SIZE", "5"))
+    if BATCH_SIZE < 1:
+        BATCH_SIZE = 5
+except ValueError:
+    BATCH_SIZE = 5
+
+try:
+    BATCH_COOLDOWN = float(os.getenv("BATCH_COOLDOWN", "30.0"))
+    if BATCH_COOLDOWN < 0:
+        BATCH_COOLDOWN = 30.0
+except ValueError:
+    BATCH_COOLDOWN = 30.0
 
 # CORRECTION ICI : L'indentation est fixée pour charger la config à l'intérieur du bloc with
 with open("config/config.yaml", "r", encoding="utf-8") as f:
     CONFIG = yaml.safe_load(f)
+
+
+def is_already_processed(post):
+    """Check if a file already has valid type, summary, and keywords.
+    
+    Returns True if the entity has been fully processed and does not need
+    another API call. This avoids unnecessary rate-limited requests on re-runs.
+    """
+    metadata = post.metadata
+    entity_type = metadata.get('type')
+    summary = metadata.get('summary')
+    keywords = metadata.get('keywords')
+
+    # Must have a valid type from the config
+    if not entity_type or entity_type not in CONFIG.get('entity_types', {}):
+        return False
+
+    # Must have a non-empty summary
+    if not summary or not isinstance(summary, str) or len(summary.strip()) < 10:
+        return False
+
+    # Must have keywords (list with at least 1 entry)
+    if not keywords or not isinstance(keywords, list) or len(keywords) < 1:
+        return False
+
+    return True
 
 def process_file(file_path):
     try:
         post = frontmatter.load(file_path)
         content = post.content
         title = post.get('title', file_path.stem)
+
+        # Skip files that already have valid type, summary, and keywords
+        if is_already_processed(post):
+            logger.info(f"Déjà traité (type/summary/keywords présents) : {title} - ignoré")
+            return False  # No API call made
 
         logger.info(f"Analyse intelligente de : {title}...")
 
@@ -46,7 +92,7 @@ def process_file(file_path):
 
         if not new_metadata:
             logger.error(f"Échec de l'analyse pour {title}")
-            return
+            return True  # API call was attempted
 
         # 2. Récupération du type décidé par l'IA
         entity_type = new_metadata.get('type', 'Institution')
@@ -88,9 +134,11 @@ def process_file(file_path):
             frontmatter.dump(new_post, f)
 
         logger.info(f"Succès : {title} structuré en {entity_type}")
+        return True  # API call was made
 
     except Exception as e:
         logger.error(f"Erreur critique sur {file_path} : {e}", exc_info=True)
+        return True  # Assume API call was attempted
 
 def main():
     logger.info("Lancement du restructurateur autonome...")
@@ -103,13 +151,36 @@ def main():
                 and f.name != "README.md"]
 
     total = len(md_files)
+    skipped = 0
+    processed = 0
+    api_calls_in_batch = 0
+
     for i, f in enumerate(md_files):
         logger.info(f"Processing {i + 1}/{total}...")
-        process_file(f)
-        # Delay between entities to avoid API rate limits
-        if i < total - 1:
+        made_api_call = process_file(f)
+
+        if not made_api_call:
+            skipped += 1
+            continue
+
+        processed += 1
+        api_calls_in_batch += 1
+
+        # Batch cooldown: after BATCH_SIZE API calls, take a longer break
+        if api_calls_in_batch >= BATCH_SIZE and i < total - 1:
+            logger.info(
+                f"Batch de {BATCH_SIZE} appels API terminé - "
+                f"pause de {BATCH_COOLDOWN:.0f}s (traités: {processed}, ignorés: {skipped})..."
+            )
+            time.sleep(BATCH_COOLDOWN)
+            api_calls_in_batch = 0
+        elif i < total - 1:
+            # Normal inter-entity delay
             time.sleep(INTER_ENTITY_DELAY)
 
+    logger.info(
+        f"Terminé : {processed} traités, {skipped} ignorés (déjà à jour) sur {total} fichiers."
+    )
     git.commit_changes("feat: restructuration intelligente et classification par IA")
     logger.info("Terminé.")
 
