@@ -9,6 +9,8 @@ keywords:
 - association
 - analyse économique
 leader: Henri de La Croix de Castries
+liens:
+- Le siècle
 summary: L'Institut Montaigne est un think tank français libéral fondé en 2000 par
   Claude Bébéar. Il est financé par des grandes entreprises et produit des analyses
   sur des enjeux économiques et sociétaux.

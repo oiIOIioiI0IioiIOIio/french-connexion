@@ -8,6 +8,8 @@ keywords:
 - politique économique
 - finance internationale
 - Emmanuel Macron
+liens:
+- Cercle WB
 nationality: française
 occupation:
 - avocate d'affaires

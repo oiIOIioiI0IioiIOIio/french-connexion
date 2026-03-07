@@ -20,7 +20,7 @@ type: Institution
 
 [[Jacques Attali]] (conseiller d'État, président de Positive Planet)​
     
-[[Claude Bébéar]] (ancien président d’Axa, président de l’Institut Montaigne)​
+[[Claude Bébéar]] (ancien président d’Axa, président de l’[[Institut Montaigne]])​
     
 [[Personnes/Antoine Bernheim]] (dirigeant associé de Lazard)​
     
@@ -76,7 +76,7 @@ Journalistes et personnalités médiatiques :
 
 [[David Pujadas]] (journaliste)​
     
-[[Dominique Seux]] (journaliste, Les Échos, Ouest-France)​
+[[Dominique Seux]] (journaliste, [[Les Échos]], [[Ouest-France]])​
     
 [[François Lenglet]] (journaliste)​
     
@@ -109,7 +109,7 @@ Universitaires et intellectuels :
 
 Artistes et personnalités culturelles :
 
-[[Karol Beffa]] (compositeur, pianiste, professeur à l’École polytechnique, à l’École normale supérieure et au Collège de France)​
+[[Karol Beffa]] (compositeur, pianiste, professeur à l’[[École polytechnique]], à l’[[École normale supérieure]] et au Collège de France)​
     
 [[Yamina Benguigui]] (productrice de cinéma et femme politique)​
     

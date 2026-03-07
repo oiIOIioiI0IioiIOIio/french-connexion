@@ -9,6 +9,8 @@ keywords:
 - régional
 - médias
 leader: null
+liens:
+- Le siècle
 summary: Ouest-France est un quotidien régional français fondé en 1944, couvrant principalement
   l'actualité de l'ouest de la France. Il est l'un des journaux les plus lus en France
   avec une forte implantation locale.

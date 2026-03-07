@@ -8,6 +8,8 @@ keywords:
 - équestre
 - privé
 - événements
+liens:
+- Saint-James Club
 summary: Le Polo de Paris est un club privé dédié à la pratique et à la promotion
   du polo en France. Il rassemble des membres autour de compétitions, d'événements
   sociaux et d'activités équestres.

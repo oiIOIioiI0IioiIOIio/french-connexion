@@ -7,6 +7,8 @@ keywords:
 - européen
 - ministre
 - finances
+liens:
+- Pierre Moscovici 1
 nationality: française
 occupation: haut fonctionnaire et homme politique
 summary: Pierre Moscovici est une personnalité politique française, ancien ministre

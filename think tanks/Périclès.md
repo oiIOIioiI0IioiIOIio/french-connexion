@@ -8,6 +8,9 @@ keywords:
 - réformes
 - débat public
 - analyse économique
+liens:
+- François Durvye
+- Projet Périclès
 nationality: Athénienne
 occupation: Stratège, orateur, homme d'État
 summary: Périclès est un think tank français spécialisé dans l'analyse des politiques

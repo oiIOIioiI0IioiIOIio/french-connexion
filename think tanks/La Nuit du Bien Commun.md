@@ -7,6 +7,8 @@ keywords:
 - événement
 - dons
 - projets sociaux
+liens:
+- Fonds du Bien Commun
 summary: La Nuit du Bien Commun est un événement caritatif annuel organisé pour soutenir
   des projets sociaux et solidaires. Il rassemble des personnalités et des donateurs
   autour de causes d'intérêt général.

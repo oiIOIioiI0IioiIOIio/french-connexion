@@ -51,7 +51,7 @@ Aujourd’hui Toujours à la tête du groupe [[E.Leclerc]] promoteur du pouvoir 
 
 Distinctions
 
-Chevalier de la Légion d’honneur
+Chevalier de la [[Légion d’honneur]]
 
 Prix du Manager de l’année Le Nouvel Économiste 2007
 

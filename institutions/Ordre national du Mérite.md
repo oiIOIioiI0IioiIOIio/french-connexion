@@ -9,6 +9,9 @@ keywords:
 - mérites
 - ministère
 leader: Président de la République algérienne démocratique et populaire
+liens:
+- Agnès Pannier-Runacher
+- Didier Banquy
 summary: L'Ordre national du Mérite est une distinction honorifique française créée
   en 1963 pour récompenser les mérites distingués, civils ou militaires. Il s'agit
   d'une institution publique sous la tutelle du ministère de la Justice, chargée de

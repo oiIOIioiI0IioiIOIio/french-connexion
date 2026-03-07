@@ -17,7 +17,7 @@ type: Fondation
 wikipedia_enriched: true
 ---
 
-**Think tank identitaire** fondé en 2014, à la suite du décès de **[[Dominique Venner]]**, essayiste d’extrême droite, ancien militant de l’OAS et historien nationaliste.
+**[[Think tank]] identitaire** fondé en 2014, à la suite du décès de **[[Dominique Venner]]**, essayiste d’extrême droite, ancien militant de l’OAS et historien nationaliste.
 
 - Objectif : réaffirmer l’identité culturelle, ethnique et civilisationnelle européenne.
 

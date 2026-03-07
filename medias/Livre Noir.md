@@ -5,6 +5,8 @@ keywords:
 - conservateur
 - identitaire
 - interviews
+liens:
+- Centre d’Analyse et de Prospective (CAP)
 summary: Livre Noir est un média en ligne fondé en 2021, axé sur des interviews longues
   avec une ligne éditoriale conservatrice et identitaire. Il s'est distingué comme
   une voix alternative critiquant les médias traditionnels et soutenant des thèmes

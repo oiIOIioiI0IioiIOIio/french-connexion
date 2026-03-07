@@ -54,7 +54,7 @@ Mère de quatre enfants
 
 ### Distinctions
 
-- Chevalier de l’Ordre national du Mérite
+- Chevalier de l’[[Ordre national du Mérite]]
     
 
 ### Connexions et réseau d'influence

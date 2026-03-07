@@ -9,6 +9,9 @@ keywords:
 - journalisme
 - médias
 leader: null
+liens:
+- François Durvye
+- Projet Périclès
 summary: Le Monde est un quotidien français de référence fondé en 1944, connu pour
   son indépendance éditoriale et sa couverture approfondie de l'actualité nationale
   et internationale. Il est l'un des journaux les plus influents en France et en Europe

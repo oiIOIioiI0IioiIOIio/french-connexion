@@ -9,6 +9,10 @@ keywords:
 - université
 - relations internationales
 leader: null
+liens:
+- Bruno Retailleau
+- Marc Lambron
+- Philippe de Villiers
 summary: L'Institut d'études politiques de Paris, communément appelé Sciences Po Paris,
   est un établissement d'enseignement supérieur français spécialisé dans les sciences
   humaines et sociales. Il forme des étudiants dans des domaines comme les relations

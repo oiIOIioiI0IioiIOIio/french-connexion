@@ -27,7 +27,7 @@ Marié le 28 juin 1962 à [[Marie-Françoise Chaufour]], ils ont quatre enfants 
 ### Formation :
 - Lycée Lyautey à Casablanca
 - Lycée Hoche à Versailles
-- Ancien élève de l'École polytechnique
+- Ancien élève de l'[[École polytechnique]]
 - Ingénieur des ponts et chaussées
 
 ### Carrière :

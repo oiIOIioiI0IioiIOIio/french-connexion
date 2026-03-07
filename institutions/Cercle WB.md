@@ -14,7 +14,7 @@ type: Institution
 ---
 
 #club 
-Le concept repose sur un triptyque : économie, gastronomie et œnologie. Trois soirées par mois sont organisées au Bristol, au Ritz et au Shangri-La, sur un format identique : 18h00-19h00, conférence économique ; 19h00-20h00, dégustation d’une sélection de vins ; 20h00-20h30 : interview de deux personnalités (Christine Lagarde, Patrick Pouyanné…) sur leur parcours et leur actualité ; puis dîner orchestré par les chefs des palaces. « _On raconte de belles histoires et on fait aussi un peu de philanthropie_ », confie le fondateur
+Le concept repose sur un triptyque : économie, gastronomie et œnologie. Trois soirées par mois sont organisées au Bristol, au Ritz et au Shangri-La, sur un format identique : 18h00-19h00, conférence économique ; 19h00-20h00, dégustation d’une sélection de vins ; 20h00-20h30 : interview de deux personnalités ([[Christine Lagarde]], Patrick Pouyanné…) sur leur parcours et leur actualité ; puis dîner orchestré par les chefs des palaces. « _On raconte de belles histoires et on fait aussi un peu de philanthropie_ », confie le fondateur
 
 Dédié aux dirigeants d’entreprise, le club B2B de luxe compte 1 100 membres.
 

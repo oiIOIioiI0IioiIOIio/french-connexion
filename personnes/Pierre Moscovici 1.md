@@ -12,7 +12,7 @@ summary: Pierre Moscovici est un homme politique français, ancien ministre et c
 type: Personne
 ---
 
-- **Nom complet :** Pierre Moscovici
+- **Nom complet :** [[Pierre Moscovici]]
     
 - **Date de naissance :** 1957
     

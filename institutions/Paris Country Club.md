@@ -20,7 +20,7 @@ Situé à 110 mètres d’altitude, au sommet du parc de Saint-Cloud, le Paris 
 
 **L’adresse**
 
-121, rue du Lieutenant-Colonel-de-Montbrison à Rueil-Malmaison. Salle de sport, piscines, fitness, spa solarium, salle de cinéma, nurserie, activités enfants, restaurants, club de bridge, courts de tennis, accès au golf de Paris à l’hippodrome de St-Cloud, hôtel, espace télétravail, le lieu est somptueux et propose une foule d’activité physiques ou culturelles pour toute la famille. Elle est ouverte 7/7 de 7h à 23h.
+121, rue du Lieutenant-Colonel-de-Montbrison à Rueil-Malmaison. Salle de sport, piscines, fitness, spa solarium, salle de cinéma, nurserie, activités enfants, restaurants, club de bridge, courts de tennis, accès au golf de Paris à l’hippodrome de St-Cloud, hôtel, espace télétravail, le lieu est somptueux et propose une foule d’activité physiques ou culturelles pour toute la famille. [[Elle]] est ouverte 7/7 de 7h à 23h.
 
 **Conditions d’entrée**
 

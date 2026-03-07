@@ -60,7 +60,7 @@ tags:
 type: Personne
 ---
 
-Jean Augustine est une femme politique et militante canadienne d'origine grenadienne. Première femme noire élue députée fédérale au Canada, elle a joué un rôle clé dans la reconnaissance du mois de l'histoire des Noirs. Elle a également occupé des fonctions ministérielles et été commissaire à l'équité en Ontario.
+Jean Augustine est une femme politique et militante canadienne d'origine grenadienne. Première femme noire élue députée fédérale au Canada, elle a joué un rôle clé dans la reconnaissance du mois de l'histoire des Noirs. [[Elle]] a également occupé des fonctions ministérielles et été commissaire à l'équité en Ontario.
 
 
 ## Famille

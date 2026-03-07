@@ -21,8 +21,10 @@ keywords:
 - tanks
 - directeur
 liens:
-- Richard N. Haass
+- Centre d’Analyse et de Prospective (CAP)
+- Institut Iliade
 - James McGann
+- Richard N. Haass
 lieu_naissance: ''
 nationalite: ''
 nom_complet: Think tank

@@ -12,7 +12,7 @@ summary: Élisabeth Borne est une haute fonctionnaire et femme politique frança
 type: Personne
 ---
 
-**[[Patrice Obert]]** : Président de l'association Les Poissons roses et compagnon d'Élisabeth Borne. 
+**[[Patrice Obert]]** : Président de l'association Les Poissons roses et compagnon d'[[Élisabeth Borne]]. 
 
 [[Lionel Jospin]] : Ancien Premier ministre, avec qui Élisabeth Borne a travaillé au sein du cabinet du ministre d'État, ministre de l'Éducation nationale, et plus tard en tant que conseillère technique au Ministère de l'Éducation (1991-1993).
 

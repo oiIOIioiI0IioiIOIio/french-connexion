@@ -9,6 +9,8 @@ keywords:
 - Première ministre
 - fonctionnaire
 - Macron
+liens:
+- Élisabeth Borne 1
 nationality: française
 occupation: haute fonctionnaire, femme d'État, Première ministre
 summary: Élisabeth Borne est une haute fonctionnaire et femme politique française,

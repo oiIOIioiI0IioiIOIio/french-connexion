@@ -9,6 +9,9 @@ keywords:
 - grande école
 - science
 leader: null
+liens:
+- Jean-Paul Parayre
+- Le siècle
 summary: L'École polytechnique, aussi connue sous le nom de Polytechnique ou l'X,
   est une grande école d'ingénieurs française réputée pour son excellence académique
   et scientifique. Elle forme des ingénieurs, des chercheurs et des cadres de haut

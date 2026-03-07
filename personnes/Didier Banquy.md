@@ -45,7 +45,7 @@ Marié le 11 juin 1994 à [[Nathalie Fourdan]], directrice de communication. Pè
 - Conseiller régional d'Île-de-France (depuis 1998)
 
 ### Distinctions :
-- Chevalier de l'Ordre national du Mérite
+- Chevalier de l'[[Ordre national du Mérite]]
 
 ### Coordonnées :
 - Professeur à [[Caisse nationale des caisses d'épargne (CNCE)]], 27-29 rue de la Tombe Issoire, 75673 Paris Cedex 14

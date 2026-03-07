@@ -8,6 +8,8 @@ keywords:
 - grande école
 - recherche
 - académie
+liens:
+- Le siècle
 summary: L'École normale supérieure (ENS) est un établissement d'enseignement supérieur
   français prestigieux, formant des étudiants dans les domaines des sciences, des
   lettres et des sciences humaines. Elle est reconnue pour son excellence académique

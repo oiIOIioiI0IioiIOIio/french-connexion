@@ -40,7 +40,7 @@ La gouvernance du Fonds est assurée par :
 
 #### Projets et Engagements
 
-Le Fonds du Bien Commun soutient et accompagne des projets à impact sociétal fort, notamment dans les domaines de l'éducation, de la culture et de la solidarité. Il est également impliqué dans l'organisation d'événements caritatifs tels que **La Nuit du Bien Commun**, visant à collecter des fonds pour diverses associations.
+Le Fonds du Bien Commun soutient et accompagne des projets à impact sociétal fort, notamment dans les domaines de l'éducation, de la culture et de la solidarité. Il est également impliqué dans l'organisation d'événements caritatifs tels que **[[La Nuit du Bien Commun]]**, visant à collecter des fonds pour diverses associations.
 
 #### Coordonnées
 

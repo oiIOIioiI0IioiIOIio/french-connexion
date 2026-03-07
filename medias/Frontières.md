@@ -9,6 +9,8 @@ keywords:
 - extrême droite
 - ligne éditoriale
 leader: null
+liens:
+- Centre d’Analyse et de Prospective (CAP)
 summary: Frontières, anciennement connu sous le nom Livre Noir, est un média conservateur
   et identitaire fondé en 2021. Il entretient des liens étroits avec des figures et
   médias de l'extrême droite et de la droite radicale.
