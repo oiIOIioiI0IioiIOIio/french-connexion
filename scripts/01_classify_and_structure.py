@@ -43,6 +43,8 @@ except ValueError:
 with open("config/config.yaml", "r", encoding="utf-8") as f:
     CONFIG = yaml.safe_load(f)
 
+MIN_SUMMARY_LENGTH = 10
+
 
 def is_already_processed(post):
     """Check if a file already has valid type, summary, and keywords.
@@ -60,7 +62,7 @@ def is_already_processed(post):
         return False
 
     # Must have a non-empty summary
-    if not summary or not isinstance(summary, str) or len(summary.strip()) < 10:
+    if not summary or not isinstance(summary, str) or len(summary.strip()) < MIN_SUMMARY_LENGTH:
         return False
 
     # Must have keywords (list with at least 1 entry)

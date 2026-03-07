@@ -136,8 +136,11 @@ class MistralClient:
             try:
                 with open(cache_file, 'r', encoding='utf-8') as f:
                     cached = json.load(f)
-                logger.info(f"Cache hit for key {cache_key[:12]}...")
-                return cached
+                # Validate cached data is a non-empty dict
+                if isinstance(cached, dict) and len(cached) > 0:
+                    logger.info(f"Cache hit for key {cache_key[:12]}...")
+                    return cached
+                return None
             except (json.JSONDecodeError, IOError):
                 return None
         return None
