@@ -30,11 +30,15 @@ jobs:
         env:
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           MISTRAL_MODEL: "open-mistral-nemo"
-          MAX_RETRIES: "8"
+          MAX_RETRIES: "12"
           RETRY_BASE_DELAY: "5"
-          RETRY_MAX_DELAY: "120"
-          API_CALL_DELAY: "2.0"
-          INTER_ENTITY_DELAY: "3.0"
+          RETRY_MAX_DELAY: "300"
+          API_CALL_DELAY: "5.0"
+          INTER_ENTITY_DELAY: "8.0"
+          ADAPTIVE_THROTTLE_INCREMENT: "2.0"
+          BATCH_SIZE: "5"
+          BATCH_COOLDOWN: "30.0"
+          LLM_CACHE_DIR: ".cache/llm"
         run: python scripts/01_classify_and_structure.py
 
       - name: Commit et Push des changements
