@@ -1,0 +1,168 @@
+
+======================================================================
+ RAPPORT D'EXPLORATION - OEil de Dieu
+======================================================================
+
+REQUETE ORIGINALE : "Rothschild"
+DATE : 2026-03-07 22:20:25
+
+======================================================================
+STATISTIQUES GLOBALES
+======================================================================
+
+Profondeur d'exploration : 3 niveaux
+Seuil de confiance : 60%
+
+Appels Mistral : 1
+Entites identifiees : 15
+Institutions identifiees : 49
+Relations extraites : 252
+
+Factchecks Wikipedia :
+  - Reussis : 11
+  - Non trouves : 3
+  - Ambiguites resolues : 3
+  - Echecs : 0
+
+Validations :
+  - Effectuees : 15
+  - Acceptees : 11
+  - Rejetees : 4
+
+Fichiers crees :
+  - Personnes : 11
+  - Institutions : 49
+  - Total : 60
+
+Erreurs : 0
+
+LIMITES :
+  - Environnement : GitHub Actions
+  - Limite d'entites : 15
+  - Limite appels Wikipedia : 20
+  - Limite de temps : 300s (5min) si > 0
+  - Appels Wikipedia effectues : 71
+
+======================================================================
+PERSONNES VALIDEES (11)
+======================================================================
+
+
+1. Augustin Hamon
+   Profondeur : 0
+   Score : 95%
+   Trouve via : Rothschild
+   Relations : 18
+   Raison : Sujet principal de la recherche
+
+2. Isaac Elchanan Rothschild
+   Profondeur : 1
+   Score : 65%
+   Trouve via : Augustin Hamon
+   Relations : 18
+   Raison : Page Wikipedia existante
+
+3. Mayer Amschel Rothschild
+   Profondeur : 1
+   Score : 65%
+   Trouve via : Augustin Hamon
+   Relations : 24
+   Raison : Page Wikipedia existante
+
+4. Mayer Amschel Bauer
+   Profondeur : 1
+   Score : 65%
+   Trouve via : Augustin Hamon
+   Relations : 25
+   Raison : Page Wikipedia existante
+
+5. Amschel Moses Rothschild
+   Profondeur : 1
+   Score : 65%
+   Trouve via : Augustin Hamon
+   Relations : 8
+   Raison : Page Wikipedia existante
+
+6. Mayer Amschel
+   Profondeur : 1
+   Score : 65%
+   Trouve via : Augustin Hamon
+   Relations : 24
+   Raison : Page Wikipedia existante
+
+7. James de Rothschild
+   Profondeur : 1
+   Score : 65%
+   Trouve via : Augustin Hamon
+   Relations : 31
+   Raison : Page Wikipedia existante
+
+8. Betty de Rothschild
+   Profondeur : 1
+   Score : 65%
+   Trouve via : Augustin Hamon
+   Relations : 9
+   Raison : Page Wikipedia existante
+
+9. Henri de Rothschild
+   Profondeur : 1
+   Score : 65%
+   Trouve via : Augustin Hamon
+   Relations : 45
+   Raison : Page Wikipedia existante
+
+10. Nathan Mayer Rothschild
+   Profondeur : 1
+   Score : 65%
+   Trouve via : Augustin Hamon
+   Relations : 22
+   Raison : Page Wikipedia existante
+
+11. Jules Grévy
+   Profondeur : 1
+   Score : 65%
+   Trouve via : Augustin Hamon
+   Relations : 28
+   Raison : Page Wikipedia existante
+
+======================================================================
+PERSONNES REJETEES (4)
+======================================================================
+
+
+1. Guillaume Ier
+   Profondeur : 1
+   Score : 30%
+   Raison du rejet : Pas de page Wikipedia trouvee
+
+2. Benedikt Moses Worms
+   Profondeur : 1
+   Score : 30%
+   Raison du rejet : Pas de page Wikipedia trouvee
+
+3. François Ier
+   Profondeur : 1
+   Score : 30%
+   Raison du rejet : Pas de page Wikipedia trouvee
+
+4. Louis-Philippe Ier
+   Profondeur : 1
+   Score : 30%
+   Raison du rejet : Pas de page Wikipedia trouvee
+
+======================================================================
+ANALYSE DE QUALITE
+======================================================================
+
+Taux de validation : 73.3%
+Score moyen des valides : 68%
+Score moyen des rejetes : 30%
+
+Distribution par profondeur :
+  Niveau 0 : 1 personnes
+  Niveau 1 : 10 personnes
+  Niveau 2 : 0 personnes
+
+======================================================================
+FIN DU RAPPORT
+======================================================================
