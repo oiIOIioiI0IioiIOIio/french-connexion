@@ -5,10 +5,17 @@ import random
 import re
 import hashlib
 from pathlib import Path
-from mistralai import Mistral, SDKError
 from src.utils.logger import setup_logger
 
 logger = setup_logger()
+
+# Import Mistral SDK optionally
+try:
+    from mistralai import Mistral, SDKError
+    MISTRAL_AVAILABLE = True
+except ImportError:
+    MISTRAL_AVAILABLE = False
+    SDKError = Exception  # Fallback so references don't break
 
 # Configuration du retry avec backoff exponentiel pour les erreurs 429
 try:
@@ -66,12 +73,22 @@ TRANSIENT_HTTP_STATUS_CODES = (408, 500, 502, 503, 504)
 class MistralClient:
     def __init__(self):
         api_key = os.getenv("MISTRAL_API_KEY")
-        if not api_key:
-            raise ValueError("MISTRAL_API_KEY n'est pas définie dans les variables d'environnement.")
-        
-        # Initialisation du client (Nouvelle syntaxe v1)
-        self.client = Mistral(api_key=api_key)
-        self.model = os.getenv("MISTRAL_MODEL", "open-mistral-nemo")
+        self._offline = False
+
+        if not MISTRAL_AVAILABLE:
+            logger.warning("[WARN] mistralai SDK non installe - mode hors-ligne")
+            self._offline = True
+            self.client = None
+            self.model = os.getenv("MISTRAL_MODEL", "open-mistral-nemo")
+        elif not api_key:
+            logger.warning("[WARN] MISTRAL_API_KEY non definie - mode hors-ligne")
+            self._offline = True
+            self.client = None
+            self.model = os.getenv("MISTRAL_MODEL", "open-mistral-nemo")
+        else:
+            self.client = Mistral(api_key=api_key)
+            self.model = os.getenv("MISTRAL_MODEL", "open-mistral-nemo")
+
         self._last_call_time = 0.0
         # Adaptive throttle: starts at configured value, increases on 429 errors
         self._adaptive_delay = API_CALL_DELAY
@@ -81,6 +98,10 @@ class MistralClient:
         if CACHE_DIR:
             self._cache_dir = Path(CACHE_DIR)
             self._cache_dir.mkdir(parents=True, exist_ok=True)
+
+    def is_available(self):
+        """Return True if the Mistral API client is configured and usable."""
+        return not self._offline and self.client is not None
     
     def _throttle(self):
         """Enforce minimum delay between consecutive API calls to avoid rate limits.
@@ -190,7 +211,11 @@ class MistralClient:
         
         Includes adaptive throttling: after 429 errors, the delay between ALL
         future calls is increased to proactively avoid further rate limits.
+        Returns None if the client is in offline mode.
         """
+        if self._offline:
+            logger.warning("[WARN] Mistral en mode hors-ligne, appel ignore")
+            return None
         self._throttle()
         
         for attempt in range(MAX_RETRIES):
@@ -320,14 +345,14 @@ class MistralClient:
             return {"content": content}
 
     def intelligent_restructure(self, content: str, title: str, template_path: str, entity_types: list = None) -> dict:
-        """Analyse le contenu et renvoie les métadonnées structurées (type, résumé, etc.).
+        """Analyse le contenu et renvoie les metadonnees structurees (type, resume, etc.).
         
-        Args:
-            content: Le contenu Markdown de la fiche.
-            title: Le titre de l'entité.
-            template_path: Chemin vers le template YAML (fallback).
-            entity_types: Liste des types d'entités valides issus de la configuration.
+        Returns empty dict if the client is in offline mode.
         """
+        if self._offline:
+            logger.info("[WARN] Mistral hors-ligne, restructuration ignoree pour : %s", title)
+            return {}
+
         if entity_types is None:
             entity_types = ["Personne", "Entreprise", "Institution", "Ecole", "Media", "Fondation", "Parti"]
 
@@ -403,9 +428,13 @@ Renvoie UNIQUEMENT un objet JSON valide avec les clés suivantes :
 
     def extract_yaml_data(self, text: str, schema_description: str) -> dict:
         """
-        Extrait des données précises (métadonnées) depuis un texte brut (ex: Wikipedia)
-        en suivant un schéma strict fourni en prompt. Ne génère pas de texte narratif.
+        Extrait des donnees precises (metadonnees) depuis un texte brut (ex: Wikipedia)
+        en suivant un schema strict fourni en prompt. Ne genere pas de texte narratif.
+        Returns empty dict if the client is in offline mode.
         """
+        if self._offline:
+            logger.info("[WARN] Mistral hors-ligne, extraction YAML ignoree")
+            return {}
         system_prompt = f"""
         Tu es un extracteur de données métier. Ton unique but est d'extraire des informations factuelles précises du texte fourni.
         
