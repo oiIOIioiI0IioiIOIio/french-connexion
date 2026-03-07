@@ -20,6 +20,7 @@ type: institution
 type_organisation: ''
 verified: false
 wikidata_id: Q56087776
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Jules Grévy]]** (niveau 2)

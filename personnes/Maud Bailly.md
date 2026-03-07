@@ -1,15 +1,20 @@
 ---
+birth_date_wikidata: '1979-01-14'
 keywords:
 - digitalisation
 - banque
 - innovation
 - conseil d'administration
 - transformation numérique
+sources:
+- https://www.wikidata.org/wiki/Q33102953
 summary: Maud Bailly est une personnalité influente dans les secteurs bancaire et
   numérique, connue pour son rôle dans la transformation digitale des entreprises.
   Elle a collaboré avec des figures majeures du luxe, de l'énergie et de la finance
   sur des projets stratégiques.
 type: Personne
+wikidata_id: Q33102953
+wikipedia_enriched: true
 ---
 
 Membre du conseil d'administration de [[Le siècle]]

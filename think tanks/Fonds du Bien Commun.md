@@ -1,16 +1,22 @@
 ---
+founded_wikidata: '2021-01-19'
 keywords:
 - philanthropie
 - impact sociétal
 - fonds de dotation
 - investissement durable
 - réseau conservateur
+sources:
+- https://www.wikidata.org/wiki/Q122816418
 summary: Le Fonds du Bien Commun est une organisation philanthropique française fondée
   en 2021, axée sur le financement et l'accompagnement de projets à impact sociétal
   dans les domaines de l'éducation, de la culture et de la solidarité. Il combine
   des activités de dotation, d'investissement, d'immobilier solidaire et d'incubation
   de startups, tout en organisant des événements caritatifs.
 type: Fondation
+website_wikidata: https://fondsdubiencommun.com
+wikidata_id: Q122816418
+wikipedia_enriched: true
 ---
 
 Le **Fonds du Bien Commun** est une organisation philanthropique française créée en 2021 par l'entrepreneur et milliardaire [[Pierre-Édouard Stérin]]. Il a été critiqué pour sa proximité avec des milieux ultra-conservateurs et pour le financement de structures idéologiquement homogènes.

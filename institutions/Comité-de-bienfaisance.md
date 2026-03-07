@@ -13,6 +13,7 @@ description: "Humani'Terre, auparavant Comité de bienfaisance et de secours aux
   alors qu'une enquête antiterroriste est ou"
 domaine: ''
 found_via: James de Rothschild
+founded_wikidata: '1858-00-00'
 membres:
 - Fiammetta Venner
 nom: Comité de bienfaisance
@@ -31,6 +32,7 @@ type: institution
 type_organisation: association
 verified: true
 wikidata_id: Q4423101
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[James de Rothschild]]** (niveau 2)

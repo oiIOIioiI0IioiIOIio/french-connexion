@@ -19,6 +19,7 @@ type: institution
 type_organisation: ''
 verified: false
 wikidata_id: ''
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Betty de Rothschild]]** (niveau 2)

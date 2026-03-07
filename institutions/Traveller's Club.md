@@ -1,14 +1,20 @@
 ---
+founded_wikidata: '1819-01-01'
 keywords:
 - cercle privé
 - réseau d'influence
 - élite
 - club confidentiel
 - hommes d'affaires
+sources:
+- https://www.wikidata.org/wiki/Q492221
 summary: Le Traveller's Club est un cercle privé ultraconfidentiel fondé en 1903,
   réservé à une élite composée principalement d'hommes d'affaires influents. Il fonctionne
   comme un réseau d'influence et de sociabilité pour ses membres triés sur le volet.
 type: Institution
+website_wikidata: https://www.thetravellersclub.org.uk/
+wikidata_id: Q492221
+wikipedia_enriched: true
 ---
 
 #club

@@ -41,6 +41,7 @@ type: institution
 type_organisation: banque
 verified: true
 wikidata_id: ''
+wikipedia_enriched: true
 ---
 
 >  **Sujet principal de la recherche**

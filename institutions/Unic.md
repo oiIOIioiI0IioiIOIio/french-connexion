@@ -19,7 +19,9 @@ tags:
 type: institution
 type_organisation: ''
 verified: false
+website_wikidata: https://unicode.org/
 wikidata_id: Q8819
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Henri de Rothschild]]** (niveau 2)

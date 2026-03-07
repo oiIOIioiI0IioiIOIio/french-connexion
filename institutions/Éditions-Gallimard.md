@@ -17,6 +17,7 @@ description: 'Les éditions Gallimard, appelées jusqu’en 1919 les éditions d
   '
 domaine: ''
 found_via: Betty de Rothschild
+founded_wikidata: '1911-00-00'
 membres:
 - Gaston Gallimard
 - Antoine Gallimard
@@ -53,7 +54,9 @@ tags:
 type: institution
 type_organisation: parti politique
 verified: true
+website_wikidata: https://www.gallimard.fr/
 wikidata_id: Q273819
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Betty de Rothschild]]** (niveau 2)

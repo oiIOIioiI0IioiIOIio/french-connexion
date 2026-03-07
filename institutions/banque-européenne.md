@@ -17,6 +17,7 @@ description: 'La Banque centrale européenne (BCE), établie le 1er juin 1998 et
   annuelle « au-dess'
 domaine: politique
 found_via: Mayer Amschel Rothschild
+founded_wikidata: '1958-01-01'
 membres:
 - Christine Lagarde
 nom: banque européenne
@@ -34,7 +35,9 @@ tags:
 type: institution
 type_organisation: banque
 verified: true
+website_wikidata: https://www.eib.org
 wikidata_id: Q192247
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Mayer Amschel Rothschild]]** (niveau 2)

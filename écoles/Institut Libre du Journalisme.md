@@ -5,8 +5,10 @@ keywords:
 - enseignement supérieur
 - école
 - diplôme
+sources: []
 summary: L'Institut Libre du Journalisme est un établissement privé d'enseignement
   supérieur spécialisé dans la formation aux métiers du journalisme. Il propose des
   programmes diplômants et des formations professionnelles pour les futurs journalistes.
 type: Ecole
+wikipedia_enriched: true
 ---

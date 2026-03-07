@@ -12,6 +12,7 @@ description: La Compagnie du chemin de fer du Nord est une compagnie française 
   Elle est une des principales composantes de la SNCF créée en 1938.
 domaine: sante
 found_via: James de Rothschild
+founded_wikidata: '1845-09-10'
 membres:
 - James de Rothschild
 - Jean-Henri Hottinguer
@@ -37,6 +38,7 @@ type: institution
 type_organisation: ''
 verified: true
 wikidata_id: Q541879
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[James de Rothschild]]** (niveau 2)

@@ -5,6 +5,9 @@ bio: François Bayrou est un homme d'État français, professeur agrégé de let
   et figure centrale du centrisme en France. Il a occupé plusieurs fonctions politiques
   majeures, dont ministre de l'Éducation nationale et maire de Pau, avant de devenir
   Premier ministre en 2024.
+birth_date: 25 mai 1951
+birth_date_wikidata: '1951-05-25'
+birth_place: Bordères (Basses-Pyrénées
 carriere:
 - Conseiller général (1982)
 - Député des Pyrénées-Atlantiques (1986)
@@ -48,13 +51,22 @@ liens:
 - Michel Barnier
 lieu_naissance: Bordères, France
 nationalite: française
+nationality: français
 nom_complet: François Bayrou
 nom_naissance: ''
+occupation: homme d'État français
+positions_wikidata:
+- Q29043058
+- Q3044918
+- Q3044918
+- Q61958711
+- Q59772384
 prenoms: François
 presse: []
 search_depth: 1
 sources:
 - https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Bayrou
+- https://www.wikidata.org/wiki/Q12963
 statut: Premier ministre
 statut_note: a_valider
 summary: François Bayrou est un homme d'État français, professeur agrégé de lettres
@@ -65,6 +77,9 @@ tags:
 - wikipedia
 - profondeur-1
 type: Personne
+website_wikidata: http://www.bayrou.fr
+wikidata_id: Q12963
+wikipedia_enriched: true
 ---
 
 François Bayrou est un homme d'État français, professeur agrégé de lettres classiques et figure centrale du centrisme en France. Il a occupé plusieurs fonctions politiques majeures, dont ministre de l'Éducation nationale et maire de Pau, avant de devenir Premier ministre en 2024.

@@ -27,6 +27,7 @@ bio: "Mayer Amschel Rothschild [l'orthographe initiale Meyer Anschel ( אנשל 
   Amschel Rothschild est classé 7e dans la « Liste des hommes d'affaires les plus
   influents de l'histoire » par le magazine américain Forbes, le nommant « père de
   la finance internationale »."
+birth_date_wikidata: '1744-02-23'
 carriere:
 - Amschel Mayer (1773-1855), fondateur de la branche allemande de la banque européenne
   Rothschild ;
@@ -42,6 +43,7 @@ controverses: []
 date_creation_note: '2026-03-07'
 date_deces: 19 septembre 1812
 date_naissance: '1744-02-23'
+death_date_wikidata: '1812-09-19'
 distinctions: []
 formation:
 - === Liens externes ===
@@ -261,6 +263,7 @@ verification_date: '2026-03-07'
 verification_status: verified
 wikidata_id: Q76988
 wikipedia_content_length: 4392
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Augustin Hamon]]** (niveau 1)

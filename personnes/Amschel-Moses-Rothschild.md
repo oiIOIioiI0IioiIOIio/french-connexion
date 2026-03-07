@@ -24,11 +24,13 @@ bio: Amschel Moïse Rothschild, né vers 1710 et mort le 6 octobre 1755, est un 
   de monnaie juif allemand et commerçant de tissus de soie dans la Judengasse, le
   ghetto juif de la ville libre de Francfort en Allemagne. Son fils Mayer Amschel
   Rothschild est le fondateur de la dynastie Rothschild.
+birth_date_wikidata: '1710-01-01'
 carriere: []
 controverses: []
 date_creation_note: '2026-03-07'
 date_deces: 6 octobre 1755
 date_naissance: '1710-01-01'
+death_date_wikidata: '1755-10-06'
 distinctions: []
 formation:
 - === Liens externes ===
@@ -140,6 +142,7 @@ verification_date: '2026-03-07'
 verification_status: verified
 wikidata_id: Q477902
 wikipedia_content_length: 2131
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Augustin Hamon]]** (niveau 1)

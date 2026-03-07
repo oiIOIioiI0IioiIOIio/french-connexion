@@ -9,6 +9,7 @@ description: Rothschild Frères est la banque historique de la branche français
   registre du commerce et des sociétés.
 domaine: ''
 found_via: James de Rothschild
+founded_wikidata: '1817-01-01'
 membres:
 - Mayer Amschel Rothschild
 - James de Rothschild
@@ -39,6 +40,7 @@ type: institution
 type_organisation: banque
 verified: true
 wikidata_id: Q2882957
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[James de Rothschild]]** (niveau 2)

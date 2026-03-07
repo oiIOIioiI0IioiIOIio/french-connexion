@@ -5,11 +5,13 @@ keywords:
 - agence
 - agricole
 - carrière
+sources: []
 summary: Pierre-Marie de Perthuis de Laillevault est un publicitaire et professionnel
   des médias, fondateur d'agences comme Prosper et The Sales Machine Group. Il a également
   occupé des fonctions dans le secteur agricole, notamment comme secrétaire général
   d'Offre et Demande Agricole (Oda).
 type: Personne
+wikipedia_enriched: true
 ---
 
 PERTHUIS de LAILLEVAULT (Pierre, Marie, Bertrand de)

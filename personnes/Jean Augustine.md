@@ -4,6 +4,7 @@ bio: Jean Augustine est une femme politique et militante canadienne d'origine gr
   Première femme noire élue députée fédérale au Canada, elle a joué un rôle clé dans
   la reconnaissance du mois de l'histoire des Noirs. Elle a également occupé des fonctions
   ministérielles et été commissaire à l'équité en Ontario.
+birth_date_wikidata: '1937-09-09'
 carriere:
 - Députée libérale d'Etobicoke—Lakeshore (1993-2006)
 - Secrétaire parlementaire auprès du premier ministre (1992-1996)
@@ -44,10 +45,17 @@ lieu_naissance: Saint-Georges, Grenade
 nationalite: Canadienne
 nom_complet: Jean Augustine
 nom_naissance: ''
+positions_wikidata:
+- Q6866468
+- Q5430666
+- Q15964890
+- Q15964890
+- Q15964890
 prenoms: Jean
 presse: []
 sources:
 - https://fr.wikipedia.org/wiki/Jean_Augustine
+- https://www.wikidata.org/wiki/Q3170455
 statut: Ancienne députée fédérale, ancienne ministre, première commissaire à l'équité
   de l'Ontario
 statut_note: a_valider
@@ -58,6 +66,8 @@ tags:
 - elite
 - wikipedia
 type: Personne
+wikidata_id: Q3170455
+wikipedia_enriched: true
 ---
 
 Jean Augustine est une femme politique et militante canadienne d'origine grenadienne. Première femme noire élue députée fédérale au Canada, elle a joué un rôle clé dans la reconnaissance du mois de l'histoire des Noirs. [[Elle]] a également occupé des fonctions ministérielles et été commissaire à l'équité en Ontario.

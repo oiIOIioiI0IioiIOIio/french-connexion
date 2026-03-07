@@ -1,14 +1,20 @@
 ---
+founded_wikidata: '1917-01-01'
 keywords:
 - club privé
 - élites
 - réseau
 - monument historique
 - art de vivre
+sources:
+- https://www.wikidata.org/wiki/Q2946489
 summary: Le Cercle de l'Union Interalliée est un club privé prestigieux fondé en 1917,
   réservé aux élites politiques, économiques et culturelles. Il incarne un lieu d'échanges
   et de rayonnement à la française, mêlant histoire, art de vivre et réseau d'influence.
 type: Institution
+website_wikidata: https://union-interalliee.fr
+wikidata_id: Q2946489
+wikipedia_enriched: true
 ---
 
 #club

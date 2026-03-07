@@ -5,11 +5,13 @@ keywords:
 - conseil d'administration
 - secteur consommation
 - fondations
+sources: []
 summary: Jackie Daylor est une professionnelle expérimentée avec plus de 30 ans d'expérience
   chez KPMG, où elle occupe un rôle de leader mondial dans l'audit pour le secteur
   de la consommation et de la vente au détail. Elle est également active dans plusieurs
   fondations, notamment en tant que membre de leurs conseils d'administration.
 type: Personne
+wikipedia_enriched: true
 ---
 
 Titre : Leader mondiale de l'audit pour le secteur de la consommation et de la vente au détail, KPMG LLP​

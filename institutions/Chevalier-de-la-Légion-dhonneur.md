@@ -42,6 +42,7 @@ type: institution
 type_organisation: institut
 verified: true
 wikidata_id: Q10855271
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Betty de Rothschild]]** (niveau 2)

@@ -247,6 +247,7 @@ verification_date: '2026-03-07'
 verification_status: verified
 wikidata_id: Q547291
 wikipedia_content_length: 4849
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Augustin Hamon]]** (niveau 1)

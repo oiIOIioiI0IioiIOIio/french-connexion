@@ -35,6 +35,7 @@ type: institution
 type_organisation: parti politique
 verified: true
 wikidata_id: Q309
+wikipedia_enriched: true
 ---
 
 >  **Sujet principal de la recherche**

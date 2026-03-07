@@ -5,11 +5,13 @@ keywords:
 - dirigeant
 - Polytechnique
 - entreprises
+sources: []
 summary: Jean-Paul Parayre est un ingénieur et haut dirigeant français, ayant occupé
   des postes clés dans plusieurs grandes entreprises comme Peugeot SA, Dumez et le
   Groupe Bolloré. Il a également exercé des fonctions publiques et reçu des distinctions
   honorifiques pour sa carrière.
 type: Personne
+wikipedia_enriched: true
 ---
 
 **PARAYRE (Jean-Paul, Christophe)**  

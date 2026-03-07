@@ -1,15 +1,20 @@
 ---
+birth_date_wikidata: '1984-04-19'
 keywords:
 - ENA
 - haut fonctionnaire
 - Cour nationale du droit d'asile
 - militant
 - fiscalité
+sources:
+- https://www.wikidata.org/wiki/Q47300510
 summary: Vincent Uher est un haut fonctionnaire français, diplômé de l'ENA et président
   de formation de jugement à la Cour nationale du droit d'asile. Il a également été
   militant étudiant de droite et a collaboré avec Marine Le Pen sur des questions
   fiscales.
 type: Personne
+wikidata_id: Q47300510
+wikipedia_enriched: true
 ---
 
 Diplômé  de l'[[ENA (École nationale d'administration)]] depuis 2011, il a été nommé président de formation de jugement à la [[Cour nationale du droit d'asile]] en 2017.

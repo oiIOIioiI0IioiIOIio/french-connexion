@@ -33,6 +33,7 @@ type: institution
 type_organisation: ''
 verified: true
 wikidata_id: Q2724511
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Nathan Mayer Rothschild]]** (niveau 2)

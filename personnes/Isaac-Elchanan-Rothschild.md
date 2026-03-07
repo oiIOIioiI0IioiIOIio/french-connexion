@@ -231,6 +231,7 @@ relationships_count: 18
 search_depth: 1
 sources:
 - https://fr.wikipedia.org/wiki/Famille_Rothschild
+- https://www.wikidata.org/wiki/Q159386
 statut: ''
 statut_note: verifie_wikipedia
 tags:
@@ -248,8 +249,9 @@ validation_reason: Page Wikipedia existante
 validation_score: 0.65
 verification_date: '2026-03-07'
 verification_status: verified
-wikidata_id: ''
+wikidata_id: Q159386
 wikipedia_content_length: 26860
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Augustin Hamon]]** (niveau 1)

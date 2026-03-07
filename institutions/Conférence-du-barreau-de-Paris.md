@@ -16,6 +16,7 @@ description: 'La conférence des avocats du barreau de Paris est un concours d''
   obligatoire l''existence d''une conférence du stage dans tou'
 domaine: ''
 found_via: Jules Grévy
+founded_wikidata: '1818-00-00'
 membres: []
 nom: Conférence du barreau de Paris
 search_depth: 2
@@ -32,7 +33,9 @@ tags:
 type: institution
 type_organisation: association
 verified: true
+website_wikidata: http://laconference.net
 wikidata_id: Q2992888
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Jules Grévy]]** (niveau 2)

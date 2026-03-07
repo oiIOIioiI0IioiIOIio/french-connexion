@@ -5,10 +5,12 @@ keywords:
 - tabac
 - Polytechnique
 - industrie
+sources: []
 summary: Pierre Louis Imbert est un administrateur et dirigeant d'entreprises spécialisé
   dans le secteur du tabac. Il a occupé des postes clés dans des groupes comme Bolloré,
   Imperial Tobacco et Tobaccor.
 type: Personne
+wikipedia_enriched: true
 ---
 
 **IMBERT (Pierre, Louis)**  

@@ -5,11 +5,15 @@ keywords:
 - Horaces
 - CAP économie
 - réseaux d'influence
+sources:
+- https://www.wikidata.org/wiki/Q115661950
 summary: Georges Tissié est un acteur influent dans les milieux économiques et politiques
   français, notamment en tant que permanent de la CPME et président du conseil d’administration
   de la BRED. Il est également membre de cercles d’influence comme les Horaces et
   le CAP économie.
 type: Personne
+wikidata_id: Q115661950
+wikipedia_enriched: true
 ---
 
 Permanent de la Confédération des PME, la [[CPME]], ex-CGPME

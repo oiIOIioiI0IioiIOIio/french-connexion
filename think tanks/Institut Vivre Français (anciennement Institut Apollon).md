@@ -5,10 +5,12 @@ keywords:
 - influence
 - national
 - politique
+sources: []
 summary: L'Institut Vivre Français, anciennement Institut Apollon, est un think tank
   français fondé en 2020 par Jean Messiha. Il se présente comme un centre de réflexion
   et d'influence aligné sur les valeurs du 'camp national'.
 type: Fondation
+wikipedia_enriched: true
 ---
 
 L’**Institut Apollon** est un think tank français fondé et présidé par **[[Jean Messiha]]**, ancien haut fonctionnaire, ex-membre du [[Rassemblement National]] et ancien porte-parole du parti [[Reconquête]] d’[[Éric Zemmour]]. 

@@ -14,6 +14,7 @@ description: 'Le British Museum (en français « Musée britannique », appellat
   comme le site touristique le plus fréquenté de Grande-Bretagne. Comme dans la plupart'
 domaine: culture
 found_via: Nathan Mayer Rothschild
+founded_wikidata: '1753-01-01'
 membres:
 - Hans Sloane
 - William Hamilton
@@ -44,7 +45,9 @@ tags:
 type: institution
 type_organisation: ''
 verified: true
+website_wikidata: https://www.britishmuseum.org/
 wikidata_id: Q6373
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Nathan Mayer Rothschild]]** (niveau 2)

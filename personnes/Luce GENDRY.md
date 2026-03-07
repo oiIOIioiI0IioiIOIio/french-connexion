@@ -1,15 +1,20 @@
 ---
+birth_date_wikidata: '1949-07-08'
 keywords:
 - banque
 - finance
 - Rothschild
 - dirigeante
 - analyste
+sources:
+- https://www.wikidata.org/wiki/Q33247045
 summary: Luce Gendry est une figure majeure du secteur bancaire et financier français,
   associée-gérante chez Rothschild & Cie depuis 1996. Elle a occupé des postes clés
   dans plusieurs institutions financières, notamment au sein du Groupe Bolloré et
   de la Générale Occidentale.
 type: Personne
+wikidata_id: Q33247045
+wikipedia_enriched: true
 ---
 
 **GENDRY (Luce, Jane, Marie, Léone)**  

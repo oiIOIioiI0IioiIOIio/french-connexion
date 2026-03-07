@@ -33,6 +33,7 @@ bio: 'Le baron Jacob Mayer de Rothschild, dit James de Rothschild, né le 15 mai
   figures de François Leuwen, le père du héros de Stendhal dans Lucien Leuwen, du
   baron de Nucingen dans la Comédie humaine de Balzac, et enfin du banquier Gundermann
   dans l''Argent de Zola.'
+birth_date_wikidata: '1985-12-07'
 carriere:
 - Les chants funèbres de la cérémonie religieuse sont composés et introduits dans
   les offices funèbres juifs par le musicologue et ministre officiant de ce jour Samuel
@@ -263,6 +264,7 @@ verification_date: '2026-03-07'
 verification_status: verified
 wikidata_id: Q109310686
 wikipedia_content_length: 14427
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Augustin Hamon]]** (niveau 1)

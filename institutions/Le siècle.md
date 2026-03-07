@@ -1,14 +1,20 @@
 ---
+founded_wikidata: '1944-00-00'
 keywords:
 - club
 - réseau
 - élites
 - influence
 - confidentiel
+sources:
+- https://www.wikidata.org/wiki/Q3227220
 summary: Le Siècle est un club privé fondé en 1944, réunissant des élites influentes
   issues des sphères politique, économique, médiatique et culturelle. Il fonctionne
   comme un réseau discret d'échanges et d'influence entre ses membres.
 type: Institution
+website_wikidata: http://www.lesiecle.asso.fr/
+wikidata_id: Q3227220
+wikipedia_enriched: true
 ---
 
 #club 

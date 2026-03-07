@@ -43,6 +43,7 @@ tags:
 - elite
 - wikipedia
 type: Personne
+wikipedia_enriched: true
 ---
 
 Carter G. Woodson était un historien afro-américain connu pour avoir cofondé l'Association for the Study of African American Life and History (ASALH) et lancé la Negro History Week en 1926, précurseur du Black History Month. Son travail visait à promouvoir l'enseignement de l'histoire des Noirs aux États-Unis.

@@ -14,6 +14,7 @@ description: 'La Troisième République, ou IIIe République, est le régime ré
   une république parlementaire de type bica'
 domaine: politique
 found_via: Jules Grévy
+founded_wikidata: '1870-09-04'
 membres:
 - Philip Nord
 - Vincent Duclert
@@ -46,6 +47,7 @@ type: institution
 type_organisation: ''
 verified: true
 wikidata_id: Q70802
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Jules Grévy]]** (niveau 2)

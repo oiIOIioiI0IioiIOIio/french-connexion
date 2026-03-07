@@ -5,6 +5,7 @@ description: 'La province de Niassa (en portugais : província de Niassa) est l'
   des onze provinces du Mozambique. Sa capitale est la ville de Lichinga.'
 domaine: ''
 found_via: Rothschild
+founded_wikidata: '1856-12-31'
 membres: []
 nom: MZA
 search_depth: 0
@@ -22,6 +23,7 @@ type: institution
 type_organisation: ''
 verified: true
 wikidata_id: Q2990397
+wikipedia_enriched: true
 ---
 
 >  **Sujet principal de la recherche**

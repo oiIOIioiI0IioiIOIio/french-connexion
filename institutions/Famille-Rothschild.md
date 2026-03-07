@@ -42,6 +42,7 @@ type: institution
 type_organisation: banque
 verified: true
 wikidata_id: Q159386
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Isaac Elchanan Rothschild]]** (niveau 2)

@@ -7,6 +7,7 @@ description: Le Parti socialiste - Section franÃ§aise de l'Internationale ouvriÃ
   s'associant avec l'Union des clubs pour le renouveau de la gauche.
 domaine: politique
 found_via: Augustin Hamon
+founded_wikidata: '1905-01-01'
 membres:
 - Jean Barberet
 - Auguste Blanqui
@@ -35,6 +36,7 @@ type: institution
 type_organisation: club
 verified: true
 wikidata_id: Q1332068
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Augustin Hamon]]** (niveau 1)

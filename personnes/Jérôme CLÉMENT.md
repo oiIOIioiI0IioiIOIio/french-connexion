@@ -1,14 +1,23 @@
 ---
+birth_date_wikidata: '1945-05-18'
 keywords:
 - audiovisuel
 - culture
 - haut fonctionnaire
 - Arte
 - ENA
+positions_wikidata:
+- Q1162163
+- Q140686
+- Q112671159
+sources:
+- https://www.wikidata.org/wiki/Q1714990
 summary: Jérôme Clément est un haut fonctionnaire et dirigeant français, spécialisé
   dans l'audiovisuel et la culture. Il a occupé des postes clés dans des institutions
   publiques et des chaînes de télévision comme Arte France et La Cinquième.
 type: Personne
+wikidata_id: Q1714990
+wikipedia_enriched: true
 ---
 
 **Administrateur civil, Président de société d’audiovisuel**  

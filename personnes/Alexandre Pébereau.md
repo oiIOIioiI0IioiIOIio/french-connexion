@@ -1,14 +1,19 @@
 ---
+birth_date_wikidata: '1963-06-06'
 keywords:
 - directeur
 - entreprise
 - carrière
 - formation
 - France Télécom
+sources:
+- https://www.wikidata.org/wiki/Q33282700
 summary: Alexandre Pébereau est un dirigeant d'entreprise français, diplômé de l'ESCP
   et actif dans des groupes majeurs comme Bolloré, Vivendi et France Télécom. Sa carrière
   inclut des postes clés dans la gestion et la direction de filiales internationales.
 type: Personne
+wikidata_id: Q33282700
+wikipedia_enriched: true
 ---
 
 **PÉBEREAU (Alexandre, Michel, Jean)**  

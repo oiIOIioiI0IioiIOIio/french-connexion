@@ -5,10 +5,12 @@ keywords:
 - UMP
 - Les Républicains
 - ministre
+sources: []
 summary: Nicolas Sarkozy est un homme politique français, ancien président de la République
   française et figure majeure de la droite française. Il a également occupé plusieurs
   postes ministériels avant et après son mandat présidentiel.
 type: Personne
+wikipedia_enriched: true
 ---
 
 ## Détails personnels

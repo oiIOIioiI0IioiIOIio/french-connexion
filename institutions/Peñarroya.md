@@ -37,6 +37,7 @@ type: institution
 type_organisation: ''
 verified: true
 wikidata_id: Q113115824
+wikipedia_enriched: true
 ---
 
 >  **Sujet principal de la recherche**

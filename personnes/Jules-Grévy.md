@@ -36,12 +36,14 @@ bio: 'Jules Grévy, né le 15 août 1807 à Mont-sous-Vaudrey (Jura) et mort le 
   Prônant une autorité moindre pour le pouvoir exécutif, il propose un amendement
   contre l''élection du président de la République au suffrage universel. Il défend
   également la liberté de la presse et vote contre l''état de siège.'
+birth_date_wikidata: '1807-08-15'
 carriere:
 - === Commissaire du gouvernement ===
 controverses: []
 date_creation_note: '2026-03-07'
 date_deces: 9 septembre 1891
 date_naissance: 15 août 1807
+death_date_wikidata: '1891-09-09'
 distinctions: []
 formation:
 - == Formation et carrière ==
@@ -79,6 +81,12 @@ nationalite: ''
 niveau_notoriete: 9
 nom_complet: Jules Grévy
 original_query: Rothschild
+positions_wikidata:
+- Q191954
+- Q3044918
+- Q19808845
+- Q1018894
+- Q64441589
 prenoms: Jules
 presse: []
 relations_detaillees:
@@ -266,6 +274,7 @@ verification_date: '2026-03-07'
 verification_status: verified
 wikidata_id: Q296083
 wikipedia_content_length: 38100
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Augustin Hamon]]** (niveau 1)

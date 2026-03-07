@@ -5,11 +5,16 @@ keywords:
 - catholique
 - lycée
 - contrat avec l'État
+sources:
+- https://www.wikidata.org/wiki/Q16661600
 summary: L'École Gerson est un établissement scolaire catholique privé situé à Paris,
   couvrant les niveaux école, collège et lycée. Elle est sous contrat avec l'État
   et a récemment fait l'objet d'une polémique concernant des subventions régionales
   suspendues puis rétablies.
 type: Ecole
+website_wikidata: https://gerson-paris.com/
+wikidata_id: Q16661600
+wikipedia_enriched: true
 ---
 
 Etablissement scolaire catholique privé Gerson (école, collège, lycée) sous contrat d'association avec l'État est situé au no 31, rue de la Pompe à Paris dans le 16e arrondissement.

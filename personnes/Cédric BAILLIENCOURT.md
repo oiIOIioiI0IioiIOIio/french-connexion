@@ -5,11 +5,13 @@ keywords:
 - famille Bolloré
 - Sciences Po Bordeaux
 - directeur général
+sources: []
 summary: Cédric Bailliencourt est un homme d'affaires français, membre influent de
   la famille Bolloré et directeur des participations du Groupe Bolloré. Diplômé de
   Sciences Po Bordeaux et spécialisé en communication politique, il occupe des postes
   clés au sein de l'empire industriel et médiatique familial.
 type: Personne
+wikipedia_enriched: true
 ---
 
 (dit COURCOL) 

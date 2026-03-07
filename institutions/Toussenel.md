@@ -44,6 +44,7 @@ type: institution
 type_organisation: ''
 verified: true
 wikidata_id: Q106264538
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Augustin Hamon]]** (niveau 1)

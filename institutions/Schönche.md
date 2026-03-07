@@ -1,6 +1,8 @@
 ---
+birth_date_wikidata: '1771-08-20'
 date_creation_note: '2026-03-07'
 date_fondation: ''
+death_date_wikidata: '1859-02-15'
 description: "Mayer Amschel Rothschild [l'orthographe initiale Meyer Anschel ( אנשל
   ), étant germanisée en Mayer Amschel] (23 février 1744 à Francfort-sur-le-Main –
   19 septembre 1812 à Francfort) est un financier, fondateur de la dynastie banquière
@@ -47,6 +49,7 @@ type: institution
 type_organisation: ''
 verified: true
 wikidata_id: Q18517269
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Mayer Amschel Rothschild]]** (niveau 2)

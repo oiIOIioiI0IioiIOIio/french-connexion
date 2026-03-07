@@ -29,11 +29,13 @@ lieu_naissance: ''
 nationalite: ''
 nom_complet: Think tank
 nom_naissance: ''
+occupation: regroupement d'experts au sein d'une structure de droit privé
 prenoms: Think
 presse: []
 search_depth: 0
 sources:
 - https://fr.wikipedia.org/wiki/Think_tank
+- https://www.wikidata.org/wiki/Q155271
 statut: Directeur du Think Tanks and Civil Societies Program
 statut_note: a_valider
 summary: James McGann est directeur du Think Tanks and Civil Societies Program à l'université
@@ -44,6 +46,8 @@ tags:
 - wikipedia
 - profondeur-0
 type: Personne
+wikidata_id: Q155271
+wikipedia_enriched: true
 ---
 
 James McGann est directeur du Think Tanks and Civil Societies Program à l'université de Pennsylvanie et éditeur du classement mondial des laboratoires d'idées. Il analyse le rôle des think tanks dans la mise en relation entre le savoir et le pouvoir politique.

@@ -5,11 +5,15 @@ keywords:
 - loisirs
 - monument historique
 - membres
+sources:
+- https://www.wikidata.org/wiki/Q118532084
 summary: Le Paris Country Club est un club privé prestigieux situé à Rueil-Malmaison,
   offrant des infrastructures luxueuses pour le sport, les loisirs et les activités
   culturelles. Historiquement lié à des personnalités influentes, il combine héritage
   historique et services haut de gamme pour ses membres.
 type: Institution
+wikidata_id: Q118532084
+wikipedia_enriched: true
 ---
 
 #club 

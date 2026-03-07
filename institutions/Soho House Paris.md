@@ -5,11 +5,13 @@ keywords:
 - créatifs
 - membres
 - exclusivité
+sources: []
 summary: Soho House Paris est un club privé exclusif réservé aux professionnels de
   la création, offrant des espaces de networking, de détente et d'événements dans
   un cadre luxueux. Il s'inscrit dans un réseau international de clubs similaires,
   avec des règles strictes de confidentialité et d'adhésion.
 type: Institution
+wikipedia_enriched: true
 ---
 
 **L’histoire**

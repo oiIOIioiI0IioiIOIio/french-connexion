@@ -5,10 +5,12 @@ keywords:
 - cybersécurité
 - gouvernance
 - administratrice
+sources: []
 summary: Mary Beth Vitale est une dirigeante d'entreprise spécialisée dans le conseil
   en cybersécurité et gouvernance. Elle occupe des postes clés dans plusieurs conseils
   d'administration, notamment chez Luna Innovations et GEHA.
 type: Personne
+wikipedia_enriched: true
 ---
 
 Titre :** PDG et associée principale, Pellera, LLC​

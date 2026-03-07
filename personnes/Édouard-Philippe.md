@@ -4,6 +4,9 @@ affiliations:
 bio: Haut fonctionnaire et homme d'État français, Édouard Philippe a été Premier ministre
   de 2017 à 2020. Diplômé de Sciences Po et de l'ENA, il a occupé divers mandats politiques
   locaux et nationaux avant de fonder le parti Horizons en 2021.
+birth_date: 28 novembre 1970
+birth_date_wikidata: '1970-11-28'
+birth_place: Rouen (Seine-Maritime
 carriere:
 - Membre du Conseil d'État
 - Conseiller général de la Seine-Maritime (2008)
@@ -45,13 +48,21 @@ liens:
 - Léonard Philippe (enfant)
 lieu_naissance: Rouen, France
 nationalite: française
+nationality: français
 nom_complet: Édouard Philippe
 nom_naissance: ''
+positions_wikidata:
+- Q3044918
+- Q62083778
+- Q16886136
+- Q3044918
+- Q1587677
 prenoms: Édouard
 presse: []
 search_depth: 1
 sources:
 - https://fr.wikipedia.org/wiki/%C3%89douard_Philippe
+- https://www.wikidata.org/wiki/Q3579995
 statut: Maire du Havre, président du parti Horizons, administrateur du groupe Atos
 statut_note: a_valider
 summary: Haut fonctionnaire et homme d'État français, Édouard Philippe a été Premier
@@ -62,6 +73,8 @@ tags:
 - wikipedia
 - profondeur-1
 type: Personne
+wikidata_id: Q3579995
+wikipedia_enriched: true
 ---
 
 Haut fonctionnaire et homme d'État français, Édouard Philippe a été Premier ministre de 2017 à 2020. Diplômé de Sciences Po et de l'ENA, il a occupé divers mandats politiques locaux et nationaux avant de fonder le parti Horizons en 2021.

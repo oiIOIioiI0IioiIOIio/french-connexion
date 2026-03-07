@@ -1,15 +1,20 @@
 ---
+birth_date_wikidata: '1966-08-05'
 keywords:
 - conseil d’orientation
 - IFRI
 - Aspen
 - politiques globales
 - dialogues transatlantiques
+sources:
+- https://www.wikidata.org/wiki/Q33236295
 summary: Elisabeth Lulin est une personnalité influente dans les cercles de réflexion
   et les politiques globales, dirigeante d'Aspen France. Elle collabore avec des institutions
   internationales, des médias et des entreprises, tout en conseillant des responsables
   politiques.
 type: Personne
+wikidata_id: Q33236295
+wikipedia_enriched: true
 ---
 
 Membre du conseil d’orientation d’[[IFRI]], impliquée dans l’analyse des politiques globales. [[Elle]] a établi des partenariats avec des organisations internationales telles que [[UNESCO]] et collabore avec des médias influents comme [[Le Monde]].

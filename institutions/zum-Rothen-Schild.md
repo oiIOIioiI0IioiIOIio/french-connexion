@@ -32,6 +32,7 @@ type: institution
 type_organisation: ''
 verified: true
 wikidata_id: ''
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Amschel Moses Rothschild]]** (niveau 2)

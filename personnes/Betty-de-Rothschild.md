@@ -22,11 +22,13 @@ affiliations:
 - Organisation
 bio: Betty von Rothschild, baronne de Rothschild, née le 5 juin 1805 à Francfort-sur-le-Main
   et morte le 1er septembre 1886 à Paris, est une salonnière, mécène et philanthrope.
+birth_date_wikidata: '1805-06-05'
 carriere: []
 controverses: []
 date_creation_note: '2026-03-07'
 date_deces: '1886-09-01'
 date_naissance: 5 juin 1805
+death_date_wikidata: '1886-09-01'
 distinctions: []
 formation:
 - === Liens externes ===
@@ -145,6 +147,7 @@ verification_date: '2026-03-07'
 verification_status: verified
 wikidata_id: Q7044697
 wikipedia_content_length: 2870
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Augustin Hamon]]** (niveau 1)

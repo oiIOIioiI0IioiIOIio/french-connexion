@@ -15,6 +15,7 @@ description: 'Rio Tinto est un groupe minier multinational anglo-australien, pri
   Vale, l''un des trois groupes'
 domaine: ''
 found_via: Rothschild
+founded_wikidata: '1873-01-01'
 membres:
 - Hugh Matheson
 - William Rich
@@ -33,7 +34,9 @@ tags:
 type: institution
 type_organisation: entreprise
 verified: true
+website_wikidata: https://www.riotinto.com/
 wikidata_id: Q821293
+wikipedia_enriched: true
 ---
 
 >  **Sujet principal de la recherche**

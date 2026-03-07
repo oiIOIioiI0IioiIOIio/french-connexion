@@ -5,11 +5,13 @@ keywords:
 - élitisme
 - réglementation sportive
 - cercle historique
+sources: []
 summary: L’Automobile Club de France (ACF) est un club privé historique fondé en 1895,
   dédié aux passionnés d’automobile et à l’organisation d’événements sportifs et touristiques.
   Il siège dans un bâtiment prestigieux à Paris et fonctionne comme un cercle élitiste
   avec des règles d’admission strictes.
 type: Institution
+wikipedia_enriched: true
 ---
 
 #club 

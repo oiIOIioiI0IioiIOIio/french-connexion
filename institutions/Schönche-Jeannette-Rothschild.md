@@ -1,6 +1,8 @@
 ---
+birth_date_wikidata: '1771-08-20'
 date_creation_note: '2026-03-07'
 date_fondation: ''
+death_date_wikidata: '1859-02-15'
 description: 'Institution identifiee dans le reseau de pouvoir lie a : Mayer Amschel
   Rothschild'
 domaine: ''
@@ -21,6 +23,7 @@ type: institution
 type_organisation: ''
 verified: false
 wikidata_id: Q18517269
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Mayer Amschel Rothschild]]** (niveau 2)

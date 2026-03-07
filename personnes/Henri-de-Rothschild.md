@@ -25,11 +25,13 @@ bio: 'Le baron Henri James Nathaniel Charles de Rothschild, né le 26 juillet 18
   d''art, et auteur dramatique. Pour ses activités littéraires, il est connu sous
   les pseudonymes : André Pascal, Charles des Fontaines, Henri Desfontaines, P.-L.
   Naveau et André Pascales.'
+birth_date_wikidata: '1872-07-26'
 carriere: []
 controverses: []
 date_creation_note: '2026-03-07'
 date_deces: 12 octobre 1947
 date_naissance: 26 juillet 1872
+death_date_wikidata: '1947-10-12'
 distinctions: []
 formation:
 - La Vocation, sous le pseudonyme d'André Pascal et avec André Delbet, pièce en 4
@@ -248,6 +250,7 @@ verification_date: '2026-03-07'
 verification_status: verified
 wikidata_id: Q3132362
 wikipedia_content_length: 11850
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Augustin Hamon]]** (niveau 1)

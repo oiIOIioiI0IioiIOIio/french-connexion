@@ -4,6 +4,7 @@ bio: Jesse Edward Moorland était un pasteur congrégationaliste et un militant 
   des droits civiques. Il a joué un rôle clé dans plusieurs organisations, dont la
   YMCA et la NAACP, et a cofondé le Centre de recherche Moorland-Spingarn ainsi que
   l'Association for the Study of African American Life and History (ASALH).
+birth_date_wikidata: '1863-09-10'
 carriere:
 - Pasteur de l'Église congrégationaliste
 - Secrétaire général du département des « gens de couleur » de la Young Men's Christian
@@ -17,6 +18,7 @@ carriere:
   (ASALH) en 1915
 date_creation_note: '2026-02-14'
 date_naissance: '1863-09-10'
+death_date_wikidata: '1940-04-30'
 distinctions: []
 famille:
 - Lucy C Woodson (épouse)
@@ -38,10 +40,12 @@ lieu_naissance: Coldwater, Ohio, États-Unis
 nationalite: américaine
 nom_complet: Jesse E. Moorland
 nom_naissance: ''
+occupation: pasteur américain de l'Église congrégationaliste
 prenoms: Jesse
 presse: []
 sources:
 - https://fr.wikipedia.org/wiki/Jesse_E._Moorland
+- https://www.wikidata.org/wiki/Q6186291
 statut: pasteur, dirigeant associatif, administrateur, militant des droits civiques,
   universitaire
 statut_note: a_valider
@@ -52,6 +56,8 @@ tags:
 - elite
 - wikipedia
 type: Personne
+wikidata_id: Q6186291
+wikipedia_enriched: true
 ---
 
 Jesse Edward Moorland était un pasteur congrégationaliste et un militant afro-américain des droits civiques. Il a joué un rôle clé dans plusieurs organisations, dont la YMCA et la NAACP, et a cofondé le Centre de recherche Moorland-Spingarn ainsi que l'Association for the Study of African American Life and History (ASALH).

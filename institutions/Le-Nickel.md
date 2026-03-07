@@ -8,6 +8,7 @@ description: 'Le nickel est l''élément chimique de numéro atomique 28, de sym
   '
 domaine: ''
 found_via: Rothschild
+founded_wikidata: '1880-05-18'
 membres:
 - Axel Frederik von Cronstedt
 - Georg Brandt
@@ -18,6 +19,7 @@ siege: ''
 sources:
 - https://fr.wikipedia.org/wiki/Nickel
 - https://www.wikidata.org/wiki/Q1347990
+- https://fr.wikipedia.org/wiki/Soci%C3%A9t%C3%A9_Le_Nickel
 statut_note: verifie_wikipedia
 tags:
 - institution
@@ -27,7 +29,9 @@ tags:
 type: institution
 type_organisation: ''
 verified: true
+website_wikidata: https://www.eramet.com
 wikidata_id: Q1347990
+wikipedia_enriched: true
 ---
 
 >  **Sujet principal de la recherche**

@@ -5,11 +5,13 @@ keywords:
 - fonction publique
 - élites
 - formation
+sources: []
 summary: La Promotion Voltaire est une promotion de l'École nationale d'administration
   (ENA) couvrant les années 1978-1980. Elle regroupe des personnalités marquantes
   de la vie politique, administrative et économique française, ayant occupé des postes
   clés dans l'État ou le secteur privé.
 type: Ecole
+wikipedia_enriched: true
 ---
 
 https://fr.wikipedia.org/wiki/Promotion_1978-1980_de_l%E2%80%99%C3%89cole_nationale_d%E2%80%99administration

@@ -1,4 +1,5 @@
 ---
+founded_wikidata: '2021-05-13'
 keywords:
 - médias
 - YouTube
@@ -7,11 +8,16 @@ keywords:
 - interviews
 liens:
 - Centre d’Analyse et de Prospective (CAP)
+sources:
+- https://www.wikidata.org/wiki/Q116151920
 summary: Livre Noir est un média en ligne fondé en 2021, axé sur des interviews longues
   avec une ligne éditoriale conservatrice et identitaire. Il s'est distingué comme
   une voix alternative critiquant les médias traditionnels et soutenant des thèmes
   comme la souveraineté et la natalité.
 type: Media
+website_wikidata: https://livrenoir.fr/
+wikidata_id: Q116151920
+wikipedia_enriched: true
 ---
 
 **[[Livre Noir]]** a été fondé en 2021 par [[Erik Tegnér]], [[François de Voyer]] (ancien conseiller de [[Marion Maréchal]]) et [[Swann Polydor]].

@@ -1,16 +1,23 @@
 ---
+birth_date_wikidata: '1952-06-26'
 keywords:
 - haut fonctionnaire
 - ENA
 - administrateur civil
 - budget
 - CNCE
+positions_wikidata:
+- Q130297510
+sources:
+- https://www.wikidata.org/wiki/Q33120802
 summary: Didier Banquy est un haut fonctionnaire français, diplômé de l'ENA et de
   Sciences Po, ayant occupé des postes clés dans l'administration publique et des
   entreprises publiques comme la CNCE et le PMU. Sa carrière inclut des fonctions
   politiques et administratives, notamment auprès de Nicolas Sarkozy et Dominique
   Bussereau.
 type: Personne
+wikidata_id: Q33120802
+wikipedia_enriched: true
 ---
 
 Administrateur civil. Né le 26 juin 1952 à Paris. Fils de [[Samuel Banquy]], ingénieur, et de [[Janine Testu]].

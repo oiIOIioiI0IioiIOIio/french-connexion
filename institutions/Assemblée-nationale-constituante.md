@@ -16,6 +16,7 @@ description: 'L''Assemblée nationale constituante est la première assemblée c
   de la Bastille le 14 juillet 1789 (présid'
 domaine: ''
 found_via: Jules Grévy
+founded_wikidata: '1789-06-17'
 membres:
 - Jacques Jallet
 - René Lecesve
@@ -38,6 +39,7 @@ type: institution
 type_organisation: ''
 verified: true
 wikidata_id: Q876424
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Jules Grévy]]** (niveau 2)

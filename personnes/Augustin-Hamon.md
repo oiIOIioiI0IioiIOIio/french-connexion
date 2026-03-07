@@ -27,11 +27,13 @@ bio: 'Augustin Hamon, né le 20 janvier 1862 à Nantes et mort le 3 décembre 19
   Il est, avec son épouse Henriëtte Rynenbroeck, le traducteur officiel de George
   Bernard Shaw et est considéré comme un des précurseurs de la psychologie sociale.
   Il signe beaucoup de ses écrits, Auguste Frédéric Hamon.'
+birth_date_wikidata: '1862-01-20'
 carriere: []
 controverses: []
 date_creation_note: '2026-03-07'
 date_deces: 3 décembre 1945
 date_naissance: 20 janvier 1862
+death_date_wikidata: '1945-12-03'
 distinctions: []
 formation:
 - === Liens externes ===
@@ -63,6 +65,8 @@ nationalite: ''
 niveau_notoriete: 7
 nom_complet: Augustin Hamon
 original_query: Rothschild
+positions_wikidata:
+- Q589298
 prenoms: Augustin
 presse: []
 relations_detaillees:
@@ -232,6 +236,7 @@ verification_date: '2026-03-07'
 verification_status: verified
 wikidata_id: Q2871586
 wikipedia_content_length: 16696
+wikipedia_enriched: true
 ---
 
 >  **Sujet principal de la recherche**

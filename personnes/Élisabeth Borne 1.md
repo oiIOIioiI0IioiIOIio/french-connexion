@@ -5,11 +5,13 @@ keywords:
 - fonctionnaire
 - Éducation nationale
 - transports
+sources: []
 summary: Élisabeth Borne est une haute fonctionnaire et femme politique française,
   ayant occupé des postes ministériels sous les présidences de François Hollande et
   Emmanuel Macron. Son parcours inclut des rôles clés dans les secteurs de l'éducation,
   des transports et de l'écologie.
 type: Personne
+wikipedia_enriched: true
 ---
 
 **[[Patrice Obert]]** : Président de l'association Les Poissons roses et compagnon d'[[Élisabeth Borne]]. 

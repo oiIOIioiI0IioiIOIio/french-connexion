@@ -5,11 +5,15 @@ keywords:
 - industries créatives
 - réseautage
 - événements culturels
+sources:
+- https://www.wikidata.org/wiki/Q7977257
 summary: We Are Club est un club privé situé à Paris, réservé principalement aux professionnels
   des médias, artistes et décideurs des industries créatives. Il propose des espaces
   de production, des événements culturels et des rencontres entre acteurs économiques,
   politiques et culturels.
 type: Institution
+wikidata_id: Q7977257
+wikipedia_enriched: true
 ---
 
 #club

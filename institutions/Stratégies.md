@@ -11,6 +11,7 @@ description: 'Stratégies est un magazine hebdomadaire et un site Web français 
   En 2018, Stratégies intègre le Groupe MediaSchool.'
 domaine: medias
 found_via: Rothschild
+founded_wikidata: '1971-00-00'
 membres:
 - Edmond de Rothschild-PAI
 - Marc Laufer
@@ -38,7 +39,9 @@ tags:
 type: institution
 type_organisation: ''
 verified: true
+website_wikidata: http://www.strategies.fr
 wikidata_id: Q3500156
+wikipedia_enriched: true
 ---
 
 >  **Sujet principal de la recherche**

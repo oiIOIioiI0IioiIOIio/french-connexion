@@ -35,6 +35,7 @@ type: institution
 type_organisation: parti politique
 verified: true
 wikidata_id: ''
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[James de Rothschild]]** (niveau 2)

@@ -5,11 +5,13 @@ keywords:
 - élite
 - cooptation
 - Bois de Boulogne
+sources: []
 summary: Le Tir aux Pigeons est un club privé historique situé dans le bois de Boulogne
   à Paris, fondé en 1899. Il propose des activités sportives variées comme le tir,
   le tennis, le bridge et des animations, tout en préservant un cadre élitiste et
   sélectif.
 type: Institution
+wikipedia_enriched: true
 ---
 
 #club 

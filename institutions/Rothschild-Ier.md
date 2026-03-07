@@ -41,6 +41,7 @@ type: institution
 type_organisation: banque
 verified: true
 wikidata_id: ''
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Nathan Mayer Rothschild]]** (niveau 2)

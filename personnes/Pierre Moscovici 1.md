@@ -5,11 +5,13 @@ keywords:
 - commissaire européen
 - Cour des comptes
 - ENA
+sources: []
 summary: Pierre Moscovici est un homme politique français, ancien ministre et commissaire
   européen, actuellement premier président de la Cour des comptes. Diplômé de Sciences
   Po et de l'ENA, il a occupé plusieurs postes clés dans les institutions françaises
   et européennes.
 type: Personne
+wikipedia_enriched: true
 ---
 
 - **Nom complet :** [[Pierre Moscovici]]

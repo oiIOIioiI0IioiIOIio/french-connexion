@@ -5,11 +5,15 @@ keywords:
 - relations internationales
 - stratégie
 - diplomatie
+sources:
+- https://www.wikidata.org/wiki/Q156901
 summary: L'IRIS (Institut de Relations Internationales et Stratégiques) est un think
   tank français spécialisé dans l'analyse des enjeux géopolitiques et stratégiques.
   Il rassemble des experts, des personnalités politiques et des acteurs influents
   du monde diplomatique et économique.
 type: Fondation
+wikidata_id: Q156901
+wikipedia_enriched: true
 ---
 
 (Institut de Relations Internationales et Stratégiques)

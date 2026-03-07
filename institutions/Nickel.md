@@ -10,6 +10,7 @@ search_depth: 0
 siege: ''
 sources:
 - https://www.wikidata.org/wiki/Q744
+- https://fr.wikipedia.org/wiki/Nickel
 statut_note: a_verifier
 tags:
 - institution
@@ -20,6 +21,7 @@ type: institution
 type_organisation: ''
 verified: false
 wikidata_id: Q744
+wikipedia_enriched: true
 ---
 
 >  **Sujet principal de la recherche**

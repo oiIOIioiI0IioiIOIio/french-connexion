@@ -15,6 +15,7 @@ description: 'La science (du latin scientia, « connaissance », « savoir ») e
   pluriel, comme d'
 domaine: ''
 found_via: Augustin Hamon
+founded_wikidata: '1880-00-00'
 membres:
 - Michel Blay
 - Dominique Pestre
@@ -35,7 +36,9 @@ tags:
 type: institution
 type_organisation: entreprise
 verified: true
+website_wikidata: http://www.sciencemag.org/
 wikidata_id: Q192864
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Augustin Hamon]]** (niveau 1)

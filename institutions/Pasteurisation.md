@@ -10,6 +10,7 @@ search_depth: 2
 siege: ''
 sources:
 - https://www.wikidata.org/wiki/Q58148
+- https://fr.wikipedia.org/wiki/Pasteurisation
 statut_note: a_verifier
 tags:
 - institution
@@ -20,6 +21,7 @@ type: institution
 type_organisation: ''
 verified: false
 wikidata_id: Q58148
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Henri de Rothschild]]** (niveau 2)

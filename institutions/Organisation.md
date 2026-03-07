@@ -33,6 +33,7 @@ type: institution
 type_organisation: association
 verified: true
 wikidata_id: Q43229
+wikipedia_enriched: true
 ---
 
 >  **Sujet principal de la recherche**

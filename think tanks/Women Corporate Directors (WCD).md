@@ -5,10 +5,12 @@ keywords:
 - leadership
 - réseau professionnel
 - dirigeantes
+sources: []
 summary: Women Corporate Directors (WCD) est une organisation internationale dédiée
   à la promotion des femmes dans les conseils d'administration. Elle rassemble des
   dirigeantes influentes pour favoriser le leadership féminin dans les entreprises.
 type: Fondation
+wikipedia_enriched: true
 ---
 
 **Description :** Women Corporate Directors est une organisation internationale réunissant des femmes dirigeantes siégeant dans plus de 8 500 conseils d'administration à travers le monde. ​[Women Corporate Directors](https://wcdglobal.org/)  

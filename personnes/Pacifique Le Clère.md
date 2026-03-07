@@ -1,15 +1,20 @@
 ---
+birth_date_wikidata: '1944-02-01'
 keywords:
 - dirigeant
 - énergie
 - pétrole
 - carrière
 - maire
+sources:
+- https://www.wikidata.org/wiki/Q33236438
 summary: Pacifique Le Clère est un dirigeant d'entreprises spécialisé dans le secteur
   de l'énergie et des carburants, ayant occupé des postes clés dans des groupes comme
   Shell, Elf Aquitaine et Bolloré Energie. Il cumule également des mandats politiques
   locaux et des engagements associatifs.
 type: Personne
+wikidata_id: Q33236438
+wikipedia_enriched: true
 ---
 
 **LE CLÈRE (Pacifique, Gérard, Marie)**  

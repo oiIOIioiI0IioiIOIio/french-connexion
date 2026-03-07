@@ -1,14 +1,19 @@
 ---
+birth_date_wikidata: '1954-11-19'
 keywords:
 - dirigeant
 - entreprise
 - ingénieur
 - Shiseido
 - carrière
+sources:
+- https://www.wikidata.org/wiki/Q33101971
 summary: Daniel Guillermin est un dirigeant d'entreprise français, président-directeur
   général de Shiseido International France. Il a occupé des postes clés dans plusieurs
   groupes industriels et est membre de divers cercles professionnels et associatifs.
 type: Personne
+wikidata_id: Q33101971
+wikipedia_enriched: true
 ---
 
 **GUILLERMIN (Daniel, Joseph)**  

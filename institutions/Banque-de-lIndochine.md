@@ -13,6 +13,7 @@ description: "La banque de l’Indochine est une ancienne banque privée frança
   de nouvelles entreprises dans d'autres pays, comme l'Arabie saou"
 domaine: finance
 found_via: Rothschild
+founded_wikidata: '1875-01-21'
 membres:
 - Hô Chi Minh-Ville
 - Paul Baudouin
@@ -41,6 +42,7 @@ type: institution
 type_organisation: entreprise
 verified: true
 wikidata_id: Q7719950
+wikipedia_enriched: true
 ---
 
 >  **Sujet principal de la recherche**

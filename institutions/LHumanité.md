@@ -12,6 +12,7 @@ description: "L'Humanité est un quotidien français fondé en 1904 par Jean Jau
   \n\n"
 domaine: sante
 found_via: Augustin Hamon
+founded_wikidata: '1904-04-18'
 membres:
 - Jean Jaurès
 - Fabien Gay
@@ -48,7 +49,9 @@ tags:
 type: institution
 type_organisation: parti politique
 verified: true
+website_wikidata: https://www.humanite.fr
 wikidata_id: Q1137404
+wikipedia_enriched: true
 ---
 
 >  **Decouvert via [[Augustin Hamon]]** (niveau 1)
