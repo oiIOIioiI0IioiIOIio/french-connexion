@@ -64,7 +64,7 @@ def auto_standardize(entity_type, mapping_rules):
         
         if modified:
             new_post = frontmatter.Post(post.content, **new_meta)
-            with open(f, 'w', encoding='utf-8') as file:
+            with open(f, 'wb') as file:
                 frontmatter.dump(new_post, file)
                 
     git.commit_changes(f"chore: standardisation automatique des champs pour {entity_type}")
