@@ -785,6 +785,7 @@ def wikipedia_factcheck_person(person_name: str) -> Optional[dict]:
     data['wikipedia_title'] = page.title
     data['wikipedia_url'] = wiki_url
     data['content_length'] = len(full_content)
+    data['_full_content'] = full_content[:10000]  # kept for relationship extraction
     data['factcheck_status'] = 'verified'
     data['verification_date'] = datetime.now().strftime('%Y-%m-%d')
 
@@ -1454,14 +1455,8 @@ def explore_person(person_name: str, depth: int, found_via: str,
     person.wikipedia_data = wiki_data
     person.factcheck_status = "verified"
 
-    # Extract relationships via spaCy
-    full_text = ""
-    try:
-        page, _ = _safe_wikipedia_page(person_name)
-        if page:
-            full_text = page.content[:10000]
-    except Exception:
-        pass
+    # Extract relationships via spaCy (reuse content from factcheck)
+    full_text = wiki_data.get('_full_content', '')
 
     relationships = extract_relationships_spacy(person_name, full_text, all_known_people)
     person.relationships = relationships

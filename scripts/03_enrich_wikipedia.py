@@ -47,7 +47,7 @@ _BIRTH_PATTERNS = [
 ]
 
 _NATIONALITY_PATTERNS = [
-    r'(?:est\s+un(?:e)?)\s+(\w+(?:\s+\w+)?)\s+(?:homme|femme|personnalité|journaliste|politique)',
+    r'est\s+un(?:e)?\s+(?:homme|femme)\s+(?:politique\s+|d[\'  ](?:affaires|[eéÉ]tat)\s+)?(\w+)',
     r'de\s+nationalit[eé]\s+(\w+)',
 ]
 
