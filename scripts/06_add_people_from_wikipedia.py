@@ -633,17 +633,17 @@ def identify_entities_from_wikipedia(query: str) -> dict:
         WIKIPEDIA_CALLS_COUNT += 1
         search_results = wikipedia.search(query, results=5)
     except Exception as e:
-        logger.warning(f"[WARN] Wikipedia search failed for '{query}': {e}")
+        logger.warning(f" Wikipedia search failed for '{query}': {e}")
         return result
 
     if not search_results:
-        logger.warning(f"[WARN] No Wikipedia results for '{query}'")
+        logger.warning(f" No Wikipedia results for '{query}'")
         return result
 
     # Fetch the main page
     page, err = _safe_wikipedia_page(search_results[0])
     if page is None:
-        logger.warning(f"[WARN] Could not fetch Wikipedia page for '{search_results[0]}': {err}")
+        logger.warning(f" Could not fetch Wikipedia page for '{search_results[0]}': {err}")
         return result
 
     result['main_subject'] = page.title
@@ -746,10 +746,10 @@ Donne uniquement des noms de personnes REELLES et CONNUES. Maximum 20 personnes.
                 return result
         return None
     except SDKError as e:
-        logger.warning(f"[WARN] Mistral SDK error: {e}")
+        logger.warning(f" Mistral SDK error: {e}")
         return None
     except Exception as e:
-        logger.warning(f"[WARN] Mistral call failed: {e}")
+        logger.warning(f" Mistral call failed: {e}")
         return None
 
 
@@ -1650,7 +1650,7 @@ def main(query: str = None):
     print(f"   - {len(initial_institutions)} institutions identifiees")
 
     if not initial_people and not initial_institutions:
-        logger.warning("[WARN] Aucune entite trouvee pour cette requete")
+        logger.warning(" Aucune entite trouvee pour cette requete")
         return
 
     # ========== PHASE 1 : EXPLORATION ==========
@@ -1658,7 +1658,7 @@ def main(query: str = None):
     explore_network(query, initial_people, initial_institutions, query_type)
 
     if not ALL_FOUND_ENTITIES:
-        logger.warning("[WARN] Aucune entite trouvee")
+        logger.warning(" Aucune entite trouvee")
         return
 
     # Separer personnes et institutions
@@ -1676,7 +1676,7 @@ def main(query: str = None):
     print(f"   - {len(validated_people)} validees, {len(rejected_people)} rejetees")
 
     if not validated_people and not institution_entities:
-        logger.warning("[WARN] Aucune entite validee a creer")
+        logger.warning(" Aucune entite validee a creer")
         return
 
     # ========== PHASE 2 : VERIFICATION DES FICHIERS EXISTANTS ==========

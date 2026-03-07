@@ -138,7 +138,7 @@ def extract_data_from_summary(wiki_summary: str, entity_type: str) -> dict:
             try:
                 extracted_data = llm.extract_yaml_data(wiki_summary, schema)
             except Exception as e:
-                logger.warning(f"[WARN] Mistral extraction echouee, fallback regex : {e}")
+                logger.warning(f" Mistral extraction echouee, fallback regex : {e}")
                 extracted_data = {}
 
     # Fallback (or complement) with regex extraction
@@ -258,10 +258,10 @@ def fetch_wikidata_info(title: str) -> dict:
         return info
 
     except (URLError, json.JSONDecodeError, KeyError) as e:
-        logger.warning(f"[WARN] Wikidata indisponible pour {title}: {e}")
+        logger.warning(f" Wikidata indisponible pour {title}: {e}")
         return {}
     except Exception as e:
-        logger.warning(f"[WARN] Erreur Wikidata pour {title}: {e}")
+        logger.warning(f" Erreur Wikidata pour {title}: {e}")
         return {}
 
 
@@ -325,10 +325,10 @@ def process_file(file_path):
             wiki_summary = wiki_page.summary
             wiki_url = wiki_page.url
         except wikipedia.exceptions.PageError:
-            logger.warning(f"[WARN] Page Wikipedia non trouvee pour {title}")
+            logger.warning(f" Page Wikipedia non trouvee pour {title}")
             wiki_summary = None
         except wikipedia.exceptions.DisambiguationError as e:
-            logger.warning(f"[WARN] Page ambigue pour {title} : {e.options}")
+            logger.warning(f" Page ambigue pour {title} : {e.options}")
             if not e.options:
                 wiki_summary = None
             else:

@@ -76,12 +76,12 @@ class MistralClient:
         self._offline = False
 
         if not MISTRAL_AVAILABLE:
-            logger.warning("[WARN] mistralai SDK non installe - mode hors-ligne")
+            logger.warning(" mistralai SDK non installe - mode hors-ligne")
             self._offline = True
             self.client = None
             self.model = os.getenv("MISTRAL_MODEL", "open-mistral-nemo")
         elif not api_key:
-            logger.warning("[WARN] MISTRAL_API_KEY non definie - mode hors-ligne")
+            logger.warning(" MISTRAL_API_KEY non definie - mode hors-ligne")
             self._offline = True
             self.client = None
             self.model = os.getenv("MISTRAL_MODEL", "open-mistral-nemo")
@@ -214,7 +214,7 @@ class MistralClient:
         Returns None if the client is in offline mode.
         """
         if self._offline:
-            logger.warning("[WARN] Mistral en mode hors-ligne, appel ignore")
+            logger.warning(" Mistral en mode hors-ligne, appel ignore")
             return None
         self._throttle()
         
