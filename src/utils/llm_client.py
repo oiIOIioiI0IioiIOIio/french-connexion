@@ -2,6 +2,7 @@ import os
 import json
 import time
 import random
+import re
 from mistralai import Mistral, SDKError
 from src.utils.logger import setup_logger
 
@@ -57,7 +58,7 @@ class MistralClient:
         
         # Initialisation du client (Nouvelle syntaxe v1)
         self.client = Mistral(api_key=api_key)
-        self.model = os.getenv("MISTRAL_MODEL", "mistral-large-latest")
+        self.model = os.getenv("MISTRAL_MODEL", "open-mistral-nemo")
         self._last_call_time = 0.0
     
     def _throttle(self):
@@ -75,6 +76,26 @@ class MistralClient:
                 hasattr(response, 'choices') and 
                 response.choices and 
                 len(response.choices) > 0)
+
+    def _extract_retry_after(self, error):
+        """Extract retry-after delay from a 429 SDKError if present.
+        
+        Checks the error body/message for patterns like
+        'retry after X second(s)' or a 'retry_after' field.
+        Returns the delay in seconds or None.
+        """
+        try:
+            error_str = str(error)
+            match = re.search(r'retry after (\d+)', error_str, re.IGNORECASE)
+            if match:
+                return int(match.group(1))
+            if hasattr(error, 'body') and isinstance(error.body, dict):
+                val = error.body.get('retry_after')
+                if val is not None:
+                    return int(val)
+        except (ValueError, TypeError, AttributeError):
+            pass
+        return None
 
     def _chat_complete_with_retry(self, **call_params):
         """
@@ -118,7 +139,12 @@ class MistralClient:
                 # Handle 429 rate limit errors explicitly
                 if hasattr(e, 'status_code') and e.status_code == 429:
                     if attempt < MAX_RETRIES - 1:
-                        delay = self._compute_delay(attempt, rate_limited=True)
+                        # Try to use server-provided retry-after delay
+                        server_delay = self._extract_retry_after(e)
+                        if server_delay:
+                            delay = server_delay + random.uniform(1, 5)
+                        else:
+                            delay = self._compute_delay(attempt, rate_limited=True)
                         logger.warning(f"Rate limit (429) - tentative {attempt + 1}/{MAX_RETRIES}, attente {delay:.1f}s...")
                         time.sleep(delay)
                         continue

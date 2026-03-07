@@ -259,7 +259,7 @@ def link_document(file_path):
 
     if modified:
         post.content = content
-        with open(file_path, 'w', encoding='utf-8') as f:
+        with open(file_path, 'wb') as f:
             frontmatter.dump(post, f)
 
     return modified
@@ -297,7 +297,7 @@ def update_backlinks_in_frontmatter():
             combined = existing_links | new_links
             if combined != existing_links:
                 post['liens'] = sorted(combined)
-                with open(entity_path, 'w', encoding='utf-8') as f:
+                with open(entity_path, 'wb') as f:
                     frontmatter.dump(post, f)
                 updated += 1
         except Exception as e:
