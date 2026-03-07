@@ -27,6 +27,12 @@ formation:
 - Diplômé en droit de l'Université Dalhousie
 - Admis au Barreau en 1965
 genre: homme
+keywords:
+- oliver
+- homme
+- été
+- brian
+- mulroney
 liens:
 - Brian Mulroney
 lieu_naissance: Wolfville, Nouvelle-Écosse, Canada
@@ -39,10 +45,11 @@ sources:
 - https://fr.wikipedia.org/wiki/Donald_Oliver
 statut: homme politique, avocat, promoteur
 statut_note: a_valider
+summary: Donald H. Oliver était un avocat, promoteur et homme politique canadien.
 tags:
 - elite
 - wikipedia
-type: personne
+type: Personne
 ---
 
 Donald H. Oliver était un avocat, promoteur et homme politique canadien. Il a été le premier homme noir à siéger au Sénat du Canada, nommé par Brian Mulroney. Il a également été actif dans le service communautaire et la préservation de la culture noire en Nouvelle-Écosse.

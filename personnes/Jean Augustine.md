@@ -29,6 +29,12 @@ famille:
 formation:
 - 'Études brillantes en Grenade (profession initiale : professeure)'
 genre: femme
+keywords:
+- simon
+- jean
+- augustine
+- femme
+- olive
 liens:
 - Michael Ignatieff
 - Jean Chrétien (ancien premier ministre)
@@ -45,10 +51,13 @@ sources:
 statut: Ancienne députée fédérale, ancienne ministre, première commissaire à l'équité
   de l'Ontario
 statut_note: a_valider
+summary: Jean Augustine est une femme politique et militante canadienne d'origine
+  grenadienne. Première femme noire élue députée fédérale au Canada, elle a joué un
+  rôle clé dans la reconnaissance du mois de...
 tags:
 - elite
 - wikipedia
-type: personne
+type: Personne
 ---
 
 Jean Augustine est une femme politique et militante canadienne d'origine grenadienne. Première femme noire élue députée fédérale au Canada, elle a joué un rôle clé dans la reconnaissance du mois de l'histoire des Noirs. Elle a également occupé des fonctions ministérielles et été commissaire à l'équité en Ontario.

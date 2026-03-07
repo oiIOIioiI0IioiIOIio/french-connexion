@@ -16,6 +16,12 @@ distinctions: []
 famille: []
 formation: []
 genre: homme
+keywords:
+- history
+- carter
+- woodson
+- histoire
+- noirs
 liens:
 - Carter G. Woodson
 - Jesse E. Moorland
@@ -30,10 +36,13 @@ sources:
 - https://fr.wikipedia.org/wiki/Mois_de_l%27histoire_des_Noirs
 statut: Historien
 statut_note: a_valider
+summary: Carter G. Woodson était un historien afro-américain connu pour avoir cofondé
+  l'Association for the Study of African American Life and History (ASALH) et lancé
+  la Negro History Week en 1926, précurs...
 tags:
 - elite
 - wikipedia
-type: personne
+type: Personne
 ---
 
 Carter G. Woodson était un historien afro-américain connu pour avoir cofondé l'Association for the Study of African American Life and History (ASALH) et lancé la Negro History Week en 1926, précurseur du Black History Month. Son travail visait à promouvoir l'enseignement de l'histoire des Noirs aux États-Unis.

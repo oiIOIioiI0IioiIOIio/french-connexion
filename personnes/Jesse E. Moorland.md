@@ -24,6 +24,12 @@ formation:
 - Université du Nord de l'Ohio à Ada, Ohio
 - Université Howard, département de théologie (Master of Arts en 1891)
 genre: homme
+keywords:
+- moorland
+- woodson
+- lucy
+- épouse
+- jesse
 liens:
 - Carter G. Woodson
 - Lucy C Woodson (épouse)
@@ -39,10 +45,13 @@ sources:
 statut: pasteur, dirigeant associatif, administrateur, militant des droits civiques,
   universitaire
 statut_note: a_valider
+summary: Jesse Edward Moorland était un pasteur congrégationaliste et un militant
+  afro-américain des droits civiques. Il a joué un rôle clé dans plusieurs organisations,
+  dont la YMCA et la NAACP, et a cofon...
 tags:
 - elite
 - wikipedia
-type: personne
+type: Personne
 ---
 
 Jesse Edward Moorland était un pasteur congrégationaliste et un militant afro-américain des droits civiques. Il a joué un rôle clé dans plusieurs organisations, dont la YMCA et la NAACP, et a cofondé le Centre de recherche Moorland-Spingarn ainsi que l'Association for the Study of African American Life and History (ASALH).

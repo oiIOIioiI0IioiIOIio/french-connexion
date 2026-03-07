@@ -14,6 +14,12 @@ famille: []
 formation: []
 found_via: requête principale
 genre: ''
+keywords:
+- james
+- mcgann
+- think
+- tanks
+- directeur
 liens:
 - Richard N. Haass
 - James McGann
@@ -28,11 +34,14 @@ sources:
 - https://fr.wikipedia.org/wiki/Think_tank
 statut: Directeur du Think Tanks and Civil Societies Program
 statut_note: a_valider
+summary: James McGann est directeur du Think Tanks and Civil Societies Program à l'université
+  de Pennsylvanie et éditeur du classement mondial des laboratoires d'idées. Il analyse
+  le rôle des think tanks da...
 tags:
 - elite
 - wikipedia
 - profondeur-0
-type: personne
+type: Personne
 ---
 
 James McGann est directeur du Think Tanks and Civil Societies Program à l'université de Pennsylvanie et éditeur du classement mondial des laboratoires d'idées. Il analyse le rôle des think tanks dans la mise en relation entre le savoir et le pouvoir politique.

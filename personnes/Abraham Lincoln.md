@@ -17,6 +17,12 @@ famille: []
 formation:
 - Autodidacte en droit
 genre: homme
+keywords:
+- lincoln
+- abraham
+- figure
+- emblématique
+- histoire
 liens:
 - Stephen A. Douglas
 lieu_naissance: Hodgenville, Kentucky, États-Unis
@@ -29,10 +35,13 @@ sources:
 - https://fr.wikipedia.org/wiki/Abraham_Lincoln
 statut: 16e président des États-Unis
 statut_note: a_valider
+summary: Abraham Lincoln est une figure emblématique de l'histoire américaine, président
+  durant la guerre de Sécession. Il préserve l'Union, abolit l'esclavage via le 13e
+  amendement et est assassiné en 1865.
 tags:
 - elite
 - wikipedia
-type: personne
+type: Personne
 ---
 
 Abraham Lincoln est une figure emblématique de l'histoire américaine, président durant la guerre de Sécession. Il préserve l'Union, abolit l'esclavage via le 13e amendement et est assassiné en 1865. Issu d'un milieu modeste, il devient avocat autodidacte avant de s'engager en politique.

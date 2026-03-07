@@ -28,6 +28,12 @@ formation:
 - Diplômé de l'École nationale d'administration (promotion Marc-Bloch, 1995-1997)
 found_via: Emmanuel Macron
 genre: homme
+keywords:
+- philippe
+- enfant
+- emmanuel
+- macron
+- édith
 liens:
 - Sarah Philippe (enfant)
 - Alain Juppé
@@ -48,11 +54,14 @@ sources:
 - https://fr.wikipedia.org/wiki/%C3%89douard_Philippe
 statut: Maire du Havre, président du parti Horizons, administrateur du groupe Atos
 statut_note: a_valider
+summary: Haut fonctionnaire et homme d'État français, Édouard Philippe a été Premier
+  ministre de 2017 à 2020. Diplômé de Sciences Po et de l'ENA, il a occupé divers
+  mandats politiques locaux et nationaux av...
 tags:
 - elite
 - wikipedia
 - profondeur-1
-type: personne
+type: Personne
 ---
 
 Haut fonctionnaire et homme d'État français, Édouard Philippe a été Premier ministre de 2017 à 2020. Diplômé de Sciences Po et de l'ENA, il a occupé divers mandats politiques locaux et nationaux avant de fonder le parti Horizons en 2021.

@@ -20,6 +20,12 @@ famille:
 - Cora Woodson (sœur)
 formation: []
 genre: homme
+keywords:
+- woodson
+- henry
+- frère
+- père
+- afro
 liens:
 - Anne Eliza Riddle Woodson (mère)
 - Cora Woodson (sœur)
@@ -37,10 +43,12 @@ sources:
 statut: historien, essayiste, chroniqueur, fondateur de l'Association for the Study
   of African American Life and History
 statut_note: a_valider
+summary: Carter G. Woodson est un historien afro-américain pionnier dans l'étude de
+  l'histoire des Afro-Américains.
 tags:
 - elite
 - wikipedia
-type: personne
+type: Personne
 ---
 
 Carter G. Woodson est un historien afro-américain pionnier dans l'étude de l'histoire des Afro-Américains. Il est surnommé le « Père de l'histoire des Noirs » et a fondé l'Association for the Study of African American Life and History. Né dans une famille d'anciens esclaves, il a surmonté des obstacles pour accéder à l'éducation et devenir un universitaire influent.

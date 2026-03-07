@@ -30,6 +30,12 @@ formation:
 - Agrégation de lettres classiques
 found_via: Emmanuel Macron
 genre: homme
+keywords:
+- bayrou
+- née
+- emmanuel
+- macron
+- ministre
 liens:
 - Jean Lecanuet
 - Alain Juppé
@@ -51,11 +57,14 @@ sources:
 - https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Bayrou
 statut: Premier ministre
 statut_note: a_valider
+summary: François Bayrou est un homme d'État français, professeur agrégé de lettres
+  classiques et figure centrale du centrisme en France. Il a occupé plusieurs fonctions
+  politiques majeures, dont ministre d...
 tags:
 - elite
 - wikipedia
 - profondeur-1
-type: personne
+type: Personne
 ---
 
 François Bayrou est un homme d'État français, professeur agrégé de lettres classiques et figure centrale du centrisme en France. Il a occupé plusieurs fonctions politiques majeures, dont ministre de l'Éducation nationale et maire de Pau, avant de devenir Premier ministre en 2024.
