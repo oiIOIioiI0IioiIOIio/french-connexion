@@ -1,22 +1,16 @@
-```yaml 
-type: personne
+```yaml
+type: Personne
 nom_complet: ""
-nom_naissance: ""
-prenoms: ""
-date_naissance: ""
-lieu_naissance: ""
-nationalite: ""
+birth_date: ""
+birth_place: ""
+nationality: ""
 genre: ""
-statut: ""
-bio: "" # Résumé biographique
-formation: [] # Liste des écoles/diplômes
-carriere: [] # Liste des mandats professionnels
-affiliations: [] # Liste des clubs, réseaux, think-tanks
-distinctions: [] # Légion d'honneur, etc.
-famille: [] # Liens familiaux vers d'autres fiches
-liens: [] # Backlinks automatiques ou manuels
-presse: [] # Articles de presse
-sources: [] # Sources externes (Wikipedia, etc.)
-statut_note: "a_valider"
+occupation: ""
+education: ""
+summary: ""
+keywords: []
+sources: []
 tags: ["elite"]
-date_creation_note: "" 
+statut_note: "a_valider"
+date_creation_note: ""
+liens: []

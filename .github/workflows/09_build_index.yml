@@ -1,0 +1,50 @@
+name: 09 - Construction index site web
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'personnes/**'
+      - 'institutions/**'
+      - 'companies/**'
+      - 'medias/**'
+      - 'think tanks/**'
+      - 'écoles/**'
+      - 'partis/**'
+
+permissions:
+  contents: write
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Recuperation du code
+        uses: actions/checkout@v4
+
+      - name: Configuration Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      - name: Configuration Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Installation des dependances
+        run: |
+          python -m pip install --upgrade pip
+          pip install python-frontmatter PyYAML colorlog
+
+      - name: Construction de l'index
+        run: python scripts/09_build_index.py
+
+      - name: Push de l'index
+        run: |
+          git add data/index.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "chore: mise a jour index site web"
+          git push
