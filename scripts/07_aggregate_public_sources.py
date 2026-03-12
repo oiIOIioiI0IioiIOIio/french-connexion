@@ -4,19 +4,22 @@ a partir de sources publiques officielles.
 
 Interroge des APIs publiques et ouvertes pour collecter des profils
 de personnalites francaises. Le script cree des fiches personne au
-format standard du depot (YAML frontmatter + Markdown).
+format standard du depot (YAML frontmatter + Markdown), compatible
+avec le site web (index.html) et le reste du pipeline.
 
 SOURCES PUBLIQUES UTILISEES:
 1. Wikidata SPARQL  - donnees biographiques structurees (CC0)
 2. Assemblee Nationale open data - deputes (licence ouverte)
 3. Senat open data - senateurs (licence ouverte)
-4. HATVP - declarations d'interets (transparence publique)
+4. HATVP CSV index - declarations d'interets (transparence publique)
+   Inspire de https://github.com/oiIOIioiI0IioiIOIio/transparence-nationale
 
 VARIABLES D'ENVIRONNEMENT:
 - GITHUB_ACTIONS : Detecte automatiquement (ajuste les limites)
 - MAX_RESULTS : Nombre max de resultats par source (defaut: 200)
-- HTTP_TIMEOUT : Timeout requetes HTTP en secondes (defaut: 15)
+- HTTP_TIMEOUT : Timeout requetes HTTP en secondes (defaut: 30)
 - DRY_RUN : Si '1', affiche sans creer de fichiers
+- HTTP_MAX_RETRIES : Nombre de tentatives HTTP (defaut: 3)
 
 UTILISATION:
   python scripts/07_aggregate_public_sources.py
@@ -29,6 +32,8 @@ UTILISATION:
 
 import sys
 import os
+import csv
+import io
 import json
 import re
 import time
@@ -57,9 +62,10 @@ IS_GITHUB_ACTION = os.getenv('GITHUB_ACTIONS') == 'true'
 
 # Limites configurables
 MAX_RESULTS = int(os.getenv('MAX_RESULTS', '100' if IS_GITHUB_ACTION else '200'))
-HTTP_TIMEOUT = int(os.getenv('HTTP_TIMEOUT', '15'))
+HTTP_TIMEOUT = int(os.getenv('HTTP_TIMEOUT', '30'))
 DRY_RUN = os.getenv('DRY_RUN', '0') == '1'
 INTER_REQUEST_DELAY = float(os.getenv('INTER_REQUEST_DELAY', '1.0'))
+HTTP_MAX_RETRIES = int(os.getenv('HTTP_MAX_RETRIES', '3'))
 
 # Statistiques globales
 STATS = defaultdict(int)
@@ -73,36 +79,54 @@ USER_AGENT = "FrenchConnexion/1.0 (https://github.com/french-connexion; public d
 # ============================================================
 
 def _http_get(url: str, headers: Optional[dict] = None,
-              timeout: Optional[int] = None) -> Optional[bytes]:
-    """Effectue une requete HTTP GET avec gestion d'erreurs robuste."""
+              timeout: Optional[int] = None,
+              retries: int = 0) -> Optional[bytes]:
+    """Effectue une requete HTTP GET avec gestion d'erreurs robuste.
+
+    Si retries > 0, reessaye avec backoff exponentiel en cas d'erreur
+    reseau ou de timeout.
+    """
     if headers is None:
         headers = {}
     headers.setdefault("User-Agent", USER_AGENT)
     if timeout is None:
         timeout = HTTP_TIMEOUT
 
-    try:
-        req = Request(url, headers=headers)
-        with urlopen(req, timeout=timeout) as resp:
-            return resp.read()
-    except HTTPError as e:
-        logger.warning(f"HTTP {e.code} pour {url}")
-        STATS['http_errors'] += 1
-        return None
-    except URLError as e:
-        logger.warning(f"Erreur reseau pour {url}: {e.reason}")
-        STATS['network_errors'] += 1
-        return None
-    except Exception as e:
-        logger.warning(f"Erreur inattendue pour {url}: {e}")
-        STATS['other_errors'] += 1
-        return None
+    max_attempts = 1 + retries
+    for attempt in range(max_attempts):
+        try:
+            req = Request(url, headers=headers)
+            with urlopen(req, timeout=timeout) as resp:
+                return resp.read()
+        except HTTPError as e:
+            logger.warning(f"HTTP {e.code} pour {url}")
+            STATS['http_errors'] += 1
+            return None
+        except (URLError, Exception) as e:
+            is_timeout = "timed out" in str(e) or "timeout" in str(e).lower()
+            if attempt < max_attempts - 1 and is_timeout:
+                wait = 2 ** attempt * 2
+                logger.info(
+                    f"[RETRY] Tentative {attempt + 2}/{max_attempts} "
+                    f"dans {wait}s pour {url}"
+                )
+                time.sleep(wait)
+                continue
+            if isinstance(e, URLError):
+                logger.warning(f"Erreur reseau pour {url}: {e.reason}")
+                STATS['network_errors'] += 1
+            else:
+                logger.warning(f"Erreur inattendue pour {url}: {e}")
+                STATS['other_errors'] += 1
+            return None
+    return None
 
 
 def _http_get_json(url: str, headers: Optional[dict] = None,
-                   timeout: Optional[int] = None) -> Optional[dict]:
+                   timeout: Optional[int] = None,
+                   retries: int = 0) -> Optional[dict]:
     """Effectue une requete HTTP GET et parse le JSON."""
-    raw = _http_get(url, headers=headers, timeout=timeout)
+    raw = _http_get(url, headers=headers, timeout=timeout, retries=retries)
     if raw is None:
         return None
     try:
@@ -224,7 +248,7 @@ def fetch_wikidata_category(category_label: str, occupation_id: str,
         "User-Agent": USER_AGENT,
     }
 
-    data = _http_get_json(url, headers=headers, timeout=30)
+    data = _http_get_json(url, headers=headers, timeout=45, retries=1)
     if data is None:
         logger.warning(f"[FAIL] Wikidata: pas de resultats pour {category_label}")
         return []
@@ -308,12 +332,37 @@ def fetch_all_wikidata(limit_per_category: int = 50) -> List[dict]:
 # https://data.assemblee-nationale.fr
 # Format: JSON avec listes de deputes et mandats
 AN_BASE_URL = "https://data.assemblee-nationale.fr"
-AN_DEPUTES_URL = (
-    "https://www.assemblee-nationale.fr/dyn/vos-deputes?legislature=17"
-)
 # API NosDonnees.fr - donnees parlementaires ouvertes au format JSON
 AN_API_URL = "https://www.nosdeputes.fr/deputes/json"
 AN_API_ENMANDAT_URL = "https://www.nosdeputes.fr/deputes/enmandat/json"
+
+
+def _parse_an_response(data) -> List[dict]:
+    """Parse la reponse de l'API Assemblee Nationale quel que soit le format.
+
+    Gere differentes structures de reponse :
+    - {"deputes": [{"depute": {...}}, ...]}  (format historique)
+    - [{"depute": {...}}, ...]               (format liste directe)
+    - {"deputes": [{"id": ..., "nom": ...}]} (format sans wrapper depute)
+    """
+    if data is None:
+        return []
+
+    deputes_list = []
+
+    if isinstance(data, dict):
+        # Format historique : {"deputes": [...]}
+        deputes_list = data.get("deputes", [])
+        # Essayer aussi des cles alternatives
+        if not deputes_list:
+            deputes_list = data.get("results", [])
+        if not deputes_list:
+            deputes_list = data.get("data", [])
+    elif isinstance(data, list):
+        # Format liste directe
+        deputes_list = data
+
+    return deputes_list
 
 
 def fetch_assemblee_deputes() -> List[dict]:
@@ -321,26 +370,37 @@ def fetch_assemblee_deputes() -> List[dict]:
 
     NosDonnees.fr (Regards Citoyens) est un projet citoyen qui agrege
     les donnees publiques de l'Assemblee Nationale sous licence ouverte.
+    Essaye plusieurs URLs en fallback.
     """
     persons = []
 
     # Essayer d'abord les deputes en mandat
-    data = _http_get_json(AN_API_ENMANDAT_URL, timeout=20)
-    if data is None:
-        # Fallback : tous les deputes
-        data = _http_get_json(AN_API_URL, timeout=20)
+    data = _http_get_json(AN_API_ENMANDAT_URL, timeout=30, retries=1)
+    deputes_list = _parse_an_response(data)
 
-    if data is None:
-        logger.warning("[FAIL] Assemblee Nationale: API inaccessible")
-        return []
-
-    deputes_list = data.get("deputes", [])
     if not deputes_list:
-        logger.warning("[WARN] Assemblee Nationale: aucun depute dans la reponse")
+        # Fallback : tous les deputes
+        data = _http_get_json(AN_API_URL, timeout=30, retries=1)
+        deputes_list = _parse_an_response(data)
+
+    if not deputes_list:
+        if data is None:
+            logger.warning("[FAIL] Assemblee Nationale: API inaccessible")
+        else:
+            logger.warning(
+                "[WARN] Assemblee Nationale: aucun depute dans la reponse"
+            )
         return []
 
     for entry in deputes_list:
-        dep = entry.get("depute", {})
+        # Gerer les deux formats de reponse :
+        # {"depute": {...}} (format avec wrapper) ou {...} (format direct)
+        if isinstance(entry, dict) and "depute" in entry:
+            dep = entry.get("depute", {})
+        elif isinstance(entry, dict):
+            dep = entry
+        else:
+            continue
         if not dep:
             continue
 
@@ -409,30 +469,64 @@ SENAT_API_URL = "https://www.nossenateurs.fr/senateurs/json"
 SENAT_API_ENMANDAT_URL = "https://www.nossenateurs.fr/senateurs/enmandat/json"
 
 
+def _parse_senat_response(data) -> List[dict]:
+    """Parse la reponse de l'API Senat quel que soit le format.
+
+    Gere differentes structures de reponse :
+    - {"senateurs": [{"senateur": {...}}, ...]}  (format historique)
+    - [{"senateur": {...}}, ...]                 (format liste directe)
+    - {"senateurs": [{"id": ..., "nom": ...}]}  (format sans wrapper)
+    """
+    if data is None:
+        return []
+
+    senateurs_list = []
+
+    if isinstance(data, dict):
+        senateurs_list = data.get("senateurs", [])
+        if not senateurs_list:
+            senateurs_list = data.get("results", [])
+        if not senateurs_list:
+            senateurs_list = data.get("data", [])
+    elif isinstance(data, list):
+        senateurs_list = data
+
+    return senateurs_list
+
+
 def fetch_senat_senateurs() -> List[dict]:
     """Recupere la liste des senateurs depuis NosSenateurs.fr (API ouverte).
 
     NosSenateurs.fr (Regards Citoyens) agrege les donnees publiques
     du Senat sous licence ouverte.
+    Essaye plusieurs URLs en fallback.
     """
     persons = []
 
     # Essayer d'abord les senateurs en mandat
-    data = _http_get_json(SENAT_API_ENMANDAT_URL, timeout=20)
-    if data is None:
-        data = _http_get_json(SENAT_API_URL, timeout=20)
+    data = _http_get_json(SENAT_API_ENMANDAT_URL, timeout=30, retries=1)
+    senateurs_list = _parse_senat_response(data)
 
-    if data is None:
-        logger.warning("[FAIL] Senat: API inaccessible")
-        return []
-
-    senateurs_list = data.get("senateurs", [])
     if not senateurs_list:
-        logger.warning("[WARN] Senat: aucun senateur dans la reponse")
+        data = _http_get_json(SENAT_API_URL, timeout=30, retries=1)
+        senateurs_list = _parse_senat_response(data)
+
+    if not senateurs_list:
+        if data is None:
+            logger.warning("[FAIL] Senat: API inaccessible")
+        else:
+            logger.warning("[WARN] Senat: aucun senateur dans la reponse")
         return []
 
     for entry in senateurs_list:
-        sen = entry.get("senateur", {})
+        # Gerer les deux formats de reponse :
+        # {"senateur": {...}} (format avec wrapper) ou {...} (format direct)
+        if isinstance(entry, dict) and "senateur" in entry:
+            sen = entry.get("senateur", {})
+        elif isinstance(entry, dict):
+            sen = entry
+        else:
+            continue
         if not sen:
             continue
 
@@ -487,28 +581,108 @@ def fetch_senat_senateurs() -> List[dict]:
 # HATVP enrichment
 # ============================================================
 
-HATVP_API_URL = "https://www.hatvp.fr/api/v1/declarations"
+# URLs du open data HATVP (inspirees de transparence-nationale)
+# Le CSV index contient la liste de toutes les declarations publiees
+HATVP_INDEX_URL = "https://www.hatvp.fr/livraison/opendata/liste.csv"
+# URL de consultation publique des declarations
+HATVP_CONSULTATION_URL = "https://www.hatvp.fr/consulter-les-declarations/"
+
+# Cache interne du CSV HATVP (charge une seule fois par run)
+_hatvp_index_cache: Optional[List[dict]] = None
+
+
+def _load_hatvp_index() -> List[dict]:
+    """Telecharge et parse le CSV index HATVP (liste.csv).
+
+    Le fichier CSV contient la liste de toutes les declarations publiees.
+    Colonnes attendues : civilite;prenom;nom;classement;type_mandat;qualite;
+    type_document;departement;date_publication;nom_fichier;url_dossier;
+    id_origine;url_photo
+    """
+    global _hatvp_index_cache
+    if _hatvp_index_cache is not None:
+        return _hatvp_index_cache
+
+    raw = _http_get(HATVP_INDEX_URL, timeout=30, retries=1)
+    if raw is None:
+        logger.warning("[WARN] HATVP: impossible de telecharger l'index CSV")
+        _hatvp_index_cache = []
+        return _hatvp_index_cache
+
+    try:
+        text = raw.decode("utf-8-sig")
+    except UnicodeDecodeError:
+        try:
+            text = raw.decode("latin-1")
+        except UnicodeDecodeError:
+            logger.warning("[WARN] HATVP: encodage CSV inconnu")
+            _hatvp_index_cache = []
+            return _hatvp_index_cache
+
+    try:
+        reader = csv.DictReader(io.StringIO(text), delimiter=";")
+        rows = list(reader)
+    except Exception as e:
+        logger.warning(f"[WARN] HATVP: erreur parsing CSV: {e}")
+        _hatvp_index_cache = []
+        return _hatvp_index_cache
+
+    logger.info(f"[OK] HATVP index CSV: {len(rows)} declarations")
+    _hatvp_index_cache = rows
+    return _hatvp_index_cache
+
+
+def _normalize_hatvp_name(name: str) -> str:
+    """Normalise un nom pour comparaison HATVP (minuscules, sans tirets)."""
+    return name.strip().lower().replace('-', ' ')
 
 
 def fetch_hatvp_for_person(name: str) -> dict:
-    """Interroge l'API publique HATVP pour les declarations d'interets.
+    """Recherche une personne dans l'index CSV HATVP.
 
     La Haute Autorite pour la Transparence de la Vie Publique met a
-    disposition les declarations des responsables publics.
+    disposition un fichier CSV avec la liste de toutes les declarations
+    publiees (https://www.hatvp.fr/livraison/opendata/liste.csv).
     """
     try:
-        url = f"{HATVP_API_URL}?nom={quote(name)}&format=json"
-        data = _http_get_json(url)
-        if data is None or not isinstance(data, list) or len(data) == 0:
+        rows = _load_hatvp_index()
+        if not rows:
             return {}
 
-        declaration = data[0]
+        # Normaliser le nom recherche
+        parts = name.strip().split()
+        if len(parts) < 2:
+            return {}
+        search_prenom = _normalize_hatvp_name(parts[0])
+        search_nom = _normalize_hatvp_name(" ".join(parts[1:]))
+
+        # Chercher dans l'index CSV
+        matches = []
+        for row in rows:
+            csv_nom = _normalize_hatvp_name(row.get("nom", ""))
+            csv_prenom = _normalize_hatvp_name(row.get("prenom", ""))
+            if csv_nom == search_nom and csv_prenom == search_prenom:
+                matches.append(row)
+
+        if not matches:
+            return {}
+
+        # Trier par date de publication (plus recent en premier)
+        def sort_key(r):
+            d = r.get("date_publication", "")
+            try:
+                return datetime.strptime(d.strip(), "%Y-%m-%d")
+            except (ValueError, AttributeError):
+                return datetime.min
+        matches.sort(key=sort_key, reverse=True)
+
+        latest = matches[0]
         info = {
             "hatvp_declared": True,
-            "hatvp_function": declaration.get("fonction", ""),
+            "hatvp_function": latest.get("qualite", "")
+                or latest.get("type_mandat", ""),
             "hatvp_url": (
-                f"https://www.hatvp.fr/consulter-les-declarations/"
-                f"?nom={quote(name)}"
+                f"{HATVP_CONSULTATION_URL}?nom={quote(name)}"
             ),
         }
         return info
@@ -653,25 +827,26 @@ def create_person_profile(person_data: dict, existing_index: Set[str]) -> Option
     # Formation - peut etre string ou liste
     formation_raw = person_data.get("formation", "")
     if isinstance(formation_raw, str) and formation_raw:
-        formation = [formation_raw]
-    elif isinstance(formation_raw, list):
-        formation = formation_raw
+        education_str = formation_raw
+    elif isinstance(formation_raw, list) and formation_raw:
+        education_str = ", ".join(str(item) for item in formation_raw)
     else:
-        formation = []
+        education_str = None
 
-    # Metadata YAML
+    # Metadata YAML - utilise les noms de champs du site web
+    # (birth_date, birth_place, nationality, education)
+    # pour compatibilite avec index.html et les scripts existants
     metadata = {
         'type': 'Personne',
         'nom_complet': name,
-        'date_naissance': person_data.get('date_naissance', ''),
-        'date_deces': person_data.get('date_deces', ''),
-        'lieu_naissance': person_data.get('lieu_naissance', ''),
-        'nationalite': person_data.get('nationalite', 'francaise'),
-        'genre': person_data.get('genre', ''),
+        'birth_date': person_data.get('date_naissance', ''),
+        'birth_place': person_data.get('lieu_naissance', ''),
+        'nationality': person_data.get('nationalite', 'francaise'),
+        'education': education_str,
         'occupation': occupation,
-        'formation': formation,
         'summary': bio_text,
         'keywords': keywords,
+        'genre': person_data.get('genre', ''),
         'sources': sources,
         'statut_note': 'a_valider',
         'tags': tags,
@@ -867,10 +1042,10 @@ def run_self_tests() -> bool:
         ("Wikidata SPARQL", WIKIDATA_SPARQL_ENDPOINT),
         ("NosDonnees.fr (AN)", AN_API_ENMANDAT_URL),
         ("NosSenateurs.fr", SENAT_API_ENMANDAT_URL),
-        ("HATVP", HATVP_API_URL),
+        ("HATVP (CSV index)", HATVP_INDEX_URL),
     ]
     for label, url in test_urls:
-        raw = _http_get(url, timeout=5)
+        raw = _http_get(url, timeout=10)
         if raw is not None:
             sources_status.append((label, True))
             print(f"  [OK] {label} accessible")
@@ -916,11 +1091,10 @@ def aggregate_source(source_name: str, existing_index: Set[str]) -> List[str]:
         logger.info("--- Source : Assemblee Nationale ---")
         persons = fetch_assemblee_deputes()
         for p in persons[:MAX_RESULTS]:
-            # Enrichissement HATVP pour les deputes
+            # Enrichissement HATVP pour les deputes (recherche dans le CSV local)
             hatvp = fetch_hatvp_for_person(p["nom_complet"])
             if hatvp:
                 p.update(hatvp)
-                time.sleep(0.5)  # Respect API HATVP
             path = create_person_profile(p, existing_index)
             if path:
                 created_files.append(path)
@@ -932,7 +1106,6 @@ def aggregate_source(source_name: str, existing_index: Set[str]) -> List[str]:
             hatvp = fetch_hatvp_for_person(p["nom_complet"])
             if hatvp:
                 p.update(hatvp)
-                time.sleep(0.5)
             path = create_person_profile(p, existing_index)
             if path:
                 created_files.append(path)
