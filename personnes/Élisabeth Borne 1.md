@@ -1,15 +1,26 @@
 ---
+birth_date: null
+birth_place: null
+date_creation_note: '2026-03-12'
+education: null
+genre: null
 keywords:
 - politique
 - ministre
 - fonctionnaire
 - Éducation nationale
 - transports
+nationality: null
+nom_complet: Élisabeth Borne 1
+occupation: null
 sources: []
+statut_note: a_valider
 summary: Élisabeth Borne est une haute fonctionnaire et femme politique française,
   ayant occupé des postes ministériels sous les présidences de François Hollande et
   Emmanuel Macron. Son parcours inclut des rôles clés dans les secteurs de l'éducation,
   des transports et de l'écologie.
+tags:
+- elite
 type: Personne
 wikipedia_enriched: true
 ---

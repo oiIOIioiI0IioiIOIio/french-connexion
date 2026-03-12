@@ -1,7 +1,9 @@
 ---
 birth_date: '1967-08-25'
 birth_place: Maisons-Alfort, France
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - entrepreneur
 - télécommunications
@@ -9,12 +11,16 @@ keywords:
 - Le Monde
 - Légion d'honneur
 nationality: française
+nom_complet: Xavier Niel
 occupation: homme d'affaires
+sources: []
+statut_note: a_valider
 summary: Xavier Niel est un entrepreneur français, fondateur du groupe Iliad (Free)
   et figure majeure du secteur des télécommunications. Il est également actionnaire
   du journal Le Monde et proche de cercles influents, notamment politiques et économiques.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

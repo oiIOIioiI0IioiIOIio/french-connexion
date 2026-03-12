@@ -1,17 +1,27 @@
 ---
-birth_date_wikidata: '1942-04-30'
+birth_date: '1942-04-30'
+birth_place: null
+date_creation_note: '2026-03-12'
+education: null
+genre: null
 keywords:
 - dirigeant
 - entreprise
 - conseil d'administration
 - finance
 - industrie
+nationality: null
+nom_complet: Thierry Marraud
+occupation: null
 sources:
 - https://www.wikidata.org/wiki/Q33110545
+statut_note: a_valider
 summary: Thierry Marraud est un dirigeant d'entreprise français, ayant occupé des
   postes clés dans des groupes industriels comme Saint-Gobain, Bolloré et Crédit Lyonnais.
   Il est également impliqué dans plusieurs conseils d'administration et préside la
   Financière Sainte-Marie ainsi que la Fondation EDHEC.
+tags:
+- elite
 type: Personne
 wikidata_id: Q33110545
 wikipedia_enriched: true

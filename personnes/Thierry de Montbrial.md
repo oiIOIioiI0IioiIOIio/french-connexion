@@ -1,7 +1,9 @@
 ---
 birth_date: '1943-03-03'
 birth_place: Paris, France
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - relations internationales
 - IFRI
@@ -9,12 +11,16 @@ keywords:
 - entreprises
 - conférences
 nationality: français
+nom_complet: Thierry de Montbrial
 occupation: économiste, géopolitologue
+sources: []
+statut_note: a_valider
 summary: Thierry de Montbrial est un expert en relations internationales, fondateur
   et président de l'IFRI. Il entretient des liens étroits avec des dirigeants politiques
   et des entreprises majeures, tout en participant à des conférences internationales.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

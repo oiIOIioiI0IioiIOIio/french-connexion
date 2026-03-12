@@ -1,18 +1,8 @@
 ---
-affiliations:
-- Le Siècle
-bio: James McGann est directeur du Think Tanks and Civil Societies Program à l'université
-  de Pennsylvanie et éditeur du classement mondial des laboratoires d'idées. Il analyse
-  le rôle des think tanks dans la mise en relation entre le savoir et le pouvoir politique.
-carriere:
-- Directeur du Think Tanks and Civil Societies Program à l'université de Pennsylvanie
-- Éditeur du classement mondial des laboratoires d'idées
+birth_date: ''
+birth_place: ''
 date_creation_note: '2026-02-14'
-date_naissance: ''
-distinctions: []
-famille: []
-formation: []
-found_via: requête principale
+education: null
 genre: ''
 keywords:
 - james
@@ -25,18 +15,12 @@ liens:
 - Institut Iliade
 - James McGann
 - Richard N. Haass
-lieu_naissance: ''
-nationalite: ''
+nationality: ''
 nom_complet: Think tank
-nom_naissance: ''
 occupation: regroupement d'experts au sein d'une structure de droit privé
-prenoms: Think
-presse: []
-search_depth: 0
 sources:
 - https://fr.wikipedia.org/wiki/Think_tank
 - https://www.wikidata.org/wiki/Q155271
-statut: Directeur du Think Tanks and Civil Societies Program
 statut_note: a_valider
 summary: James McGann est directeur du Think Tanks and Civil Societies Program à l'université
   de Pennsylvanie et éditeur du classement mondial des laboratoires d'idées. Il analyse
@@ -68,3 +52,18 @@ James McGann est directeur du Think Tanks and Civil Societies Program à l'unive
 ---
 
 **Source** : [Wikipedia](https://fr.wikipedia.org/wiki/Think_tank)
+
+## Bio
+
+James McGann est directeur du Think Tanks and Civil Societies Program à l'université de Pennsylvanie et éditeur du classement mondial des laboratoires d'idées. Il analyse le rôle des think tanks dans la mise en relation entre le savoir et le pouvoir politique.
+
+
+## Carriere
+
+- Directeur du Think Tanks and Civil Societies Program à l'université de Pennsylvanie
+- Éditeur du classement mondial des laboratoires d'idées
+
+
+## Affiliations
+
+- Le Siècle

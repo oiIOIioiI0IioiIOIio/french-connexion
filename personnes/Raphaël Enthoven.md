@@ -1,7 +1,9 @@
 ---
 birth_date: '1975-11-09'
 birth_place: Paris, France
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - philosophe
 - animateur
@@ -9,13 +11,17 @@ keywords:
 - médias
 - famille
 nationality: français
+nom_complet: Raphaël Enthoven
 occupation: essayiste, polémiste, vulgarisateur de philosophie, animateur de radio
   et de télévision
+sources: []
+statut_note: a_valider
 summary: Raphaël Enthoven est un philosophe, animateur de radio et de télévision,
   et auteur français. Il est connu pour ses émissions philosophiques et ses ouvrages,
   ainsi que pour ses relations familiales médiatisées.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

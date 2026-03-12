@@ -1,17 +1,27 @@
 ---
-birth_date_wikidata: '1948-03-08'
+birth_date: '1948-03-08'
+birth_place: null
+date_creation_note: '2026-03-12'
+education: null
+genre: null
 keywords:
 - administrateur
 - entreprise
 - famille Agnelli
 - Exor
 - cercles privés
+nationality: null
+nom_complet: Ruy Brandolini d'Adda
+occupation: null
 sources:
 - https://www.wikidata.org/wiki/Q33105578
+statut_note: a_valider
 summary: Ruy Brandolini d'Adda est un homme d'affaires et administrateur de sociétés
   issu d'une famille influente, lié aux cercles économiques et industriels européens.
   Il a occupé des postes clés dans des groupes comme Exor, Fiat, et Sequana Capital,
   tout en étant actif dans des cercles privés prestigieux.
+tags:
+- elite
 type: Personne
 wikidata_id: Q33105578
 wikipedia_enriched: true

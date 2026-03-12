@@ -1,7 +1,9 @@
 ---
 birth_date: '1967-07-14'
 birth_place: Neuilly-sur-Seine, France
+date_creation_note: '2026-03-12'
 education: HEC, ENA
+genre: null
 keywords:
 - politique
 - Conseil d'État
@@ -9,13 +11,17 @@ keywords:
 - députée
 - Île-de-France
 nationality: française
+nom_complet: Valérie Pécresse
 occupation: femme politique
+sources: []
+statut_note: a_valider
 summary: Valérie Pécresse est une personnalité politique française, membre du Conseil
   d'État et figure majeure de la droite républicaine. Elle a occupé des fonctions
   électives et administratives, notamment comme députée, conseillère régionale et
   porte-parole de l'UMP.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

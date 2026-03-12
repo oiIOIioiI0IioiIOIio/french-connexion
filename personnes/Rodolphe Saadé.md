@@ -1,7 +1,9 @@
 ---
 birth_date: '1970-03-03'
 birth_place: Beyrouth, Liban
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - dirigeant
 - CMA CGM
@@ -9,13 +11,17 @@ keywords:
 - médias
 - réseau d'influence
 nationality: franco-libanais
+nom_complet: Rodolphe Saadé
 occupation: chef d'entreprise
+sources: []
+statut_note: a_valider
 summary: Rodolphe Saadé est un dirigeant d'entreprise français, PDG du groupe CMA
   CGM, l'un des leaders mondiaux du transport maritime. Il est également actif dans
   les médias via des acquisitions stratégiques et entretient des relations influentes
   dans les sphères politiques et économiques.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

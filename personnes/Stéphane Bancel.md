@@ -1,7 +1,9 @@
 ---
 birth_date: '1972-07-20'
 birth_place: Marseille, France
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - Moderna
 - vaccin
@@ -9,12 +11,16 @@ keywords:
 - dirigeant
 - réseau d'influence
 nationality: français
+nom_complet: Stéphane Bancel
 occupation: homme d'affaires, directeur général
+sources: []
+statut_note: a_valider
 summary: Stéphane Bancel est un dirigeant d'entreprise français, actuellement PDG
   de Moderna. Il est reconnu pour son rôle clé dans le développement du vaccin contre
   la COVID-19 et ses liens avec des réseaux d'influence internationaux.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

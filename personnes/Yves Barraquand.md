@@ -1,18 +1,28 @@
 ---
-birth_date_wikidata: '1960-08-23'
+birth_date: '1960-08-23'
+birth_place: null
+date_creation_note: '2026-03-12'
+education: null
+genre: null
 keywords:
 - homme d'affaires
 - haut fonctionnaire
 - Bolloré
 - PPR
 - réseau d'influence
+nationality: null
+nom_complet: Yves Barraquand
+occupation: null
 sources:
 - https://www.wikidata.org/wiki/Q33138862
+statut_note: a_valider
 summary: Yves Barraquand est un haut fonctionnaire et homme d'affaires français, ayant
   occupé des postes clés dans des groupes industriels comme Bolloré et PPR, ainsi
   que des fonctions politiques auprès de figures comme Ségolène Royal et Jean-Yves
   Le Drian. Sa carrière illustre les liens étroits entre les sphères publique et privée
   en France.
+tags:
+- elite
 type: Personne
 wikidata_id: Q33138862
 wikipedia_enriched: true
