@@ -1,0 +1,28 @@
+---
+aggregated_from: wikidata_sparql
+birth_date: '1960-10-29'
+birth_place: Strasbourg
+date_creation_note: '2026-03-12'
+education: École nationale d'administration
+genre: masculin
+keywords:
+- diplomate
+nationality: francaise
+nom_complet: Jacques Audibert
+occupation: diplomate
+sources:
+- http://www.wikidata.org/entity/Q17580014
+statut_note: a_valider
+summary: 'Jacques Audibert, diplomate. Ne(e) le 1960-10-29 a Strasbourg. Formation
+  : École nationale d''administration.'
+tags:
+- elite
+- source-wikidata_sparql
+- diplomates
+type: Personne
+---
+
+Jacques Audibert, diplomate. Ne(e) le 1960-10-29 a Strasbourg. Formation : École nationale d'administration.
+
+## Sources
+- http://www.wikidata.org/entity/Q17580014

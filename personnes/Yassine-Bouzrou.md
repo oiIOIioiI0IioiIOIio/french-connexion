@@ -1,0 +1,28 @@
+---
+aggregated_from: wikidata_sparql
+birth_date: '1979-03-30'
+birth_place: Bezons
+date_creation_note: '2026-03-12'
+education: université Paris-Panthéon-Assas
+genre: masculin
+keywords:
+- avocat ou avocate
+nationality: francaise
+nom_complet: Yassine Bouzrou
+occupation: avocat ou avocate
+sources:
+- http://www.wikidata.org/entity/Q27514756
+statut_note: a_valider
+summary: 'Yassine Bouzrou, avocat ou avocate. Ne(e) le 1979-03-30 a Bezons. Formation
+  : université Paris-Panthéon-Assas.'
+tags:
+- elite
+- source-wikidata_sparql
+- avocats
+type: Personne
+---
+
+Yassine Bouzrou, avocat ou avocate. Ne(e) le 1979-03-30 a Bezons. Formation : université Paris-Panthéon-Assas.
+
+## Sources
+- http://www.wikidata.org/entity/Q27514756

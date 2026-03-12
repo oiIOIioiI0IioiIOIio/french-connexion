@@ -1,0 +1,28 @@
+---
+aggregated_from: wikidata_sparql
+birth_date: '1967-07-13'
+birth_place: Rennes
+date_creation_note: '2026-03-12'
+education: École supérieure de journalisme de Paris
+genre: masculin
+keywords:
+- journaliste
+nationality: francaise
+nom_complet: Gaël Desgrées du Lou
+occupation: journaliste
+sources:
+- http://www.wikidata.org/entity/Q3099853
+statut_note: a_valider
+summary: 'Gaël Desgrées du Lou, journaliste. Ne(e) le 1967-07-13 a Rennes. Formation
+  : École supérieure de journalisme de Paris.'
+tags:
+- elite
+- source-wikidata_sparql
+- journalistes
+type: Personne
+---
+
+Gaël Desgrées du Lou, journaliste. Ne(e) le 1967-07-13 a Rennes. Formation : École supérieure de journalisme de Paris.
+
+## Sources
+- http://www.wikidata.org/entity/Q3099853

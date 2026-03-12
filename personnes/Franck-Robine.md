@@ -1,0 +1,28 @@
+---
+aggregated_from: wikidata_sparql
+birth_date: '1967-06-25'
+birth_place: Brignoles
+date_creation_note: '2026-03-12'
+education: École nationale d'administration
+genre: masculin
+keywords:
+- haut fonctionnaire ou haute fonctionnaire
+nationality: francaise
+nom_complet: Franck Robine
+occupation: haut fonctionnaire ou haute fonctionnaire
+sources:
+- http://www.wikidata.org/entity/Q33281869
+statut_note: a_valider
+summary: 'Franck Robine, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1967-06-25
+  a Brignoles. Formation : École nationale d''administration.'
+tags:
+- elite
+- source-wikidata_sparql
+- hauts_fonctionnaires
+type: Personne
+---
+
+Franck Robine, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1967-06-25 a Brignoles. Formation : École nationale d'administration.
+
+## Sources
+- http://www.wikidata.org/entity/Q33281869
