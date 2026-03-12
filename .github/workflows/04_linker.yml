@@ -1,4 +1,4 @@
-name: 04 - Génération de Liens
+name: 04 - Generation de Liens
 
 on:
   workflow_dispatch:
@@ -9,8 +9,14 @@ permissions:
 jobs:
   linking:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
+
+      - name: Configuration Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
 
       - uses: actions/setup-python@v5
         with:
@@ -25,13 +31,11 @@ jobs:
       - name: Download Spacy French model
         run: python -m spacy download fr_core_news_lg
 
-      - name: Générer les liens automatiques
+      - name: Generer les liens automatiques
         run: python scripts/02_link_entities.py
 
       - name: Commit et Push
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
           git add .
-          git diff --quiet && git diff --staged --quiet || git commit -m "feat: mise à jour des liens inter-entités"
+          git diff --quiet && git diff --staged --quiet || git commit -m "feat: mise a jour des liens inter-entites"
           git push

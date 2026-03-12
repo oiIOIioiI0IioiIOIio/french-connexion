@@ -3,743 +3,424 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>French Connexion — Cartographie du pouvoir français</title>
-  <meta name="description" content="Base de données interactive des réseaux de pouvoir français : personnalités, institutions, entreprises, médias, think tanks et écoles.">
-  <meta property="og:title" content="French Connexion">
-  <meta property="og:description" content="Cartographie interactive des élites et réseaux d'influence en France.">
-  <meta property="og:type" content="website">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔗</text></svg>">
+  <title>French Connexion</title>
+  <meta name="description" content="Base de donnees de recherche sur les reseaux de pouvoir francais.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>F</text></svg>">
 
-  <!-- 1. Tailwind CSS (pinned version) -->
-  <script src="https://cdn.tailwindcss.com/3.4.1"></script>
-
-  <!-- 2. Vue.js 3 (pinned production build) -->
   <script src="https://unpkg.com/vue@3.4.21/dist/vue.global.prod.js"></script>
-
-  <!-- 3. Marked for Markdown (pinned version) -->
   <script src="https://cdn.jsdelivr.net/npm/marked@12.0.1/marked.min.js"></script>
-
-  <!-- 4. DOMPurify for XSS protection on rendered HTML -->
   <script src="https://cdn.jsdelivr.net/npm/dompurify@3.2.4/dist/purify.min.js"></script>
 
-  <!-- Tailwind Configuration -->
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            primary: '#2c3e50',
-            secondary: '#42b983',
-            background: '#f8fafc',
-            surface: '#ffffff'
-          }
-        }
-      }
-    }
-  </script>
-
   <style>
-    /* Markdown rendered content */
-    .markdown-body h1 { font-size: 1.8em; font-weight: bold; margin-bottom: 0.5em; color: #1a202c; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.3em; }
-    .markdown-body h2 { font-size: 1.5em; font-weight: bold; margin-top: 1em; margin-bottom: 0.5em; color: #2d3748; }
-    .markdown-body h3 { font-size: 1.25em; font-weight: bold; margin-top: 0.8em; margin-bottom: 0.4em; color: #2d3748; }
-    .markdown-body p { margin-bottom: 1em; line-height: 1.6; color: #4a5568; }
-    .markdown-body ul { list-style-type: disc; padding-left: 1.5em; margin-bottom: 1em; }
-    .markdown-body ol { list-style-type: decimal; padding-left: 1.5em; margin-bottom: 1em; }
-    .markdown-body li { margin-bottom: 0.3em; }
-    .markdown-body a { color: #3182ce; text-decoration: underline; }
-    .markdown-body blockquote { border-left: 4px solid #e2e8f0; padding-left: 1em; margin: 1em 0; color: #718096; }
-    .markdown-body code { background: #edf2f7; padding: 0.15em 0.4em; border-radius: 0.25em; font-size: 0.9em; }
-    .markdown-body pre { background: #1a202c; color: #e2e8f0; padding: 1em; border-radius: 0.5em; overflow-x: auto; margin-bottom: 1em; }
-    .markdown-body pre code { background: none; padding: 0; }
-    .markdown-body table { border-collapse: collapse; width: 100%; margin-bottom: 1em; }
-    .markdown-body th, .markdown-body td { border: 1px solid #e2e8f0; padding: 0.5em 0.75em; text-align: left; }
-    .markdown-body th { background: #f7fafc; font-weight: 600; }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f5f5f5; color: #1a1a1a; }
+    a { color: #2563eb; text-decoration: none; }
+    button { cursor: pointer; border: none; background: none; font: inherit; }
+    input, select { font: inherit; }
 
-    .loader { border: 4px solid #f3f3f3; border-top: 4px solid #42b983; border-radius: 50%; width: 30px; height: 30px; animation: spin 1s linear infinite; margin: 20px auto; }
-    @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+    .sidebar { width: 240px; background: #fff; border-right: 1px solid #e5e5e5; display: flex; flex-direction: column; height: 100vh; position: fixed; left: 0; top: 0; z-index: 20; transition: transform 0.2s; }
+    .sidebar.closed { transform: translateX(-100%); }
+    .main { margin-left: 240px; min-height: 100vh; display: flex; flex-direction: column; }
+    .header { background: #fff; border-bottom: 1px solid #e5e5e5; padding: 12px 24px; position: sticky; top: 0; z-index: 10; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; padding: 24px; }
+    .card { background: #fff; border: 1px solid #e5e5e5; border-radius: 8px; padding: 16px; cursor: pointer; transition: box-shadow 0.15s; }
+    .card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+    .card-type { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: #6b7280; margin-bottom: 4px; }
+    .card-name { font-size: 16px; font-weight: 600; color: #1a1a1a; margin-bottom: 6px; line-height: 1.3; }
+    .card-summary { font-size: 13px; color: #6b7280; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .card-meta { font-size: 12px; color: #9ca3af; margin-top: 8px; }
+    .tag { display: inline-block; padding: 2px 8px; margin: 2px; font-size: 11px; border-radius: 4px; background: #f3f4f6; color: #4b5563; }
+    .conn-count { font-size: 11px; color: #2563eb; margin-top: 6px; }
 
-    .keyword-tag { display: inline-block; padding: 0.25rem 0.5rem; margin: 0.125rem; font-size: 0.75rem; border-radius: 0.375rem; background-color: #e2e8f0; color: #4a5568; }
-    .connection-link { color: #3182ce; cursor: pointer; text-decoration: underline; }
-    .connection-link:hover { color: #2c5aa0; }
+    .modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); z-index: 50; display: flex; align-items: center; justify-content: center; padding: 16px; }
+    .modal { background: #fff; border-radius: 12px; width: 100%; max-width: 900px; max-height: 90vh; display: flex; flex-direction: column; overflow: hidden; }
+    .modal-header { padding: 20px 24px; border-bottom: 1px solid #e5e5e5; }
+    .modal-body { flex: 1; overflow-y: auto; padding: 24px; }
+    .modal-footer { padding: 12px 24px; border-top: 1px solid #e5e5e5; display: flex; justify-content: flex-end; gap: 8px; }
+    .modal-loading { text-align: center; padding: 40px; color: #6b7280; }
 
-    /* Modal fade-in animation */
-    @keyframes fadeIn { from { opacity: 0; transform: scale(0.95); } to { opacity: 1; transform: scale(1); } }
-    .animate-fade-in { animation: fadeIn 0.2s ease-out; }
+    .btn { padding: 8px 16px; border-radius: 6px; font-size: 14px; font-weight: 500; }
+    .btn-primary { background: #1a1a1a; color: #fff; }
+    .btn-secondary { background: #fff; border: 1px solid #d1d5db; color: #374151; }
 
-    /* Toast notification */
-    @keyframes slideIn { from { transform: translateX(100%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
-    @keyframes slideOut { from { transform: translateX(0); opacity: 1; } to { transform: translateX(100%); opacity: 0; } }
-    .toast-enter { animation: slideIn 0.3s ease-out; }
-    .toast-leave { animation: slideOut 0.3s ease-in forwards; }
+    .nav-btn { display: block; width: 100%; text-align: left; padding: 8px 16px; border-radius: 6px; font-size: 14px; color: #374151; }
+    .nav-btn:hover { background: #f3f4f6; }
+    .nav-btn.active { background: #1a1a1a; color: #fff; }
 
-    /* Mobile sidebar overlay */
-    .sidebar-overlay { display: none; }
+    .search-input { width: 100%; max-width: 320px; padding: 8px 12px; border: 1px solid #d1d5db; border-radius: 6px; font-size: 14px; }
+    .search-input:focus { outline: none; border-color: #2563eb; box-shadow: 0 0 0 2px rgba(37,99,235,0.2); }
+
+    .meta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 12px; font-size: 14px; }
+    .meta-label { font-weight: 600; color: #374151; }
+    .meta-value { color: #6b7280; }
+    .conn-link { color: #2563eb; font-size: 13px; cursor: pointer; }
+    .conn-link:hover { text-decoration: underline; }
+
+    .load-more { text-align: center; padding: 24px; }
+    .load-more button { padding: 10px 24px; background: #fff; border: 1px solid #d1d5db; border-radius: 6px; font-size: 14px; color: #374151; }
+    .load-more button:hover { background: #f9fafb; }
+
+    .markdown-body h1 { font-size: 1.5em; font-weight: bold; margin: 0.5em 0; border-bottom: 1px solid #e5e5e5; padding-bottom: 0.3em; }
+    .markdown-body h2 { font-size: 1.3em; font-weight: bold; margin: 0.8em 0 0.4em; }
+    .markdown-body h3 { font-size: 1.1em; font-weight: bold; margin: 0.6em 0 0.3em; }
+    .markdown-body p { margin-bottom: 0.8em; line-height: 1.6; color: #374151; }
+    .markdown-body ul, .markdown-body ol { padding-left: 1.5em; margin-bottom: 0.8em; }
+    .markdown-body li { margin-bottom: 0.2em; }
+    .markdown-body a { color: #2563eb; }
+    .markdown-body blockquote { border-left: 3px solid #d1d5db; padding-left: 1em; color: #6b7280; margin: 0.5em 0; }
+    .markdown-body code { background: #f3f4f6; padding: 0.1em 0.3em; border-radius: 3px; font-size: 0.9em; }
+    .markdown-body pre { background: #1a1a1a; color: #e5e5e5; padding: 1em; border-radius: 6px; overflow-x: auto; margin-bottom: 1em; }
+
+    .hamburger { display: none; padding: 8px; }
+
     @media (max-width: 768px) {
-      .sidebar-overlay { display: block; position: fixed; inset: 0; background: rgba(0,0,0,0.4); z-index: 15; }
+      .sidebar { transform: translateX(-100%); }
+      .sidebar.open { transform: translateX(0); }
+      .main { margin-left: 0; }
+      .hamburger { display: block; }
+      .grid { padding: 12px; gap: 12px; grid-template-columns: 1fr; }
     }
   </style>
 </head>
-<body class="bg-background text-slate-800 h-screen overflow-hidden">
+<body>
 
-  <div id="app" class="flex h-full">
+<div id="app" style="display:flex; min-height:100vh;">
 
-    <!-- MOBILE SIDEBAR OVERLAY -->
-    <div v-if="sidebarOpen" class="sidebar-overlay" @click="sidebarOpen = false"></div>
+  <!-- Overlay mobile -->
+  <div v-if="sidebarOpen" style="position:fixed;inset:0;background:rgba(0,0,0,0.3);z-index:15;" @click="sidebarOpen=false"></div>
 
-    <!-- SIDEBAR -->
-    <aside :class="{'translate-x-0': sidebarOpen, '-translate-x-full': !sidebarOpen}" class="w-64 bg-surface border-r border-gray-200 flex flex-col shadow-sm z-20 fixed md:static md:translate-x-0 h-full transition-transform duration-200">
-      <div class="p-6 border-b border-gray-100">
-        <h1 class="text-2xl font-bold text-primary">French Connexion</h1>
-        <p class="text-xs text-gray-500 mt-1">Cartographie du pouvoir français</p>
-      </div>
+  <!-- Sidebar -->
+  <aside class="sidebar" :class="{open: sidebarOpen}">
+    <div style="padding:20px 16px; border-bottom:1px solid #e5e5e5;">
+      <div style="font-size:18px; font-weight:700; color:#1a1a1a;">French Connexion</div>
+      <div style="font-size:12px; color:#9ca3af; margin-top:2px;">Base de recherche</div>
+    </div>
+    <nav style="flex:1; overflow-y:auto; padding:8px;">
+      <button class="nav-btn" :class="{active: !selectedFolder}" @click="selectFolder(null)">
+        Toutes les fiches
+      </button>
+      <button v-for="f in folders" :key="f" class="nav-btn" :class="{active: selectedFolder===f}" @click="selectFolder(f)">
+        {{ folderLabels[f] || f }}
+      </button>
+    </nav>
+    <div style="padding:12px 16px; border-top:1px solid #e5e5e5; font-size:11px; color:#9ca3af;">
+      {{ allFiles.length }} fiches indexees
+    </div>
+  </aside>
 
-      <nav class="flex-1 overflow-y-auto p-4 space-y-2" role="navigation" aria-label="Catégories">
-        <button @click="loadFolder(null)" :class="{'bg-primary text-white': !selectedFolder, 'text-gray-600 hover:bg-gray-100': selectedFolder}" class="w-full text-left px-4 py-2 rounded-lg transition-colors font-medium">
-          📂 Toutes les fiches
+  <!-- Main -->
+  <div class="main">
+
+    <!-- Header -->
+    <div class="header">
+      <div style="display:flex; align-items:center; gap:12px; flex-wrap:wrap;">
+        <button class="hamburger" @click="sidebarOpen=!sidebarOpen" aria-label="Menu">
+          <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
         </button>
-
-        <div v-for="folder in folders" :key="folder">
-          <button @click="loadFolder(folder)" :class="{'bg-primary text-white': selectedFolder === folder, 'text-gray-600 hover:bg-gray-100': selectedFolder !== folder}" class="w-full text-left px-4 py-2 rounded-lg transition-colors text-sm">
-            {{ formatFolderName(folder) }}
-          </button>
+        <div style="font-size:16px; font-weight:600; color:#374151;">
+          {{ selectedFolder ? (folderLabels[selectedFolder] || selectedFolder) : 'Vue d\'ensemble' }}
+          <span style="font-weight:400; color:#9ca3af; font-size:13px; margin-left:4px;">({{ filteredFiles.length }})</span>
         </div>
-      </nav>
-
-      <div class="p-4 border-t border-gray-100 text-xs text-center text-gray-400">
-        <span v-if="cacheAge">Cache : {{ cacheAge }}</span>
-        <button v-if="!loading" @click="refreshData" class="ml-2 text-secondary hover:underline" title="Rafraîchir les données">↻</button>
+        <div style="flex:1;"></div>
+        <input v-model="searchInput" @input="onSearchInput" type="search" placeholder="Rechercher..." class="search-input" aria-label="Rechercher">
+        <select v-model="sortBy" style="padding:6px 8px; border:1px solid #d1d5db; border-radius:6px; font-size:13px;">
+          <option value="name">Nom A-Z</option>
+          <option value="name-desc">Nom Z-A</option>
+          <option value="type">Type</option>
+          <option value="date">Date</option>
+          <option value="connections">Connexions</option>
+        </select>
       </div>
-    </aside>
+    </div>
 
-    <!-- MAIN CONTENT -->
-    <main class="flex-1 flex flex-col relative overflow-hidden">
+    <!-- Content -->
+    <div style="flex:1; overflow-y:auto;">
 
-      <!-- Header / Search / Filters -->
-      <header class="bg-surface border-b border-gray-200 shadow-sm">
-        <div class="flex items-center justify-between px-4 md:px-8 py-4">
-          <!-- Mobile menu toggle -->
-          <button @click="sidebarOpen = !sidebarOpen" class="md:hidden mr-3 p-1.5 rounded-lg hover:bg-gray-100" aria-label="Ouvrir le menu">
-            <svg class="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
-          </button>
+      <div v-if="loading" style="text-align:center; padding:60px; color:#6b7280;">
+        Chargement de l'index...
+      </div>
 
-          <h2 class="text-lg font-semibold text-gray-700 truncate">
-            {{ selectedFolder ? formatFolderName(selectedFolder) : 'Vue d\'ensemble' }}
-            <span class="text-sm font-normal text-gray-400 ml-2">({{ filteredFiles.length }} fiches)</span>
-          </h2>
+      <div v-else-if="filteredFiles.length === 0" style="text-align:center; padding:60px; color:#9ca3af;">
+        Aucun resultat pour cette recherche.
+      </div>
 
-          <div class="flex items-center gap-4">
-            <div class="relative w-48 md:w-64">
-              <input v-model="searchInput" @input="onSearchInput" type="search" placeholder="Rechercher..." class="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent text-sm" aria-label="Rechercher une fiche">
-              <span class="absolute left-3 top-2.5 text-gray-400">🔍</span>
+      <template v-else>
+        <div class="grid">
+          <div v-for="file in visibleFiles" :key="file.path" class="card" @click="openFile(file)" tabindex="0" @keydown.enter="openFile(file)">
+            <div class="card-type">{{ file.type || 'Document' }}</div>
+            <div class="card-name">{{ file.name }}</div>
+            <div class="card-summary">{{ file.summary || '' }}</div>
+            <div v-if="file.occupation || file.birth_date" class="card-meta">
+              <span v-if="file.occupation">{{ file.occupation }}</span>
+              <span v-if="file.occupation && file.birth_date"> · </span>
+              <span v-if="file.birth_date">{{ formatDate(file.birth_date) }}</span>
+            </div>
+            <div v-if="file.keywords && file.keywords.length" style="margin-top:6px;">
+              <span v-for="kw in file.keywords.slice(0,3)" :key="kw" class="tag">{{ kw }}</span>
+            </div>
+            <div v-if="file.connections && file.connections.length" class="conn-count">
+              {{ file.connections.length }} connexion(s)
             </div>
           </div>
         </div>
-
-        <div class="flex items-center justify-between px-4 md:px-8 pb-3 gap-4 flex-wrap">
-          <div class="flex items-center gap-4">
-            <label for="sort-select" class="text-sm font-medium text-gray-600">Trier par:</label>
-            <select id="sort-select" v-model="sortBy" class="px-3 py-1.5 text-sm border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-secondary bg-white">
-              <option value="name">Nom (A-Z)</option>
-              <option value="name-desc">Nom (Z-A)</option>
-              <option value="type">Type</option>
-              <option value="date">Date</option>
-              <option value="connections">Connexions</option>
-            </select>
-          </div>
-
-          <div class="flex items-center gap-2">
-            <span class="text-sm font-medium text-gray-600">Affichage:</span>
-            <button @click="showMetadata = !showMetadata" :class="{'bg-primary text-white': showMetadata, 'bg-gray-200 text-gray-600': !showMetadata}" :aria-pressed="showMetadata" aria-label="Afficher/masquer les métadonnées" class="px-3 py-1.5 text-sm rounded-lg transition-colors">
-              {{ showMetadata ? 'Métadonnées ✓' : 'Métadonnées' }}
-            </button>
-            <button @click="showConnections = !showConnections" :class="{'bg-primary text-white': showConnections, 'bg-gray-200 text-gray-600': !showConnections}" :aria-pressed="showConnections" aria-label="Afficher/masquer les connexions" class="px-3 py-1.5 text-sm rounded-lg transition-colors">
-              {{ showConnections ? 'Connexions ✓' : 'Connexions' }}
-            </button>
-          </div>
+        <div v-if="displayCount < filteredFiles.length" class="load-more">
+          <button @click="displayCount += PAGE_SIZE">Afficher plus ({{ filteredFiles.length - displayCount }} restantes)</button>
         </div>
-      </header>
+      </template>
 
-      <!-- Grid Content -->
-      <div class="flex-1 overflow-y-auto p-4 md:p-8 bg-gray-50">
-        <div v-if="loading" class="flex flex-col items-center justify-center h-full">
-          <div class="loader"></div>
-          <p class="text-gray-500 text-sm mt-2">Chargement depuis GitHub...</p>
-          <p v-if="loadProgress" class="text-gray-400 text-xs mt-1">{{ loadProgress }}</p>
-        </div>
-
-        <div v-else-if="filteredFiles.length === 0" class="text-center text-gray-400 mt-20">
-          <p class="text-4xl mb-4">📭</p>
-          <p>Aucun fichier trouvé pour cette recherche.</p>
-        </div>
-
-        <div v-else class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-          <!-- CARD COMPONENT -->
-          <div v-for="file in filteredFiles" :key="file.path" @click="openFile(file)" @keydown.enter="openFile(file)" tabindex="0" role="button" :aria-label="'Ouvrir la fiche ' + (file.metadata.title || file.name)" class="bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-200 cursor-pointer border border-gray-100 overflow-hidden flex flex-col hover:-translate-y-0.5">
-            <!-- Card Header (Type Badge) -->
-            <div class="h-1.5 w-full" :class="getTypeColor(file.metadata.type)"></div>
-
-            <div class="p-5 flex-1 flex flex-col">
-              <span class="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2">
-                {{ file.metadata.type || 'Document' }}
-              </span>
-
-              <h3 class="text-lg font-bold text-primary mb-2 line-clamp-2">
-                {{ file.metadata.title || file.name }}
-              </h3>
-
-              <p class="text-sm text-gray-500 line-clamp-3 mb-3">
-                {{ file.metadata.summary || 'Cliquez pour voir le contenu...' }}
-              </p>
-
-              <!-- Metadata Section -->
-              <div v-if="showMetadata" class="mt-auto pt-3 border-t border-gray-100 space-y-2">
-                <div v-if="file.metadata.occupation" class="text-xs text-gray-600">
-                  <span class="font-semibold">Fonction:</span> {{ file.metadata.occupation }}
-                </div>
-                <div v-if="file.metadata.birth_date" class="text-xs text-gray-600">
-                  <span class="font-semibold">Né(e) le:</span> {{ formatDate(file.metadata.birth_date) }}
-                </div>
-                <div v-if="file.metadata.founded" class="text-xs text-gray-600">
-                  <span class="font-semibold">Fondé en:</span> {{ file.metadata.founded }}
-                </div>
-                <div v-if="Array.isArray(file.metadata.keywords) && file.metadata.keywords.length > 0" class="flex flex-wrap gap-1">
-                  <span v-for="keyword in file.metadata.keywords.slice(0, 3)" :key="keyword" class="keyword-tag">
-                    {{ keyword }}
-                  </span>
-                </div>
-              </div>
-
-              <!-- Connections Preview -->
-              <div v-if="showConnections && file.connections && file.connections.length > 0" class="mt-auto pt-3 border-t border-gray-100">
-                <div class="text-xs font-semibold text-gray-600 mb-1">🔗 Connexions:</div>
-                <div class="text-xs text-gray-500">
-                  {{ file.connections.length }} lien(s) — {{ file.connections.slice(0, 2).join(', ') }}{{ file.connections.length > 2 ? '...' : '' }}
-                </div>
-              </div>
-            </div>
-
-            <div class="px-5 py-3 bg-gray-50 border-t border-gray-100 flex justify-between items-center">
-              <span class="text-xs text-gray-400">{{ file.metadata.type || 'Document' }}</span>
-              <span class="text-xs font-semibold text-secondary">Lire →</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- MODAL (Overlay) -->
-      <div v-if="activeFile" class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50 p-4" @click.self="closeModal" role="dialog" aria-modal="true" :aria-label="'Fiche : ' + (activeFile.metadata.title || activeFile.name)">
-        <div class="bg-white rounded-2xl shadow-2xl w-full max-w-5xl h-[90vh] flex flex-col overflow-hidden animate-fade-in">
-
-          <!-- Modal Header -->
-          <div class="px-6 md:px-8 py-6 border-b border-gray-100 flex justify-between items-start bg-gray-50">
-            <div class="flex-1 min-w-0">
-              <span class="px-2 py-1 rounded text-xs font-bold text-white uppercase" :class="getTypeColor(activeFile.metadata.type)">
-                {{ activeFile.metadata.type }}
-              </span>
-              <h2 class="text-2xl md:text-3xl font-bold text-primary mt-3 break-words">{{ activeFile.metadata.title || activeFile.name }}</h2>
-              <p v-if="activeFile.metadata.summary" class="text-gray-500 italic mt-1">{{ activeFile.metadata.summary }}</p>
-
-              <!-- Metadata Grid -->
-              <div class="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
-                <div v-if="activeFile.metadata.occupation" class="text-gray-600">
-                  <span class="font-semibold">Fonction:</span> {{ activeFile.metadata.occupation }}
-                </div>
-                <div v-if="activeFile.metadata.birth_date" class="text-gray-600">
-                  <span class="font-semibold">Né(e) le:</span> {{ formatDate(activeFile.metadata.birth_date) }}
-                </div>
-                <div v-if="activeFile.metadata.birth_place" class="text-gray-600">
-                  <span class="font-semibold">Lieu:</span> {{ activeFile.metadata.birth_place }}
-                </div>
-                <div v-if="activeFile.metadata.nationality" class="text-gray-600">
-                  <span class="font-semibold">Nationalité:</span> {{ activeFile.metadata.nationality }}
-                </div>
-                <div v-if="activeFile.metadata.founded" class="text-gray-600">
-                  <span class="font-semibold">Fondé en:</span> {{ activeFile.metadata.founded }}
-                </div>
-                <div v-if="activeFile.metadata.headquarters" class="text-gray-600">
-                  <span class="font-semibold">Siège:</span> {{ activeFile.metadata.headquarters }}
-                </div>
-                <div v-if="activeFile.metadata.industry" class="text-gray-600 sm:col-span-2">
-                  <span class="font-semibold">Industrie:</span> {{ activeFile.metadata.industry }}
-                </div>
-              </div>
-
-              <!-- Keywords -->
-              <div v-if="Array.isArray(activeFile.metadata.keywords) && activeFile.metadata.keywords.length > 0" class="mt-3">
-                <span class="text-xs font-semibold text-gray-600 mr-2">Mots-clés:</span>
-                <span v-for="keyword in activeFile.metadata.keywords" :key="keyword" class="keyword-tag">
-                  {{ keyword }}
-                </span>
-              </div>
-
-              <!-- Connections -->
-              <div v-if="activeFile.connections && activeFile.connections.length > 0" class="mt-3">
-                <span class="text-xs font-semibold text-gray-600 block mb-1">🔗 Connexions ({{ activeFile.connections.length }}):</span>
-                <div class="flex flex-wrap gap-2">
-                  <button v-for="conn in activeFile.connections.slice(0, 15)" :key="conn" @click.stop="searchAndOpen(conn)" class="connection-link text-xs bg-transparent border-0 p-0 cursor-pointer">
-                    {{ conn }}
-                  </button>
-                  <span v-if="activeFile.connections.length > 15" class="text-xs text-gray-400">
-                    +{{ activeFile.connections.length - 15 }} autres...
-                  </span>
-                </div>
-              </div>
-            </div>
-            <button @click="closeModal" class="text-gray-400 hover:text-gray-600 text-2xl font-light ml-4 shrink-0" aria-label="Fermer">&times;</button>
-          </div>
-
-          <!-- Modal Body (Markdown Content) -->
-          <div class="flex-1 overflow-y-auto p-6 md:p-8 bg-white">
-            <div class="markdown-body max-w-none" v-html="compiledMarkdown"></div>
-          </div>
-
-          <!-- Modal Footer -->
-          <div class="px-6 md:px-8 py-4 bg-gray-50 border-t border-gray-100 flex justify-end space-x-3">
-             <a :href="`https://github.com/oiIOIioiI0IioiIOIio/french-connexion/blob/main/${activeFile.path}`" target="_blank" rel="noopener noreferrer" class="px-4 py-2 bg-white border border-gray-300 rounded-lg text-sm font-medium text-gray-700 hover:bg-gray-50">
-               Voir sur GitHub
-             </a>
-             <button @click="closeModal" class="px-4 py-2 bg-primary text-white rounded-lg text-sm font-medium hover:bg-slate-700">
-               Fermer
-             </button>
-          </div>
-        </div>
-      </div>
-
-      <!-- Toast Notifications -->
-      <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-2">
-        <div v-for="toast in toasts" :key="toast.id" :class="[toast.leaving ? 'toast-leave' : 'toast-enter', toast.type === 'error' ? 'bg-red-600' : toast.type === 'warning' ? 'bg-amber-500' : 'bg-primary']" class="px-4 py-3 rounded-lg text-white text-sm shadow-lg max-w-sm">
-          {{ toast.message }}
-        </div>
-      </div>
-
-    </main>
+    </div>
   </div>
 
-  <!-- VUE JS APP LOGIC -->
-  <script>
-    const { createApp, ref, computed, onMounted, onUnmounted, watch, nextTick } = Vue;
+  <!-- Modal -->
+  <div v-if="activeFile" class="modal-overlay" @click.self="closeModal">
+    <div class="modal">
+      <div class="modal-header">
+        <div style="display:flex; justify-content:space-between; align-items:start;">
+          <div style="flex:1; min-width:0;">
+            <div style="font-size:12px; font-weight:600; text-transform:uppercase; color:#6b7280; margin-bottom:4px;">{{ activeFile.type }}</div>
+            <div style="font-size:22px; font-weight:700; color:#1a1a1a; word-break:break-word;">{{ activeFile.name }}</div>
+            <div v-if="activeFile.summary" style="font-size:14px; color:#6b7280; margin-top:4px; font-style:italic;">{{ activeFile.summary }}</div>
+          </div>
+          <button @click="closeModal" style="font-size:24px; color:#9ca3af; padding:0 8px;" aria-label="Fermer">&times;</button>
+        </div>
+        <div class="meta-grid">
+          <div v-if="activeFile.occupation"><span class="meta-label">Fonction: </span><span class="meta-value">{{ activeFile.occupation }}</span></div>
+          <div v-if="activeFile.birth_date"><span class="meta-label">Date: </span><span class="meta-value">{{ formatDate(activeFile.birth_date) }}</span></div>
+          <div v-if="activeFile.birth_place"><span class="meta-label">Lieu: </span><span class="meta-value">{{ activeFile.birth_place }}</span></div>
+          <div v-if="activeFile.nationality"><span class="meta-label">Nationalite: </span><span class="meta-value">{{ activeFile.nationality }}</span></div>
+        </div>
+        <div v-if="activeFile.keywords && activeFile.keywords.length" style="margin-top:8px;">
+          <span v-for="kw in activeFile.keywords" :key="kw" class="tag">{{ kw }}</span>
+        </div>
+        <div v-if="activeFile.connections && activeFile.connections.length" style="margin-top:10px;">
+          <span style="font-size:12px; font-weight:600; color:#374151;">Connexions ({{ activeFile.connections.length }}):</span>
+          <div style="margin-top:4px; display:flex; flex-wrap:wrap; gap:4px;">
+            <span v-for="conn in activeFile.connections.slice(0,20)" :key="conn" class="conn-link" @click.stop="searchAndOpen(conn)">{{ conn }}</span>
+            <span v-if="activeFile.connections.length > 20" style="font-size:12px; color:#9ca3af;">+{{ activeFile.connections.length - 20 }} autres</span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-body">
+        <div v-if="modalLoading" class="modal-loading">Chargement du contenu...</div>
+        <div v-else class="markdown-body" v-html="compiledMarkdown"></div>
+      </div>
+      <div class="modal-footer">
+        <a :href="'https://github.com/oiIOIioiI0IioiIOIio/french-connexion/blob/main/' + activeFile.path" target="_blank" rel="noopener" class="btn btn-secondary">Voir sur GitHub</a>
+        <button @click="closeModal" class="btn btn-primary">Fermer</button>
+      </div>
+    </div>
+  </div>
 
-    const CACHE_KEY = 'fc_data_cache';
-    const CACHE_TTL = 30 * 60 * 1000; // 30 minutes
+</div>
 
-    createApp({
-      setup() {
-        const folders = ['personnes', 'institutions', 'companies', 'medias', 'think tanks', 'écoles', 'partis'];
-        const selectedFolder = ref(null);
-        const searchInput = ref('');
-        const searchQuery = ref('');
-        const allFiles = ref([]);
-        const loading = ref(false);
-        const loadProgress = ref('');
-        const activeFile = ref(null);
-        const sortBy = ref('name');
-        const showMetadata = ref(true);
-        const showConnections = ref(true);
-        const sidebarOpen = ref(false);
-        const toasts = ref([]);
+<script>
+const { createApp, ref, computed, onMounted, onUnmounted, watch } = Vue;
 
-        let searchTimeout = null;
+createApp({
+  setup() {
+    const INDEX_URL = 'data/index.json';
+    const REPO_RAW = 'https://raw.githubusercontent.com/oiIOIioiI0IioiIOIio/french-connexion/main/';
+    const PAGE_SIZE = 60;
 
-        // Debounced search
-        const onSearchInput = () => {
-          clearTimeout(searchTimeout);
-          searchTimeout = setTimeout(() => {
-            searchQuery.value = searchInput.value;
-          }, 250);
-        };
+    const folders = ['personnes', 'institutions', 'companies', 'medias', 'think tanks', 'écoles', 'partis'];
+    const folderLabels = {
+      'personnes': 'Personnes',
+      'institutions': 'Institutions',
+      'companies': 'Entreprises',
+      'medias': 'Medias',
+      'think tanks': 'Think Tanks',
+      'écoles': 'Ecoles',
+      'partis': 'Partis'
+    };
 
-        // Toast notification system (replaces alert())
-        let toastId = 0;
-        const showToast = (message, type = 'info', duration = 3500) => {
-          const id = ++toastId;
-          toasts.value.push({ id, message, type, leaving: false });
-          setTimeout(() => {
-            const t = toasts.value.find(x => x.id === id);
-            if (t) t.leaving = true;
-            setTimeout(() => {
-              toasts.value = toasts.value.filter(x => x.id !== id);
-            }, 300);
-          }, duration);
-        };
+    const selectedFolder = ref(null);
+    const searchInput = ref('');
+    const searchQuery = ref('');
+    const allFiles = ref([]);
+    const loading = ref(true);
+    const activeFile = ref(null);
+    const modalLoading = ref(false);
+    const modalContent = ref('');
+    const sortBy = ref('name');
+    const sidebarOpen = ref(false);
+    const displayCount = ref(PAGE_SIZE);
 
-        // Keyboard shortcuts
-        const handleKeydown = (e) => {
-          if (e.key === 'Escape') {
-            if (activeFile.value) {
-              closeModal();
-            } else if (sidebarOpen.value) {
-              sidebarOpen.value = false;
-            }
-          }
-        };
+    let searchTimeout = null;
 
-        onMounted(() => {
-          document.addEventListener('keydown', handleKeydown);
-          loadAllContent();
-        });
+    const onSearchInput = () => {
+      clearTimeout(searchTimeout);
+      searchTimeout = setTimeout(() => {
+        searchQuery.value = searchInput.value;
+        displayCount.value = PAGE_SIZE;
+      }, 200);
+    };
 
-        onUnmounted(() => {
-          document.removeEventListener('keydown', handleKeydown);
-          clearTimeout(searchTimeout);
-        });
+    const handleKeydown = (e) => {
+      if (e.key === 'Escape') {
+        if (activeFile.value) closeModal();
+        else if (sidebarOpen.value) sidebarOpen.value = false;
+      }
+    };
 
-        // Cache helpers
-        const getCachedData = () => {
-          try {
-            const raw = localStorage.getItem(CACHE_KEY);
-            if (!raw) return null;
-            const cached = JSON.parse(raw);
-            if (Date.now() - cached.timestamp > CACHE_TTL) {
-              localStorage.removeItem(CACHE_KEY);
-              return null;
-            }
-            return cached;
-          } catch {
-            localStorage.removeItem(CACHE_KEY);
-            return null;
-          }
-        };
+    onMounted(() => {
+      document.addEventListener('keydown', handleKeydown);
+      loadIndex();
+    });
 
-        const setCachedData = (files) => {
-          try {
-            localStorage.setItem(CACHE_KEY, JSON.stringify({
-              timestamp: Date.now(),
-              files: files
-            }));
-          } catch {
-            // localStorage full or unavailable - ignore
-          }
-        };
+    onUnmounted(() => {
+      document.removeEventListener('keydown', handleKeydown);
+    });
 
-        const cacheAge = computed(() => {
-          try {
-            const raw = localStorage.getItem(CACHE_KEY);
-            if (!raw) return '';
-            const cached = JSON.parse(raw);
-            const mins = Math.round((Date.now() - cached.timestamp) / 60000);
-            if (mins < 1) return 'à l\'instant';
-            return `il y a ${mins} min`;
-          } catch {
-            return '';
-          }
-        });
+    // Load pre-built index (single HTTP request)
+    const loadIndex = async () => {
+      loading.value = true;
+      try {
+        const resp = await fetch(INDEX_URL);
+        if (!resp.ok) throw new Error('Index non disponible');
+        const data = await resp.json();
+        allFiles.value = data.files || [];
+        console.log('Index charge: ' + allFiles.value.length + ' fiches');
+      } catch (e) {
+        console.error('Erreur chargement index:', e);
+        // Fallback: try loading from GitHub API
+        await loadFromGitHub();
+      } finally {
+        loading.value = false;
+      }
+    };
 
-        const refreshData = async () => {
-          localStorage.removeItem(CACHE_KEY);
-          await loadAllContent();
-          showToast('Données rafraîchies', 'info');
-        };
-
-        const loadAllContent = async () => {
-          // Try cache first
-          const cached = getCachedData();
-          if (cached && cached.files && cached.files.length > 0) {
-            allFiles.value = cached.files;
-            console.log(`Chargé ${allFiles.value.length} fiches depuis le cache.`);
-            return;
-          }
-
-          loading.value = true;
-          loadProgress.value = '';
-          let hasFailures = false;
-          try {
-            const promises = folders.map(folder => fetchFiles(folder));
-            const results = await Promise.all(promises);
-            // Check if any folder returned a failure marker
-            hasFailures = results.some(r => r._failed);
-            allFiles.value = results.flat().filter(f => !f._failed);
-            // Only cache complete datasets
-            if (!hasFailures && allFiles.value.length > 0) {
-              setCachedData(allFiles.value);
-            }
-            console.log(`Chargé ${allFiles.value.length} fiches depuis GitHub.`);
-          } catch (e) {
-            console.error("Erreur critique:", e);
-            showToast('Erreur lors du chargement des données. Réessayez.', 'error', 5000);
-          } finally {
-            loading.value = false;
-            loadProgress.value = '';
-          }
-        };
-
-        const fetchFiles = async (folder) => {
-          try {
-            const apiUrl = `https://api.github.com/repos/oiIOIioiI0IioiIOIio/french-connexion/contents/${encodeURIComponent(folder)}?ref=main`;
-            const response = await fetch(apiUrl);
-
-            if (response.status === 403) {
-              showToast(`Limite API GitHub atteinte pour « ${folder} ». Données partielles.`, 'warning', 5000);
-              return [{ _failed: true }];
-            }
-            if (!response.ok) return [];
-
-            const data = await response.json();
-            const mdFiles = data.filter(item => item.type === 'file' && item.name.endsWith('.md'));
-
-            loadProgress.value = `${folder}: ${mdFiles.length} fichiers...`;
-
-            // Fetch raw content in parallel with concurrency limit
-            const BATCH_SIZE = 10;
-            const results = [];
-            for (let i = 0; i < mdFiles.length; i += BATCH_SIZE) {
-              const batch = mdFiles.slice(i, i + BATCH_SIZE);
-              const batchResults = await Promise.all(
-                batch.map(item => fetchSingleFile(item))
-              );
-              results.push(...batchResults.filter(Boolean));
-            }
-            return results;
-
-          } catch (e) {
-            console.error(`Erreur dossier ${folder}:`, e);
-            return [];
-          }
-        };
-
-        const fetchSingleFile = async (item) => {
-          try {
-            const rawUrl = `https://raw.githubusercontent.com/oiIOIioiI0IioiIOIio/french-connexion/main/${item.path}`;
-            const rawResponse = await fetch(rawUrl);
-            if (!rawResponse.ok) return null;
-
-            const content = await rawResponse.text();
-            const metadata = parseFrontmatter(content);
-            const connections = extractConnections(content);
-
-            return {
+    // Fallback: load from GitHub API if index.json not available
+    const loadFromGitHub = async () => {
+      try {
+        const apiBase = 'https://api.github.com/repos/oiIOIioiI0IioiIOIio/french-connexion/contents/';
+        for (const folder of folders) {
+          const resp = await fetch(apiBase + encodeURIComponent(folder) + '?ref=main');
+          if (!resp.ok) continue;
+          const items = await resp.json();
+          for (const item of items.filter(i => i.name.endsWith('.md'))) {
+            allFiles.value.push({
               path: item.path,
-              name: item.name.replace('.md', ''),
-              metadata: metadata,
-              rawContent: content,
-              connections: connections
-            };
-          } catch (err) {
-            console.error(`Erreur lecture ${item.name}:`, err);
-            return null;
-          }
-        };
-
-        // Parse YAML frontmatter (resilient)
-        const parseFrontmatter = (content) => {
-          try {
-            const parts = content.split('---');
-            if (parts.length < 3) return {};
-
-            const frontmatterText = parts[1];
-            const metadata = {};
-            const lines = frontmatterText.split('\n');
-            let currentKey = null;
-            let currentArray = [];
-
-            for (const line of lines) {
-              if (line.trim().startsWith('- ') && currentKey) {
-                currentArray.push(line.trim().substring(2).replace(/^['"]|['"]$/, ''));
-                continue;
-              }
-
-              if (currentKey && currentArray.length > 0) {
-                metadata[currentKey] = currentArray;
-                currentArray = [];
-                currentKey = null;
-              }
-
-              const colonIndex = line.indexOf(':');
-              if (colonIndex > -1) {
-                const key = line.substring(0, colonIndex).trim();
-                let value = line.substring(colonIndex + 1).trim();
-
-                if (value === '' || value === 'null') {
-                  currentKey = key;
-                  if (value === 'null') {
-                    metadata[key] = null;
-                    currentKey = null;
-                  }
-                } else {
-                  if ((value.startsWith('"') && value.endsWith('"')) || (value.startsWith("'") && value.endsWith("'"))) {
-                    value = value.slice(1, -1);
-                  }
-                  metadata[key] = value;
-                }
-              }
-            }
-
-            if (currentKey && currentArray.length > 0) {
-              metadata[currentKey] = currentArray;
-            }
-
-            return metadata;
-          } catch (e) {
-            console.error('Error parsing frontmatter:', e);
-            return {};
-          }
-        };
-
-        // Extract wiki-style connections [[name]]
-        const extractConnections = (content) => {
-          const regex = /\[\[([^\]]+)\]\]/g;
-          const seen = new Set();
-          const connections = [];
-          let match;
-          while ((match = regex.exec(content)) !== null) {
-            const conn = match[1].trim();
-            if (conn && !seen.has(conn)) {
-              seen.add(conn);
-              connections.push(conn);
-            }
-          }
-          return connections;
-        };
-
-        const frCollator = new Intl.Collator('fr');
-
-        const filteredFiles = computed(() => {
-          let files = allFiles.value;
-
-          if (selectedFolder.value) {
-            files = files.filter(f => f.path.startsWith(selectedFolder.value));
-          }
-
-          if (searchQuery.value) {
-            const q = searchQuery.value.toLowerCase();
-            files = files.filter(f =>
-              f.name.toLowerCase().includes(q) ||
-              (f.metadata.title && f.metadata.title.toLowerCase().includes(q)) ||
-              (f.metadata.summary && f.metadata.summary.toLowerCase().includes(q)) ||
-              (f.metadata.type && f.metadata.type.toLowerCase().includes(q)) ||
-              (f.metadata.occupation && f.metadata.occupation.toLowerCase().includes(q)) ||
-              (Array.isArray(f.metadata.keywords) && f.metadata.keywords.some(k => k.toLowerCase().includes(q)))
-            );
-          }
-
-          // Sorting
-          const sorted = [...files];
-          if (sortBy.value === 'name') {
-            sorted.sort((a, b) => frCollator.compare(a.metadata.title || a.name, b.metadata.title || b.name));
-          } else if (sortBy.value === 'name-desc') {
-            sorted.sort((a, b) => frCollator.compare(b.metadata.title || b.name, a.metadata.title || a.name));
-          } else if (sortBy.value === 'type') {
-            sorted.sort((a, b) => frCollator.compare(a.metadata.type || '', b.metadata.type || ''));
-          } else if (sortBy.value === 'connections') {
-            sorted.sort((a, b) => (b.connections?.length || 0) - (a.connections?.length || 0));
-          } else if (sortBy.value === 'date') {
-            sorted.sort((a, b) => {
-              const dateA = a.metadata.birth_date || a.metadata.founded || '';
-              const dateB = b.metadata.birth_date || b.metadata.founded || '';
-              if (!dateA && !dateB) return 0;
-              if (!dateA) return 1;
-              if (!dateB) return -1;
-              return dateB.localeCompare(dateA);
+              name: item.name.replace('.md', '').replace(/-/g, ' '),
+              type: folder === 'personnes' ? 'Personne' : 'Document',
+              summary: '',
+              keywords: [],
+              connections: []
             });
           }
-
-          return sorted;
-        });
-
-        const loadFolder = (folder) => {
-          selectedFolder.value = folder;
-          sidebarOpen.value = false;
-        };
-
-        const FOLDER_LABELS = {
-          'personnes': '👤 Personnes',
-          'institutions': '🏛️ Institutions',
-          'companies': '🏢 Entreprises',
-          'medias': '📰 Médias',
-          'think tanks': '🧠 Think Tanks',
-          'écoles': '🎓 Écoles',
-          'partis': '🏳️ Partis'
-        };
-
-        const formatFolderName = (f) => FOLDER_LABELS[f] || f;
-
-        const TYPE_COLORS = {
-          'Personne': 'bg-blue-500',
-          'Institution': 'bg-purple-500',
-          'Entreprise': 'bg-orange-500',
-          'Media': 'bg-red-500',
-          'Ecole': 'bg-green-500',
-          'Think Tank': 'bg-teal-500',
-          'Fondation': 'bg-teal-500',
-          'Parti': 'bg-indigo-500'
-        };
-
-        const getTypeColor = (type) => TYPE_COLORS[type] || 'bg-gray-400';
-
-        const openFile = (file) => {
-          activeFile.value = file;
-          nextTick(() => {
-            const modal = document.querySelector('[role="dialog"]');
-            if (modal) modal.focus();
-          });
-        };
-
-        const closeModal = () => {
-          activeFile.value = null;
-        };
-
-        const compiledMarkdown = computed(() => {
-          if (!activeFile.value) return '';
-          const split = activeFile.value.rawContent.split('---');
-          const body = split.length > 2 ? split.slice(2).join('---') : split.slice(1).join('---');
-          const rawHtml = marked.parse(body);
-          // Sanitize with DOMPurify to prevent XSS
-          return typeof DOMPurify !== 'undefined' ? DOMPurify.sanitize(rawHtml) : rawHtml;
-        });
-
-        const formatDate = (dateStr) => {
-          if (!dateStr) return '';
-          try {
-            const date = new Date(dateStr);
-            if (isNaN(date.getTime())) return dateStr;
-            return date.toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' });
-          } catch {
-            return dateStr;
-          }
-        };
-
-        const searchAndOpen = (name) => {
-          const file = allFiles.value.find(f =>
-            (f.metadata.title && f.metadata.title === name) ||
-            f.name === name ||
-            (f.metadata.title && f.metadata.title.toLowerCase() === name.toLowerCase()) ||
-            f.name.toLowerCase() === name.toLowerCase()
-          );
-          if (file) {
-            openFile(file);
-          } else {
-            showToast(`Fiche « ${name} » non trouvée dans la base.`, 'warning');
-          }
-        };
-
-        return {
-          folders,
-          selectedFolder,
-          loadFolder,
-          searchInput,
-          searchQuery,
-          onSearchInput,
-          filteredFiles,
-          loading,
-          loadProgress,
-          activeFile,
-          openFile,
-          closeModal,
-          compiledMarkdown,
-          formatFolderName,
-          getTypeColor,
-          sortBy,
-          showMetadata,
-          showConnections,
-          formatDate,
-          searchAndOpen,
-          sidebarOpen,
-          toasts,
-          cacheAge,
-          refreshData
-        };
+        }
+      } catch (e) {
+        console.error('Fallback GitHub aussi echoue:', e);
       }
-    }).mount('#app');
-  </script>
+    };
+
+    const frCollator = new Intl.Collator('fr');
+
+    const filteredFiles = computed(() => {
+      let files = allFiles.value;
+
+      if (selectedFolder.value) {
+        files = files.filter(f => f.path && f.path.startsWith(selectedFolder.value));
+      }
+
+      if (searchQuery.value) {
+        const q = searchQuery.value.toLowerCase();
+        files = files.filter(f =>
+          (f.name && f.name.toLowerCase().includes(q)) ||
+          (f.summary && f.summary.toLowerCase().includes(q)) ||
+          (f.type && f.type.toLowerCase().includes(q)) ||
+          (f.occupation && f.occupation.toLowerCase().includes(q)) ||
+          (Array.isArray(f.keywords) && f.keywords.some(k => k.toLowerCase().includes(q)))
+        );
+      }
+
+      const sorted = [...files];
+      if (sortBy.value === 'name') {
+        sorted.sort((a, b) => frCollator.compare(a.name || '', b.name || ''));
+      } else if (sortBy.value === 'name-desc') {
+        sorted.sort((a, b) => frCollator.compare(b.name || '', a.name || ''));
+      } else if (sortBy.value === 'type') {
+        sorted.sort((a, b) => frCollator.compare(a.type || '', b.type || ''));
+      } else if (sortBy.value === 'connections') {
+        sorted.sort((a, b) => (b.connections?.length || 0) - (a.connections?.length || 0));
+      } else if (sortBy.value === 'date') {
+        sorted.sort((a, b) => {
+          const dA = a.birth_date || '';
+          const dB = b.birth_date || '';
+          if (!dA && !dB) return 0;
+          if (!dA) return 1;
+          if (!dB) return -1;
+          return dB.localeCompare(dA);
+        });
+      }
+      return sorted;
+    });
+
+    const visibleFiles = computed(() => filteredFiles.value.slice(0, displayCount.value));
+
+    watch(searchQuery, () => { displayCount.value = PAGE_SIZE; });
+    watch(selectedFolder, () => { displayCount.value = PAGE_SIZE; });
+
+    const selectFolder = (f) => {
+      selectedFolder.value = f;
+      sidebarOpen.value = false;
+      displayCount.value = PAGE_SIZE;
+    };
+
+    const openFile = async (file) => {
+      activeFile.value = file;
+      modalLoading.value = true;
+      modalContent.value = '';
+      try {
+        const url = REPO_RAW + encodeURIComponent(file.path).replace(/%2F/g, '/');
+        const resp = await fetch(url);
+        if (resp.ok) {
+          const raw = await resp.text();
+          // Extract body after frontmatter
+          const parts = raw.split('---');
+          const body = parts.length > 2 ? parts.slice(2).join('---') : raw;
+          const html = marked.parse(body);
+          modalContent.value = typeof DOMPurify !== 'undefined' ? DOMPurify.sanitize(html) : html;
+        }
+      } catch (e) {
+        modalContent.value = '<p>Erreur de chargement du contenu.</p>';
+      } finally {
+        modalLoading.value = false;
+      }
+    };
+
+    const closeModal = () => {
+      activeFile.value = null;
+      modalContent.value = '';
+    };
+
+    const compiledMarkdown = computed(() => modalContent.value);
+
+    const formatDate = (d) => {
+      if (!d) return '';
+      try {
+        const dt = new Date(d);
+        if (isNaN(dt.getTime())) return d;
+        return dt.toLocaleDateString('fr-FR', { year: 'numeric', month: 'long', day: 'numeric' });
+      } catch { return d; }
+    };
+
+    const searchAndOpen = (name) => {
+      const file = allFiles.value.find(f =>
+        f.name === name || f.name.toLowerCase() === name.toLowerCase()
+      );
+      if (file) openFile(file);
+    };
+
+    return {
+      folders, folderLabels, selectedFolder, selectFolder,
+      searchInput, searchQuery, onSearchInput,
+      allFiles, filteredFiles, visibleFiles,
+      loading, activeFile, modalLoading, openFile, closeModal,
+      compiledMarkdown, sortBy, sidebarOpen, displayCount,
+      formatDate, searchAndOpen, PAGE_SIZE
+    };
+  }
+}).mount('#app');
+</script>
 </body>
 </html>

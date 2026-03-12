@@ -1825,13 +1825,16 @@ Statistiques :
 Requete originale : "{ORIGINAL_QUERY}"
 """
 
-        try:
-            git.commit_changes(commit_msg)
-            print("[OK] Changements committes avec succes")
-            logger.info("[OK] Changements committes")
-        except Exception as e:
-            logger.error(f"[FAIL] Erreur commit Git : {e}")
-            print(f"[FAIL] Erreur commit Git : {e}")
+        if not os.environ.get("GITHUB_ACTIONS"):
+            try:
+                git.commit_changes(commit_msg)
+                print("[OK] Changements committes avec succes")
+                logger.info("[OK] Changements committes")
+            except Exception as e:
+                logger.error(f"[FAIL] Erreur commit Git : {e}")
+                print(f"[FAIL] Erreur commit Git : {e}")
+        else:
+            logger.info("Execution CI detectee -- le commit sera gere par le workflow")
     else:
         print("\n  Aucun fichier cree, pas de commit Git")
 

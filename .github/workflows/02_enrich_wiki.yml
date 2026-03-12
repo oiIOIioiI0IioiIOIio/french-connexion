@@ -12,6 +12,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Configuration Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
       - uses: actions/setup-python@v5
         with:
           python-version: '3.10'
@@ -30,8 +35,6 @@ jobs:
 
       - name: Commit et Push
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
           git add .
           git diff --quiet && git diff --staged --quiet || git commit -m "feat: enrichissement des donnees via Wikipedia"
           git push
