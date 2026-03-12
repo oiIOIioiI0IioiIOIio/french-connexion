@@ -56,6 +56,12 @@ found_via: Augustin Hamon
 genre: femme
 hatvp_declared: false
 institutions_count: 49
+keywords:
+- rothschild
+- mentionne
+- contexte
+- confiance
+- amschel
 liens:
 - Augustin Hamon
 - Mayer Amschel Rothschild
@@ -234,6 +240,9 @@ sources:
 - https://www.wikidata.org/wiki/Q159386
 statut: ''
 statut_note: verifie_wikipedia
+summary: '>  **Decouvert via [[Augustin Hamon]]** (niveau 1) > Score de pertinence
+  : 65% La famille Rothschild (prononcé en allemand : [ˈʁoːtʃɪlt] ; en anglais : [ˈɹɒθs.t͡ʃaɪld]
+  ; en français : [ʁɔt.ʃild]) e...'
 tags:
 - elite
 - wikipedia
@@ -244,7 +253,7 @@ tags:
 - Naples
 - famille Rothschild
 - Paris
-type: personne
+type: Personne
 validation_reason: Page Wikipedia existante
 validation_score: 0.65
 verification_date: '2026-03-07'

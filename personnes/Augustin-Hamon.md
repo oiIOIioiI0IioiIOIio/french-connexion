@@ -41,6 +41,12 @@ found_via: Rothschild
 genre: homme
 hatvp_declared: false
 institutions_count: 54
+keywords:
+- hamon
+- mentionne
+- contexte
+- confiance
+- augustin
 liens:
 - Henriëtte Rynenbroeck
 - George Bernard Shaw
@@ -221,6 +227,9 @@ sources:
 - https://www.wikidata.org/wiki/Q2871586
 statut: ''
 statut_note: verifie_wikipedia
+summary: '>  **Sujet principal de la recherche** > Score de pertinence : 95% Augustin
+  Hamon, né le 20 janvier 1862 à Nantes et mort le 3 décembre 1945 à Penvénan (Côtes-d''Armor),
+  est un sociologue, journalis...'
 tags:
 - elite
 - wikipedia
@@ -229,7 +238,7 @@ tags:
 - Côtes-d'Armor
 - Penvénan
 - Nantes
-type: personne
+type: Personne
 validation_reason: Sujet principal de la recherche
 validation_score: 0.95
 verification_date: '2026-03-07'

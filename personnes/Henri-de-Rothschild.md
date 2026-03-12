@@ -41,6 +41,12 @@ found_via: Augustin Hamon
 genre: homme
 hatvp_declared: false
 institutions_count: 54
+keywords:
+- rothschild
+- andré
+- henri
+- charles
+- mentionne
 liens:
 - Henri James Nathaniel Charles de Rothschild
 - André Pascal
@@ -237,13 +243,16 @@ sources:
 - https://www.wikidata.org/wiki/Q3132362
 statut: ''
 statut_note: verifie_wikipedia
+summary: '>  **Decouvert via [[Augustin Hamon]]** (niveau 1) > Score de pertinence
+  : 65% Le baron Henri James Nathaniel Charles de Rothschild, né le 26 juillet 1872
+  à Paris et mort le 12 octobre 1947, est un...'
 tags:
 - elite
 - wikipedia
 - niveau-1
 - oeil-de-dieu
 - Paris
-type: personne
+type: Personne
 validation_reason: Page Wikipedia existante
 validation_score: 0.65
 verification_date: '2026-03-07'

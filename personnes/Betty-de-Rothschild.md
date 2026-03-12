@@ -36,6 +36,12 @@ found_via: Augustin Hamon
 genre: femme
 hatvp_declared: false
 institutions_count: 50
+keywords:
+- rothschild
+- mentionne
+- contexte
+- confiance
+- von
 liens:
 - Betty von
 - Salomon Mayer von
@@ -132,6 +138,9 @@ sources:
 - https://www.wikidata.org/wiki/Q7044697
 statut: ''
 statut_note: verifie_wikipedia
+summary: '>  **Decouvert via [[Augustin Hamon]]** (niveau 1) > Score de pertinence
+  : 65% Betty von Rothschild, baronne de Rothschild, née le 5 juin 1805 à Francfort-sur-le-Main
+  et morte le 1er septembre 1886...'
 tags:
 - elite
 - wikipedia
@@ -140,7 +149,7 @@ tags:
 - Paris
 - Rothschild
 - Francfort-sur-le-Main
-type: personne
+type: Personne
 validation_reason: Page Wikipedia existante
 validation_score: 0.65
 verification_date: '2026-03-07'

@@ -52,6 +52,12 @@ found_via: Augustin Hamon
 genre: homme
 hatvp_declared: false
 institutions_count: 56
+keywords:
+- rothschild
+- mentionne
+- contexte
+- confiance
+- mayer
 liens:
 - Jacob Mayer
 - François Leuwen
@@ -247,6 +253,9 @@ sources:
 - https://www.wikidata.org/wiki/Q109310686
 statut: ''
 statut_note: verifie_wikipedia
+summary: '>  **Decouvert via [[Augustin Hamon]]** (niveau 1) > Score de pertinence
+  : 65% Le baron Jacob Mayer de Rothschild, dit James de Rothschild, né le 15 mai
+  1792 à Francfort-sur-le-Main (Saint-Empire) ...'
 tags:
 - elite
 - wikipedia
@@ -257,7 +266,7 @@ tags:
 - Banque de France
 - Comédie
 - famille Rothschild
-type: personne
+type: Personne
 validation_reason: Page Wikipedia existante
 validation_score: 0.65
 verification_date: '2026-03-07'

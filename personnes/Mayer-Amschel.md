@@ -51,6 +51,12 @@ found_via: Augustin Hamon
 genre: homme
 hatvp_declared: false
 institutions_count: 52
+keywords:
+- rothschild
+- mayer
+- amschel
+- mentionne
+- contexte
 liens:
 - Meyer Anschel
 - Mayer Amschel Rothschild
@@ -247,6 +253,9 @@ sources:
 - https://www.wikidata.org/wiki/Q76988
 statut: ''
 statut_note: verifie_wikipedia
+summary: '>  **Decouvert via [[Augustin Hamon]]** (niveau 1) > Score de pertinence
+  : 65% Mayer Amschel Rothschild [l''orthographe initiale Meyer Anschel ( אנשל ),
+  étant germanisée en Mayer Amschel] (23 févrie...'
 tags:
 - elite
 - wikipedia
@@ -256,7 +265,7 @@ tags:
 - Rothschild
 - Francfort-sur-le-Main
 - Francfort
-type: personne
+type: Personne
 validation_reason: Page Wikipedia existante
 validation_score: 0.65
 verification_date: '2026-03-07'

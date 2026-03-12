@@ -36,6 +36,12 @@ found_via: Augustin Hamon
 genre: homme
 hatvp_declared: false
 institutions_count: 51
+keywords:
+- rothschild
+- mentionne
+- contexte
+- confiance
+- mayer
 liens:
 - Amschel Rothschild
 - Napoléon Bonaparte
@@ -232,6 +238,9 @@ sources:
 - https://www.wikidata.org/wiki/Q547291
 statut: ''
 statut_note: verifie_wikipedia
+summary: '>  **Decouvert via [[Augustin Hamon]]** (niveau 1) > Score de pertinence
+  : 65% Nathan Mayer Rothschild, né à Francfort (Saint-Empire romain germanique) le
+  16 septembre 1777 et mort à Francfort le 2...'
 tags:
 - elite
 - wikipedia
@@ -240,7 +249,7 @@ tags:
 - Saint-Empire
 - famille Rothschild
 - Francfort
-type: personne
+type: Personne
 validation_reason: Page Wikipedia existante
 validation_score: 0.65
 verification_date: '2026-03-07'

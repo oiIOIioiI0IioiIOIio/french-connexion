@@ -38,6 +38,12 @@ found_via: Augustin Hamon
 genre: homme
 hatvp_declared: false
 institutions_count: 49
+keywords:
+- rothschild
+- amschel
+- francfort
+- mentionne
+- contexte
 liens:
 - Amschel Moïse Rothschild
 - Amschel Rothschild
@@ -125,6 +131,9 @@ sources:
 - https://www.wikidata.org/wiki/Q477902
 statut: ''
 statut_note: verifie_wikipedia
+summary: '>  **Decouvert via [[Augustin Hamon]]** (niveau 1) > Score de pertinence
+  : 65% Amschel Moïse Rothschild, né vers 1710 et mort le 6 octobre 1755, est un changeur
+  de monnaie juif allemand et commerça...'
 tags:
 - elite
 - wikipedia
@@ -135,7 +144,7 @@ tags:
 - ville libre de
 - dynastie Rothschild
 - Judengasse
-type: personne
+type: Personne
 validation_reason: Page Wikipedia existante
 validation_score: 0.65
 verification_date: '2026-03-07'

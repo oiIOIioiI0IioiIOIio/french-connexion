@@ -55,6 +55,12 @@ found_via: Augustin Hamon
 genre: homme
 hatvp_declared: false
 institutions_count: 54
+keywords:
+- grévy
+- jules
+- mentionne
+- contexte
+- confiance
 liens:
 - Louis-Napoléon Bonaparte
 - Mac Mahon
@@ -257,6 +263,9 @@ sources:
 - https://www.wikidata.org/wiki/Q296083
 statut: ''
 statut_note: verifie_wikipedia
+summary: '>  **Decouvert via [[Augustin Hamon]]** (niveau 1) > Score de pertinence
+  : 65% Jules Grévy, né le 15 août 1807 à Mont-sous-Vaudrey (Jura) et mort le 9 septembre
+  1891 dans la même commune, est un ho...'
 tags:
 - elite
 - wikipedia
@@ -267,7 +276,7 @@ tags:
 - Conférence et bâtonnier
 - Assemblée nationale constituante
 - Mont-sous-Vaudrey
-type: personne
+type: Personne
 validation_reason: Page Wikipedia existante
 validation_score: 0.65
 verification_date: '2026-03-07'
