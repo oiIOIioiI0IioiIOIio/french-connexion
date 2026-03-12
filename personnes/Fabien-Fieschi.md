@@ -7,6 +7,8 @@ education: université Keiō
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Elsa Vidal
 nationality: francaise
 nom_complet: Fabien Fieschi
 occupation: diplomate

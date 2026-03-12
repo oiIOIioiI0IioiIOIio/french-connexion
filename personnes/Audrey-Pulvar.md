@@ -7,6 +7,12 @@ education: université de Rouen-Normandie
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Benoît Duteurtre
+- Emmanuel Ratier
+- Guillaume Jobin
+- Paul-Jacques Lehmann
+- Vincent Hommeril
 nationality: francaise
 nom_complet: Audrey Pulvar
 occupation: écrivain ou écrivaine

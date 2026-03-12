@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marc-René Bayle, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1952-10-11. Formation : Institut d'études politiques de Paris.
+Marc-René Bayle, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1952-10-11. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33118087

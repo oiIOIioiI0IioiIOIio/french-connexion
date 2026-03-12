@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Buhler, ambassadeur ou ambassadrice. Ne(e) le 1954-03-21 a Rauwiller. Formation : HEC Paris.
+Pierre Buhler, ambassadeur ou ambassadrice. Ne(e) le 1954-03-21 a Rauwiller. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3384224

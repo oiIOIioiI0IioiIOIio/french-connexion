@@ -5,6 +5,8 @@ headquarters: Nancy
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Didier Talpain
 nom_complet: ICN Business School
 sources:
 - https://www.wikidata.org/entity/Q3146547

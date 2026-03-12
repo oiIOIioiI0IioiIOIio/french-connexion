@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Mathilde Mathieu, enseignant ou enseignante. Ne(e) le 1977-01-01. Formation : Institut d'études politiques de Paris.
+Mathilde Mathieu, enseignant ou enseignante. Ne(e) le 1977-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q72963277

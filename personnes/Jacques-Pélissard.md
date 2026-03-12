@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jacques Pélissard, avocat ou avocate. Ne(e) le 1946-03-20 a 6e arrondissement de Lyon. Formation : Institut d'études politiques de Paris.
+Jacques Pélissard, avocat ou avocate. Ne(e) le 1946-03-20 a 6e arrondissement de Lyon. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3159822

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Annie-Paule Derczansky, journaliste. Ne(e) le 1960-01-19. Formation : université Paris-I-Panthéon-Sorbonne.
+Annie-Paule Derczansky, journaliste. Ne(e) le 1960-01-19. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2851607

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Hugo Travers, entrepreneur ou entrepreneuse. Ne(e) le 1997-04-06 a Versailles. Formation : Institut d'études politiques de Paris.
+Hugo Travers, entrepreneur ou entrepreneuse. Ne(e) le 1997-04-06 a Versailles. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q65130631

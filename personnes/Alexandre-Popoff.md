@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alexandre Popoff, vice-président. Ne(e) le 1961-12-31 a Paris. Formation : EM Lyon Business School.
+Alexandre Popoff, vice-président. Ne(e) le 1961-12-31 a Paris. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33229148

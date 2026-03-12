@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marianne Merleau-Ponty, avocat ou avocate. Ne(e) le 1941-06-23 a 5e arrondissement de Paris.
+[[Marianne]] Merleau-Ponty, avocat ou avocate. Ne(e) le 1941-06-23 a 5e arrondissement de Paris.
 
 ## Sources
 - http://www.wikidata.org/entity/Q110613588

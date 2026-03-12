@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Philippe Léglise-Costa, diplomate. Ne(e) le 1966-11-13 a Toulouse. Formation : École polytechnique.
+Philippe Léglise-Costa, diplomate. Ne(e) le 1966-11-13 a Toulouse. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33188283

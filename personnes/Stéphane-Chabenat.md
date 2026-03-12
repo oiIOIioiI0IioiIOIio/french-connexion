@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Stéphane Chabenat, personnalité du monde des affaires. Ne(e) le 1970-05-05. Formation : EM Lyon Business School.
+Stéphane Chabenat, personnalité du monde des affaires. Ne(e) le 1970-05-05. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q113260349

@@ -7,6 +7,8 @@ education: lycée Charlemagne
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Jacques Roynette
 nationality: francaise
 nom_complet: Jean-Denis Bredin
 occupation: écrivain ou écrivaine

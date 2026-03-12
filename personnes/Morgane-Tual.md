@@ -7,6 +7,18 @@ education: université Rennes-II
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Alain Pirot
+- Anne-Claire Coudray
+- Denis Ruellan
+- Erwan Chartier
+- Fanny Chauffin
+- Gaspard Glanz
+- Hélène Fily
+- Maryse Burgot
+- Philippe Georgeais
+- Samuel Le Goff
+- Sidonie Bonnec
 nationality: francaise
 nom_complet: Morgane Tual
 occupation: écrivain ou écrivaine

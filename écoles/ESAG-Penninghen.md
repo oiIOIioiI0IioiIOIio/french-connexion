@@ -4,6 +4,8 @@ founded: '1968-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Sophie Bramly
 nom_complet: ESAG Penninghen
 sources:
 - https://www.wikidata.org/entity/Q3578398

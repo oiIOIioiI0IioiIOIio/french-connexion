@@ -5,6 +5,8 @@ headquarters: Paris
 keywords:
 - parti politique
 - politique
+liens:
+- ISSEP
 nom_complet: La Manif pour tous
 sources:
 - https://www.wikidata.org/entity/Q13406421

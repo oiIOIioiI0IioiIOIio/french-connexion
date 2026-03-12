@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marc-Antoine Olive, vice-président. Ne(e) le 1976-03-13 a Rueil-Malmaison. Formation : EM Lyon Business School.
+Marc-Antoine Olive, vice-président. Ne(e) le 1976-03-13 a Rueil-Malmaison. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33206768

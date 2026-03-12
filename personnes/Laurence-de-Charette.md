@@ -7,6 +7,14 @@ education: lycée Janson-de-Sailly
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Christophe Ono-dit-Biot
+- Hubert Heilbronn
+- Maxime de Rostolan
+- René Ribière
+- Thomas Schmider
+- Édouard de Ribes
+- Éric de Rothschild
 nationality: francaise
 nom_complet: Laurence de Charette
 occupation: journaliste
@@ -22,7 +30,7 @@ tags:
 type: Personne
 ---
 
-Laurence de Charette, journaliste. Ne(e) le 1969-08-04. Formation : lycée Janson-de-Sailly.
+Laurence de Charette, journaliste. Ne(e) le 1969-08-04. Formation : [[Lycée Janson-de-Sailly]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q90907569

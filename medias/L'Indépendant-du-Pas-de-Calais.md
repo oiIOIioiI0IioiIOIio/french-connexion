@@ -17,4 +17,4 @@ website: http://www.lindependant.net/
 wikidata_id: Q32855
 ---
 
-L'Indépendant du Pas-de-Calais, media francais.
+[[L'Indépendant]] du Pas-de-Calais, media francais.

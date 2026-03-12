@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marianne Baisnée, photographe. Ne(e) le 1982-01-18 a Cracovie. Formation : université Paris-I-Panthéon-Sorbonne.
+[[Marianne]] Baisnée, photographe. Ne(e) le 1982-01-18 a Cracovie. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q115402686

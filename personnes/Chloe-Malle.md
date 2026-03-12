@@ -7,6 +7,9 @@ education: Université Brown
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Adrian Dearnell
+- Muriel Domenach
 nationality: francaise
 nom_complet: Chloe Malle
 occupation: journaliste

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Aurélia Bouchez, diplomate. Ne(e) le 1960-01-20 a Paris. Formation : Institut d'études politiques de Paris.
+Aurélia Bouchez, diplomate. Ne(e) le 1960-01-20 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q25540514

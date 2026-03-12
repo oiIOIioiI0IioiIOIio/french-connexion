@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Erol Ok, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1976-04-15 a Paris. Formation : HEC Paris.
+Erol Ok, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1976-04-15 a Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33102165

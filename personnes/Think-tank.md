@@ -11,10 +11,27 @@ keywords:
 - tanks
 - directeur
 liens:
+- Abraham Lincoln
+- Amschel Moses Rothschild
+- Augustin Hamon
+- Betty de Rothschild
+- Carter G. Woodson
 - Centre d’Analyse et de Prospective (CAP)
+- Donald Oliver
+- Famille Rothschild
+- François Bayrou
+- Henri de Rothschild
 - Institut Iliade
 - James McGann
+- James de Rothschild
+- Jean Augustine
+- Jesse E. Moorland
+- Jules Grévy
+- Mayer Amschel Rothschild
+- Mélina Seymour
+- Nathan Mayer Rothschild (1777-1836)
 - Richard N. Haass
+- Édouard Philippe
 nationality: ''
 nom_complet: Think tank
 occupation: regroupement d'experts au sein d'une structure de droit privé

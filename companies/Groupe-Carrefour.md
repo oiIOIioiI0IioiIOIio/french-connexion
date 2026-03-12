@@ -20,4 +20,4 @@ website: https://www.carrefour.com/en/group
 wikidata_id: Q3117359
 ---
 
-Groupe Carrefour, entreprise francaise.
+Groupe [[Carrefour]], entreprise francaise.

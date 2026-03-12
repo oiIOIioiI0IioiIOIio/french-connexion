@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Olivier Serot Alméras Latour, diplomate. Ne(e) le 1967-04-01 a Paris. Formation : université Paris-Sorbonne.
+Olivier Serot Alméras Latour, diplomate. Ne(e) le 1967-04-01 a Paris. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33213209

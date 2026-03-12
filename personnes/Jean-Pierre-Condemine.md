@@ -7,6 +7,11 @@ education: Institut des hautes études de la sécurité intérieure
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Daniel Matalon
+- Jean Ambroggiani
+- Joëlle Le Mouel
+- Roger Marion
 nationality: francaise
 nom_complet: Jean-Pierre Condemine
 occupation: haut fonctionnaire ou haute fonctionnaire

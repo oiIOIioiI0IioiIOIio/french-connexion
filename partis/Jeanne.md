@@ -5,6 +5,16 @@ headquarters: Paris
 keywords:
 - parti politique
 - politique
+liens:
+- Comités Jeanne
+- Jean-Claude Jeanneret
+- Jeanne Boucourechliev-Bayet
+- Jeanne Seignol
+- Jeanne Smits
+- Laurence Paye-Jeanneney
+- Marie-Jeanne BELLAMY
+- Mayer Amschel Rothschild
+- Pierre-Alain Jeanneney
 nom_complet: Jeanne
 sources:
 - https://www.wikidata.org/entity/Q20666713

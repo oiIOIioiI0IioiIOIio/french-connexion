@@ -7,6 +7,8 @@ education: null
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Michel Rousselot
 nationality: francaise
 nom_complet: Michel Roussel
 occupation: haut fonctionnaire ou haute fonctionnaire

@@ -18,4 +18,4 @@ website: https://www.inspe-bretagne.fr/
 wikidata_id: Q115185324
 ---
 
-Institut national supérieur du professorat et de l'éducation de Bretagne, etablissement d'enseignement superieur francais.
+[[Institut national supérieur du professorat et de l'éducation]] de Bretagne, etablissement d'enseignement superieur francais.

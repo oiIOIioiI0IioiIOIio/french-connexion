@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Charles Meunier, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1936-01-01 a Casablanca. Formation : Institut d'études politiques de Paris.
+Charles Meunier, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1936-01-01 a Casablanca. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q65946261

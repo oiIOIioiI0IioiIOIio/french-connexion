@@ -7,6 +7,9 @@ education: lycée Saint-Louis
 genre: masculin
 keywords:
 - militaire
+liens:
+- Dominique Nora
+- Philippe Barbié de Préaudeau
 nationality: francaise
 nom_complet: André Rogerie
 occupation: militaire

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nicolas Beytout, journaliste. Ne(e) le 1956-06-08 a Neuilly-sur-Seine. Formation : Institut d'études politiques de Paris.
+Nicolas Beytout, journaliste. Ne(e) le 1956-06-08 a Neuilly-sur-Seine. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3340099

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Pierre Hugues, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1951-11-24 a 2e arrondissement de Lyon. Formation : École nationale d'administration.
+Jean-[[Pierre Hug]]ues, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1951-11-24 a 2e arrondissement de Lyon. Formation : École nationale d'administration.
 
 ## Sources
 - http://www.wikidata.org/entity/Q24568979

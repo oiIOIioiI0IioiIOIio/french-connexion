@@ -7,6 +7,9 @@ education: lycée Voltaire
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Georges Kiejman
+- Michel Éon
 nationality: francaise
 nom_complet: Fernand Chassagne
 occupation: haut fonctionnaire ou haute fonctionnaire

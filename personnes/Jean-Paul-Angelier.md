@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Paul Angelier, diplomate. Ne(e) le 1942-06-02. Formation : Institut d'études politiques de Paris.
+Jean-Paul Angelier, diplomate. Ne(e) le 1942-06-02. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q55759673

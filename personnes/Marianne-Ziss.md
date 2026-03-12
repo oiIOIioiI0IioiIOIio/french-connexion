@@ -7,6 +7,9 @@ education: université Tsinghua
 genre: féminin
 keywords:
 - diplomate
+liens:
+- Joan Valadou
+- Jérémie Gallon
 nationality: francaise
 nom_complet: Marianne Ziss
 occupation: diplomate
@@ -21,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Marianne Ziss, diplomate. Ne(e) le 1980-04-04. Formation : université Tsinghua.
+[[Marianne]] Ziss, diplomate. Ne(e) le 1980-04-04. Formation : université Tsinghua.
 
 ## Sources
 - http://www.wikidata.org/entity/Q138002454

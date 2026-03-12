@@ -7,6 +7,8 @@ education: Université de Liège
 genre: masculin
 keywords:
 - historien ou historienne
+liens:
+- Renaud Dehousse
 nationality: francaise
 nom_complet: Jean Claude Bologne
 occupation: historien ou historienne

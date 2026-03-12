@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-élisa Mignot, journaliste. Ne(e) le 1985-02-05. Formation : Institut d'études politiques de Paris.
+élisa Mignot, journaliste. Ne(e) le 1985-02-05. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q61482441

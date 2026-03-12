@@ -19,4 +19,4 @@ website: https://www.ict-toulouse.fr/domaine/droit-canonique-sciences-religieuse
 wikidata_id: Q77860301
 ---
 
-Faculté de théologie de l'Institut catholique de Toulouse, etablissement d'enseignement superieur francais.
+Faculté de théologie de l'[[Institut catholique de Toulouse]], etablissement d'enseignement superieur francais.

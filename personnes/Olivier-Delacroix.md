@@ -7,6 +7,30 @@ education: Institut pratique du journalisme
 genre: masculin
 keywords:
 - chanteur ou chanteuse
+liens:
+- Astrid Bard
+- Bernard Sananès
+- Camille Grenu
+- Catherine Chabaud
+- Charlotte Le Grix de La Salle
+- Dorothée Olliéric
+- François Pécheux
+- Georges Malbrunot
+- Gérard Davet
+- Hervé Mathoux
+- Jamy Gourmaud
+- Julien Arnaud
+- Julien Bellver
+- Marlène Séguin
+- Mathieu Palain
+- Odile Longueval
+- Olivier Truchot
+- Patrick de Saint-Exupéry
+- Romain Hussenot
+- Sonia Ghezali
+- Thierry Fréret
+- Édouard Zambeaux
+- Éric Leser
 nationality: francaise
 nom_complet: Olivier Delacroix
 occupation: chanteur ou chanteuse
@@ -22,7 +46,7 @@ tags:
 type: Personne
 ---
 
-Olivier Delacroix, chanteur ou chanteuse. Ne(e) le 1964-05-30 a Évreux. Formation : Institut pratique du journalisme.
+Olivier Delacroix, chanteur ou chanteuse. Ne(e) le 1964-05-30 a Évreux. Formation : [[Institut pratique du journalisme]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3350964

@@ -7,6 +7,8 @@ education: université Strasbourg-I
 genre: masculin
 keywords:
 - physicien ou physicienne
+liens:
+- Marion Marchal
 nationality: francaise
 nom_complet: Jean-Pierre Meullenet
 occupation: physicien ou physicienne

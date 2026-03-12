@@ -7,6 +7,21 @@ education: Université Columbia
 genre: masculin
 keywords:
 - militaire
+liens:
+- Alexandra Bensaïd
+- Emmanuel Levacher
+- Frédérique Camilleri
+- Guillaume Debré
+- Jean-Michel Guénod
+- Julia Minkowski
+- Klara Wyrzykowska
+- Kéthévane Gorjestani
+- Olivier Royant
+- Philippe Oddou
+- Rachel-Flore Pardo
+- Robert Badinter
+- Salomé Zourabichvili
+- Éléonore Caroit
 nationality: francaise
 nom_complet: Rudy Rochman
 occupation: militaire

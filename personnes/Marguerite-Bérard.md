@@ -7,6 +7,12 @@ education: Université de Princeton
 genre: féminin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- David Djaïz
+- Florian Cardinaux
+- Frédéric Mion
+- Mario Laserna Pinzón
+- Terence Strick
 nationality: francaise
 nom_complet: Marguerite Bérard
 occupation: haut fonctionnaire ou haute fonctionnaire

@@ -7,6 +7,10 @@ education: INSEAD
 genre: masculin
 keywords:
 - directeur général ou directrice générale
+liens:
+- Geoffroy de la Bourdonnaye
+- Jean-Pierre Charriton
+- Thierry Launois
 nationality: francaise
 nom_complet: Jacques Bonifay
 occupation: directeur général ou directrice générale
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Jacques Bonifay, directeur général ou directrice générale. Ne(e) le 1963-04-19 a Paris. Formation : INSEAD.
+Jacques Bonifay, directeur général ou directrice générale. Ne(e) le 1963-04-19 a Paris. Formation : [[INSEAD]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q25917173

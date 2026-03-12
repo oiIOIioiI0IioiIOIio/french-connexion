@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Hélène Crocquevieille, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1966-12-30 a Saint-Étienne. Formation : École polytechnique.
+Hélène Crocquevieille, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1966-12-30 a Saint-Étienne. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33102727

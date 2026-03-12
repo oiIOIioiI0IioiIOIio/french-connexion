@@ -7,6 +7,8 @@ education: Université de Bristol
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Stéphanie Yon-Courtin
 nationality: francaise
 nom_complet: Thomas Tugendhat
 occupation: personnalité politique

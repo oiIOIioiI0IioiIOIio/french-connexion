@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sonia Mabrouk, animateur ou animatrice de télévision. Ne(e) le 1976-12-17 a Tunis. Formation : université Paris-I-Panthéon-Sorbonne.
+Sonia Mabrouk, animateur ou animatrice de télévision. Ne(e) le 1976-12-17 a Tunis. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3490437

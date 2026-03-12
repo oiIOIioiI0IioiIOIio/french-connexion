@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Ory, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1963-05-27 a Bitche. Formation : Institut d'études politiques de Paris.
+Pierre Ory, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1963-05-27 a Bitche. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33122611

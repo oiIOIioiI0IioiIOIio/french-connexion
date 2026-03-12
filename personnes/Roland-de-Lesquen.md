@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Roland de Lesquen, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1983-01-01. Formation : Institut d'études politiques de Paris.
+Roland de Lesquen, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1983-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q69852849

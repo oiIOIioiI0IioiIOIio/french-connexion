@@ -4,6 +4,9 @@ founded: '1880-01-01'
 keywords:
 - media
 - presse
+liens:
+- La Croix de la Lozère
+- La Croix du Cantal
 nom_complet: La Croix
 owner: Bayard Presse
 sources:

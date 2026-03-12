@@ -6,6 +6,8 @@ industry: Production de boissons alcooliques distillées
 keywords:
 - entreprise
 - Production de boissons alcooliques distillées
+liens:
+- Olivier Babeau
 nom_complet: Pernod Ricard
 sources:
 - https://www.wikidata.org/entity/Q837049

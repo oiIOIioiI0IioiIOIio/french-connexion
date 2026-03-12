@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-François Jalinot, personnalité du monde des affaires. Ne(e) le 1951-12-07 a Chambéry. Formation : EM Lyon Business School.
+François Jalinot, personnalité du monde des affaires. Ne(e) le 1951-12-07 a Chambéry. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33101715

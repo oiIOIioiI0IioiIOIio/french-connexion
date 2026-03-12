@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Marc Merriaux, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1972-01-01. Formation : université Paris-I-Panthéon-Sorbonne.
+Jean-Marc Merriaux, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1972-01-01. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q45320894

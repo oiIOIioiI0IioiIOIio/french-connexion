@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alexis Brézet, journaliste. Ne(e) le 1962-08-24 a Toulouse. Formation : Institut d'études politiques de Paris.
+Alexis Brézet, journaliste. Ne(e) le 1962-08-24 a Toulouse. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2834466

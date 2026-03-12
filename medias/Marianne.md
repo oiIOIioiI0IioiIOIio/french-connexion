@@ -9,6 +9,16 @@ keywords:
 - opinion
 - politique
 leader: null
+liens:
+- Marianne Baisnée
+- Marianne Dubertret
+- Marianne Durano
+- Marianne Laigneau
+- Marianne MARGATÉ
+- Marianne MAXIMI
+- Marianne Mako
+- Marianne Merleau-Ponty
+- Marianne Ziss
 summary: Marianne est un magazine d'actualité et d'opinion français fondé en 1997.
   Il traite de sujets politiques, sociétaux et culturels avec une ligne éditoriale
   indépendante et critique.

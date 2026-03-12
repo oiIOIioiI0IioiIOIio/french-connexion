@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Xavier Ternisien, journaliste. Ne(e) le 1964-06-20. Formation : Institut d'études politiques de Paris.
+Xavier Ternisien, journaliste. Ne(e) le 1964-06-20. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2394980

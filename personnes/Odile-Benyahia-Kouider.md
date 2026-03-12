@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Odile Benyahia-Kouider, journaliste. Ne(e) le 1966-05-13 a Bourges. Formation : université Paris-Sorbonne.
+Odile Benyahia-Kouider, journaliste. Ne(e) le 1966-05-13 a Bourges. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q15963036

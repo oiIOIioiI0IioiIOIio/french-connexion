@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bertrand Dicale, journaliste. Ne(e) le 1963-09-27 a France. Formation : Institut d'études politiques de Paris.
+Bertrand Dicale, journaliste. Ne(e) le 1963-09-27 a France. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2899501

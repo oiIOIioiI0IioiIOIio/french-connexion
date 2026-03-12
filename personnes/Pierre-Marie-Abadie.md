@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre-Marie Abadie, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1969-07-01. Formation : École polytechnique.
+Pierre-Marie Abadie, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1969-07-01. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q131304919

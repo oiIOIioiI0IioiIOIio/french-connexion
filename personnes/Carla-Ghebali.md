@@ -7,6 +7,9 @@ education: École alsacienne
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Benjamin Castaldi
+- Jean Veil
 nationality: francaise
 nom_complet: Carla Ghebali
 occupation: journaliste
@@ -21,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Carla Ghebali, journaliste. Ne(e) le 1999-01-01. Formation : École alsacienne.
+Carla Ghebali, journaliste. Ne(e) le 1999-01-01. Formation : [[École alsacienne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q126727837

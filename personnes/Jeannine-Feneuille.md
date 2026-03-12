@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jeannine Feneuille, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1938-06-06 a Paris. Formation : École normale supérieure de Fontenay-aux-Roses.
+Jeannine Feneuille, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1938-06-06 a Paris. Formation : [[École normale supérieure]] de Fontenay-aux-Roses.
 
 ## Sources
 - http://www.wikidata.org/entity/Q123581279

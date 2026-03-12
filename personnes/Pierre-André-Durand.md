@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre-André Durand, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1960-03-03 a Antibes. Formation : École nationale d'administration.
+Pierre-[[André Durand]], haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1960-03-03 a Antibes. Formation : École nationale d'administration.
 
 ## Sources
 - http://www.wikidata.org/entity/Q33103541

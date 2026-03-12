@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christian de Baecque, banquier. Ne(e) le 1945-08-05 a Neuilly-sur-Seine. Formation : Institut d'études politiques de Paris.
+Christian de Baecque, banquier. Ne(e) le 1945-08-05 a Neuilly-sur-Seine. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2965719

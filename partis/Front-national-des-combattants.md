@@ -17,4 +17,4 @@ type: Parti
 wikidata_id: Q3088519
 ---
 
-Front national des combattants, parti politique francais.
+[[Front national]] des combattants, parti politique francais.

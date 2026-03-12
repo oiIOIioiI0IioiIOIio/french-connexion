@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Claire Chazal, écrivain ou écrivaine. Ne(e) le 1956-12-01 a Thiers. Formation : HEC Paris.
+Claire Chazal, écrivain ou écrivaine. Ne(e) le 1956-12-01 a Thiers. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q452106

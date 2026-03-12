@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jacques Mayoux, personnalité du monde des affaires. Ne(e) le 1924-07-18 a 15e arrondissement de Paris. Formation : HEC Paris.
+Jacques Mayoux, personnalité du monde des affaires. Ne(e) le 1924-07-18 a 15e arrondissement de Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q27858279

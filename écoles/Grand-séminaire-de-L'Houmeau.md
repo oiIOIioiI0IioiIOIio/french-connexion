@@ -4,6 +4,8 @@ founded: '1929-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Tatiana de Rosnay
 nom_complet: Grand séminaire de L'Houmeau
 sources:
 - https://www.wikidata.org/entity/Q110819527

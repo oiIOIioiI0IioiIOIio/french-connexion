@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Claude Seibel, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1934-03-28. Formation : École polytechnique.
+Claude Seibel, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1934-03-28. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q30727546

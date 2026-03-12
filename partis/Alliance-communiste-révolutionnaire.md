@@ -17,4 +17,4 @@ type: Parti
 wikidata_id: Q2838043
 ---
 
-Alliance communiste révolutionnaire, parti politique francais.
+[[Alliance]] communiste révolutionnaire, parti politique francais.

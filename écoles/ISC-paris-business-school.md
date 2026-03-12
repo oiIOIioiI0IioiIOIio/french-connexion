@@ -5,6 +5,9 @@ headquarters: Paris
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Dominique Thillaud
+- Fabrice Delloye
 nom_complet: ISC paris business school
 sources:
 - https://www.wikidata.org/entity/Q1665124

@@ -7,6 +7,11 @@ education: université Paul-Cézanne - Aix-Marseille III
 genre: féminin
 keywords:
 - avocat ou avocate
+liens:
+- Maryse Joissains-Masini
+- Pierre Falcone
+- Sophie Joissains
+- Stéphane Benoit-Godet
 nationality: francaise
 nom_complet: Anne Bouillon
 occupation: avocat ou avocate

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jacques Hogard, militaire. Ne(e) le 1955-12-16 a Saint-Mandé. Formation : HEC Paris.
+Jacques Hogard, militaire. Ne(e) le 1955-12-16 a Saint-Mandé. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3159113

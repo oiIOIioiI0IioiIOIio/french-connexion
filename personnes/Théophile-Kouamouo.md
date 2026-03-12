@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Théophile Kouamouo, journaliste. Ne(e) le 1977-06-21 a Charleville-Mézières. Formation : Université de Lorraine.
+Théophile Kouamouo, journaliste. Ne(e) le 1977-06-21 a Charleville-Mézières. Formation : [[Université de Lorraine]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q17640030

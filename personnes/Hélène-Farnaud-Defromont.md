@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Hélène Farnaud-Defromont, diplomate. Ne(e) le 1970-04-05. Formation : Institut d'études politiques de Paris.
+Hélène Farnaud-Defromont, diplomate. Ne(e) le 1970-04-05. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q30302558

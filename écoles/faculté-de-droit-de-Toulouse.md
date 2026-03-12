@@ -3,6 +3,9 @@ date_creation_note: '2026-03-12'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Jean Keller
+- Jean Paolini
 nom_complet: faculté de droit de Toulouse
 sources:
 - https://www.wikidata.org/entity/Q65920870

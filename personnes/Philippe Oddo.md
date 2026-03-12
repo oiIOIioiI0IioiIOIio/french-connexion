@@ -10,6 +10,8 @@ keywords:
 - Oddo BHF
 - finance
 - associé-gérant
+liens:
+- Philippe Oddou
 nationality: française
 nom_complet: Philippe Oddo
 occupation: entrepreneur et banquier

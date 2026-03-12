@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Isabelle de Silva, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1969-11-21 a New York. Formation : HEC Paris.
+Isabelle de Silva, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1969-11-21 a New York. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33102654

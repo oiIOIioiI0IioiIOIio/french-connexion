@@ -7,6 +7,17 @@ education: Institut français de presse
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Charles Desjardins
+- Christelle Crosnier
+- Claude Belot
+- Ginie Van de Noort
+- Jean-François Julliard
+- Jérôme Béglé
+- Leïla Beratto
+- Maya Lauqué
+- Olivier Bertrand
+- Thomas Sotto
 nationality: francaise
 nom_complet: Emmanuel de Brantes
 occupation: journaliste

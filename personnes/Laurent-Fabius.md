@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Laurent Fabius, personnalité politique. Ne(e) le 1946-08-20 a 16e arrondissement de Paris. Formation : École normale supérieure.
+Laurent Fabius, personnalité politique. Ne(e) le 1946-08-20 a 16e arrondissement de Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q217070

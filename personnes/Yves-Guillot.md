@@ -7,6 +7,14 @@ education: École nationale supérieure de la Police
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Ange Mancini
+- Bernard Guérin
+- Christian Lambert
+- Frédéric Veaux
+- Henri Souchon
+- Jean-Louis Fiamenghi
+- Patrick Calvar
 nationality: francaise
 nom_complet: Yves Guillot
 occupation: personnalité politique

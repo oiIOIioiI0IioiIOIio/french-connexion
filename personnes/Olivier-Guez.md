@@ -7,6 +7,14 @@ education: London School of Economics
 genre: masculin
 keywords:
 - scénariste
+liens:
+- Achren Verdian
+- Agnès Poirier
+- Christian Chavagneux
+- François Croquette
+- Lucie Castets
+- Roland Dumas
+- Thomas Andrieu
 nationality: francaise
 nom_complet: Olivier Guez
 occupation: scénariste

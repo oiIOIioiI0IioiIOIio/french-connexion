@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Guy Pigoullié, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1926-10-26 a Saint-Jean-de-Védas. Formation : Institut d'études politiques de Paris.
+Guy Pigoullié, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1926-10-26 a Saint-Jean-de-Védas. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50919438

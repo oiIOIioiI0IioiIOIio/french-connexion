@@ -7,6 +7,8 @@ education: faculté de droit de Rennes
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Jean Pinel
 nationality: francaise
 nom_complet: Philippe Waquet
 occupation: avocat ou avocate
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Philippe Waquet, avocat ou avocate. Ne(e) le 1933-08-13 a Auray. Formation : faculté de droit de Rennes.
+Philippe Waquet, avocat ou avocate. Ne(e) le 1933-08-13 a Auray. Formation : [[faculté de droit de Rennes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q105553102

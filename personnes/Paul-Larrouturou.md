@@ -7,6 +7,21 @@ education: université Bordeaux-Montaigne
 genre: masculin
 keywords:
 - reporter ou reportrice
+liens:
+- Agnès Cukierman
+- Clément Bénech
+- David Thomson
+- Emmanuel Langlois
+- Géraldine Mosna-Savoye
+- Isabelle Roberts
+- Kéthévane Bagration de Moukhrani
+- Marie Aubinais
+- Mohamed Toihiri
+- Pierre Lory
+- Stéphane Bijoux
+- Xavier Loustaunau
+- Yann Barthès
+- Éric de Kermel
 nationality: francaise
 nom_complet: Paul Larrouturou
 occupation: reporter ou reportrice

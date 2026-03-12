@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Isabelle Dumont, diplomate. Ne(e) le 1975-11-09 a Meudon. Formation : Institut d'études politiques de Paris.
+Isabelle Dumont, diplomate. Ne(e) le 1975-11-09 a Meudon. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q21706681

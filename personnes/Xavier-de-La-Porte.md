@@ -7,6 +7,12 @@ education: École normale supérieure de Fontenay-Saint-Cloud
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Adélaïde de Clermont-Tonnerre
+- Emmanuel Kessler
+- Lorène Lemor
+- Michka Assayas
+- Nicolas Demorand
 nationality: francaise
 nom_complet: Xavier de La Porte
 occupation: journaliste
@@ -22,7 +28,7 @@ tags:
 type: Personne
 ---
 
-Xavier de La Porte, journaliste. Ne(e) le 1973-01-01. Formation : École normale supérieure de Fontenay-Saint-Cloud.
+Xavier de La Porte, journaliste. Ne(e) le 1973-01-01. Formation : [[École normale supérieure]] de Fontenay-Saint-Cloud.
 
 ## Sources
 - http://www.wikidata.org/entity/Q3570821

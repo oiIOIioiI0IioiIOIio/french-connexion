@@ -5,6 +5,8 @@ headquarters: Ivry-sur-Seine
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Gilles de Richemond
 nom_complet: Institut Polytechnique des Sciences Avancées
 sources:
 - https://www.wikidata.org/entity/Q183213

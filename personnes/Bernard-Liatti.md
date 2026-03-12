@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bernard Liatti, personnalité du monde des affaires. Ne(e) le 1957-02-25 a Voiron. Formation : EM Lyon Business School.
+Bernard Liatti, personnalité du monde des affaires. Ne(e) le 1957-02-25 a Voiron. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q124054601

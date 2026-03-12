@@ -7,6 +7,13 @@ education: École nationale des langues orientales vivantes
 genre: masculin
 keywords:
 - militaire
+liens:
+- Alexis Rygaloff
+- Jean Batbedat
+- Luc Harscouët de Saint-George
+- Marcel Tremeau
+- Philippe de Suremain
+- Samuel Le Caruyer de Beauvais
 nationality: francaise
 nom_complet: Jacques Disdier
 occupation: militaire

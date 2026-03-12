@@ -7,6 +7,8 @@ education: université de Lyon
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Georges Pauget
 nationality: francaise
 nom_complet: Paul Bouchet
 occupation: avocat ou avocate

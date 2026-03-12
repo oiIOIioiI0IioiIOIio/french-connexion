@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Guillaume de Menthon, personnalité du monde des affaires. Ne(e) le 1969-10-27 a Boulogne-Billancourt. Formation : université Paris-I-Panthéon-Sorbonne.
+Guillaume de Menthon, personnalité du monde des affaires. Ne(e) le 1969-10-27 a Boulogne-Billancourt. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33113340

@@ -7,6 +7,13 @@ education: Université de Californie à Berkeley
 genre: féminin
 keywords:
 - personnalité politique
+liens:
+- David Castello-Lopes
+- Henry Peter
+- Laurence Auer
+- Marjorie Vanbaelinghem
+- Serge Halimi
+- Teymouraz Gorjestani
 nationality: francaise
 nom_complet: Fabienne Keller
 occupation: personnalité politique

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Rémi Caron, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1949-05-25 a Huế. Formation : École polytechnique.
+Rémi Caron, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1949-05-25 a Huế. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3456003

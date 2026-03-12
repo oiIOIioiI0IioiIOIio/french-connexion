@@ -7,6 +7,45 @@ education: université de Rouen-Normandie
 genre: masculin
 keywords:
 - économiste
+liens:
+- Alberte Brun
+- Arthur Delaporte
+- Audrey Pulvar
+- Benoît Duteurtre
+- Chloé-Agathe Azencott
+- Christian Kassel
+- Daniel Gouadec
+- David Courpasson
+- Didier Boursin
+- Emmanuel Ratier
+- Franck Barthe
+- Guillaume Jobin
+- Jacques Cabaud
+- Jean-Bernard Zuber
+- Jean-Claude Carret
+- Jesús María Asurmendi
+- Judith Balso
+- Julia Frotey
+- Julien Larregue
+- Juliette Faure
+- Katalin Escher
+- Loïc Grobol
+- Mathieu Bendouma
+- Michel Orrit
+- Nathan Allix
+- Nicolas Martin
+- Nicolas Vieille
+- Pascal Boyer
+- Paul Reiter
+- Philippe Sautet
+- Robert Dantzer
+- Romain Dureau
+- Ronan Calvez
+- Stefano Simiz
+- Terence Strick
+- Thibault Gandouly
+- Vincent Hommeril
+- Éric Urban
 nationality: francaise
 nom_complet: Paul-Jacques Lehmann
 occupation: économiste

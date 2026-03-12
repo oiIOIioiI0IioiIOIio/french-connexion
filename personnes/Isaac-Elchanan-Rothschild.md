@@ -15,24 +15,34 @@ keywords:
 - confiance
 - amschel
 liens:
-- Augustin Hamon
-- Mayer Amschel Rothschild
-- Mayer Amschel Bauer
+- Abraham Lincoln
 - Amschel Moses Rothschild
-- Guillaume Ier
+- Augustin Hamon
 - Benedikt Moses Worms
-- François Ier
-- Mayer Amschel
-- James de Rothschild
 - Betty de Rothschild
-- Henri de Rothschild
-- Nathan Mayer Rothschild
-- Louis-Philippe Ier
-- Jules Grévy
-- Maurice Ephrussi
+- Carter G. Woodson
+- Donald Oliver
 - Emmanuel Léonino
 - Ernest Denormandie
 - Ernest Tambour
+- François Bayrou
+- François Ier
+- Guillaume Ier
+- Henri de Rothschild
+- James de Rothschild
+- Jean Augustine
+- Jesse E. Moorland
+- Jules Grévy
+- Louis-Philippe Ier
+- Maurice Ephrussi
+- Mayer Amschel
+- Mayer Amschel Bauer
+- Mayer Amschel Rothschild
+- Mélina Seymour
+- Nathan Mayer Rothschild
+- Nathan Mayer Rothschild (1777-1836)
+- Think tank
+- Édouard Philippe
 nationality: ''
 nom_complet: Famille Rothschild
 occupation: null
@@ -63,7 +73,7 @@ wikipedia_enriched: true
 
 ## Biographie
 
-La famille Rothschild (prononcé en allemand : [ˈʁoːtʃɪlt] ; en anglais : [ˈɹɒθs.t͡ʃaɪld] ; en français : [ʁɔt.ʃild]) est une famille d'origine juive allemande ashkénaze, qui a essaimé dans plusieurs pays et dont les membres portent diverses nationalités. Elle a formé au début du XIXe siècle cinq branches, à Francfort-sur-le-Main, Vienne, Naples, Londres et Paris, dont seules les deux dernières subsistent aujourd'hui.
+La famille Rothschild (prononcé en allemand : [ˈʁoːtʃɪlt] ; en anglais : [ˈɹɒθs.t͡ʃaɪld] ; en français : [ʁɔt.ʃild]) est une famille d'origine juive allemande ashkénaze, qui a essaimé dans plusieurs pays et dont les membres portent diverses nationalités. [[Elle]] a formé au début du XIXe siècle cinq branches, à Francfort-sur-le-Main, Vienne, Naples, Londres et Paris, dont seules les deux dernières subsistent aujourd'hui.
 Les Rothschild se sont fait connaître depuis le XVIIIe siècle principalement dans les domaines de la banque et de la finance, mais  ils ont développé aussi d'autres activités, en investissant notamment dans les industries minières et ferroviaires au XIXe siècle, ou dans le vignoble bordelais au XXe siècle. Ils sont également célèbres pour leur philanthropie et leur mécénat.
 La famille Rothschild est régulièrement l'objet de théories du complot, dont beaucoup ont des origines antisémites.
 Elle est citée en 1936 par Augustin Hamon dans son ouvrage « Et voici les 200 familles… ».
@@ -119,7 +129,7 @@ Elle est citée en 1936 par Augustin Hamon dans son ouvrage « Et voici les 200 
 ### Associe
 
 - [[Augustin Hamon]] : Mentionne dans le meme contexte: ...complot, dont beaucoup ont des origines antisémites. Elle est citée en 1936 par Augustin Hamon dans son ouvrage « Et voici les 200 familles… ».   == Histoire ==  Le patronyme... *(confiance: 80%)*
-- [[Mayer Amschel Rothschild]] : Mentionne dans le meme contexte: ...igne rouge », donne ainsi naissance à un nouveau patronyme : « Rothschild ».    Mayer Amschel Rothschild, né Mayer Amschel Bauer (1744-1812), transforma le modeste commerce de prêt sur... *(confiance: 80%)*
+- [[Mayer Amschel Rothschild]] : Mentionne dans le meme contexte: ...igne rouge », donne ainsi naissance à un nouveau patronyme : « Rothschild ».    Mayer Amschel Rothschild, né Mayer Amschel [[Bauer]] (1744-1812), transforma le modeste commerce de prêt sur... *(confiance: 80%)*
 - [[Mayer Amschel Bauer]] : Mentionne dans le meme contexte: ...ssance à un nouveau patronyme : « Rothschild ».    Mayer Amschel Rothschild, né Mayer Amschel Bauer (1744-1812), transforma le modeste commerce de prêt sur gages créé par son père... *(confiance: 80%)*
 - [[Amschel Moses Rothschild]] : Mentionne dans le meme contexte: ...(1744-1812), transforma le modeste commerce de prêt sur gages créé par son père Amschel Moses Rothschild en une banque reconnue et devint le gérant de la fortune de Guillaume Ier, élec... *(confiance: 80%)*
 - [[Guillaume Ier]] : Mentionne dans le meme contexte: ...el Moses Rothschild en une banque reconnue et devint le gérant de la fortune de Guillaume Ier, électeur de Hesse-Cassel. Il eut dix enfants, dont cinq fils qu'il envoya crée... *(confiance: 80%)*
@@ -244,7 +254,7 @@ Elle est citée en 1936 par Augustin Hamon dans son ouvrage « Et voici les 200 
 - **source**: wikipedia_spacy_ner
 - **type**: associe
 - **confidence**: 0.8
-- **description**: Mentionne dans le meme contexte: ...on de vignobles et d’œuvres d’art. Une partie de sa collection d’art, héritée d’Henri de Rothschild, a d'ailleurs été offerte à la Bibliothèque nationale de France.   === Empire f...
+- **description**: Mentionne dans le meme contexte: ...on de vignobles et d’œuvres d’art. Une partie de sa collection d’art, héritée d’[[Henri de Rothschild]], a d'ailleurs été offerte à la Bibliothèque nationale de France.   === Empire f...
 - **person_from**: Isaac Elchanan Rothschild
 - **person_to**: Henri de Rothschild
 - **source**: wikipedia_spacy_ner
@@ -262,7 +272,7 @@ Elle est citée en 1936 par Augustin Hamon dans son ouvrage « Et voici les 200 
 - **source**: wikipedia_spacy_ner
 - **type**: associe
 - **confidence**: 0.8
-- **description**: Mentionne dans le meme contexte: ...ders, telles que Le Nickel, en 1883, grâce au gouvernement français présidé par Jules Grévy,  Peñarroya ou Rio Tinto en Espagne. Lorsque le monopole direct n’est pas possi...
+- **description**: Mentionne dans le meme contexte: ...ders, telles que Le Nickel, en 1883, grâce au gouvernement français présidé par [[Jules Grévy]],  Peñarroya ou Rio Tinto en Espagne. Lorsque le monopole direct n’est pas possi...
 - **person_from**: Isaac Elchanan Rothschild
 - **person_to**: Jules Grévy
 - **source**: wikipedia_spacy_ner

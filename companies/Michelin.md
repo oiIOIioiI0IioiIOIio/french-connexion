@@ -7,6 +7,11 @@ keywords:
 - entreprise
 - construction automobile
 leader: Yves Chapot
+liens:
+- Club des Cent
+- Jean Michelin
+- Micheline JACQUES
+- Olicier Legrain
 nom_complet: Michelin
 sources:
 - https://www.wikidata.org/entity/Q151107

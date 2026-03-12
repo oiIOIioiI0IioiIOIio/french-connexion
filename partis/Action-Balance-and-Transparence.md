@@ -15,4 +15,4 @@ type: Parti
 wikidata_id: Q4677078
 ---
 
-Action Balance and Transparence, parti politique francais.
+[[Action]] Balance and Transparence, parti politique francais.

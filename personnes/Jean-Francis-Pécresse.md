@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Francis Pécresse, journaliste. Ne(e) le 1966-04-17 a 15e arrondissement de Paris. Formation : université Paris-Sorbonne.
+Jean-Francis Pécresse, journaliste. Ne(e) le 1966-04-17 a 15e arrondissement de Paris. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33139107

@@ -7,6 +7,12 @@ education: lycée Louis-le-Grand
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Doan Bui
+- Michel de La Fournière
+- René Heckenroth
+- Yves Aubin de La Messuzière
+- Yves de Daruvar
 nationality: francaise
 nom_complet: Jean Coursaget
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +28,7 @@ tags:
 type: Personne
 ---
 
-Jean Coursaget, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1924-10-12 a Blois. Formation : lycée Louis-le-Grand.
+Jean Coursaget, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1924-10-12 a Blois. Formation : [[Lycée Louis-le-Grand]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50764930

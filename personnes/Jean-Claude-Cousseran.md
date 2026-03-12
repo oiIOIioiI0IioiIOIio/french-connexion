@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Claude Cousseran, diplomate. Ne(e) le 1944-09-15 a Toulouse. Formation : Institut d'études politiques de Paris.
+Jean-Claude Cousseran, diplomate. Ne(e) le 1944-09-15 a Toulouse. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q1649272

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-François de Wissocq, ingénieur. Ne(e) le 1933-09-13 a Châlons-en-Champagne. Formation : École polytechnique.
+François de Wissocq, ingénieur. Ne(e) le 1933-09-13 a Châlons-en-Champagne. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3086340

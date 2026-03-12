@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Haïba Ouaissi, avocat ou avocate. Ne(e) le 1977-07-18 a Mont-Saint-Martin. Formation : HEC Paris.
+Haïba Ouaissi, avocat ou avocate. Ne(e) le 1977-07-18 a Mont-Saint-Martin. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q29598809

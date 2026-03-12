@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean Roussel, avocat ou avocate. Ne(e) le 1923-04-04 a Marseille. Formation : faculté de droit d'Aix-en-Provence.
+Jean Roussel, avocat ou avocate. Ne(e) le 1923-04-04 a Marseille. Formation : [[faculté de droit d'Aix-en-Provence]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16645571

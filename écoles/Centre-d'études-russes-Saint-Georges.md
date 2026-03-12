@@ -5,6 +5,17 @@ headquarters: Meudon
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Achren Verdian
+- Agnès Poirier
+- Christian Chavagneux
+- François Croquette
+- Jean-Claude Carret
+- Lucie Castets
+- Olivier Guez
+- Roland Dumas
+- Thomas Andrieu
+- Vincent Taupin
 nom_complet: Centre d'études russes Saint-Georges
 sources:
 - https://www.wikidata.org/entity/Q128117184

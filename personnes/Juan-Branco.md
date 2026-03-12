@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Juan Branco, avocat ou avocate. Ne(e) le 1989-08-26 a Estepona. Formation : École normale supérieure.
+Juan Branco, avocat ou avocate. Ne(e) le 1989-08-26 a Estepona. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q21890311

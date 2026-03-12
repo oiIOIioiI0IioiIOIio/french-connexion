@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean Coussirou, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1930-01-22 a Larche. Formation : école nationale de la France d'outre-mer.
+Jean Coussirou, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1930-01-22 a [[L'Arche]]. Formation : école nationale de la France d'outre-mer.
 
 ## Sources
 - http://www.wikidata.org/entity/Q3171465

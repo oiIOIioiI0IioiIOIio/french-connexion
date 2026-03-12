@@ -7,6 +7,20 @@ education: Université Harvard
 genre: masculin
 keywords:
 - roi
+liens:
+- Alfred Galichon
+- Claude-Éric Paquin
+- Ernest-Antoine Seillière
+- François Jackow
+- Geoffroy Didier
+- Jacques Lagarde
+- Jean-Luc Sibiude
+- Laure Mandeville
+- Michel François-Poncet
+- Peter Turnley
+- Pierre Lellouche
+- Renée Kaplan
+- Simon Kuper
 nationality: francaise
 nom_complet: Frédéric X de Danemark
 occupation: roi

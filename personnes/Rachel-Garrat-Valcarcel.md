@@ -7,6 +7,25 @@ education: Institut de journalisme Bordeaux Aquitaine
 genre: http://www.wikidata.org/.well-known/genid/3760c480048283c72331bf999bb176e8
 keywords:
 - journaliste
+liens:
+- Catherine Matausch
+- Estelle Denis
+- François Pesenti
+- Frédéric Leclerc-Imhoff
+- Jean-Michel Aphatie
+- Jérôme Colombain
+- Louis Laforge
+- Mathieu Delahousse
+- Pierre Billaud
+- Pierre Carles
+- Pierre Girard
+- Raphaël Ebenstein
+- Rebecca Manzoni
+- Sophie Davant
+- Sophie Le Saint
+- Vincent Josse
+- Vincent Parizot
+- Élise Chassaing
 nationality: francaise
 nom_complet: Rachel Garrat-Valcarcel
 occupation: journaliste

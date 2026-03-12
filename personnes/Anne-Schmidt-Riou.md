@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Anne Schmidt-Riou, diplomate. Ne(e) le 1963-05-21. Formation : Institut d'études politiques de Paris.
+Anne Schmidt-Riou, diplomate. Ne(e) le 1963-05-21. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q100166410

@@ -7,6 +7,10 @@ education: Université Stanford
 genre: masculin
 keywords:
 - banquier
+liens:
+- Alain Juillet
+- Emmanuel Dupuis
+- Jean-Louis Gergorin
 nationality: francaise
 nom_complet: André Lévy-Lang
 occupation: banquier

@@ -7,6 +7,10 @@ education: université Claude-Bernard-Lyon-I
 genre: masculin
 keywords:
 - médecin
+liens:
+- Julien Mathis Leroux
+- Ottman Zaïr
+- Raphaël Szymocha
 nationality: francaise
 nom_complet: Fabien Sauvet
 occupation: médecin

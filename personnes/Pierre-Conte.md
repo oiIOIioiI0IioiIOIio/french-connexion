@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Conte, personnalité du monde des affaires. Ne(e) le 1960-04-24 a Neuilly-sur-Seine. Formation : Institut d'études politiques de Paris.
+Pierre Conte, personnalité du monde des affaires. Ne(e) le 1960-04-24 a Neuilly-sur-Seine. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33400822

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bernard Garancher, diplomate. Ne(e) le 1945-03-26 a Paris. Formation : Institut d'études politiques de Paris.
+Bernard Garancher, diplomate. Ne(e) le 1945-03-26 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q105339310

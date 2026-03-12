@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Boris Kharlamoff, reporter ou reportrice. Ne(e) le 1993-01-01. Formation : Institut catholique de Toulouse.
+Boris Kharlamoff, reporter ou reportrice. Ne(e) le 1993-01-01. Formation : [[Institut catholique de Toulouse]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q125224640

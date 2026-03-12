@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jeff Wittenberg, journaliste. Ne(e) le 1965-05-15. Formation : Centre de formation des journalistes.
+Jeff Wittenberg, journaliste. Ne(e) le 1965-05-15. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3176620

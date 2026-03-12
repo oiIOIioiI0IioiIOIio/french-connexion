@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Philippe Logak, personnalité du monde des affaires. Ne(e) le 1968-11-24 a Suresnes. Formation : École polytechnique.
+Philippe Logak, personnalité du monde des affaires. Ne(e) le 1968-11-24 a Suresnes. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q18636831

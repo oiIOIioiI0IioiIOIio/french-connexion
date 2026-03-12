@@ -7,6 +7,17 @@ education: Université de New York
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Anne Poiret
+- Arno Klarsfeld
+- Carine Fouteau
+- Géraldine Muhlmann
+- Iris Brey
+- Laurent Stefanini
+- Léa Salamé
+- Marie-Anne Barbat-Layani
+- Mohamed Sahnoun
+- Stéphanie Antoine
 nationality: francaise
 nom_complet: Antonin Lévy
 occupation: avocat ou avocate

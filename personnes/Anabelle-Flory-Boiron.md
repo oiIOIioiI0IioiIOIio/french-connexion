@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Anabelle Flory-Boiron, personnalité du monde des affaires. Ne(e) le 1978-01-10 a Bourgoin-Jallieu. Formation : EM Lyon Business School.
+Anabelle Flory-Boiron, personnalité du monde des affaires. Ne(e) le 1978-01-10 a Bourgoin-Jallieu. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q127215568

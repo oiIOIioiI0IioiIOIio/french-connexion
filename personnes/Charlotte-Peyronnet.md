@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Charlotte Peyronnet, écrivain ou écrivaine. Ne(e) le 1990-04-13 a 14e arrondissement de Paris. Formation : Institut d'études politiques de Paris.
+Charlotte Peyronnet, écrivain ou écrivaine. Ne(e) le 1990-04-13 a 14e arrondissement de Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q136428628

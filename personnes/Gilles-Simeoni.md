@@ -7,6 +7,8 @@ education: université de Corse-Pascal-Paoli
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Jean-Guy Talamoni
 nationality: francaise
 nom_complet: Gilles Simeoni
 occupation: avocat ou avocate

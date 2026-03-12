@@ -7,6 +7,25 @@ education: Institut de journalisme Bordeaux Aquitaine
 genre: féminin
 keywords:
 - animateur ou animatrice de télévision
+liens:
+- Catherine Matausch
+- François Pesenti
+- Frédéric Leclerc-Imhoff
+- Jean-Michel Aphatie
+- Jérôme Colombain
+- Louis Laforge
+- Mathieu Delahousse
+- Pierre Billaud
+- Pierre Carles
+- Pierre Girard
+- Rachel Garrat-Valcarcel
+- Raphaël Ebenstein
+- Rebecca Manzoni
+- Sophie Davant
+- Sophie Le Saint
+- Vincent Josse
+- Vincent Parizot
+- Élise Chassaing
 nationality: francaise
 nom_complet: Estelle Denis
 occupation: animateur ou animatrice de télévision

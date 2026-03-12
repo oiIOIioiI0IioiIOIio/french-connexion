@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pascal Meunier, diplomate. Ne(e) le 1953-03-19 a Trélon. Formation : Institut d'études politiques de Paris.
+Pascal Meunier, diplomate. Ne(e) le 1953-03-19 a Trélon. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3367510

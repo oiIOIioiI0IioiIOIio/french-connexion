@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Henri Coury, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1928-03-28 a Montluçon. Formation : École normale supérieure.
+Henri Coury, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1928-03-28 a Montluçon. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50765142

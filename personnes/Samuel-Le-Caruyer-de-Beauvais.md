@@ -7,6 +7,13 @@ education: École nationale des langues orientales vivantes
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Alexis Rygaloff
+- Jacques Disdier
+- Jean Batbedat
+- Luc Harscouët de Saint-George
+- Marcel Tremeau
+- Philippe de Suremain
 nationality: francaise
 nom_complet: Samuel Le Caruyer de Beauvais
 occupation: diplomate

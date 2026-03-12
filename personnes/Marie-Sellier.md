@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marie Sellier, scénariste. Ne(e) le 1953-12-12. Formation : Institut d'études politiques de Paris.
+Marie Sellier, scénariste. Ne(e) le 1953-12-12. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q18222216

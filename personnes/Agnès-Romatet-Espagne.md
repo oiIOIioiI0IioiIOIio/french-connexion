@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Agnès Romatet-Espagne, diplomate. Ne(e) le 1961-10-24. Formation : Institut d'études politiques de Paris.
+Agnès Romatet-Espagne, diplomate. Ne(e) le 1961-10-24. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q114867920

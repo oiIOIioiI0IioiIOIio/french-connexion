@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Ariane Azéma, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1969-08-31 a Rodez. Formation : École normale supérieure.
+Ariane Azéma, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1969-08-31 a Rodez. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q48328143

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Philippe Barret, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1945-11-15 a 6e arrondissement de Lyon. Formation : École normale supérieure.
+Philippe Barret, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1945-11-15 a 6e arrondissement de Lyon. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q27245483

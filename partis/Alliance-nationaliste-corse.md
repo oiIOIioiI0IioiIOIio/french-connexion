@@ -19,4 +19,4 @@ website: http://www.anc-corsica.com
 wikidata_id: Q2838215
 ---
 
-Alliance nationaliste corse, parti politique francais.
+[[Alliance]] nationaliste corse, parti politique francais.

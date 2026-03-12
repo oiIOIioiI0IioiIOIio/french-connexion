@@ -7,6 +7,14 @@ education: université Rennes-I
 genre: féminin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Florian Bachelier
+- Jean-Jacques Urvoas
+- Karine Djébari
+- Mary Plard
+- Nicolas Carreau
+- Olivier Richefou
+- Tangi Noël
 nationality: francaise
 nom_complet: Annie Lemoine
 occupation: présentateur ou présentatrice de journal

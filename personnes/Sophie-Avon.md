@@ -7,6 +7,11 @@ education: Cours Florent
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Alice Tumler
+- Caroline Vigneaux
+- Laura Tenoudji
+- Ponce
 nationality: francaise
 nom_complet: Sophie Avon
 occupation: journaliste

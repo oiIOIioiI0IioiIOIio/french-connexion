@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Jacques Gaillarde, diplomate. Ne(e) le 1940-12-30. Formation : Institut d'études politiques de Paris.
+Jean-Jacques Gaillarde, diplomate. Ne(e) le 1940-12-30. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q31296420

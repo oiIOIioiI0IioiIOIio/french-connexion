@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Henri Leclercq, diplomate. Ne(e) le 1936-09-23 a Roubaix. Formation : École nationale d'administration.
+[[Henri Leclerc]]q, diplomate. Ne(e) le 1936-09-23 a Roubaix. Formation : École nationale d'administration.
 
 ## Sources
 - http://www.wikidata.org/entity/Q109639540

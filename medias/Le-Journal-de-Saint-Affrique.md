@@ -16,4 +16,4 @@ type: Media
 wikidata_id: Q118867656
 ---
 
-Le Journal de Saint-Affrique, media francais.
+[[Le Jour]]nal de Saint-Affrique, media francais.

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Guillaume Perrault, journaliste. Ne(e) le 1972-07-19. Formation : Institut d'études politiques de Paris.
+Guillaume Perrault, journaliste. Ne(e) le 1972-07-19. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3120115

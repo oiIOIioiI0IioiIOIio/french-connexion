@@ -7,6 +7,11 @@ education: université de Poitiers
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Henri Konan Bédié
+- Leïla Kaddour-Boudadi
+- Marie-France Garaud
+- Richard Escot
 nationality: francaise
 nom_complet: Emmanuel Laurentin
 occupation: journaliste

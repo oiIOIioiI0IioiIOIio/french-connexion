@@ -7,6 +7,11 @@ education: Institut des hautes études de la sécurité intérieure
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Daniel Matalon
+- Jean-Pierre Condemine
+- Joëlle Le Mouel
+- Roger Marion
 nationality: francaise
 nom_complet: Jean Ambroggiani
 occupation: haut fonctionnaire ou haute fonctionnaire

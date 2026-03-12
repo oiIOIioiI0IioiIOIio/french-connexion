@@ -7,6 +7,30 @@ education: Institut d'études politiques d'Aix-en-Provence
 genre: masculin
 keywords:
 - directeur général ou directrice générale
+liens:
+- Alexis Le Cour Grandmaison
+- Ali André Mécili
+- Arnaud Suquet
+- Bertrand Kern
+- Dominique Vian
+- Edmond Zucchelli
+- Fabien Namias
+- Fabrice Madouas
+- Fabrice Étienne
+- Franck Genauzeau
+- François Pinet
+- Jean-Charles Marchiani
+- Johana Gustawsson
+- Julien Bahloul
+- Laëtitia Allemand
+- Lionel Paradisi-Coulouma
+- Mehdi Chebana
+- Mélanie Chalandon
+- Rudy Reichstadt
+- Rémy Porte
+- Sylvaine Carta-Le Vert
+- Sylvie Faiderbe
+- Sylvie Kauffmann
 nationality: francaise
 nom_complet: Bruno Mettling
 occupation: directeur général ou directrice générale
@@ -22,7 +46,7 @@ tags:
 type: Personne
 ---
 
-Bruno Mettling, directeur général ou directrice générale. Ne(e) le 1958-03-30 a Lyon. Formation : Institut d'études politiques d'Aix-en-Provence.
+Bruno Mettling, directeur général ou directrice générale. Ne(e) le 1958-03-30 a Lyon. Formation : [[Institut d'études politiques d'Aix-en-Provence]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33289701

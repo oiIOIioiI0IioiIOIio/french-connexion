@@ -7,6 +7,11 @@ keywords:
 - entreprise
 - fabrication de matériel d'installation électrique
 leader: Benoît Coquart
+liens:
+- Jacques Legrand
+- Léon Legrand
+- Philippe Legrand
+- Thomas Legrand
 nom_complet: Legrand
 sources:
 - https://www.wikidata.org/entity/Q636755

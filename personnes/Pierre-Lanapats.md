@@ -7,6 +7,8 @@ education: université de Münster
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Anthony Saint-Léger
 nationality: francaise
 nom_complet: Pierre Lanapats
 occupation: diplomate

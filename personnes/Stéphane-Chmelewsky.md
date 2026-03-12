@@ -7,6 +7,8 @@ education: université d'État de Moscou
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Gérard Abensour
 nationality: francaise
 nom_complet: Stéphane Chmelewsky
 occupation: diplomate

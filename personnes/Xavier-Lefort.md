@@ -7,6 +7,14 @@ education: École centrale Paris
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Christophe Chantepy
+- Djamel Agaoua
+- Dominique-Paul Vallée
+- François Ecalle
+- Jacques Rosselin
+- Jean-Louis Zoël
+- Stéphane Bredin
 nationality: francaise
 nom_complet: Xavier Lefort
 occupation: haut fonctionnaire ou haute fonctionnaire

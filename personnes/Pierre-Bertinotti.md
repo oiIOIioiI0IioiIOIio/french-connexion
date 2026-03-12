@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Bertinotti, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1952-09-01 a Metz. Formation : HEC Paris.
+Pierre Bertinotti, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1952-09-01 a Metz. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q135922868

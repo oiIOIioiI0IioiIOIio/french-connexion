@@ -5,6 +5,29 @@ headquarters: Toulouse
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Abraham Lincoln
+- Amobé Mévégué
+- Anne-Isabelle Tollet
+- Aude Favre
+- Christine Goguet
+- Christophe Del Toso
+- Clarence Edgard-Rosa
+- Cécile Pivot
+- Cécile Wajsbrot
+- Daniel Bouton
+- Djamel Mazi
+- Emmanuel Limido
+- Fabien Roussel
+- Frédéric Oudéa
+- Frédéric Vasseur
+- Gauthier Le Bret
+- Henri de Rothschild
+- Hervé de Malliard
+- Philippe Morillon
+- Roselyne Bachelot
+- Édouard Philippe
+- Éric Delvaux
 nom_complet: Comue de Toulouse
 sources:
 - https://www.wikidata.org/entity/Q20669873

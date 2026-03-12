@@ -7,6 +7,8 @@ education: ESIEE Paris
 genre: masculin
 keywords:
 - banquier
+liens:
+- Charles Pégulu de Rovin
 nationality: francaise
 nom_complet: Gonzague de Blignières
 occupation: banquier
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Gonzague de Blignières, banquier. Ne(e) le 1956-04-29 a Autun. Formation : ESIEE Paris.
+Gonzague de Blignières, banquier. Ne(e) le 1956-04-29 a Autun. Formation : [[ESIEE Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q18578252

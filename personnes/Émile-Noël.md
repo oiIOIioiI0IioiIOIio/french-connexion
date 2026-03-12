@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Émile Noël, diplomate. Ne(e) le 1922-11-17 a Istanbul. Formation : École normale supérieure.
+Émile Noël, diplomate. Ne(e) le 1922-11-17 a Istanbul. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q931310

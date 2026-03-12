@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jérôme Fehrenbach, historien ou historienne. Ne(e) le 1969-11-28 a Toulouse. Formation : HEC Paris.
+Jérôme Fehrenbach, historien ou historienne. Ne(e) le 1969-11-28 a Toulouse. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33288201

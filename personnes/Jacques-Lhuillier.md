@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jacques Lhuillier, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1924-12-06 a Neufchâteau. Formation : Institut d'études politiques de Paris.
+Jacques Lhuillier, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1924-12-06 a Neufchâteau. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q123369081

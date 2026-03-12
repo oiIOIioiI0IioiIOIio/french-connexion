@@ -7,6 +7,8 @@ education: université de technologie de Compiègne
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Nicolas Berrod
 nationality: francaise
 nom_complet: Guillaume Robin
 occupation: personnalité du monde des affaires

@@ -7,6 +7,10 @@ education: université Claude-Bernard-Lyon-I
 genre: masculin
 keywords:
 - scientifique
+liens:
+- Fabien Sauvet
+- Julien Mathis Leroux
+- Ottman Zaïr
 nationality: francaise
 nom_complet: Raphaël Szymocha
 occupation: scientifique

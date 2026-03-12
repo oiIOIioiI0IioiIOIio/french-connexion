@@ -7,6 +7,14 @@ education: École normale supérieure de Lyon
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Augustin Trapenard
+- Bernard Bigot
+- Catherine Guesde
+- Gaultier Bès
+- Johann Uhres
+- Léa Bello
+- Marianne Durano
 nationality: francaise
 nom_complet: Matthias Fekl
 occupation: avocat ou avocate
@@ -22,7 +30,7 @@ tags:
 type: Personne
 ---
 
-Matthias Fekl, avocat ou avocate. Ne(e) le 1977-10-04 a Francfort-sur-le-Main. Formation : École normale supérieure de Lyon.
+Matthias Fekl, avocat ou avocate. Ne(e) le 1977-10-04 a Francfort-sur-le-Main. Formation : [[École normale supérieure]] de Lyon.
 
 ## Sources
 - http://www.wikidata.org/entity/Q3299831

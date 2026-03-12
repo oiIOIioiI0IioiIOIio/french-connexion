@@ -5,6 +5,8 @@ headquarters: Lille
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Mehdi Maïzi
 nom_complet: Skema Business School
 sources:
 - https://www.wikidata.org/entity/Q3486229

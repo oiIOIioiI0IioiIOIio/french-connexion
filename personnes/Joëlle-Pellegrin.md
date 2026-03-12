@@ -7,6 +7,23 @@ education: université Paris-Dauphine
 genre: féminin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Alain Cotta
+- Antoine Le Conte
+- Claude Askolovitch
+- Delphine Vitry
+- Gabrielle Cluzel
+- Gildas Sagot
+- Jérôme Chapuis
+- Laurent Aléonard
+- Nolwenn Le Blevennec
+- Philippe Dupont
+- Philippe Verdier
+- Pierre-François Blanc
+- Raphael Kahane
+- Sébastien Romelot
+- Xavier de Moulins
+- Yassine Redissi
 nationality: francaise
 nom_complet: Joëlle Pellegrin
 occupation: personnalité du monde des affaires
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Joëlle Pellegrin, personnalité du monde des affaires. Ne(e) le 1961-11-05 a Perpignan. Formation : université Paris-Dauphine.
+Joëlle Pellegrin, personnalité du monde des affaires. Ne(e) le 1961-11-05 a Perpignan. Formation : [[Université Paris-Dauphine]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33138006

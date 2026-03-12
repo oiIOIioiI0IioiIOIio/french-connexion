@@ -16,4 +16,4 @@ type: Media
 wikidata_id: Q3186849
 ---
 
-Le Journal de la Côtière, media francais.
+[[Le Jour]]nal de la Côtière, media francais.

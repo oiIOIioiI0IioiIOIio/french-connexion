@@ -7,6 +7,8 @@ education: Faculté des lettres de Sorbonne Université
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Louis Manaranche
 nationality: francaise
 nom_complet: Jennifer Lesieur
 occupation: journaliste
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Jennifer Lesieur, journaliste. Ne(e) le 1978-05-04. Formation : Faculté des lettres de Sorbonne Université.
+Jennifer Lesieur, journaliste. Ne(e) le 1978-05-04. Formation : Faculté des lettres de [[Sorbonne Université]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50383922

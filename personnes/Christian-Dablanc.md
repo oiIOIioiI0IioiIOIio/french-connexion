@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christian Dablanc, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1931-01-13 a Saumur. Formation : Institut d'études politiques de Paris.
+Christian Dablanc, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1931-01-13 a Saumur. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50765942

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Henri Masse, historien ou historienne. Ne(e) le 1947-08-11 a Cambrai. Formation : Institut d'études politiques de Paris.
+Henri Masse, historien ou historienne. Ne(e) le 1947-08-11 a Cambrai. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3131600

@@ -7,6 +7,17 @@ education: Institut français de presse
 genre: masculin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Charles Desjardins
+- Christelle Crosnier
+- Claude Belot
+- Emmanuel de Brantes
+- Ginie Van de Noort
+- Jean-François Julliard
+- Jérôme Béglé
+- Leïla Beratto
+- Maya Lauqué
+- Olivier Bertrand
 nationality: francaise
 nom_complet: Thomas Sotto
 occupation: présentateur ou présentatrice de journal

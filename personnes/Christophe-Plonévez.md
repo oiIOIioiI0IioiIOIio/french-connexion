@@ -7,6 +7,10 @@ education: Institut national des sciences appliquées de Lyon
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Christian Forestier
+- Christian Nibourel
+- Olivier Brourhant
 nationality: francaise
 nom_complet: Christophe Plonévez
 occupation: personnalité du monde des affaires
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Christophe Plonévez, personnalité du monde des affaires. Ne(e) le 1958-07-18 a Paris. Formation : Institut national des sciences appliquées de Lyon.
+Christophe Plonévez, personnalité du monde des affaires. Ne(e) le 1958-07-18 a Paris. Formation : [[Institut national des sciences appliquées de Lyon]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33269729

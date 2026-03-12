@@ -7,6 +7,8 @@ education: UCLouvain
 genre: masculin
 keywords:
 - militaire
+liens:
+- Abdoul Aziz Mbaye
 nationality: francaise
 nom_complet: Jean-Pierre Champroux
 occupation: militaire

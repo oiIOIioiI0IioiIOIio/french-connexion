@@ -6,6 +6,8 @@ industry: autres activités de soutien aux entreprises n.c.a.
 keywords:
 - entreprise
 - autres activités de soutien aux entreprises n.c.a.
+liens:
+- Institut Iliade
 nom_complet: Iliad
 sources:
 - https://www.wikidata.org/entity/Q1239347

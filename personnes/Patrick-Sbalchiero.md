@@ -7,6 +7,16 @@ education: École pratique des hautes études
 genre: masculin
 keywords:
 - historien ou historienne
+liens:
+- Alain Ruellan
+- Bernard Le Clère
+- Gaëlle Bélem
+- Guillaume Robert
+- Isabelle Coutant-Peyre
+- Pascal Bruckner
+- Rozenn Milin
+- Sébastien de Courtois
+- Xavier Accart
 nationality: francaise
 nom_complet: Patrick Sbalchiero
 occupation: historien ou historienne

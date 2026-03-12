@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Denis Lensel, journaliste. Ne(e) le 1954-01-01. Formation : université Paris-Sorbonne.
+Denis Lensel, journaliste. Ne(e) le 1954-01-01. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3022787

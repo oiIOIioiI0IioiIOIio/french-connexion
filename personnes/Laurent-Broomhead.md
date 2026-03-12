@@ -7,6 +7,16 @@ education: lycée Condorcet
 genre: masculin
 keywords:
 - ingénieur
+liens:
+- Alain Hollande
+- Amélie Guicheney
+- Christophe Bourseiller
+- Christophe Tison
+- Claude Bussière
+- Nicolas Chapuis
+- Philippe Lefait
+- Raymond Morice
+- Stéphane Barsacq
 nationality: francaise
 nom_complet: Laurent Broomhead
 occupation: ingénieur

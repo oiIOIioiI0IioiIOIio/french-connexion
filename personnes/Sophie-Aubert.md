@@ -7,6 +7,23 @@ education: Institut d'études politiques de Lyon
 genre: féminin
 keywords:
 - diplomate
+liens:
+- Adrien Jaulmes
+- Christiane Doré
+- Cécile Delarue
+- Dominique Lacroix
+- Gaspard Dhellemmes
+- Hubert Blanc
+- Jean-Marie Girier
+- Jérôme Tichit
+- Laure Martin Hernandez
+- Liseron Boudoul
+- Magali Serre
+- Muriel Soret
+- Pierre Siankowski
+- Régis Le Sommier
+- Sonia Chironi
+- Valérie Béranger
 nationality: francaise
 nom_complet: Sophie Aubert
 occupation: diplomate
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Sophie Aubert, diplomate. Ne(e) le 1967-09-28 a Troyes. Formation : Institut d'études politiques de Lyon.
+Sophie Aubert, diplomate. Ne(e) le 1967-09-28 a Troyes. Formation : [[Institut d'études politiques de Lyon]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33110559

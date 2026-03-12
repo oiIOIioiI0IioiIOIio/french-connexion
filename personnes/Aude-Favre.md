@@ -7,6 +7,15 @@ education: Centre de formation et de perfectionnement des journalistes
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Anne-Isabelle Tollet
+- Christine Goguet
+- Clarence Edgard-Rosa
+- Cécile Pivot
+- Djamel Mazi
+- Fabien Roussel
+- Gauthier Le Bret
+- Éric Delvaux
 nationality: francaise
 nom_complet: Aude Favre
 occupation: journaliste

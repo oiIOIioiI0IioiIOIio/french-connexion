@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Benoît Guidée, diplomate. Ne(e) le 1971-11-27 a Paris. Formation : Institut d'études politiques de Paris.
+Benoît Guidée, diplomate. Ne(e) le 1971-11-27 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q24321711

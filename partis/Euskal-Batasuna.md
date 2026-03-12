@@ -17,4 +17,4 @@ type: Parti
 wikidata_id: Q3755102
 ---
 
-Euskal Batasuna, parti politique francais.
+Euskal [[Batasuna]], parti politique francais.

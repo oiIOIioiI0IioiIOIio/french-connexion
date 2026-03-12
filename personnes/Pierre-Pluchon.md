@@ -7,6 +7,9 @@ education: Université de Toulouse
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Jean-François Casabonne-Masonnave
+- Thomas Castaignède
 nationality: francaise
 nom_complet: Pierre Pluchon
 occupation: diplomate
@@ -22,7 +25,7 @@ tags:
 type: Personne
 ---
 
-Pierre Pluchon, diplomate. Ne(e) le 1936-04-19 a Marseille. Formation : Université de Toulouse.
+Pierre Pluchon, diplomate. Ne(e) le 1936-04-19 a Marseille. Formation : [[Université de Toulouse]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q12895422

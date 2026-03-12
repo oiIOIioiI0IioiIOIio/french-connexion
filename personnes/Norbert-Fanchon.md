@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Norbert Fanchon, personnalité du monde des affaires. Ne(e) le 1973-06-12 a Bourgoin-Jallieu. Formation : HEC Paris.
+Norbert Fanchon, personnalité du monde des affaires. Ne(e) le 1973-06-12 a Bourgoin-Jallieu. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q114561393

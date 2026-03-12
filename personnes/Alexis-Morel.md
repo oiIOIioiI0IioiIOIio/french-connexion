@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alexis Morel, diplomate. Ne(e) le 1978-11-05 a Paris. Formation : École normale supérieure.
+Alexis Morel, diplomate. Ne(e) le 1978-11-05 a Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33266875

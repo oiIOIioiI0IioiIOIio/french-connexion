@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Henri Verdier, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1968-11-24 a Toulouse. Formation : École normale supérieure.
+Henri Verdier, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1968-11-24 a Toulouse. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3132142

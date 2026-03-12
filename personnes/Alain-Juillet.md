@@ -7,6 +7,10 @@ education: Université Stanford
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- André Lévy-Lang
+- Emmanuel Dupuis
+- Jean-Louis Gergorin
 nationality: francaise
 nom_complet: Alain Juillet
 occupation: personnalité du monde des affaires

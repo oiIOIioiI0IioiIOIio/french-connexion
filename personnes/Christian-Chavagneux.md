@@ -7,6 +7,14 @@ education: London School of Economics
 genre: masculin
 keywords:
 - économiste
+liens:
+- Achren Verdian
+- Agnès Poirier
+- François Croquette
+- Lucie Castets
+- Olivier Guez
+- Roland Dumas
+- Thomas Andrieu
 nationality: francaise
 nom_complet: Christian Chavagneux
 occupation: économiste

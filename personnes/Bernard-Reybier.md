@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bernard Reybier, personnalité du monde des affaires. Ne(e) le 1952-07-16 a Lyon. Formation : EM Lyon Business School.
+Bernard Reybier, personnalité du monde des affaires. Ne(e) le 1952-07-16 a Lyon. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33113035

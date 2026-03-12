@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Isabelle Braun-Lemaire, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1969-04-11 a Aix-en-Provence. Formation : École polytechnique.
+Isabelle Braun-Lemaire, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1969-04-11 a Aix-en-Provence. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33105365

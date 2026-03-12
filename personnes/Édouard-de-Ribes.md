@@ -7,6 +7,14 @@ education: lycée Janson-de-Sailly
 genre: masculin
 keywords:
 - banquier
+liens:
+- Christophe Ono-dit-Biot
+- Hubert Heilbronn
+- Laurence de Charette
+- Maxime de Rostolan
+- René Ribière
+- Thomas Schmider
+- Éric de Rothschild
 nationality: francaise
 nom_complet: Édouard de Ribes
 occupation: banquier
@@ -22,7 +30,7 @@ tags:
 type: Personne
 ---
 
-Édouard de Ribes, banquier. Ne(e) le 1923-01-27 a 8e arrondissement de Paris. Formation : lycée Janson-de-Sailly.
+Édouard de Ribes, banquier. Ne(e) le 1923-01-27 a 8e arrondissement de Paris. Formation : [[Lycée Janson-de-Sailly]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3580085

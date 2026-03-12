@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Baptiste Bouthier, scénariste. Ne(e) le 1987-09-21 a Île-de-France. Formation : Centre de formation des journalistes.
+Baptiste Bouthier, scénariste. Ne(e) le 1987-09-21 a Île-de-France. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q111204431

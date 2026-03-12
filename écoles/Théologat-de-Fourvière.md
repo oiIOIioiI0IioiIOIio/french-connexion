@@ -4,6 +4,8 @@ headquarters: Lyon
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Allister Heath
 nom_complet: Théologat de Fourvière
 sources:
 - https://www.wikidata.org/entity/Q109519606

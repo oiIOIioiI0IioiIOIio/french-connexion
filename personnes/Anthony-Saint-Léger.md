@@ -7,6 +7,8 @@ education: université de Münster
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Pierre Lanapats
 nationality: francaise
 nom_complet: Anthony Saint-Léger
 occupation: journaliste

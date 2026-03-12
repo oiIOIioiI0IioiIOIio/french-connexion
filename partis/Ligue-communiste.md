@@ -4,6 +4,8 @@ founded: '1969-01-01'
 keywords:
 - parti politique
 - politique
+liens:
+- Ligue communiste révolutionnaire
 nom_complet: Ligue communiste
 sources:
 - https://www.wikidata.org/entity/Q3240305

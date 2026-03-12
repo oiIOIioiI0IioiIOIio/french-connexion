@@ -7,6 +7,11 @@ education: Institut des hautes études de la sécurité intérieure
 genre: féminin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Daniel Matalon
+- Jean Ambroggiani
+- Jean-Pierre Condemine
+- Roger Marion
 nationality: francaise
 nom_complet: Joëlle Le Mouel
 occupation: haut fonctionnaire ou haute fonctionnaire

@@ -7,6 +7,9 @@ education: université Grenoble-III
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Jean-Louis Roux
+- Marc Dozier
 nationality: francaise
 nom_complet: Guillaume Narjollet
 occupation: diplomate

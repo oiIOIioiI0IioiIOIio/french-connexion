@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gisèle Halimi, écrivain ou écrivaine. Ne(e) le 1927-07-27 a La Goulette. Formation : Institut d'études politiques de Paris.
+Gisèle Halimi, écrivain ou écrivaine. Ne(e) le 1927-07-27 a La Goulette. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q457705

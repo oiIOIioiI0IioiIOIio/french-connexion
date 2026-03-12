@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Georges Ghosn, journaliste. Ne(e) le 1954-01-15 a Beyrouth. Formation : Institut d'études politiques de Paris.
+Georges Ghosn, journaliste. Ne(e) le 1954-01-15 a Beyrouth. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3102771

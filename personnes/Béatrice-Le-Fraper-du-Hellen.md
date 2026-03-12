@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Béatrice Le Fraper du Hellen, diplomate. Ne(e) le 1961-06-28 a Nice. Formation : Institut d'études politiques de Paris.
+Béatrice Le Fraper du Hellen, diplomate. Ne(e) le 1961-06-28 a Nice. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50365159

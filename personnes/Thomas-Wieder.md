@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Thomas Wieder, journaliste. Ne(e) le 1979-06-17 a Neuilly-sur-Seine. Formation : École normale supérieure.
+Thomas Wieder, journaliste. Ne(e) le 1979-06-17 a Neuilly-sur-Seine. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q28119480

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Henri Emmanuelli, écrivain ou écrivaine. Ne(e) le 1945-05-31 a Eaux-Bonnes. Formation : Institut d'études politiques de Paris.
+Henri Emmanuelli, écrivain ou écrivaine. Ne(e) le 1945-05-31 a Eaux-Bonnes. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q1347791

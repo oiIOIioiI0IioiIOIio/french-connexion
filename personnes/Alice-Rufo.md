@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alice Rufo, diplomate. Ne(e) le 1980-04-09 a Toulon. Formation : École normale supérieure.
+Alice Rufo, diplomate. Ne(e) le 1980-04-09 a Toulon. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q47312015

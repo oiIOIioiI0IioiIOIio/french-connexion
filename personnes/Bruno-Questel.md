@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bruno Questel, avocat ou avocate. Ne(e) le 1966-12-21 a Bourg-Achard. Formation : université Paris-I-Panthéon-Sorbonne.
+Bruno Questel, avocat ou avocate. Ne(e) le 1966-12-21 a Bourg-Achard. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q30503206

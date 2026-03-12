@@ -7,6 +7,14 @@ education: université de Cambridge
 genre: féminin
 keywords:
 - acteur ou actrice
+liens:
+- Arnold Philibert Dubois
+- Frédéric Dal Vecchio
+- Guy Danet
+- Gérald Olivier
+- Henri Burin des Roziers
+- Ingrid Therwath
+- Manon de La Selle
 nationality: francaise
 nom_complet: Myriam François-Cerrah
 occupation: acteur ou actrice

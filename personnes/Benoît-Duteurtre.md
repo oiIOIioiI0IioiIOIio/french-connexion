@@ -7,6 +7,12 @@ education: université de Rouen-Normandie
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Audrey Pulvar
+- Emmanuel Ratier
+- Guillaume Jobin
+- Paul-Jacques Lehmann
+- Vincent Hommeril
 nationality: francaise
 nom_complet: Benoît Duteurtre
 occupation: écrivain ou écrivaine

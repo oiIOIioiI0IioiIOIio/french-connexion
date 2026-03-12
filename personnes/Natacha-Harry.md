@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Natacha Harry, vétérinaire. Ne(e) le 1972-10-21 a Syndicat du Pays Dunois. Formation : HEC Paris.
+Natacha Harry, vétérinaire. Ne(e) le 1972-10-21 a Syndicat du Pays Dunois. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q18745222

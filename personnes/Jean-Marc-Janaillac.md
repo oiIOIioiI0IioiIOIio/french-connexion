@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Marc Janaillac, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1953-04-26 a Saint-Sulpice-de-Roumagnac. Formation : HEC Paris.
+Jean-Marc Janaillac, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1953-04-26 a Saint-Sulpice-de-Roumagnac. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q23979147

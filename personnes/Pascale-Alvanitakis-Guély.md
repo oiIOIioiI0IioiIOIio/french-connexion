@@ -7,6 +7,8 @@ education: Université Aston
 genre: féminin
 keywords:
 - vice-président
+liens:
+- Jean-Charles Robin
 nationality: francaise
 nom_complet: Pascale Alvanitakis-Guély
 occupation: vice-président

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alexandre Fourtoy, écrivain ou écrivaine. Ne(e) le 1969-11-06 a Dijon. Formation : EM Lyon Business School.
+Alexandre Fourtoy, écrivain ou écrivaine. Ne(e) le 1969-11-06 a Dijon. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q137757734

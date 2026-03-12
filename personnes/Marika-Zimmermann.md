@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marika Zimmermann, personnalité du monde des affaires. Ne(e) le 1974-09-25 a Neuilly-sur-Seine. Formation : Institut national des sciences appliquées de Toulouse.
+Marika Zimmermann, personnalité du monde des affaires. Ne(e) le 1974-09-25 a Neuilly-sur-Seine. Formation : [[Institut national des sciences appliquées de Toulouse]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q134727917

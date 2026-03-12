@@ -7,6 +7,12 @@ education: université de Versailles-Saint-Quentin-en-Yvelines
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- François-Xavier Bourmaud
+- Isabelle Saporta
+- Jérôme Salomon
+- Martin Pénet
+- Nicolas Barotte
 nationality: francaise
 nom_complet: Tugdual de Dieuleveult
 occupation: écrivain ou écrivaine

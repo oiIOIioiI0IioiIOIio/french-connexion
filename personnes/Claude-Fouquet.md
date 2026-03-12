@@ -7,6 +7,13 @@ education: Université de Chicago
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Arnaud Péricard
+- Diego Buñuel
+- Emmanuel Roman
+- François Morin
+- Marc-Olivier Strauss-Kahn
+- Pierre R. Graham
 nationality: francaise
 nom_complet: Claude Fouquet
 occupation: diplomate

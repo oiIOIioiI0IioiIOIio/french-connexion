@@ -7,6 +7,15 @@ education: Centre de formation et de perfectionnement des journalistes
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Anne-Isabelle Tollet
+- Aude Favre
+- Christine Goguet
+- Clarence Edgard-Rosa
+- Cécile Pivot
+- Djamel Mazi
+- Fabien Roussel
+- Gauthier Le Bret
 nationality: francaise
 nom_complet: Éric Delvaux
 occupation: journaliste

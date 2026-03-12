@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Clélie Mathias, présentateur ou présentatrice de journal. Ne(e) le 1979-12-11 a Lyon. Formation : Institut d'études politiques de Paris.
+Clélie Mathias, présentateur ou présentatrice de journal. Ne(e) le 1979-12-11 a Lyon. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2980514

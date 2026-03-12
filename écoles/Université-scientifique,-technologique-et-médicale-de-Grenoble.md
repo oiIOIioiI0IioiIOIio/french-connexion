@@ -4,6 +4,9 @@ founded: '1980-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Amal Alamuddin
+- Éric Raynaud
 nom_complet: Université scientifique, technologique et médicale de Grenoble
 sources:
 - https://www.wikidata.org/entity/Q124377879

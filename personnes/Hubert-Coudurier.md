@@ -7,6 +7,11 @@ education: Institut des hautes études de défense nationale
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Claude Charbonniaud
+- Hervé-Michel Gobilliard
+- Jérôme Bellanger
+- Pierre Somveille
 nationality: francaise
 nom_complet: Hubert Coudurier
 occupation: journaliste
@@ -22,7 +27,7 @@ tags:
 type: Personne
 ---
 
-Hubert Coudurier, journaliste. Ne(e) le 1958-04-07 a Morlaix. Formation : Institut des hautes études de défense nationale.
+Hubert Coudurier, journaliste. Ne(e) le 1958-04-07 a Morlaix. Formation : [[Institut des hautes études de défense nationale]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3141970

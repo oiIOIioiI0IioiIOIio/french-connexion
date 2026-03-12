@@ -7,6 +7,30 @@ education: Institut pratique du journalisme
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Astrid Bard
+- Camille Grenu
+- Catherine Chabaud
+- Charlotte Le Grix de La Salle
+- Dorothée Olliéric
+- François Pécheux
+- Georges Malbrunot
+- Gérard Davet
+- Hervé Mathoux
+- Jamy Gourmaud
+- Julien Arnaud
+- Julien Bellver
+- Marlène Séguin
+- Mathieu Palain
+- Odile Longueval
+- Olivier Delacroix
+- Olivier Truchot
+- Patrick de Saint-Exupéry
+- Romain Hussenot
+- Sonia Ghezali
+- Thierry Fréret
+- Édouard Zambeaux
+- Éric Leser
 nationality: francaise
 nom_complet: Bernard Sananès
 occupation: personnalité du monde des affaires
@@ -22,7 +46,7 @@ tags:
 type: Personne
 ---
 
-Bernard Sananès, personnalité du monde des affaires. Ne(e) le 1963-07-31 a Nice. Formation : Institut pratique du journalisme.
+Bernard Sananès, personnalité du monde des affaires. Ne(e) le 1963-07-31 a Nice. Formation : [[Institut pratique du journalisme]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2898584

@@ -7,6 +7,13 @@ education: École nationale de l'aviation civile
 genre: masculin
 keywords:
 - ingénieur
+liens:
+- Farid Zizi
+- Jean-Marc Alliot
+- Jérôme Bastianelli
+- Michel Wachenheim
+- Patrick Ky
+- Paul-Louis Arslanian
 nationality: francaise
 nom_complet: Jacques Villiers
 occupation: ingénieur

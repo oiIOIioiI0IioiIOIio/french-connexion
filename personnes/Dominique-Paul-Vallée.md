@@ -7,6 +7,14 @@ education: École centrale Paris
 genre: masculin
 keywords:
 - juge
+liens:
+- Christophe Chantepy
+- Djamel Agaoua
+- François Ecalle
+- Jacques Rosselin
+- Jean-Louis Zoël
+- Stéphane Bredin
+- Xavier Lefort
 nationality: francaise
 nom_complet: Dominique-Paul Vallée
 occupation: juge

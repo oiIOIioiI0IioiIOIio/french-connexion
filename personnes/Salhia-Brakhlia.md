@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Salhia Brakhlia, présentateur ou présentatrice de journal. Ne(e) le 1986-05-13 a Condé-sur-l'Escaut. Formation : université Paris-I-Panthéon-Sorbonne.
+Salhia Brakhlia, présentateur ou présentatrice de journal. Ne(e) le 1986-05-13 a Condé-sur-l'Escaut. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16855348

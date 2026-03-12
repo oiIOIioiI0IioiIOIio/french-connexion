@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christophe Deguine, personnalité du monde des affaires. Ne(e) le 1977-11-04. Formation : EM Lyon Business School.
+Christophe Deguine, personnalité du monde des affaires. Ne(e) le 1977-11-04. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q131448634

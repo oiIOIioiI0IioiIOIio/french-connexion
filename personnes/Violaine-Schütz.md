@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Violaine Schütz, journaliste. Ne(e) le 1980-09-19 a Marseille. Formation : université Paris-Sorbonne.
+Violaine Schütz, journaliste. Ne(e) le 1980-09-19 a Marseille. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q131649598

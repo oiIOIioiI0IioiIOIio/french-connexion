@@ -7,6 +7,21 @@ education: Université Columbia
 genre: féminin
 keywords:
 - avocat ou avocate
+liens:
+- Alexandra Bensaïd
+- Emmanuel Levacher
+- Frédérique Camilleri
+- Guillaume Debré
+- Jean-Michel Guénod
+- Klara Wyrzykowska
+- Kéthévane Gorjestani
+- Olivier Royant
+- Philippe Oddou
+- Rachel-Flore Pardo
+- Robert Badinter
+- Rudy Rochman
+- Salomé Zourabichvili
+- Éléonore Caroit
 nationality: francaise
 nom_complet: Julia Minkowski
 occupation: avocat ou avocate

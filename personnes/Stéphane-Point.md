@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Stéphane Point, personnalité du monde des affaires. Ne(e) le 1964-11-09 a Melun. Formation : EM Lyon Business School.
+Stéphane Point, personnalité du monde des affaires. Ne(e) le 1964-11-09 a Melun. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q138392847

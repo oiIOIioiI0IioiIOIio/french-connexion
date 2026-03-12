@@ -7,6 +7,12 @@ education: École normale supérieure de Fontenay-Saint-Cloud
 genre: féminin
 keywords:
 - diplomate
+liens:
+- Adélaïde de Clermont-Tonnerre
+- Emmanuel Kessler
+- Michka Assayas
+- Nicolas Demorand
+- Xavier de La Porte
 nationality: francaise
 nom_complet: Lorène Lemor
 occupation: diplomate
@@ -22,7 +28,7 @@ tags:
 type: Personne
 ---
 
-Lorène Lemor, diplomate. Ne(e) le 1980-07-05. Formation : École normale supérieure de Fontenay-Saint-Cloud.
+Lorène Lemor, diplomate. Ne(e) le 1980-07-05. Formation : [[École normale supérieure]] de Fontenay-Saint-Cloud.
 
 ## Sources
 - http://www.wikidata.org/entity/Q96761450

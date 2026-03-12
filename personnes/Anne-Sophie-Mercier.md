@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Anne-Sophie Mercier, journaliste. Ne(e) le 1964-01-01. Formation : HEC Paris.
+Anne-Sophie Mercier, journaliste. Ne(e) le 1964-01-01. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2850934

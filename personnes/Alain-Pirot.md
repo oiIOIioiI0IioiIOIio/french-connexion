@@ -7,6 +7,18 @@ education: université Rennes-II
 genre: masculin
 keywords:
 - réalisateur ou réalisatrice de documentaire
+liens:
+- Anne-Claire Coudray
+- Denis Ruellan
+- Erwan Chartier
+- Fanny Chauffin
+- Gaspard Glanz
+- Hélène Fily
+- Maryse Burgot
+- Morgane Tual
+- Philippe Georgeais
+- Samuel Le Goff
+- Sidonie Bonnec
 nationality: francaise
 nom_complet: Alain Pirot
 occupation: réalisateur ou réalisatrice de documentaire

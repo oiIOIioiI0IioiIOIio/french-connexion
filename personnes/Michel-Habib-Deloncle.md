@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel Habib-Deloncle, avocat ou avocate. Ne(e) le 1921-11-26 a Neuilly-sur-Seine. Formation : Institut d'études politiques de Paris.
+Michel Habib-Deloncle, avocat ou avocate. Ne(e) le 1921-11-26 a Neuilly-sur-Seine. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q1930751

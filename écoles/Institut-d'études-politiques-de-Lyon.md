@@ -5,6 +5,24 @@ headquarters: Lyon
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Adrien Jaulmes
+- Christiane Doré
+- Cécile Delarue
+- Dominique Lacroix
+- Gaspard Dhellemmes
+- Hubert Blanc
+- Jean-Marie Girier
+- Jérôme Tichit
+- Laure Martin Hernandez
+- Liseron Boudoul
+- Magali Serre
+- Muriel Soret
+- Pierre Siankowski
+- Régis Le Sommier
+- Sonia Chironi
+- Sophie Aubert
+- Valérie Béranger
 nom_complet: Institut d'études politiques de Lyon
 sources:
 - https://www.wikidata.org/entity/Q2253344

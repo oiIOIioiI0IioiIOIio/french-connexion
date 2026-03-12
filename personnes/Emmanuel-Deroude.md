@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Emmanuel Deroude, personnalité du monde des affaires. Ne(e) le 1968-12-07. Formation : EM Lyon Business School.
+Emmanuel Deroude, personnalité du monde des affaires. Ne(e) le 1968-12-07. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q123986056

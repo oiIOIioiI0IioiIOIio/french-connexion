@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marianne MARGATÉ est senateur. Ne(e) le 1971-09-17.
+[[Marianne]] MARGATÉ est senateur. Ne(e) le 1971-09-17.
 
 Fonction declaree HATVP : Sénatrice de Seine-et-Marne
 

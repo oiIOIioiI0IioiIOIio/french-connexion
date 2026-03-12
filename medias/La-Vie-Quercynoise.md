@@ -16,4 +16,4 @@ website: https://actu.fr/lot/
 wikidata_id: Q72067576
 ---
 
-La Vie Quercynoise, media francais.
+[[La Vie]] Quercynoise, media francais.

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Camille Diao, animateur ou animatrice de télévision. Ne(e) le 1990-11-24 a Nogent-sur-Marne. Formation : Institut d'études politiques de Paris.
+Camille Diao, animateur ou animatrice de télévision. Ne(e) le 1990-11-24 a Nogent-sur-Marne. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q116301009

@@ -7,6 +7,16 @@ education: École du Louvre
 genre: féminin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Aurélie Godefroy
+- Bernard Pignerol
+- Claudine Le Tourneur d'Ison
+- Didier Rykner
+- Georges Gautier
+- Hélène Risser
+- Inès de La Fressange
+- Juliette Morillot
+- Léa Lootgieter
 nationality: francaise
 nom_complet: Rosine Lheureux
 occupation: haut fonctionnaire ou haute fonctionnaire

@@ -7,6 +7,12 @@ education: université Lille-III
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Catherine Mangin-Dessarts
+- Didier Rogasik
+- Flore Maréchal
+- Kidi Bebey
+- Meriem Amellal
 nationality: francaise
 nom_complet: Réginald Gaillard
 occupation: écrivain ou écrivaine

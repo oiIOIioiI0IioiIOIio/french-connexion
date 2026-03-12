@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marine HAMELET est depute a l'Assemblee nationale. Ne(e) le 1967-07-13.
+[[Marine]] HAMELET est depute a l'Assemblee nationale. Ne(e) le 1967-07-13.
 
 Fonction declaree HATVP : Députée de Tarn-et-Garonne
 

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Yael Mellul, avocat ou avocate. Ne(e) le 1971-01-11 a Antony. Formation : université Paris-I-Panthéon-Sorbonne.
+Yael Mellul, avocat ou avocate. Ne(e) le 1971-01-11 a Antony. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q56312955

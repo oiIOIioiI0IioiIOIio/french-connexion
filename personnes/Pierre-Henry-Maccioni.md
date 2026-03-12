@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre-Henry Maccioni, personnalité politique. Ne(e) le 1948-05-14 a Saint-Denis. Formation : Institut d'études politiques de Paris.
+Pierre-Henry Maccioni, personnalité politique. Ne(e) le 1948-05-14 a Saint-Denis. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3383124

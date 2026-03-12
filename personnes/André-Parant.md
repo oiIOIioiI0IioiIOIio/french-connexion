@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-André Parant, diplomate. Ne(e) le 1956-10-11 a Salins-les-Bains. Formation : Institut d'études politiques de Paris.
+André Parant, diplomate. Ne(e) le 1956-10-11 a Salins-les-Bains. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16010451

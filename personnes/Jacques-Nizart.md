@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jacques Nizart, diplomate. Ne(e) le 1935-01-01 a Fontainebleau. Formation : Institut d'études politiques de Paris.
+Jacques Nizart, diplomate. Ne(e) le 1935-01-01 a Fontainebleau. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q94977587

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Charles Larsonneur, personnalité politique. Ne(e) le 1984-01-24 a Brest. Formation : université Paris-I-Panthéon-Sorbonne.
+Jean-Charles Larsonneur, personnalité politique. Ne(e) le 1984-01-24 a Brest. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q30343212

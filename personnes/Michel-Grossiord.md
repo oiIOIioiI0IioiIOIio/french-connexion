@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel Grossiord, présentateur ou présentatrice de journal. Ne(e) le 1957-01-01 a Lons-le-Saunier. Formation : Centre de formation des journalistes.
+Michel Grossiord, présentateur ou présentatrice de journal. Ne(e) le 1957-01-01 a Lons-le-Saunier. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3309829

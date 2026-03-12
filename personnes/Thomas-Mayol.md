@@ -7,6 +7,10 @@ education: Université de Montpellier
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Mustapha Adib
+- Robert Ménard
+- Ziza Massika
 nationality: francaise
 nom_complet: Thomas Mayol
 occupation: personnalité du monde des affaires
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Thomas Mayol, personnalité du monde des affaires. Ne(e) le 1998-05-04 a Nîmes. Formation : Université de Montpellier.
+Thomas Mayol, personnalité du monde des affaires. Ne(e) le 1998-05-04 a Nîmes. Formation : [[Université de Montpellier]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q133282144

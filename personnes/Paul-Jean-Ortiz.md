@@ -7,6 +7,8 @@ education: université de Pékin
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Jacques Pellet
 nationality: francaise
 nom_complet: Paul Jean-Ortiz
 occupation: diplomate
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Paul Jean-Ortiz, diplomate. Ne(e) le 1957-03-19 a Casablanca. Formation : université de Pékin.
+[[Paul Jean]]-Ortiz, diplomate. Ne(e) le 1957-03-19 a Casablanca. Formation : université de Pékin.
 
 ## Sources
 - http://www.wikidata.org/entity/Q3371521

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Éric Branca, historien ou historienne. Ne(e) le 1958-03-01. Formation : université Paris-Sorbonne.
+Éric Branca, historien ou historienne. Ne(e) le 1958-03-01. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q40794082

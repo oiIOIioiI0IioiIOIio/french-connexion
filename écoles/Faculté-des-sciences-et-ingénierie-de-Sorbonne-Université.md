@@ -17,4 +17,4 @@ type: Ecole
 wikidata_id: Q109024382
 ---
 
-Faculté des sciences et ingénierie de Sorbonne Université, etablissement d'enseignement superieur francais.
+Faculté des sciences et ingénierie de [[Sorbonne Université]], etablissement d'enseignement superieur francais.

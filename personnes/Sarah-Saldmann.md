@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sarah Saldmann, écrivain ou écrivaine. Ne(e) le 1991-08-18. Formation : université Paris-I-Panthéon-Sorbonne.
+Sarah Saldmann, écrivain ou écrivaine. Ne(e) le 1991-08-18. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q114658103

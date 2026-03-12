@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Lætitia Avia, avocat ou avocate. Ne(e) le 1985-10-29 a Livry-Gargan. Formation : Institut d'études politiques de Paris.
+Lætitia Avia, avocat ou avocate. Ne(e) le 1985-10-29 a Livry-Gargan. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q30339351

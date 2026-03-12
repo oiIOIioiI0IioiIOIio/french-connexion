@@ -7,6 +7,9 @@ education: université d'Angers
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Anthony Bellanger
+- Olivier Ménard
 nationality: francaise
 nom_complet: Karim Rissouli
 occupation: journaliste

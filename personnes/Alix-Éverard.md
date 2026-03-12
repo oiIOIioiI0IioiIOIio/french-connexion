@@ -7,6 +7,9 @@ education: Université d'Oxford
 genre: féminin
 keywords:
 - diplomate
+liens:
+- Cayetana Álvarez de Toledo
+- Michal Ben-Naphtali
 nationality: francaise
 nom_complet: Alix Éverard
 occupation: diplomate

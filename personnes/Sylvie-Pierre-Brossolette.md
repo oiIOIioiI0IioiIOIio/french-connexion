@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sylvie Pierre-Brossolette, journaliste. Ne(e) le 1954-05-25 a Paris. Formation : Institut d'études politiques de Paris.
+Sylvie Pierre-Brossolette, journaliste. Ne(e) le 1954-05-25 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3507385

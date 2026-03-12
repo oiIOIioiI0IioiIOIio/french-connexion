@@ -7,6 +7,25 @@ education: Institut d'études politiques de Grenoble
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- André Vallini
+- Ariane Lavrilleux
+- Benjamin Sportouch
+- Bernard Lesterlin
+- Caroline Roux
+- Coralie Delaume
+- Fabien Escalona
+- Guillaume Daret
+- Jean-Dominique Merchet
+- Jean-Luc Névache
+- Lionel Astruc
+- Luc Bronner
+- Marine Chanel
+- Nicolas Geay
+- Olivier Revol
+- Paul Marchand
+- Roger Gros
+- Ronan Lancelot
 nationality: francaise
 nom_complet: Camille Emmanuelle
 occupation: écrivain ou écrivaine
@@ -22,7 +41,7 @@ tags:
 type: Personne
 ---
 
-Camille Emmanuelle, écrivain ou écrivaine. Ne(e) le 1980-07-18. Formation : Institut d'études politiques de Grenoble.
+Camille Emmanuelle, écrivain ou écrivaine. Ne(e) le 1980-07-18. Formation : [[Institut d'études politiques de Grenoble]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q23901662

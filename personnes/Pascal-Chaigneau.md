@@ -7,6 +7,41 @@ education: École des hautes études en sciences sociales
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Alain Soral
+- Alain-Xavier Wurst
+- Anastasia Iline
+- Arié Alimi
+- Aude Terray
+- Aïssa Dermouche
+- Bertrand Delais
+- Blandine Rinkel
+- Bruno Foucher
+- Caroline Fourest
+- Daniel Keller
+- Daniel Lenoir
+- Delphine Minoui
+- Dominique Decherf
+- Franck Ferrand
+- François Jacq
+- Frédéric Martel
+- Guillaume de Thieulloy
+- Jean-Marc Berthon
+- Jean-Michel Steg
+- Jean-Yves Camus
+- Jérôme Ruskin
+- Laure Murat
+- Laurent Larcher
+- Marc Endeweld
+- Marie-Christine Saragosse
+- Olivier Favry
+- Olivier Weber
+- Pierre Voillery
+- Serge Salat
+- Thierry Malleret
+- Thomas Piketty
+- Vincent Glad
+- Zineb El Rhazoui
 nationality: francaise
 nom_complet: Pascal Chaigneau
 occupation: avocat ou avocate

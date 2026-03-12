@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Philippe Broussard, journaliste. Ne(e) le 1963-06-20 a Paris. Formation : Centre de formation des journalistes.
+Philippe Broussard, journaliste. Ne(e) le 1963-06-20 a Paris. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3379457

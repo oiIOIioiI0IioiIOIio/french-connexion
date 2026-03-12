@@ -5,6 +5,14 @@ headquarters: Paris
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Faculté de droit de l'Institut catholique de Paris
+- Faculté de sciences sociales, d'économie et de droit de l'Institut catholique de
+  Paris
+- Faculté de théologie de l'Institut catholique de Paris
+- Faculté libre de droit de l'Institut catholique de Paris
+- Priscilia de Selve
+- faculté de philosophie de l'Institut catholique de Paris
 nom_complet: Institut catholique de Paris
 sources:
 - https://www.wikidata.org/entity/Q1470431

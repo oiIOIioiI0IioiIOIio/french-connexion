@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Guy Lescoeur, personnalité du monde des affaires. Ne(e) le 1946-07-25. Formation : EM Lyon Business School.
+Guy Lescoeur, personnalité du monde des affaires. Ne(e) le 1946-07-25. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q123312801

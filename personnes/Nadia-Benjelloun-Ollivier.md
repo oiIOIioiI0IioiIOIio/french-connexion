@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nadia Benjelloun-Ollivier, écrivain ou écrivaine. Ne(e) le 1959-01-01 a Casablanca. Formation : Institut d'études politiques de Paris.
+Nadia Benjelloun-Ollivier, écrivain ou écrivaine. Ne(e) le 1959-01-01 a Casablanca. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q137945156

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Chloé Thibaud, écrivain ou écrivaine. Ne(e) le 1990-11-27. Formation : université Paris-Sorbonne.
+Chloé Thibaud, écrivain ou écrivaine. Ne(e) le 1990-11-27. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q131608373

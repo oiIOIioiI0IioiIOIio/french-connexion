@@ -7,6 +7,13 @@ education: Institut d’études politiques de Lille
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Astrid de Villaines
+- Céline Rousseaux
+- Frédéric Vion
+- Lucie Chaumette
+- Marine Turchi
+- Pierre Alonso
 nationality: francaise
 nom_complet: Étienne Campion
 occupation: journaliste
@@ -22,7 +29,7 @@ tags:
 type: Personne
 ---
 
-Étienne Campion, journaliste. Ne(e) le 1995-01-01 a Le Havre. Formation : Institut d’études politiques de Lille.
+Étienne Campion, journaliste. Ne(e) le 1995-01-01 a Le Havre. Formation : [[Institut d’études politiques de Lille]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q111032077

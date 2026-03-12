@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Thierry Bert, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1952-01-11. Formation : École normale supérieure.
+Thierry Bert, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1952-01-11. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33108188

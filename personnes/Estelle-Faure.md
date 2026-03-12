@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Estelle Faure, journaliste. Ne(e) le 1988-03-01. Formation : Centre de formation des journalistes.
+Estelle Faure, journaliste. Ne(e) le 1988-03-01. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q135833350

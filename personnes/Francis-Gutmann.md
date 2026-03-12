@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Francis Gutmann, diplomate. Ne(e) le 1930-10-04 a 16e arrondissement de Paris. Formation : Institut d'études politiques de Paris.
+Francis Gutmann, diplomate. Ne(e) le 1930-10-04 a 16e arrondissement de Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q25293052

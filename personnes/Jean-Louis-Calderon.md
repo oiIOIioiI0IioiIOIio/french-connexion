@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Louis Calderon, journaliste. Ne(e) le 1958-04-19 a Madrid. Formation : Centre de formation des journalistes.
+Jean-Louis Calderon, journaliste. Ne(e) le 1958-04-19 a Madrid. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3166676

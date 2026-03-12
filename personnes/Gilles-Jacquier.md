@@ -7,6 +7,8 @@ education: École supérieure de réalisation audiovisuelle
 genre: masculin
 keywords:
 - directeur ou directrice de la photographie
+liens:
+- Karine Baste
 nationality: francaise
 nom_complet: Gilles Jacquier
 occupation: directeur ou directrice de la photographie

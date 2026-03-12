@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Arnaud de Sury, diplomate. Ne(e) le 1970-03-21 a Mulhouse. Formation : Institut d'études politiques de Paris.
+Arnaud de Sury, diplomate. Ne(e) le 1970-03-21 a Mulhouse. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q105318355

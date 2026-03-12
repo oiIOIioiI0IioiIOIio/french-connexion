@@ -7,6 +7,14 @@ education: faculté des lettres de Paris
 genre: féminin
 keywords:
 - diplomate
+liens:
+- Alain Rouillard
+- Alexis Berelowitch
+- Claude Ambrosini
+- Jean-Claude Moreau
+- Marcel Martin
+- Pierre Boillot
+- Pierre Lafrance
 nationality: francaise
 nom_complet: Marie-Françoise Hamard
 occupation: diplomate
@@ -22,7 +30,7 @@ tags:
 type: Personne
 ---
 
-Marie-Françoise Hamard, diplomate. Ne(e) le 1946-12-21. Formation : faculté des lettres de Paris.
+Marie-Françoise Hamard, diplomate. Ne(e) le 1946-12-21. Formation : [[faculté des lettres de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q132484340

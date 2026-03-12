@@ -7,6 +7,8 @@ education: université de Rennes
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Raymond-François Le Bris
 nationality: francaise
 nom_complet: Éric Morvan
 occupation: haut fonctionnaire ou haute fonctionnaire

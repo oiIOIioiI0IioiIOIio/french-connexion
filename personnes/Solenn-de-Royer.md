@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Solenn de Royer, journaliste. Ne(e) le 1974-02-07 a Saint-Martin-d'Hères. Formation : Institut d'études politiques de Paris.
+Solenn de Royer, journaliste. Ne(e) le 1974-02-07 a Saint-Martin-d'Hères. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q46092363

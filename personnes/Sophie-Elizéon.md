@@ -7,6 +7,28 @@ education: université Lumière-Lyon-II
 genre: féminin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Adrien Marcel Dubois
+- André Buffard
+- Gilles Gouédard-Comte
+- Jacques-Édouard Charret
+- Joël Pain
+- Juliette Aubrun
+- Jérôme Segal
+- Laurent Gamet
+- Louis-Jacques Rollet-Andriane
+- Lyane Guillaume
+- Michèle Léridon
+- Norberto Torres Cortés
+- Olivier Guillaume
+- Paul Ariès
+- Philippe Brunet-Lecomte
+- Philippe Cohen
+- Romaric Daurier
+- Salomé Saqué
+- Stéphane Cayrol
+- Sébastien Chanove
+- Éric Falt
 nationality: francaise
 nom_complet: Sophie Elizéon
 occupation: haut fonctionnaire ou haute fonctionnaire

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-François Drillon, personnalité du monde des affaires. Ne(e) le 1965-05-15 a Boulogne-Billancourt. Formation : EM Lyon Business School.
+François Drillon, personnalité du monde des affaires. Ne(e) le 1965-05-15 a Boulogne-Billancourt. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q129652228

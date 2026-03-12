@@ -7,6 +7,9 @@ education: null
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Jean-Philippe Martin
+- Philippe Martinat
 nationality: francaise
 nom_complet: Philippe Martin
 occupation: personnalité politique

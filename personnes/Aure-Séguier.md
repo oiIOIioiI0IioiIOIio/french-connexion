@@ -7,6 +7,13 @@ education: université Toulouse-Jean-Jaurès
 genre: féminin
 keywords:
 - acteur ou actrice
+liens:
+- Agathe Auproux
+- Daniel Crozes
+- Georges Landais
+- Hélène Jouan
+- Jean-Luc Barré
+- Jean-Yves Le Talec
 nationality: francaise
 nom_complet: Aure Séguier
 occupation: acteur ou actrice

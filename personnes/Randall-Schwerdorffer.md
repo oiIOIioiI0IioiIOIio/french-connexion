@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Randall Schwerdorffer, avocat ou avocate. Ne(e) le 1969-10-06 a Orange.
+Randall Schwerdorffer, avocat ou avocate. Ne(e) le 1969-10-06 a [[Orange]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q109901089

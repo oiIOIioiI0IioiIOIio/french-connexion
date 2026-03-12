@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Brice Chambard, personnalité du monde des affaires. Ne(e) le 1973-03-07 a Valence. Formation : EM Lyon Business School.
+Brice Chambard, personnalité du monde des affaires. Ne(e) le 1973-03-07 a Valence. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q130522357

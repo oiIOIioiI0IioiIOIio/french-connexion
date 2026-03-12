@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-François Carenco, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1952-07-07 a Talence. Formation : HEC Paris.
+Jean-François Carenco, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1952-07-07 a Talence. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q19944965

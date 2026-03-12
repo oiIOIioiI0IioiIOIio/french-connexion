@@ -5,6 +5,8 @@ headquarters: Bruz
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Henri de Rothschild
 nom_complet: ECAM Louis de Broglie
 sources:
 - https://www.wikidata.org/entity/Q3045829

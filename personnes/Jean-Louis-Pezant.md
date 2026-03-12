@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Louis Pezant, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1938-10-05 a Dun-le-Palestel. Formation : Institut d'études politiques de Paris.
+Jean-Louis Pezant, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1938-10-05 a Dun-le-Palestel. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q1684987

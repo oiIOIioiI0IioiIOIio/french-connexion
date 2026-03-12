@@ -7,6 +7,14 @@ education: École centrale Paris
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Christophe Chantepy
+- Djamel Agaoua
+- Dominique-Paul Vallée
+- François Ecalle
+- Jacques Rosselin
+- Stéphane Bredin
+- Xavier Lefort
 nationality: francaise
 nom_complet: Jean-Louis Zoël
 occupation: diplomate

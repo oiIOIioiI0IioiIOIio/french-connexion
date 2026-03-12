@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Marianne Dubertret, journaliste. Ne(e) le 1968-08-01.
+[[Marianne]] Dubertret, journaliste. Ne(e) le 1968-08-01.
 
 ## Sources
 - http://www.wikidata.org/entity/Q3291297

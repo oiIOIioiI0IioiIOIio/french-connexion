@@ -7,6 +7,17 @@ education: université de Tours
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Dominique Setzepfandt
+- Fabrice Lhomme
+- Frédéric Thibaud
+- Harry Roselmack
+- Laurent Bignolas
+- Nassira El Moaddem
+- Pascal Jan
+- Philippe Anginot
+- Raphael Costambeys-Kempczynski
+- Renaud Machart
 nationality: francaise
 nom_complet: Éric Brunet
 occupation: journaliste

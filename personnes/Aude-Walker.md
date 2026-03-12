@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Aude Walker, rédacteur ou rédactrice en chef. Ne(e) le 1980-06-12 a Paris. Formation : université Paris-Sorbonne.
+Aude Walker, rédacteur ou rédactrice en chef. Ne(e) le 1980-06-12 a Paris. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16529462

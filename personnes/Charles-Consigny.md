@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Charles Consigny, écrivain ou écrivaine. Ne(e) le 1989-07-14 a 15e arrondissement de Paris. Formation : université Paris-I-Panthéon-Sorbonne.
+Charles Consigny, écrivain ou écrivaine. Ne(e) le 1989-07-14 a 15e arrondissement de Paris. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16027770

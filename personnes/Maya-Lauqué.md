@@ -7,6 +7,17 @@ education: Institut français de presse
 genre: féminin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Charles Desjardins
+- Christelle Crosnier
+- Claude Belot
+- Emmanuel de Brantes
+- Ginie Van de Noort
+- Jean-François Julliard
+- Jérôme Béglé
+- Leïla Beratto
+- Olivier Bertrand
+- Thomas Sotto
 nationality: francaise
 nom_complet: Maya Lauqué
 occupation: présentateur ou présentatrice de journal

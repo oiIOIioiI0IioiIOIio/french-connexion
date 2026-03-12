@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Arnaud Aubron, rédacteur ou rédactrice en chef. Ne(e) le 1974-05-16 a Châtenay-Malabry. Formation : Institut d'études politiques de Paris.
+Arnaud Aubron, rédacteur ou rédactrice en chef. Ne(e) le 1974-05-16 a Châtenay-Malabry. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q20679728

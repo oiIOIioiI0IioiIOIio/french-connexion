@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Laurent Colette, personnalité du monde des affaires. Ne(e) le 1962-11-15 a Besançon. Formation : EM Lyon Business School.
+Laurent Colette, personnalité du monde des affaires. Ne(e) le 1962-11-15 a Besançon. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33136125

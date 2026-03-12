@@ -7,6 +7,13 @@ education: École nationale de l'aviation civile
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Farid Zizi
+- Jacques Villiers
+- Jean-Marc Alliot
+- Michel Wachenheim
+- Patrick Ky
+- Paul-Louis Arslanian
 nationality: francaise
 nom_complet: Jérôme Bastianelli
 occupation: haut fonctionnaire ou haute fonctionnaire

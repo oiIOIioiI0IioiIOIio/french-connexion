@@ -7,6 +7,14 @@ education: école de l'air et de l’espace
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- André Lanata
+- Jean Fleury
+- Jean Rannou
+- Jean Saulnier
+- René Chesnais
+- Roger Pessidous
+- Régis Chamagne
 nationality: francaise
 nom_complet: Michel Authier
 occupation: haut fonctionnaire ou haute fonctionnaire

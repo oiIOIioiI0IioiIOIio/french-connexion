@@ -7,6 +7,9 @@ education: Université d'Oxford
 genre: féminin
 keywords:
 - personnalité politique
+liens:
+- Alix Éverard
+- Michal Ben-Naphtali
 nationality: francaise
 nom_complet: Cayetana Álvarez de Toledo
 occupation: personnalité politique

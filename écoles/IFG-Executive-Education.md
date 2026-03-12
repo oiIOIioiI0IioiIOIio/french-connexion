@@ -4,6 +4,9 @@ founded: '1956-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Charles Pégulu de Rovin
+- Gonzague de Blignières
 nom_complet: IFG Executive Education
 sources:
 - https://www.wikidata.org/entity/Q107642710

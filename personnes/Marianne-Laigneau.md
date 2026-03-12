@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marianne Laigneau, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1964-09-28 a Antony. Formation : École normale supérieure.
+[[Marianne]] Laigneau, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1964-09-28 a Antony. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33195045

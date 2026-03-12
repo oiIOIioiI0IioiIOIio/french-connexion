@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Bernard Gervais, journaliste. Ne(e) le 1972-01-01 a Kigali. Formation : université Paris-Sorbonne.
+Jean-Bernard Gervais, journaliste. Ne(e) le 1972-01-01 a Kigali. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3164576

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Jacquemot, économiste. Ne(e) le 1946-06-12 a Bois-Colombes. Formation : Institut d'études politiques de Paris.
+Pierre Jacquemot, économiste. Ne(e) le 1946-06-12 a Bois-Colombes. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33237648

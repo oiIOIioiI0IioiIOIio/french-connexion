@@ -7,6 +7,9 @@ education: université Tsinghua
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Jérémie Gallon
+- Marianne Ziss
 nationality: francaise
 nom_complet: Joan Valadou
 occupation: diplomate

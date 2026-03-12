@@ -7,6 +7,13 @@ education: université Paris-Descartes
 genre: féminin
 keywords:
 - personnalité politique
+liens:
+- François Bergerault
+- Frédéric Donnedieu de Vabres
+- Jean-Paul Delahaye
+- Michel Cymes
+- Paul Tchoukriel
+- Tobie Nathan
 nationality: francaise
 nom_complet: Pascale Briand
 occupation: personnalité politique

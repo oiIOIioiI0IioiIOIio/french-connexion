@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel Roussin, personnalité du monde des affaires. Ne(e) le 1939-05-03 a Rabat. Formation : Académie militaire de la Gendarmerie nationale.
+Michel Roussin, personnalité du monde des affaires. Ne(e) le 1939-05-03 a Rabat. Formation : [[Académie militaire de la Gendarmerie nationale]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3310773

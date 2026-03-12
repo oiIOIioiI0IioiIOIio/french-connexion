@@ -7,6 +7,10 @@ education: Conservatoire national des arts et métiers
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Estérelle Payany
+- Pierre Guyot
+- Thierry Chavel
 nationality: francaise
 nom_complet: François Stifani
 occupation: avocat ou avocate
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-François Stifani, avocat ou avocate. Ne(e) le 1947-09-27 a Nardò. Formation : Conservatoire national des arts et métiers.
+François Stifani, avocat ou avocate. Ne(e) le 1947-09-27 a Nardò. Formation : [[Conservatoire national des arts et métiers]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3085860

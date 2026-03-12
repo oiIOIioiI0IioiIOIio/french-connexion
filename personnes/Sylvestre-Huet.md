@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sylvestre Huet, journaliste. Ne(e) le 1958-10-01. Formation : université Paris-I-Panthéon-Sorbonne.
+Sylvestre Huet, journaliste. Ne(e) le 1958-10-01. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3507185

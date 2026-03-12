@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Olivier Schmitt, journaliste. Ne(e) le 1957-04-04 a Paris. Formation : Centre de formation des journalistes.
+Olivier Schmitt, journaliste. Ne(e) le 1957-04-04 a Paris. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2375729

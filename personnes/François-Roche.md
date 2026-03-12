@@ -7,6 +7,8 @@ education: null
 genre: masculin
 keywords:
 - enseignant ou enseignante
+liens:
+- François Roche-Bruyn
 nationality: francaise
 nom_complet: François Roche
 occupation: enseignant ou enseignante

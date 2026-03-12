@@ -4,6 +4,8 @@ founded: '1887-11-01'
 keywords:
 - media
 - presse
+liens:
+- Hentchakian mamoul
 nom_complet: Hentchak
 sources:
 - https://www.wikidata.org/entity/Q4140822

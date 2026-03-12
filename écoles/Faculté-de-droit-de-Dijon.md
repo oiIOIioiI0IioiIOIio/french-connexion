@@ -3,6 +3,8 @@ date_creation_note: '2026-03-12'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Henri Gevrey
 nom_complet: Faculté de droit de Dijon
 sources:
 - https://www.wikidata.org/entity/Q65959361

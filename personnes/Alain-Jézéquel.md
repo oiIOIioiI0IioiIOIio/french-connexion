@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alain Jézéquel, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1937-03-15 a Lézardrieux. Formation : Institut d'études politiques de Paris.
+Alain Jézéquel, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1937-03-15 a Lézardrieux. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q66817765

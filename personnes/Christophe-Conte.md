@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christophe Conte, écrivain ou écrivaine. Ne(e) le 1967-01-22 a Arcachon. Formation : université Paris-I-Panthéon-Sorbonne.
+Christophe Conte, écrivain ou écrivaine. Ne(e) le 1967-01-22 a Arcachon. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q47005707

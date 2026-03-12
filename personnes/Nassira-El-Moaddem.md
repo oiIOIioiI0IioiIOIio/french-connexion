@@ -7,6 +7,17 @@ education: université de Tours
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Dominique Setzepfandt
+- Fabrice Lhomme
+- Frédéric Thibaud
+- Harry Roselmack
+- Laurent Bignolas
+- Pascal Jan
+- Philippe Anginot
+- Raphael Costambeys-Kempczynski
+- Renaud Machart
+- Éric Brunet
 nationality: francaise
 nom_complet: Nassira El Moaddem
 occupation: journaliste

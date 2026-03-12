@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Béatrice Bourgeois-Machureau, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1971-09-11 a Lyon. Formation : École normale supérieure.
+Béatrice Bourgeois-Machureau, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1971-09-11 a Lyon. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33103004

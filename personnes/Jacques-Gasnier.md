@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jacques Gasnier, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1933-06-09 a Varades. Formation : Institut d'études politiques de Paris.
+Jacques Gasnier, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1933-06-09 a Varades. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q110399614

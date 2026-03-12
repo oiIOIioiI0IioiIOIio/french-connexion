@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean Sirinelli, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1921-05-12 a Ville-di-Paraso. Formation : École normale supérieure.
+Jean Sirinelli, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1921-05-12 a Ville-di-Paraso. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3174650

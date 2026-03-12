@@ -5,6 +5,8 @@ headquarters: Nantes
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Sharon Wajsbrot
 nom_complet: Audencia
 sources:
 - https://www.wikidata.org/entity/Q1968395

@@ -17,4 +17,4 @@ type: Fondation
 wikidata_id: Q65541793
 ---
 
-A Comparison of Coated and Uncoated Stents in Renal Artery Treatment., think tank ou fondation.
+A Comparison of Coated and Uncoated Stents in Renal [[Arte]]ry Treatment., think tank ou fondation.

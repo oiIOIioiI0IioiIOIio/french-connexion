@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Bernard Ouvrieu, diplomate. Ne(e) le 1939-03-13 a Creil. Formation : HEC Paris.
+Jean-Bernard Ouvrieu, diplomate. Ne(e) le 1939-03-13 a Creil. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3164586

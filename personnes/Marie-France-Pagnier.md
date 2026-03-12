@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marie-France Pagnier, diplomate. Ne(e) le 1945-01-05. Formation : Institut d'études politiques de Paris.
+Marie-France Pagnier, diplomate. Ne(e) le 1945-01-05. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q106740648

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Paul de Sinety, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1972-05-16 a 14e arrondissement de Paris. Formation : université Paris-Sorbonne.
+Paul de Sinety, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1972-05-16 a 14e arrondissement de Paris. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q77916648

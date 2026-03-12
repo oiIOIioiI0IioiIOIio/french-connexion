@@ -19,4 +19,4 @@ website: https://www.sciencespo.fr/
 wikidata_id: Q859363
 ---
 
-Institut d'études politiques de Paris, etablissement d'enseignement superieur francais.
+[[Institut d'études politiques de Paris]], etablissement d'enseignement superieur francais.

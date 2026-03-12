@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Guillaume Lambert, personnalité politique. Ne(e) le 1953-01-01. Formation : Institut d'études politiques de Paris.
+Guillaume Lambert, personnalité politique. Ne(e) le 1953-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3120002

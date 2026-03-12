@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Benoît Bréville, historien ou historienne. Ne(e) le 1983-01-01. Formation : université Paris-I-Panthéon-Sorbonne.
+Benoît Bréville, historien ou historienne. Ne(e) le 1983-01-01. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q19606861

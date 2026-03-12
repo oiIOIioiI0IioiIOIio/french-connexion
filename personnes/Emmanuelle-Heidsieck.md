@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Emmanuelle Heidsieck, écrivain ou écrivaine. Ne(e) le 1963-01-01 a Paris. Formation : Institut d'études politiques de Paris.
+Emmanuelle Heidsieck, écrivain ou écrivaine. Ne(e) le 1963-01-01 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3052954

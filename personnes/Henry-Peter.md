@@ -7,6 +7,13 @@ education: Université de Californie à Berkeley
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- David Castello-Lopes
+- Fabienne Keller
+- Laurence Auer
+- Marjorie Vanbaelinghem
+- Serge Halimi
+- Teymouraz Gorjestani
 nationality: francaise
 nom_complet: Henry Peter
 occupation: avocat ou avocate

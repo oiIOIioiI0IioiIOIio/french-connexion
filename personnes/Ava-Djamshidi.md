@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Ava Djamshidi, journaliste. Ne(e) le 1993-01-01. Formation : université Paris-Sorbonne.
+Ava Djamshidi, journaliste. Ne(e) le 1993-01-01. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q124698823

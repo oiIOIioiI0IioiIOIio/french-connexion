@@ -18,4 +18,4 @@ website: http://www.lejdc.fr
 wikidata_id: Q3223762
 ---
 
-Le Journal du Centre, media francais.
+[[Le Jour]]nal du Centre, media francais.

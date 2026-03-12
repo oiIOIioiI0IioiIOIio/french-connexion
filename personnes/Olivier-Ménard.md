@@ -7,6 +7,9 @@ education: université d'Angers
 genre: masculin
 keywords:
 - animateur ou animatrice de télévision
+liens:
+- Anthony Bellanger
+- Karim Rissouli
 nationality: francaise
 nom_complet: Olivier Ménard
 occupation: animateur ou animatrice de télévision

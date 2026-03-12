@@ -7,6 +7,23 @@ education: université Paris-Dauphine
 genre: masculin
 keywords:
 - traducteur ou traductrice
+liens:
+- Alain Cotta
+- Antoine Le Conte
+- Claude Askolovitch
+- Delphine Vitry
+- Gabrielle Cluzel
+- Joëlle Pellegrin
+- Jérôme Chapuis
+- Laurent Aléonard
+- Nolwenn Le Blevennec
+- Philippe Dupont
+- Philippe Verdier
+- Pierre-François Blanc
+- Raphael Kahane
+- Sébastien Romelot
+- Xavier de Moulins
+- Yassine Redissi
 nationality: francaise
 nom_complet: Gildas Sagot
 occupation: traducteur ou traductrice
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Gildas Sagot, traducteur ou traductrice. Ne(e) le 1958-10-27 a Oran. Formation : université Paris-Dauphine.
+Gildas Sagot, traducteur ou traductrice. Ne(e) le 1958-10-27 a Oran. Formation : [[Université Paris-Dauphine]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q21764214

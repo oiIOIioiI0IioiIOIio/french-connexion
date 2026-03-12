@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Philippe de Mazières, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1931-07-01 a El-Biar. Formation : Institut d'études politiques de Paris.
+Philippe de Mazières, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1931-07-01 a El-Biar. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q56106645

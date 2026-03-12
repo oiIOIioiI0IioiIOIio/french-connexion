@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Bruno Angles, banquier. Ne(e) le 1964-11-14 a Paris. Formation : École polytechnique.
+Bruno Angles, banquier. Ne(e) le 1964-11-14 a Paris. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q47498436

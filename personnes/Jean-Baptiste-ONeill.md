@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Baptiste O'Neill, personnalité du monde des affaires. Ne(e) le 1977-03-09 a 15e arrondissement de Paris. Formation : EM Lyon Business School.
+Jean-Baptiste O'Neill, personnalité du monde des affaires. Ne(e) le 1977-03-09 a 15e arrondissement de Paris. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q131730869

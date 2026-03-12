@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Claire Devarrieux, traducteur ou traductrice. Ne(e) le 1954-01-01 a Caen. Formation : Centre de formation des journalistes.
+Claire Devarrieux, traducteur ou traductrice. Ne(e) le 1954-01-01 a Caen. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q113441475

@@ -7,6 +7,13 @@ education: université d'Alger
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Abdelkader Hadjar
+- Khadija Benguenna
+- Lakhdar Brahimi
+- Mohammed Seddik Benyahia
+- Redha Malek
+- Tahar Djaout
 nationality: francaise
 nom_complet: Mourad Medelci
 occupation: personnalité politique

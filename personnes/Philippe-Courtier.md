@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Philippe Courtier, ingénieur. Ne(e) le 1958-07-16 a Malo-les-Bains. Formation : École polytechnique.
+Philippe Courtier, ingénieur. Ne(e) le 1958-07-16 a Malo-les-Bains. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q96095621

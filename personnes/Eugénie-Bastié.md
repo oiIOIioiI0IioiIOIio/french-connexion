@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Eugénie Bastié, journaliste. Ne(e) le 1991-11-18 a Toulouse. Formation : université Paris-Sorbonne.
+Eugénie Bastié, journaliste. Ne(e) le 1991-11-18 a Toulouse. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q23831214

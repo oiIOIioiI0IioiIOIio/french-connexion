@@ -7,6 +7,8 @@ education: null
 genre: masculin
 keywords:
 - enseignant ou enseignante
+liens:
+- Mahamat Saleh Haroun
 nationality: francaise
 nom_complet: Haroun
 occupation: enseignant ou enseignante

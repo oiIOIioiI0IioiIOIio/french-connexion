@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Brigitte Girardin, personnalité politique. Ne(e) le 1953-01-12 a Verdun. Formation : Institut d'études politiques de Paris.
+Brigitte Girardin, personnalité politique. Ne(e) le 1953-01-12 a Verdun. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2925422

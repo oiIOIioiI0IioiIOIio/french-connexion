@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean Félix-Paganon, diplomate. Ne(e) le 1951-06-10. Formation : Institut d'études politiques de Paris.
+Jean Félix-Paganon, diplomate. Ne(e) le 1951-06-10. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3172164

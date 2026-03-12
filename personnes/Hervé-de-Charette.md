@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Hervé de Charette, avocat ou avocate. Ne(e) le 1938-07-30 a Paris. Formation : HEC Paris.
+Hervé de Charette, avocat ou avocate. Ne(e) le 1938-07-30 a Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q1366170

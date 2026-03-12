@@ -7,6 +7,12 @@ education: université de Bordeaux
 genre: masculin
 keywords:
 - banquier
+liens:
+- Eneko Bidegain
+- Mahamat Saleh Haroun
+- Marc Saikali
+- Pierre Abeberry
+- Violaine de Filippis-Abate
 nationality: francaise
 nom_complet: Pierre Camou
 occupation: banquier

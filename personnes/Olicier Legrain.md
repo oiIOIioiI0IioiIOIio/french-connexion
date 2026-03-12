@@ -30,7 +30,7 @@ Ingénieur des mines, Directeur de société.
 
 Né le 30 septembre 1952 à Paris 
 
-Fils de Claude Legrain, Ingénieur, et de Mme, née Micheline Lévy. Mar. le 10 septembre 1983 à Mile Catherine Geoffray, Artiste peintre (4 enf.: Antoine, Agathe, Octave, Théophile). 
+Fils de Claude Legrain, Ingénieur, et de Mme, née [[Michelin]]e Lévy. Mar. le 10 septembre 1983 à Mile Catherine Geoffray, Artiste peintre (4 enf.: Antoine, Agathe, Octave, Théophile). 
 
 **Etudes :** 
 Lycées Buffon,

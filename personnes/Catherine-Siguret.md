@@ -7,6 +7,30 @@ education: université Sorbonne-Nouvelle
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Alain Schneider
+- Amélie Perrier
+- Anne-Claire Legendre
+- Anthony Vincent
+- Aude Blondet
+- Bernard Bastide
+- Charline Roux
+- Eléna Volochine
+- Gauthier Rybinski
+- Guillaume Auda
+- Habibou Bangré
+- Hind Meddeb
+- Jean-Marc Four
+- Jeanne Seignol
+- Jennifer Padjemi
+- Joëlle Palmieri
+- Juan Gomez
+- Marie-France Etchegoin
+- Marie-Ève Malouines
+- Marjorie Bertin
+- Nadia Daam
+- Siv-Leng Chhuor
+- Émilie Besse
 nationality: francaise
 nom_complet: Catherine Siguret
 occupation: journaliste
@@ -22,7 +46,7 @@ tags:
 type: Personne
 ---
 
-Catherine Siguret, journaliste. Ne(e) le 1969-11-29. Formation : université Sorbonne-Nouvelle.
+Catherine Siguret, journaliste. Ne(e) le 1969-11-29. Formation : université [[Sorbonne]]-Nouvelle.
 
 ## Sources
 - http://www.wikidata.org/entity/Q2942061

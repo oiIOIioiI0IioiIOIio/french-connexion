@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Patrice Pauper, avocat ou avocate. Ne(e) le 1968-04-25. Formation : Faculté Jean-Monnet de l'université Paris-Saclay.
+Patrice Pauper, avocat ou avocate. Ne(e) le 1968-04-25. Formation : [[Faculté Jean-Monnet de l'université Paris-Saclay]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q126953986

@@ -7,6 +7,8 @@ education: université d'Oran 1 Ahmed Ben Bella
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Tayeb Belaiz
 nationality: francaise
 nom_complet: Kamel Daoud
 occupation: écrivain ou écrivaine

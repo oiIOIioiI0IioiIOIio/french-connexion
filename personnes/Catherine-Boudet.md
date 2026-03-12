@@ -7,6 +7,42 @@ education: Institut d'études politiques de Bordeaux
 genre: féminin
 keywords:
 - poète ou poétesse
+liens:
+- Anne-Sophie Lapix
+- Arnaud Romera
+- Bernard Cazeneuve
+- Brieuc Pont
+- Christian Blanc
+- Christophe Hondelatte
+- David Medioni
+- Diarra Labille
+- François Laumonier
+- Frédéric Bobin
+- Gérard Bougrier
+- Gérard Boulanger
+- Jacky Goldberg
+- Jean-Bernard Schmidt
+- Jean-Claude Raspiengeas
+- Laetitia Krupa
+- Laurent Bigot
+- Laurent Valdiguié
+- Marcelle Pierrot
+- Marie-Hélène Duvignau
+- Matthieu Auzanneau
+- Maylis Besserie
+- Michel Lummaux
+- Michel Mosser
+- Mireille Larrède
+- Nathalie Renoux
+- Philippe Bolopion
+- Philippe Vilamitjana
+- Pierre Cherruau
+- Pierre Hurmic
+- Raphaël de Montferrand
+- Stéphanie Trouillard
+- Terence Wills
+- Thomas Hugues
+- Évelyne Decorps
 nationality: francaise
 nom_complet: Catherine Boudet
 occupation: poète ou poétesse
@@ -22,7 +58,7 @@ tags:
 type: Personne
 ---
 
-Catherine Boudet, poète ou poétesse. Ne(e) le 1968-08-30 a Saint-Denis. Formation : Institut d'études politiques de Bordeaux.
+Catherine Boudet, poète ou poétesse. Ne(e) le 1968-08-30 a Saint-Denis. Formation : [[Institut d'études politiques de Bordeaux]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2941835

@@ -7,6 +7,16 @@ education: université Paris-Est-Créteil-Val-de-Marne
 genre: féminin
 keywords:
 - personnalité politique
+liens:
+- Charles Constantin-Vallet
+- Karim Achoui
+- Lucile Woodward
+- Michaël Bertini
+- Pascal Durand
+- Philippe Olivier
+- Pierre-Yves Lautrou
+- Roland Perez
+- Rosiane Houngbo-Monteverde
 nationality: francaise
 nom_complet: Emmanuelle Cosse
 occupation: personnalité politique

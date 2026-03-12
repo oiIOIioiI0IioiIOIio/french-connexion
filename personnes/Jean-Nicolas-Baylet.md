@@ -7,6 +7,17 @@ education: université Toulouse-Capitole
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Ali Rebeihi
+- André Ferragne
+- Anne-Sophie Barthez
+- Bertrand Delanoë
+- Christophe Lèguevaques
+- David Koubbi
+- Jacques Lévy
+- Louis Aliot
+- Philippe Fabry
+- Éléonore Blondeau
 nationality: francaise
 nom_complet: Jean-Nicolas Baylet
 occupation: personnalité du monde des affaires

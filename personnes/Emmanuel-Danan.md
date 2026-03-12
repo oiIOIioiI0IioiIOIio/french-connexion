@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Emmanuel Danan, personnalité du monde des affaires. Ne(e) le 1976-07-18 a Paris. Formation : Institut d'études politiques de Paris.
+Emmanuel Danan, personnalité du monde des affaires. Ne(e) le 1976-07-18 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33179634

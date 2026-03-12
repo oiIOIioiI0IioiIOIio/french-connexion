@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Catherine Crosnier, diplomate. Ne(e) le 1956-06-05. Formation : Institut d'études politiques de Paris.
+Catherine Crosnier, diplomate. Ne(e) le 1956-06-05. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q62847443

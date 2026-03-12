@@ -16,4 +16,4 @@ type: Media
 wikidata_id: Q28494644
 ---
 
-Le Journal d'Abbeville, media francais.
+[[Le Jour]]nal d'Abbeville, media francais.

@@ -7,6 +7,17 @@ education: université Toulouse-Capitole
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Ali Rebeihi
+- André Ferragne
+- Anne-Sophie Barthez
+- Bertrand Delanoë
+- Christophe Lèguevaques
+- David Koubbi
+- Jean-Nicolas Baylet
+- Louis Aliot
+- Philippe Fabry
+- Éléonore Blondeau
 nationality: francaise
 nom_complet: Jacques Lévy
 occupation: avocat ou avocate

@@ -7,6 +7,17 @@ education: École nationale des chartes
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Agnès Magnien
+- Armelle Daumas
+- Catherine Laurent
+- Cécile Pozzo di Borgo
+- François Cousin
+- Françoise Banat-Berger
+- Marc Sanson
+- Nicolas Roche
+- Paul Bouteiller
+- Solenne Lepage
 nationality: francaise
 nom_complet: Michel Denieul
 occupation: haut fonctionnaire ou haute fonctionnaire

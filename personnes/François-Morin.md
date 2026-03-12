@@ -7,6 +7,13 @@ education: Université de Chicago
 genre: masculin
 keywords:
 - banquier
+liens:
+- Arnaud Péricard
+- Claude Fouquet
+- Diego Buñuel
+- Emmanuel Roman
+- Marc-Olivier Strauss-Kahn
+- Pierre R. Graham
 nationality: francaise
 nom_complet: François Morin
 occupation: banquier

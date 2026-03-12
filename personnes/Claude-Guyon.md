@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Claude Guyon, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1928-06-08 a La Roche-sur-Yon. Formation : Institut d'études politiques de Paris.
+Claude Guyon, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1928-06-08 a La Roche-sur-Yon. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50891406

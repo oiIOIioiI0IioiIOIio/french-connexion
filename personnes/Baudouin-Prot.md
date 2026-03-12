@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Baudouin Prot, personnalité du monde des affaires. Ne(e) le 1951-05-24 a 17e arrondissement de Paris. Formation : HEC Paris.
+Baudouin Prot, personnalité du monde des affaires. Ne(e) le 1951-05-24 a 17e arrondissement de Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q552655

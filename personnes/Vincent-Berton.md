@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Vincent Berton, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1966-10-17 a Lorient. Formation : Institut d'études politiques de Paris.
+Vincent Berton, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1966-10-17 a Lorient. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q88530989

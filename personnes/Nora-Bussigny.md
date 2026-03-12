@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nora Bussigny, auteur. Ne(e) le 1995-12-03 a Clermont-Ferrand. Formation : université Paris-I-Panthéon-Sorbonne.
+Nora Bussigny, auteur. Ne(e) le 1995-12-03 a Clermont-Ferrand. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q122983711

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Robert Dautray, berger ou bergère. Ne(e) le 1928-02-01 a 10ᵉ arrondissement de Paris. Formation : École polytechnique.
+Robert Dautray, berger ou bergère. Ne(e) le 1928-02-01 a 10ᵉ arrondissement de Paris. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3434905

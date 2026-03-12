@@ -7,6 +7,10 @@ education: Institut national des sciences appliquées de Lyon
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Christian Forestier
+- Christian Nibourel
+- Christophe Plonévez
 nationality: francaise
 nom_complet: Olivier Brourhant
 occupation: personnalité du monde des affaires
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Olivier Brourhant, personnalité du monde des affaires. Ne(e) le 1974-09-19 a Montpellier. Formation : Institut national des sciences appliquées de Lyon.
+Olivier Brourhant, personnalité du monde des affaires. Ne(e) le 1974-09-19 a Montpellier. Formation : [[Institut national des sciences appliquées de Lyon]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33197585

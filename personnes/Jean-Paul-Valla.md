@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Paul Valla, personnalité du monde des affaires. Ne(e) le 1952-06-21 a 3e arrondissement de Lyon. Formation : EM Lyon Business School.
+Jean-Paul Valla, personnalité du monde des affaires. Ne(e) le 1952-06-21 a 3e arrondissement de Lyon. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q115544046

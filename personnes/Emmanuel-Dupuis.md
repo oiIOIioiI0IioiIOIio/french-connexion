@@ -7,6 +7,10 @@ education: Université Stanford
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Alain Juillet
+- André Lévy-Lang
+- Jean-Louis Gergorin
 nationality: francaise
 nom_complet: Emmanuel Dupuis
 occupation: personnalité du monde des affaires

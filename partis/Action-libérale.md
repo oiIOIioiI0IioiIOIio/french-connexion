@@ -6,6 +6,8 @@ ideology: démocratie chrétienne
 keywords:
 - parti politique
 - politique
+liens:
+- L'Action libérale de Quimper
 nom_complet: Action libérale
 sources:
 - https://www.wikidata.org/entity/Q2151209
@@ -18,4 +20,4 @@ type: Parti
 wikidata_id: Q2151209
 ---
 
-Action libérale, parti politique francais.
+[[Action]] libérale, parti politique francais.

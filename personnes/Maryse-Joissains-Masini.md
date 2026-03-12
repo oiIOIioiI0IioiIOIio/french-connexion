@@ -7,6 +7,11 @@ education: université Paul-Cézanne - Aix-Marseille III
 genre: féminin
 keywords:
 - avocat ou avocate
+liens:
+- Anne Bouillon
+- Pierre Falcone
+- Sophie Joissains
+- Stéphane Benoit-Godet
 nationality: francaise
 nom_complet: Maryse Joissains-Masini
 occupation: avocat ou avocate

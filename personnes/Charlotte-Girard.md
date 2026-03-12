@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Charlotte Girard, avocat ou avocate. Ne(e) le 1974-09-07. Formation : université Paris-I-Panthéon-Sorbonne.
+Charlotte Girard, avocat ou avocate. Ne(e) le 1974-09-07. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q42420251

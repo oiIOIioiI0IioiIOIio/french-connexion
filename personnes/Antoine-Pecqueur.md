@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Antoine Pecqueur, journaliste. Ne(e) le 1982-05-01. Formation : Conservatoire national supérieur de musique et de danse de Lyon.
+Antoine Pecqueur, journaliste. Ne(e) le 1982-05-01. Formation : [[Conservatoire national supérieur de musique et de danse de Lyon]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q61671739

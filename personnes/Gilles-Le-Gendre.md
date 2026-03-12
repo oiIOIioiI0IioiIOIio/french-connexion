@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gilles Le Gendre, personnalité politique. Ne(e) le 1958-05-13 a Neuilly-sur-Seine. Formation : Institut d'études politiques de Paris.
+Gilles Le Gendre, personnalité politique. Ne(e) le 1958-05-13 a Neuilly-sur-Seine. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q30528115

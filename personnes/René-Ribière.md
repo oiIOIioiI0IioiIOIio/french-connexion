@@ -7,6 +7,14 @@ education: lycée Janson-de-Sailly
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Christophe Ono-dit-Biot
+- Hubert Heilbronn
+- Laurence de Charette
+- Maxime de Rostolan
+- Thomas Schmider
+- Édouard de Ribes
+- Éric de Rothschild
 nationality: francaise
 nom_complet: René Ribière
 occupation: personnalité politique
@@ -22,7 +30,7 @@ tags:
 type: Personne
 ---
 
-René Ribière, personnalité politique. Ne(e) le 1922-01-21 a 6e arrondissement de Paris. Formation : lycée Janson-de-Sailly.
+René Ribière, personnalité politique. Ne(e) le 1922-01-21 a 6e arrondissement de Paris. Formation : [[Lycée Janson-de-Sailly]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3426818

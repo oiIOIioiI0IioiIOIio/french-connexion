@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Guillaume Gibault, personnalité du monde des affaires. Ne(e) le 1985-06-17 a Paris. Formation : HEC Paris.
+Guillaume Gibault, personnalité du monde des affaires. Ne(e) le 1985-06-17 a Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33120230

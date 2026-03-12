@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marc-Olivier Gendry, diplomate. Ne(e) le 1948-06-15. Formation : Institut d'études politiques de Paris.
+Marc-Olivier Gendry, diplomate. Ne(e) le 1948-06-15. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q113949956

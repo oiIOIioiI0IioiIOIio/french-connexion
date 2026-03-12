@@ -7,6 +7,8 @@ education: École polytechnique
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Jean-Claude Moreau
 nationality: francaise
 nom_complet: Claude Moreau
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Claude Moreau, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1940-04-24 a 5e arrondissement de Paris. Formation : École polytechnique.
+Claude Moreau, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1940-04-24 a 5e arrondissement de Paris. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q49671648

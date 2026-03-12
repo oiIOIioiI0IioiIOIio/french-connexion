@@ -11,26 +11,43 @@ keywords:
 - confiance
 - mayer
 liens:
+- Abraham Lincoln
+- Amschel Moses Rothschild
 - Amschel Rothschild
-- Napoléon Bonaparte
-- Niall Ferguson
-- Arthur Wellesley
-- Victor Rothschild
-- Georges Dairnvaell
-- Archibald Alison
-- Nathan Rothschild
-- Moses Montefiore
-- Hannah Barent Cohen
-- Levy Barent Cohen
-- Judith Montefiore
 - Anselm von
-- Lionel Nathan
-- Charlotte von Rothschild
 - Anthony Nathan
-- Louise Montefiore
+- Archibald Alison
+- Arthur Wellesley
+- Augustin Hamon
+- Betty de Rothschild
+- Carter G. Woodson
 - Charlotte de Rothschild
+- Charlotte von Rothschild
+- Donald Oliver
+- Famille Rothschild
+- François Bayrou
+- Georges Dairnvaell
+- Hannah Barent Cohen
 - Hannah Mayer
+- Henri de Rothschild
 - Henry Fitzroy
+- James de Rothschild
+- Jean Augustine
+- Jesse E. Moorland
+- Judith Montefiore
+- Jules Grévy
+- Levy Barent Cohen
+- Lionel Nathan
+- Louise Montefiore
+- Mayer Amschel Rothschild
+- Moses Montefiore
+- Mélina Seymour
+- Napoléon Bonaparte
+- Nathan Rothschild
+- Niall Ferguson
+- Think tank
+- Victor Rothschild
+- Édouard Philippe
 nationality: ''
 nom_complet: Nathan Mayer Rothschild (1777-1836)
 occupation: null
@@ -59,7 +76,7 @@ wikipedia_enriched: true
 
 ## Biographie
 
-Nathan Mayer Rothschild, né à Francfort (Saint-Empire romain germanique) le 16 septembre 1777 et mort à Francfort le 28 juillet 1836, est le troisième fils du fondateur de la dynastie Mayer Amschel Rothschild, lui même fondateur de la branche londonienne de la famille Rothschild.
+Nathan Mayer Rothschild, né à Francfort (Saint-Empire romain germanique) le 16 septembre 1777 et mort à Francfort le 28 juillet 1836, est le troisième fils du fondateur de la dynastie [[Mayer Amschel Rothschild]], lui même fondateur de la branche londonienne de la [[Famille Rothschild]].
 
 
 

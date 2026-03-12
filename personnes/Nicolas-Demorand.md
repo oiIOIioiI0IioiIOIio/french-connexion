@@ -7,6 +7,12 @@ education: École normale supérieure de Fontenay-Saint-Cloud
 genre: masculin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Adélaïde de Clermont-Tonnerre
+- Emmanuel Kessler
+- Lorène Lemor
+- Michka Assayas
+- Xavier de La Porte
 nationality: francaise
 nom_complet: Nicolas Demorand
 occupation: présentateur ou présentatrice de journal
@@ -22,7 +28,7 @@ tags:
 type: Personne
 ---
 
-Nicolas Demorand, présentateur ou présentatrice de journal. Ne(e) le 1971-05-05 a Vancouver. Formation : École normale supérieure de Fontenay-Saint-Cloud.
+Nicolas Demorand, présentateur ou présentatrice de journal. Ne(e) le 1971-05-05 a Vancouver. Formation : [[École normale supérieure]] de Fontenay-Saint-Cloud.
 
 ## Sources
 - http://www.wikidata.org/entity/Q3340247

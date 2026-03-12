@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Claude de Kémoularia, personnalité politique. Ne(e) le 1922-03-30 a 14e arrondissement de Paris. Formation : Institut d'études politiques de Paris.
+Claude de Kémoularia, personnalité politique. Ne(e) le 1922-03-30 a 14e arrondissement de Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q5129094

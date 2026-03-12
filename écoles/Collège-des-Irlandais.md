@@ -4,6 +4,286 @@ founded: '1626-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Adrien Gombeaud
+- Alain Bouquin
+- Alain Cotta
+- Alain Frouté
+- Alain Gaigneron de Marolles
+- Alain Pellegrini
+- Alain Soral
+- Alain-Xavier Wurst
+- Alexandre Garcia
+- Ambre Chalumeau
+- Amobé Mévégué
+- Anastasia Iline
+- André Bach
+- André Chadeau
+- André Joriot
+- André Jozan
+- Anne de Bayser
+- Anouar Benmalek
+- Antoine Guerrier de Dumast
+- Antoine Lecerf
+- Arié Alimi
+- Arnaud Dubus
+- Arnold Schwerdorffer
+- Aude Terray
+- Audelin Chappuis
+- Aziz Meliani
+- Aïssa Dermouche
+- Benjamin Castaldi
+- Bernard Goupil
+- Bernard Janvier
+- Bernard Poncet
+- Bernard Vaillant
+- Bernard de Boisfleury
+- Bertrand Besancenot
+- Bertrand Delais
+- Bertrand O'Mahony
+- Bertrand de La Chesnais
+- Bertrand de Montaudoüin
+- Blandine Rinkel
+- Brice Houdet
+- Bruno Foucher
+- Bruno Jockers
+- Carla Ghebali
+- Caroline Fourest
+- Catherine Nayl
+- Charles de Bancalis de Maurel d'Aragon
+- Christian Forestier
+- Christian Nibourel
+- Christian Orsetti
+- Christian Quesnot
+- Christian Rodriguez
+- Christian Troadec
+- Christile Drulhe
+- Christophe Beaugrand
+- Christophe Jakubyszyn
+- Christophe Plonévez
+- Christophe de Saint Chamas
+- Clara Marchaud
+- Claude Vanbremeersch
+- Clémence Boulouque
+- Constance Debré
+- Cyrille Baumgartner
+- Cécilia Gabizon
+- Daniel Keller
+- Daniel Lallemant
+- Daniel Lenoir
+- David Galtier
+- Delphine Minoui
+- Didier Brousse
+- Dominique Decherf
+- Dominique Delort
+- Dominique Reynié
+- Elisabeth Duda
+- Emmanuel Limido
+- Eva Sadoun
+- Fabrice Rousselot
+- Farid Zizi
+- Florence de Soultrait
+- Florent Dabadie
+- Florent Gorges
+- Francis Boot
+- Franck Annese
+- Franck Ferrand
+- Frank Samson
+- François Bichet
+- François Dall'Orso
+- François Jacq
+- François Meyer
+- François Rollin
+- François-Pierre Joly
+- Frédéric Hingray
+- Frédéric Martel
+- Georges Abadie
+- Georges Diener
+- Gilles August
+- Gilles Garachon
+- Gilles de Richemond
+- Grégoire Chertok
+- Guillaume de Thieulloy
+- Guy Ducou Le Pointe
+- Henri Bentégeat
+- Henri Froment-Meurice
+- Henri Poncet
+- Henry Féral
+- Henry Peyrelongue
+- Hervé Charpentier
+- Hervé de Malliard
+- Jacques Antoine de Barry
+- Jacques Beguin
+- Jacques Biget
+- Jacques Billant
+- Jacques Champagne de Labriolle
+- Jacques Dewatre
+- Jacques Durantou
+- Jacques Fesquet
+- Jacques Guerrier de Dumast
+- Jacques Maroselli
+- Jacques Servranckx
+- Jacques Villiers
+- Jacques Witkowski
+- Jean Amet
+- Jean Cot
+- Jean Delaunay
+- Jean Goujon
+- Jean Heinrich
+- Jean Maurin
+- Jean Mercier
+- Jean Poincaré
+- Jean Saint-Geours
+- Jean Veil
+- Jean de Sesmaisons
+- Jean-Christophe Belliard
+- Jean-Louis de Moulins d'Amieu de Beaufort
+- Jean-Marc Alliot
+- Jean-Marc Berthon
+- Jean-Marc Loubès
+- Jean-Marie Momal
+- Jean-Michel Steg
+- Jean-Noël Poirier
+- Jean-Paul Pourcel
+- Jean-Paul Réau
+- Jean-Pierre Delpont
+- Jean-Pierre Kelche
+- Jean-Pierre Laflaquière
+- Jean-Pierre Montagne
+- Jean-Pierre Palasset
+- Jean-Pierre Pensa
+- Jean-Sébastien Baschet
+- Jean-Yves Camus
+- Jeannou Lacaze
+- José Paoli
+- Joël Meyer
+- Jules Irrmann
+- Jérôme Bastianelli
+- Jérôme Ruskin
+- Jérôme Vincent
+- Kee-Yoon Kim
+- Laure Murat
+- Laurence Ruffin
+- Laurent Clément
+- Laurent Larcher
+- Lionel Jospin
+- Louis Almeras
+- Louis Laugier
+- Louis Morel
+- Louis de Faucigny-Lucinge
+- Louis de Raguenel
+- Loïc Mizon
+- Manon Moreau
+- Marc Buchet
+- Marc Endeweld
+- Marc Menguy
+- Marie Buscail
+- Marie Misset
+- Marie-Caroline Missir
+- Marie-Christine Saragosse
+- Marika Zimmermann
+- Martin Vial
+- Maurice Faivre
+- Maurice Kouandété
+- Maurice Schmitt
+- Max Gaillard
+- Michel Carage
+- Michel Guignon
+- Michel Guillot
+- Michel Massenet
+- Michel Roquejeoffre
+- Michel Stollsteiner
+- Michel Wachenheim
+- Nivin Potros
+- Olivier Brourhant
+- Olivier Favry
+- Olivier Guyonvarch
+- Olivier Lannuzel
+- Olivier Philip
+- Olivier Weber
+- Olivier de Bavinchove
+- Pascal Chaigneau
+- Patrice Molle
+- Patrice O'Mahony
+- Patrick Collet
+- Patrick Ky
+- Paul Brunbrouck
+- Paul-Louis Arslanian
+- Philippe Collin
+- Philippe Lacombe
+- Philippe Legrix
+- Philippe Manière
+- Philippe Morillon
+- Philippe-Marie Denis
+- Pierre Bolotte
+- Pierre Dabezies
+- Pierre Degrave
+- Pierre Esperandieu
+- Pierre Fraidenraich
+- Pierre Haicault de La Regontais
+- Pierre Juillet
+- Pierre Lefranc
+- Pierre Lurçat
+- Pierre Quatrepoint
+- Pierre Rouvière
+- Pierre Voillery
+- Pierre de Boisdeffre
+- Pierre-Antoine Donnet
+- Pierre-Henri Bunel
+- Rachel Denis-Lucas
+- Renaud de Malaussène
+- Renée Sillon-Veyret
+- Richard Sola
+- Robert Caillaud
+- Robert Ophèle
+- Robert Poujol
+- Robert Soulé
+- Roger Dumoulin
+- Roland Blatmann
+- Roselyne Bachelot
+- Rémi Maréchaux
+- Samuel Forey
+- Sandra Lavorel
+- Serge Salat
+- Sharon Wajsbrot
+- Simon Nora
+- Simonne Servais
+- Sophie Coignard
+- Stéphanie Rivoal
+- Suzanne Batbedat
+- Thibaud de Barbeyrac
+- Thierry Cammas
+- Thierry Malleret
+- Thierry Marchand
+- Thierry Mathou
+- Thierry Orosco
+- Thomas Piketty
+- Valérie Fayolle
+- Valéry Giscard d’Estaing
+- Vincent Desportes
+- Vincent Glad
+- Vincent Taupin
+- Virginie Sené-Rouquier
+- Vérane Frédiani
+- Véronique Bujon-Barré
+- Xavier Bout de Marnhac
+- Xavier de Zuchowicz
+- Yann Rousseau-Dumarcet
+- Yves Fromion
+- Yves Gras
+- Yves de Kermabon
+- Yves de Sesmaisons
+- Zineb El Rhazoui
+- Édouard Brasey
+- Édouard Philippe
+- Édouard Stern
+- Élisabeth Borne
+- Élisabeth Laurin
+- Éric Burgaud
+- Éric Gérard
+- Éric Raynaud
+- Étienne Renard
+- Étienne Sesmat
 nom_complet: Collège des Irlandais
 sources:
 - https://www.wikidata.org/entity/Q48749623

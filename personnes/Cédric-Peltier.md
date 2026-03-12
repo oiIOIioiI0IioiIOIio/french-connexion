@@ -7,6 +7,19 @@ education: université de Nantes
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Arnaud de Perier
+- Bruno Jeudy
+- Chantal de Singly
+- Clémentine Vergnaud
+- Dimitri Rouchon-Borie
+- Jacques Moreau
+- Martine Leguille-Balloy
+- Mattias Guyomar
+- Nicolas Escoulan
+- Patrice Servantie
+- Paul Maillot Rafanoharana
+- Stéphane Simon
 nationality: francaise
 nom_complet: Cédric Peltier
 occupation: diplomate

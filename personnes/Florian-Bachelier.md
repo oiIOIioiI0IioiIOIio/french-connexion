@@ -7,6 +7,14 @@ education: université Rennes-I
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Annie Lemoine
+- Jean-Jacques Urvoas
+- Karine Djébari
+- Mary Plard
+- Nicolas Carreau
+- Olivier Richefou
+- Tangi Noël
 nationality: francaise
 nom_complet: Florian Bachelier
 occupation: avocat ou avocate

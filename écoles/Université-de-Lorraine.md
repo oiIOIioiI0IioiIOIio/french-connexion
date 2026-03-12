@@ -5,6 +5,148 @@ headquarters: Nancy
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Adrien Bostmambrun
+- Agathe Auproux
+- Alain Rouillard
+- Alexis Berelowitch
+- Ali Rebeihi
+- Amaury Nardone
+- André Ferragne
+- Anne Bouillon
+- Anne-Sophie Barthez
+- Anne-Sophie Ginon
+- Antoine-Marie Izoard
+- Arnauld Champremier-Trigano
+- Audrey Crespo-Mara
+- Aure Séguier
+- Benoît Thévenet
+- Bernard Poncet
+- Bertrand Delanoë
+- Bertrand de La Tour d'Artaise
+- Boris Kharlamoff
+- Charles de Bancalis de Maurel d'Aragon
+- Charlotte d'Ornellas
+- Christian Authier
+- Christophe Dantoine
+- Christophe Lèguevaques
+- Claude Ambrosini
+- Daniel Crozes
+- David Izzo
+- David Koubbi
+- Dominique Luneau
+- Dominique de La Garanderie
+- Emmanuelle Soubeyran
+- Francis Caballero
+- Francis Mateo
+- François Falletti
+- Georges Landais
+- Georges de Brémond d'Ars
+- Gilles Devers
+- Grégor Trumel
+- Géniale Attoumani
+- Géraldine Woessner
+- Henri Gevrey
+- Henri Leclerc
+- Hugo Guillemet
+- Hélène Jouan
+- Ilana Cicurel
+- Isabelle Sima
+- Ivo Fleischmann
+- Jacques Lévy
+- Jacques Perrilliat
+- Jacques Salès
+- Janine Louis
+- Jean Amet
+- Jean Keller
+- Jean Paolini
+- Jean Pinel
+- Jean Roussel
+- Jean-Baptiste Malet
+- Jean-Christophe Brisard
+- Jean-Christophe Buisson
+- Jean-Claude Moreau
+- Jean-Claude Zylberstein
+- Jean-François Casabonne-Masonnave
+- Jean-François Savy
+- Jean-Louis Brochen
+- Jean-Luc Barré
+- Jean-Luc Porquet
+- Jean-Marc Binot
+- Jean-Marie Momal
+- Jean-Nicolas Baylet
+- Jean-Paul Gauzès
+- Jean-Pierre Delpont
+- Jean-Yves Le Talec
+- Jennifer Lesieur
+- John Carter Bacot
+- Jules Grévy
+- Laurence Boisson de Chazournes
+- Laurent Cohen-Tanugi
+- Laurent Dolbeau
+- Linda Weil-Curiel
+- Lionel Devic
+- Louis Aliot
+- Louis Manaranche
+- Mahdi Hacène
+- Marc Menguy
+- Marcel Martin
+- Marie-Françoise Hamard
+- Marika Zimmermann
+- Maryse Joissains-Masini
+- Maxime Switek
+- Michel Crépeau
+- Michel Moutot
+- Myriam Bounafaa
+- Nath-Sakura
+- Patrice Pauper
+- Patrick Donabédian
+- Paul Noirot-Cosson
+- Philippe Douste-Blazy
+- Philippe Fabry
+- Philippe Waquet
+- Pierre Benazet
+- Pierre Boillot
+- Pierre Degrave
+- Pierre Dehaye
+- Pierre Falcone
+- Pierre Garonnaire
+- Pierre Hug
+- Pierre Juillet
+- Pierre Lafrance
+- Pierre Pluchon
+- Pierre Rouvière
+- Robert Soulé
+- Rodolphe Sambou
+- Roger Dumec
+- Sally
+- Sandrine Escaleira
+- Serge Tignères
+- Sergueï Kouznetsov
+- Sophie Joissains
+- Stéphane Benoit-Godet
+- Stéphane Lauer
+- Suzanne Batbedat
+- Sylvain Augier
+- Sylvain Boccon-Gibod
+- Sylvie Bermann
+- Thierry Granturco
+- Thierry Riera
+- Thomas Castaignède
+- Théophile Kouamouo
+- Tibor Clerdouet
+- Valérie Rey-Robert
+- Xavier Pelletier
+- Yves Mabin Chennevière
+- Yves Nicolin
+- Yvon Chotard
+- département de théologie de l'université de Lorraine
+- Ève Charrin
+- Élisabeth Beton-Delègue
+- Élodie Maurot
+- Éloïse Wagner
+- Éléonore Blondeau
+- Étienne Leenhardt
 nom_complet: Université de Lorraine
 sources:
 - https://www.wikidata.org/entity/Q4173330

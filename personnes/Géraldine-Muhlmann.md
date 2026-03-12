@@ -7,6 +7,17 @@ education: Université de New York
 genre: féminin
 keywords:
 - politologue
+liens:
+- Anne Poiret
+- Antonin Lévy
+- Arno Klarsfeld
+- Carine Fouteau
+- Iris Brey
+- Laurent Stefanini
+- Léa Salamé
+- Marie-Anne Barbat-Layani
+- Mohamed Sahnoun
+- Stéphanie Antoine
 nationality: francaise
 nom_complet: Géraldine Muhlmann
 occupation: politologue

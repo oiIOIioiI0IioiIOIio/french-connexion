@@ -7,6 +7,8 @@ education: École supérieure du commerce extérieur
 genre: masculin
 keywords:
 - directeur exécutif
+liens:
+- Alexandre de Rothschild
 nationality: francaise
 nom_complet: Pierre-Emmanuel Sudres
 occupation: directeur exécutif

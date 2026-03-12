@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Xavier Anthonioz, personnalité du monde des affaires. Ne(e) le 1975-10-29 a Annemasse. Formation : EM Lyon Business School.
+Xavier Anthonioz, personnalité du monde des affaires. Ne(e) le 1975-10-29 a Annemasse. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q133456949

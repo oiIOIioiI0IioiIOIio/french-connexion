@@ -7,6 +7,11 @@ education: université de Poitiers
 genre: féminin
 keywords:
 - avocat ou avocate
+liens:
+- Emmanuel Laurentin
+- Henri Konan Bédié
+- Leïla Kaddour-Boudadi
+- Richard Escot
 nationality: francaise
 nom_complet: Marie-France Garaud
 occupation: avocat ou avocate

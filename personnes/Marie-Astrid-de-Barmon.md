@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marie-Astrid de Barmon, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1982-02-07 a Rennes. Formation : École normale supérieure.
+Marie-Astrid de Barmon, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1982-02-07 a Rennes. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33294003

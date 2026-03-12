@@ -4,6 +4,8 @@ founded: '1974-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Élodie Maurot
 nom_complet: Facultés Loyola Paris
 sources:
 - https://www.wikidata.org/entity/Q788592

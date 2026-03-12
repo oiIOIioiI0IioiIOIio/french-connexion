@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel Laval, avocat ou avocate. Ne(e) le 1949-01-01. Formation : université Paris-I-Panthéon-Sorbonne.
+Michel Laval, avocat ou avocate. Ne(e) le 1949-01-01. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q30117986

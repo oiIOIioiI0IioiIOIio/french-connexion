@@ -5,6 +5,9 @@ headquarters: Paris
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Famille Rothschild
+- James de Rothschild
 nom_complet: Académie des Beaux-Arts
 sources:
 - https://www.wikidata.org/entity/Q337531

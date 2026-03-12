@@ -7,6 +7,12 @@ education: université Lille-III
 genre: féminin
 keywords:
 - animateur ou animatrice de télévision
+liens:
+- Catherine Mangin-Dessarts
+- Didier Rogasik
+- Flore Maréchal
+- Kidi Bebey
+- Réginald Gaillard
 nationality: francaise
 nom_complet: Meriem Amellal
 occupation: animateur ou animatrice de télévision

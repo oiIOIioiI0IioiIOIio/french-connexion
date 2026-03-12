@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Éric Jalon, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1971-06-21 a Lyon. Formation : École normale supérieure.
+Éric Jalon, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1971-06-21 a Lyon. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33136702

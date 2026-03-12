@@ -7,6 +7,20 @@ education: Université Harvard
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Alfred Galichon
+- Claude-Éric Paquin
+- Ernest-Antoine Seillière
+- François Jackow
+- Frédéric X de Danemark
+- Geoffroy Didier
+- Jean-Luc Sibiude
+- Laure Mandeville
+- Michel François-Poncet
+- Peter Turnley
+- Pierre Lellouche
+- Renée Kaplan
+- Simon Kuper
 nationality: francaise
 nom_complet: Jacques Lagarde
 occupation: personnalité du monde des affaires

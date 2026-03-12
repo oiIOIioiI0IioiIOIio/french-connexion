@@ -5,6 +5,8 @@ headquarters: Pau
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Isabelle Ithurburu
 nom_complet: Université de Pau et des pays de l'Adour
 sources:
 - https://www.wikidata.org/entity/Q572968

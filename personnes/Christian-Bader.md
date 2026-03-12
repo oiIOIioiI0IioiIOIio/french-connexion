@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christian Bader, diplomate. Ne(e) le 1959-12-12. Formation : Institut d'études politiques de Paris.
+Christian Bader, diplomate. Ne(e) le 1959-12-12. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2965016

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Thomas Thouroude, présentateur ou présentatrice de journal. Ne(e) le 1980-01-17 a Béjaïa. Formation : Centre de formation des journalistes.
+Thomas Thouroude, présentateur ou présentatrice de journal. Ne(e) le 1980-01-17 a Béjaïa. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3525613

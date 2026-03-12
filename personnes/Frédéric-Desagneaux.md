@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Frédéric Desagneaux, diplomate. Ne(e) le 1957-07-04 a Paris. Formation : Institut d'études politiques de Paris.
+Frédéric Desagneaux, diplomate. Ne(e) le 1957-07-04 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q31192345

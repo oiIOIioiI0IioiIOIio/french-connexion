@@ -7,6 +7,14 @@ education: École nationale supérieure de la Police
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Ange Mancini
+- Bernard Guérin
+- Christian Lambert
+- Frédéric Veaux
+- Jean-Louis Fiamenghi
+- Patrick Calvar
+- Yves Guillot
 nationality: francaise
 nom_complet: Henri Souchon
 occupation: écrivain ou écrivaine

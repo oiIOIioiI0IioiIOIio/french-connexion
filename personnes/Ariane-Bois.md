@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Ariane Bois, écrivain ou écrivaine. Ne(e) le 1961-01-01 a Saint-Mandé. Formation : Institut d'études politiques de Paris.
+Ariane Bois, écrivain ou écrivaine. Ne(e) le 1961-01-01 a Saint-Mandé. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q71785111

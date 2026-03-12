@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Philippe Delorme, journaliste. Ne(e) le 1960-01-22 a Pantin. Formation : université Paris-Sorbonne.
+Philippe Delorme, journaliste. Ne(e) le 1960-01-22 a Pantin. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3379719

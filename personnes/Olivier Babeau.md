@@ -35,7 +35,7 @@ Relations notables :
 
 [[André Babeau]] : Économiste français, père d'Olivier.
     
-[[Emmanuel Babeau]] : Frère d'Olivier, directeur général délégué de Pernod Ricard.
+[[Emmanuel Babeau]] : Frère d'Olivier, directeur général délégué de [[Pernod Ricard]].
     
 [[Laurent Alexandre]] : Chirurgien-urologue et essayiste, cofondateur avec Olivier de l'[[Institut Sapiens]].
     

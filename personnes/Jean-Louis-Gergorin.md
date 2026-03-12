@@ -7,6 +7,10 @@ education: Université Stanford
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Alain Juillet
+- André Lévy-Lang
+- Emmanuel Dupuis
 nationality: francaise
 nom_complet: Jean-Louis Gergorin
 occupation: personnalité du monde des affaires

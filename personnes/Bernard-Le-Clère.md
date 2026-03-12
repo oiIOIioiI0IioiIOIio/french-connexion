@@ -7,6 +7,16 @@ education: École pratique des hautes études
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Alain Ruellan
+- Gaëlle Bélem
+- Guillaume Robert
+- Isabelle Coutant-Peyre
+- Pascal Bruckner
+- Patrick Sbalchiero
+- Rozenn Milin
+- Sébastien de Courtois
+- Xavier Accart
 nationality: francaise
 nom_complet: Bernard Le Clère
 occupation: haut fonctionnaire ou haute fonctionnaire

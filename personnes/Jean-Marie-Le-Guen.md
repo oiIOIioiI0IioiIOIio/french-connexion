@@ -7,6 +7,51 @@ education: université de Paris
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Alain Rouquié
+- Anne Le Pape
+- Childéric Muller
+- Christian Combaz
+- Christiane Malitchenko
+- Claude Goasguen
+- Claude Érignac
+- Emmanuel de Margerie
+- Gilles-William Goldnadel
+- Henri de Coignac
+- Hervé Ladsous
+- Hélène Lipietz
+- Isabelle Nataf
+- Jacques Vergès
+- Jean-Christophe Grangé
+- Jean-Jacques Aillagon
+- Jean-Michel Casa
+- Jean-Paul Lanfranchi
+- Jean-Pierre Cot
+- Jean-Pierre Mignard
+- Jean-Pierre Thiollet
+- Julie Mamou-Mani
+- Laurence Ferrari
+- Layla Demay
+- Louis Crocq
+- Luc de Nanteuil
+- Meriem Belmihoub
+- Michel Camdessus
+- Michel Field
+- Monique Barbut
+- Olivier Pastré
+- Olivier Père
+- Paul-Henri Gaschignard
+- Paul-Henry Bizon
+- Philippe Louët
+- Pierre Mazeaud
+- Rémi Fontaine
+- Stanislas de Laboulaye
+- Tristan Jordis
+- Valérie Trierweiler
+- Xavier-Marie Garcette
+- Édouard Carmignac
+- Élisabeth Bost
+- Éric Lebédel
 nationality: francaise
 nom_complet: Jean-Marie Le Guen
 occupation: personnalité politique

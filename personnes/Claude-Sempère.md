@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Claude Sempère, reporter ou reportrice. Ne(e) le 1964-09-20 a Dijon. Formation : Institut d'études politiques de Paris.
+Claude Sempère, reporter ou reportrice. Ne(e) le 1964-09-20 a Dijon. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q76872427

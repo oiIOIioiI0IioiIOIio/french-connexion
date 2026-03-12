@@ -7,6 +7,11 @@ education: École de journalisme et de communication d'Aix-Marseille
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Alba Ventura
+- Christophe Arleston
+- Gérard Tur
+- Jean-Marc Morandini
 nationality: francaise
 nom_complet: Hervé Gattegno
 occupation: journaliste

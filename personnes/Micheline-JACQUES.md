@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Micheline JACQUES est senateur. Ne(e) le 1971-08-10.
+[[Michelin]]e JACQUES est senateur. Ne(e) le 1971-08-10.
 
 Fonction declaree HATVP : Sénatrice de Saint-Barthélemy
 

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gérard Cros, diplomate. Ne(e) le 1943-01-12. Formation : Institut d'études politiques de Paris.
+Gérard Cros, diplomate. Ne(e) le 1943-01-12. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q47500099

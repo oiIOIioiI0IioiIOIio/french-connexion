@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean Vidal, diplomate. Ne(e) le 1939-08-15. Formation : Institut d'études politiques de Paris.
+Jean Vidal, diplomate. Ne(e) le 1939-08-15. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q47499910

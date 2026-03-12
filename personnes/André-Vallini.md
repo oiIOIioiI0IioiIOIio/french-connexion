@@ -7,6 +7,25 @@ education: Institut d'études politiques de Grenoble
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Ariane Lavrilleux
+- Benjamin Sportouch
+- Bernard Lesterlin
+- Camille Emmanuelle
+- Caroline Roux
+- Coralie Delaume
+- Fabien Escalona
+- Guillaume Daret
+- Jean-Dominique Merchet
+- Jean-Luc Névache
+- Lionel Astruc
+- Luc Bronner
+- Marine Chanel
+- Nicolas Geay
+- Olivier Revol
+- Paul Marchand
+- Roger Gros
+- Ronan Lancelot
 nationality: francaise
 nom_complet: André Vallini
 occupation: avocat ou avocate
@@ -22,7 +41,7 @@ tags:
 type: Personne
 ---
 
-André Vallini, avocat ou avocate. Ne(e) le 1956-07-15 a Tullins. Formation : Institut d'études politiques de Grenoble.
+André Vallini, avocat ou avocate. Ne(e) le 1956-07-15 a Tullins. Formation : [[Institut d'études politiques de Grenoble]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2848745

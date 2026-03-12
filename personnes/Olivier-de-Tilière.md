@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Olivier de Tilière, directeur ou directrice. Ne(e) le 1957-03-19 a Paris. Formation : université Paris-Sorbonne.
+Olivier de Tilière, directeur ou directrice. Ne(e) le 1957-03-19 a Paris. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33252369

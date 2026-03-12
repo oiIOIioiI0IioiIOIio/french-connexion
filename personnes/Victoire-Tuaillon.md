@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Victoire Tuaillon, journaliste. Ne(e) le 1989-08-25 a Paris. Formation : Institut d'études politiques de Paris.
+Victoire Tuaillon, journaliste. Ne(e) le 1989-08-25 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q73152820

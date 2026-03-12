@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Vincent Strubel, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1980-09-14. Formation : École polytechnique.
+Vincent Strubel, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1980-09-14. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q116020417

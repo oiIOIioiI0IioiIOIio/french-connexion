@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bernard Grasset, personnalité politique. Ne(e) le 1933-12-23 a La Rochelle. Formation : Institut d'études politiques de Paris.
+Bernard Grasset, personnalité politique. Ne(e) le 1933-12-23 a La Rochelle. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2897988

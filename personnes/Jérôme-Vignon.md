@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jérôme Vignon, personnalité politique. Ne(e) le 1944-09-06 a Bourges. Formation : École polytechnique.
+Jérôme Vignon, personnalité politique. Ne(e) le 1944-09-06 a Bourges. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3191086

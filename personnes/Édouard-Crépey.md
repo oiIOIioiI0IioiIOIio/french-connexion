@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Édouard Crépey, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1976-10-22 a Rouen. Formation : École normale supérieure.
+Édouard Crépey, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1976-10-22 a Rouen. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33227074

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Walid Berrissoul, réalisateur ou réalisatrice de documentaire. Ne(e) le 1985-01-01. Formation : université Paris-I-Panthéon-Sorbonne.
+Walid Berrissoul, réalisateur ou réalisatrice de documentaire. Ne(e) le 1985-01-01. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q111462003

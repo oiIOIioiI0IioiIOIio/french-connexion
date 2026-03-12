@@ -10,6 +10,8 @@ keywords:
 - réformes
 - UDF
 - État
+liens:
+- Bruno Le Maire
 nationality: Française
 nom_complet: Valéry Giscard d’Estaing
 occupation: Homme d'État, Président de la République française

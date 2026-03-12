@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Patrick Mispolet, personnalité du monde des affaires. Ne(e) le 1958-06-24 a Toury. Formation : HEC Paris.
+Patrick Mispolet, personnalité du monde des affaires. Ne(e) le 1958-06-24 a Toury. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33101796

@@ -4,6 +4,10 @@ founded: '1598-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Camille Lepage
+- Francis Bécard
+- Peggy Sastre
 nom_complet: Académie de Montauban et de Puylaurens
 sources:
 - https://www.wikidata.org/entity/Q2822310

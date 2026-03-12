@@ -7,6 +7,11 @@ education: John F. Kennedy School of Government
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Alain Le Roy
+- Jacques Paul Klein
+- Jean-Sélim Kanaan
+- Odile Renaud-Basso
 nationality: francaise
 nom_complet: Philippe Jost
 occupation: haut fonctionnaire ou haute fonctionnaire

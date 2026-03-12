@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Daniel Agacinski, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1984-06-18. Formation : École normale supérieure.
+Daniel Agacinski, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1984-06-18. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q42316118

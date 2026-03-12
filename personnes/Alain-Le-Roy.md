@@ -7,6 +7,11 @@ education: John F. Kennedy School of Government
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Jacques Paul Klein
+- Jean-Sélim Kanaan
+- Odile Renaud-Basso
+- Philippe Jost
 nationality: francaise
 nom_complet: Alain Le Roy
 occupation: diplomate

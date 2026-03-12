@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christophe Guilhou, diplomate. Ne(e) le 1962-11-16 a Lille. Formation : Institut d'études politiques de Paris.
+Christophe Guilhou, diplomate. Ne(e) le 1962-11-16 a Lille. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33111329

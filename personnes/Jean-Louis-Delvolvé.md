@@ -7,6 +7,8 @@ education: lycée Hoche
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Wandrille de Guerpel
 nationality: francaise
 nom_complet: Jean-Louis Delvolvé
 occupation: écrivain ou écrivaine

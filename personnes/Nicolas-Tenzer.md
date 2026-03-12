@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nicolas Tenzer, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1961-02-25 a Paris. Formation : École normale supérieure.
+Nicolas Tenzer, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1961-02-25 a Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3340815

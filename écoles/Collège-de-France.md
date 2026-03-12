@@ -5,6 +5,8 @@ headquarters: Paris
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Le siècle
 nom_complet: Collège de France
 sources:
 - https://www.wikidata.org/entity/Q202660

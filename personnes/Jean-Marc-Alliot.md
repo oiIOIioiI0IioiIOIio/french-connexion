@@ -7,6 +7,13 @@ education: École nationale de l'aviation civile
 genre: masculin
 keywords:
 - informaticien ou informaticienne
+liens:
+- Farid Zizi
+- Jacques Villiers
+- Jérôme Bastianelli
+- Michel Wachenheim
+- Patrick Ky
+- Paul-Louis Arslanian
 nationality: francaise
 nom_complet: Jean-Marc Alliot
 occupation: informaticien ou informaticienne

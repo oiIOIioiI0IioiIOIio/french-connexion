@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Benjamin Lancar, personnalité politique. Ne(e) le 1985-09-07 a Paris. Formation : HEC Paris.
+Benjamin Lancar, personnalité politique. Ne(e) le 1985-09-07 a Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2896127

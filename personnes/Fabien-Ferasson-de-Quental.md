@@ -7,6 +7,13 @@ education: université Nice-Sophia-Antipolis
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Christian Daziano
+- Claudine Monteil
+- Jacques Peyrat
+- Jean-Yves Potel
+- Marion Festraëts
+- Virginie Joron
 nationality: francaise
 nom_complet: Fabien Ferasson de Quental
 occupation: personnalité politique

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alix Étournaud, écrivain ou écrivaine. Ne(e) le 1967-06-21. Formation : Institut d'études politiques de Paris.
+Alix Étournaud, écrivain ou écrivaine. Ne(e) le 1967-06-21. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q15407463

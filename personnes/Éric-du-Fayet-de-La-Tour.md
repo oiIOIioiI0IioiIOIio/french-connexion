@@ -7,6 +7,10 @@ education: Institut supérieur de l'aéronautique et de l'espace
 genre: masculin
 keywords:
 - militaire
+liens:
+- Guillaume Faury
+- Jean Laurent
+- Jean-Paul Gillybœuf
 nationality: francaise
 nom_complet: Éric du Fayet de La Tour
 occupation: militaire
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Éric du Fayet de La Tour, militaire. Ne(e) le 1959-08-28. Formation : Institut supérieur de l'aéronautique et de l'espace.
+Éric du Fayet de La Tour, militaire. Ne(e) le 1959-08-28. Formation : [[Institut supérieur de l'aéronautique et de l'espace]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q98235102

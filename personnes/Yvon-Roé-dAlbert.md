@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Yvon Roé d'Albert, diplomate. Ne(e) le 1945-10-04 a Paris. Formation : École normale supérieure.
+Yvon Roé d'Albert, diplomate. Ne(e) le 1945-10-04 a Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33220580

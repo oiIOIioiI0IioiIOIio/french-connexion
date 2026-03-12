@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Claude Mallet, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1955-03-25 a 16e arrondissement de Paris. Formation : École normale supérieure.
+Jean-Claude Mallet, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1955-03-25 a 16e arrondissement de Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3165093

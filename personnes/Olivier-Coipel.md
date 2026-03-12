@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Olivier Coipel, personnalité politique. Ne(e) le 1973-11-07. Formation : Gobelins.
+Olivier Coipel, personnalité politique. Ne(e) le 1973-11-07. Formation : [[Gobelins]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3350928

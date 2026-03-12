@@ -7,6 +7,12 @@ education: université Bordeaux-IV
 genre: féminin
 keywords:
 - avocat ou avocate
+liens:
+- Hugues Moutouh
+- Julien Courbet
+- Mathilde Munos
+- Myriam El Khomri
+- Élise Costa
 nationality: francaise
 nom_complet: Julie Owono
 occupation: avocat ou avocate

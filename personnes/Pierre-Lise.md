@@ -7,6 +7,10 @@ education: Institut d'études politiques
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Alain Walmetz
+- Fabrice Amedeo
+- Mohamed Bengaouer
 nationality: francaise
 nom_complet: Pierre Lise
 occupation: haut fonctionnaire ou haute fonctionnaire

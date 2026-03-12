@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean Cuvelier, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1936-08-21. Formation : Institut d'études politiques de Paris.
+Jean Cuvelier, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1936-08-21. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q73492737

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Véronique Roger-Lacan, diplomate. Ne(e) le 1964-06-19 a Đà Nẵng. Formation : université Paris-I-Panthéon-Sorbonne.
+Véronique Roger-Lacan, diplomate. Ne(e) le 1964-06-19 a Đà Nẵng. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33120862

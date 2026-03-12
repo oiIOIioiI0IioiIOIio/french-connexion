@@ -3,6 +3,8 @@ date_creation_note: '2026-03-12'
 keywords:
 - media
 - presse
+liens:
+- L'Univers israélite
 nom_complet: L'Univers
 sources:
 - https://www.wikidata.org/entity/Q3204824

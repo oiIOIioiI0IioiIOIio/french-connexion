@@ -7,6 +7,14 @@ education: université de Cambridge
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Arnold Philibert Dubois
+- Guy Danet
+- Gérald Olivier
+- Henri Burin des Roziers
+- Ingrid Therwath
+- Manon de La Selle
+- Myriam François-Cerrah
 nationality: francaise
 nom_complet: Frédéric Dal Vecchio
 occupation: avocat ou avocate

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean Feidt, personnalité politique. Ne(e) le 1933-07-01 a Longwy. Formation : Institut d'études politiques de Paris.
+Jean Feidt, personnalité politique. Ne(e) le 1933-07-01 a Longwy. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q115926061

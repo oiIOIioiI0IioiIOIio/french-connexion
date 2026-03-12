@@ -16,4 +16,4 @@ type: Media
 wikidata_id: Q115298537
 ---
 
-L'Indépendant de Constantine, media francais.
+[[L'Indépendant]] de Constantine, media francais.

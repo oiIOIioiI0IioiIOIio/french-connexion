@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-William Bourdon, avocat ou avocate. Ne(e) le 1956-08-14 a Neuilly-sur-Seine. Formation : Institut d'études politiques de Paris.
+William Bourdon, avocat ou avocate. Ne(e) le 1956-08-14 a Neuilly-sur-Seine. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3568444

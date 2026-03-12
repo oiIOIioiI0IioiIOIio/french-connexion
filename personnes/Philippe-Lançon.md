@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Philippe Lançon, écrivain ou écrivaine. Ne(e) le 1963-01-01 a Vanves. Formation : Centre de formation des journalistes.
+Philippe Lançon, écrivain ou écrivaine. Ne(e) le 1963-01-01 a Vanves. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3380144

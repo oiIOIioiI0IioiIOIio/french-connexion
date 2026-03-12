@@ -4,6 +4,16 @@ founded: '1965-05-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Claude Grunitzky
+- Jacques Grandon
+- Jean François-Poncet
+- Jean Rochet
+- Jean-Luc Delblat
+- Lou Fritel
+- Patrick Eudeline
+- Pierre-Christian Taittinger
+- Simon Liberati
 nom_complet: lycée Saint-Just de Lyon
 sources:
 - https://www.wikidata.org/entity/Q3269016

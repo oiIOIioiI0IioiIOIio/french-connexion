@@ -7,6 +7,25 @@ education: École navale
 genre: masculin
 keywords:
 - militaire
+liens:
+- Anne Cullerre
+- Anne-Ségolène Abscheidt
+- Arnaud de Tarlé
+- Bernard Klotz
+- Didier Ratsiraka
+- Gérard de Castelbajac
+- Hervé Jaouen
+- Jean-Louis Battet
+- Laurent Mérer
+- Nicolas Vaujour
+- Paul de Bigault de Cazanove
+- Philippe Ausseur
+- Pierre Siramy
+- Pierre Trouillet
+- Vianney Sevaistre
+- Yves de Kersauson
+- Édouard Guillaud
+- Émile Chaline
 nationality: francaise
 nom_complet: Pierre Lacoste
 occupation: militaire

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nicolas Baverez, avocat ou avocate. Ne(e) le 1961-05-08 a 6e arrondissement de Lyon. Formation : École normale supérieure.
+Nicolas Baverez, avocat ou avocate. Ne(e) le 1961-05-08 a 6e arrondissement de Lyon. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3340070

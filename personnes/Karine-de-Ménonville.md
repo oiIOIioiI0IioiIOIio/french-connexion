@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Karine de Ménonville, présentateur ou présentatrice de journal. Ne(e) le 1972-10-05 a Marignane. Formation : Institut d'études politiques de Paris.
+Karine de Ménonville, présentateur ou présentatrice de journal. Ne(e) le 1972-10-05 a Marignane. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3193324

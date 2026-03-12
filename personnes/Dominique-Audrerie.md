@@ -7,6 +7,10 @@ education: université Bordeaux-I
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Alain Vidalies
+- Françoise Laborde
+- Sylvie Brunel
 nationality: francaise
 nom_complet: Dominique Audrerie
 occupation: avocat ou avocate

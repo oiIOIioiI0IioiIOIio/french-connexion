@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marie-Laure Desjardins, journaliste. Ne(e) le 1965-07-22 a Caen. Formation : université Paris-I-Panthéon-Sorbonne.
+Marie-Laure Desjardins, journaliste. Ne(e) le 1965-07-22 a Caen. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q47088543

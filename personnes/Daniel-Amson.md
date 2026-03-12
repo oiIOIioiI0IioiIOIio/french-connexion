@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Daniel Amson, avocat ou avocate. Ne(e) le 1942-02-23 a Hyères. Formation : Institut d'études politiques de Paris.
+Daniel Amson, avocat ou avocate. Ne(e) le 1942-02-23 a Hyères. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3013652

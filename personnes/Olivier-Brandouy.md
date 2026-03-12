@@ -7,6 +7,8 @@ education: université de Limoges
 genre: masculin
 keywords:
 - économiste
+liens:
+- Alain Galan
 nationality: francaise
 nom_complet: Olivier Brandouy
 occupation: économiste

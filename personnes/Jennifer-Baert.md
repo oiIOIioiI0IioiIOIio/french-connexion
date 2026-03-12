@@ -7,6 +7,10 @@ education: King's College de Londres
 genre: féminin
 keywords:
 - solliciteur
+liens:
+- Axelle Lemaire
+- David de Rothschild
+- Olivier Entraygues
 nationality: francaise
 nom_complet: Jennifer Baert
 occupation: solliciteur

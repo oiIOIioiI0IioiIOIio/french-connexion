@@ -7,6 +7,10 @@ education: Institut supérieur de l'aéronautique et de l'espace
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Guillaume Faury
+- Jean-Paul Gillybœuf
+- Éric du Fayet de La Tour
 nationality: francaise
 nom_complet: Jean Laurent
 occupation: personnalité du monde des affaires
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Jean Laurent, personnalité du monde des affaires. Ne(e) le 1944-07-31 a Mazamet. Formation : Institut supérieur de l'aéronautique et de l'espace.
+Jean Laurent, personnalité du monde des affaires. Ne(e) le 1944-07-31 a Mazamet. Formation : [[Institut supérieur de l'aéronautique et de l'espace]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q28498327

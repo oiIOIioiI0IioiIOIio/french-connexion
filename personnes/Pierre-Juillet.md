@@ -7,6 +7,15 @@ education: faculté de droit et des sciences économiques de Paris
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Bernard Poncet
+- Charles de Bancalis de Maurel d'Aragon
+- Jean Amet
+- Jean-Marie Momal
+- Jean-Pierre Delpont
+- Marc Menguy
+- Robert Soulé
+- Suzanne Batbedat
 nationality: francaise
 nom_complet: Pierre Juillet
 occupation: avocat ou avocate
@@ -22,7 +31,7 @@ tags:
 type: Personne
 ---
 
-Pierre Juillet, avocat ou avocate. Ne(e) le 1921-07-22 a Vallière. Formation : faculté de droit et des sciences économiques de Paris.
+Pierre Juillet, avocat ou avocate. Ne(e) le 1921-07-22 a Vallière. Formation : [[faculté de droit et des sciences économiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3385640

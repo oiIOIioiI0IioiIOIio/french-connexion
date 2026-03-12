@@ -7,6 +7,14 @@ education: École normale supérieure de Lyon
 genre: masculin
 keywords:
 - chimiste
+liens:
+- Augustin Trapenard
+- Catherine Guesde
+- Gaultier Bès
+- Johann Uhres
+- Léa Bello
+- Marianne Durano
+- Matthias Fekl
 nationality: francaise
 nom_complet: Bernard Bigot
 occupation: chimiste
@@ -22,7 +30,7 @@ tags:
 type: Personne
 ---
 
-Bernard Bigot, chimiste. Ne(e) le 1950-01-24 a Blois. Formation : École normale supérieure de Lyon.
+Bernard Bigot, chimiste. Ne(e) le 1950-01-24 a Blois. Formation : [[École normale supérieure]] de Lyon.
 
 ## Sources
 - http://www.wikidata.org/entity/Q2897534

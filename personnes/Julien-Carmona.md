@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Julien Carmona, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1970-07-31 a Lannion. Formation : École normale supérieure.
+Julien Carmona, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1970-07-31 a Lannion. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q49290960

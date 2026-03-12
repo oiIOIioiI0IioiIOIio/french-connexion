@@ -7,6 +7,8 @@ education: faculté de droit de Toulouse
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Jean Keller
 nationality: francaise
 nom_complet: Jean Paolini
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Jean Paolini, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1921-03-03 a Ghisonaccia. Formation : faculté de droit de Toulouse.
+Jean Paolini, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1921-03-03 a Ghisonaccia. Formation : [[faculté de droit de Toulouse]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q19945196

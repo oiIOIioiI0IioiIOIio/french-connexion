@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-René Monzat, journaliste. Ne(e) le 1958-01-01 a Paris. Formation : Institut d'études politiques de Paris.
+René Monzat, journaliste. Ne(e) le 1958-01-01 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3426643

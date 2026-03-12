@@ -7,6 +7,10 @@ education: université Bordeaux-I
 genre: féminin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Alain Vidalies
+- Dominique Audrerie
+- Sylvie Brunel
 nationality: francaise
 nom_complet: Françoise Laborde
 occupation: présentateur ou présentatrice de journal

@@ -17,4 +17,4 @@ website: http://alliancesolidaire.org/
 wikidata_id: Q41438511
 ---
 
-Alliance solidaire des Français de l’étranger, parti politique francais.
+[[Alliance]] solidaire des Français de l’étranger, parti politique francais.

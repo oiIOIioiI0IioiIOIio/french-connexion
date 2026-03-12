@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Michel Salvator, journaliste. Ne(e) le 1961-07-27 a Paris. Formation : Centre de formation des journalistes.
+Jean-Michel Salvator, journaliste. Ne(e) le 1961-07-27 a Paris. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33167986

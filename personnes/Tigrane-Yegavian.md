@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Tigrane Yegavian, poète ou poétesse. Ne(e) le 1984-01-01 a Paris. Formation : Institut d'études politiques de Paris.
+Tigrane Yegavian, poète ou poétesse. Ne(e) le 1984-01-01 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q111496411

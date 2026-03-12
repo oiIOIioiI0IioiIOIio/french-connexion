@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Vanessa Schneider, écrivain ou écrivaine. Ne(e) le 1969-01-01 a Puteaux. Formation : Institut d'études politiques de Paris.
+Vanessa Schneider, écrivain ou écrivaine. Ne(e) le 1969-01-01 a Puteaux. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3554549

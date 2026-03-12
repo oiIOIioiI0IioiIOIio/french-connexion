@@ -4,6 +4,8 @@ founded: '1888-01-01'
 keywords:
 - media
 - presse
+liens:
+- L'Éclaireur du Gâtinais
 nom_complet: L'Éclair
 sources:
 - https://www.wikidata.org/entity/Q51926334

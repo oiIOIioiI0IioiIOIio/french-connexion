@@ -7,6 +7,16 @@ education: université Paris-Est-Créteil-Val-de-Marne
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Charles Constantin-Vallet
+- Emmanuelle Cosse
+- Karim Achoui
+- Lucile Woodward
+- Pascal Durand
+- Philippe Olivier
+- Pierre-Yves Lautrou
+- Roland Perez
+- Rosiane Houngbo-Monteverde
 nationality: francaise
 nom_complet: Michaël Bertini
 occupation: personnalité du monde des affaires

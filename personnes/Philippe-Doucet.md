@@ -7,6 +7,9 @@ education: Rouen Business School
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Nicolas Plantrou
+- Philippe Besson
 nationality: francaise
 nom_complet: Philippe Doucet
 occupation: journaliste
@@ -22,7 +25,7 @@ tags:
 type: Personne
 ---
 
-Philippe Doucet, journaliste. Ne(e) le 1962-01-01 a Vannes. Formation : Rouen Business School.
+Philippe Doucet, journaliste. Ne(e) le 1962-01-01 a Vannes. Formation : [[Rouen Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3379750

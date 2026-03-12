@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marie Lajus, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1971-05-17 a Talence. Formation : École normale supérieure.
+Marie Lajus, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1971-05-17 a Talence. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q41704443

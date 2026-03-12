@@ -7,6 +7,9 @@ education: Institut d'études politiques de Rennes
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Bruno Aubry
+- Yaël Goosz
 nationality: francaise
 nom_complet: Benjamin Cruard
 occupation: journaliste
@@ -22,7 +25,7 @@ tags:
 type: Personne
 ---
 
-Benjamin Cruard, journaliste. Ne(e) le 1988-01-01. Formation : Institut d'études politiques de Rennes.
+Benjamin Cruard, journaliste. Ne(e) le 1988-01-01. Formation : [[Institut d'études politiques de Rennes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q122071085

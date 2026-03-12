@@ -5,6 +5,8 @@ headquarters: Puteaux
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- CESI école d'ingénieurs
 nom_complet: CESI
 sources:
 - https://www.wikidata.org/entity/Q30255548

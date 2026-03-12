@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Ludovic Chaker, personnalité politique. Ne(e) le 1979-07-15 a Saint-Jean-du-Bruel. Formation : Institut d'études politiques de Paris.
+Ludovic Chaker, personnalité politique. Ne(e) le 1979-07-15 a Saint-Jean-du-Bruel. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q29863171

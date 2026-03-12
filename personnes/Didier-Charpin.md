@@ -7,6 +7,10 @@ education: Université de Montréal
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Annabel Loyola
+- Dominique Alhéritière
+- Michaëlle Jean
 nationality: francaise
 nom_complet: Didier Charpin
 occupation: journaliste

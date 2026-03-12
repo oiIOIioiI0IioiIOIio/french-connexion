@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Antoine Delon, personnalité du monde des affaires. Ne(e) le 1974-07-12 a Neuilly-sur-Seine. Formation : EM Lyon Business School.
+Antoine Delon, personnalité du monde des affaires. Ne(e) le 1974-07-12 a Neuilly-sur-Seine. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q111438647

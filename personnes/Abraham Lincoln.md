@@ -12,7 +12,24 @@ keywords:
 - emblématique
 - histoire
 liens:
+- Amschel Moses Rothschild
+- Augustin Hamon
+- Betty de Rothschild
+- Carter G. Woodson
+- Donald Oliver
+- Famille Rothschild
+- François Bayrou
+- Henri de Rothschild
+- James de Rothschild
+- Jean Augustine
+- Jesse E. Moorland
+- Jules Grévy
+- Mayer Amschel Rothschild
+- Mélina Seymour
+- Nathan Mayer Rothschild (1777-1836)
 - Stephen A. Douglas
+- Think tank
+- Édouard Philippe
 nationality: américain
 nom_complet: Abraham Lincoln
 occupation: null

@@ -4,6 +4,8 @@ founded: '1873-12-17'
 keywords:
 - media
 - presse
+liens:
+- L'Avenir de la Vienne et de l'Ouest
 nom_complet: L'Avenir de la Vienne
 sources:
 - https://www.wikidata.org/entity/Q119048497

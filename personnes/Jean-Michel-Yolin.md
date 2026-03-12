@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Michel Yolin, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1945-11-08 a Paris. Formation : École polytechnique.
+Jean-Michel Yolin, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1945-11-08 a Paris. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3168181

@@ -7,6 +7,8 @@ education: université Strasbourg-III
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Abdoulatifou Aly
 nationality: francaise
 nom_complet: Laurent Hauben
 occupation: journaliste

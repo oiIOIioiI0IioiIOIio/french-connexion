@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gilles Lebreton, avocat ou avocate. Ne(e) le 1958-10-11 a Brest. Formation : université Paris-Sorbonne.
+Gilles Lebreton, avocat ou avocate. Ne(e) le 1958-10-11 a Brest. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16549460

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Vincent Sciama, diplomate. Ne(e) le 1974-03-27. Formation : Institut d'études politiques de Paris.
+Vincent Sciama, diplomate. Ne(e) le 1974-03-27. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q73396095

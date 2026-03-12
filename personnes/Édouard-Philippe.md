@@ -13,14 +13,32 @@ keywords:
 - macron
 - édith
 liens:
-- Sarah Philippe (enfant)
+- Abraham Lincoln
 - Alain Juppé
-- François Fillon
-- Emmanuel Macron
-- Édith Chabre (conjointe)
-- Michel Rocard
+- Amschel Moses Rothschild
 - Anatole Philippe (enfant)
+- Augustin Hamon
+- Betty de Rothschild
+- Carter G. Woodson
+- Dominique Reynié
+- Donald Oliver
+- Emmanuel Macron
+- Famille Rothschild
+- François Bayrou
+- François Fillon
+- Henri de Rothschild
+- James de Rothschild
+- Jean Augustine
+- Jesse E. Moorland
+- Jules Grévy
 - Léonard Philippe (enfant)
+- Mayer Amschel Rothschild
+- Michel Rocard
+- Mélina Seymour
+- Nathan Mayer Rothschild (1777-1836)
+- Sarah Philippe (enfant)
+- Think tank
+- Édith Chabre (conjointe)
 nationality: français
 nom_complet: Édouard Philippe
 occupation: null
@@ -40,7 +58,7 @@ wikidata_id: Q3579995
 wikipedia_enriched: true
 ---
 
-Haut fonctionnaire et homme d'État français, Édouard Philippe a été Premier ministre de 2017 à 2020. Diplômé de Sciences Po et de l'ENA, il a occupé divers mandats politiques locaux et nationaux avant de fonder le parti Horizons en 2021.
+Haut fonctionnaire et homme d'État français, Édouard Philippe a été Premier ministre de 2017 à 2020. Diplômé de Sciences Po et de l'ENA, il a occupé divers mandats politiques locaux et nationaux avant de fonder le parti [[Horizons]] en 2021.
 
 > 🔍 Trouvé via **[[Emmanuel Macron]]** (profondeur 1)
 

@@ -7,6 +7,15 @@ education: université de Caen-Normandie
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Alain Tourret
+- Christine Kerdellant
+- Céline Asselot
+- Denis Brogniart
+- Jean-Marie Girault
+- Jean-Paul Ollivier
+- Marie-Annick Bourdin
+- Olivier Metzner
 nationality: francaise
 nom_complet: Guillaume Bazard
 occupation: diplomate

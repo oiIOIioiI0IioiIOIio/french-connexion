@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre-Henry Bassouls, personnalité du monde des affaires. Ne(e) le 1962-03-01 a Les Abymes. Formation : EM Lyon Business School.
+Pierre-Henry Bassouls, personnalité du monde des affaires. Ne(e) le 1962-03-01 a Les Abymes. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q125767988

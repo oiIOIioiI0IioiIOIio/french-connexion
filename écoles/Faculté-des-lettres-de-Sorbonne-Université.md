@@ -5,6 +5,9 @@ headquarters: Sorbonne
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Jennifer Lesieur
+- Louis Manaranche
 nom_complet: Faculté des lettres de Sorbonne Université
 sources:
 - https://www.wikidata.org/entity/Q106107980
@@ -19,4 +22,4 @@ website: https://lettres.sorbonne-universite.fr/
 wikidata_id: Q106107980
 ---
 
-Faculté des lettres de Sorbonne Université, etablissement d'enseignement superieur francais.
+Faculté des lettres de [[Sorbonne Université]], etablissement d'enseignement superieur francais.

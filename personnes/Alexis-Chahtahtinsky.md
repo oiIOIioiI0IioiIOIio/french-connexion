@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alexis Chahtahtinsky, diplomate. Ne(e) le 1967-08-22 a Strasbourg. Formation : Institut d'études politiques de Paris.
+Alexis Chahtahtinsky, diplomate. Ne(e) le 1967-08-22 a Strasbourg. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q12835628

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Frédéric Torloting, personnalité du monde des affaires. Ne(e) le 1966-11-27 a Strasbourg. Formation : EM Lyon Business School.
+Frédéric Torloting, personnalité du monde des affaires. Ne(e) le 1966-11-27 a Strasbourg. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33108606

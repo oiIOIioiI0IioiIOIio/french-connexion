@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-David Doucet, journaliste. Ne(e) le 1984-09-26 a Le Blanc-Mesnil. Formation : université Paris-Sorbonne.
+David Doucet, journaliste. Ne(e) le 1984-09-26 a Le Blanc-Mesnil. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q27514751

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jacques Bugier, écrivain ou écrivaine. Ne(e) le 1953-10-23 a Blois. Formation : Centre de formation des journalistes.
+Jacques Bugier, écrivain ou écrivaine. Ne(e) le 1953-10-23 a Blois. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q26213490

@@ -7,6 +7,8 @@ education: Cours Simon
 genre: féminin
 keywords:
 - acteur ou actrice
+liens:
+- François Cérésa
 nationality: francaise
 nom_complet: Sylvie Joly
 occupation: acteur ou actrice

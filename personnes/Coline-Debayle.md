@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Coline Debayle, directeur général ou directrice générale. Ne(e) le 1989-01-01. Formation : HEC Paris.
+Coline Debayle, directeur général ou directrice générale. Ne(e) le 1989-01-01. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q111031130

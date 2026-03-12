@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Louis Dutheillet de Lamothe, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1983-01-22 a Paris. Formation : École normale supérieure.
+Louis Dutheillet de Lamothe, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1983-01-22 a Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33261514

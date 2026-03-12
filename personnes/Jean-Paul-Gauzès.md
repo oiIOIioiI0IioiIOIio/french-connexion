@@ -7,6 +7,23 @@ education: Institut d'études politiques de Toulouse
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Arnauld Champremier-Trigano
+- Audrey Crespo-Mara
+- Christian Authier
+- David Izzo
+- Grégor Trumel
+- Isabelle Sima
+- Jean-François Savy
+- Mahdi Hacène
+- Maxime Switek
+- Michel Moutot
+- Pierre Benazet
+- Rodolphe Sambou
+- Roger Dumec
+- Serge Tignères
+- Stéphane Lauer
+- Sylvain Augier
 nationality: francaise
 nom_complet: Jean-Paul Gauzès
 occupation: avocat ou avocate
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Jean-Paul Gauzès, avocat ou avocate. Ne(e) le 1947-10-01 a Toulouse. Formation : Institut d'études politiques de Toulouse.
+Jean-Paul Gauzès, avocat ou avocate. Ne(e) le 1947-10-01 a Toulouse. Formation : [[Institut d'études politiques de Toulouse]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q598543

@@ -7,6 +7,31 @@ education: Institut national des langues et civilisations orientales
 genre: masculin
 keywords:
 - correcteur
+liens:
+- Adrien Gombeaud
+- Alexandre Garcia
+- Bertrand Besancenot
+- Christile Drulhe
+- Cyrille Baumgartner
+- Florent Dabadie
+- Florent Gorges
+- Georges Diener
+- Gilles Garachon
+- Jacques Champagne de Labriolle
+- Jean-Christophe Belliard
+- Jean-Noël Poirier
+- Jean-Paul Réau
+- Jean-Pierre Montagne
+- José Paoli
+- Joël Meyer
+- Jules Irrmann
+- Olivier Guyonvarch
+- Pierre-Antoine Donnet
+- Renée Sillon-Veyret
+- Richard Sola
+- Rémi Maréchaux
+- Véronique Bujon-Barré
+- Élisabeth Laurin
 nationality: francaise
 nom_complet: Olivier Lannuzel
 occupation: correcteur
@@ -22,7 +47,7 @@ tags:
 type: Personne
 ---
 
-Olivier Lannuzel, correcteur. Ne(e) le 1968-01-12. Formation : Institut national des langues et civilisations orientales.
+Olivier Lannuzel, correcteur. Ne(e) le 1968-01-12. Formation : [[Institut national des langues et civilisations orientales]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q136680119

@@ -7,6 +7,14 @@ education: université de Cambridge
 genre: masculin
 keywords:
 - analyste
+liens:
+- Frédéric Dal Vecchio
+- Guy Danet
+- Gérald Olivier
+- Henri Burin des Roziers
+- Ingrid Therwath
+- Manon de La Selle
+- Myriam François-Cerrah
 nationality: francaise
 nom_complet: Arnold Philibert Dubois
 occupation: analyste

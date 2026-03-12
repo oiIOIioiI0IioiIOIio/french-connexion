@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nicolas Hénin, écrivain ou écrivaine. Ne(e) le 1975-11-07 a Le Mans. Formation : université Paris-I-Panthéon-Sorbonne.
+Nicolas Hénin, écrivain ou écrivaine. Ne(e) le 1975-11-07 a Le Mans. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16666494

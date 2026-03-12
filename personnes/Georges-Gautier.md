@@ -7,6 +7,16 @@ education: École du Louvre
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Aurélie Godefroy
+- Bernard Pignerol
+- Claudine Le Tourneur d'Ison
+- Didier Rykner
+- Hélène Risser
+- Inès de La Fressange
+- Juliette Morillot
+- Léa Lootgieter
+- Rosine Lheureux
 nationality: francaise
 nom_complet: Georges Gautier
 occupation: diplomate

@@ -7,6 +7,8 @@ education: université de technologie de Compiègne
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Guillaume Robin
 nationality: francaise
 nom_complet: Nicolas Berrod
 occupation: journaliste

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sophie Massieu, journaliste. Ne(e) le 1975-02-08 a Cherbourg. Formation : Institut d'études politiques de Paris.
+Sophie Massieu, journaliste. Ne(e) le 1975-02-08 a Cherbourg. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q17355381

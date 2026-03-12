@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Vincent Huguenin, personnalité du monde des affaires. Ne(e) le 1954-11-10 a Paris. Formation : EM Lyon Business School.
+Vincent Huguenin, personnalité du monde des affaires. Ne(e) le 1954-11-10 a Paris. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33113980

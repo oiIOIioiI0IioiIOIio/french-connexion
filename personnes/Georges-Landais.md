@@ -7,6 +7,13 @@ education: université Toulouse-Jean-Jaurès
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Agathe Auproux
+- Aure Séguier
+- Daniel Crozes
+- Hélène Jouan
+- Jean-Luc Barré
+- Jean-Yves Le Talec
 nationality: francaise
 nom_complet: Georges Landais
 occupation: journaliste

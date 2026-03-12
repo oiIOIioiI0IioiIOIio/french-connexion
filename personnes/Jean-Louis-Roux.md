@@ -7,6 +7,9 @@ education: université Grenoble-III
 genre: masculin
 keywords:
 - poète ou poétesse
+liens:
+- Guillaume Narjollet
+- Marc Dozier
 nationality: francaise
 nom_complet: Jean-Louis Roux
 occupation: poète ou poétesse

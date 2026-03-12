@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nicolas Miguet, personnalité du monde des affaires. Ne(e) le 1961-01-16 a Verneuil-sur-Avre. Formation : Institut d'études politiques de Paris.
+Nicolas Miguet, personnalité du monde des affaires. Ne(e) le 1961-01-16 a Verneuil-sur-Avre. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q743018

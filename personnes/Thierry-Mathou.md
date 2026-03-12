@@ -7,6 +7,11 @@ education: École des hautes études commerciales du Nord
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Anne de Bayser
+- Jean Mercier
+- Thibaud de Barbeyrac
+- Vérane Frédiani
 nationality: francaise
 nom_complet: Thierry Mathou
 occupation: diplomate

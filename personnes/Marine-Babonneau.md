@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Marine Babonneau, journaliste. Ne(e) le 1973-07-06.
+[[Marine]] Babonneau, journaliste. Ne(e) le 1973-07-06.
 
 ## Sources
 - http://www.wikidata.org/entity/Q46410218

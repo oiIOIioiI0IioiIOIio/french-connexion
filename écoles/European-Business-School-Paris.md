@@ -5,6 +5,9 @@ headquarters: Paris
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Anne Ghesquière
+- Éric Gendry
 nom_complet: European Business School Paris
 sources:
 - https://www.wikidata.org/entity/Q2371481

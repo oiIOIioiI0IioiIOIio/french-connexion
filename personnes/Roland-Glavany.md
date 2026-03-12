@@ -7,6 +7,9 @@ education: École nationale supérieure de l'aéronautique et de l'espace
 genre: masculin
 keywords:
 - militaire
+liens:
+- Caroline Laurent
+- Claude Frantzen
 nationality: francaise
 nom_complet: Roland Glavany
 occupation: militaire

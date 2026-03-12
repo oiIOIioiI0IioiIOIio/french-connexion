@@ -7,6 +7,17 @@ education: Université de New York
 genre: féminin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Anne Poiret
+- Antonin Lévy
+- Arno Klarsfeld
+- Carine Fouteau
+- Géraldine Muhlmann
+- Iris Brey
+- Laurent Stefanini
+- Léa Salamé
+- Marie-Anne Barbat-Layani
+- Mohamed Sahnoun
 nationality: francaise
 nom_complet: Stéphanie Antoine
 occupation: présentateur ou présentatrice de journal

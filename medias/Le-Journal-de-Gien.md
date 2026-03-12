@@ -18,4 +18,4 @@ website: http://www.lejournaldegien.fr
 wikidata_id: Q3223722
 ---
 
-Le Journal de Gien, media francais.
+[[Le Jour]]nal de Gien, media francais.

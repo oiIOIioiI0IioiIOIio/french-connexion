@@ -7,6 +7,8 @@ education: faculté de droit de Nantes
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Dominique Luneau
 nationality: francaise
 nom_complet: Yvon Chotard
 occupation: avocat ou avocate
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Yvon Chotard, avocat ou avocate. Ne(e) le 1946-08-01 a Guérande. Formation : faculté de droit de Nantes.
+Yvon Chotard, avocat ou avocate. Ne(e) le 1946-08-01 a Guérande. Formation : [[faculté de droit de Nantes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q65128922

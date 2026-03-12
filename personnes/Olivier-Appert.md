@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Olivier Appert, ingénieur. Ne(e) le 1949-04-09 a Paris. Formation : École polytechnique.
+Olivier Appert, ingénieur. Ne(e) le 1949-04-09 a Paris. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3350760

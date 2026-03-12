@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Thomas Hofnung, journaliste. Ne(e) le 1969-01-01. Formation : Institut d'études politiques de Paris.
+Thomas Hofnung, journaliste. Ne(e) le 1969-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q136563713

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Elsa Da Costa, entrepreneur ou entrepreneuse. Ne(e) le 1976-05-09 a 12e arrondissement de Paris. Formation : EM Lyon Business School.
+Elsa Da Costa, entrepreneur ou entrepreneuse. Ne(e) le 1976-05-09 a 12e arrondissement de Paris. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q56308983

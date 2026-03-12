@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Antoine Portmann, personnalité du monde des affaires. Ne(e) le 1974-02-08. Formation : EM Lyon Business School.
+Antoine Portmann, personnalité du monde des affaires. Ne(e) le 1974-02-08. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q110576216

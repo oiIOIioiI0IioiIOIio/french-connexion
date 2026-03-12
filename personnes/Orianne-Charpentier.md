@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Orianne Charpentier, écrivain ou écrivaine. Ne(e) le 1974-02-04 a Hô Chi Minh-Ville. Formation : Centre de formation des journalistes.
+Orianne Charpentier, écrivain ou écrivaine. Ne(e) le 1974-02-04 a Hô Chi Minh-Ville. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3356264

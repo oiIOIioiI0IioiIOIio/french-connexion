@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Wendy Bouchard, journaliste. Ne(e) le 1980-06-22 a Paris. Formation : Institut d'études politiques de Paris.
+Wendy Bouchard, journaliste. Ne(e) le 1980-06-22 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3567240

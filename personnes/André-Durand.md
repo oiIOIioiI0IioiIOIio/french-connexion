@@ -7,6 +7,8 @@ education: null
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Pierre-André Durand
 nationality: francaise
 nom_complet: André Durand
 occupation: haut fonctionnaire ou haute fonctionnaire

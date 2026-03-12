@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gérard Chesnel, écrivain ou écrivaine. Ne(e) le 1946-04-01 a Lisieux. Formation : École normale supérieure.
+Gérard Chesnel, écrivain ou écrivaine. Ne(e) le 1946-04-01 a Lisieux. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q51845672

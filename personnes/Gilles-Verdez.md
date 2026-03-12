@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gilles Verdez, journaliste. Ne(e) le 1964-08-08 a Saint-Germain-en-Laye. Formation : Centre de formation des journalistes.
+Gilles Verdez, journaliste. Ne(e) le 1964-08-08 a Saint-Germain-en-Laye. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3106539

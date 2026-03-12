@@ -18,4 +18,4 @@ type: Parti
 wikidata_id: Q2344776
 ---
 
-Alliance démocratique, parti politique francais.
+[[Alliance]] démocratique, parti politique francais.

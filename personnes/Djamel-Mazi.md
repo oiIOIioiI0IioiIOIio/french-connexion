@@ -7,6 +7,15 @@ education: Centre de formation et de perfectionnement des journalistes
 genre: masculin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Anne-Isabelle Tollet
+- Aude Favre
+- Christine Goguet
+- Clarence Edgard-Rosa
+- Cécile Pivot
+- Fabien Roussel
+- Gauthier Le Bret
+- Éric Delvaux
 nationality: francaise
 nom_complet: Djamel Mazi
 occupation: présentateur ou présentatrice de journal

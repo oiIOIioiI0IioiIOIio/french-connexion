@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Vincent Jay, militaire. Ne(e) le 1985-05-18 a Albertville. Formation : EM Lyon Business School.
+Vincent Jay, militaire. Ne(e) le 1985-05-18 a Albertville. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q375558

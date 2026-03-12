@@ -7,6 +7,24 @@ education: université de Strasbourg
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Antoine Genton
+- Barto Pedro Orent-Niedzielski
+- Bertrand Mertz
+- Christian Kassel
+- Christian Nique
+- Francis Letellier
+- François Hoehlinger
+- Françoise Joly
+- Jean Kahn
+- Jean-Baptiste Soufron
+- Jean-Marie Bockel
+- Louis Oster
+- Marie-Monique Robin
+- Patrick Strzoda
+- Raymond Forni
+- Romain Mielcarek
+- Érick Cakpo
 nationality: francaise
 nom_complet: Christophe Grudler
 occupation: personnalité politique

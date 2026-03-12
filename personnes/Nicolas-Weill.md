@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nicolas Weill, traducteur ou traductrice. Ne(e) le 1957-01-01. Formation : École normale supérieure.
+Nicolas Weill, traducteur ou traductrice. Ne(e) le 1957-01-01. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3340874

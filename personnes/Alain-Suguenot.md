@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alain Suguenot, avocat ou avocate. Ne(e) le 1951-09-17 a Troyes. Formation : Institut d'études politiques de Paris.
+Alain Suguenot, avocat ou avocate. Ne(e) le 1951-09-17 a Troyes. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2830299

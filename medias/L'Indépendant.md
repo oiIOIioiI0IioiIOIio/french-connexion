@@ -4,6 +4,11 @@ founded: '1846-01-01'
 keywords:
 - media
 - presse
+liens:
+- L'Indépendant de Constantine
+- L'Indépendant des Basses-Pyrénées
+- L'Indépendant du Cher
+- L'Indépendant du Pas-de-Calais
 nom_complet: L'Indépendant
 sources:
 - https://www.wikidata.org/entity/Q2269524

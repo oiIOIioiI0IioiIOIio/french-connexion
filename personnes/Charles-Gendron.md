@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Charles Gendron, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1953-05-12 a Château-Renault.
+Charles Gendron, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1953-05-12 a Château-[[Renault]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33243729

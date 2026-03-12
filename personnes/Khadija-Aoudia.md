@@ -7,6 +7,13 @@ education: université Montpellier-I
 genre: féminin
 keywords:
 - avocat ou avocate
+liens:
+- François Bachy
+- Henri Temple
+- Hervé Cassan
+- Hervé Fernandez
+- Jean-Marc Pujol
+- Sylvain Sankalé
 nationality: francaise
 nom_complet: Khadija Aoudia
 occupation: avocat ou avocate

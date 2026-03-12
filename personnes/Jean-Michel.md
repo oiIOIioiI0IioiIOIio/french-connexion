@@ -7,6 +7,10 @@ education: null
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Jean Michel Bolle
+- Jean Michel Le Guillou
+- Jean Michel Quiard
 nationality: francaise
 nom_complet: Jean Michel
 occupation: avocat ou avocate

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Diane Ducret, historien ou historienne. Ne(e) le 1982-11-17 a Anderlecht. Formation : université Paris-Sorbonne.
+Diane Ducret, historien ou historienne. Ne(e) le 1982-11-17 a Anderlecht. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3026204

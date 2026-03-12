@@ -3,6 +3,8 @@ date_creation_note: '2026-03-12'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Jean-Louis Brochen
 nom_complet: faculté de droit de Lille
 sources:
 - https://www.wikidata.org/entity/Q65937653

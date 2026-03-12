@@ -7,6 +7,11 @@ education: École de journalisme et de communication d'Aix-Marseille
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Christophe Arleston
+- Gérard Tur
+- Hervé Gattegno
+- Jean-Marc Morandini
 nationality: francaise
 nom_complet: Alba Ventura
 occupation: journaliste

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Natacha Henry, historien ou historienne. Ne(e) le 1968-02-28. Formation : université Paris-Sorbonne.
+Natacha Henry, historien ou historienne. Ne(e) le 1968-02-28. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3336320

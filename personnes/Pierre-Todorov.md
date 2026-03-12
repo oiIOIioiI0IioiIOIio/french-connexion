@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Todorov, personnalité du monde des affaires. Ne(e) le 1958-05-15. Formation : École normale supérieure.
+Pierre Todorov, personnalité du monde des affaires. Ne(e) le 1958-05-15. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3387125

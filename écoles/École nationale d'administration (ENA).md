@@ -5,6 +5,10 @@ keywords:
 - formation
 - grande école
 - administration
+liens:
+- Alain Juppé
+- Emmanuel Macron
+- Lionel Jospin
 sources: []
 summary: L'École nationale d'administration (ENA) est un établissement public français
   d'enseignement supérieur formant les hauts fonctionnaires de l'État. Elle a été

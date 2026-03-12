@@ -17,4 +17,4 @@ website: http://catalog.crl.edu/record=b2891047~S5
 wikidata_id: Q1461768
 ---
 
-La République française, media francais.
+[[La République]] française, media francais.

@@ -17,4 +17,4 @@ type: Fondation
 wikidata_id: Q66401614
 ---
 
-3D Imaging: Prognostic Role in Pulmonary Arterial Hypertension, think tank ou fondation.
+3D Imaging: Prognostic Role in Pulmonary [[Arte]]rial Hypertension, think tank ou fondation.

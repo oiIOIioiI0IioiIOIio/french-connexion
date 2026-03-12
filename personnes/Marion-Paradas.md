@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marion Paradas, diplomate. Ne(e) le 1960-11-09 a Montfavet. Formation : Institut d'études politiques de Paris.
+Marion Paradas, diplomate. Ne(e) le 1960-11-09 a Montfavet. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33106384

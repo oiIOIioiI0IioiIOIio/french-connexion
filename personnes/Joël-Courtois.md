@@ -7,6 +7,11 @@ education: université Pierre-et-Marie-Curie
 genre: masculin
 keywords:
 - ingénieur
+liens:
+- Jean-Baptiste de Franssu
+- Jean-Luc Aubert
+- Joël-Alexis Bialkiewicz
+- Nicolas Hulot
 nationality: francaise
 nom_complet: Joël Courtois
 occupation: ingénieur

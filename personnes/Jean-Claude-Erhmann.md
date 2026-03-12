@@ -7,6 +7,18 @@ education: Institut d'études politiques de Strasbourg
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Alain Thirion
+- Bernard Demange
+- François Ernenwein
+- Isabelle Donnadieu
+- Jean-Pierre Lévy
+- Nicole Michelangeli
+- Olivier Razemon
+- Pascal Barollier
+- Philippe Sutter
+- Valérie Hatsch
+- Élé Asu
 nationality: francaise
 nom_complet: Jean-Claude Erhmann
 occupation: haut fonctionnaire ou haute fonctionnaire

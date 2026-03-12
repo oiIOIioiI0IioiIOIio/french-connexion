@@ -7,6 +7,20 @@ education: École nationale de la magistrature
 genre: féminin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- André Potocki
+- Béatrice Patrie
+- Claude Jorda
+- Emmanuel Barbe
+- Eva Joly
+- Francis Moureu
+- Gilbert Azibert
+- Hélène Gerhards
+- Jean-Louis Debré
+- Jean-Paul Garraud
+- Nicole Maestracci
+- Philippe Bilger
+- Serge Portelli
 nationality: francaise
 nom_complet: Isabelle Jégouzo
 occupation: haut fonctionnaire ou haute fonctionnaire

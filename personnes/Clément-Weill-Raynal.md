@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Clément Weill-Raynal, journaliste. Ne(e) le 1959-11-24. Formation : université Paris-I-Panthéon-Sorbonne.
+Clément Weill-Raynal, journaliste. Ne(e) le 1959-11-24. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q15407111

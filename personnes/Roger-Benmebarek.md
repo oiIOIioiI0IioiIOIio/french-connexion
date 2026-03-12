@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Roger Benmebarek, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1930-09-21 a Constantine. Formation : Institut d'études politiques de Paris.
+Roger Benmebarek, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1930-09-21 a Constantine. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3438687

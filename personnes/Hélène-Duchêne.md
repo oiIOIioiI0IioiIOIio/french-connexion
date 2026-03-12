@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Hélène Duchêne, diplomate. Ne(e) le 1963-01-07 a Nancy. Formation : École normale supérieure.
+Hélène Duchêne, diplomate. Ne(e) le 1963-01-07 a Nancy. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q106144448

@@ -7,6 +7,40 @@ education: Institut d'études politiques de Paris
 genre: féminin
 keywords:
 - politologue
+liens:
+- Alberte Brun
+- Arthur Delaporte
+- Chloé-Agathe Azencott
+- Christian Kassel
+- Daniel Gouadec
+- David Courpasson
+- Didier Boursin
+- Franck Barthe
+- Jacques Cabaud
+- Jean-Bernard Zuber
+- Jean-Claude Carret
+- Jesús María Asurmendi
+- Judith Balso
+- Julia Frotey
+- Julien Larregue
+- Katalin Escher
+- Loïc Grobol
+- Mathieu Bendouma
+- Michel Orrit
+- Nathan Allix
+- Nicolas Martin
+- Nicolas Vieille
+- Pascal Boyer
+- Paul Reiter
+- Paul-Jacques Lehmann
+- Philippe Sautet
+- Robert Dantzer
+- Romain Dureau
+- Ronan Calvez
+- Stefano Simiz
+- Terence Strick
+- Thibault Gandouly
+- Éric Urban
 nationality: francaise
 nom_complet: Juliette Faure
 occupation: politologue
@@ -22,7 +56,7 @@ tags:
 type: Personne
 ---
 
-Juliette Faure, politologue. Ne(e) le 1992-01-01. Formation : Institut d'études politiques de Paris.
+Juliette Faure, politologue. Ne(e) le 1992-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q134692984

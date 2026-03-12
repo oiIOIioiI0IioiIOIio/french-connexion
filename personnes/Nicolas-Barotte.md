@@ -7,6 +7,12 @@ education: université de Versailles-Saint-Quentin-en-Yvelines
 genre: masculin
 keywords:
 - journaliste
+liens:
+- François-Xavier Bourmaud
+- Isabelle Saporta
+- Jérôme Salomon
+- Martin Pénet
+- Tugdual de Dieuleveult
 nationality: francaise
 nom_complet: Nicolas Barotte
 occupation: journaliste

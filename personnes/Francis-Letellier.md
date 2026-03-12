@@ -7,6 +7,24 @@ education: université de Strasbourg
 genre: masculin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Antoine Genton
+- Barto Pedro Orent-Niedzielski
+- Bertrand Mertz
+- Christian Kassel
+- Christian Nique
+- Christophe Grudler
+- François Hoehlinger
+- Françoise Joly
+- Jean Kahn
+- Jean-Baptiste Soufron
+- Jean-Marie Bockel
+- Louis Oster
+- Marie-Monique Robin
+- Patrick Strzoda
+- Raymond Forni
+- Romain Mielcarek
+- Érick Cakpo
 nationality: francaise
 nom_complet: Francis Letellier
 occupation: présentateur ou présentatrice de journal

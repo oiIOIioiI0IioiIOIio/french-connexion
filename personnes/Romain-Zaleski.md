@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Romain Zaleski, personnalité du monde des affaires. Ne(e) le 1933-02-07 a Paris. Formation : École polytechnique.
+Romain Zaleski, personnalité du monde des affaires. Ne(e) le 1933-02-07 a Paris. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q367769

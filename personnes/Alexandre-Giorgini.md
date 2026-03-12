@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alexandre Giorgini, diplomate. Ne(e) le 1974-06-27. Formation : École normale supérieure.
+Alexandre Giorgini, diplomate. Ne(e) le 1974-06-27. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q48708535

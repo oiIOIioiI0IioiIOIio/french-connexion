@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marcel Boiteux, professeur. Ne(e) le 1922-05-09 a Niort. Formation : École normale supérieure.
+Marcel Boiteux, professeur. Ne(e) le 1922-05-09 a Niort. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3288698

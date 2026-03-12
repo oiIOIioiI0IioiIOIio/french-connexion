@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Osvalde Lewat, photographe. Ne(e) le 1976-09-17 a Garoua. Formation : Institut d'études politiques de Paris.
+Osvalde Lewat, photographe. Ne(e) le 1976-09-17 a Garoua. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3357483

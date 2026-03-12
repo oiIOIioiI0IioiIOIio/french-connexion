@@ -7,6 +7,30 @@ education: Institut d'études politiques d'Aix-en-Provence
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Alexis Le Cour Grandmaison
+- Ali André Mécili
+- Arnaud Suquet
+- Bertrand Kern
+- Bruno Mettling
+- Dominique Vian
+- Fabien Namias
+- Fabrice Madouas
+- Fabrice Étienne
+- Franck Genauzeau
+- François Pinet
+- Jean-Charles Marchiani
+- Johana Gustawsson
+- Julien Bahloul
+- Laëtitia Allemand
+- Lionel Paradisi-Coulouma
+- Mehdi Chebana
+- Mélanie Chalandon
+- Rudy Reichstadt
+- Rémy Porte
+- Sylvaine Carta-Le Vert
+- Sylvie Faiderbe
+- Sylvie Kauffmann
 nationality: francaise
 nom_complet: Edmond Zucchelli
 occupation: journaliste
@@ -22,7 +46,7 @@ tags:
 type: Personne
 ---
 
-Edmond Zucchelli, journaliste. Ne(e) le 1960-06-06 a Fontvieille. Formation : Institut d'études politiques d'Aix-en-Provence.
+Edmond Zucchelli, journaliste. Ne(e) le 1960-06-06 a Fontvieille. Formation : [[Institut d'études politiques d'Aix-en-Provence]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3048017

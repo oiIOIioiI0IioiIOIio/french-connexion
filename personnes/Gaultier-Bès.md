@@ -7,6 +7,14 @@ education: École normale supérieure de Lyon
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Augustin Trapenard
+- Bernard Bigot
+- Catherine Guesde
+- Johann Uhres
+- Léa Bello
+- Marianne Durano
+- Matthias Fekl
 nationality: francaise
 nom_complet: Gaultier Bès
 occupation: écrivain ou écrivaine
@@ -22,7 +30,7 @@ tags:
 type: Personne
 ---
 
-Gaultier Bès, écrivain ou écrivaine. Ne(e) le 1988-01-01. Formation : École normale supérieure de Lyon.
+Gaultier Bès, écrivain ou écrivaine. Ne(e) le 1988-01-01. Formation : [[École normale supérieure]] de Lyon.
 
 ## Sources
 - http://www.wikidata.org/entity/Q32859740

@@ -10,6 +10,8 @@ keywords:
 - Ve République
 - homme d'État
 - France
+liens:
+- Bruno Le Maire
 nationality: française
 nom_complet: Georges Pompidou
 occupation: haut fonctionnaire, homme d'État, président de la République française,

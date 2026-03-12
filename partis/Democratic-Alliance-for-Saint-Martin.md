@@ -15,4 +15,4 @@ type: Parti
 wikidata_id: Q5255549
 ---
 
-Democratic Alliance for Saint Martin, parti politique francais.
+Democratic [[Alliance]] for Saint Martin, parti politique francais.

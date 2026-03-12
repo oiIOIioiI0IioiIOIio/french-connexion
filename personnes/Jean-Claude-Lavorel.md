@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Claude Lavorel, personnalité du monde des affaires. Ne(e) le 1948-03-29 a Rillieux-la-Pape. Formation : EM Lyon Business School.
+Jean-Claude Lavorel, personnalité du monde des affaires. Ne(e) le 1948-03-29 a Rillieux-la-Pape. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33103278

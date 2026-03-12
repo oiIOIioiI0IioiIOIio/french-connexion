@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Vianney Derville, vice-président. Ne(e) le 1967-10-27. Formation : EM Lyon Business School.
+Vianney Derville, vice-président. Ne(e) le 1967-10-27. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q112999805

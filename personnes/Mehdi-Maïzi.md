@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Mehdi Maïzi, chroniqueur ou chroniqueuse. Ne(e) le 1986-07-10 a Aïn Taya. Formation : Skema Business School.
+Mehdi Maïzi, chroniqueur ou chroniqueuse. Ne(e) le 1986-07-10 a Aïn Taya. Formation : [[Skema Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q96252963

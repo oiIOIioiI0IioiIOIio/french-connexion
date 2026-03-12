@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alain Ménéménis, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1953-03-09. Formation : École normale supérieure.
+Alain Ménéménis, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1953-03-09. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33239325

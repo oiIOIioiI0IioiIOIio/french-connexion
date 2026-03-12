@@ -17,4 +17,4 @@ website: https://archives-deux-sevres-vienne.fr/archive/fonds/FRAD086_JX_NUM/vie
 wikidata_id: Q119049069
 ---
 
-L'Avenir de la Vienne et de l'Ouest, media francais.
+[[L'Avenir de la Vienne]] et de l'Ouest, media francais.

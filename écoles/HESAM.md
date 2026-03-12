@@ -4,6 +4,8 @@ founded: '2010-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- HESAM Université
 nom_complet: HESAM
 sources:
 - https://www.wikidata.org/entity/Q64760804

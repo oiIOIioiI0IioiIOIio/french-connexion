@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Éric Chevallier, médecin. Ne(e) le 1960-04-05 a Paris. Formation : Institut d'études politiques de Paris.
+Éric Chevallier, médecin. Ne(e) le 1960-04-05 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q288080

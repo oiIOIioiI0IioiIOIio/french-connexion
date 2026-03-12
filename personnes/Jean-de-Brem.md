@@ -7,6 +7,8 @@ education: lycée Buffon
 genre: masculin
 keywords:
 - militaire
+liens:
+- Jean-Yves Le Borgne
 nationality: francaise
 nom_complet: Jean de Brem
 occupation: militaire

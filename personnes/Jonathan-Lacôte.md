@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jonathan Lacôte, diplomate. Ne(e) le 1972-09-15 a Paris. Formation : Institut d'études politiques de Paris.
+Jonathan Lacôte, diplomate. Ne(e) le 1972-09-15 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q20991628

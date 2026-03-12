@@ -18,4 +18,4 @@ type: Parti
 wikidata_id: Q30728539
 ---
 
-Comités Jeanne, parti politique francais.
+Comités [[Jeanne]], parti politique francais.

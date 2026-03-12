@@ -7,6 +7,13 @@ education: université Montpellier-I
 genre: masculin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Henri Temple
+- Hervé Cassan
+- Hervé Fernandez
+- Jean-Marc Pujol
+- Khadija Aoudia
+- Sylvain Sankalé
 nationality: francaise
 nom_complet: François Bachy
 occupation: présentateur ou présentatrice de journal

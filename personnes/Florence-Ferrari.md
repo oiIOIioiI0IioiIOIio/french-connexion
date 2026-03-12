@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Florence Ferrari, diplomate. Ne(e) le 1969-06-07 a Rabat. Formation : université Paris-Sorbonne.
+Florence Ferrari, diplomate. Ne(e) le 1969-06-07 a Rabat. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q56221006

@@ -7,6 +7,23 @@ education: université Paris-Dauphine
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Alain Cotta
+- Antoine Le Conte
+- Claude Askolovitch
+- Delphine Vitry
+- Gabrielle Cluzel
+- Gildas Sagot
+- Joëlle Pellegrin
+- Jérôme Chapuis
+- Laurent Aléonard
+- Nolwenn Le Blevennec
+- Philippe Dupont
+- Philippe Verdier
+- Raphael Kahane
+- Sébastien Romelot
+- Xavier de Moulins
+- Yassine Redissi
 nationality: francaise
 nom_complet: Pierre-François Blanc
 occupation: personnalité du monde des affaires
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Pierre-François Blanc, personnalité du monde des affaires. Ne(e) le 1976-10-28 a Neuilly-sur-Seine. Formation : université Paris-Dauphine.
+Pierre-François Blanc, personnalité du monde des affaires. Ne(e) le 1976-10-28 a Neuilly-sur-Seine. Formation : [[Université Paris-Dauphine]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q137673253

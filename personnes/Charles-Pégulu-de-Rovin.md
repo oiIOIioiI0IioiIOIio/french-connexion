@@ -7,6 +7,8 @@ education: ESIEE Paris
 genre: masculin
 keywords:
 - militaire
+liens:
+- Gonzague de Blignières
 nationality: francaise
 nom_complet: Charles Pégulu de Rovin
 occupation: militaire
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Charles Pégulu de Rovin, militaire. Ne(e) le 1925-10-16 a 17e arrondissement de Paris. Formation : ESIEE Paris.
+Charles Pégulu de Rovin, militaire. Ne(e) le 1925-10-16 a 17e arrondissement de Paris. Formation : [[ESIEE Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q134622677

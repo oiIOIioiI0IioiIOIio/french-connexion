@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Brice Roquefeuil, diplomate. Ne(e) le 1973-10-24. Formation : Institut d'études politiques de Paris.
+Brice Roquefeuil, diplomate. Ne(e) le 1973-10-24. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50364256

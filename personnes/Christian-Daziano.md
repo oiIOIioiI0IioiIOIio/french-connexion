@@ -7,6 +7,13 @@ education: université Nice-Sophia-Antipolis
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Claudine Monteil
+- Fabien Ferasson de Quental
+- Jacques Peyrat
+- Jean-Yves Potel
+- Marion Festraëts
+- Virginie Joron
 nationality: francaise
 nom_complet: Christian Daziano
 occupation: diplomate

@@ -7,6 +7,8 @@ education: Institut national agronomique Paris-Grignon
 genre: masculin
 keywords:
 - ingénieur
+liens:
+- Mac Lesggy
 nationality: francaise
 nom_complet: Jean-Jacques Hervé
 occupation: ingénieur
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Jean-Jacques Hervé, ingénieur. Ne(e) le 1949-10-23 a La Membrolle-sur-Choisille. Formation : Institut national agronomique Paris-Grignon.
+Jean-Jacques Hervé, ingénieur. Ne(e) le 1949-10-23 a La Membrolle-sur-Choisille. Formation : [[Institut national agronomique]] Paris-Grignon.
 
 ## Sources
 - http://www.wikidata.org/entity/Q124219669

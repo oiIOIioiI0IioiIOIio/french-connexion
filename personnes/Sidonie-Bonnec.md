@@ -7,6 +7,18 @@ education: université Rennes-II
 genre: féminin
 keywords:
 - animateur ou animatrice de télévision
+liens:
+- Alain Pirot
+- Anne-Claire Coudray
+- Denis Ruellan
+- Erwan Chartier
+- Fanny Chauffin
+- Gaspard Glanz
+- Hélène Fily
+- Maryse Burgot
+- Morgane Tual
+- Philippe Georgeais
+- Samuel Le Goff
 nationality: francaise
 nom_complet: Sidonie Bonnec
 occupation: animateur ou animatrice de télévision

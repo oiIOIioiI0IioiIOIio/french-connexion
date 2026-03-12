@@ -5,6 +5,8 @@ ideology: maoïsme
 keywords:
 - parti politique
 - politique
+liens:
+- Le Front rouge des usines et des casernes de Nancy
 nom_complet: Front rouge
 sources:
 - https://www.wikidata.org/entity/Q3088574

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Fabrice Leggeri, personnalité politique. Ne(e) le 1968-03-28 a Mulhouse. Formation : École normale supérieure.
+Fabrice Leggeri, personnalité politique. Ne(e) le 1968-03-28 a Mulhouse. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q23060444

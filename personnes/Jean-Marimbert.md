@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean Marimbert, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1956-03-10 a Rabat. Formation : HEC Paris.
+Jean Marimbert, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1956-03-10 a Rabat. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q26255283

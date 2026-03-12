@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Rama Yade, personnalité politique. Ne(e) le 1976-12-13 a Dakar. Formation : Institut d'études politiques de Paris.
+Rama Yade, personnalité politique. Ne(e) le 1976-12-13 a Dakar. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q239154

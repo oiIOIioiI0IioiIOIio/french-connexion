@@ -7,6 +7,13 @@ education: université Montpellier-I
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- François Bachy
+- Henri Temple
+- Hervé Cassan
+- Hervé Fernandez
+- Khadija Aoudia
+- Sylvain Sankalé
 nationality: francaise
 nom_complet: Jean-Marc Pujol
 occupation: avocat ou avocate

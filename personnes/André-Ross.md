@@ -7,6 +7,8 @@ education: null
 genre: masculin
 keywords:
 - diplomate
+liens:
+- André Rossi
 nationality: francaise
 nom_complet: André Ross
 occupation: diplomate

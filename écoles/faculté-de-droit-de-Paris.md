@@ -4,6 +4,12 @@ founded: '1806-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Dominique de La Garanderie
+- Georges de Brémond d'Ars
+- Henri Leclerc
+- Jean-Claude Zylberstein
+- Pierre Dehaye
 nom_complet: faculté de droit de Paris
 sources:
 - https://www.wikidata.org/entity/Q20749406

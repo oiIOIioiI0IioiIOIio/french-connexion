@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Louis Rigaud, avocat ou avocate. Ne(e) le 1941-04-15 a Montpellier. Formation : Institut d'études politiques de Paris.
+Jean-Louis Rigaud, avocat ou avocate. Ne(e) le 1941-04-15 a Montpellier. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q133462073

@@ -7,6 +7,14 @@ education: université Bourgogne Europe
 genre: féminin
 keywords:
 - avocat ou avocate
+liens:
+- Arnaud Montebourg
+- Emmanuel Berretta
+- Francis Vuillemin
+- François Baroin
+- Jean-Louis Beaucarnot
+- Jean-Michel Djian
+- Katalin Escher
 nationality: francaise
 nom_complet: Sophie Dion
 occupation: avocat ou avocate

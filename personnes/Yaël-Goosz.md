@@ -7,6 +7,9 @@ education: Institut d'études politiques de Rennes
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Benjamin Cruard
+- Bruno Aubry
 nationality: francaise
 nom_complet: Yaël Goosz
 occupation: journaliste
@@ -22,7 +25,7 @@ tags:
 type: Personne
 ---
 
-Yaël Goosz, journaliste. Ne(e) le 1980-01-01 a Sarthe. Formation : Institut d'études politiques de Rennes.
+Yaël Goosz, journaliste. Ne(e) le 1980-01-01 a Sarthe. Formation : [[Institut d'études politiques de Rennes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q46956339

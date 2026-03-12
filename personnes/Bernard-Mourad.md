@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bernard Mourad, écrivain ou écrivaine. Ne(e) le 1974-10-02 a Ajaltoun. Formation : HEC Paris.
+Bernard Mourad, écrivain ou écrivaine. Ne(e) le 1974-10-02 a Ajaltoun. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2898359

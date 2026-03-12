@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Dominique Thiébaut Lemaire, écrivain ou écrivaine. Ne(e) le 1948-02-22 a Thann. Formation : École normale supérieure.
+Dominique Thiébaut Lemaire, écrivain ou écrivaine. Ne(e) le 1948-02-22 a Thann. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q20851367

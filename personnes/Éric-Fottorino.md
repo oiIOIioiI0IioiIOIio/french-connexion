@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Éric Fottorino, écrivain ou écrivaine. Ne(e) le 1960-08-26 a Nice. Formation : Institut d'études politiques de Paris.
+Éric Fottorino, écrivain ou écrivaine. Ne(e) le 1960-08-26 a Nice. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q288184

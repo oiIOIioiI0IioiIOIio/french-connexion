@@ -7,6 +7,11 @@ education: Institut supérieur de gestion
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Christophe de Backer
+- Didier Lallement
+- Frédéric Verdier
+- Jérôme Rivière
 nationality: francaise
 nom_complet: Yves de Kerdrel
 occupation: journaliste
@@ -22,7 +27,7 @@ tags:
 type: Personne
 ---
 
-Yves de Kerdrel, journaliste. Ne(e) le 1962-09-21 a 17e arrondissement de Paris. Formation : Institut supérieur de gestion.
+Yves de Kerdrel, journaliste. Ne(e) le 1962-09-21 a 17e arrondissement de Paris. Formation : [[Institut supérieur de gestion]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q15926300

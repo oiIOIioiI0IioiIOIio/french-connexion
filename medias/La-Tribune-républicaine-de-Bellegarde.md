@@ -18,4 +18,4 @@ website: http://www.latribunerepublicaine.fr
 wikidata_id: Q3213306
 ---
 
-La Tribune républicaine de Bellegarde, media francais.
+[[La Tribune]] républicaine de Bellegarde, media francais.

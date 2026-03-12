@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sylvie Guinard, personnalité du monde des affaires. Ne(e) le 1973-08-03 a 7e arrondissement de Lyon. Formation : EM Lyon Business School.
+Sylvie Guinard, personnalité du monde des affaires. Ne(e) le 1973-08-03 a 7e arrondissement de Lyon. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q123401489

@@ -7,6 +7,12 @@ education: Université de Princeton
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- David Djaïz
+- Florian Cardinaux
+- Marguerite Bérard
+- Mario Laserna Pinzón
+- Terence Strick
 nationality: francaise
 nom_complet: Frédéric Mion
 occupation: avocat ou avocate

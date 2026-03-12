@@ -7,6 +7,13 @@ education: université Paul-Valéry
 genre: masculin
 keywords:
 - enseignant ou enseignante
+liens:
+- Francis Mateo
+- Géniale Attoumani
+- Hugo Guillemet
+- Nath-Sakura
+- Patrick Donabédian
+- Étienne Leenhardt
 nationality: francaise
 nom_complet: Thierry Riera
 occupation: enseignant ou enseignante

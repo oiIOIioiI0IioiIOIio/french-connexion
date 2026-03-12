@@ -7,6 +7,8 @@ education: École militaire interarmes
 genre: masculin
 keywords:
 - officier
+liens:
+- Henri Leclerc de Hauteclocque
 nationality: francaise
 nom_complet: Christian Prouteau
 occupation: officier

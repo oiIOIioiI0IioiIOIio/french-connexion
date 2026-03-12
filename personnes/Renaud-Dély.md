@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Renaud Dély, journaliste. Ne(e) le 1969-05-03 a Beauvais. Formation : Centre de formation des journalistes.
+Renaud Dély, journaliste. Ne(e) le 1969-05-03 a Beauvais. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2391031

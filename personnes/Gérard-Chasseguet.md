@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gérard Chasseguet, personnalité politique. Ne(e) le 1930-03-11 a La Chartre-sur-le-Loir. Formation : Institut d'études politiques de Paris.
+Gérard Chasseguet, personnalité politique. Ne(e) le 1930-03-11 a La Chartre-sur-le-Loir. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3123831

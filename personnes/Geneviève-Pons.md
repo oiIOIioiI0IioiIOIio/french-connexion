@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Geneviève Pons, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1956-02-11. Formation : Institut d'études politiques de Paris.
+Geneviève Pons, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1956-02-11. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q88201266

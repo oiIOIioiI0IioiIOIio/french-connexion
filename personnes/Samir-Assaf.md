@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Samir Assaf, banquier. Ne(e) le 1960-06-20 a Achrafieh. Formation : Institut d'études politiques de Paris.
+Samir Assaf, banquier. Ne(e) le 1960-06-20 a Achrafieh. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2391824

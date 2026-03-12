@@ -7,6 +7,8 @@ education: École polytechnique
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Club de l’Horloge
 nationality: francaise
 nom_complet: Bruno Mégret
 occupation: personnalité politique
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Bruno Mégret, personnalité politique. Ne(e) le 1949-04-04 a Paris. Formation : École polytechnique.
+Bruno Mégret, personnalité politique. Ne(e) le 1949-04-04 a Paris. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q993611

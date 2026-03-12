@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christophe Rogue, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1971-04-21 a Sainte-Adresse. Formation : École normale supérieure.
+Christophe Rogue, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1971-04-21 a Sainte-Adresse. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33177573

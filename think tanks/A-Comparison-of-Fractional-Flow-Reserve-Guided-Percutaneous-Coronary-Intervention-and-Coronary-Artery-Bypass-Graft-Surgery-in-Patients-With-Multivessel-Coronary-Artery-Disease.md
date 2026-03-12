@@ -20,4 +20,4 @@ type: Fondation
 wikidata_id: Q64219897
 ---
 
-A Comparison of Fractional Flow Reserve-Guided Percutaneous Coronary Intervention and Coronary Artery Bypass Graft Surgery in Patients With Multivessel Coronary Artery Disease, think tank ou fondation.
+A Comparison of Fractional Flow Reserve-Guided Percutaneous Coronary Intervention and Coronary [[Arte]]ry Bypass Graft Surgery in Patients With Multivessel Coronary Artery Disease, think tank ou fondation.

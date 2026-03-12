@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Léna Mauger, photographe. Ne(e) le 1983-01-01. Formation : Institut d'études politiques de Paris.
+Léna Mauger, photographe. Ne(e) le 1983-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q82338027

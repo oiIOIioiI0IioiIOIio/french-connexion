@@ -4,6 +4,154 @@ founded: '1980-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Agnès Bonfillon
+- Agnès Vahramian
+- Alain Puiseux
+- Alba Ventura
+- Alexandre Boussageon
+- Alfred de Montesquiou
+- Antoine Giniaux
+- Antoine de Tournemire
+- Antoine-Marie Izoard
+- Arthur Frayer-Laleix
+- Astrid Bard
+- Aurélie Darbouret
+- Benjamin Vincent
+- Benoît Collombat
+- Bernard Poirette
+- Bernard Sananès
+- Bernard Werber
+- Béatrice Denaes
+- Béatrice Massenet
+- Bénédicte Tassart
+- Camille Crosnier
+- Camille Grenu
+- Camille Langlade
+- Caroline Boudet
+- Caroline Henry
+- Catherine Chabaud
+- Catherine Matausch
+- Charlotte Le Grix de La Salle
+- Chloé Andries
+- Christian Prudhomme
+- Christophe Arleston
+- Christophe Delay
+- Christophe Paillet
+- Claire Barsacq
+- Clara Marchaud
+- Claude Guibal
+- Cyrille Legendre
+- Cécile Bidault
+- Damien Mascret
+- Damien Thévenot
+- Dorothée Olliéric
+- Elsa Pallot
+- Emmanuel Maubert
+- Erika Moulet
+- Estelle Denis
+- Fabienne Sintes
+- Floriane Louison
+- François Pesenti
+- François Pécheux
+- François Thomazeau
+- Frédéric Calenge
+- Frédéric Dubessy
+- Frédéric Leclerc-Imhoff
+- Frédéric Taddeï
+- Gaël Desgrées du Lou
+- Geoffroy Lejeune
+- Georges Malbrunot
+- Ghislaine Dupont
+- Gérard Davet
+- Gérard Tur
+- Hervé Gattegno
+- Hervé Mathoux
+- Isabelle Morini-Bosc
+- Jacky Durand
+- Jamy Gourmaud
+- Jean-Baptiste Giraud
+- Jean-François Achilli
+- Jean-François Pérès
+- Jean-Karim Fall
+- Jean-Luc Évin
+- Jean-Marc Morandini
+- Jean-Michel Aphatie
+- Jean-Michel Bretonnier
+- Jean-Pierre Gagick
+- Julien Arnaud
+- Julien Bellver
+- Jérôme Colombain
+- Jérôme de Verdière
+- Laurent Bazin
+- Laurent Obertone
+- Laurent Romejko
+- Louis Laforge
+- Ludovic Vigogne
+- Marc Fauvelle
+- Marc Mortelmans
+- Marie Inbona
+- Marlène Blin
+- Marlène Séguin
+- Mathieu Delahousse
+- Mathieu Palain
+- Matthieu Suc
+- Maïa Mazaurette
+- Mona Chollet
+- Myriam Bounafaa
+- Nico Prat
+- Nicolas Doze
+- Nicolas Legendre
+- Odile Conseil
+- Odile Longueval
+- Olivier Delacroix
+- Olivier Nicklaus
+- Olivier Truchot
+- Ophélie Meunier
+- Patrice Romedenne
+- Patricia Loison
+- Patrick de Carolis
+- Patrick de Saint-Exupéry
+- Pierre Billaud
+- Pierre Carles
+- Pierre Girard
+- Pierre Martinet
+- Rachel Garrat-Valcarcel
+- Rachid Arhab
+- Raphaël Ebenstein
+- Raphaëlle Duchemin
+- Rebecca Manzoni
+- Romain Hussenot
+- Ronald Guintrange
+- Serge Bilé
+- Sonia Ghezali
+- Sophie Davant
+- Sophie Le Saint
+- Sophie-Marie Larrouy
+- Stéphane Foucart
+- Stéphane Soumier
+- Thierry Dugeon
+- Thierry Fréret
+- Thierry Suzan
+- Thomas Baumgartner
+- Tristan Waleckx
+- Tristane Banon
+- Tronchet
+- Ulysse Gosset
+- Valérie Bénaïm
+- Vincent Josse
+- Vincent Parizot
+- Yves Decaens
+- Édouard Zambeaux
+- Élise Chassaing
+- Élizabeth Martichoux
+- Élizabeth Tchoungui
+- Émilie Broussouloux
+- Éric Bayle
+- Éric Faye
+- Éric Ghebali
+- Éric Jouan
+- Éric Leser
 nom_complet: ISM-International School of Management
 sources:
 - https://www.wikidata.org/entity/Q5974032

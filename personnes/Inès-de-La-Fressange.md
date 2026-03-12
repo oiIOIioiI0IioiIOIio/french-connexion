@@ -7,6 +7,16 @@ education: École du Louvre
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Aurélie Godefroy
+- Bernard Pignerol
+- Claudine Le Tourneur d'Ison
+- Didier Rykner
+- Georges Gautier
+- Hélène Risser
+- Juliette Morillot
+- Léa Lootgieter
+- Rosine Lheureux
 nationality: francaise
 nom_complet: Inès de La Fressange
 occupation: journaliste

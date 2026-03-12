@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Lucile Gubler, traducteur ou traductrice. Ne(e) le 1961-02-05 a 14e arrondissement de Paris. Formation : université Paris-Sorbonne.
+Lucile Gubler, traducteur ou traductrice. Ne(e) le 1961-02-05 a 14e arrondissement de Paris. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q136849900

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Xavier Sahut d'Izarn, militaire. Ne(e) le 1961-02-21 a Rouen. Formation : École polytechnique.
+Xavier Sahut d'Izarn, militaire. Ne(e) le 1961-02-21 a Rouen. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33136430

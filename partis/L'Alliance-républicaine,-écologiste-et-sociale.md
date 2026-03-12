@@ -16,4 +16,4 @@ type: Parti
 wikidata_id: Q2053544
 ---
 
-L'Alliance républicaine, écologiste et sociale, parti politique francais.
+L'[[Alliance]] républicaine, écologiste et sociale, parti politique francais.

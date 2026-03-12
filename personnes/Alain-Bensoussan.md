@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alain Bensoussan, avocat ou avocate. Ne(e) le 1951-09-14 a Relizane. Formation : Institut d'études politiques de Paris.
+Alain Bensoussan, avocat ou avocate. Ne(e) le 1951-09-14 a Relizane. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16024850

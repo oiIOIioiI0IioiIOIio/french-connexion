@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Aymeric Mantoux, journaliste. Ne(e) le 1976-08-27 a Paris. Formation : Institut d'études politiques de Paris.
+Aymeric Mantoux, journaliste. Ne(e) le 1976-08-27 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2874966

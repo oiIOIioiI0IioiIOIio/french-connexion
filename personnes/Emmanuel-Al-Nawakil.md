@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Emmanuel Al Nawakil, personnalité du monde des affaires. Ne(e) le 1979-03-20 a Sainte-Adresse. Formation : EM Lyon Business School.
+Emmanuel Al Nawakil, personnalité du monde des affaires. Ne(e) le 1979-03-20 a Sainte-Adresse. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q138434636

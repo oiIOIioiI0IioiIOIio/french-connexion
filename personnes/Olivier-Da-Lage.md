@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Olivier Da Lage, journaliste. Ne(e) le 1957-01-01 a Saint-Cloud. Formation : Institut d'études politiques de Paris.
+Olivier Da Lage, journaliste. Ne(e) le 1957-01-01 a Saint-Cloud. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3350949

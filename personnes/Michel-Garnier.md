@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel Garnier, physicien ou physicienne. Ne(e) le 1935-10-23 a Saint-Christophe-sur-le-Nais. Formation : École normale supérieure.
+Michel Garnier, physicien ou physicienne. Ne(e) le 1935-10-23 a Saint-Christophe-sur-le-Nais. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q107640535

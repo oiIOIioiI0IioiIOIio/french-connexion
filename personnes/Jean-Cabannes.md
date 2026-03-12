@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean Cabannes, juriste. Ne(e) le 1955-01-01. Formation : Institut d'études politiques de Paris.
+Jean Cabannes, juriste. Ne(e) le 1955-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q101499379

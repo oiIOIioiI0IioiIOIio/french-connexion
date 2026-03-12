@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Luc Gruson, enseignant ou enseignante. Ne(e) le 1954-01-01 a Lille. Formation : HEC Paris.
+Luc Gruson, enseignant ou enseignante. Ne(e) le 1954-01-01 a Lille. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q105605345

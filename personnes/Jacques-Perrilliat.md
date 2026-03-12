@@ -7,6 +7,9 @@ education: Faculté de droit de Bordeaux
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Michel Crépeau
+- Paul Noirot-Cosson
 nationality: francaise
 nom_complet: Jacques Perrilliat
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +25,7 @@ tags:
 type: Personne
 ---
 
-Jacques Perrilliat, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1931-12-01 a Theniet El Had. Formation : Faculté de droit de Bordeaux.
+Jacques Perrilliat, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1931-12-01 a Theniet El Had. Formation : [[Faculté de droit de Bordeaux]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33111777

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Xavier Delamarre, diplomate. Ne(e) le 1954-06-05. Formation : Institut d'études politiques de Paris.
+Xavier Delamarre, diplomate. Ne(e) le 1954-06-05. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3570644

@@ -7,6 +7,28 @@ education: université Lumière-Lyon-II
 genre: masculin
 keywords:
 - directeur général ou directrice générale
+liens:
+- Adrien Marcel Dubois
+- André Buffard
+- Gilles Gouédard-Comte
+- Jacques-Édouard Charret
+- Joël Pain
+- Juliette Aubrun
+- Jérôme Segal
+- Laurent Gamet
+- Louis-Jacques Rollet-Andriane
+- Lyane Guillaume
+- Michèle Léridon
+- Norberto Torres Cortés
+- Olivier Guillaume
+- Paul Ariès
+- Philippe Brunet-Lecomte
+- Philippe Cohen
+- Salomé Saqué
+- Sophie Elizéon
+- Stéphane Cayrol
+- Sébastien Chanove
+- Éric Falt
 nationality: francaise
 nom_complet: Romaric Daurier
 occupation: directeur général ou directrice générale

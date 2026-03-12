@@ -7,6 +7,13 @@ education: université Paris-Descartes
 genre: masculin
 keywords:
 - enseignant ou enseignante
+liens:
+- François Bergerault
+- Frédéric Donnedieu de Vabres
+- Michel Cymes
+- Pascale Briand
+- Paul Tchoukriel
+- Tobie Nathan
 nationality: francaise
 nom_complet: Jean-Paul Delahaye
 occupation: enseignant ou enseignante

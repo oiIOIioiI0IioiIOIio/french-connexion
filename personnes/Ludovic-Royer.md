@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Ludovic Royer, diplomate. Ne(e) le 1974-01-20. Formation : université Paris-Sorbonne.
+Ludovic Royer, diplomate. Ne(e) le 1974-01-20. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q124291246

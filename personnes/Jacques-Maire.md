@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jacques Maire, personnalité politique. Ne(e) le 1962-04-04 a Enghien-les-Bains. Formation : Institut d'études politiques de Paris.
+Jacques Maire, personnalité politique. Ne(e) le 1962-04-04 a Enghien-les-Bains. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q30338651

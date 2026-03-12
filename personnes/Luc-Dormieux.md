@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Luc Dormieux, directeur de thèse. Ne(e) le 1960-08-19 a Roubaix. Formation : École polytechnique.
+Luc Dormieux, directeur de thèse. Ne(e) le 1960-08-19 a Roubaix. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3264804

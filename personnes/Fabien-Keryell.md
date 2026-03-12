@@ -7,6 +7,8 @@ education: université d'Auvergne - Clermont I
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Frédéric Ducrocq
 nationality: francaise
 nom_complet: Fabien Keryell
 occupation: personnalité du monde des affaires

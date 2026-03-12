@@ -4,6 +4,8 @@ founded: '2002-04-16'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Didier Talpain
 nom_complet: Centre universitaire de formation et de recherche de Nîmes
 sources:
 - https://www.wikidata.org/entity/Q57590981

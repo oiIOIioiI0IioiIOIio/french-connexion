@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Cécile Amar, journaliste. Ne(e) le 1971-01-01. Formation : université Paris-I-Panthéon-Sorbonne.
+Cécile Amar, journaliste. Ne(e) le 1971-01-01. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q28754214

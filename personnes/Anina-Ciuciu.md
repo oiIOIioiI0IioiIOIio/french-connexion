@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Anina Ciuciu, écrivain ou écrivaine. Ne(e) le 1990-01-01 a Craiova. Formation : université Paris-I-Panthéon-Sorbonne.
+Anina Ciuciu, écrivain ou écrivaine. Ne(e) le 1990-01-01 a Craiova. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16527047

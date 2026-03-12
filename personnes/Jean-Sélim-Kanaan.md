@@ -7,6 +7,11 @@ education: John F. Kennedy School of Government
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Alain Le Roy
+- Jacques Paul Klein
+- Odile Renaud-Basso
+- Philippe Jost
 nationality: francaise
 nom_complet: Jean-Sélim Kanaan
 occupation: diplomate

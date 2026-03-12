@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Antoine Grassin, diplomate. Ne(e) le 1955-03-08 a Saint-Nazaire. Formation : HEC Paris.
+Antoine Grassin, diplomate. Ne(e) le 1955-03-08 a Saint-Nazaire. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33122192

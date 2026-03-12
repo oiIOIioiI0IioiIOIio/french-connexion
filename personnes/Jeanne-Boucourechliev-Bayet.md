@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jeanne Boucourechliev-Bayet, avocat ou avocate. Ne(e) le 1930-06-05 a Caen. Formation : Institut d'études politiques de Paris.
+[[Jeanne]] Boucourechliev-Bayet, avocat ou avocate. Ne(e) le 1930-06-05 a Caen. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q27901568

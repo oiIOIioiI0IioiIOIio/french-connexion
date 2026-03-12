@@ -7,6 +7,21 @@ education: université Bordeaux-Montaigne
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Agnès Cukierman
+- David Thomson
+- Emmanuel Langlois
+- Géraldine Mosna-Savoye
+- Isabelle Roberts
+- Kéthévane Bagration de Moukhrani
+- Marie Aubinais
+- Mohamed Toihiri
+- Paul Larrouturou
+- Pierre Lory
+- Stéphane Bijoux
+- Xavier Loustaunau
+- Yann Barthès
+- Éric de Kermel
 nationality: francaise
 nom_complet: Clément Bénech
 occupation: écrivain ou écrivaine

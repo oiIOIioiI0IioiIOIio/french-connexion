@@ -7,6 +7,12 @@ education: université de Bordeaux
 genre: féminin
 keywords:
 - avocat ou avocate
+liens:
+- Eneko Bidegain
+- Mahamat Saleh Haroun
+- Marc Saikali
+- Pierre Abeberry
+- Pierre Camou
 nationality: francaise
 nom_complet: Violaine de Filippis-Abate
 occupation: avocat ou avocate

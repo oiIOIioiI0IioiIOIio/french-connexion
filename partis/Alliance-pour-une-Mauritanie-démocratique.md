@@ -16,4 +16,4 @@ type: Parti
 wikidata_id: Q4732415
 ---
 
-Alliance pour une Mauritanie démocratique, parti politique francais.
+[[Alliance]] pour une Mauritanie démocratique, parti politique francais.

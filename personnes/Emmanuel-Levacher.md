@@ -7,6 +7,21 @@ education: Université Columbia
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Alexandra Bensaïd
+- Frédérique Camilleri
+- Guillaume Debré
+- Jean-Michel Guénod
+- Julia Minkowski
+- Klara Wyrzykowska
+- Kéthévane Gorjestani
+- Olivier Royant
+- Philippe Oddou
+- Rachel-Flore Pardo
+- Robert Badinter
+- Rudy Rochman
+- Salomé Zourabichvili
+- Éléonore Caroit
 nationality: francaise
 nom_complet: Emmanuel Levacher
 occupation: personnalité du monde des affaires

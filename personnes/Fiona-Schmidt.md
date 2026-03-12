@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Fiona Schmidt, écrivain ou écrivaine. Ne(e) le 1981-01-01. Formation : université Paris-I-Panthéon-Sorbonne.
+Fiona Schmidt, écrivain ou écrivaine. Ne(e) le 1981-01-01. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q87994105

@@ -7,6 +7,8 @@ education: université Reichman
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Gilad Shalit
 nationality: francaise
 nom_complet: David Gombin
 occupation: journaliste

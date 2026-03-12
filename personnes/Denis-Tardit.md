@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Denis Tardit, personnalité du monde des affaires. Ne(e) le 1957-06-28 a Semur-en-Auxois. Formation : EM Lyon Business School.
+Denis Tardit, personnalité du monde des affaires. Ne(e) le 1957-06-28 a Semur-en-Auxois. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33103375

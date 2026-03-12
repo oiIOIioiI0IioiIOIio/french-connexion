@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Luc Le Vaillant, journaliste. Ne(e) le 1958-07-31 a Landivisiau. Formation : Centre de formation des journalistes.
+Luc Le Vaillant, journaliste. Ne(e) le 1958-07-31 a Landivisiau. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q19956416

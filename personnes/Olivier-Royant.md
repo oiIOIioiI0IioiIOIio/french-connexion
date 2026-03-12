@@ -7,6 +7,21 @@ education: Université Columbia
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Alexandra Bensaïd
+- Emmanuel Levacher
+- Frédérique Camilleri
+- Guillaume Debré
+- Jean-Michel Guénod
+- Julia Minkowski
+- Klara Wyrzykowska
+- Kéthévane Gorjestani
+- Philippe Oddou
+- Rachel-Flore Pardo
+- Robert Badinter
+- Rudy Rochman
+- Salomé Zourabichvili
+- Éléonore Caroit
 nationality: francaise
 nom_complet: Olivier Royant
 occupation: écrivain ou écrivaine

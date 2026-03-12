@@ -7,6 +7,11 @@ education: École des hautes études commerciales du Nord
 genre: féminin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Jean Mercier
+- Thibaud de Barbeyrac
+- Thierry Mathou
+- Vérane Frédiani
 nationality: francaise
 nom_complet: Anne de Bayser
 occupation: haut fonctionnaire ou haute fonctionnaire

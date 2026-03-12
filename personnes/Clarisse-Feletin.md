@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Clarisse Feletin, écrivain ou écrivaine. Ne(e) le 1970-12-28. Formation : Institut d'études politiques de Paris.
+Clarisse Feletin, écrivain ou écrivaine. Ne(e) le 1970-12-28. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q27056282

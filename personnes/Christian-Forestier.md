@@ -7,6 +7,10 @@ education: Institut national des sciences appliquées de Lyon
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Christian Nibourel
+- Christophe Plonévez
+- Olivier Brourhant
 nationality: francaise
 nom_complet: Christian Forestier
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Christian Forestier, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1944-12-08 a Aubière. Formation : Institut national des sciences appliquées de Lyon.
+Christian Forestier, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1944-12-08 a Aubière. Formation : [[Institut national des sciences appliquées de Lyon]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2965257

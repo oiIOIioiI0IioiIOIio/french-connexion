@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Constance Rivière, écrivain ou écrivaine. Ne(e) le 1980-07-03 a 11e arrondissement de Paris. Formation : École normale supérieure.
+Constance Rivière, écrivain ou écrivaine. Ne(e) le 1980-07-03 a 11e arrondissement de Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q19629335

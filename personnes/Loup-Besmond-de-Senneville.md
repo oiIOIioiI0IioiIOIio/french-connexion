@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Loup Besmond de Senneville, journaliste. Ne(e) le 1985-06-20. Formation : université Paris-I-Panthéon-Sorbonne.
+Loup Besmond de Senneville, journaliste. Ne(e) le 1985-06-20. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q46993261

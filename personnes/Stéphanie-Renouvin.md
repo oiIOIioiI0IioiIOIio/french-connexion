@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Stéphanie Renouvin, présentateur ou présentatrice de journal. Ne(e) le 1977-04-02 a Nice. Formation : Centre de formation des journalistes.
+Stéphanie Renouvin, présentateur ou présentatrice de journal. Ne(e) le 1977-04-02 a Nice. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3502218

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Amaelle Guiton, journaliste. Ne(e) le 1976-01-01. Formation : Institut d'études politiques de Paris.
+Amaelle Guiton, journaliste. Ne(e) le 1976-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q46094171

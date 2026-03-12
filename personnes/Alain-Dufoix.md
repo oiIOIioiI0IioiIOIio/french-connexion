@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alain Dufoix, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1933-11-18 a Montpellier. Formation : Institut d'études politiques de Paris.
+Alain Dufoix, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1933-11-18 a Montpellier. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50844181

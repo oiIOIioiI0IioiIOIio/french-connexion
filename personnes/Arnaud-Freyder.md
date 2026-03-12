@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Arnaud Freyder, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1978-10-29 a Strasbourg. Formation : École normale supérieure.
+Arnaud Freyder, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1978-10-29 a Strasbourg. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33216713

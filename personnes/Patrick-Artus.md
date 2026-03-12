@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Patrick Artus, professeur. Ne(e) le 1951-10-14 a Lille. Formation : École polytechnique.
+Patrick Artus, professeur. Ne(e) le 1951-10-14 a Lille. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3369193

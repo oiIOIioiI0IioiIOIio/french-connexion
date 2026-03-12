@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Servent, militaire. Ne(e) le 1954-02-10 a Montpellier. Formation : Institut d'études politiques de Paris.
+Pierre Servent, militaire. Ne(e) le 1954-02-10 a Montpellier. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q20671471

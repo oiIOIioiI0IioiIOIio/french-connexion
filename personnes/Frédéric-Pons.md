@@ -7,6 +7,8 @@ education: Université Cheikh-Anta-Diop
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Abdou Diouf
 nationality: francaise
 nom_complet: Frédéric Pons
 occupation: écrivain ou écrivaine

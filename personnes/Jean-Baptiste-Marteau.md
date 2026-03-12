@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Baptiste Marteau, journaliste. Ne(e) le 1983-05-21 a 16e arrondissement de Paris. Formation : École de droit de la Sorbonne.
+Jean-Baptiste Marteau, journaliste. Ne(e) le 1983-05-21 a 16e arrondissement de Paris. Formation : École de droit de la [[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q19847396

@@ -7,6 +7,9 @@ education: école normale de musique de Paris
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Charles Fries
+- Ibrahim Souss
 nationality: francaise
 nom_complet: Pierre de Vilno
 occupation: journaliste

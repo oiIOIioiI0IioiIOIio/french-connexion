@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Robert Ranquet, militaire. Ne(e) le 1953-11-17 a Mostaganem. Formation : École polytechnique.
+Robert Ranquet, militaire. Ne(e) le 1953-11-17 a Mostaganem. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q7349169

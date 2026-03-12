@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Éric Aeschimann, journaliste. Ne(e) le 1963-07-13. Formation : Centre de formation des journalistes.
+Éric Aeschimann, journaliste. Ne(e) le 1963-07-13. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3590936

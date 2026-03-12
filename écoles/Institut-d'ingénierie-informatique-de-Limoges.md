@@ -4,6 +4,318 @@ founded: '1987-01-06'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Adrien Gombeaud
+- Agnès Bonfillon
+- Alain Bouquin
+- Alain Frouté
+- Alain Gaigneron de Marolles
+- Alain Guillemoles
+- Alain Pellegrini
+- Alain Puiseux
+- Alba Ventura
+- Alexandra Pihen
+- Alexandre Garcia
+- André Bach
+- André Fourié
+- André Joriot
+- André Jozan
+- Anne Bouillon
+- Antoine Biancamaria
+- Antoine Guerrier de Dumast
+- Antoine Lecerf
+- Antoine Pellion
+- Arnaud de La Grange
+- Arnold Schwerdorffer
+- Astrid de Villaines
+- Aurélie Darbouret
+- Aziz Meliani
+- Benjamin Cuq
+- Benjamin Vincent
+- Benoît Collombat
+- Bernard François Combemale
+- Bernard Goupil
+- Bernard Janvier
+- Bernard Metz
+- Bernard Norlain
+- Bernard Poirette
+- Bernard Squarcini
+- Bernard Vaillant
+- Bernard de Boisfleury
+- Bernard de Courrèges d'Ustou
+- Bernard de Froment
+- Bertrand Besancenot
+- Bertrand O'Mahony
+- Bertrand Ract-Madoux
+- Bertrand de La Chesnais
+- Bertrand de Montaudoüin
+- Brice Houdet
+- Bruno Cuche
+- Bruno Dary
+- Bruno Jockers
+- Béatrice Denaes
+- Bénédicte Tassart
+- Camille Crosnier
+- Catherine Mangin-Dessarts
+- Catherine Moisan
+- Charles Constantin-Vallet
+- Charlotte Journo-Baur
+- Charlotte d'Ornellas
+- Chloé Andries
+- Christian Prouteau
+- Christian Prudhomme
+- Christian Quesnot
+- Christian Rodriguez
+- Christile Drulhe
+- Christophe Arleston
+- Christophe Castaner
+- Christophe Delay
+- Christophe Ono-dit-Biot
+- Christophe Penot
+- Christophe de Saint Chamas
+- Claude Guibal
+- Claude Vanbremeersch
+- Cyrille Baumgartner
+- Cécile Bidault
+- Céline Rousseaux
+- Damien Mascret
+- Daniel Lallemant
+- David Galtier
+- David Miège
+- Didier Bolelli
+- Didier Brousse
+- Didier Rogasik
+- Dominique Delort
+- Dominique Dron
+- Dominique Lagrou-Sempère
+- Donald Oliver
+- Elsa Pallot
+- Eléonor Acher
+- Emmanuel Beth
+- Emmanuelle Cosse
+- Famille Rothschild
+- Farid Zizi
+- Flore Maréchal
+- Florent Dabadie
+- Florent Gorges
+- Floriane Louison
+- François Beaudonnet
+- François Bichet
+- François Dall'Orso
+- François Meyer
+- François Thomazeau
+- François-Pierre Joly
+- François-Xavier Bourmaud
+- François-Xavier Deniau
+- Frédéric Hingray
+- Frédéric Vasseur
+- Frédéric Vion
+- Furcy Houdet
+- Georges Diener
+- Gilles Garachon
+- Gilles Grapinet
+- Guy Delfosse
+- Gérard Tur
+- Henri Bentégeat
+- Henri Leclerc de Hauteclocque
+- Henri Poncet
+- Henry Féral
+- Henry Peyrelongue
+- Hervé Charpentier
+- Hervé Gattegno
+- Hubert Bonneau
+- Hubert Heilbronn
+- Isabelle Saporta
+- Jacques Antoine de Barry
+- Jacques Billant
+- Jacques Champagne de Labriolle
+- Jacques Dewatre
+- Jacques Guerrier de Dumast
+- Jacques Langlade de Montgros
+- Jacques Lanxade
+- Jacques Servranckx
+- Jacques Villiers
+- Jacques Witkowski
+- James de Rothschild
+- Jean Augustine
+- Jean Cot
+- Jean Delaunay
+- Jean Heinrich
+- Jean Maurin
+- Jean Michelin
+- Jean Prot
+- Jean Varret
+- Jean de Sesmaisons
+- Jean-Christophe Belliard
+- Jean-Claude Thomann
+- Jean-François Pérès
+- Jean-Karim Fall
+- Jean-Louis Brochen
+- Jean-Louis Georgelin
+- Jean-Louis de Moulins d'Amieu de Beaufort
+- Jean-Luc Évin
+- Jean-Marc Alliot
+- Jean-Marc Loubès
+- Jean-Marc Morandini
+- Jean-Marc d'Abreu
+- Jean-Michel Bretonnier
+- Jean-Noël Poirier
+- Jean-Paul Réau
+- Jean-Pierre Kelche
+- Jean-Pierre Laflaquière
+- Jean-Pierre Montagne
+- Jean-Pierre Palasset
+- Jean-Yves Moyart
+- Jeannou Lacaze
+- Joseph Dupré la Tour
+- José Paoli
+- Joël Meyer
+- Jules Grévy
+- Jules Irrmann
+- Julian Bugier
+- Julien Larregue
+- Jérôme Bastianelli
+- Jérôme Salomon
+- Karim Achoui
+- Khaled Nezzar
+- Kidi Bebey
+- Laurence de Charette
+- Laurent Bazin
+- Laurent Obertone
+- Leila Alaoui
+- Louis Beaudonnet
+- Louis Laugier
+- Louis de Faucigny-Lucinge
+- Loïc Mizon
+- Lucie Chaumette
+- Lucile Woodward
+- Léon Bouvier
+- Marc Mortelmans
+- Marine Turchi
+- Marlène Blin
+- Martin Pénet
+- Maryse Joissains-Masini
+- Mathilde Saliou
+- Matthieu Belliard
+- Maurice Faivre
+- Maurice Kouandété
+- Maurice Schmitt
+- Max Gaillard
+- Maxime de Rostolan
+- Maïa Mazaurette
+- Meriem Amellal
+- Michaël Bertini
+- Michel Guignon
+- Michel Kempinski
+- Michel Roquejeoffre
+- Michel Roussin
+- Michel Stollsteiner
+- Michel Turpin
+- Michel Wachenheim
+- Michel de Courrèges
+- Michèle Gendreau-Massaloux
+- Mohamed Lamari
+- Mohamed Mancona Kouyaté
+- Mona Chollet
+- Nicolas Barotte
+- Odile Conseil
+- Olivier Guyonvarch
+- Olivier Lannuzel
+- Olivier Malfait
+- Olivier Nicklaus
+- Olivier de Bavinchove
+- Pascal Durand
+- Patrice Molle
+- Patrice O'Mahony
+- Patrice Romedenne
+- Patricia Loison
+- Patrick Collet
+- Patrick Ky
+- Paul Brunbrouck
+- Paul Girot de Langlade
+- Paul-Louis Arslanian
+- Philippe Legrix
+- Philippe Olivier
+- Pierre Alonso
+- Pierre Aubert de Vincelles
+- Pierre Baraton
+- Pierre Dabezies
+- Pierre Falcone
+- Pierre Garrigou Grandchamp
+- Pierre Haicault de La Regontais
+- Pierre J-Y. Le Blavec
+- Pierre Montagnon
+- Pierre N'Gahane
+- Pierre Perrone
+- Pierre Quatrepoint
+- Pierre-Antoine Donnet
+- Pierre-Henri Bunel
+- Pierre-Yves Lautrou
+- Renaud de Malaussène
+- René Imbot
+- René Ribière
+- Renée Sillon-Veyret
+- Richard Laganier
+- Richard Sola
+- Robert Caillaud
+- Roger Périer
+- Roland Corbineau
+- Roland Perez
+- Rosiane Houngbo-Monteverde
+- Réginald Gaillard
+- Régine Engström
+- Rémi Maréchaux
+- Salima Saa
+- Sandy Dauphin
+- Sarah Caron
+- Serge Beaumont
+- Serge Bilé
+- Sophie Joissains
+- Sophie-Marie Larrouy
+- Stéphane Benoit-Godet
+- Stéphane Foucart
+- Stéphane Soumier
+- Theodor Paleologu
+- Thierry Dugeon
+- Thierry Marchand
+- Thierry Orosco
+- Thomas Baumgartner
+- Thomas Schmider
+- Thérèse Delpech
+- Tristan Waleckx
+- Tronchet
+- Tugdual de Dieuleveult
+- Ulysse Gosset
+- Victor Loupan
+- Vincent Bedouin
+- Vincent Desportes
+- Virginie Guyot
+- Véronique Bujon-Barré
+- Xavier Bout de Marnhac
+- Xavier de Fürst
+- Xavier de Lesquen
+- Xavier de Zuchowicz
+- Yann Rousseau-Dumarcet
+- Yves Decaens
+- Yves Fromion
+- Yves Gras
+- Yves de Kermabon
+- Yves de Sesmaisons
+- Édith Cresson
+- Édouard Philippe
+- Édouard de Ribes
+- Élisabeth Laurin
+- Élizabeth Martichoux
+- Élizabeth Tchoungui
+- Éric Bayle
+- Éric Burgaud
+- Éric Faye
+- Éric Gérard
+- Éric Jouan
+- Éric de Rothschild
+- Étienne Campion
+- Étienne Renard
+- Étienne Sesmat
 nom_complet: Institut d'ingénierie informatique de Limoges
 sources:
 - https://www.wikidata.org/entity/Q3151931

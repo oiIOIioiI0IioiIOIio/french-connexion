@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Patrice Vial, président ou présidente. Ne(e) le 1948-08-02 a 4e arrondissement de Lyon. Formation : HEC Paris.
+Patrice Vial, président ou présidente. Ne(e) le 1948-08-02 a 4e arrondissement de Lyon. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q47505039

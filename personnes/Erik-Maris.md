@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Erik Maris, personnalité du monde des affaires. Ne(e) le 1964-02-16 a Angers. Formation : HEC Paris.
+Erik Maris, personnalité du monde des affaires. Ne(e) le 1964-02-16 a Angers. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33181313

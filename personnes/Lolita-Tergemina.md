@@ -7,6 +7,8 @@ education: École nationale supérieure des arts et techniques du théâtre
 genre: féminin
 keywords:
 - acteur ou actrice
+liens:
+- Jean-Luc Lavaud
 nationality: francaise
 nom_complet: Lolita Tergemina
 occupation: acteur ou actrice

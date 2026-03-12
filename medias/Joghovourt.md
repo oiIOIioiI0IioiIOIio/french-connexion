@@ -4,6 +4,8 @@ founded: '1943-04-01'
 keywords:
 - media
 - presse
+liens:
+- Joghovourti Tzain
 nom_complet: Joghovourt
 sources:
 - https://www.wikidata.org/entity/Q96757715

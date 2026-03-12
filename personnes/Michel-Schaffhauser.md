@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel Schaffhauser, diplomate. Ne(e) le 1950-12-08 a Bonn. Formation : Institut d'études politiques de Paris.
+Michel Schaffhauser, diplomate. Ne(e) le 1950-12-08 a Bonn. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q85424155

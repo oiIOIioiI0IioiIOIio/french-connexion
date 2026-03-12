@@ -7,6 +7,25 @@ education: École navale
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Anne Cullerre
+- Anne-Ségolène Abscheidt
+- Arnaud de Tarlé
+- Bernard Klotz
+- Didier Ratsiraka
+- Gérard de Castelbajac
+- Hervé Jaouen
+- Jean-Louis Battet
+- Laurent Mérer
+- Nicolas Vaujour
+- Paul de Bigault de Cazanove
+- Philippe Ausseur
+- Pierre Lacoste
+- Pierre Siramy
+- Pierre Trouillet
+- Vianney Sevaistre
+- Édouard Guillaud
+- Émile Chaline
 nationality: francaise
 nom_complet: Yves de Kersauson
 occupation: diplomate

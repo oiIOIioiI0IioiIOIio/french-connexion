@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Hervé Béroud, journaliste. Ne(e) le 1964-01-10 a Roanne. Formation : Centre de formation des journalistes.
+Hervé Béroud, journaliste. Ne(e) le 1964-01-10 a Roanne. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3134435

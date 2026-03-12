@@ -7,6 +7,16 @@ education: École pratique des hautes études
 genre: féminin
 keywords:
 - avocat ou avocate
+liens:
+- Alain Ruellan
+- Bernard Le Clère
+- Gaëlle Bélem
+- Guillaume Robert
+- Pascal Bruckner
+- Patrick Sbalchiero
+- Rozenn Milin
+- Sébastien de Courtois
+- Xavier Accart
 nationality: francaise
 nom_complet: Isabelle Coutant-Peyre
 occupation: avocat ou avocate

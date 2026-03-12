@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Catherine Pégard, journaliste. Ne(e) le 1954-08-05 a Le Havre. Formation : Institut d'études politiques de Paris.
+Catherine Pégard, journaliste. Ne(e) le 1954-08-05 a Le Havre. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2942038

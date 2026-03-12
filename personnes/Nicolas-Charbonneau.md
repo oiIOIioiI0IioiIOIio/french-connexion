@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nicolas Charbonneau, présentateur ou présentatrice de journal. Ne(e) le 1969-12-26 a Chablis. Formation : université Paris-Sorbonne.
+Nicolas [[Charb]]onneau, présentateur ou présentatrice de journal. Ne(e) le 1969-12-26 a Chablis. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3340185

@@ -4,6 +4,8 @@ founded: '1968-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Patrice Pauper
 nom_complet: Faculté Jean-Monnet de l'université Paris-Saclay
 sources:
 - https://www.wikidata.org/entity/Q23932129

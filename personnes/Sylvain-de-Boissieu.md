@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sylvain de Boissieu, journaliste. Ne(e) le 1969-03-25 a 14e arrondissement de Paris. Formation : Institut d'études politiques de Paris.
+Sylvain de Boissieu, journaliste. Ne(e) le 1969-03-25 a 14e arrondissement de Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q49651900

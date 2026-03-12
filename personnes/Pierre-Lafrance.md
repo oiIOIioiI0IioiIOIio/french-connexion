@@ -7,6 +7,14 @@ education: faculté des lettres de Paris
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Alain Rouillard
+- Alexis Berelowitch
+- Claude Ambrosini
+- Jean-Claude Moreau
+- Marcel Martin
+- Marie-Françoise Hamard
+- Pierre Boillot
 nationality: francaise
 nom_complet: Pierre Lafrance
 occupation: diplomate
@@ -22,7 +30,7 @@ tags:
 type: Personne
 ---
 
-Pierre Lafrance, diplomate. Ne(e) le 1932-08-19 a Tunis. Formation : faculté des lettres de Paris.
+Pierre Lafrance, diplomate. Ne(e) le 1932-08-19 a Tunis. Formation : [[faculté des lettres de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q97137267

@@ -7,6 +7,30 @@ education: Institut d'études politiques d'Aix-en-Provence
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Ali André Mécili
+- Arnaud Suquet
+- Bertrand Kern
+- Bruno Mettling
+- Dominique Vian
+- Edmond Zucchelli
+- Fabien Namias
+- Fabrice Madouas
+- Fabrice Étienne
+- Franck Genauzeau
+- François Pinet
+- Jean-Charles Marchiani
+- Johana Gustawsson
+- Julien Bahloul
+- Laëtitia Allemand
+- Lionel Paradisi-Coulouma
+- Mehdi Chebana
+- Mélanie Chalandon
+- Rudy Reichstadt
+- Rémy Porte
+- Sylvaine Carta-Le Vert
+- Sylvie Faiderbe
+- Sylvie Kauffmann
 nationality: francaise
 nom_complet: Alexis Le Cour Grandmaison
 occupation: diplomate
@@ -22,7 +46,7 @@ tags:
 type: Personne
 ---
 
-Alexis Le Cour Grandmaison, diplomate. Ne(e) le 1969-07-01. Formation : Institut d'études politiques d'Aix-en-Provence.
+Alexis Le Cour Grandmaison, diplomate. Ne(e) le 1969-07-01. Formation : [[Institut d'études politiques d'Aix-en-Provence]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q133822540

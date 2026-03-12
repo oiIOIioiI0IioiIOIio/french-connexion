@@ -7,6 +7,17 @@ education: Université de New York
 genre: féminin
 keywords:
 - animateur ou animatrice de télévision
+liens:
+- Anne Poiret
+- Antonin Lévy
+- Arno Klarsfeld
+- Carine Fouteau
+- Géraldine Muhlmann
+- Iris Brey
+- Laurent Stefanini
+- Marie-Anne Barbat-Layani
+- Mohamed Sahnoun
+- Stéphanie Antoine
 nationality: francaise
 nom_complet: Léa Salamé
 occupation: animateur ou animatrice de télévision

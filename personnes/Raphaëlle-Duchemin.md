@@ -7,6 +7,39 @@ education: École supérieure de journalisme de Paris
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Alexandre Boussageon
+- Antoine de Tournemire
+- Bernard Werber
+- Béatrice Massenet
+- Caroline Boudet
+- Caroline Henry
+- Christophe Paillet
+- Claire Barsacq
+- Cyrille Legendre
+- Emmanuel Maubert
+- Erika Moulet
+- Frédéric Calenge
+- Frédéric Dubessy
+- Frédéric Taddeï
+- Gaël Desgrées du Lou
+- Geoffroy Lejeune
+- Ghislaine Dupont
+- Isabelle Morini-Bosc
+- Jean-Baptiste Giraud
+- Jean-François Achilli
+- Jean-Pierre Gagick
+- Jérôme de Verdière
+- Laurent Romejko
+- Marie Inbona
+- Nico Prat
+- Nicolas Doze
+- Ophélie Meunier
+- Patrick de Carolis
+- Ronald Guintrange
+- Tristane Banon
+- Valérie Bénaïm
+- Émilie Broussouloux
 nationality: francaise
 nom_complet: Raphaëlle Duchemin
 occupation: journaliste

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Baptiste de Froment, personnalité politique. Ne(e) le 1977-10-07 a Paris. Formation : École normale supérieure.
+Jean-Baptiste de Froment, personnalité politique. Ne(e) le 1977-10-07 a Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33136322

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Hubert de Roquefeuil, personnalité du monde des affaires. Ne(e) le 1967-04-11 a Paris. Formation : EM Lyon Business School.
+Hubert de Roquefeuil, personnalité du monde des affaires. Ne(e) le 1967-04-11 a Paris. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33279468

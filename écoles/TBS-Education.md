@@ -5,6 +5,9 @@ headquarters: Toulouse
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Axel de Tarlé
+- Didier Lacroix
 nom_complet: TBS Education
 sources:
 - https://www.wikidata.org/entity/Q3117393

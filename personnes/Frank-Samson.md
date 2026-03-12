@@ -7,6 +7,10 @@ education: université de Bretagne-Occidentale
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Christian Troadec
+- Philippe Collin
+- Philippe Lacombe
 nationality: francaise
 nom_complet: Frank Samson
 occupation: avocat ou avocate

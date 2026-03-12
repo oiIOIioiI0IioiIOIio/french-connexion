@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-René Mayer, écrivain ou écrivaine. Ne(e) le 1925-02-07 a Tunis. Formation : École polytechnique.
+René Mayer, écrivain ou écrivaine. Ne(e) le 1925-02-07 a Tunis. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q11349027

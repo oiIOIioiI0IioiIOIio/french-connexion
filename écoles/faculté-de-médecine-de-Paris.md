@@ -4,6 +4,8 @@ founded: '1774-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- ancienne faculté de médecine de Paris
 nom_complet: faculté de médecine de Paris
 sources:
 - https://www.wikidata.org/entity/Q3064277

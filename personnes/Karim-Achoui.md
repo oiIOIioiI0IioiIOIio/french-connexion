@@ -7,6 +7,16 @@ education: université Paris-Est-Créteil-Val-de-Marne
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Charles Constantin-Vallet
+- Emmanuelle Cosse
+- Lucile Woodward
+- Michaël Bertini
+- Pascal Durand
+- Philippe Olivier
+- Pierre-Yves Lautrou
+- Roland Perez
+- Rosiane Houngbo-Monteverde
 nationality: francaise
 nom_complet: Karim Achoui
 occupation: avocat ou avocate

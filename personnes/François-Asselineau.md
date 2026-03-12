@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-François Asselineau, personnalité politique. Ne(e) le 1957-09-14 a Paris. Formation : HEC Paris.
+François Asselineau, personnalité politique. Ne(e) le 1957-09-14 a Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q12972

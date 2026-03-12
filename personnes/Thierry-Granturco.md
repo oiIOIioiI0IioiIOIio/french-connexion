@@ -7,6 +7,29 @@ education: université Jean-Moulin-Lyon-III
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Adrien Bostmambrun
+- Amaury Nardone
+- Anne-Sophie Ginon
+- Benoît Thévenet
+- Bertrand de La Tour d'Artaise
+- Christophe Dantoine
+- François Falletti
+- Gilles Devers
+- Géraldine Woessner
+- Jean-Christophe Buisson
+- Laurence Boisson de Chazournes
+- Laurent Dolbeau
+- Lionel Devic
+- Pierre Garonnaire
+- Sandrine Escaleira
+- Sylvain Boccon-Gibod
+- Valérie Rey-Robert
+- Xavier Pelletier
+- Yves Nicolin
+- Ève Charrin
+- Élisabeth Beton-Delègue
+- Éloïse Wagner
 nationality: francaise
 nom_complet: Thierry Granturco
 occupation: avocat ou avocate

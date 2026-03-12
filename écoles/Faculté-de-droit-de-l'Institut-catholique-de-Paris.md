@@ -17,4 +17,4 @@ type: Ecole
 wikidata_id: Q111792756
 ---
 
-Faculté de droit de l'Institut catholique de Paris, etablissement d'enseignement superieur francais.
+Faculté de droit de l'[[Institut catholique de Paris]], etablissement d'enseignement superieur francais.

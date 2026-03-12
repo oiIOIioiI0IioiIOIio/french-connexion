@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Matthieu Noël, animateur ou animatrice de télévision. Ne(e) le 1982-11-13 a Genève. Formation : Institut d'études politiques de Paris.
+Matthieu Noël, animateur ou animatrice de télévision. Ne(e) le 1982-11-13 a Genève. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16663783

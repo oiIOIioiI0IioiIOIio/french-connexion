@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sébastien Demorand, journaliste. Ne(e) le 1969-08-04 a Harare. Formation : université Paris-I-Panthéon-Sorbonne.
+Sébastien Demorand, journaliste. Ne(e) le 1969-08-04 a Harare. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3510030

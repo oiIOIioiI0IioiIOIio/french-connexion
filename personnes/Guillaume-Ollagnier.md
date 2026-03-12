@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Guillaume Ollagnier, diplomate. Ne(e) le 1976-01-01. Formation : Institut d'études politiques de Paris.
+Guillaume Ollagnier, diplomate. Ne(e) le 1976-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q124416914

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bertrand Badré, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1968-05-10 a Versailles. Formation : HEC Paris.
+Bertrand Badré, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1968-05-10 a Versailles. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2899445

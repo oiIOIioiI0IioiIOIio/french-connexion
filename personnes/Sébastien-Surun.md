@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sébastien Surun, diplomate. Ne(e) le 1973-11-30. Formation : Institut d'études politiques de Paris.
+Sébastien Surun, diplomate. Ne(e) le 1973-11-30. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q125458110

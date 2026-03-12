@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Hubert du Mesnil, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1950-09-24 a Bayonne. Formation : École polytechnique.
+Hubert du Mesnil, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1950-09-24 a Bayonne. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3142142

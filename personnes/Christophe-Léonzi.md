@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christophe Léonzi, diplomate. Ne(e) le 1965-08-07 a Paris. Formation : HEC Paris.
+Christophe Léonzi, diplomate. Ne(e) le 1965-08-07 a Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q48408881

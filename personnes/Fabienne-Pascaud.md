@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Fabienne Pascaud, écrivain ou écrivaine. Ne(e) le 1955-07-01 a 15e arrondissement de Paris. Formation : Institut d'études politiques de Paris.
+Fabienne Pascaud, écrivain ou écrivaine. Ne(e) le 1955-07-01 a 15e arrondissement de Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3063701

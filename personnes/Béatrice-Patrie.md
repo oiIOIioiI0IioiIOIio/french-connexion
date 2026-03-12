@@ -7,6 +7,20 @@ education: École nationale de la magistrature
 genre: féminin
 keywords:
 - avocat ou avocate
+liens:
+- André Potocki
+- Claude Jorda
+- Emmanuel Barbe
+- Eva Joly
+- Francis Moureu
+- Gilbert Azibert
+- Hélène Gerhards
+- Isabelle Jégouzo
+- Jean-Louis Debré
+- Jean-Paul Garraud
+- Nicole Maestracci
+- Philippe Bilger
+- Serge Portelli
 nationality: francaise
 nom_complet: Béatrice Patrie
 occupation: avocat ou avocate

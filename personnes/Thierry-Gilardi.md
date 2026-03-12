@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Thierry Gilardi, présentateur ou présentatrice de journal. Ne(e) le 1958-07-26 a Saint-Germain-en-Laye. Formation : Institut d'études politiques de Paris.
+Thierry Gilardi, présentateur ou présentatrice de journal. Ne(e) le 1958-07-26 a Saint-Germain-en-Laye. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q364338

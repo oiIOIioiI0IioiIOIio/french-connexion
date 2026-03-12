@@ -7,6 +7,11 @@ education: collège Stanislas
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Jean Rochet
+- Patrick Eudeline
+- Pierre-Christian Taittinger
+- Simon Liberati
 nationality: francaise
 nom_complet: Jacques Grandon
 occupation: avocat ou avocate

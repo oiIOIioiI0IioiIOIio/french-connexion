@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Thierry Poiré, journaliste. Ne(e) le 1957-05-03 a Étouy. Formation : Centre de formation des journalistes.
+Thierry Poiré, journaliste. Ne(e) le 1957-05-03 a Étouy. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3524477

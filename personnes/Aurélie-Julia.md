@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Aurélie Julia, journaliste. Ne(e) le 1974-12-22. Formation : université Paris-Sorbonne.
+Aurélie Julia, journaliste. Ne(e) le 1974-12-22. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q120850387

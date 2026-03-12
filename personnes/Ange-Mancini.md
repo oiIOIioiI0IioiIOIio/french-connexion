@@ -7,6 +7,14 @@ education: École nationale supérieure de la Police
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Bernard Guérin
+- Christian Lambert
+- Frédéric Veaux
+- Henri Souchon
+- Jean-Louis Fiamenghi
+- Patrick Calvar
+- Yves Guillot
 nationality: francaise
 nom_complet: Ange Mancini
 occupation: haut fonctionnaire ou haute fonctionnaire

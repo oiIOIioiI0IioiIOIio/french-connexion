@@ -7,6 +7,15 @@ education: université de Caen-Normandie
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Alain Tourret
+- Christine Kerdellant
+- Céline Asselot
+- Guillaume Bazard
+- Jean-Marie Girault
+- Jean-Paul Ollivier
+- Marie-Annick Bourdin
+- Olivier Metzner
 nationality: francaise
 nom_complet: Denis Brogniart
 occupation: journaliste

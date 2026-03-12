@@ -7,6 +7,13 @@ education: Institut d’études politiques de Lille
 genre: féminin
 keywords:
 - animateur ou animatrice de télévision
+liens:
+- Astrid de Villaines
+- Céline Rousseaux
+- Frédéric Vion
+- Marine Turchi
+- Pierre Alonso
+- Étienne Campion
 nationality: francaise
 nom_complet: Lucie Chaumette
 occupation: animateur ou animatrice de télévision
@@ -22,7 +29,7 @@ tags:
 type: Personne
 ---
 
-Lucie Chaumette, animateur ou animatrice de télévision. Ne(e) le 1990-01-01 a Hazebrouck. Formation : Institut d’études politiques de Lille.
+Lucie Chaumette, animateur ou animatrice de télévision. Ne(e) le 1990-01-01 a Hazebrouck. Formation : [[Institut d’études politiques de Lille]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q105490357

@@ -7,6 +7,17 @@ education: École nationale des chartes
 genre: féminin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Agnès Magnien
+- Armelle Daumas
+- Catherine Laurent
+- Cécile Pozzo di Borgo
+- François Cousin
+- Françoise Banat-Berger
+- Marc Sanson
+- Michel Denieul
+- Nicolas Roche
+- Paul Bouteiller
 nationality: francaise
 nom_complet: Solenne Lepage
 occupation: haut fonctionnaire ou haute fonctionnaire

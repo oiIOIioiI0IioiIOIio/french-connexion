@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Denis Delbourg, diplomate. Ne(e) le 1952-07-30. Formation : École normale supérieure.
+Denis Delbourg, diplomate. Ne(e) le 1952-07-30. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3022634

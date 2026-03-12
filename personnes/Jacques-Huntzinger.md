@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jacques Huntzinger, diplomate. Ne(e) le 1943-01-08 a Boulogne-Billancourt. Formation : Institut d'études politiques de Paris.
+Jacques Huntzinger, diplomate. Ne(e) le 1943-01-08 a Boulogne-Billancourt. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q1677979

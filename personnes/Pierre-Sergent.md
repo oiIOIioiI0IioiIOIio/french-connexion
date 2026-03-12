@@ -7,6 +7,12 @@ education: lycée Henri-IV
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Ali Baddou
+- Daniel Schneidermann
+- Jean Birnbaum
+- Jean-François Parot
+- Michel Eltchaninoff
 nationality: francaise
 nom_complet: Pierre Sergent
 occupation: écrivain ou écrivaine

@@ -5,6 +5,11 @@ headquarters: Toulouse
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Guillaume Faury
+- Jean Laurent
+- Jean-Paul Gillybœuf
+- Éric du Fayet de La Tour
 nom_complet: Institut supérieur de l'aéronautique et de l'espace
 sources:
 - https://www.wikidata.org/entity/Q155446

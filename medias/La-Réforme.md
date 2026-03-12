@@ -4,6 +4,9 @@ founded: '1843-07-29'
 keywords:
 - media
 - presse
+liens:
+- Didier Banquy
+- Yves Barraquand
 nom_complet: La Réforme
 sources:
 - https://www.wikidata.org/entity/Q3212572

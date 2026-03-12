@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Ariane Dollfus, journaliste. Ne(e) le 1966-08-17. Formation : Institut d'études politiques de Paris.
+Ariane Dollfus, journaliste. Ne(e) le 1966-08-17. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2861190

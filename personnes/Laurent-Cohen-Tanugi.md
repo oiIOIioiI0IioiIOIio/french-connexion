@@ -7,6 +7,10 @@ education: faculté de droit de Harvard
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Francis Caballero
+- Ilana Cicurel
+- Jacques Salès
 nationality: francaise
 nom_complet: Laurent Cohen-Tanugi
 occupation: avocat ou avocate

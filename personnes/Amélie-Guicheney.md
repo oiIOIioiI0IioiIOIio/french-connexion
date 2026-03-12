@@ -7,6 +7,16 @@ education: lycée Condorcet
 genre: féminin
 keywords:
 - entrepreneur ou entrepreneuse
+liens:
+- Alain Hollande
+- Christophe Bourseiller
+- Christophe Tison
+- Claude Bussière
+- Laurent Broomhead
+- Nicolas Chapuis
+- Philippe Lefait
+- Raymond Morice
+- Stéphane Barsacq
 nationality: francaise
 nom_complet: Amélie Guicheney
 occupation: entrepreneur ou entrepreneuse

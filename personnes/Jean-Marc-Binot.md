@@ -7,6 +7,8 @@ education: université de Picardie Jules-Verne
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Jean-Christophe Brisard
 nationality: francaise
 nom_complet: Jean-Marc Binot
 occupation: journaliste

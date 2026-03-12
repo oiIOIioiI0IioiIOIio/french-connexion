@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bruno Cabrillac, économiste. Ne(e) le 1958-01-03. Formation : Institut d'études politiques de Paris.
+Bruno Cabrillac, économiste. Ne(e) le 1958-01-03. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q123725359

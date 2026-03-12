@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Ivan Barbot, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1937-01-05 a Plœuc-L'Hermitage. Formation : Institut d'études politiques de Paris.
+Ivan Barbot, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1937-01-05 a Plœuc-L'Hermitage. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q41740915

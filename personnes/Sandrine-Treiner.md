@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sandrine Treiner, écrivain ou écrivaine. Ne(e) le 1964-11-17 a Suresnes. Formation : Institut d'études politiques de Paris.
+Sandrine Treiner, écrivain ou écrivaine. Ne(e) le 1964-11-17 a Suresnes. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q20872697

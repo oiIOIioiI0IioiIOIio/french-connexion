@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marcel Roulet, personnalité du monde des affaires. Ne(e) le 1933-01-22 a Chambéry. Formation : École polytechnique.
+Marcel Roulet, personnalité du monde des affaires. Ne(e) le 1933-01-22 a Chambéry. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q47498857

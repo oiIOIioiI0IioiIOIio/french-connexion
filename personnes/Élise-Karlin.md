@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Élise Karlin, journaliste. Ne(e) le 1967-10-10. Formation : Centre de formation des journalistes.
+Élise Karlin, journaliste. Ne(e) le 1967-10-10. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3587951

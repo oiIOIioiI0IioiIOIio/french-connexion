@@ -5,6 +5,11 @@ headquarters: Fontainebleau
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Geoffroy de la Bourdonnaye
+- Jacques Bonifay
+- Jean-Pierre Charriton
+- Thierry Launois
 nom_complet: INSEAD
 sources:
 - https://www.wikidata.org/entity/Q1136829

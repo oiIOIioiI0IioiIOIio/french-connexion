@@ -7,6 +7,18 @@ education: lycée du Parc
 genre: masculin
 keywords:
 - militaire
+liens:
+- Anne Joubert
+- Antoine de Tarlé
+- Bruno Cotte
+- Christophe Barbier
+- Christophe Deloire
+- Daniel Bernard
+- Frédéric Rebet
+- Guillaume Ancel
+- Guy Deniélou
+- Léon Tabah
+- Pascal Confavreux
 nationality: francaise
 nom_complet: Claude Alphandéry
 occupation: militaire

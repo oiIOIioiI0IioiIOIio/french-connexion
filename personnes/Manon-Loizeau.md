@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Manon Loizeau, journaliste. Ne(e) le 1969-01-01 a Londres. Formation : Institut d'études politiques de Paris.
+Manon Loizeau, journaliste. Ne(e) le 1969-01-01 a Londres. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3286461

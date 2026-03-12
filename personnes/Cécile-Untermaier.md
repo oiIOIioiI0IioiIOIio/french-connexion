@@ -7,6 +7,9 @@ education: Institut régional d'administration de Lyon
 genre: féminin
 keywords:
 - personnalité politique
+liens:
+- Fabienne Buccio
+- Jean-Louis Géraud
 nationality: francaise
 nom_complet: Cécile Untermaier
 occupation: personnalité politique

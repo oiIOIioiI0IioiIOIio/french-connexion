@@ -7,6 +7,8 @@ education: lycée Pierre-de-Fermat
 genre: masculin
 keywords:
 - enseignant ou enseignante
+liens:
+- Éric Neuhoff
 nationality: francaise
 nom_complet: René Giraudon
 occupation: enseignant ou enseignante

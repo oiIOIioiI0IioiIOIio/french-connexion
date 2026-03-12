@@ -7,6 +7,23 @@ education: Institut d'études politiques de Lyon
 genre: féminin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Adrien Jaulmes
+- Christiane Doré
+- Cécile Delarue
+- Dominique Lacroix
+- Gaspard Dhellemmes
+- Hubert Blanc
+- Jean-Marie Girier
+- Jérôme Tichit
+- Laure Martin Hernandez
+- Liseron Boudoul
+- Magali Serre
+- Muriel Soret
+- Pierre Siankowski
+- Régis Le Sommier
+- Sophie Aubert
+- Valérie Béranger
 nationality: francaise
 nom_complet: Sonia Chironi
 occupation: présentateur ou présentatrice de journal
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Sonia Chironi, présentateur ou présentatrice de journal. Ne(e) le 1979-04-02. Formation : Institut d'études politiques de Lyon.
+Sonia Chironi, présentateur ou présentatrice de journal. Ne(e) le 1979-04-02. Formation : [[Institut d'études politiques de Lyon]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3490412

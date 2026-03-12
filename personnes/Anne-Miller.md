@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Anne Miller, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1966-12-04 a Paris. Formation : École normale supérieure.
+Anne Miller, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1966-12-04 a Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q49303719

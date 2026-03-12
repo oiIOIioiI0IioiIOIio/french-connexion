@@ -7,6 +7,14 @@ education: lycée Janson-de-Sailly
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Christophe Ono-dit-Biot
+- Laurence de Charette
+- Maxime de Rostolan
+- René Ribière
+- Thomas Schmider
+- Édouard de Ribes
+- Éric de Rothschild
 nationality: francaise
 nom_complet: Hubert Heilbronn
 occupation: personnalité du monde des affaires
@@ -22,7 +30,7 @@ tags:
 type: Personne
 ---
 
-Hubert Heilbronn, personnalité du monde des affaires. Ne(e) le 1931-08-28 a Paris. Formation : lycée Janson-de-Sailly.
+Hubert Heilbronn, personnalité du monde des affaires. Ne(e) le 1931-08-28 a Paris. Formation : [[Lycée Janson-de-Sailly]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33101775

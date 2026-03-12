@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nicolas Niemtchinow, diplomate. Ne(e) le 1968-04-27 a Pau. Formation : École normale supérieure.
+Nicolas Niemtchinow, diplomate. Ne(e) le 1968-04-27 a Pau. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33120407

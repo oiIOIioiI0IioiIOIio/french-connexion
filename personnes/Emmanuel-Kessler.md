@@ -7,6 +7,12 @@ education: École normale supérieure de Fontenay-Saint-Cloud
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Adélaïde de Clermont-Tonnerre
+- Lorène Lemor
+- Michka Assayas
+- Nicolas Demorand
+- Xavier de La Porte
 nationality: francaise
 nom_complet: Emmanuel Kessler
 occupation: journaliste
@@ -22,7 +28,7 @@ tags:
 type: Personne
 ---
 
-Emmanuel Kessler, journaliste. Ne(e) le 1963-05-16 a 16e arrondissement de Paris. Formation : École normale supérieure de Fontenay-Saint-Cloud.
+Emmanuel Kessler, journaliste. Ne(e) le 1963-05-16 a 16e arrondissement de Paris. Formation : [[École normale supérieure]] de Fontenay-Saint-Cloud.
 
 ## Sources
 - http://www.wikidata.org/entity/Q19945116

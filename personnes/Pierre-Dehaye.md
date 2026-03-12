@@ -7,6 +7,11 @@ education: faculté de droit de Paris
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Dominique de La Garanderie
+- Georges de Brémond d'Ars
+- Henri Leclerc
+- Jean-Claude Zylberstein
 nationality: francaise
 nom_complet: Pierre Dehaye
 occupation: écrivain ou écrivaine
@@ -22,7 +27,7 @@ tags:
 type: Personne
 ---
 
-Pierre Dehaye, écrivain ou écrivaine. Ne(e) le 1921-05-24 a Saint-Pol-sur-Mer. Formation : faculté de droit de Paris.
+Pierre Dehaye, écrivain ou écrivaine. Ne(e) le 1921-05-24 a Saint-Pol-sur-Mer. Formation : [[faculté de droit de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q27955199

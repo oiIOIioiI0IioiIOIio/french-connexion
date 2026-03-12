@@ -7,6 +7,41 @@ education: université Clermont-Auvergne
 genre: masculin
 keywords:
 - professeur d'université
+liens:
+- Alberte Brun
+- Arthur Delaporte
+- Chloé-Agathe Azencott
+- Christian Kassel
+- Daniel Gouadec
+- David Courpasson
+- Didier Boursin
+- Franck Barthe
+- Franck Dedieu
+- Jacques Cabaud
+- Jean-Bernard Zuber
+- Jean-Claude Carret
+- Jesús María Asurmendi
+- Judith Balso
+- Julia Frotey
+- Julien Larregue
+- Juliette Faure
+- Katalin Escher
+- Loïc Grobol
+- Mathieu Bendouma
+- Michel Orrit
+- Nathan Allix
+- Nicolas Martin
+- Nicolas Vieille
+- Pascal Boyer
+- Paul Reiter
+- Paul-Jacques Lehmann
+- Philippe Sautet
+- Robert Dantzer
+- Ronan Calvez
+- Stefano Simiz
+- Terence Strick
+- Thibault Gandouly
+- Éric Urban
 nationality: francaise
 nom_complet: Romain Dureau
 occupation: professeur d'université

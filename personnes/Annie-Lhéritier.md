@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Annie Lhéritier, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1952-03-31 a Aix. Formation : Institut d'études politiques de Paris.
+Annie Lhéritier, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1952-03-31 a Aix. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2851681

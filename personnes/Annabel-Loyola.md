@@ -7,6 +7,10 @@ education: Université de Montréal
 genre: féminin
 keywords:
 - scénariste
+liens:
+- Didier Charpin
+- Dominique Alhéritière
+- Michaëlle Jean
 nationality: francaise
 nom_complet: Annabel Loyola
 occupation: scénariste

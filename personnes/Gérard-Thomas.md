@@ -7,6 +7,8 @@ education: null
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Gérard Thomassin
 nationality: francaise
 nom_complet: Gérard Thomas
 occupation: haut fonctionnaire ou haute fonctionnaire

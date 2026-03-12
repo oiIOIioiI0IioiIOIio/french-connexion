@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel Leroy, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1948-12-25 a Neuilly-sur-Seine. Formation : École normale supérieure.
+Michel Leroy, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1948-12-25 a Neuilly-sur-Seine. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33131205

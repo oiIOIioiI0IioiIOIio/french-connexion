@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Philippe Laulanie, personnalité du monde des affaires. Ne(e) le 1962-05-10 a Paris. Formation : EM Lyon Business School.
+Philippe Laulanie, personnalité du monde des affaires. Ne(e) le 1962-05-10 a Paris. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q115169852

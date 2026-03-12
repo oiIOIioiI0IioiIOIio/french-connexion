@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nadi Bou Hanna, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1972-01-01. Formation : École polytechnique.
+Nadi Bou Hanna, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1972-01-01. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q64522045

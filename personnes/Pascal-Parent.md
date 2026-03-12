@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pascal Parent, personnalité du monde des affaires. Ne(e) le 1961-06-20. Formation : EM Lyon Business School.
+Pascal Parent, personnalité du monde des affaires. Ne(e) le 1961-06-20. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q113454331

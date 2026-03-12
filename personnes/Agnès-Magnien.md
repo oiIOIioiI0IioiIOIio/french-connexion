@@ -7,6 +7,17 @@ education: École nationale des chartes
 genre: féminin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Armelle Daumas
+- Catherine Laurent
+- Cécile Pozzo di Borgo
+- François Cousin
+- Françoise Banat-Berger
+- Marc Sanson
+- Michel Denieul
+- Nicolas Roche
+- Paul Bouteiller
+- Solenne Lepage
 nationality: francaise
 nom_complet: Agnès Magnien
 occupation: haut fonctionnaire ou haute fonctionnaire

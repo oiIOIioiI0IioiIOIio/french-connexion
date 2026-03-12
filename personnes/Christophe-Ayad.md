@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christophe Ayad, journaliste. Ne(e) le 1968-08-27 a Strasbourg. Formation : Centre de formation des journalistes.
+Christophe Ayad, journaliste. Ne(e) le 1968-08-27 a Strasbourg. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2966085

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Benjamin Duhamel, journaliste. Ne(e) le 1994-03-15. Formation : Institut d'études politiques de Paris.
+Benjamin Duhamel, journaliste. Ne(e) le 1994-03-15. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q113612412

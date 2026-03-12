@@ -7,6 +7,8 @@ keywords:
 - entreprise
 - service financier
 leader: Stéphane Boujnah
+liens:
+- Le siècle
 nom_complet: Euronext
 sources:
 - https://www.wikidata.org/entity/Q842108

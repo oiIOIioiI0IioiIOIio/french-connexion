@@ -75,7 +75,7 @@ Mère de quatre enfants
 
 - Interactions avec [[Xavier Niel]] et [[Bernard Arnault]] sur les sujets d'innovation et d'investissement industriel
 
-- Connexion avec [[Patrick Pouyanné]] (TotalEnergies) et [[Jean-Bernard Lévy]] (ex-EDF) sur la transition énergétique
+- Connexion avec [[Patrick Pouyanné]] ([[TotalEnergies]]) et [[Jean-Bernard Lévy]] (ex-EDF) sur la transition énergétique
 
 - Contact avec [[Elon Musk]] et [[Carlos Tavares]] ([[Stellantis]]) sur les batteries électriques et l'automobile
 

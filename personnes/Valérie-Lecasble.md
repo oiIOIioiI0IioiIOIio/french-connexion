@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Valérie Lecasble, journaliste. Ne(e) le 1958-02-26 a Neuilly-sur-Seine. Formation : Institut d'études politiques de Paris.
+Valérie Lecasble, journaliste. Ne(e) le 1958-02-26 a Neuilly-sur-Seine. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3554282

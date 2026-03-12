@@ -4,6 +4,8 @@ founded: '2016-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Linda Weil-Curiel
 nom_complet: Grenoble Alpes University
 sources:
 - https://www.wikidata.org/entity/Q124377738

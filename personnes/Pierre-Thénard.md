@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Thénard, diplomate. Ne(e) le 1957-08-30 a Versailles. Formation : École normale supérieure.
+Pierre Thénard, diplomate. Ne(e) le 1957-08-30 a Versailles. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33105454

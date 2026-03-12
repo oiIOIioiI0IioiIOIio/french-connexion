@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Dominique Raimbourg, avocat ou avocate. Ne(e) le 1950-04-28 a Boulogne-Billancourt. Formation : université Paris-I-Panthéon-Sorbonne.
+Dominique Raimbourg, avocat ou avocate. Ne(e) le 1950-04-28 a Boulogne-Billancourt. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3035420

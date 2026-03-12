@@ -7,6 +7,13 @@ education: université Nice-Sophia-Antipolis
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Christian Daziano
+- Claudine Monteil
+- Fabien Ferasson de Quental
+- Jacques Peyrat
+- Marion Festraëts
+- Virginie Joron
 nationality: francaise
 nom_complet: Jean-Yves Potel
 occupation: écrivain ou écrivaine

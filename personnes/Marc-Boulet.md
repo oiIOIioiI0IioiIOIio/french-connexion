@@ -7,6 +7,9 @@ education: École nationale supérieure Louis-Lumière
 genre: masculin
 keywords:
 - photographe
+liens:
+- Claude Verlon
+- Inès Léraud
 nationality: francaise
 nom_complet: Marc Boulet
 occupation: photographe

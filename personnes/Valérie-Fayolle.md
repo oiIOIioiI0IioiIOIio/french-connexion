@@ -8,6 +8,17 @@ education: École des hautes études en sciences de l'information et de la commu
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Ambre Chalumeau
+- Arnaud Dubus
+- Catherine Nayl
+- Christophe Beaugrand
+- Fabrice Rousselot
+- Marie Misset
+- Nivin Potros
+- Pierre Fraidenraich
+- Roland Blatmann
+- Samuel Forey
 nationality: francaise
 nom_complet: Valérie Fayolle
 occupation: journaliste

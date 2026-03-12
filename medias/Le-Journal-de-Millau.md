@@ -16,4 +16,4 @@ type: Media
 wikidata_id: Q118867672
 ---
 
-Le Journal de Millau, media francais.
+[[Le Jour]]nal de Millau, media francais.

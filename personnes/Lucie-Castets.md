@@ -7,6 +7,14 @@ education: London School of Economics
 genre: féminin
 keywords:
 - porte-parole
+liens:
+- Achren Verdian
+- Agnès Poirier
+- Christian Chavagneux
+- François Croquette
+- Olivier Guez
+- Roland Dumas
+- Thomas Andrieu
 nationality: francaise
 nom_complet: Lucie Castets
 occupation: porte-parole

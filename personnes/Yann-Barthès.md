@@ -7,6 +7,21 @@ education: université Bordeaux-Montaigne
 genre: masculin
 keywords:
 - producteur ou productrice de télévision
+liens:
+- Agnès Cukierman
+- Clément Bénech
+- David Thomson
+- Emmanuel Langlois
+- Géraldine Mosna-Savoye
+- Isabelle Roberts
+- Kéthévane Bagration de Moukhrani
+- Marie Aubinais
+- Mohamed Toihiri
+- Paul Larrouturou
+- Pierre Lory
+- Stéphane Bijoux
+- Xavier Loustaunau
+- Éric de Kermel
 nationality: francaise
 nom_complet: Yann Barthès
 occupation: producteur ou productrice de télévision

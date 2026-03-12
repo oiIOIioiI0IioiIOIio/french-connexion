@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marc Mortureux, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1960-11-04 a Saint-Mandé. Formation : École polytechnique.
+Marc Mortureux, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1960-11-04 a Saint-Mandé. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3288277

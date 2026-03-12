@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Zaïr Kédadouche, personnalité politique. Ne(e) le 1957-08-09 a Tourcoing. Formation : Institut d'études politiques de Paris.
+Zaïr Kédadouche, personnalité politique. Ne(e) le 1957-08-09 a Tourcoing. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3574628

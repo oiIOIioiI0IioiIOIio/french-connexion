@@ -7,6 +7,19 @@ education: Centre universitaire d'enseignement du journalisme
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Agnès Vahramian
+- Arthur Frayer-Laleix
+- Camille Langlade
+- Damien Thévenot
+- Fabienne Sintes
+- Jacky Durand
+- Ludovic Vigogne
+- Marc Fauvelle
+- Matthieu Suc
+- Rachid Arhab
+- Thierry Suzan
+- Éric Ghebali
 nationality: francaise
 nom_complet: Antoine Giniaux
 occupation: journaliste

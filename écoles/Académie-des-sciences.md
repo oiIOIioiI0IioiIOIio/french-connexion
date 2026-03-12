@@ -5,6 +5,11 @@ headquarters: Paris
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Académie des sciences d'outre-mer
+- Académie des sciences et lettres de Montpellier
+- Académie des sciences morales, des lettres et des arts de Versailles et d'Île-de-France
+- Académie des sciences, belles-lettres et arts de Savoie
 nom_complet: Académie des sciences
 sources:
 - https://www.wikidata.org/entity/Q188771

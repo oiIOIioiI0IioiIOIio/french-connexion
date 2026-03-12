@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Didier Chauvaux, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1956-06-26 a Paris. Formation : École normale supérieure.
+Didier Chauvaux, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1956-06-26 a Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33103103

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Paul Lombard, écrivain ou écrivaine. Ne(e) le 1927-02-17 a Marseille. Formation : Institut d'études politiques de Paris.
+Paul Lombard, écrivain ou écrivaine. Ne(e) le 1927-02-17 a Marseille. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3371701

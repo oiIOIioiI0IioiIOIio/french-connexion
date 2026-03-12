@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-René Van der Plaetsen, écrivain ou écrivaine. Ne(e) le 1962-08-09 a Lubumbashi. Formation : Institut d'études politiques de Paris.
+Jean-René Van der Plaetsen, écrivain ou écrivaine. Ne(e) le 1962-08-09 a Lubumbashi. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q43389830

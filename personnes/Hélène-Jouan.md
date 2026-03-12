@@ -7,6 +7,13 @@ education: université Toulouse-Jean-Jaurès
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Agathe Auproux
+- Aure Séguier
+- Daniel Crozes
+- Georges Landais
+- Jean-Luc Barré
+- Jean-Yves Le Talec
 nationality: francaise
 nom_complet: Hélène Jouan
 occupation: journaliste

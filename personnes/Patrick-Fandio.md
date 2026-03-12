@@ -7,6 +7,9 @@ education: université Nancy-II
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Alice Thourot
+- Jean-Denis Combrexelle
 nationality: francaise
 nom_complet: Patrick Fandio
 occupation: journaliste

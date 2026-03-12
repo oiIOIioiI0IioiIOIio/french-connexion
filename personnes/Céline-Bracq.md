@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Céline Bracq, personnalité du monde des affaires. Ne(e) le 1975-03-15 a Lille. Formation : Institut d'études politiques de Paris.
+Céline Bracq, personnalité du monde des affaires. Ne(e) le 1975-03-15 a Lille. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q30728801

@@ -7,6 +7,8 @@ education: Faculté de droit de Grenoble
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Jean-Pierre Hugues
 nationality: francaise
 nom_complet: Pierre Hug
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Pierre Hug, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1922-12-18 a Mulhouse. Formation : Faculté de droit de Grenoble.
+Pierre Hug, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1922-12-18 a Mulhouse. Formation : [[Faculté de droit de Grenoble]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q123368824

@@ -7,6 +7,8 @@ education: Institut national des études territoriales
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Josiane Chevalier
 nationality: francaise
 nom_complet: Jean-Christophe Parisot de Bayard
 occupation: personnalité politique
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Jean-Christophe Parisot de Bayard, personnalité politique. Ne(e) le 1967-06-20 a Douala. Formation : Institut national des études territoriales.
+Jean-Christophe Parisot de Bayard, personnalité politique. Ne(e) le 1967-06-20 a Douala. Formation : [[Institut national des études territoriales]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q958537

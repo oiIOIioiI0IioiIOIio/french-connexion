@@ -7,6 +7,12 @@ education: lycée Henri-IV
 genre: masculin
 keywords:
 - enseignant ou enseignante
+liens:
+- Ali Baddou
+- Daniel Schneidermann
+- Jean Birnbaum
+- Jean-François Parot
+- Pierre Sergent
 nationality: francaise
 nom_complet: Michel Eltchaninoff
 occupation: enseignant ou enseignante

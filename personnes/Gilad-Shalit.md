@@ -7,6 +7,8 @@ education: université Reichman
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- David Gombin
 nationality: francaise
 nom_complet: Gilad Shalit
 occupation: écrivain ou écrivaine

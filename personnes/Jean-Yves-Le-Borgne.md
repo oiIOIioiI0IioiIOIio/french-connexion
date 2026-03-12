@@ -7,6 +7,8 @@ education: lycée Buffon
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Jean de Brem
 nationality: francaise
 nom_complet: Jean-Yves Le Borgne
 occupation: avocat ou avocate

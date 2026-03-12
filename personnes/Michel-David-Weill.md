@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel David-Weill, banquier. Ne(e) le 1932-11-23 a 7e arrondissement de Paris. Formation : Institut d'études politiques de Paris.
+Michel David-Weill, banquier. Ne(e) le 1932-11-23 a 7e arrondissement de Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q255413

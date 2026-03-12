@@ -7,6 +7,18 @@ education: lycée du Parc
 genre: masculin
 keywords:
 - juge
+liens:
+- Anne Joubert
+- Antoine de Tarlé
+- Christophe Barbier
+- Christophe Deloire
+- Claude Alphandéry
+- Daniel Bernard
+- Frédéric Rebet
+- Guillaume Ancel
+- Guy Deniélou
+- Léon Tabah
+- Pascal Confavreux
 nationality: francaise
 nom_complet: Bruno Cotte
 occupation: juge

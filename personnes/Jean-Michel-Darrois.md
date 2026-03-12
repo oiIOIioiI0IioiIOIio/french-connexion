@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Michel Darrois, avocat ou avocate. Ne(e) le 1947-07-04 a 16e arrondissement de Paris. Formation : Institut d'études politiques de Paris.
+Jean-Michel Darrois, avocat ou avocate. Ne(e) le 1947-07-04 a 16e arrondissement de Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3167998

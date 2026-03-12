@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Valérie Nataf, journaliste. Ne(e) le 1959-10-19 a Clichy. Formation : Centre de formation des journalistes.
+Valérie Nataf, journaliste. Ne(e) le 1959-10-19 a Clichy. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3554296

@@ -7,6 +7,8 @@ education: lycée Charlemagne
 genre: masculin
 keywords:
 - enseignant ou enseignante
+liens:
+- Jean-Denis Bredin
 nationality: francaise
 nom_complet: Jacques Roynette
 occupation: enseignant ou enseignante

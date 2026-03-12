@@ -5,6 +5,9 @@ headquarters: Clermont-Ferrand
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Jean-Yves Haby
+- Émilie Tran Nguyen
 nom_complet: Clermont School of Business
 sources:
 - https://www.wikidata.org/entity/Q3578432

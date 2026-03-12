@@ -7,6 +7,11 @@ education: université Pierre-et-Marie-Curie
 genre: masculin
 keywords:
 - juge
+liens:
+- Jean-Baptiste de Franssu
+- Joël Courtois
+- Joël-Alexis Bialkiewicz
+- Nicolas Hulot
 nationality: francaise
 nom_complet: Jean-Luc Aubert
 occupation: juge

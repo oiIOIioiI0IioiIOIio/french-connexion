@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Olivier Pelen, diplomate. Ne(e) le 1949-03-03. Formation : Institut d'études politiques de Paris.
+Olivier Pelen, diplomate. Ne(e) le 1949-03-03. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q100310917

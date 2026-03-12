@@ -4,6 +4,217 @@ founded: '1257-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Adila Bennedjaï-Zou
+- Adrien Laurentin
+- Adrienne de Malleray
+- Alain Schneider
+- Alexandra Echkenazi
+- Alexandra Guillet
+- Alexandre Lazarègue
+- Alicia Dauby
+- Amadou-Mahtar MBow
+- Amandine Bégot
+- Amélie Perrier
+- Anaïs Bouton
+- Anina Ciuciu
+- Anne Levade
+- Anne-Claire Legendre
+- Annet Sauty de Chalon
+- Annie-Paule Derczansky
+- Anthony Vincent
+- Antoine Banet-Rivet
+- Ariel Goldmann
+- Ariel Wizman
+- Aude Blondet
+- Aude Rossigneux
+- Aude Walker
+- Aurélie Julia
+- Aurélie Sfez
+- Ava Djamshidi
+- Aziz Zemouri
+- Benoît Bréville
+- Benoît Raynaud
+- Bernard Bastide
+- Bruno Courtois
+- Bruno Questel
+- Camille Pascal
+- Camille Pouzol
+- Carole Gaessler
+- Caroline Broué
+- Catherine Portevin
+- Catherine Siguret
+- Charles Consigny
+- Charline Roux
+- Charlotte Girard
+- Chloé Nabédian
+- Chloé Thibaud
+- Christophe Conte
+- Christophe Dickès
+- Claire-Élisabeth Beaufort
+- Clément Weill-Raynal
+- Cécile Amar
+- Cécile Besse Advani
+- Cécile Longé
+- David Doucet
+- Denis Lensel
+- Diane Ducret
+- Didier Eribon
+- Dominique Bona
+- Dominique Raimbourg
+- Donatienne Hissard
+- Elisa Rojas
+- Eléna Volochine
+- Emmanuel Davidenkoff
+- Eugénie Bastié
+- Fabian Gastellier
+- Fabien Herran
+- Faïza Zerouala
+- Fiona Schmidt
+- Florence Besson
+- Florence Ferrari
+- Florence Rault
+- Francis Teitgen
+- Frédéric Forest
+- Frédéric Guelton
+- Frédéric Lejeal
+- Gauthier Rybinski
+- Gaëlle Borgia
+- Gilles Lebreton
+- Guilaine Chenu
+- Guillaume Auda
+- Guillaume Erner
+- Guillaume de Menthon
+- Géraldine Schwarz
+- Habibou Bangré
+- Henri Lopes
+- Hind Meddeb
+- Héloïse de Neuville
+- Ilyes Ramdani
+- Isabelle Dahan
+- Jean Quatremer
+- Jean-Baptiste Marteau
+- Jean-Bernard Gervais
+- Jean-Charles Larsonneur
+- Jean-Christophe Sciberras
+- Jean-Francis Pécresse
+- Jean-Marc Four
+- Jean-Marc Merriaux
+- Jean-Marie Gontier
+- Jeanne Seignol
+- Jennifer Lesieur
+- Jennifer Padjemi
+- Joëlle Chevé
+- Joëlle Palmieri
+- Juan Gomez
+- Julia Frotey
+- Jérémie Assous
+- Jérémy Michel
+- Jérôme Garcin
+- Laure Gasparotto
+- Laurence Debray
+- Laurence Paye-Jeanneney
+- Laurence Pieau
+- Laurent Cugny
+- Laurent Geslin
+- Louis Manaranche
+- Loup Besmond de Senneville
+- Luc Bihl
+- Lucas Menget
+- Lucile Gubler
+- Ludovic Royer
+- Mahaut Drama
+- Manuel Carcassonne
+- Marc Albert Chaigneau
+- Marc Chaya
+- Marc de Lacoste Lareymondie
+- Marianne Baisnée
+- Marie Duponchelle
+- Marie-Aude Murail
+- Marie-France Etchegoin
+- Marie-Laure Desjardins
+- Marie-Pierre Parlange Martin
+- Marie-Ève Malouines
+- Marion Eynard
+- Marjorie Bertin
+- Martial Bild
+- Martin Weill
+- Matthieu Darnon
+- Maïtena Biraben
+- Michel Cullin
+- Michel Foucher
+- Michel Laval
+- Michel de Jaeghere
+- Nadia Daam
+- Natacha Henry
+- Nathalie Beras
+- Nathalie Darrigrand
+- Nicolas Charbonneau
+- Nicolas Diat
+- Nicolas Gros-Verheyde
+- Nicolas Hénin
+- Nicolas d'Estienne d'Orves
+- Nikos Aliagas
+- Nora Bussigny
+- Nūr alddīn alllabbād
+- Odile Benyahia-Kouider
+- Olivier Guland
+- Olivier Rey
+- Olivier Serot Alméras Latour
+- Olivier de Lagarde
+- Olivier de Tilière
+- Pascal Garbarini
+- Patrick Roger
+- Paul Hatte
+- Paul de Sinety
+- Philippe Delorme
+- Philippe Delpuech
+- Philippe Séguy
+- Pierre Laurent
+- Pierre Servan-Schreiber
+- Renaud de Spens
+- Robert Bourgi
+- Salhia Brakhlia
+- Samia Maktouf
+- Sandrine Aramon
+- Sarah Saldmann
+- Siv-Leng Chhuor
+- Solange Bied-Charreton
+- Sonia Devillers
+- Sonia Mabrouk
+- Sorbonne Université
+- Stéphane Corteel
+- Stéphane Hoffmann
+- Stéphane Maitre
+- Sylvain Courage
+- Sylvestre Huet
+- Sébastien Demorand
+- Sébastien Lapaque
+- Sébastien Pierroz
+- Thomas Hollande
+- Thomas Snégaroff
+- Tiphaine Auzière
+- Tristan Lecoq
+- Valérie Hanotel
+- Vanessa Burggraf
+- Victor Baissait
+- Victor Castanet
+- Vincent Giret
+- Vincent Hervouët
+- Vincent Jarousseau
+- Violaine Schütz
+- Véronique Roger-Lacan
+- Walid Berrissoul
+- Widad Ketfi
+- William Irigoyen
+- Xavier Mauduit
+- Xavier Moreau
+- Yael Mellul
+- Yves Chiron
+- Émilie Besse
+- Éric Branca
+- Éric Fournier
+- Éric Revel
 nom_complet: Sorbonne
 sources:
 - https://www.wikidata.org/entity/Q214654

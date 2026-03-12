@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Mylène Orange-Louboutin, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1963-11-22 a L'Haÿ-les-Roses.
+Mylène [[Orange]]-Louboutin, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1963-11-22 a L'Haÿ-les-Roses.
 
 ## Sources
 - http://www.wikidata.org/entity/Q33120114

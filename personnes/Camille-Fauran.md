@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Camille Fauran, personnalité du monde des affaires. Ne(e) le 1988-12-09 a Toulon. Formation : EM Lyon Business School.
+Camille Fauran, personnalité du monde des affaires. Ne(e) le 1988-12-09 a Toulon. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q113368214

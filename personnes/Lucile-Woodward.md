@@ -7,6 +7,16 @@ education: université Paris-Est-Créteil-Val-de-Marne
 genre: féminin
 keywords:
 - entraîneur sportif ou entraîneuse sportive
+liens:
+- Charles Constantin-Vallet
+- Emmanuelle Cosse
+- Karim Achoui
+- Michaël Bertini
+- Pascal Durand
+- Philippe Olivier
+- Pierre-Yves Lautrou
+- Roland Perez
+- Rosiane Houngbo-Monteverde
 nationality: francaise
 nom_complet: Lucile Woodward
 occupation: entraîneur sportif ou entraîneuse sportive

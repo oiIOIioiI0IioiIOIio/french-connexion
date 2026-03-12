@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Isabelle Miscot, diplomate. Ne(e) le 1964-05-07. Formation : lycée Jacques-Coeur de Bourges.
+Isabelle Miscot, diplomate. Ne(e) le 1964-05-07. Formation : [[lycée Jacques-Coeur de Bourges]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q110952610

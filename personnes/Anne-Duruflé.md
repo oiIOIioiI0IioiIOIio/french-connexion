@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Anne Duruflé, diplomate. Ne(e) le 1953-02-28 a Lisieux. Formation : Institut d'études politiques de Paris.
+Anne Duruflé, diplomate. Ne(e) le 1953-02-28 a Lisieux. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q28819333

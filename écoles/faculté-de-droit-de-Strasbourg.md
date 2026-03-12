@@ -4,6 +4,8 @@ founded: '1806-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Sally
 nom_complet: faculté de droit de Strasbourg
 sources:
 - https://www.wikidata.org/entity/Q3064254

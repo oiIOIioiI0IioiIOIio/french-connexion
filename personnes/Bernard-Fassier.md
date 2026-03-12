@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bernard Fassier, militaire. Ne(e) le 1944-05-29 a Ville-d'Avray. Formation : Institut d'études politiques de Paris.
+Bernard Fassier, militaire. Ne(e) le 1944-05-29 a Ville-d'Avray. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2897881

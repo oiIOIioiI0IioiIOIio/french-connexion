@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Paul Mingasson, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1941-07-08 a Périgueux. Formation : Institut d'études politiques de Paris.
+Jean-[[Paul Mingasson]], haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1941-07-08 a Périgueux. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33122626

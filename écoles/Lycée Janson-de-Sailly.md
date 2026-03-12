@@ -9,6 +9,15 @@ keywords:
 - classes préparatoires
 - éducation
 leader: null
+liens:
+- Christophe Ono-dit-Biot
+- Hubert Heilbronn
+- Laurence de Charette
+- Maxime de Rostolan
+- René Ribière
+- Thomas Schmider
+- Édouard de Ribes
+- Éric de Rothschild
 summary: Le Lycée Janson-de-Sailly est un établissement d'enseignement secondaire
   et supérieur public situé à Paris, réputé pour son excellence académique et son
   prestige historique. Il accueille des élèves de la seconde aux classes préparatoires

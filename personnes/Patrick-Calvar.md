@@ -7,6 +7,14 @@ education: École nationale supérieure de la Police
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Ange Mancini
+- Bernard Guérin
+- Christian Lambert
+- Frédéric Veaux
+- Henri Souchon
+- Jean-Louis Fiamenghi
+- Yves Guillot
 nationality: francaise
 nom_complet: Patrick Calvar
 occupation: haut fonctionnaire ou haute fonctionnaire

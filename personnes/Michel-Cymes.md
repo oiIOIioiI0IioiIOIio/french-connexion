@@ -7,6 +7,13 @@ education: université Paris-Descartes
 genre: masculin
 keywords:
 - animateur ou animatrice de télévision
+liens:
+- François Bergerault
+- Frédéric Donnedieu de Vabres
+- Jean-Paul Delahaye
+- Pascale Briand
+- Paul Tchoukriel
+- Tobie Nathan
 nationality: francaise
 nom_complet: Michel Cymes
 occupation: animateur ou animatrice de télévision

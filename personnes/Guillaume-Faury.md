@@ -7,6 +7,10 @@ education: Institut supérieur de l'aéronautique et de l'espace
 genre: masculin
 keywords:
 - directeur général ou directrice générale
+liens:
+- Jean Laurent
+- Jean-Paul Gillybœuf
+- Éric du Fayet de La Tour
 nationality: francaise
 nom_complet: Guillaume Faury
 occupation: directeur général ou directrice générale
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Guillaume Faury, directeur général ou directrice générale. Ne(e) le 1968-02-22 a Cherbourg. Formation : Institut supérieur de l'aéronautique et de l'espace.
+Guillaume Faury, directeur général ou directrice générale. Ne(e) le 1968-02-22 a Cherbourg. Formation : [[Institut supérieur de l'aéronautique et de l'espace]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33158035

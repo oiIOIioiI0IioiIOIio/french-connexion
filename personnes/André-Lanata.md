@@ -7,6 +7,14 @@ education: école de l'air et de l’espace
 genre: masculin
 keywords:
 - militaire
+liens:
+- Jean Fleury
+- Jean Rannou
+- Jean Saulnier
+- Michel Authier
+- René Chesnais
+- Roger Pessidous
+- Régis Chamagne
 nationality: francaise
 nom_complet: André Lanata
 occupation: militaire

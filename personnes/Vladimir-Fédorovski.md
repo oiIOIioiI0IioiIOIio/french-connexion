@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Vladimir Fédorovski, écrivain ou écrivaine. Ne(e) le 1950-04-27 a Moscou. Formation : HEC Paris.
+Vladimir Fédorovski, écrivain ou écrivaine. Ne(e) le 1950-04-27 a Moscou. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3561777

@@ -7,6 +7,15 @@ education: Université de Genève
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Agnès Giard
+- Bernard Anthonioz
+- Béatrice Métraux
+- Christophe Lemoine
+- Dominique Warluzel
+- Richard Labévière
+- Thérèse Blanchet
+- Yves Nidegger
 nationality: francaise
 nom_complet: Edmond de Rothschild
 occupation: avocat ou avocate

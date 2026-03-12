@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Luc Bihl, écrivain ou écrivaine. Ne(e) le 1938-11-26 a Creutzwald. Formation : université Paris-I-Panthéon-Sorbonne.
+Luc Bihl, écrivain ou écrivaine. Ne(e) le 1938-11-26 a Creutzwald. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q59533418

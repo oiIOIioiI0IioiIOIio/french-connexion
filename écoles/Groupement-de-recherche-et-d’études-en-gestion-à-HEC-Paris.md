@@ -19,4 +19,4 @@ website: http://www.hec.fr/Faculte-Recherche/GREGHEC-CNRS
 wikidata_id: Q30262308
 ---
 
-Groupement de recherche et d’études en gestion à HEC Paris, etablissement d'enseignement superieur francais.
+Groupement de recherche et d’études en gestion à [[HEC Paris]], etablissement d'enseignement superieur francais.

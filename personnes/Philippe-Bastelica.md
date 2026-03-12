@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Philippe Bastelica, diplomate. Ne(e) le 1959-11-23 a Bron. Formation : École nationale d'administration.
+[[Philippe Bas]]telica, diplomate. Ne(e) le 1959-11-23 a Bron. Formation : École nationale d'administration.
 
 ## Sources
 - http://www.wikidata.org/entity/Q31192344

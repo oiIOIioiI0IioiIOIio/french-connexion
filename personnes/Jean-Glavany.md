@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean Glavany, avocat ou avocate. Ne(e) le 1949-05-14 a Sceaux. Formation : Institut d'études politiques de Paris.
+Jean Glavany, avocat ou avocate. Ne(e) le 1949-05-14 a Sceaux. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3172322

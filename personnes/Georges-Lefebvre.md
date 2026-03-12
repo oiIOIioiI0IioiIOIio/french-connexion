@@ -7,6 +7,8 @@ education: École nationale supérieure des postes et télécommunications
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Claude Bourmaud
 nationality: francaise
 nom_complet: Georges Lefebvre
 occupation: haut fonctionnaire ou haute fonctionnaire

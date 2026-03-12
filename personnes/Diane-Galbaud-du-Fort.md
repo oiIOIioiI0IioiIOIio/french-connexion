@@ -7,6 +7,19 @@ education: université Paris-VIII
 genre: féminin
 keywords:
 - artiste peintre
+liens:
+- Alexandre Devecchio
+- Diara Ndiaye
+- Irina Kudesova
+- Josza Anjembe
+- Karyn Nishimura-Poupée
+- Lauren Bastide
+- Luc Évrard
+- Marie-Pierre Farkas
+- Nadia Hathroubi-Safsaf
+- Valentin Houinato
+- Valérie de Saint-Do
+- Éric Le Braz
 nationality: francaise
 nom_complet: Diane Galbaud du Fort
 occupation: artiste peintre

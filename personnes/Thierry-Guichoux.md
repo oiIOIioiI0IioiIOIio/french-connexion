@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Thierry Guichoux, diplomate. Ne(e) le 1954-12-25 a Rennes. Formation : Institut d'études politiques de Paris.
+Thierry Guichoux, diplomate. Ne(e) le 1954-12-25 a Rennes. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q4521413

@@ -5,6 +5,8 @@ headquarters: 16e arrondissement de Paris
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Édith Cresson
 nom_complet: HEC Jeunes Filles
 sources:
 - https://www.wikidata.org/entity/Q3128482

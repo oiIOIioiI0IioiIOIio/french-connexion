@@ -7,6 +7,8 @@ education: null
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Claude Blanchemaison
 nationality: francaise
 nom_complet: Claude Blanc
 occupation: haut fonctionnaire ou haute fonctionnaire

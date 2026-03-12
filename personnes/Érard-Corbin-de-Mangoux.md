@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Érard Corbin de Mangoux, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1953-01-06 a Tübingen. Formation : Institut d'études politiques de Paris.
+Érard Corbin de Mangoux, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1953-01-06 a Tübingen. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3055965

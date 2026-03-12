@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alexandre Mulliez, personnalité du monde des affaires. Ne(e) le 1986-05-02 a Roubaix. Formation : EM Lyon Business School.
+Alexandre Mulliez, personnalité du monde des affaires. Ne(e) le 1986-05-02 a Roubaix. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33226926

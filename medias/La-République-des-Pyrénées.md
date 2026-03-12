@@ -16,4 +16,4 @@ type: Media
 wikidata_id: Q3212590
 ---
 
-La République des Pyrénées, media francais.
+[[La République]] des Pyrénées, media francais.

@@ -13,26 +13,42 @@ keywords:
 - confiance
 - mayer
 liens:
-- Jacob Mayer
-- François Leuwen
-- Lucien Leuwen
-- Mayer Anschel Rothschild
+- Abraham Lincoln
+- Amschel Moses Rothschild
+- Augustin Hamon
 - Betty de Rothschild
-- Salomon Mayer von Rothschild
-- Pierre Assouline
-- Napoléon III
+- Carter G. Woodson
+- Donald Oliver
+- Eugénie de Montijo
+- Famille Rothschild
+- Ferdinand de Meeûs
+- François Bayrou
+- François Leuwen
 - Guy de Rothschild
-- Napoléon Ier
+- Henri Heine
+- Henri de Rothschild
+- Jacob Mayer
+- Jean Augustine
+- Jean-Baptiste Greuze
+- Jesse E. Moorland
+- Jules Grévy
+- La Laitière
 - Louis XVIII
 - Louis-Philippe Ier
-- Ferdinand de Meeûs
-- Eugénie de Montijo
+- Lucien Leuwen
+- Mayer Amschel Rothschild
+- Mayer Anschel Rothschild
+- Mélina Seymour
+- Napoléon III
+- Napoléon Ier
+- Nathan Mayer Rothschild (1777-1836)
+- Pierre Assouline
+- Salomon Mayer von Rothschild
 - Samuel Naumbourg
-- La Laitière
-- Jean-Baptiste Greuze
-- Élie de Rothschild
-- Henri Heine
+- Think tank
 - Vicomte de Launay
+- Édouard Philippe
+- Élie de Rothschild
 nationality: ''
 nom_complet: James de Rothschild
 occupation: null
@@ -63,7 +79,7 @@ wikipedia_enriched: true
 
 ## Biographie
 
-Le baron Jacob Mayer de Rothschild, dit James de Rothschild, né le 15 mai 1792 à Francfort-sur-le-Main (Saint-Empire) et mort le 15 novembre 1868 à Paris 9e, est un banquier allemand, philanthrope, fondateur de la branche de Paris de la famille Rothschild.
+Le baron Jacob Mayer de Rothschild, dit James de Rothschild, né le 15 mai 1792 à Francfort-sur-le-Main (Saint-Empire) et mort le 15 novembre 1868 à Paris 9e, est un banquier allemand, philanthrope, fondateur de la branche de Paris de la [[Famille Rothschild]].
 James de Rothschild ne prit jamais la nationalité française et resta fidèle à sa nationalité allemande d'origine, ce qui lui interdit de devenir régent de la Banque de France. Son titre de baron est lui autrichien.
 Devenu un personnage de roman, il inspira à trois grands écrivains français les figures de François Leuwen, le père du héros de Stendhal dans Lucien Leuwen, du baron de Nucingen dans la Comédie humaine de Balzac, et enfin du banquier Gundermann dans l'Argent de Zola.
 

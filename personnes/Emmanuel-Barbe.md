@@ -7,6 +7,20 @@ education: École nationale de la magistrature
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- André Potocki
+- Béatrice Patrie
+- Claude Jorda
+- Eva Joly
+- Francis Moureu
+- Gilbert Azibert
+- Hélène Gerhards
+- Isabelle Jégouzo
+- Jean-Louis Debré
+- Jean-Paul Garraud
+- Nicole Maestracci
+- Philippe Bilger
+- Serge Portelli
 nationality: francaise
 nom_complet: Emmanuel Barbe
 occupation: haut fonctionnaire ou haute fonctionnaire

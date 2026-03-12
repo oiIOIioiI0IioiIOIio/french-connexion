@@ -19,4 +19,4 @@ website: https://www.icp.fr/a-propos-de-licp/facultes-et-instituts/faculte-de-th
 wikidata_id: Q3523720
 ---
 
-Faculté de théologie de l'Institut catholique de Paris, etablissement d'enseignement superieur francais.
+Faculté de théologie de l'[[Institut catholique de Paris]], etablissement d'enseignement superieur francais.

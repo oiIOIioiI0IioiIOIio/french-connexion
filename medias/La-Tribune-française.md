@@ -16,4 +16,4 @@ type: Media
 wikidata_id: Q107355123
 ---
 
-La Tribune française, media francais.
+[[La Tribune]] française, media francais.

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Arnaud Mentré, diplomate. Ne(e) le 1979-07-03 a Sèvres. Formation : École normale supérieure.
+Arnaud Mentré, diplomate. Ne(e) le 1979-07-03 a Sèvres. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q47671515

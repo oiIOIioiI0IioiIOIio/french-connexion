@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Guillaume Roquette, journaliste. Ne(e) le 1965-05-24 a Lille. Formation : Institut d'études politiques de Paris.
+Guillaume Roquette, journaliste. Ne(e) le 1965-05-24 a Lille. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3120159

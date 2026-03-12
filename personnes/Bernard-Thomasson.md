@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Bernard Thomasson, écrivain ou écrivaine. Ne(e) le 1962-01-07 a Brive-la-Gaillarde.
+[[Bernard Thomas]]son, écrivain ou écrivaine. Ne(e) le 1962-01-07 a Brive-la-Gaillarde.
 
 ## Sources
 - http://www.wikidata.org/entity/Q2898667

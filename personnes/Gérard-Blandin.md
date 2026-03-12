@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gérard Blandin, journaliste. Ne(e) le 1958-10-22 a 15e arrondissement de Paris. Formation : Institut d'études politiques de Paris.
+Gérard Blandin, journaliste. Ne(e) le 1958-10-22 a 15e arrondissement de Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q110598014

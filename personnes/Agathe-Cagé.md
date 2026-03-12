@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Agathe Cagé, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1984-02-17 a Metz. Formation : École normale supérieure.
+Agathe Cagé, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1984-02-17 a Metz. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33309128

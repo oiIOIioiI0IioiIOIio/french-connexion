@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Benoît Raynaud, avocat ou avocate. Ne(e) le 1964-06-17. Formation : université Paris-I-Panthéon-Sorbonne.
+Benoît Raynaud, avocat ou avocate. Ne(e) le 1964-06-17. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q118919583

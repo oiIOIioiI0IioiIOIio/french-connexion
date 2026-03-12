@@ -7,6 +7,16 @@ education: École pratique des hautes études
 genre: masculin
 keywords:
 - historien ou historienne
+liens:
+- Alain Ruellan
+- Bernard Le Clère
+- Gaëlle Bélem
+- Guillaume Robert
+- Isabelle Coutant-Peyre
+- Pascal Bruckner
+- Patrick Sbalchiero
+- Rozenn Milin
+- Sébastien de Courtois
 nationality: francaise
 nom_complet: Xavier Accart
 occupation: historien ou historienne

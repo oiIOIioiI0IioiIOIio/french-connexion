@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Renaud Bachy, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1955-02-14 a Louviers. Formation : HEC Paris.
+Renaud Bachy, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1955-02-14 a Louviers. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33267011

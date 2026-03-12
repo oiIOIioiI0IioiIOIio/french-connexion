@@ -7,6 +7,30 @@ education: Institut d'études politiques d'Aix-en-Provence
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Alexis Le Cour Grandmaison
+- Ali André Mécili
+- Bertrand Kern
+- Bruno Mettling
+- Dominique Vian
+- Edmond Zucchelli
+- Fabien Namias
+- Fabrice Madouas
+- Fabrice Étienne
+- Franck Genauzeau
+- François Pinet
+- Jean-Charles Marchiani
+- Johana Gustawsson
+- Julien Bahloul
+- Laëtitia Allemand
+- Lionel Paradisi-Coulouma
+- Mehdi Chebana
+- Mélanie Chalandon
+- Rudy Reichstadt
+- Rémy Porte
+- Sylvaine Carta-Le Vert
+- Sylvie Faiderbe
+- Sylvie Kauffmann
 nationality: francaise
 nom_complet: Arnaud Suquet
 occupation: diplomate
@@ -22,7 +46,7 @@ tags:
 type: Personne
 ---
 
-Arnaud Suquet, diplomate. Ne(e) le 1976-11-12. Formation : Institut d'études politiques d'Aix-en-Provence.
+Arnaud Suquet, diplomate. Ne(e) le 1976-11-12. Formation : [[Institut d'études politiques d'Aix-en-Provence]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q134983996

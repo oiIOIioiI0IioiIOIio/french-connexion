@@ -7,6 +7,10 @@ education: université de La Réunion
 genre: masculin
 keywords:
 - poète ou poétesse
+liens:
+- Ericka Bareigts
+- Jean-Marc Cassam Chenai
+- Manu Payet
 nationality: francaise
 nom_complet: Francky Lauret
 occupation: poète ou poétesse

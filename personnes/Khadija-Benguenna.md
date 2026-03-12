@@ -7,6 +7,13 @@ education: université d'Alger
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Abdelkader Hadjar
+- Lakhdar Brahimi
+- Mohammed Seddik Benyahia
+- Mourad Medelci
+- Redha Malek
+- Tahar Djaout
 nationality: francaise
 nom_complet: Khadija Benguenna
 occupation: écrivain ou écrivaine

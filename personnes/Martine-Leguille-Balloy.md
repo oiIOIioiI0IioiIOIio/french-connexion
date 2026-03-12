@@ -7,6 +7,19 @@ education: université de Nantes
 genre: féminin
 keywords:
 - avocat ou avocate
+liens:
+- Arnaud de Perier
+- Bruno Jeudy
+- Chantal de Singly
+- Clémentine Vergnaud
+- Cédric Peltier
+- Dimitri Rouchon-Borie
+- Jacques Moreau
+- Mattias Guyomar
+- Nicolas Escoulan
+- Patrice Servantie
+- Paul Maillot Rafanoharana
+- Stéphane Simon
 nationality: francaise
 nom_complet: Martine Leguille-Balloy
 occupation: avocat ou avocate

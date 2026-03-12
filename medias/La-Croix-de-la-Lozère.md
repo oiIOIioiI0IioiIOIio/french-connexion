@@ -16,4 +16,4 @@ type: Media
 wikidata_id: Q120728989
 ---
 
-La Croix de la Lozère, media francais.
+[[La Croix]] de la Lozère, media francais.

@@ -7,6 +7,11 @@ education: Institut supérieur de gestion
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Christophe de Backer
+- Didier Lallement
+- Jérôme Rivière
+- Yves de Kerdrel
 nationality: francaise
 nom_complet: Frédéric Verdier
 occupation: journaliste
@@ -22,7 +27,7 @@ tags:
 type: Personne
 ---
 
-Frédéric Verdier, journaliste. Ne(e) le 1971-01-01. Formation : Institut supérieur de gestion.
+Frédéric Verdier, journaliste. Ne(e) le 1971-01-01. Formation : [[Institut supérieur de gestion]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q134837763

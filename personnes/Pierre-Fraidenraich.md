@@ -8,6 +8,17 @@ education: École des hautes études en sciences de l'information et de la commu
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Ambre Chalumeau
+- Arnaud Dubus
+- Catherine Nayl
+- Christophe Beaugrand
+- Fabrice Rousselot
+- Marie Misset
+- Nivin Potros
+- Roland Blatmann
+- Samuel Forey
+- Valérie Fayolle
 nationality: francaise
 nom_complet: Pierre Fraidenraich
 occupation: journaliste

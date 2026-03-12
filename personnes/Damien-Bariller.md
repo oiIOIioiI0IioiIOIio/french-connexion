@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Damien Bariller, écrivain ou écrivaine. Ne(e) le 1966-09-25 a Aix-en-Provence. Formation : Institut d'études politiques de Paris.
+Damien Bariller, écrivain ou écrivaine. Ne(e) le 1966-09-25 a Aix-en-Provence. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3012738

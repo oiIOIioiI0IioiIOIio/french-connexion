@@ -7,6 +7,17 @@ education: université Toulouse-Capitole
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Ali Rebeihi
+- André Ferragne
+- Anne-Sophie Barthez
+- Christophe Lèguevaques
+- David Koubbi
+- Jacques Lévy
+- Jean-Nicolas Baylet
+- Louis Aliot
+- Philippe Fabry
+- Éléonore Blondeau
 nationality: francaise
 nom_complet: Bertrand Delanoë
 occupation: avocat ou avocate

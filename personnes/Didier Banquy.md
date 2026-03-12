@@ -53,7 +53,7 @@ Marié le 11 juin 1994 à [[Nathalie Fourdan]], directrice de communication. Pè
 - Sous-directeur de la 3e sous-direction (1995-97), puis de la 6e sous-direction du budget (1997-2002)
 - Directeur adjoint du budget, chargé de la 6e sous-direction au ministère chargé du Budget (2002)
 - Directeur de cabinet adjoint de [[Nicolas Sarkozy]] (ministre de l'Économie, des Finances et de l'Industrie) (2004)
-- Directeur du cabinet de [[Dominique Bussereau]] (secrétaire d'État au Budget et à la Réforme budgétaire) (2004)
+- Directeur du cabinet de [[Dominique Bussereau]] (secrétaire d'État au Budget et à [[La Réforme]] budgétaire) (2004)
 - Secrétaire général de la [[Caisse nationale des caisses d'épargne (CNCE)]] (depuis 2004)
 - Administrateur-directeur général délégué du [[Pari mutuel urbain (PMU)]] (2003-04)
 - Conseiller municipal de Montgeron (depuis 1983)

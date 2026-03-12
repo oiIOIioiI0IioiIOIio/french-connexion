@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Noël Augier, militaire. Ne(e) le 1922-03-22 a Draguignan. Formation : École polytechnique.
+Jean-Noël Augier, militaire. Ne(e) le 1922-03-22 a Draguignan. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q52556238

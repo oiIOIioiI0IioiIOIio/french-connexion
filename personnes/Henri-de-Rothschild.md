@@ -14,26 +14,43 @@ keywords:
 - charles
 - mentionne
 liens:
-- Henri James Nathaniel Charles de Rothschild
-- André Pascal
-- Charles des Fontaines
-- Henri Desfontaines
-- P.-L. Naveau
-- André Pascales
-- James Nathan
-- Thérèse von Rothschild
+- Abraham Lincoln
+- Adrien Thierry
 - Albert Besnard
+- Amschel Moses Rothschild
+- André Pascal
+- André Pascales
+- Augustin Hamon
+- Baron Philippe de Rothschild
+- Betty de Rothschild
+- Carter G. Woodson
+- Charles Des Fontaines
+- Charles des Fontaines
 - Charlotte Besnard
+- Claude Dupont
+- Donald Oliver
+- Elisabeth Pelletier de Chambure
+- Famille Rothschild
+- François Bayrou
+- Henri Desfontaines
+- Henri James Nathaniel Charles de Rothschild
+- James Nathan
+- James de Rothschild
+- Jean Augustine
+- Jesse E. Moorland
+- Jules Grévy
 - Marie Curie
 - Marthe Régnier
-- Charles Des Fontaines
 - Mathilde Sophie Henriette von Weissweiller
-- Claude Dupont
-- Yvette Choquet
+- Mayer Amschel Rothschild
+- Mélina Seymour
 - Nadine de Rothschild
-- Adrien Thierry
-- Baron Philippe de Rothschild
-- Elisabeth Pelletier de Chambure
+- Nathan Mayer Rothschild (1777-1836)
+- P.-L. Naveau
+- Think tank
+- Thérèse von Rothschild
+- Yvette Choquet
+- Édouard Philippe
 nationality: ''
 nom_complet: Henri de Rothschild
 occupation: null
@@ -113,7 +130,7 @@ Le baron Henri James Nathaniel Charles de Rothschild, né le 26 juillet 1872 à 
 - [[Charles des Fontaines]] : Mentionne dans le meme contexte: ...ur ses activités littéraires, il est connu sous les pseudonymes : André Pascal, Charles des Fontaines, Henri Desfontaines, P.-L. Naveau et André Pascales.   == Biographie == Issu de... *(confiance: 50%)*
 - [[Henri Desfontaines]] : Mentionne dans le meme contexte: ...aires, il est connu sous les pseudonymes : André Pascal, Charles des Fontaines, Henri Desfontaines, P.-L. Naveau et André Pascales.   == Biographie == Issu de la branche anglaise... *(confiance: 50%)*
 - [[P.-L. Naveau]] : Mentionne dans le meme contexte: ...sous les pseudonymes : André Pascal, Charles des Fontaines, Henri Desfontaines, P.-L. Naveau et André Pascales.   == Biographie == Issu de la branche anglaise de la famille... *(confiance: 50%)*
-- [[André Pascales]] : Mentionne dans le meme contexte: ...ymes : André Pascal, Charles des Fontaines, Henri Desfontaines, P.-L. Naveau et André Pascales.   == Biographie == Issu de la branche anglaise de la famille Rothschild mais é... *(confiance: 50%)*
+- [[André Pascales]] : Mentionne dans le meme contexte: ...ymes : André Pascal, Charles des Fontaines, Henri Desfontaines, P.-L. Naveau et André Pascales.   == Biographie == Issu de la branche anglaise de la [[Famille Rothschild]] mais é... *(confiance: 50%)*
 - [[James Nathan]] : Mentionne dans le meme contexte: ...de la branche anglaise de la famille Rothschild mais établi en France, fils de James Nathan « Édouard » de Rothschild (1844–1881) et Thérèse von Rothschild (1847–1931), He... *(confiance: 50%)*
 - [[Thérèse von Rothschild]] : Mentionne dans le meme contexte: ...établi en France, fils de James Nathan « Édouard » de Rothschild (1844–1881) et Thérèse von Rothschild (1847–1931), Henri de Rothschild fit des études de médecine et finança généreus... *(confiance: 50%)*
 - [[Albert Besnard]] : Mentionne dans le meme contexte: ...plusieurs hôpitaux, dont celui de Berck avec sa chapelle décorée par le peintre Albert Besnard et la sculptrice Charlotte Besnard. Il finança aussi les recherches de Pierre e... *(confiance: 50%)*

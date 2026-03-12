@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Laurence Pieau, journaliste. Ne(e) le 1966-01-01 a Rochefort. Formation : université Paris-I-Panthéon-Sorbonne.
+Laurence Pieau, journaliste. Ne(e) le 1966-01-01 a Rochefort. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3218925

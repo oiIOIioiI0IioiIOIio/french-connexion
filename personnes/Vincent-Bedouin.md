@@ -7,6 +7,12 @@ education: université Lille-I
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Alexandra Pihen
+- Eléonor Acher
+- Olivier Malfait
+- Richard Laganier
+- Salima Saa
 nationality: francaise
 nom_complet: Vincent Bedouin
 occupation: personnalité du monde des affaires

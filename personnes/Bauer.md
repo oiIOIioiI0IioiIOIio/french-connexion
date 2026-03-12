@@ -7,6 +7,9 @@ education: null
 genre: masculin
 keywords:
 - illustrateur ou illustratrice
+liens:
+- Famille Rothschild
+- Mayer Amschel Rothschild
 nationality: francaise
 nom_complet: Bauer
 occupation: illustrateur ou illustratrice

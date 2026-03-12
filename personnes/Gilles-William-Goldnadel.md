@@ -7,6 +7,51 @@ education: université de Paris
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Alain Rouquié
+- Anne Le Pape
+- Childéric Muller
+- Christian Combaz
+- Christiane Malitchenko
+- Claude Goasguen
+- Claude Érignac
+- Emmanuel de Margerie
+- Henri de Coignac
+- Hervé Ladsous
+- Hélène Lipietz
+- Isabelle Nataf
+- Jacques Vergès
+- Jean-Christophe Grangé
+- Jean-Jacques Aillagon
+- Jean-Marie Le Guen
+- Jean-Michel Casa
+- Jean-Paul Lanfranchi
+- Jean-Pierre Cot
+- Jean-Pierre Mignard
+- Jean-Pierre Thiollet
+- Julie Mamou-Mani
+- Laurence Ferrari
+- Layla Demay
+- Louis Crocq
+- Luc de Nanteuil
+- Meriem Belmihoub
+- Michel Camdessus
+- Michel Field
+- Monique Barbut
+- Olivier Pastré
+- Olivier Père
+- Paul-Henri Gaschignard
+- Paul-Henry Bizon
+- Philippe Louët
+- Pierre Mazeaud
+- Rémi Fontaine
+- Stanislas de Laboulaye
+- Tristan Jordis
+- Valérie Trierweiler
+- Xavier-Marie Garcette
+- Édouard Carmignac
+- Élisabeth Bost
+- Éric Lebédel
 nationality: francaise
 nom_complet: Gilles-William Goldnadel
 occupation: avocat ou avocate

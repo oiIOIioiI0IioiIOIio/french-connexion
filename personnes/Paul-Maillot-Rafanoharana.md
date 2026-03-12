@@ -7,6 +7,19 @@ education: université de Nantes
 genre: masculin
 keywords:
 - militaire
+liens:
+- Arnaud de Perier
+- Bruno Jeudy
+- Chantal de Singly
+- Clémentine Vergnaud
+- Cédric Peltier
+- Dimitri Rouchon-Borie
+- Jacques Moreau
+- Martine Leguille-Balloy
+- Mattias Guyomar
+- Nicolas Escoulan
+- Patrice Servantie
+- Stéphane Simon
 nationality: francaise
 nom_complet: Paul Maillot Rafanoharana
 occupation: militaire

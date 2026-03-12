@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pascal Fieschi, diplomate. Ne(e) le 1945-03-20 a France. Formation : Institut d'études politiques de Paris.
+Pascal Fieschi, diplomate. Ne(e) le 1945-03-20 a France. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q12139075

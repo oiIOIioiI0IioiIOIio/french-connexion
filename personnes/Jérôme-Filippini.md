@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jérôme Filippini, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1968-11-06 a Gennevilliers. Formation : École normale supérieure.
+Jérôme Filippini, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1968-11-06 a Gennevilliers. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33212772

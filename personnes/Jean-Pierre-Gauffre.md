@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Pierre Gauffre, écrivain ou écrivaine. Ne(e) le 1957-12-27 a Langres. Formation : Centre de formation des journalistes.
+Jean-Pierre Gauffre, écrivain ou écrivaine. Ne(e) le 1957-12-27 a Langres. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3169327

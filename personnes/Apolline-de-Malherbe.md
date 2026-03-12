@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Apolline de Malherbe, journaliste. Ne(e) le 1980-03-21 a 16e arrondissement de Paris. Formation : Institut d'études politiques de Paris.
+Apolline de Malherbe, journaliste. Ne(e) le 1980-03-21 a 16e arrondissement de Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q17621449

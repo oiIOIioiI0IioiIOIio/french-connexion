@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Laurent Pic, diplomate. Ne(e) le 1964-08-02 a 14e arrondissement de Paris. Formation : Institut d'études politiques de Paris.
+Laurent Pic, diplomate. Ne(e) le 1964-08-02 a 14e arrondissement de Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q30710800

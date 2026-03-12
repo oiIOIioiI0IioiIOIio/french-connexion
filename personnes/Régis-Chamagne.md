@@ -7,6 +7,14 @@ education: école de l'air et de l’espace
 genre: masculin
 keywords:
 - militaire
+liens:
+- André Lanata
+- Jean Fleury
+- Jean Rannou
+- Jean Saulnier
+- Michel Authier
+- René Chesnais
+- Roger Pessidous
 nationality: francaise
 nom_complet: Régis Chamagne
 occupation: militaire

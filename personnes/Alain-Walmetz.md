@@ -7,6 +7,10 @@ education: Institut d'études politiques
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Fabrice Amedeo
+- Mohamed Bengaouer
+- Pierre Lise
 nationality: francaise
 nom_complet: Alain Walmetz
 occupation: haut fonctionnaire ou haute fonctionnaire

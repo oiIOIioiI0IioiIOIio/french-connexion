@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Frédéric Guelton, militaire. Ne(e) le 1953-11-27. Formation : université Paris-I-Panthéon-Sorbonne.
+Frédéric Guelton, militaire. Ne(e) le 1953-11-27. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q112396855

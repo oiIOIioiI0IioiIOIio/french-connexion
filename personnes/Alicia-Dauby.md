@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Alicia Dauby, journaliste. Ne(e) le 1992-01-01. Formation : université Paris-Sorbonne.
+Alicia Dauby, journaliste. Ne(e) le 1992-01-01. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q107605886

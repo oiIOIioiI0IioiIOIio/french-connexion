@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Annet Sauty de Chalon, journaliste. Ne(e) le 1970-09-23 a Paris. Formation : université Paris-I-Panthéon-Sorbonne.
+Annet Sauty de Chalon, journaliste. Ne(e) le 1970-09-23 a Paris. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q54963476

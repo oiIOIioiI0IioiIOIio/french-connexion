@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Stéphane Bern, acteur ou actrice. Ne(e) le 1963-11-14 a Lyon. Formation : EM Lyon Business School.
+Stéphane Bern, acteur ou actrice. Ne(e) le 1963-11-14 a Lyon. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3247864

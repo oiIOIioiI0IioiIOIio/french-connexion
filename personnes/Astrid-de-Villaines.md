@@ -7,6 +7,13 @@ education: Institut d’études politiques de Lille
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Céline Rousseaux
+- Frédéric Vion
+- Lucie Chaumette
+- Marine Turchi
+- Pierre Alonso
+- Étienne Campion
 nationality: francaise
 nom_complet: Astrid de Villaines
 occupation: journaliste
@@ -22,7 +29,7 @@ tags:
 type: Personne
 ---
 
-Astrid de Villaines, journaliste. Ne(e) le 1988-01-01. Formation : Institut d’études politiques de Lille.
+Astrid de Villaines, journaliste. Ne(e) le 1988-01-01. Formation : [[Institut d’études politiques de Lille]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q46401222

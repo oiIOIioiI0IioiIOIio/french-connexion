@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Mikaël Guedj, présentateur ou présentatrice de journal. Ne(e) le 1978-03-16. Formation : Institut d'études politiques de Paris.
+Mikaël Guedj, présentateur ou présentatrice de journal. Ne(e) le 1978-03-16. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3313172

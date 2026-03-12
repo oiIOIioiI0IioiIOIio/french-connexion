@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel Thévenin, militaire. Ne(e) le 1933-08-23 a 5e arrondissement de Paris. Formation : École polytechnique.
+Michel Thévenin, militaire. Ne(e) le 1933-08-23 a 5e arrondissement de Paris. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q102273947

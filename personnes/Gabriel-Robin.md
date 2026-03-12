@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gabriel Robin, diplomate. Ne(e) le 1929-08-25 a Molières-sur-Cèze. Formation : École normale supérieure.
+Gabriel Robin, diplomate. Ne(e) le 1929-08-25 a Molières-sur-Cèze. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q31193234

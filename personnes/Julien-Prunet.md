@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Julien Prunet, journaliste. Ne(e) le 1973-05-18 a 15e arrondissement de Paris. Formation : Centre de formation des journalistes.
+Julien Prunet, journaliste. Ne(e) le 1973-05-18 a 15e arrondissement de Paris. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3189624

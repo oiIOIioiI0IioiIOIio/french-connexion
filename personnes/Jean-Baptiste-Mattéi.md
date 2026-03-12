@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Jean-Baptiste Mattéi, diplomate. Ne(e) le 1958-07-28. Formation : HEC Paris.
+Jean-Baptiste Mattéi, diplomate. Ne(e) le 1958-07-28. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q31189803

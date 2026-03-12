@@ -4,6 +4,8 @@ founded: '1898-08-11'
 keywords:
 - media
 - presse
+liens:
+- L'Antijuif algérien
 nom_complet: L'Antijuif
 sources:
 - https://www.wikidata.org/entity/Q3202141

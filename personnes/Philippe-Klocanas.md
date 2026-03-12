@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Philippe Klocanas, vice-président. Ne(e) le 1961-07-27 a Marseille. Formation : EM Lyon Business School.
+Philippe Klocanas, vice-président. Ne(e) le 1961-07-27 a Marseille. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33140907

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Géraldine Schwarz, réalisateur ou réalisatrice de documentaire. Ne(e) le 1974-10-01 a Strasbourg. Formation : université Paris-Sorbonne.
+Géraldine Schwarz, réalisateur ou réalisatrice de documentaire. Ne(e) le 1974-10-01 a Strasbourg. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q59392026

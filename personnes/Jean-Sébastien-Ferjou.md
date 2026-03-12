@@ -7,6 +7,8 @@ education: université Paris-Est-Marne-la-Vallée
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Franck Barthe
 nationality: francaise
 nom_complet: Jean-Sébastien Ferjou
 occupation: journaliste

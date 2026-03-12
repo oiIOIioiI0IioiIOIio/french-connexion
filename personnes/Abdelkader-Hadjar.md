@@ -7,6 +7,13 @@ education: université d'Alger
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Khadija Benguenna
+- Lakhdar Brahimi
+- Mohammed Seddik Benyahia
+- Mourad Medelci
+- Redha Malek
+- Tahar Djaout
 nationality: francaise
 nom_complet: Abdelkader Hadjar
 occupation: personnalité politique

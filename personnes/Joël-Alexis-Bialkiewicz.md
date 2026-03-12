@@ -7,6 +7,11 @@ education: université Pierre-et-Marie-Curie
 genre: masculin
 keywords:
 - informaticien ou informaticienne
+liens:
+- Jean-Baptiste de Franssu
+- Jean-Luc Aubert
+- Joël Courtois
+- Nicolas Hulot
 nationality: francaise
 nom_complet: Joël-Alexis Bialkiewicz
 occupation: informaticien ou informaticienne

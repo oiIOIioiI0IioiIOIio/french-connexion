@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Donatienne Hissard, diplomate. Ne(e) le 1974-05-20. Formation : université Paris-Sorbonne.
+Donatienne Hissard, diplomate. Ne(e) le 1974-05-20. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q112614612

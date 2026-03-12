@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Didier Talpain, chef ou cheffe d'orchestre ou de chœur. Ne(e) le 1960-02-29 a Belfort. Formation : ICN Business School.
+Didier Talpain, chef ou cheffe d'orchestre ou de chœur. Ne(e) le 1960-02-29 a Belfort. Formation : [[ICN Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3027209

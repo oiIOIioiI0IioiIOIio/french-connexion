@@ -7,6 +7,12 @@ education: École normale supérieure de Fontenay-Saint-Cloud
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Emmanuel Kessler
+- Lorène Lemor
+- Michka Assayas
+- Nicolas Demorand
+- Xavier de La Porte
 nationality: francaise
 nom_complet: Adélaïde de Clermont-Tonnerre
 occupation: écrivain ou écrivaine
@@ -22,7 +28,7 @@ tags:
 type: Personne
 ---
 
-Adélaïde de Clermont-Tonnerre, écrivain ou écrivaine. Ne(e) le 1976-03-20 a Neuilly-sur-Seine. Formation : École normale supérieure de Fontenay-Saint-Cloud.
+Adélaïde de Clermont-Tonnerre, écrivain ou écrivaine. Ne(e) le 1976-03-20 a Neuilly-sur-Seine. Formation : [[École normale supérieure]] de Fontenay-Saint-Cloud.
 
 ## Sources
 - http://www.wikidata.org/entity/Q2825469

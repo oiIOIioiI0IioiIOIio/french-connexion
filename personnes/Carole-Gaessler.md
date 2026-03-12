@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Carole Gaessler, présentateur ou présentatrice de journal. Ne(e) le 1968-02-23 a Thionville. Formation : université Paris-I-Panthéon-Sorbonne.
+Carole Gaessler, présentateur ou présentatrice de journal. Ne(e) le 1968-02-23 a Thionville. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2377466

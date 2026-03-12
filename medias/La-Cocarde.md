@@ -4,6 +4,8 @@ founded: '1888-03-13'
 keywords:
 - media
 - presse
+liens:
+- Augustin Hamon
 nom_complet: La Cocarde
 sources:
 - https://www.wikidata.org/entity/Q3207564

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Avenas, écrivain ou écrivaine. Ne(e) le 1946-01-14 a 11e arrondissement de Paris. Formation : École polytechnique.
+Pierre Avenas, écrivain ou écrivaine. Ne(e) le 1946-01-14 a 11e arrondissement de Paris. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q10787012

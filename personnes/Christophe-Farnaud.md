@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christophe Farnaud, diplomate. Ne(e) le 1965-04-08 a Castres. Formation : École normale supérieure.
+Christophe Farnaud, diplomate. Ne(e) le 1965-04-08 a Castres. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33109885

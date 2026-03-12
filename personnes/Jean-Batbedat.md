@@ -7,6 +7,13 @@ education: École nationale des langues orientales vivantes
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Alexis Rygaloff
+- Jacques Disdier
+- Luc Harscouët de Saint-George
+- Marcel Tremeau
+- Philippe de Suremain
+- Samuel Le Caruyer de Beauvais
 nationality: francaise
 nom_complet: Jean Batbedat
 occupation: écrivain ou écrivaine

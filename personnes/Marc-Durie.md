@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marc Durie, personnalité du monde des affaires. Ne(e) le 1976-07-10 a Belley. Formation : EM Lyon Business School.
+Marc Durie, personnalité du monde des affaires. Ne(e) le 1976-07-10 a Belley. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q123414250

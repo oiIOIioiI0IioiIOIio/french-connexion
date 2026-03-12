@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Thierry Lataste, personnalité politique. Ne(e) le 1954-01-31 a Talence. Formation : École normale supérieure.
+Thierry Lataste, personnalité politique. Ne(e) le 1954-01-31 a Talence. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3524366

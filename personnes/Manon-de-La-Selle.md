@@ -7,6 +7,14 @@ education: université de Cambridge
 genre: féminin
 keywords:
 - politologue
+liens:
+- Arnold Philibert Dubois
+- Frédéric Dal Vecchio
+- Guy Danet
+- Gérald Olivier
+- Henri Burin des Roziers
+- Ingrid Therwath
+- Myriam François-Cerrah
 nationality: francaise
 nom_complet: Manon de La Selle
 occupation: politologue

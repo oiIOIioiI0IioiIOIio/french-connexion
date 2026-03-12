@@ -18,4 +18,4 @@ type: Fondation
 wikidata_id: Q61907374
 ---
 
-68Ga-RM2 Compared to 68Ga-PSMA-617 PET/CT for Prostate Cancer Imaging According to Various Metastatic Risks, think tank ou fondation.
+68Ga-RM2 Compared to 68Ga-PSMA-617 PET/CT for Prostate Cancer Imaging [[Accor]]ding to Various Metastatic Risks, think tank ou fondation.

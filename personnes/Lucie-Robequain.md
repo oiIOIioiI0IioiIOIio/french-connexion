@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Lucie Robequain, traducteur ou traductrice. Ne(e) le 1979-08-07 a Montpellier. Formation : HEC Paris.
+Lucie Robequain, traducteur ou traductrice. Ne(e) le 1979-08-07 a Montpellier. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q133719422

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christophe Dickès, historien ou historienne. Ne(e) le 1972-07-27 a Boulogne-sur-Mer. Formation : université Paris-Sorbonne.
+Christophe Dickès, historien ou historienne. Ne(e) le 1972-07-27 a Boulogne-sur-Mer. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q8303515

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sally, journaliste. Ne(e) le 1996-08-11 a Strasbourg. Formation : faculté de droit de Strasbourg.
+Sally, journaliste. Ne(e) le 1996-08-11 a Strasbourg. Formation : [[faculté de droit de Strasbourg]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q108219493

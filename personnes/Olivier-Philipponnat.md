@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Olivier Philipponnat, traducteur ou traductrice. Ne(e) le 1967-01-01 a Épernay.
+[[Olivier Philip]]ponnat, traducteur ou traductrice. Ne(e) le 1967-01-01 a Épernay.
 
 ## Sources
 - http://www.wikidata.org/entity/Q46997938

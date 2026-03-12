@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Philippe Chaffanjon, journaliste. Ne(e) le 1958-01-30 a 9e arrondissement de Paris. Formation : Centre de formation des journalistes.
+Philippe Chaffanjon, journaliste. Ne(e) le 1958-01-30 a 9e arrondissement de Paris. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3379536

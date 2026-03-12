@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Louis Brochen, avocat ou avocate. Ne(e) le 1944-06-07 a Roubaix. Formation : faculté de droit de Lille.
+Jean-Louis Brochen, avocat ou avocate. Ne(e) le 1944-06-07 a Roubaix. Formation : [[faculté de droit de Lille]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3166656

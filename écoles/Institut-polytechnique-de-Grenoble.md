@@ -5,6 +5,8 @@ headquarters: Grenoble
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Emmanuel Trivin
 nom_complet: Institut polytechnique de Grenoble
 sources:
 - https://www.wikidata.org/entity/Q1665121

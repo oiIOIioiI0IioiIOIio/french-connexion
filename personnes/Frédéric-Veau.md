@@ -7,6 +7,8 @@ education: École nationale d'administration
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Frédéric Veaux
 nationality: francaise
 nom_complet: Frédéric Veau
 occupation: haut fonctionnaire ou haute fonctionnaire

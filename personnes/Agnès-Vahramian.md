@@ -7,6 +7,19 @@ education: Centre universitaire d'enseignement du journalisme
 genre: féminin
 keywords:
 - correspondant ou correspondante de guerre
+liens:
+- Antoine Giniaux
+- Arthur Frayer-Laleix
+- Camille Langlade
+- Damien Thévenot
+- Fabienne Sintes
+- Jacky Durand
+- Ludovic Vigogne
+- Marc Fauvelle
+- Matthieu Suc
+- Rachid Arhab
+- Thierry Suzan
+- Éric Ghebali
 nationality: francaise
 nom_complet: Agnès Vahramian
 occupation: correspondant ou correspondante de guerre

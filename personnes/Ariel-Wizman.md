@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Ariel Wizman, acteur ou actrice. Ne(e) le 1962-05-19 a Casablanca. Formation : université Paris-Sorbonne.
+Ariel Wizman, acteur ou actrice. Ne(e) le 1962-05-19 a Casablanca. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2861258

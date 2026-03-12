@@ -7,6 +7,16 @@ education: lycée Condorcet
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Alain Hollande
+- Amélie Guicheney
+- Christophe Bourseiller
+- Christophe Tison
+- Claude Bussière
+- Laurent Broomhead
+- Nicolas Chapuis
+- Philippe Lefait
+- Raymond Morice
 nationality: francaise
 nom_complet: Stéphane Barsacq
 occupation: écrivain ou écrivaine

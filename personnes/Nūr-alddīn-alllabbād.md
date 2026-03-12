@@ -7,6 +7,8 @@ education: Sorbonne Université
 genre: masculin
 keywords:
 - poète ou poétesse
+liens:
+- Gaëlle Borgia
 nationality: francaise
 nom_complet: Nūr alddīn alllabbād
 occupation: poète ou poétesse
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Nūr alddīn alllabbād, poète ou poétesse. Ne(e) le 1962-01-01 a Al-Sanamayn. Formation : Sorbonne Université.
+Nūr alddīn alllabbād, poète ou poétesse. Ne(e) le 1962-01-01 a Al-Sanamayn. Formation : [[Sorbonne Université]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q133265558

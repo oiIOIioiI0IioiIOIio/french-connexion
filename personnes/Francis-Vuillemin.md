@@ -7,6 +7,14 @@ education: université Bourgogne Europe
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Arnaud Montebourg
+- Emmanuel Berretta
+- François Baroin
+- Jean-Louis Beaucarnot
+- Jean-Michel Djian
+- Katalin Escher
+- Sophie Dion
 nationality: francaise
 nom_complet: Francis Vuillemin
 occupation: avocat ou avocate

@@ -71,7 +71,7 @@ Père de quatre filles : [[Sarah Barraquand]], [[Charlotte Barraquand]], [[Marie
 
 ### Publications
 
-- _La Réforme fiscale américaine_ (1986)
+- _[[La Réforme]] fiscale américaine_ (1986)
 
 ### Centres d’intérêt
 

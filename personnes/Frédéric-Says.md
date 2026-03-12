@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Frédéric Says, journaliste. Ne(e) le 1987-04-18 a Clermont-Ferrand. Formation : Centre de formation des journalistes.
+Frédéric Says, journaliste. Ne(e) le 1987-04-18 a Clermont-Ferrand. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q46408254

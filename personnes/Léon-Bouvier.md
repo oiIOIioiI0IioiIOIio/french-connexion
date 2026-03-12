@@ -7,6 +7,9 @@ education: Université McGill
 genre: masculin
 keywords:
 - militaire
+liens:
+- Dominique Lagrou-Sempère
+- Sandy Dauphin
 nationality: francaise
 nom_complet: Léon Bouvier
 occupation: militaire

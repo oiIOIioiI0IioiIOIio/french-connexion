@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nathalie Beras, diplomate. Ne(e) le 1970-03-20 a Martinique. Formation : université Paris-I-Panthéon-Sorbonne.
+Nathalie Beras, diplomate. Ne(e) le 1970-03-20 a Martinique. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q121030512

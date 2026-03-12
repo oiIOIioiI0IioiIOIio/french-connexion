@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Dominique Ferrero, directeur général ou directrice générale. Ne(e) le 1947-03-14 a Nice. Formation : École normale supérieure.
+Dominique Ferrero, directeur général ou directrice générale. Ne(e) le 1947-03-14 a Nice. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q25385523

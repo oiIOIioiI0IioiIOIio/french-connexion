@@ -7,6 +7,8 @@ education: Université Louis-et-Maximilien de Munich
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Mathilde Saliou
 nationality: francaise
 nom_complet: Theodor Paleologu
 occupation: écrivain ou écrivaine

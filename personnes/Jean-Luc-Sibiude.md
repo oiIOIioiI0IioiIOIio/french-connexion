@@ -7,6 +7,20 @@ education: Université Harvard
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Alfred Galichon
+- Claude-Éric Paquin
+- Ernest-Antoine Seillière
+- François Jackow
+- Frédéric X de Danemark
+- Geoffroy Didier
+- Jacques Lagarde
+- Laure Mandeville
+- Michel François-Poncet
+- Peter Turnley
+- Pierre Lellouche
+- Renée Kaplan
+- Simon Kuper
 nationality: francaise
 nom_complet: Jean-Luc Sibiude
 occupation: diplomate

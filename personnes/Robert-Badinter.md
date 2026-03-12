@@ -7,6 +7,21 @@ education: Université Columbia
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Alexandra Bensaïd
+- Emmanuel Levacher
+- Frédérique Camilleri
+- Guillaume Debré
+- Jean-Michel Guénod
+- Julia Minkowski
+- Klara Wyrzykowska
+- Kéthévane Gorjestani
+- Olivier Royant
+- Philippe Oddou
+- Rachel-Flore Pardo
+- Rudy Rochman
+- Salomé Zourabichvili
+- Éléonore Caroit
 nationality: francaise
 nom_complet: Robert Badinter
 occupation: avocat ou avocate

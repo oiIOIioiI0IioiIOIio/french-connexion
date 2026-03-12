@@ -7,6 +7,42 @@ education: Institut d'études politiques de Bordeaux
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Anne-Sophie Lapix
+- Arnaud Romera
+- Bernard Cazeneuve
+- Brieuc Pont
+- Catherine Boudet
+- Christian Blanc
+- Christophe Hondelatte
+- David Medioni
+- Diarra Labille
+- François Laumonier
+- Frédéric Bobin
+- Gérard Bougrier
+- Gérard Boulanger
+- Jacky Goldberg
+- Jean-Bernard Schmidt
+- Jean-Claude Raspiengeas
+- Laurent Bigot
+- Laurent Valdiguié
+- Marcelle Pierrot
+- Marie-Hélène Duvignau
+- Matthieu Auzanneau
+- Maylis Besserie
+- Michel Lummaux
+- Michel Mosser
+- Mireille Larrède
+- Nathalie Renoux
+- Philippe Bolopion
+- Philippe Vilamitjana
+- Pierre Cherruau
+- Pierre Hurmic
+- Raphaël de Montferrand
+- Stéphanie Trouillard
+- Terence Wills
+- Thomas Hugues
+- Évelyne Decorps
 nationality: francaise
 nom_complet: Laetitia Krupa
 occupation: journaliste
@@ -22,7 +58,7 @@ tags:
 type: Personne
 ---
 
-Laetitia Krupa, journaliste. Ne(e) le 1975-06-29 a Antony. Formation : Institut d'études politiques de Bordeaux.
+Laetitia Krupa, journaliste. Ne(e) le 1975-06-29 a Antony. Formation : [[Institut d'études politiques de Bordeaux]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q125023416

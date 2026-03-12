@@ -7,6 +7,8 @@ education: Sainte-Marie Lyon
 genre: masculin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Jean-Paul Vesco
 nationality: francaise
 nom_complet: Patrick Chêne
 occupation: présentateur ou présentatrice de journal

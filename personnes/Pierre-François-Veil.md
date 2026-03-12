@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre-François Veil, avocat ou avocate. Ne(e) le 1954-03-16 a Clichy. Formation : Institut d'études politiques de Paris.
+Pierre-François Veil, avocat ou avocate. Ne(e) le 1954-03-16 a Clichy. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q32295182

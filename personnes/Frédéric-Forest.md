@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Frédéric Forest, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1976-01-01. Formation : université Paris-I-Panthéon-Sorbonne.
+Frédéric Forest, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1976-01-01. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q95232884

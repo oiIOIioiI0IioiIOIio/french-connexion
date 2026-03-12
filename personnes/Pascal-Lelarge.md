@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pascal Lelarge, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1956-12-26 a Saint-Brieuc. Formation : École polytechnique.
+Pascal Lelarge, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1956-12-26 a Saint-Brieuc. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33280750

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Catherine El Arouni, directeur général ou directrice générale. Ne(e) le 1963-07-14. Formation : HEC Paris.
+Catherine El Arouni, directeur général ou directrice générale. Ne(e) le 1963-07-14. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q116679883

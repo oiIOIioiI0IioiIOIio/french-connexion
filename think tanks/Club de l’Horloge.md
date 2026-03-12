@@ -28,7 +28,7 @@ Le nom « Club de l’Horloge » a été choisi de manière provisoire lors de l
 
 ## Historique et genèse
 
-- **Contexte de création (1973-1974)**  
+- **[[Contexte]] de création (1973-1974)**  
     Un groupe d’anciens étudiants réagissant aux événements de mai 1968, soucieux de redonner à la droite une pensée structurée, se réunit à [[Sciences Po Paris]] et au sein de cercles informels (notamment liés au [[Cercle Pareto]]), pour créer un « club politique » ancré dans la tradition tout en explorant des idées novatrices sur la société, la culture et la biologie politique.
     
 - **Réunion constitutive et premiers statuts**  
@@ -40,7 +40,7 @@ Le nom « Club de l’Horloge » a été choisi de manière provisoire lors de l
         
     - En 1978, le mandat du conseil d’administration est précisé.
         
-    - Le 15 décembre 1993, les statuts sont actualisés pour présenter le [[Club de l’Horloge]] comme « un cercle de réflexion politique, une force d’analyse et de propositions », conduisant « des recherches culturelles et éducatives intéressant les sociétés contemporaines » et élargissant le Conseil d’administration aux présidents des cercles régionaux et le Bureau à des postes de délégués.
+    - [[Le 1]]5 décembre 1993, les statuts sont actualisés pour présenter le [[Club de l’Horloge]] comme « un cercle de réflexion politique, une force d’analyse et de propositions », conduisant « des recherches culturelles et éducatives intéressant les sociétés contemporaines » et élargissant le Conseil d’administration aux présidents des cercles régionaux et le Bureau à des postes de délégués.
         
 
 ---
@@ -143,7 +143,7 @@ Ces personnes constituent le noyau initial, majoritairement issus de l’[[ENA (
 
 - **Années 1974-1979** : discrétion relative, travail de fond sur la doctrine, publications limitées, organisation interne sélective.
     
-- **1979** : révélation médiatique lors de la campagne sur la « Nouvelle Droite », première visibilité publique, photos de membres (Jean-Yves Le Gallou, Yvan Blot, Henry de Lesquen, Didier Maupas, Bernard Mazin, Bruno Mégret, etc.).
+- **1979** : révélation médiatique lors de la campagne sur la « Nouvelle Droite », première visibilité publique, photos de membres (Jean-Yves Le Gallou, Yvan Blot, Henry de Lesquen, Didier Maupas, Bernard Mazin, [[Bruno Mégret]], etc.).
     
 - **Début des années 1980** : recrutement limité mais organisation de cercles provinciaux, montée en puissance doctrinale (préférence nationale), tentatives d’influence au sein de RPR/UDF.
     

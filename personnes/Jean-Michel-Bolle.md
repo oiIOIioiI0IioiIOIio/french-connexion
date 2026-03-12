@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean Michel Bolle, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1946-09-11 a Senlis.
+[[Jean Michel]] Bolle, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1946-09-11 a Senlis.
 
 ## Sources
 - http://www.wikidata.org/entity/Q123368326

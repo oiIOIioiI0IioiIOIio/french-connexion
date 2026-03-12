@@ -7,6 +7,12 @@ education: lycée Louis-le-Grand
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Doan Bui
+- Jean Coursaget
+- Michel de La Fournière
+- René Heckenroth
+- Yves de Daruvar
 nationality: francaise
 nom_complet: Yves Aubin de La Messuzière
 occupation: diplomate
@@ -22,7 +28,7 @@ tags:
 type: Personne
 ---
 
-Yves Aubin de La Messuzière, diplomate. Ne(e) le 1942-01-07 a Rabat. Formation : lycée Louis-le-Grand.
+Yves Aubin de La Messuzière, diplomate. Ne(e) le 1942-01-07 a Rabat. Formation : [[Lycée Louis-le-Grand]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3573459

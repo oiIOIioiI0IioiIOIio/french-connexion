@@ -7,6 +7,8 @@ education: Université du Missouri à Columbia
 genre: féminin
 keywords:
 - entrepreneur ou entrepreneuse
+liens:
+- Mélissa Bounoua
 nationality: francaise
 nom_complet: Charlotte Pudlowski
 occupation: entrepreneur ou entrepreneuse

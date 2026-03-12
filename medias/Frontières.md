@@ -27,7 +27,7 @@ En 2024, le média a bénéficié de l'entrée au capital d'actionnaires dont l'
 
 _Frontières_ entretient des liens avec plusieurs autres médias et figures médiatiques :​
 
-- **[[Omerta]]** : En 2023, une tentative de fusion avec ce média dirigé par Régis Le Sommier a échoué.​.​
+- **[[Omerta]]** : En 2023, une tentative de fusion avec ce média dirigé par [[Régis Le Sommier]] a échoué.​.​
 
 - **[[CNews]]**, **[[Sud Radio]]**, **[[Touche Pas à Mon Poste]]** : [[Erik Tegnér]], fondateur de _Frontières_, intervient régulièrement dans ces émissions, renforçant la visibilité du média. ​
 

@@ -7,6 +7,9 @@ education: Université d'Oxford
 genre: féminin
 keywords:
 - traducteur ou traductrice
+liens:
+- Alix Éverard
+- Cayetana Álvarez de Toledo
 nationality: francaise
 nom_complet: Michal Ben-Naphtali
 occupation: traducteur ou traductrice

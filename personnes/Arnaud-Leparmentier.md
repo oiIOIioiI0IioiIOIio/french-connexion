@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Arnaud Leparmentier, journaliste. Ne(e) le 1967-10-16. Formation : HEC Paris.
+Arnaud Leparmentier, journaliste. Ne(e) le 1967-10-16. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q19629942

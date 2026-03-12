@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Roland Faugère, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1925-08-31 a La Tronche. Formation : Institut d'études politiques de Paris.
+Roland Faugère, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1925-08-31 a La Tronche. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50872104

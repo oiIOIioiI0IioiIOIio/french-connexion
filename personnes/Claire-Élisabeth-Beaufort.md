@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Claire-Élisabeth Beaufort, présentateur ou présentatrice de journal. Ne(e) le 1976-01-01. Formation : université Paris-Sorbonne.
+Claire-Élisabeth Beaufort, présentateur ou présentatrice de journal. Ne(e) le 1976-01-01. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2974992

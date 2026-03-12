@@ -16,4 +16,4 @@ type: Media
 wikidata_id: Q91460124
 ---
 
-Joghovourti Tzain, media francais.
+[[Joghovourt]]i Tzain, media francais.

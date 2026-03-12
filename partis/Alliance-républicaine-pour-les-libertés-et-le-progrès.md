@@ -16,4 +16,4 @@ type: Parti
 wikidata_id: Q49648647
 ---
 
-Alliance républicaine pour les libertés et le progrès, parti politique francais.
+[[Alliance]] républicaine pour les libertés et le progrès, parti politique francais.

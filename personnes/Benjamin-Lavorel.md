@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Benjamin Lavorel, personnalité du monde des affaires. Ne(e) le 1977-01-13 a 4e arrondissement de Lyon. Formation : EM Lyon Business School.
+Benjamin Lavorel, personnalité du monde des affaires. Ne(e) le 1977-01-13 a 4e arrondissement de Lyon. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q124647267

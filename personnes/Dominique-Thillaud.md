@@ -7,6 +7,8 @@ education: ISC paris business school
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Fabrice Delloye
 nationality: francaise
 nom_complet: Dominique Thillaud
 occupation: personnalité du monde des affaires
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Dominique Thillaud, personnalité du monde des affaires. Ne(e) le 1968-12-24 a Paris. Formation : ISC paris business school.
+Dominique Thillaud, personnalité du monde des affaires. Ne(e) le 1968-12-24 a Paris. Formation : [[ISC paris business school]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33183646

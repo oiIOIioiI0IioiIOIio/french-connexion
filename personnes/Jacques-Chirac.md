@@ -7,6 +7,8 @@ education: École nationale d'administration
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Cité scolaire internationale Jacques Chirac
 nationality: francaise
 nom_complet: Jacques Chirac
 occupation: personnalité politique

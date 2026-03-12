@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Luc Hallade, diplomate. Ne(e) le 1957-05-08 a Bichancourt. Formation : Institut d'études politiques de Paris.
+Luc Hallade, diplomate. Ne(e) le 1957-05-08 a Bichancourt. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3264839

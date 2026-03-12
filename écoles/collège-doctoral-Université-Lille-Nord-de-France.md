@@ -17,4 +17,4 @@ type: Ecole
 wikidata_id: Q2175347
 ---
 
-collège doctoral Université Lille Nord de France, etablissement d'enseignement superieur francais.
+collège doctoral [[Université Lille Nord de France]], etablissement d'enseignement superieur francais.

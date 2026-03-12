@@ -7,6 +7,12 @@ education: université de Rouen-Normandie
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Audrey Pulvar
+- Benoît Duteurtre
+- Emmanuel Ratier
+- Paul-Jacques Lehmann
+- Vincent Hommeril
 nationality: francaise
 nom_complet: Guillaume Jobin
 occupation: écrivain ou écrivaine

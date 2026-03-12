@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pascal Vagogne, diplomate. Ne(e) le 1952-04-12. Formation : Institut d'études politiques de Paris.
+Pascal Vagogne, diplomate. Ne(e) le 1952-04-12. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q15814185

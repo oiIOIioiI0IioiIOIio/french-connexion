@@ -7,6 +7,11 @@ education: université Paul-Cézanne - Aix-Marseille III
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Anne Bouillon
+- Maryse Joissains-Masini
+- Sophie Joissains
+- Stéphane Benoit-Godet
 nationality: francaise
 nom_complet: Pierre Falcone
 occupation: personnalité du monde des affaires

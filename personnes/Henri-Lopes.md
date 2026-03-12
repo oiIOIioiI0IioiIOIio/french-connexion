@@ -7,6 +7,10 @@ education: Sorbonne
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Amadou-Mahtar MBow
+- Laurence Debray
+- Michel Cullin
 nationality: francaise
 nom_complet: Henri Lopes
 occupation: écrivain ou écrivaine
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Henri Lopes, écrivain ou écrivaine. Ne(e) le 1937-09-12 a Kinshasa. Formation : Sorbonne.
+Henri Lopes, écrivain ou écrivaine. Ne(e) le 1937-09-12 a Kinshasa. Formation : [[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q324321

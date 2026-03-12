@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gilles Alix, personnalité du monde des affaires. Ne(e) le 1958-10-01 a Nancy. Formation : EM Lyon Business School.
+Gilles Alix, personnalité du monde des affaires. Ne(e) le 1958-10-01 a Nancy. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33111424

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Stéphane Arfi, scénariste. Ne(e) le 1968-01-01. Formation : Institut d'études politiques de Paris.
+Stéphane Arfi, scénariste. Ne(e) le 1968-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3501557

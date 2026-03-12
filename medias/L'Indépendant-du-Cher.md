@@ -16,4 +16,4 @@ type: Media
 wikidata_id: Q109767143
 ---
 
-L'Indépendant du Cher, media francais.
+[[L'Indépendant]] du Cher, media francais.

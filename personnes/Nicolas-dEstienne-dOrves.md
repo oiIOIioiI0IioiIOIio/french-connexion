@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nicolas d'Estienne d'Orves, écrivain ou écrivaine. Ne(e) le 1974-09-10 a Neuilly-sur-Seine. Formation : université Paris-Sorbonne.
+Nicolas d'Estienne d'Orves, écrivain ou écrivaine. Ne(e) le 1974-09-10 a Neuilly-sur-Seine. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3340889

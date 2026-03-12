@@ -7,6 +7,8 @@ education: École nationale supérieure d'arts et métiers
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Guillaume Duval
 nationality: francaise
 nom_complet: Michel Alberganti
 occupation: journaliste

@@ -30,7 +30,7 @@ Ancien collaborateur de [[Michel Debré]]
 
 Participation secrète à la campagne de [[Marine Le Pen]] sous pseudonyme (René Dargou), en tant que “conseiller secret”.
 
-Implication dans un cercle ([[Horaces]]) de hauts fonctionnaires conseillant Marine Le Pen, où il serait même présenté comme “chef des Horaces” selon un responsable frontiste cité.
+Implication dans un cercle ([[Horaces]]) de hauts fonctionnaires conseillant [[Marine]] Le Pen, où il serait même présenté comme “chef des Horaces” selon un responsable frontiste cité.
 
 
 Sources : https://www.lexpress.fr/politique/l-identite-des-conseillers-de-l-ombre-de-la-campagne-de-marine-le-pen-revelee_1978226.html ; 

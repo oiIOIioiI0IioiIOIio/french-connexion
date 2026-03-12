@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Elisa Rojas, avocat ou avocate. Ne(e) le 1979-04-30 a San Miguel. Formation : université Paris-I-Panthéon-Sorbonne.
+Elisa Rojas, avocat ou avocate. Ne(e) le 1979-04-30 a San Miguel. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q104217906

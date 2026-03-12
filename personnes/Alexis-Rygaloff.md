@@ -7,6 +7,13 @@ education: École nationale des langues orientales vivantes
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Jacques Disdier
+- Jean Batbedat
+- Luc Harscouët de Saint-George
+- Marcel Tremeau
+- Philippe de Suremain
+- Samuel Le Caruyer de Beauvais
 nationality: francaise
 nom_complet: Alexis Rygaloff
 occupation: diplomate

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Arnaud Strasser, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1969-07-06 a Uccle. Formation : HEC Paris.
+Arnaud Strasser, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1969-07-06 a Uccle. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33103737

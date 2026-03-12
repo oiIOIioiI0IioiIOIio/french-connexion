@@ -13,7 +13,24 @@ keywords:
 - brian
 - mulroney
 liens:
+- Abraham Lincoln
+- Amschel Moses Rothschild
+- Augustin Hamon
+- Betty de Rothschild
 - Brian Mulroney
+- Carter G. Woodson
+- Famille Rothschild
+- François Bayrou
+- Henri de Rothschild
+- James de Rothschild
+- Jean Augustine
+- Jesse E. Moorland
+- Jules Grévy
+- Mayer Amschel Rothschild
+- Mélina Seymour
+- Nathan Mayer Rothschild (1777-1836)
+- Think tank
+- Édouard Philippe
 nationality: canadienne
 nom_complet: Donald Oliver
 occupation: null

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Anne Boillon, diplomate. Ne(e) le 1971-01-01. Formation : École normale supérieure.
+Anne Boillon, diplomate. Ne(e) le 1971-01-01. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q47474305

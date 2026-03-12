@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Philippe Legrand, journaliste. Ne(e) le 1962-01-01.
+Philippe [[Legrand]], journaliste. Ne(e) le 1962-01-01.
 
 ## Sources
 - http://www.wikidata.org/entity/Q3380206

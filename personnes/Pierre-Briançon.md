@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Briançon, journaliste. Ne(e) le 1954-08-03 a Tunis. Formation : Institut d'études politiques de Paris.
+Pierre Briançon, journaliste. Ne(e) le 1954-08-03 a Tunis. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3384188

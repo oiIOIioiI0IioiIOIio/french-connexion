@@ -7,6 +7,9 @@ education: Université McGill
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Léon Bouvier
+- Sandy Dauphin
 nationality: francaise
 nom_complet: Dominique Lagrou-Sempère
 occupation: journaliste

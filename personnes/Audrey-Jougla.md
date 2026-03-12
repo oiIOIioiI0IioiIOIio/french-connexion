@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Audrey Jougla, écrivain ou écrivaine. Ne(e) le 1985-03-27 a Saint-Cloud. Formation : Institut d'études politiques de Paris.
+Audrey Jougla, écrivain ou écrivaine. Ne(e) le 1985-03-27 a Saint-Cloud. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q32562350

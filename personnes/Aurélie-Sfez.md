@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Aurélie Sfez, journaliste. Ne(e) le 1976-04-01 a Bordeaux. Formation : université Paris-Sorbonne.
+Aurélie Sfez, journaliste. Ne(e) le 1976-04-01 a Bordeaux. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q18697142

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Flore Catala, journaliste. Ne(e) le 1995-01-01. Formation : École normale supérieure.
+Flore Catala, journaliste. Ne(e) le 1995-01-01. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q137187521

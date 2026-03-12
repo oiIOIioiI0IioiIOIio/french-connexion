@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Hilaire Multon, historien ou historienne. Ne(e) le 1971-11-14 a Lagny-sur-Marne. Formation : École normale supérieure.
+Hilaire Multon, historien ou historienne. Ne(e) le 1971-11-14 a Lagny-sur-Marne. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q29912531

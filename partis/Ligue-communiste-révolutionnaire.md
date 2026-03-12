@@ -18,4 +18,4 @@ type: Parti
 wikidata_id: Q862627
 ---
 
-Ligue communiste révolutionnaire, parti politique francais.
+[[Ligue communiste]] révolutionnaire, parti politique francais.

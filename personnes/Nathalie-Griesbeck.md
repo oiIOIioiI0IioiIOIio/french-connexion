@@ -7,6 +7,9 @@ education: université de Metz
 genre: féminin
 keywords:
 - avocat ou avocate
+liens:
+- Max Schiavon
+- Philippe Truttmann
 nationality: francaise
 nom_complet: Nathalie Griesbeck
 occupation: avocat ou avocate

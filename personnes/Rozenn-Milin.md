@@ -7,6 +7,16 @@ education: École pratique des hautes études
 genre: féminin
 keywords:
 - historien ou historienne
+liens:
+- Alain Ruellan
+- Bernard Le Clère
+- Gaëlle Bélem
+- Guillaume Robert
+- Isabelle Coutant-Peyre
+- Pascal Bruckner
+- Patrick Sbalchiero
+- Sébastien de Courtois
+- Xavier Accart
 nationality: francaise
 nom_complet: Rozenn Milin
 occupation: historien ou historienne

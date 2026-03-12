@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Deslignes, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1936-06-20 a Pantin. Formation : Institut d'études politiques de Paris.
+Pierre Deslignes, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1936-06-20 a Pantin. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q123368568

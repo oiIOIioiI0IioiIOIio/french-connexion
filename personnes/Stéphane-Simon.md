@@ -7,6 +7,19 @@ education: université de Nantes
 genre: masculin
 keywords:
 - producteur ou productrice de télévision
+liens:
+- Arnaud de Perier
+- Bruno Jeudy
+- Chantal de Singly
+- Clémentine Vergnaud
+- Cédric Peltier
+- Dimitri Rouchon-Borie
+- Jacques Moreau
+- Martine Leguille-Balloy
+- Mattias Guyomar
+- Nicolas Escoulan
+- Patrice Servantie
+- Paul Maillot Rafanoharana
 nationality: francaise
 nom_complet: Stéphane Simon
 occupation: producteur ou productrice de télévision

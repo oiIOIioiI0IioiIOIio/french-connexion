@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Élisabeth Dufourcq, personnalité politique. Ne(e) le 1940-12-07 a Boulogne-Billancourt. Formation : Institut d'études politiques de Paris.
+Élisabeth Dufourcq, personnalité politique. Ne(e) le 1940-12-07 a Boulogne-Billancourt. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3587872

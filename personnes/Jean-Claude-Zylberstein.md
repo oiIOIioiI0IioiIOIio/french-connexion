@@ -7,6 +7,11 @@ education: faculté de droit de Paris
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Dominique de La Garanderie
+- Georges de Brémond d'Ars
+- Henri Leclerc
+- Pierre Dehaye
 nationality: francaise
 nom_complet: Jean-Claude Zylberstein
 occupation: avocat ou avocate
@@ -22,7 +27,7 @@ tags:
 type: Personne
 ---
 
-Jean-Claude Zylberstein, avocat ou avocate. Ne(e) le 1938-11-17 a 9e arrondissement de Paris. Formation : faculté de droit de Paris.
+Jean-Claude Zylberstein, avocat ou avocate. Ne(e) le 1938-11-17 a 9e arrondissement de Paris. Formation : [[faculté de droit de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3165271

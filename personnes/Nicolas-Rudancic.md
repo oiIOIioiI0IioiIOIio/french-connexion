@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nicolas Rudancic, personnalité du monde des affaires. Ne(e) le 1989-01-17 a 3e arrondissement de Lyon. Formation : EM Lyon Business School.
+Nicolas Rudancic, personnalité du monde des affaires. Ne(e) le 1989-01-17 a 3e arrondissement de Lyon. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q133285470

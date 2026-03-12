@@ -7,6 +7,21 @@ education: Université Columbia
 genre: féminin
 keywords:
 - personnalité politique
+liens:
+- Alexandra Bensaïd
+- Emmanuel Levacher
+- Frédérique Camilleri
+- Guillaume Debré
+- Jean-Michel Guénod
+- Julia Minkowski
+- Klara Wyrzykowska
+- Kéthévane Gorjestani
+- Olivier Royant
+- Philippe Oddou
+- Rachel-Flore Pardo
+- Robert Badinter
+- Rudy Rochman
+- Éléonore Caroit
 nationality: francaise
 nom_complet: Salomé Zourabichvili
 occupation: personnalité politique

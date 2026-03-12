@@ -7,6 +7,9 @@ education: université Grenoble-II
 genre: féminin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Emmanuel Ostian
+- Pierre Romera
 nationality: francaise
 nom_complet: Mélissa Theuriau
 occupation: présentateur ou présentatrice de journal

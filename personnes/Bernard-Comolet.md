@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Bernard Comolet, banquier. Ne(e) le 1947-03-01. Formation : HEC Paris.
+Bernard Comolet, banquier. Ne(e) le 1947-03-01. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2897706

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Victor Baissait, scénariste. Ne(e) le 1990-03-14 a Paris. Formation : université Paris-I-Panthéon-Sorbonne.
+Victor Baissait, scénariste. Ne(e) le 1990-03-14 a Paris. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q102347528

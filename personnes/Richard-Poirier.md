@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Richard Poirier, personnalité du monde des affaires. Ne(e) le 1963-10-20 a Issy-les-Moulineaux. Formation : EM Lyon Business School.
+Richard Poirier, personnalité du monde des affaires. Ne(e) le 1963-10-20 a Issy-les-Moulineaux. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q115170805

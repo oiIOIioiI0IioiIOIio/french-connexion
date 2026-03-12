@@ -7,6 +7,14 @@ education: université de Cambridge
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Arnold Philibert Dubois
+- Frédéric Dal Vecchio
+- Guy Danet
+- Gérald Olivier
+- Henri Burin des Roziers
+- Manon de La Selle
+- Myriam François-Cerrah
 nationality: francaise
 nom_complet: Ingrid Therwath
 occupation: journaliste

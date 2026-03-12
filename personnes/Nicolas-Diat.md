@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nicolas Diat, éditeur ou éditrice. Ne(e) le 1975-10-07 a Saint-Amand-Montrond. Formation : université Paris-I-Panthéon-Sorbonne.
+Nicolas Diat, éditeur ou éditrice. Ne(e) le 1975-10-07 a Saint-Amand-Montrond. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q56375357

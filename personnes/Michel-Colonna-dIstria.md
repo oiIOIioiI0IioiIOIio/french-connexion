@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel Colonna d'Istria, journaliste. Ne(e) le 1958-05-01 a Toulon. Formation : HEC Paris.
+Michel Colonna d'Istria, journaliste. Ne(e) le 1958-05-01 a Toulon. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3309306

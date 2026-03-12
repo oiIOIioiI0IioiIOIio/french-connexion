@@ -4,6 +4,31 @@ founded: '1978-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Astrid Bard
+- Bernard Sananès
+- Camille Grenu
+- Catherine Chabaud
+- Charlotte Le Grix de La Salle
+- Dorothée Olliéric
+- François Pécheux
+- Georges Malbrunot
+- Gérard Davet
+- Hervé Mathoux
+- Jamy Gourmaud
+- Julien Arnaud
+- Julien Bellver
+- Marlène Séguin
+- Mathieu Palain
+- Odile Longueval
+- Olivier Delacroix
+- Olivier Truchot
+- Patrick de Saint-Exupéry
+- Romain Hussenot
+- Sonia Ghezali
+- Thierry Fréret
+- Édouard Zambeaux
+- Éric Leser
 nom_complet: Institut pratique du journalisme
 sources:
 - https://www.wikidata.org/entity/Q3152488

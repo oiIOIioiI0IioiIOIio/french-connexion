@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Benjamin Barthe, journaliste. Ne(e) le 1972-01-01. Formation : Centre de formation des journalistes.
+Benjamin Barthe, journaliste. Ne(e) le 1972-01-01. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2895995

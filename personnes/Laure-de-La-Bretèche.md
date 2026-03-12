@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Laure de La Bretèche, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1971-09-28 a Boulogne-Billancourt. Formation : École normale supérieure.
+Laure de La Bretèche, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1971-09-28 a Boulogne-Billancourt. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33139966

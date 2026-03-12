@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Paul Bazin, personnalité politique. Ne(e) le 1985-09-04. Formation : HEC Paris.
+Paul Bazin, personnalité politique. Ne(e) le 1985-09-04. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q47264774

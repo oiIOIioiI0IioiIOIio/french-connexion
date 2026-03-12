@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Armel de La Bourdonnaye, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1963-10-11 a Orléans. Formation : École polytechnique.
+Armel de La Bourdonnaye, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1963-10-11 a Orléans. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33167151

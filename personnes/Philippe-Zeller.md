@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Philippe Zeller, diplomate. Ne(e) le 1952-10-03 a 6e arrondissement de Lyon. Formation : HEC Paris.
+Philippe Zeller, diplomate. Ne(e) le 1952-10-03 a 6e arrondissement de Lyon. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q24054581

@@ -19,4 +19,4 @@ website: http://www.abertzaleen-batasuna.over-blog.com
 wikidata_id: Q2746868
 ---
 
-Abertzaleen Batasuna, parti politique francais.
+Abertzaleen [[Batasuna]], parti politique francais.

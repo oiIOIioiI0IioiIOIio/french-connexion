@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christophe Cuvillier, personnalité du monde des affaires. Ne(e) le 1962-12-05 a Etterbeek. Formation : HEC Paris.
+Christophe Cuvillier, personnalité du monde des affaires. Ne(e) le 1962-12-05 a Etterbeek. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q13632234

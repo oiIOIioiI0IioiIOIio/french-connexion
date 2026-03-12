@@ -7,6 +7,14 @@ education: université Bourgogne Europe
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Arnaud Montebourg
+- Emmanuel Berretta
+- Francis Vuillemin
+- Jean-Louis Beaucarnot
+- Jean-Michel Djian
+- Katalin Escher
+- Sophie Dion
 nationality: francaise
 nom_complet: François Baroin
 occupation: avocat ou avocate

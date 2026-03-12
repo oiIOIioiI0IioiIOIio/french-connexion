@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bernard Patault, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1931-03-06 a Paris. Formation : Institut d'études politiques de Paris.
+Bernard Patault, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1931-03-06 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50923379

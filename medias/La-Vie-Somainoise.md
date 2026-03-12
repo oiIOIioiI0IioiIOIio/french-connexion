@@ -16,4 +16,4 @@ type: Media
 wikidata_id: Q71239679
 ---
 
-La Vie Somainoise, media francais.
+[[La Vie]] Somainoise, media francais.

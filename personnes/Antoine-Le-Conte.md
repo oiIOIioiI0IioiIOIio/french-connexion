@@ -7,6 +7,23 @@ education: université Paris-Dauphine
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Alain Cotta
+- Claude Askolovitch
+- Delphine Vitry
+- Gabrielle Cluzel
+- Gildas Sagot
+- Joëlle Pellegrin
+- Jérôme Chapuis
+- Laurent Aléonard
+- Nolwenn Le Blevennec
+- Philippe Dupont
+- Philippe Verdier
+- Pierre-François Blanc
+- Raphael Kahane
+- Sébastien Romelot
+- Xavier de Moulins
+- Yassine Redissi
 nationality: francaise
 nom_complet: Antoine Le Conte
 occupation: personnalité du monde des affaires
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Antoine Le Conte, personnalité du monde des affaires. Ne(e) le 1985-12-02 a Suresnes. Formation : université Paris-Dauphine.
+Antoine Le Conte, personnalité du monde des affaires. Ne(e) le 1985-12-02 a Suresnes. Formation : [[Université Paris-Dauphine]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q123986007

@@ -5,6 +5,11 @@ headquarters: Paris
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Estérelle Payany
+- François Stifani
+- Pierre Guyot
+- Thierry Chavel
 nom_complet: Conservatoire national des arts et métiers
 sources:
 - https://www.wikidata.org/entity/Q524289

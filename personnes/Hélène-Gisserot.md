@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Hélène Gisserot, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1936-05-11 a 13e arrondissement de Paris. Formation : Institut d'études politiques de Paris.
+Hélène Gisserot, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1936-05-11 a 13e arrondissement de Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q24303989

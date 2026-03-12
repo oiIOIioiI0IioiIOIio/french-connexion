@@ -7,6 +7,8 @@ education: École nationale d'administration
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Paul Jean-Ortiz
 nationality: francaise
 nom_complet: Paul Jean
 occupation: haut fonctionnaire ou haute fonctionnaire

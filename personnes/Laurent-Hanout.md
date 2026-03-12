@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Laurent Hanout, personnalité du monde des affaires. Ne(e) le 1965-12-09 a Nantes. Formation : EM Lyon Business School.
+Laurent Hanout, personnalité du monde des affaires. Ne(e) le 1965-12-09 a Nantes. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q135778766

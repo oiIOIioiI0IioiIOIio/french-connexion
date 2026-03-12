@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel Pinault, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1947-05-09 a 16e arrondissement de Paris. Formation : HEC Paris.
+Michel Pinault, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1947-05-09 a 16e arrondissement de Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q22951212

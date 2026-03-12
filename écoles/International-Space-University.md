@@ -4,6 +4,11 @@ founded: '1987-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Christine Kelly
+- Gilles Jacquier
+- Kady Adoum-Douass
+- Karine Baste
 nom_complet: International Space University
 sources:
 - https://www.wikidata.org/entity/Q766034

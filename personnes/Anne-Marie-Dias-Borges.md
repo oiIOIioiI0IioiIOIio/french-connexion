@@ -7,6 +7,8 @@ education: Université de Londres
 genre: féminin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Catherine Norris Trent
 nationality: francaise
 nom_complet: Anne-Marie Dias Borges
 occupation: présentateur ou présentatrice de journal

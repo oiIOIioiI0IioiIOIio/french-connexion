@@ -7,6 +7,9 @@ education: université Grenoble-II
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Mélissa Theuriau
+- Pierre Romera
 nationality: francaise
 nom_complet: Emmanuel Ostian
 occupation: écrivain ou écrivaine

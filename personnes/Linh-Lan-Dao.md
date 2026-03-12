@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Linh-Lan Dao, journaliste. Ne(e) le 1987-01-01. Formation : Institut d'études politiques de Paris.
+Linh-Lan Dao, journaliste. Ne(e) le 1987-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q105437158

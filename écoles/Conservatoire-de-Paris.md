@@ -5,6 +5,8 @@ headquarters: 19e arrondissement de Paris
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Jacques Cardoze
 nom_complet: Conservatoire de Paris
 sources:
 - https://www.wikidata.org/entity/Q463055

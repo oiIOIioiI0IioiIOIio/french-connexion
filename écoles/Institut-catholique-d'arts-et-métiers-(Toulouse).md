@@ -19,4 +19,4 @@ website: https://www.icam.fr/les-campus/icam-toulouse/
 wikidata_id: Q100956175
 ---
 
-Institut catholique d'arts et métiers (Toulouse), etablissement d'enseignement superieur francais.
+[[Institut catholique d'arts et métiers]] (Toulouse), etablissement d'enseignement superieur francais.

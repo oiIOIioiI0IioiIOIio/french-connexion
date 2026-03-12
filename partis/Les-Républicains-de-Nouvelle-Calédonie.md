@@ -15,4 +15,4 @@ type: Parti
 wikidata_id: Q20731571
 ---
 
-Les Républicains de Nouvelle-Calédonie, parti politique francais.
+[[Les Républicains]] de Nouvelle-Calédonie, parti politique francais.

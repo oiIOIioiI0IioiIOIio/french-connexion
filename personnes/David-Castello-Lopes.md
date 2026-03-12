@@ -7,6 +7,13 @@ education: Université de Californie à Berkeley
 genre: masculin
 keywords:
 - humoriste
+liens:
+- Fabienne Keller
+- Henry Peter
+- Laurence Auer
+- Marjorie Vanbaelinghem
+- Serge Halimi
+- Teymouraz Gorjestani
 nationality: francaise
 nom_complet: David Castello-Lopes
 occupation: humoriste

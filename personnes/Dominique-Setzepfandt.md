@@ -7,6 +7,17 @@ education: université de Tours
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Fabrice Lhomme
+- Frédéric Thibaud
+- Harry Roselmack
+- Laurent Bignolas
+- Nassira El Moaddem
+- Pascal Jan
+- Philippe Anginot
+- Raphael Costambeys-Kempczynski
+- Renaud Machart
+- Éric Brunet
 nationality: francaise
 nom_complet: Dominique Setzepfandt
 occupation: journaliste

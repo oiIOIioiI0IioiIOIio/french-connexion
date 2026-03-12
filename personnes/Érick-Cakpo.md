@@ -7,6 +7,24 @@ education: université de Strasbourg
 genre: masculin
 keywords:
 - théologien ou théologienne
+liens:
+- Antoine Genton
+- Barto Pedro Orent-Niedzielski
+- Bertrand Mertz
+- Christian Kassel
+- Christian Nique
+- Christophe Grudler
+- Francis Letellier
+- François Hoehlinger
+- Françoise Joly
+- Jean Kahn
+- Jean-Baptiste Soufron
+- Jean-Marie Bockel
+- Louis Oster
+- Marie-Monique Robin
+- Patrick Strzoda
+- Raymond Forni
+- Romain Mielcarek
 nationality: francaise
 nom_complet: Érick Cakpo
 occupation: théologien ou théologienne

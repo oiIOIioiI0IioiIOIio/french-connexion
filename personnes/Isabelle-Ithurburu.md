@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Isabelle Ithurburu, journaliste. Ne(e) le 1983-02-24 a Pau. Formation : Université de Pau et des pays de l'Adour.
+Isabelle Ithurburu, journaliste. Ne(e) le 1983-02-24 a Pau. Formation : [[Université de Pau et des pays de l'Adour]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3154952

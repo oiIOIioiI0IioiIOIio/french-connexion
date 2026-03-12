@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marie Desplechin, scénariste. Ne(e) le 1959-01-07 a Roubaix. Formation : Centre de formation des journalistes.
+Marie Desplechin, scénariste. Ne(e) le 1959-01-07 a Roubaix. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3292486

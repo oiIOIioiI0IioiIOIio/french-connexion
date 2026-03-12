@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marc Ouayoun, personnalité du monde des affaires. Ne(e) le 1971-08-01 a Dunkerque. Formation : EM Lyon Business School.
+Marc Ouayoun, personnalité du monde des affaires. Ne(e) le 1971-08-01 a Dunkerque. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33240253

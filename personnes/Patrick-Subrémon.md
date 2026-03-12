@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Patrick Subrémon, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1947-11-25 a Saint-Laurent-d'Aigouze. Formation : Institut d'études politiques de Paris.
+Patrick Subrémon, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1947-11-25 a Saint-Laurent-d'Aigouze. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3369871

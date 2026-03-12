@@ -7,6 +7,11 @@ education: université Paul-Cézanne - Aix-Marseille III
 genre: masculin
 keywords:
 - rédacteur ou rédactrice en chef
+liens:
+- Anne Bouillon
+- Maryse Joissains-Masini
+- Pierre Falcone
+- Sophie Joissains
 nationality: francaise
 nom_complet: Stéphane Benoit-Godet
 occupation: rédacteur ou rédactrice en chef

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Guillaume Erner, chroniqueur ou chroniqueuse. Ne(e) le 1968-02-08 a Paris. Formation : université Paris-Sorbonne.
+Guillaume Erner, chroniqueur ou chroniqueuse. Ne(e) le 1968-02-08 a Paris. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q28026552

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Vincent Giret, journaliste. Ne(e) le 1961-08-25 a Berck. Formation : université Paris-Sorbonne.
+Vincent Giret, journaliste. Ne(e) le 1961-08-25 a Berck. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33120844

@@ -7,6 +7,18 @@ education: université Rennes-II
 genre: féminin
 keywords:
 - correspondant ou correspondante de guerre
+liens:
+- Alain Pirot
+- Anne-Claire Coudray
+- Denis Ruellan
+- Erwan Chartier
+- Fanny Chauffin
+- Gaspard Glanz
+- Hélène Fily
+- Morgane Tual
+- Philippe Georgeais
+- Samuel Le Goff
+- Sidonie Bonnec
 nationality: francaise
 nom_complet: Maryse Burgot
 occupation: correspondant ou correspondante de guerre

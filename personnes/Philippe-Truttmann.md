@@ -7,6 +7,9 @@ education: université de Metz
 genre: masculin
 keywords:
 - militaire
+liens:
+- Max Schiavon
+- Nathalie Griesbeck
 nationality: francaise
 nom_complet: Philippe Truttmann
 occupation: militaire

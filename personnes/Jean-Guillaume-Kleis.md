@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Guillaume Kleis, personnalité du monde des affaires. Ne(e) le 1988-03-09 a Strasbourg. Formation : EM Lyon Business School.
+Jean-Guillaume Kleis, personnalité du monde des affaires. Ne(e) le 1988-03-09 a Strasbourg. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q131461885

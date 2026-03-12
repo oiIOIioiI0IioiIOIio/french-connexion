@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-David Amiel, personnalité politique. Ne(e) le 1992-11-28 a Paris. Formation : École normale supérieure.
+David Amiel, personnalité politique. Ne(e) le 1992-11-28 a Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q47502155

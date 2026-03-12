@@ -7,6 +7,19 @@ education: Centre universitaire d'enseignement du journalisme
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Agnès Vahramian
+- Antoine Giniaux
+- Arthur Frayer-Laleix
+- Camille Langlade
+- Damien Thévenot
+- Jacky Durand
+- Ludovic Vigogne
+- Marc Fauvelle
+- Matthieu Suc
+- Rachid Arhab
+- Thierry Suzan
+- Éric Ghebali
 nationality: francaise
 nom_complet: Fabienne Sintes
 occupation: journaliste

@@ -7,6 +7,8 @@ education: École nationale supérieure des arts et techniques du théâtre
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Lolita Tergemina
 nationality: francaise
 nom_complet: Jean-Luc Lavaud
 occupation: diplomate

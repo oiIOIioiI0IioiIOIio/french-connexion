@@ -7,6 +7,17 @@ education: université de Tours
 genre: masculin
 keywords:
 - juriste
+liens:
+- Dominique Setzepfandt
+- Fabrice Lhomme
+- Frédéric Thibaud
+- Harry Roselmack
+- Laurent Bignolas
+- Nassira El Moaddem
+- Philippe Anginot
+- Raphael Costambeys-Kempczynski
+- Renaud Machart
+- Éric Brunet
 nationality: francaise
 nom_complet: Pascal Jan
 occupation: juriste

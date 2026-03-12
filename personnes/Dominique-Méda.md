@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Dominique Méda, scientifique. Ne(e) le 1962-07-17 a Sedan. Formation : École normale supérieure.
+Dominique Méda, scientifique. Ne(e) le 1962-07-17 a Sedan. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3035352

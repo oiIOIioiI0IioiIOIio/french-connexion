@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-François Coste, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1937-01-01. Formation : École polytechnique.
+Jean-François Coste, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1937-01-01. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3165547

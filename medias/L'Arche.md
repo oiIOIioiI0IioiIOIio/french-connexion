@@ -4,6 +4,8 @@ founded: '1944-01-01'
 keywords:
 - media
 - presse
+liens:
+- Jean Coussirou
 nom_complet: L'Arche
 sources:
 - https://www.wikidata.org/entity/Q23017362

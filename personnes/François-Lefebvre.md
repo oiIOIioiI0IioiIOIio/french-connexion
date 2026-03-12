@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-François Lefebvre, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1929-03-08 a Paris. Formation : Institut d'études politiques de Paris.
+François Lefebvre, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1929-03-08 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q109856040

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Stéphane Horel, réalisateur ou réalisatrice de documentaire. Ne(e) le 1976-01-01. Formation : Centre de formation des journalistes.
+Stéphane Horel, réalisateur ou réalisatrice de documentaire. Ne(e) le 1976-01-01. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3501834

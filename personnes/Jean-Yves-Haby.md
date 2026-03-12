@@ -7,6 +7,8 @@ education: Clermont School of Business
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Émilie Tran Nguyen
 nationality: francaise
 nom_complet: Jean-Yves Haby
 occupation: personnalité politique
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Jean-Yves Haby, personnalité politique. Ne(e) le 1955-01-05 a Dombasle-sur-Meurthe. Formation : Clermont School of Business.
+Jean-Yves Haby, personnalité politique. Ne(e) le 1955-01-05 a Dombasle-sur-Meurthe. Formation : [[Clermont School of Business]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2363059

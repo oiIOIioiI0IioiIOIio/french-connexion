@@ -7,6 +7,10 @@ education: université de La Réunion
 genre: masculin
 keywords:
 - scénariste
+liens:
+- Ericka Bareigts
+- Francky Lauret
+- Jean-Marc Cassam Chenai
 nationality: francaise
 nom_complet: Manu Payet
 occupation: scénariste

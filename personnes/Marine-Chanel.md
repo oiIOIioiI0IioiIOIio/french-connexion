@@ -7,6 +7,25 @@ education: Institut d'études politiques de Grenoble
 genre: féminin
 keywords:
 - journaliste
+liens:
+- André Vallini
+- Ariane Lavrilleux
+- Benjamin Sportouch
+- Bernard Lesterlin
+- Camille Emmanuelle
+- Caroline Roux
+- Coralie Delaume
+- Fabien Escalona
+- Guillaume Daret
+- Jean-Dominique Merchet
+- Jean-Luc Névache
+- Lionel Astruc
+- Luc Bronner
+- Nicolas Geay
+- Olivier Revol
+- Paul Marchand
+- Roger Gros
+- Ronan Lancelot
 nationality: francaise
 nom_complet: Marine Chanel
 occupation: journaliste
@@ -22,7 +41,7 @@ tags:
 type: Personne
 ---
 
-Marine Chanel, journaliste. Ne(e) le 1981-01-01. Formation : Institut d'études politiques de Grenoble.
+[[Marine]] Chanel, journaliste. Ne(e) le 1981-01-01. Formation : [[Institut d'études politiques de Grenoble]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q34197518

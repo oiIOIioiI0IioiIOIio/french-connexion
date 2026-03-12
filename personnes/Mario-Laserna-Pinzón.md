@@ -7,6 +7,12 @@ education: Université de Princeton
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- David Djaïz
+- Florian Cardinaux
+- Frédéric Mion
+- Marguerite Bérard
+- Terence Strick
 nationality: francaise
 nom_complet: Mario Laserna Pinzón
 occupation: écrivain ou écrivaine

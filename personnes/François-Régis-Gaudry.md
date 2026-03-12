@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-François-Régis Gaudry, écrivain ou écrivaine. Ne(e) le 1975-08-19 a Sainte-Foy-lès-Lyon. Formation : Institut d'études politiques de Paris.
+François-Régis Gaudry, écrivain ou écrivaine. Ne(e) le 1975-08-19 a Sainte-Foy-lès-Lyon. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3083646

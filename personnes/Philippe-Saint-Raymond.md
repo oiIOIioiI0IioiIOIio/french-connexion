@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Philippe Saint-Raymond, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1943-03-21 a Carlux. Formation : École polytechnique.
+Philippe Saint-Raymond, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1943-03-21 a Carlux. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3380682

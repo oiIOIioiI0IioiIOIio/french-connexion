@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marc Albert Chaigneau, avocat ou avocate. Ne(e) le 1947-01-01 a Paris. Formation : université Paris-I-Panthéon-Sorbonne.
+Marc Albert Chaigneau, avocat ou avocate. Ne(e) le 1947-01-01 a Paris. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q105078722

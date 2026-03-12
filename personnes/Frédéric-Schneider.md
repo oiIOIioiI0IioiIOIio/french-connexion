@@ -7,6 +7,8 @@ education: Université de Varsovie
 genre: masculin
 keywords:
 - entrepreneur ou entrepreneuse
+liens:
+- Jędrzej Bukowski
 nationality: francaise
 nom_complet: Frédéric Schneider
 occupation: entrepreneur ou entrepreneuse

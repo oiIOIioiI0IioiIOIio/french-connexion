@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jérôme Weibel, journaliste. Ne(e) le 1976-12-05. Formation : Centre de formation des journalistes.
+Jérôme Weibel, journaliste. Ne(e) le 1976-12-05. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3811748

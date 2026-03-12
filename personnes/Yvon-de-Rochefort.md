@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Yvon de Rochefort, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1933-09-27 a Cerdon. Formation : Institut d'études politiques de Paris.
+Yvon de Rochefort, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1933-09-27 a Cerdon. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q123368560

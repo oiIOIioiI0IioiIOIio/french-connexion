@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Guidoni, personnalité politique. Ne(e) le 1941-10-03 a Montpellier. Formation : Institut d'études politiques de Paris.
+Pierre Guidoni, personnalité politique. Ne(e) le 1941-10-03 a Montpellier. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3385363

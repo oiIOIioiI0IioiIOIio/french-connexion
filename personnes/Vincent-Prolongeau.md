@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Vincent Prolongeau, personnalité du monde des affaires. Ne(e) le 1964-12-20 a Talence. Formation : EM Lyon Business School.
+Vincent Prolongeau, personnalité du monde des affaires. Ne(e) le 1964-12-20 a Talence. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q17351008

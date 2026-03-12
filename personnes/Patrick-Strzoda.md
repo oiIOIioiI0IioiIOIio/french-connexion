@@ -7,6 +7,24 @@ education: université de Strasbourg
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Antoine Genton
+- Barto Pedro Orent-Niedzielski
+- Bertrand Mertz
+- Christian Kassel
+- Christian Nique
+- Christophe Grudler
+- Francis Letellier
+- François Hoehlinger
+- Françoise Joly
+- Jean Kahn
+- Jean-Baptiste Soufron
+- Jean-Marie Bockel
+- Louis Oster
+- Marie-Monique Robin
+- Raymond Forni
+- Romain Mielcarek
+- Érick Cakpo
 nationality: francaise
 nom_complet: Patrick Strzoda
 occupation: haut fonctionnaire ou haute fonctionnaire

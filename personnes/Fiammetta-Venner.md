@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Fiammetta Venner, politologue. Ne(e) le 1971-08-16 a Beyrouth. Formation : Institut d'études politiques de Paris.
+Fiammetta Venner, politologue. Ne(e) le 1971-08-16 a Beyrouth. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3071099

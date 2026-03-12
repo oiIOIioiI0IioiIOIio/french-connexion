@@ -7,6 +7,8 @@ education: École du service public de la mer
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Jean-François Tallec
 nationality: francaise
 nom_complet: Philippe Ronssin
 occupation: haut fonctionnaire ou haute fonctionnaire

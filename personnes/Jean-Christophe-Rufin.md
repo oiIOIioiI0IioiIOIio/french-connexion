@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Christophe Rufin, scénariste. Ne(e) le 1952-06-28 a Bourges. Formation : Institut d'études politiques de Paris.
+Jean-Christophe Rufin, scénariste. Ne(e) le 1952-06-28 a Bourges. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q713222

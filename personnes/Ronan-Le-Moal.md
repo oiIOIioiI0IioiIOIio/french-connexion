@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Ronan Le Moal, banquier. Ne(e) le 1972-04-17 a Brest. Formation : HEC Paris.
+Ronan Le Moal, banquier. Ne(e) le 1972-04-17 a Brest. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3441604

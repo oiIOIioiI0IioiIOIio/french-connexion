@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Josette Dallant, diplomate. Ne(e) le 1941-06-04. Formation : Institut d'études politiques de Paris.
+Josette Dallant, diplomate. Ne(e) le 1941-06-04. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q66121782

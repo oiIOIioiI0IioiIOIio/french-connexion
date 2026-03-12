@@ -7,6 +7,10 @@ education: université de Bretagne-Occidentale
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Christian Troadec
+- Frank Samson
+- Philippe Collin
 nationality: francaise
 nom_complet: Philippe Lacombe
 occupation: haut fonctionnaire ou haute fonctionnaire

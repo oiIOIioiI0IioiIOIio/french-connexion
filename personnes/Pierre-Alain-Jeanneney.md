@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre-Alain Jeanneney, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1952-07-03 a 16e arrondissement de Paris. Formation : École nationale d'administration.
+Pierre-Alain [[Jeanne]]ney, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1952-07-03 a 16e arrondissement de Paris. Formation : École nationale d'administration.
 
 ## Sources
 - http://www.wikidata.org/entity/Q65964126

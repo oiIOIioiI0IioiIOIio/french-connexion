@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Tidjane Thiam, personnalité du monde des affaires. Ne(e) le 1962-07-29 a Abidjan. Formation : École polytechnique.
+Tidjane Thiam, personnalité du monde des affaires. Ne(e) le 1962-07-29 a Abidjan. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3528191

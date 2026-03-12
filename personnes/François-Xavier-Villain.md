@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-François-Xavier Villain, avocat ou avocate. Ne(e) le 1950-05-31 a Abbeville. Formation : Institut d'études politiques de Paris.
+François-Xavier Villain, avocat ou avocate. Ne(e) le 1950-05-31 a Abbeville. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q12964

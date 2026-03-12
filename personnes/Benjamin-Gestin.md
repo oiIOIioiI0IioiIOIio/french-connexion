@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Benjamin Gestin, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1977-02-25 a Paris. Formation : École normale supérieure.
+Benjamin Gestin, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1977-02-25 a Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q47684201

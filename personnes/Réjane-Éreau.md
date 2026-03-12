@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Réjane Éreau, écrivain ou écrivaine. Ne(e) le 1972-07-05. Formation : EM Lyon Business School.
+Réjane Éreau, écrivain ou écrivaine. Ne(e) le 1972-07-05. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q118487095

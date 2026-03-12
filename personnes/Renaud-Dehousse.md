@@ -7,6 +7,8 @@ education: Université de Liège
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Jean Claude Bologne
 nationality: francaise
 nom_complet: Renaud Dehousse
 occupation: avocat ou avocate

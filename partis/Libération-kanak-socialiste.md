@@ -17,4 +17,4 @@ type: Parti
 wikidata_id: Q3238003
 ---
 
-Libération kanak socialiste, parti politique francais.
+[[Libération]] kanak socialiste, parti politique francais.

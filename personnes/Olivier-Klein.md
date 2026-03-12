@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Olivier Klein, personnalité du monde des affaires. Ne(e) le 1957-06-15 a Paris. Formation : HEC Paris.
+Olivier Klein, personnalité du monde des affaires. Ne(e) le 1957-06-15 a Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50328096

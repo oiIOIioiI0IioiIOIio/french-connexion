@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Christophe Klotz, journaliste. Ne(e) le 1962-04-14 a Washington. Formation : Centre de formation des journalistes.
+Jean-Christophe Klotz, journaliste. Ne(e) le 1962-04-14 a Washington. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3164753

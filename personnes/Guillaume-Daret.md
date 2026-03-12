@@ -7,6 +7,25 @@ education: Institut d'études politiques de Grenoble
 genre: masculin
 keywords:
 - journaliste
+liens:
+- André Vallini
+- Ariane Lavrilleux
+- Benjamin Sportouch
+- Bernard Lesterlin
+- Camille Emmanuelle
+- Caroline Roux
+- Coralie Delaume
+- Fabien Escalona
+- Jean-Dominique Merchet
+- Jean-Luc Névache
+- Lionel Astruc
+- Luc Bronner
+- Marine Chanel
+- Nicolas Geay
+- Olivier Revol
+- Paul Marchand
+- Roger Gros
+- Ronan Lancelot
 nationality: francaise
 nom_complet: Guillaume Daret
 occupation: journaliste
@@ -22,7 +41,7 @@ tags:
 type: Personne
 ---
 
-Guillaume Daret, journaliste. Ne(e) le 1984-01-01. Formation : Institut d'études politiques de Grenoble.
+Guillaume Daret, journaliste. Ne(e) le 1984-01-01. Formation : [[Institut d'études politiques de Grenoble]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q46090972

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre-Henri Paillet, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1953-11-18 a Bamako. Formation : École polytechnique.
+Pierre-Henri Paillet, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1953-11-18 a Bamako. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3383109

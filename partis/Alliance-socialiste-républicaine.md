@@ -15,4 +15,4 @@ type: Parti
 wikidata_id: Q2800109
 ---
 
-Alliance socialiste républicaine, parti politique francais.
+[[Alliance]] socialiste républicaine, parti politique francais.

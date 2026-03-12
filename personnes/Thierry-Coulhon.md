@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Thierry Coulhon, mathématicien ou mathématicienne. Ne(e) le 1958-09-09 a Vichy. Formation : École polytechnique.
+Thierry Coulhon, mathématicien ou mathématicienne. Ne(e) le 1958-09-09 a Vichy. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3524193

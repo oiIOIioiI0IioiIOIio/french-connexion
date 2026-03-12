@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Matthieu Peyraud, personnalité politique. Ne(e) le 1974-05-06 a Saint-Cloud. Formation : HEC Paris.
+Matthieu Peyraud, personnalité politique. Ne(e) le 1974-05-06 a Saint-Cloud. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33110005

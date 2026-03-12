@@ -7,6 +7,8 @@ education: Université Johns-Hopkins
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Yasmine Gouedard
 nationality: francaise
 nom_complet: Bruno Patino
 occupation: écrivain ou écrivaine

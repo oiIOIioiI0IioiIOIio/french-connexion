@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Grégoire Giraud, personnalité du monde des affaires. Ne(e) le 1952-02-09 a 6e arrondissement de Lyon. Formation : EM Lyon Business School.
+Grégoire Giraud, personnalité du monde des affaires. Ne(e) le 1952-02-09 a 6e arrondissement de Lyon. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q133460719

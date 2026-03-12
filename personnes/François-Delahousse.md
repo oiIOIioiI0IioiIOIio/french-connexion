@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-François Delahousse, diplomate. Ne(e) le 1965-06-25 a Suresnes. Formation : École normale supérieure.
+François Delahousse, diplomate. Ne(e) le 1965-06-25 a Suresnes. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50687646

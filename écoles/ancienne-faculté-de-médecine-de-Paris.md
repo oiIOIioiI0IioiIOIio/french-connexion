@@ -17,4 +17,4 @@ type: Ecole
 wikidata_id: Q104777594
 ---
 
-ancienne faculté de médecine de Paris, etablissement d'enseignement superieur francais.
+ancienne [[faculté de médecine de Paris]], etablissement d'enseignement superieur francais.

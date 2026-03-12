@@ -7,6 +7,14 @@ education: université Bourgogne Europe
 genre: masculin
 keywords:
 - chargé de cours
+liens:
+- Arnaud Montebourg
+- Emmanuel Berretta
+- Francis Vuillemin
+- François Baroin
+- Jean-Louis Beaucarnot
+- Katalin Escher
+- Sophie Dion
 nationality: francaise
 nom_complet: Jean-Michel Djian
 occupation: chargé de cours

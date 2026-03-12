@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marlène Rabaud, réalisateur ou réalisatrice de documentaire. Ne(e) le 2000-01-01. Formation : Le Fresnoy.
+Marlène Rabaud, réalisateur ou réalisatrice de documentaire. Ne(e) le 2000-01-01. Formation : [[Le Fresnoy]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q73549361

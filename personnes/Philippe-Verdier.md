@@ -7,6 +7,23 @@ education: université Paris-Dauphine
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Alain Cotta
+- Antoine Le Conte
+- Claude Askolovitch
+- Delphine Vitry
+- Gabrielle Cluzel
+- Gildas Sagot
+- Joëlle Pellegrin
+- Jérôme Chapuis
+- Laurent Aléonard
+- Nolwenn Le Blevennec
+- Philippe Dupont
+- Pierre-François Blanc
+- Raphael Kahane
+- Sébastien Romelot
+- Xavier de Moulins
+- Yassine Redissi
 nationality: francaise
 nom_complet: Philippe Verdier
 occupation: écrivain ou écrivaine
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Philippe Verdier, écrivain ou écrivaine. Ne(e) le 1968-05-23 a Neuilly-sur-Seine. Formation : université Paris-Dauphine.
+Philippe Verdier, écrivain ou écrivaine. Ne(e) le 1968-05-23 a Neuilly-sur-Seine. Formation : [[Université Paris-Dauphine]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3380844

@@ -7,6 +7,8 @@ education: université Marie-et-Louis-Pasteur
 genre: masculin
 keywords:
 - auteur
+liens:
+- Aline Kuster-Ménager
 nationality: francaise
 nom_complet: Ismaël Boudjekada
 occupation: auteur

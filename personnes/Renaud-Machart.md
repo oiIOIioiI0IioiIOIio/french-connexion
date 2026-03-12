@@ -7,6 +7,17 @@ education: université de Tours
 genre: masculin
 keywords:
 - chanteur ou chanteuse
+liens:
+- Dominique Setzepfandt
+- Fabrice Lhomme
+- Frédéric Thibaud
+- Harry Roselmack
+- Laurent Bignolas
+- Nassira El Moaddem
+- Pascal Jan
+- Philippe Anginot
+- Raphael Costambeys-Kempczynski
+- Éric Brunet
 nationality: francaise
 nom_complet: Renaud Machart
 occupation: chanteur ou chanteuse

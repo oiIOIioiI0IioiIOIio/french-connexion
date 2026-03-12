@@ -7,6 +7,23 @@ education: université Paris-Dauphine
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Alain Cotta
+- Antoine Le Conte
+- Claude Askolovitch
+- Delphine Vitry
+- Gildas Sagot
+- Joëlle Pellegrin
+- Jérôme Chapuis
+- Laurent Aléonard
+- Nolwenn Le Blevennec
+- Philippe Dupont
+- Philippe Verdier
+- Pierre-François Blanc
+- Raphael Kahane
+- Sébastien Romelot
+- Xavier de Moulins
+- Yassine Redissi
 nationality: francaise
 nom_complet: Gabrielle Cluzel
 occupation: écrivain ou écrivaine
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Gabrielle Cluzel, écrivain ou écrivaine. Ne(e) le 1971-03-09. Formation : université Paris-Dauphine.
+Gabrielle Cluzel, écrivain ou écrivaine. Ne(e) le 1971-03-09. Formation : [[Université Paris-Dauphine]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q23831197

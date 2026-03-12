@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nathalie Darrigrand, producteur ou productrice de télévision. Ne(e) le 1964-01-01. Formation : université Paris-I-Panthéon-Sorbonne.
+Nathalie Darrigrand, producteur ou productrice de télévision. Ne(e) le 1964-01-01. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q105070974

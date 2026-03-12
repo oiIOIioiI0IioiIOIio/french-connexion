@@ -7,6 +7,8 @@ education: université Keiō
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Fabien Fieschi
 nationality: francaise
 nom_complet: Elsa Vidal
 occupation: journaliste

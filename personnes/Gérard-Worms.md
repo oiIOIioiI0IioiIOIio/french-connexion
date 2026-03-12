@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gérard Worms, personnalité du monde des affaires. Ne(e) le 1936-08-01 a 11e arrondissement de Paris. Formation : École polytechnique.
+Gérard Worms, personnalité du monde des affaires. Ne(e) le 1936-08-01 a 11e arrondissement de Paris. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16104584

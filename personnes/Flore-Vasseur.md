@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Flore Vasseur, écrivain ou écrivaine. Ne(e) le 1973-01-01 a Annecy. Formation : HEC Paris.
+Flore Vasseur, écrivain ou écrivaine. Ne(e) le 1973-01-01 a Annecy. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q15137604

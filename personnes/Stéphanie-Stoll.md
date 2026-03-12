@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Stéphanie Stoll, écrivain ou écrivaine. Ne(e) le 1979-01-01 a Lannion. Formation : Institut d'études politiques de Paris.
+Stéphanie Stoll, écrivain ou écrivaine. Ne(e) le 1979-01-01 a Lannion. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q67105197

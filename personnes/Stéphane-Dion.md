@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Stéphane Dion, écrivain ou écrivaine. Ne(e) le 1955-09-28. Formation : Institut d'études politiques de Paris.
+Stéphane Dion, écrivain ou écrivaine. Ne(e) le 1955-09-28. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q366456

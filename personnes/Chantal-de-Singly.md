@@ -7,6 +7,19 @@ education: université de Nantes
 genre: féminin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Arnaud de Perier
+- Bruno Jeudy
+- Clémentine Vergnaud
+- Cédric Peltier
+- Dimitri Rouchon-Borie
+- Jacques Moreau
+- Martine Leguille-Balloy
+- Mattias Guyomar
+- Nicolas Escoulan
+- Patrice Servantie
+- Paul Maillot Rafanoharana
+- Stéphane Simon
 nationality: francaise
 nom_complet: Chantal de Singly
 occupation: haut fonctionnaire ou haute fonctionnaire

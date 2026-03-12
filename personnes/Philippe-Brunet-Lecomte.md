@@ -7,6 +7,28 @@ education: université Lumière-Lyon-II
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Adrien Marcel Dubois
+- André Buffard
+- Gilles Gouédard-Comte
+- Jacques-Édouard Charret
+- Joël Pain
+- Juliette Aubrun
+- Jérôme Segal
+- Laurent Gamet
+- Louis-Jacques Rollet-Andriane
+- Lyane Guillaume
+- Michèle Léridon
+- Norberto Torres Cortés
+- Olivier Guillaume
+- Paul Ariès
+- Philippe Cohen
+- Romaric Daurier
+- Salomé Saqué
+- Sophie Elizéon
+- Stéphane Cayrol
+- Sébastien Chanove
+- Éric Falt
 nationality: francaise
 nom_complet: Philippe Brunet-Lecomte
 occupation: écrivain ou écrivaine

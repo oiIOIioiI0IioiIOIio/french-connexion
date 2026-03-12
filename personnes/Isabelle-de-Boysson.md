@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Isabelle de Boysson, enseignant ou enseignante. Ne(e) le 1964-01-01. Formation : Institut d'études politiques de Paris.
+Isabelle de Boysson, enseignant ou enseignante. Ne(e) le 1964-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q130448322

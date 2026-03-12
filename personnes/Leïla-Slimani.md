@@ -7,6 +7,34 @@ education: ESCP Business School
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Alexandre Piton
+- André Coisne
+- Anne Rosencher
+- Aude Lancelin
+- Benjamin Tancrède
+- Béatrice Khaiat
+- Christophe Agnus
+- Erkki Maillard
+- François Zocchetto
+- Frédéric Salat-Baroux
+- Gilles Martin-Chauffier
+- Jean-Marc Atlan
+- Jean-Marc Lofficier
+- Jean-Michel Carboni
+- Jean-Michel Severino
+- Jean-Pierre Raffarin
+- Julie Joly
+- Laurent Adamowicz
+- Marc Nicolas
+- Marie-Anne Poussin-Delmas
+- Martin Ajdari
+- Pierre Lévy
+- Pierre Zelenko
+- Xavier de Bayser
+- Yorick de Mombynes
+- Édouard de Royère
+- Éric Favereau
 nationality: francaise
 nom_complet: Leïla Slimani
 occupation: écrivain ou écrivaine
@@ -22,7 +50,7 @@ tags:
 type: Personne
 ---
 
-Leïla Slimani, écrivain ou écrivaine. Ne(e) le 1981-10-03 a Rabat. Formation : ESCP Business School.
+Leïla Slimani, écrivain ou écrivaine. Ne(e) le 1981-10-03 a Rabat. Formation : [[ESCP Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q18173445

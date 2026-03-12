@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gérard Eskénazi, banquier. Ne(e) le 1931-11-10 a 9e arrondissement de Paris. Formation : HEC Paris.
+Gérard Eskénazi, banquier. Ne(e) le 1931-11-10 a 9e arrondissement de Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16640870

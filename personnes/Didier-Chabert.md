@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Didier Chabert, diplomate. Ne(e) le 1962-04-14. Formation : HEC Paris.
+Didier Chabert, diplomate. Ne(e) le 1962-04-14. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q48977809

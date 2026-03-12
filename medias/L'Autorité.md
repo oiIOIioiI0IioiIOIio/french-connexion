@@ -17,4 +17,4 @@ website: https://bibliotheque.bordeaux.fr/notice?id=h%3A%3ABordeauxS_B330636101_
 wikidata_id: Q51237919
 ---
 
-L'Autorité, media francais.
+[[L'Auto]]rité, media francais.

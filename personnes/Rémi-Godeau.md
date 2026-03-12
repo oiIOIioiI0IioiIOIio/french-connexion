@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Rémi Godeau, journaliste. Ne(e) le 1967-01-04 a Toulouse. Formation : Institut d'études politiques de Paris.
+Rémi Godeau, journaliste. Ne(e) le 1967-01-04 a Toulouse. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3456024

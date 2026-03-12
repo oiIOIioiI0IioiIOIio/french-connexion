@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Moussa, banquier. Ne(e) le 1922-03-05 a 3e arrondissement de Lyon. Formation : École normale supérieure.
+Pierre Moussa, banquier. Ne(e) le 1922-03-05 a 3e arrondissement de Lyon. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3386375

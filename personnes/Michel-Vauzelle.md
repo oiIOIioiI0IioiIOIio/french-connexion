@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel Vauzelle, avocat ou avocate. Ne(e) le 1944-08-15 a Montélimar. Formation : Institut d'études politiques de Paris.
+Michel Vauzelle, avocat ou avocate. Ne(e) le 1944-08-15 a Montélimar. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q609661

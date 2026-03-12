@@ -7,6 +7,10 @@ education: Conservatoire national des arts et métiers
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- François Stifani
+- Pierre Guyot
+- Thierry Chavel
 nationality: francaise
 nom_complet: Estérelle Payany
 occupation: écrivain ou écrivaine
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Estérelle Payany, écrivain ou écrivaine. Ne(e) le 1975-01-01 a Istres. Formation : Conservatoire national des arts et métiers.
+Estérelle Payany, écrivain ou écrivaine. Ne(e) le 1975-01-01 a Istres. Formation : [[Conservatoire national des arts et métiers]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q86255916

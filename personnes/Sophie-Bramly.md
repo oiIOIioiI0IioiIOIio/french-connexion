@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sophie Bramly, producteur ou productrice de télévision. Ne(e) le 1959-06-28 a Tunis. Formation : ESAG Penninghen.
+Sophie Bramly, producteur ou productrice de télévision. Ne(e) le 1959-06-28 a Tunis. Formation : [[ESAG Penninghen]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q20724360

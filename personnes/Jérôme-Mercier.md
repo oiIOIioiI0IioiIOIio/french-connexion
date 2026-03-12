@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jérôme Mercier, directeur général ou directrice générale. Ne(e) le 1973-08-01. Formation : HEC Paris.
+Jérôme Mercier, directeur général ou directrice générale. Ne(e) le 1973-08-01. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q138634433

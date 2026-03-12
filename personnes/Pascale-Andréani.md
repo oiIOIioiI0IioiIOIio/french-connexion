@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pascale Andréani, diplomate. Ne(e) le 1955-04-06 a Paris. Formation : Institut d'études politiques de Paris.
+Pascale Andréani, diplomate. Ne(e) le 1955-04-06 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33168069

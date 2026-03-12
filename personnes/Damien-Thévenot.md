@@ -7,6 +7,19 @@ education: Centre universitaire d'enseignement du journalisme
 genre: masculin
 keywords:
 - animateur ou animatrice de télévision
+liens:
+- Agnès Vahramian
+- Antoine Giniaux
+- Arthur Frayer-Laleix
+- Camille Langlade
+- Fabienne Sintes
+- Jacky Durand
+- Ludovic Vigogne
+- Marc Fauvelle
+- Matthieu Suc
+- Rachid Arhab
+- Thierry Suzan
+- Éric Ghebali
 nationality: francaise
 nom_complet: Damien Thévenot
 occupation: animateur ou animatrice de télévision

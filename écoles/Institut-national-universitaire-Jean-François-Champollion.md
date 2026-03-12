@@ -5,6 +5,9 @@ headquarters: Albi
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Henri Gevrey
+- Jérôme Deliry
 nom_complet: Institut national universitaire Jean-François-Champollion
 sources:
 - https://www.wikidata.org/entity/Q929515

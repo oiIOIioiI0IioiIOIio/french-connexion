@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bruno Rousset, personnalité du monde des affaires. Ne(e) le 1956-03-09 a Tain-l'Hermitage. Formation : EM Lyon Business School.
+Bruno Rousset, personnalité du monde des affaires. Ne(e) le 1956-03-09 a Tain-l'Hermitage. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33105001

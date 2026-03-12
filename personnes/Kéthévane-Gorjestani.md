@@ -7,6 +7,21 @@ education: Université Columbia
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Alexandra Bensaïd
+- Emmanuel Levacher
+- Frédérique Camilleri
+- Guillaume Debré
+- Jean-Michel Guénod
+- Julia Minkowski
+- Klara Wyrzykowska
+- Olivier Royant
+- Philippe Oddou
+- Rachel-Flore Pardo
+- Robert Badinter
+- Rudy Rochman
+- Salomé Zourabichvili
+- Éléonore Caroit
 nationality: francaise
 nom_complet: Kéthévane Gorjestani
 occupation: journaliste

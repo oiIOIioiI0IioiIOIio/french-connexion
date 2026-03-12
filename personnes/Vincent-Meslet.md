@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Vincent Meslet, journaliste. Ne(e) le 1966-07-19 a Versailles. Formation : Institut d'études politiques de Paris.
+Vincent Meslet, journaliste. Ne(e) le 1966-07-19 a Versailles. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33102334

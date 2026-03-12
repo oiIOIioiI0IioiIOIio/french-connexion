@@ -7,6 +7,17 @@ education: Université de New York
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Anne Poiret
+- Antonin Lévy
+- Arno Klarsfeld
+- Géraldine Muhlmann
+- Iris Brey
+- Laurent Stefanini
+- Léa Salamé
+- Marie-Anne Barbat-Layani
+- Mohamed Sahnoun
+- Stéphanie Antoine
 nationality: francaise
 nom_complet: Carine Fouteau
 occupation: journaliste

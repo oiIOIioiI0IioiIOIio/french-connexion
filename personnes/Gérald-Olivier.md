@@ -7,6 +7,14 @@ education: université de Cambridge
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Arnold Philibert Dubois
+- Frédéric Dal Vecchio
+- Guy Danet
+- Henri Burin des Roziers
+- Ingrid Therwath
+- Manon de La Selle
+- Myriam François-Cerrah
 nationality: francaise
 nom_complet: Gérald Olivier
 occupation: écrivain ou écrivaine

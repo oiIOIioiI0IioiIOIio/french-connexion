@@ -7,6 +7,12 @@ education: lycée Henri-IV
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Ali Baddou
+- Daniel Schneidermann
+- Jean Birnbaum
+- Michel Eltchaninoff
+- Pierre Sergent
 nationality: francaise
 nom_complet: Jean-François Parot
 occupation: écrivain ou écrivaine

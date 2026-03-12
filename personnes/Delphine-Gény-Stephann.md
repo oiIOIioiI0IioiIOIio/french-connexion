@@ -7,6 +7,22 @@ education: École nationale des ponts et chaussées
 genre: féminin
 keywords:
 - personnalité politique
+liens:
+- Bernard Chenebault
+- Bernard Larrouturou
+- Bertrand de Singly
+- Christian Gerondeau
+- Claude Martinand
+- François Drouin
+- Hubert Peigné
+- Jean-Bosco de Laboulaye
+- Michel Le Net
+- Michel Rousselot
+- Noël de Saint-Pulgent
+- Pierre-Yves Guice
+- Raoul Rudeau
+- Xavier Lortat-Jacob
+- Xavier Piechaczyk
 nationality: francaise
 nom_complet: Delphine Gény-Stephann
 occupation: personnalité politique

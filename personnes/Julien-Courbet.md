@@ -7,6 +7,12 @@ education: université Bordeaux-IV
 genre: masculin
 keywords:
 - producteur ou productrice de télévision
+liens:
+- Hugues Moutouh
+- Julie Owono
+- Mathilde Munos
+- Myriam El Khomri
+- Élise Costa
 nationality: francaise
 nom_complet: Julien Courbet
 occupation: producteur ou productrice de télévision

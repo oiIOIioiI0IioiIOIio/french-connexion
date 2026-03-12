@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Valérie Chapoulaud-Floquet, personnalité du monde des affaires. Ne(e) le 1962-11-09 a Neuilly-sur-Seine. Formation : EM Lyon Business School.
+Valérie Chapoulaud-Floquet, personnalité du monde des affaires. Ne(e) le 1962-11-09 a Neuilly-sur-Seine. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q21008189

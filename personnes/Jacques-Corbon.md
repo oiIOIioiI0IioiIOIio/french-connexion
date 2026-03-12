@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jacques Corbon, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1929-01-13 a Neuilly-Plaisance. Formation : Institut d'études politiques de Paris.
+Jacques Corbon, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1929-01-13 a Neuilly-Plaisance. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50763015

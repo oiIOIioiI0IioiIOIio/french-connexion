@@ -7,6 +7,9 @@ education: Université du Pays basque
 genre: féminin
 keywords:
 - poète ou poétesse
+liens:
+- Amets Arzallus
+- Maddi Ane Txoperena Iribarren
 nationality: francaise
 nom_complet: Maddalen Arzallus
 occupation: poète ou poétesse

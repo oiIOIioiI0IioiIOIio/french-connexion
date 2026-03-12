@@ -7,6 +7,17 @@ education: université Toulouse-Capitole
 genre: féminin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Ali Rebeihi
+- André Ferragne
+- Anne-Sophie Barthez
+- Bertrand Delanoë
+- Christophe Lèguevaques
+- David Koubbi
+- Jacques Lévy
+- Jean-Nicolas Baylet
+- Louis Aliot
+- Philippe Fabry
 nationality: francaise
 nom_complet: Éléonore Blondeau
 occupation: personnalité du monde des affaires

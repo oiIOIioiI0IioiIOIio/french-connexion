@@ -17,4 +17,4 @@ type: Parti
 wikidata_id: Q55595356
 ---
 
-Action populaire nationale d'Alsace, parti politique francais.
+[[Action]] populaire nationale d'Alsace, parti politique francais.

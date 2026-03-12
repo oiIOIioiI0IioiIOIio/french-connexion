@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nathalie Delapalme, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1957-02-15 a Grenoble. Formation : Institut d'études politiques de Paris.
+Nathalie Delapalme, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1957-02-15 a Grenoble. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3336564

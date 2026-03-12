@@ -3,6 +3,1084 @@ date_creation_note: '2026-03-12'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Abdel Bounane
+- Abdelkader Hadjar
+- Abdou Diouf
+- Abdoulatifou Aly
+- Abel Mestre
+- Adila Bennedjaï-Zou
+- Adrian Dearnell
+- Adrien Bostmambrun
+- Adrien Laurentin
+- Adrien Marcel Dubois
+- Adrienne de Malleray
+- Agathe Auproux
+- Agnès Cukierman
+- Agnès Giard
+- Agnès Vahramian
+- Ahmed El Keiy
+- Alain Cotta
+- Alain Galan
+- Alain Juillet
+- Alain Madelin
+- Alain Pellet
+- Alain Pirot
+- Alain Rouquié
+- Alain Schneider
+- Alain Tourret
+- Alain Vidalies
+- Alba Ventura
+- Alban de La Selle
+- Aleksandra Kedzierska Fontaine
+- Alex Capus
+- Alexandra Bensaïd
+- Alexandra Echkenazi
+- Alexandra Guillet
+- Alexandra Pihen
+- Alexandre Devecchio
+- Alexandre Duval-Stalla
+- Alexandre Lazarègue
+- Alexis Louchnikov
+- Alfred Galichon
+- Alfred de Montesquiou
+- Ali Rebeihi
+- Alice Darfeuille
+- Alice Thourot
+- Alicia Dauby
+- Aline Bernard
+- Aline Kuster-Ménager
+- Alix Éverard
+- Amandine Bégot
+- Amaury Nardone
+- Amaury de Saint-Quentin
+- Ambre Chalumeau
+- Amets Arzallus
+- Amélie Perrier
+- Anaïs Bouton
+- Anaïs Castagna
+- André Buffard
+- André Damien
+- André Ferragne
+- André Lévy-Lang
+- André-Pierre Nouvion
+- Andrés Ortega Klein
+- Angélique Kourounis
+- Anina Ciuciu
+- Annabel Loyola
+- Anne Bouillon
+- Anne Le Pape
+- Anne Levade
+- Anne Nègre
+- Anne Poiret
+- Anne-Claire Coudray
+- Anne-Claire Legendre
+- Anne-Marie Dias Borges
+- Anne-Marie Revol
+- Anne-Sophie Barthez
+- Anne-Sophie Ginon
+- Annet Sauty de Chalon
+- Annie Lemoine
+- Annie-Paule Derczansky
+- Anouar Benmalek
+- Anthony Bellanger
+- Anthony Cortes
+- Anthony Saint-Léger
+- Anthony Vincent
+- Antoine Banet-Rivet
+- Antoine Genton
+- Antoine Giniaux
+- Antoine Le Conte
+- Antonin Lévy
+- Ariane de Rothschild
+- Ariel Goldmann
+- Ariel Wizman
+- Arnaud Claude
+- Arnaud Dubus
+- Arnaud Lauqué
+- Arnaud Montebourg
+- Arnaud Péricard
+- Arnaud de Perier
+- Arno Klarsfeld
+- Arnold Philibert Dubois
+- Arthur Frayer-Laleix
+- Arthur Lombard
+- Arthur Nesnidal
+- Aude Blondet
+- Aude Rossigneux
+- Aude Walker
+- Audrey Azoulay
+- Audrey Pulvar
+- Augustin Favereau
+- Aure Séguier
+- Aurélie Julia
+- Aurélie Sfez
+- Aurélien de Meaux
+- Ava Djamshidi
+- Axel Duroux
+- Aymeric Rouillac
+- Aziz Zemouri
+- Azzeddine Ahmed-Chaouch
+- Barbara Martin Coppola
+- Barto Pedro Orent-Niedzielski
+- Baudouin Eschapasse
+- Benjamin de Rothschild
+- Benoît Bréville
+- Benoît Duteurtre
+- Benoît Raynaud
+- Benoît Thévenet
+- Bernard Anthonioz
+- Bernard Bastide
+- Bernard Boyer
+- Bernard Carayon
+- Bernard Hadjadj
+- Bernard Rullier
+- Bernard Schmid
+- Bernard Squarcini
+- Bernard de La Villardière
+- Bertrand Delanoë
+- Bertrand Mertz
+- Bertrand de La Tour d'Artaise
+- Bettina Ducat
+- Boštjan Zupančič
+- Bruno Courtois
+- Bruno Godard
+- Bruno Hug de Larauze
+- Bruno Jeudy
+- Bruno Patino
+- Bruno Questel
+- Bruno Thouzellier
+- Béatrice Métraux
+- Bénédicte Mezeix-Rytwiński
+- Camille Kouchner
+- Camille Langlade
+- Camille Lepage
+- Camille Pascal
+- Camille Pouzol
+- Camille Vigogne Le Coat
+- Carine Bécard
+- Carine Fouteau
+- Carine Roitfeld
+- Carole Aciman
+- Carole Gaessler
+- Caroline Broué
+- Caroline Munoz
+- Caroline Mécary
+- Caroline Toutain
+- Catherine Mangin-Dessarts
+- Catherine Moisan
+- Catherine Nayl
+- Catherine Norris Trent
+- Catherine Portevin
+- Catherine Siguret
+- Cayetana Álvarez de Toledo
+- Chantal de Singly
+- Charles Consigny
+- Charles Constantin-Vallet
+- Charles-Henry Chenut
+- Charline Roux
+- Charlotte Girard
+- Charlotte Pudlowski
+- Childéric Muller
+- Chloe Malle
+- Chloé Nabédian
+- Chloé Thibaud
+- Chloé-Agathe Azencott
+- Christian Combaz
+- Christian Daziano
+- Christian Kassel
+- Christian Nique
+- Christian Troadec
+- Christiane Malitchenko
+- Christine Bravo
+- Christine Kerdellant
+- Christine Ponsard
+- Christophe Arleston
+- Christophe Beaugrand
+- Christophe Caron
+- Christophe Castaner
+- Christophe Conte
+- Christophe Dantoine
+- Christophe Dickès
+- Christophe Grudler
+- Christophe Grébert
+- Christophe Lemoine
+- Christophe Lèguevaques
+- Christophe Penot
+- Christophe Pinard-Legry
+- Claire Hédon
+- Claire-Élisabeth Beaufort
+- Clara Dupont-Monod
+- Claude Askolovitch
+- Claude Bourmaud
+- Claude Fouquet
+- Claude Goasguen
+- Claude Katz
+- Claude Langevin
+- Claude Mesliand
+- Claude Érignac
+- Claude-Éric Paquin
+- Claudine Monteil
+- Clément Bénech
+- Clément Mauguet
+- Clément Weill-Raynal
+- Clémentine Vergnaud
+- Colombe Schneck
+- Corinne Lepage
+- Corinne Pereira
+- Cécile Amar
+- Cécile Besse Advani
+- Cécile Lecomte
+- Cécile Longé
+- Cécile Rap-Veber
+- Cédric Peltier
+- Céline Asselot
+- César Giron
+- Damien Thévenot
+- Daniel Crozes
+- Danièle Bourcier
+- Dave Cormier
+- David Castello-Lopes
+- David Courpasson
+- David Djaïz
+- David Doucet
+- David Gombin
+- David Koubbi
+- David Servan-Schreiber
+- David Thomson
+- Delphine Horvilleur
+- Delphine Vitry
+- Denis Brogniart
+- Denis Lensel
+- Denis Ruellan
+- Diane Ducret
+- Diane Galbaud du Fort
+- Diara Ndiaye
+- Didier Charpin
+- Didier Eribon
+- Didier Porte
+- Didier Rogasik
+- Didier Wisselmann
+- Diego Buñuel
+- Dimitri Rouchon-Borie
+- Dominique Alhéritière
+- Dominique Audrerie
+- Dominique Bona
+- Dominique Dron
+- Dominique Lagrou-Sempère
+- Dominique Lepidi
+- Dominique Raimbourg
+- Dominique Setzepfandt
+- Dominique Warluzel
+- Donald Oliver
+- Donatienne Hissard
+- Edmond de Rothschild
+- Elisa Rojas
+- Elsa Vidal
+- Eléna Volochine
+- Eléonor Acher
+- Emmanuel Berretta
+- Emmanuel Davidenkoff
+- Emmanuel Dupuis
+- Emmanuel Gaillard
+- Emmanuel Langlois
+- Emmanuel Laurentin
+- Emmanuel Levacher
+- Emmanuel Ostian
+- Emmanuel Pierrat
+- Emmanuel Ratier
+- Emmanuel Roman
+- Emmanuel de Margerie
+- Emmanuel de Tournemire
+- Emmanuelle Barbara
+- Emmanuelle Cosse
+- Emmanuelle Elbaz-Phelps
+- Emmanuelle Soubeyran
+- Eneko Bidegain
+- Ericka Bareigts
+- Erik Tegnér
+- Ernest-Antoine Seillière
+- Erwan Chartier
+- Esther Heboyan
+- Eugenia Rigaud
+- Eugénie Bastié
+- Eva Nguyen Binh
+- Fabian Gastellier
+- Fabien Ferasson de Quental
+- Fabien Fieschi
+- Fabien Herran
+- Fabien Keryell
+- Fabien Sauvet
+- Fabienne Keller
+- Fabienne Sintes
+- Fabrice Lhomme
+- Fabrice Plasson
+- Fabrice Rousselot
+- Fanny Chauffin
+- Faïza Zerouala
+- Fiona Schmidt
+- Flore Maréchal
+- Florence Besson
+- Florence Ferrari
+- Florence Rault
+- Florian Bachelier
+- Florian Cardinaux
+- Francis Bécard
+- Francis Letellier
+- Francis Mateo
+- Francis Teitgen
+- Francis Vuillemin
+- Franck Barthe
+- Franck Boulin
+- Franck Dedieu
+- Francky Lauret
+- Frank Samson
+- François Bachy
+- François Baroin
+- François Beaudonnet
+- François Bergerault
+- François Clemenceau
+- François Falletti
+- François Fillon
+- François Hoehlinger
+- François Jackow
+- François Morin
+- François Zimeray
+- François-Xavier Bourmaud
+- Françoise Fressoz
+- Françoise Joly
+- Françoise Laborde
+- Françoise Maylié
+- Frédéric Beylier
+- Frédéric Dal Vecchio
+- Frédéric Donnedieu de Vabres
+- Frédéric Ducrocq
+- Frédéric Forest
+- Frédéric Guelton
+- Frédéric Lejeal
+- Frédéric Mion
+- Frédéric Métézeau
+- Frédéric Pons
+- Frédéric Schneider
+- Frédéric Sicard
+- Frédéric Thibaud
+- Frédéric X de Danemark
+- Frédérique Camilleri
+- Gabrielle Cluzel
+- Gabrielle Siry
+- Gaspard Glanz
+- Gauthier Rybinski
+- Gaël Rivière
+- Gaëlle Borgia
+- Gaïdz Minassian
+- Geneviève Goëtzinger
+- Geoffroy Didier
+- George Pau-Langevin
+- Georges Landais
+- Georges Lefebvre
+- Georges Pauget
+- Gilad Shalit
+- Gilbert Collard
+- Gildas Sagot
+- Gilles Bonnevialle
+- Gilles Carasso
+- Gilles Devers
+- Gilles Gouédard-Comte
+- Gilles Lebreton
+- Gilles Simeoni
+- Gilles Thibault
+- Gilles-William Goldnadel
+- Giuliano da Empoli
+- Guilaine Chenu
+- Guillaume Auda
+- Guillaume Bazard
+- Guillaume Debré
+- Guillaume Erner
+- Guillaume Jobin
+- Guillaume Narjollet
+- Guillaume Robin
+- Guillaume de Menthon
+- Gurvan Kristanadjaja
+- Guy Danet
+- Géniale Attoumani
+- Gérald Olivier
+- Géraldine Mosna-Savoye
+- Géraldine Muhlmann
+- Géraldine Salord
+- Géraldine Savary
+- Géraldine Schwarz
+- Géraldine Woessner
+- Gérard Abensour
+- Gérard Tur
+- Habibou Bangré
+- Harry Roselmack
+- Henri Burin des Roziers
+- Henri Konan Bédié
+- Henri Paris
+- Henri Temple
+- Henri de Coignac
+- Henry Peter
+- Hervé Cassan
+- Hervé Fernandez
+- Hervé Gattegno
+- Hervé Ghesquière
+- Hervé Heyraud
+- Hervé Ladsous
+- Hervé Le Tellier
+- Hervé Temime
+- Hind Meddeb
+- Hugo Guillemet
+- Hugues Moutouh
+- Héloïse de Neuville
+- Hélène Degryse
+- Hélène Fily
+- Hélène Jouan
+- Hélène Kosséian
+- Hélène Lipietz
+- Ilyes Ramdani
+- Ingrid Therwath
+- Irina Kudesova
+- Iris Brey
+- Isabelle Dahan
+- Isabelle Ithurburu
+- Isabelle Nataf
+- Isabelle Quenin
+- Isabelle Roberts
+- Isabelle Saporta
+- Ismaël Boudjekada
+- Ivo Fleischmann
+- Jacky Durand
+- Jacques Lagarde
+- Jacques Lévy
+- Jacques Moreau
+- Jacques Mézard
+- Jacques Pellet
+- Jacques Peyrat
+- Jacques Vergès
+- Jacques de Saint Victor
+- Jacques-Édouard Charret
+- Jean Claude Bologne
+- Jean François-Poncet
+- Jean Kahn
+- Jean Marc Jancovici
+- Jean Michel Blanquer
+- Jean Quatremer
+- Jean de Belot
+- Jean-Baptiste Malet
+- Jean-Baptiste Soufron
+- Jean-Baptiste de Franssu
+- Jean-Bernard Gervais
+- Jean-Charles Brisard
+- Jean-Charles Larsonneur
+- Jean-Charles Robin
+- Jean-Christophe Brisard
+- Jean-Christophe Buisson
+- Jean-Christophe Grangé
+- Jean-Christophe Sciberras
+- Jean-Denis Combrexelle
+- Jean-Francis Pécresse
+- Jean-François Casabonne-Masonnave
+- Jean-François Jalkh
+- Jean-Félix de La Ville Baugé
+- Jean-Guy Talamoni
+- Jean-Jacques Aillagon
+- Jean-Jacques Urvoas
+- Jean-Louis Beaucarnot
+- Jean-Louis Gergorin
+- Jean-Louis Roux
+- Jean-Luc Angélis
+- Jean-Luc Aubert
+- Jean-Luc Barré
+- Jean-Luc Delblat
+- Jean-Luc Sibiude
+- Jean-Marc Binot
+- Jean-Marc Cassam Chenai
+- Jean-Marc Four
+- Jean-Marc Merriaux
+- Jean-Marc Morandini
+- Jean-Marc Pujol
+- Jean-Marc d'Abreu
+- Jean-Marie Bockel
+- Jean-Marie Girault
+- Jean-Marie Gontier
+- Jean-Marie Le Guen
+- Jean-Marie Le Pen
+- Jean-Michel Casa
+- Jean-Michel Djian
+- Jean-Michel Guénod
+- Jean-Nicolas Baylet
+- Jean-Paul Delahaye
+- Jean-Paul Lanfranchi
+- Jean-Paul Ollivier
+- Jean-Pierre Boris
+- Jean-Pierre Cot
+- Jean-Pierre Meullenet
+- Jean-Pierre Mignard
+- Jean-Pierre Razafy-Andriamihaingo
+- Jean-Pierre Thiollet
+- Jean-Sébastien Ferjou
+- Jean-Yves Le Talec
+- Jean-Yves Moyart
+- Jean-Yves Potel
+- Jeanne Seignol
+- Jennifer Lesieur
+- Jennifer Padjemi
+- Jenofa Berhokoirigoin
+- Jesse E. Moorland
+- Jihan El-Tahri
+- Joan Valadou
+- Joanna Peiron
+- Joerg Kalt
+- Joseph Macé-Scaron
+- Josza Anjembe
+- Joël Courtois
+- Joël Pain
+- Joël-Alexis Bialkiewicz
+- Joëlle Chevé
+- Joëlle Palmieri
+- Joëlle Pellegrin
+- Juan Gomez
+- Julia Frotey
+- Julia Minkowski
+- Julie Granier
+- Julie Mamou-Mani
+- Julie Owono
+- Julien Courbet
+- Julien Larere-Genevoix
+- Julien Larregue
+- Julien Mathis Leroux
+- Juliette Aubrun
+- Jérémie Assous
+- Jérémie Gallon
+- Jérémy Michel
+- Jérôme Chapuis
+- Jérôme Garcin
+- Jérôme Salomon
+- Jérôme Segal
+- Jérôme Vincent
+- Jędrzej Bukowski
+- Kady Adoum-Douass
+- Kamel Daoud
+- Karen Hughes
+- Karim Achoui
+- Karim Rissouli
+- Karine Djébari
+- Karyn Nishimura-Poupée
+- Katalin Escher
+- Katherine Pancol
+- Kathie Lee Gifford
+- Khadija Aoudia
+- Khadija Benguenna
+- Khaled Nezzar
+- Kidi Bebey
+- Klara Wyrzykowska
+- Kéthévane Bagration de Moukhrani
+- Kéthévane Gorjestani
+- Lakhdar Brahimi
+- Laura Bertran
+- Laure Gasparotto
+- Laure Mandeville
+- Laure-Alice Bouvier
+- Lauren Bastide
+- Laurence Auer
+- Laurence Boisson de Chazournes
+- Laurence Ferrari
+- Laurence Paye-Jeanneney
+- Laurence Pieau
+- Laurent Aléonard
+- Laurent Aynès
+- Laurent Bignolas
+- Laurent Caillaud
+- Laurent Cugny
+- Laurent Dolbeau
+- Laurent Gamet
+- Laurent Geslin
+- Laurent Grzybowski
+- Laurent Hauben
+- Laurent Micouleau
+- Laurent Prud'homme
+- Laurent Stefanini
+- Laurent-Frédéric Bollée
+- Layla Demay
+- Leila Alaoui
+- Leïla Kaddour-Boudadi
+- Lionel Benbassat
+- Lionel Devic
+- Lou Fritel
+- Louis Aliot
+- Louis Crocq
+- Louis Manaranche
+- Louis Oster
+- Louis-Jacques Rollet-Andriane
+- Loup Besmond de Senneville
+- Luc Bihl
+- Luc de Nanteuil
+- Luc Évrard
+- Lucas Menget
+- Lucile Gubler
+- Lucile Woodward
+- Ludovic Royer
+- Ludovic Vigogne
+- Lyane Guillaume
+- Léa Salamé
+- Léon Bouvier
+- Maddalen Arzallus
+- Maddi Ane Txoperena Iribarren
+- Maggy de Coster
+- Mahamat Saleh Haroun
+- Mahaut Drama
+- Manon de La Selle
+- Manu Payet
+- Manuel Aeschlimann
+- Manuel Carcassonne
+- Manuel Jorge
+- Manuela Picq
+- Marc Albert Chaigneau
+- Marc Chaya
+- Marc Dozier
+- Marc Fauvelle
+- Marc Saikali
+- Marc de Lacoste Lareymondie
+- Marc-Olivier Fogiel
+- Marc-Olivier Strauss-Kahn
+- Marcela Iacub
+- Margaux Benn
+- Margaux de Frouville
+- Marguerite Bérard
+- Marianne Baisnée
+- Marianne Ziss
+- Marie Aubinais
+- Marie Duponchelle
+- Marie Le Conte
+- Marie Misset
+- Marie Nagy
+- Marie-Anne Barbat-Layani
+- Marie-Annick Bourdin
+- Marie-Aude Murail
+- Marie-Estelle Pech
+- Marie-France Etchegoin
+- Marie-France Garaud
+- Marie-Laure Desjardins
+- Marie-Monique Robin
+- Marie-Pierre Farkas
+- Marie-Pierre Parlange Martin
+- Marie-Pierre Vieu
+- Marie-Ève Malouines
+- Mariella Esvant
+- Marina Alcaraz
+- Mario Laserna Pinzón
+- Marion Eynard
+- Marion Festraëts
+- Marion L'Hour
+- Marion Marchal
+- Marjolaine Grappe
+- Marjorie Bertin
+- Marjorie Vanbaelinghem
+- Martial Bild
+- Martin Pénet
+- Martin Weill
+- Martine L. Jacquot
+- Martine Leguille-Balloy
+- Martine Monteil
+- Mary Plard
+- Maryse Burgot
+- Maryse Joissains-Masini
+- Matei Vișniec
+- Mathieu Bendouma
+- Mathieu Magnaudeix
+- Mathilde Munos
+- Mathilde Saliou
+- Matthieu Darnon
+- Matthieu Jantet-Hidalgo
+- Matthieu Suc
+- Mattias Guyomar
+- Maurice Gourdault-Montagne
+- Max Schiavon
+- Maïtena Biraben
+- Melissa Bell
+- Meriem Amellal
+- Meriem Belmihoub
+- Michal Ben-Naphtali
+- Michaël Bertini
+- Michaëlle Jean
+- Michel Camdessus
+- Michel Cymes
+- Michel Field
+- Michel Foucher
+- Michel François-Poncet
+- Michel Lagourgue
+- Michel Laval
+- Michel de Jaeghere
+- Michelle Ferre
+- Michèle Alliot-Marie
+- Michèle Gendreau-Massaloux
+- Michèle Léridon
+- Mike Rose
+- Milie Taing
+- Mohamed Lamari
+- Mohamed Sahnoun
+- Mohamed Toihiri
+- Mohamed ben Laden
+- Mohammed Aïssaoui
+- Mohammed Seddik Benyahia
+- Monique Atlan
+- Monique Barbut
+- Morgane Tual
+- Mourad Medelci
+- Muriel Domenach
+- Mustapha Adib
+- Mustapha Tounsi
+- Myriam El Khomri
+- Myriam François-Cerrah
+- Mélanie Kuszelewicz
+- Mélissa Bounoua
+- Mélissa Theuriau
+- Nadia Daam
+- Nadia Hathroubi-Safsaf
+- Nassira El Moaddem
+- Natacha Henry
+- Nath-Sakura
+- Nathalie Beras
+- Nathalie Darrigrand
+- Nathalie Griesbeck
+- Nathalie Levy
+- Nathan Allix
+- Nawal Benali
+- Nicolas Barotte
+- Nicolas Berrod
+- Nicolas Cadène
+- Nicolas Carreau
+- Nicolas Charbonneau
+- Nicolas Diat
+- Nicolas Escoulan
+- Nicolas Groper
+- Nicolas Gros-Verheyde
+- Nicolas Hulot
+- Nicolas Hénin
+- Nicolas d'Estienne d'Orves
+- Nicole Belloubet
+- Nikos Aliagas
+- Nils Minkmar
+- Nivin Potros
+- Nolwenn Le Blevennec
+- Nora Bouazzouni
+- Nora Bussigny
+- Nora Hamadi
+- Norberto Torres Cortés
+- Nūr alddīn alllabbād
+- Octave Nitkowski
+- Odile Ambry
+- Odile Benyahia-Kouider
+- Olivia Fox Cabane
+- Olivia Ronen
+- Olivier Auguste
+- Olivier Brandouy
+- Olivier Gourlez de La Motte
+- Olivier Guillaume
+- Olivier Guland
+- Olivier Laureau
+- Olivier Le Naire
+- Olivier Malfait
+- Olivier Metzner
+- Olivier Ménard
+- Olivier Pastré
+- Olivier Père
+- Olivier Rey
+- Olivier Richefou
+- Olivier Royant
+- Olivier Sarkozy
+- Olivier Serot Alméras Latour
+- Olivier de Lagarde
+- Olivier de Tilière
+- Othman Saadi
+- Ottman Zaïr
+- Paloma Moritz
+- Pascal Bruckner
+- Pascal Canfin
+- Pascal Durand
+- Pascal Garbarini
+- Pascal Isoard-Thomas
+- Pascal Jan
+- Pascal Le Deunff
+- Pascal Lorne
+- Pascale Alvanitakis-Guély
+- Pascale Briand
+- Patrice Machuret
+- Patrice Pauper
+- Patrice Servantie
+- Patrick Devedjian
+- Patrick Donabédian
+- Patrick Fandio
+- Patrick Gérard
+- Patrick Klugman
+- Patrick Le Gal
+- Patrick Louis
+- Patrick N'Guema N'Dong
+- Patrick Rajoelina
+- Patrick Roger
+- Patrick Strzoda
+- Paul Ariès
+- Paul Bouchet
+- Paul Hatte
+- Paul Jean-Ortiz
+- Paul Larrouturou
+- Paul Maillot Rafanoharana
+- Paul Tchoukriel
+- Paul de Sinety
+- Paul-Henri Gaschignard
+- Paul-Henry Bizon
+- Paul-Jacques Lehmann
+- Peggy Olmi
+- Peggy Sastre
+- Penelope Fillon
+- Peter Turnley
+- Philippe Anginot
+- Philippe Brunet-Lecomte
+- Philippe Cohen
+- Philippe Collin
+- Philippe Delorme
+- Philippe Delpuech
+- Philippe Douste-Blazy
+- Philippe Dupont
+- Philippe Fabry
+- Philippe Georgeais
+- Philippe Houillon
+- Philippe Lacombe
+- Philippe Louët
+- Philippe Moggio
+- Philippe Oddou
+- Philippe Olivier
+- Philippe Péninque
+- Philippe Séguy
+- Philippe Truttmann
+- Philippe Verdier
+- Philippe de Beauregard
+- Pierre Abeberry
+- Pierre Besnard
+- Pierre Camou
+- Pierre Falcone
+- Pierre Fraidenraich
+- Pierre Garonnaire
+- Pierre Lanapats
+- Pierre Laurent
+- Pierre Lellouche
+- Pierre Lory
+- Pierre Mazeaud
+- Pierre N'Gahane
+- Pierre Perrone
+- Pierre Pluchon
+- Pierre R. Graham
+- Pierre Romera
+- Pierre Servan-Schreiber
+- Pierre Zakrzewski
+- Pierre-François Blanc
+- Pierre-Yves Lautrou
+- Pierre-Yves Schneider
+- Pierrick Bourgault
+- Rachel-Flore Pardo
+- Rachid Arhab
+- Randa Habib
+- Raoul Peck
+- Raphael Costambeys-Kempczynski
+- Raphael Kahane
+- Raphaël Szymocha
+- Raymond Forni
+- Raymond-François Le Bris
+- Redha Malek
+- Renaud Dehousse
+- Renaud Machart
+- Renaud de Spens
+- Renée Kaplan
+- Richard Escot
+- Richard Labévière
+- Richard Laganier
+- Richard Malka
+- Robert Badinter
+- Robert Bourgi
+- Robert Ménard
+- Robin Duvillard
+- Roger Etchegaray
+- Rokhaya Diallo
+- Roland Blatmann
+- Roland Perez
+- Romain Dureau
+- Romain Mielcarek
+- Romaric Daurier
+- Rosiane Houngbo-Monteverde
+- Rudy Rochman
+- Réginald Gaillard
+- Régis de Castelnau
+- Rémi Fontaine
+- Rémi de Gaulle
+- Salah Hamouri
+- Salah Stétié
+- Salhia Brakhlia
+- Salima Saa
+- Salomé Saqué
+- Salomé Zourabichvili
+- Samia Maktouf
+- Samuel Forey
+- Samuel Le Goff
+- Sandrine Aramon
+- Sandrine Escaleira
+- Sandy Dauphin
+- Sarah Caron
+- Sarah Lefèvre
+- Sarah Lelouch
+- Sarah Saldmann
+- Serge Halimi
+- Sergueï Kouznetsov
+- Sidonie Bonnec
+- Simon Kuper
+- Siv-Leng Chhuor
+- Solange Bied-Charreton
+- Solenn Riou
+- Sonia Devillers
+- Sonia Mabrouk
+- Sophie Dion
+- Sophie Elizéon
+- Sophie Gourion
+- Sophie Joissains
+- Sophie Lambroschini
+- Stanislas de Laboulaye
+- Stein van Oosteren
+- Stéphane Abrial
+- Stéphane Albouy
+- Stéphane Benoit-Godet
+- Stéphane Bijoux
+- Stéphane Cayrol
+- Stéphane Chmelewsky
+- Stéphane Corteel
+- Stéphane Dujarric
+- Stéphane Hoffmann
+- Stéphane Maitre
+- Stéphane Schorderet
+- Stéphane Simon
+- Stéphanie Antoine
+- Stéphanie Yon-Courtin
+- Susanna Dörhage
+- Sylvain Boccon-Gibod
+- Sylvain Courage
+- Sylvain Sankalé
+- Sylvestre Huet
+- Sylvia Preuss-Laussinotte
+- Sylvie Bermann
+- Sylvie Brunel
+- Sylvie Noachovitch
+- Sébastien Chanove
+- Sébastien Demorand
+- Sébastien Girard
+- Sébastien Lapaque
+- Sébastien Pierroz
+- Sébastien Romelot
+- Tahar Djaout
+- Tangi Noël
+- Tatiana de Rosnay
+- Tayeb Belaiz
+- Terence Strick
+- Tessa Melkonian
+- Teymouraz Gorjestani
+- Theodor Paleologu
+- Thibault Raisse
+- Thibault de Montbrial
+- Thierry Granturco
+- Thierry Laborde
+- Thierry Riera
+- Thierry Suzan
+- Thierry Vallat
+- Thomas Castaignède
+- Thomas Clay
+- Thomas Giraud
+- Thomas Hollande
+- Thomas Mayol
+- Thomas Snégaroff
+- Thomas Tugendhat
+- Théophile Kouamouo
+- Thérèse Blanchet
+- Thérèse Delpech
+- Tiphaine Auzière
+- Tobie Nathan
+- Tristan Jordis
+- Tristan Lecoq
+- Tristan Ranx
+- Tugdual de Dieuleveult
+- Valentin Houinato
+- Valentine Oberti
+- Valérie Durier
+- Valérie Fayolle
+- Valérie Hanotel
+- Valérie Lafarge-Sarkozy
+- Valérie Rey-Robert
+- Valérie Trierweiler
+- Valérie de Saint-Do
+- Vanessa Burggraf
+- Victor Baissait
+- Victor Castanet
+- Vincent Bedouin
+- Vincent Giret
+- Vincent Hervouët
+- Vincent Hommeril
+- Vincent Jarousseau
+- Vincent Klingbeil
+- Violaine Schütz
+- Violaine de Filippis-Abate
+- Virginie Delalande
+- Virginie Joron
+- Véronique Roger-Lacan
+- Walid Berrissoul
+- Wallerand de Saint-Just
+- Widad Ketfi
+- William Irigoyen
+- Xavier Loustaunau
+- Xavier Mauduit
+- Xavier Moreau
+- Xavier Pelletier
+- Xavier de Moulins
+- Xavier-Marie Garcette
+- Yael Mellul
+- Yann Barthès
+- Yasmine Gouedard
+- Yassine Bouzrou
+- Yassine Redissi
+- Yves Chiron
+- Yves Jacquin Depeyre
+- Yves Mabin Chennevière
+- Yves Nicolin
+- Yves Nidegger
+- Zartoshte Bakhtiari
+- Ziza Massika
+- Ève Charrin
+- Édith Cresson
+- Édouard Carmignac
+- Édouard Couty
+- Édouard Lacroix
+- Élie Korchia
+- Élisabeth Beton-Delègue
+- Élisabeth Bost
+- Élise Arfi
+- Élise Costa
+- Éloïse Wagner
+- Éléonore Blondeau
+- Éléonore Caroit
+- Émilie Besse
+- Éric Bourdais de Charbonnière
+- Éric Branca
+- Éric Brunet
+- Éric Falt
+- Éric Fournier
+- Éric Ghebali
+- Éric Le Braz
+- Éric Lebédel
+- Éric Morvan
+- Éric Napoly
+- Éric O'Keefe
+- Éric Revel
+- Éric Urban
+- Éric de Kermel
+- Érick Cakpo
+- Étienne Carbonnier
+- Étienne Leenhardt
+- Étienne de Montety
 nom_complet: University of Nantes
 sources:
 - https://www.wikidata.org/entity/Q132812037

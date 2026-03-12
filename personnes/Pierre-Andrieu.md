@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Andrieu, diplomate. Ne(e) le 1953-06-05. Formation : Institut d'études politiques de Paris.
+Pierre Andrieu, diplomate. Ne(e) le 1953-06-05. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q100323236

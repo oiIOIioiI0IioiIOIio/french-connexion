@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Louise Bréhier, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1950-01-01. Formation : École normale supérieure.
+Louise Bréhier, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1950-01-01. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q42404026

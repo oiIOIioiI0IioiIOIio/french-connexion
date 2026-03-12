@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Philippe Séguy, écrivain ou écrivaine. Ne(e) le 1958-06-26 a 16e arrondissement de Paris. Formation : université Paris-Sorbonne.
+Philippe Séguy, écrivain ou écrivaine. Ne(e) le 1958-06-26 a 16e arrondissement de Paris. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q65153994

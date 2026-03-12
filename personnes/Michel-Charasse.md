@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel Charasse, personnalité politique. Ne(e) le 1941-07-08 a Chamalières. Formation : Institut d'études politiques de Paris.
+Michel Charasse, personnalité politique. Ne(e) le 1941-07-08 a Chamalières. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3309244

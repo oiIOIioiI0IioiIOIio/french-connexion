@@ -7,6 +7,25 @@ education: Institut de journalisme Bordeaux Aquitaine
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Catherine Matausch
+- Estelle Denis
+- François Pesenti
+- Frédéric Leclerc-Imhoff
+- Jean-Michel Aphatie
+- Jérôme Colombain
+- Louis Laforge
+- Mathieu Delahousse
+- Pierre Billaud
+- Pierre Carles
+- Pierre Girard
+- Rachel Garrat-Valcarcel
+- Raphaël Ebenstein
+- Rebecca Manzoni
+- Sophie Davant
+- Sophie Le Saint
+- Vincent Josse
+- Élise Chassaing
 nationality: francaise
 nom_complet: Vincent Parizot
 occupation: journaliste

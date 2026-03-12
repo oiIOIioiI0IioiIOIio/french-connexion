@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jacques Cardoze, journaliste. Ne(e) le 1969-09-14 a Bordeaux. Formation : Conservatoire de Paris.
+Jacques Cardoze, journaliste. Ne(e) le 1969-09-14 a Bordeaux. Formation : [[Conservatoire de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3158462

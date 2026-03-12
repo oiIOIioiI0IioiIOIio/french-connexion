@@ -7,6 +7,11 @@ education: École des hautes études commerciales du Nord
 genre: féminin
 keywords:
 - photographe
+liens:
+- Anne de Bayser
+- Jean Mercier
+- Thibaud de Barbeyrac
+- Thierry Mathou
 nationality: francaise
 nom_complet: Vérane Frédiani
 occupation: photographe

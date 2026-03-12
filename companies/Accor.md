@@ -7,6 +7,9 @@ keywords:
 - entreprise
 - hôtellerie-restauration
 leader: Sébastien Bazin
+liens:
+- 68Ga-RM2 Compared to 68Ga-PSMA-617 PET/CT for Prostate Cancer Imaging According
+  to Various Metastatic Risks
 nom_complet: Accor
 sources:
 - https://www.wikidata.org/entity/Q212599

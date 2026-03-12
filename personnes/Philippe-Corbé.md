@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Philippe Corbé, écrivain ou écrivaine. Ne(e) le 1979-11-08 a Morlaix. Formation : Institut d'études politiques de Paris.
+Philippe Corbé, écrivain ou écrivaine. Ne(e) le 1979-11-08 a Morlaix. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q47217462

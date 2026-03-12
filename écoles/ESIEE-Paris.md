@@ -5,6 +5,9 @@ headquarters: Noisy-le-Grand
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Charles Pégulu de Rovin
+- Gonzague de Blignières
 nom_complet: ESIEE Paris
 sources:
 - https://www.wikidata.org/entity/Q3046113

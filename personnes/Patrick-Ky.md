@@ -7,6 +7,13 @@ education: École nationale de l'aviation civile
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Farid Zizi
+- Jacques Villiers
+- Jean-Marc Alliot
+- Jérôme Bastianelli
+- Michel Wachenheim
+- Paul-Louis Arslanian
 nationality: francaise
 nom_complet: Patrick Ky
 occupation: haut fonctionnaire ou haute fonctionnaire

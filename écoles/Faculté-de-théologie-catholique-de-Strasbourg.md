@@ -5,6 +5,10 @@ headquarters: Strasbourg
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Catherine Meurisse
+- Jean-Christophe Portes
+- Vincent Ferniot
 nom_complet: Faculté de théologie catholique de Strasbourg
 sources:
 - https://www.wikidata.org/entity/Q3064312

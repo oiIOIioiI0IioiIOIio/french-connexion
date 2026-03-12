@@ -7,6 +7,20 @@ education: École nationale de la magistrature
 genre: masculin
 keywords:
 - juge
+liens:
+- André Potocki
+- Béatrice Patrie
+- Claude Jorda
+- Emmanuel Barbe
+- Eva Joly
+- Francis Moureu
+- Gilbert Azibert
+- Hélène Gerhards
+- Isabelle Jégouzo
+- Jean-Paul Garraud
+- Nicole Maestracci
+- Philippe Bilger
+- Serge Portelli
 nationality: francaise
 nom_complet: Jean-Louis Debré
 occupation: juge

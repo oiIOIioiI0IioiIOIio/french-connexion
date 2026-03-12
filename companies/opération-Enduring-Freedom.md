@@ -3,6 +3,8 @@ date_creation_note: '2026-03-12'
 keywords:
 - entreprise
 - business
+liens:
+- opération Enduring Freedom - Trans Sahara
 nom_complet: opération Enduring Freedom
 sources:
 - https://www.wikidata.org/entity/Q326668

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jacques Follorou, journaliste. Ne(e) le 1967-11-11 a Paris. Formation : Centre de formation des journalistes.
+Jacques Follorou, journaliste. Ne(e) le 1967-11-11 a Paris. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3158897

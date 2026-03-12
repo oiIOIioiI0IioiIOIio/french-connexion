@@ -34,7 +34,7 @@ wikipedia_enriched: true
 
 ### 🌐 Liens idéologiques
 
-L’Iliade est souvent vue comme un **pôle intellectuel de la mouvance identitaire**, en lien idéologique avec :
+L’[[Iliad]]e est souvent vue comme un **pôle intellectuel de la mouvance identitaire**, en lien idéologique avec :
 
 - [[Livre Noir]] / [[Frontières]]
 

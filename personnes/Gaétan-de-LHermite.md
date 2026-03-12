@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gaétan de L'Hermite, personnalité du monde des affaires. Ne(e) le 1973-06-26 a Bordeaux. Formation : EM Lyon Business School.
+Gaétan de L'Hermite, personnalité du monde des affaires. Ne(e) le 1973-06-26 a Bordeaux. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33141056

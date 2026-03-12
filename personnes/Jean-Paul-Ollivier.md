@@ -7,6 +7,15 @@ education: université de Caen-Normandie
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Alain Tourret
+- Christine Kerdellant
+- Céline Asselot
+- Denis Brogniart
+- Guillaume Bazard
+- Jean-Marie Girault
+- Marie-Annick Bourdin
+- Olivier Metzner
 nationality: francaise
 nom_complet: Jean-Paul Ollivier
 occupation: haut fonctionnaire ou haute fonctionnaire

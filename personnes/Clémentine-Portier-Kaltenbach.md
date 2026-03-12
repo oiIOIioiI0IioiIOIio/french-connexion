@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Clémentine Portier-Kaltenbach, écrivain ou écrivaine. Ne(e) le 1962-03-18 a Dakar. Formation : Institut d'études politiques de Paris.
+Clémentine Portier-Kaltenbach, écrivain ou écrivaine. Ne(e) le 1962-03-18 a Dakar. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2980744

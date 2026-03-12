@@ -7,6 +7,10 @@ education: faculté de droit de Harvard
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Francis Caballero
+- Ilana Cicurel
+- Laurent Cohen-Tanugi
 nationality: francaise
 nom_complet: Jacques Salès
 occupation: avocat ou avocate

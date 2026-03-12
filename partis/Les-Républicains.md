@@ -6,6 +6,9 @@ ideology: conservatisme
 keywords:
 - parti politique
 - politique
+liens:
+- Les Républicains calédoniens
+- Les Républicains de Nouvelle-Calédonie
 nom_complet: Les Républicains
 sources:
 - https://www.wikidata.org/entity/Q20012759

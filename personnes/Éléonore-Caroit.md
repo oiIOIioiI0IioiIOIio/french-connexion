@@ -7,6 +7,21 @@ education: Université Columbia
 genre: féminin
 keywords:
 - avocat ou avocate
+liens:
+- Alexandra Bensaïd
+- Emmanuel Levacher
+- Frédérique Camilleri
+- Guillaume Debré
+- Jean-Michel Guénod
+- Julia Minkowski
+- Klara Wyrzykowska
+- Kéthévane Gorjestani
+- Olivier Royant
+- Philippe Oddou
+- Rachel-Flore Pardo
+- Robert Badinter
+- Rudy Rochman
+- Salomé Zourabichvili
 nationality: francaise
 nom_complet: Éléonore Caroit
 occupation: avocat ou avocate

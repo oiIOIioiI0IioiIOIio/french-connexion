@@ -17,4 +17,4 @@ website: https://www.eicesi.fr/
 wikidata_id: Q56185089
 ---
 
-CESI école d'ingénieurs, etablissement d'enseignement superieur francais.
+[[CESI]] école d'ingénieurs, etablissement d'enseignement superieur francais.

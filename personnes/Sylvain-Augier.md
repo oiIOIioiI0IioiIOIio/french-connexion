@@ -7,6 +7,23 @@ education: Institut d'études politiques de Toulouse
 genre: masculin
 keywords:
 - animateur ou animatrice de télévision
+liens:
+- Arnauld Champremier-Trigano
+- Audrey Crespo-Mara
+- Christian Authier
+- David Izzo
+- Grégor Trumel
+- Isabelle Sima
+- Jean-François Savy
+- Jean-Paul Gauzès
+- Mahdi Hacène
+- Maxime Switek
+- Michel Moutot
+- Pierre Benazet
+- Rodolphe Sambou
+- Roger Dumec
+- Serge Tignères
+- Stéphane Lauer
 nationality: francaise
 nom_complet: Sylvain Augier
 occupation: animateur ou animatrice de télévision
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Sylvain Augier, animateur ou animatrice de télévision. Ne(e) le 1955-05-07 a Toulouse. Formation : Institut d'études politiques de Toulouse.
+Sylvain Augier, animateur ou animatrice de télévision. Ne(e) le 1955-05-07 a Toulouse. Formation : [[Institut d'études politiques de Toulouse]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3506916

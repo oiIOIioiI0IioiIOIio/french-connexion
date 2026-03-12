@@ -7,6 +7,10 @@ education: Sorbonne
 genre: féminin
 keywords:
 - scénariste
+liens:
+- Amadou-Mahtar MBow
+- Henri Lopes
+- Michel Cullin
 nationality: francaise
 nom_complet: Laurence Debray
 occupation: scénariste
@@ -21,7 +25,7 @@ tags:
 type: Personne
 ---
 
-Laurence Debray, scénariste. Ne(e) le 1976-01-01 a Paris. Formation : Sorbonne.
+Laurence Debray, scénariste. Ne(e) le 1976-01-01 a Paris. Formation : [[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16653260

@@ -7,6 +7,10 @@ keywords:
 - entreprise
 - construction automobile
 leader: François Provost
+liens:
+- Charles Gendron
+- Charles-Édouard Renault
+- Emmanuel Renault
 nom_complet: Renault
 sources:
 - https://www.wikidata.org/entity/Q6686

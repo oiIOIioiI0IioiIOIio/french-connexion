@@ -7,6 +7,12 @@ education: université Lille-I
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Eléonor Acher
+- Olivier Malfait
+- Richard Laganier
+- Salima Saa
+- Vincent Bedouin
 nationality: francaise
 nom_complet: Alexandra Pihen
 occupation: journaliste

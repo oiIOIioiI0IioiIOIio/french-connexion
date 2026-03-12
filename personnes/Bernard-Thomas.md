@@ -7,6 +7,8 @@ education: null
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Bernard Thomasson
 nationality: francaise
 nom_complet: Bernard Thomas
 occupation: haut fonctionnaire ou haute fonctionnaire

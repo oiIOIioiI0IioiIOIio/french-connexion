@@ -7,6 +7,9 @@ education: École nationale supérieure de l'aéronautique et de l'espace
 genre: féminin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Claude Frantzen
+- Roland Glavany
 nationality: francaise
 nom_complet: Caroline Laurent
 occupation: haut fonctionnaire ou haute fonctionnaire

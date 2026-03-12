@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gérard Chauvette, écrivain ou écrivaine. Ne(e) le 1948-06-03 a Dole. Formation : EM Lyon Business School.
+Gérard Chauvette, écrivain ou écrivaine. Ne(e) le 1948-06-03 a Dole. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q137761356

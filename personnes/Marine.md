@@ -7,6 +7,18 @@ education: null
 genre: féminin
 keywords:
 - acteur ou actrice
+liens:
+- André Rougé
+- Frédéric Guillaud
+- Marine Babonneau
+- Marine Chanel
+- Marine Demazure
+- Marine HAMELET
+- Marine Roy
+- Marine Turchi
+- Marine Vlahovic
+- Marine de Carné
+- The Mariner
 nationality: francaise
 nom_complet: Marine
 occupation: acteur ou actrice

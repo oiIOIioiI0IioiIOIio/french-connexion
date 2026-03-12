@@ -7,6 +7,13 @@ education: université Montpellier-I
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- François Bachy
+- Henri Temple
+- Hervé Cassan
+- Hervé Fernandez
+- Jean-Marc Pujol
+- Khadija Aoudia
 nationality: francaise
 nom_complet: Sylvain Sankalé
 occupation: avocat ou avocate

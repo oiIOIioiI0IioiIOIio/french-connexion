@@ -7,6 +7,11 @@ education: Institut des hautes études de défense nationale
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Claude Charbonniaud
+- Hervé-Michel Gobilliard
+- Hubert Coudurier
+- Jérôme Bellanger
 nationality: francaise
 nom_complet: Pierre Somveille
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +27,7 @@ tags:
 type: Personne
 ---
 
-Pierre Somveille, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1921-11-12 a Hiersac. Formation : Institut des hautes études de défense nationale.
+Pierre Somveille, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1921-11-12 a Hiersac. Formation : [[Institut des hautes études de défense nationale]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3387019

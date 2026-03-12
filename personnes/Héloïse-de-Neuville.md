@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Héloïse de Neuville, journaliste. Ne(e) le 1992-09-12. Formation : université Paris-Sorbonne.
+Héloïse de Neuville, journaliste. Ne(e) le 1992-09-12. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q113761372

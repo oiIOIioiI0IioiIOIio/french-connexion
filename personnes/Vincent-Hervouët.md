@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Vincent Hervouët, journaliste. Ne(e) le 1957-09-13 a Nantes. Formation : université Paris-Sorbonne.
+Vincent Hervouët, journaliste. Ne(e) le 1957-09-13 a Nantes. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3559667

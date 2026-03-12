@@ -7,6 +7,12 @@ education: université Bordeaux-IV
 genre: féminin
 keywords:
 - avocat ou avocate
+liens:
+- Hugues Moutouh
+- Julie Owono
+- Julien Courbet
+- Mathilde Munos
+- Élise Costa
 nationality: francaise
 nom_complet: Myriam El Khomri
 occupation: avocat ou avocate

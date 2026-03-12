@@ -7,6 +7,13 @@ education: École nationale des langues orientales vivantes
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Alexis Rygaloff
+- Jacques Disdier
+- Jean Batbedat
+- Marcel Tremeau
+- Philippe de Suremain
+- Samuel Le Caruyer de Beauvais
 nationality: francaise
 nom_complet: Luc Harscouët de Saint-George
 occupation: diplomate

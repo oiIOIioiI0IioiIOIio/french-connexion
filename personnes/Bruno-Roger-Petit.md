@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bruno Roger-Petit, présentateur ou présentatrice de journal. Ne(e) le 1962-09-30 a Paris. Formation : Institut d'études politiques de Paris.
+[[Bruno Roger]]-Petit, présentateur ou présentatrice de journal. Ne(e) le 1962-09-30 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2926946

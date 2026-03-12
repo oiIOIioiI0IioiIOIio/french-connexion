@@ -7,6 +7,12 @@ education: université d'Aix-Marseille
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Bernard Squarcini
+- Christophe Penot
+- François Beaudonnet
+- Julien Larregue
+- Sarah Caron
 nationality: francaise
 nom_complet: Christophe Castaner
 occupation: avocat ou avocate

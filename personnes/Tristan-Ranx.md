@@ -7,6 +7,13 @@ education: université Paris-Diderot
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Caroline Toutain
+- Christine Bravo
+- Hervé Le Tellier
+- Mélanie Kuszelewicz
+- Nora Bouazzouni
+- Odile Ambry
 nationality: francaise
 nom_complet: Tristan Ranx
 occupation: écrivain ou écrivaine

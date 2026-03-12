@@ -7,6 +7,14 @@ education: lycée Janson-de-Sailly
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Hubert Heilbronn
+- Laurence de Charette
+- Maxime de Rostolan
+- René Ribière
+- Thomas Schmider
+- Édouard de Ribes
+- Éric de Rothschild
 nationality: francaise
 nom_complet: Christophe Ono-dit-Biot
 occupation: journaliste
@@ -22,7 +30,7 @@ tags:
 type: Personne
 ---
 
-Christophe Ono-dit-Biot, journaliste. Ne(e) le 1975-01-24 a Le Havre. Formation : lycée Janson-de-Sailly.
+Christophe Ono-dit-Biot, journaliste. Ne(e) le 1975-01-24 a Le Havre. Formation : [[Lycée Janson-de-Sailly]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2966418

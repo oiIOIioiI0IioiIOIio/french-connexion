@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Hugues Goisbault, diplomate. Ne(e) le 1950-01-01. Formation : Institut d'études politiques de Paris.
+Hugues Goisbault, diplomate. Ne(e) le 1950-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q105318435

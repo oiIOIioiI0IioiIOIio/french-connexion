@@ -7,6 +7,8 @@ education: Université Aston
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Pascale Alvanitakis-Guély
 nationality: francaise
 nom_complet: Jean-Charles Robin
 occupation: personnalité du monde des affaires

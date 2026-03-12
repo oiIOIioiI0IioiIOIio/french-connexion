@@ -7,6 +7,30 @@ education: Institut d'études politiques d'Aix-en-Provence
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Alexis Le Cour Grandmaison
+- Ali André Mécili
+- Arnaud Suquet
+- Bertrand Kern
+- Bruno Mettling
+- Dominique Vian
+- Edmond Zucchelli
+- Fabien Namias
+- Fabrice Madouas
+- Fabrice Étienne
+- Franck Genauzeau
+- Jean-Charles Marchiani
+- Johana Gustawsson
+- Julien Bahloul
+- Laëtitia Allemand
+- Lionel Paradisi-Coulouma
+- Mehdi Chebana
+- Mélanie Chalandon
+- Rudy Reichstadt
+- Rémy Porte
+- Sylvaine Carta-Le Vert
+- Sylvie Faiderbe
+- Sylvie Kauffmann
 nationality: francaise
 nom_complet: François Pinet
 occupation: journaliste
@@ -22,7 +46,7 @@ tags:
 type: Personne
 ---
 
-François Pinet, journaliste. Ne(e) le 1980-12-24 a Saint-Cloud. Formation : Institut d'études politiques d'Aix-en-Provence.
+François Pinet, journaliste. Ne(e) le 1980-12-24 a Saint-Cloud. Formation : [[Institut d'études politiques d'Aix-en-Provence]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q131819758

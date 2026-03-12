@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Philippe Habert, politologue. Ne(e) le 1958-08-22 a Neuilly-sur-Seine. Formation : Institut d'études politiques de Paris.
+Philippe Habert, politologue. Ne(e) le 1958-08-22 a Neuilly-sur-Seine. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2087606

@@ -7,6 +7,8 @@ education: École des Roches
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Alexandre de Marenches
 nationality: francaise
 nom_complet: Bertrand de Villeneuve Bargemont
 occupation: avocat ou avocate

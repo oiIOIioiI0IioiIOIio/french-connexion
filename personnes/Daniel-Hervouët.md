@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Daniel Hervouët, écrivain ou écrivaine. Ne(e) le 1952-11-27 a Versailles. Formation : Institut d'études politiques de Paris.
+Daniel Hervouët, écrivain ou écrivaine. Ne(e) le 1952-11-27 a Versailles. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q15407659

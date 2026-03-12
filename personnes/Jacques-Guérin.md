@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jacques Guérin, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1925-01-16 a Saint-Germain-et-Mons. Formation : Institut d'études politiques de Paris.
+Jacques Guérin, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1925-01-16 a Saint-Germain-et-Mons. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50890758

@@ -4,6 +4,9 @@ founded: '1961-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Sophie Jovillard
+- Stéphanie Brillant
 nom_complet: EFAP
 sources:
 - https://www.wikidata.org/entity/Q3459256

@@ -7,6 +7,16 @@ education: université Paris-Est-Créteil-Val-de-Marne
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Charles Constantin-Vallet
+- Emmanuelle Cosse
+- Karim Achoui
+- Lucile Woodward
+- Michaël Bertini
+- Pascal Durand
+- Pierre-Yves Lautrou
+- Roland Perez
+- Rosiane Houngbo-Monteverde
 nationality: francaise
 nom_complet: Philippe Olivier
 occupation: avocat ou avocate

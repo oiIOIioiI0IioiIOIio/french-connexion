@@ -7,6 +7,13 @@ education: université Montpellier-I
 genre: masculin
 keywords:
 - diplomate
+liens:
+- François Bachy
+- Henri Temple
+- Hervé Fernandez
+- Jean-Marc Pujol
+- Khadija Aoudia
+- Sylvain Sankalé
 nationality: francaise
 nom_complet: Hervé Cassan
 occupation: diplomate

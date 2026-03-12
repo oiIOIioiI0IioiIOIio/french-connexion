@@ -7,6 +7,8 @@ education: ENSAE Paris
 genre: masculin
 keywords:
 - banquier
+liens:
+- Jean-Marc Vilon
 nationality: francaise
 nom_complet: Philippe Brassac
 occupation: banquier
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Philippe Brassac, banquier. Ne(e) le 1959-08-31 a Nîmes. Formation : ENSAE Paris.
+Philippe Brassac, banquier. Ne(e) le 1959-08-31 a Nîmes. Formation : [[ENSAE Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q20089495

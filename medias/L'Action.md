@@ -4,6 +4,8 @@ founded: '1903-01-01'
 keywords:
 - media
 - presse
+liens:
+- L'Action française
 nom_complet: L'Action
 sources:
 - https://www.wikidata.org/entity/Q83606071
@@ -17,4 +19,4 @@ website: https://gallica.bnf.fr/ark:/12148/cb326821363/date
 wikidata_id: Q83606071
 ---
 
-L'Action, media francais.
+L'[[Action]], media francais.

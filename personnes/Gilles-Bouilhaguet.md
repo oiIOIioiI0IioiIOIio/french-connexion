@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gilles Bouilhaguet, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1939-07-12 a Orléans. Formation : Institut d'études politiques de Paris.
+Gilles Bouilhaguet, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1939-07-12 a Orléans. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q65937413

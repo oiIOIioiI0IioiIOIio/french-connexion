@@ -7,6 +7,8 @@ education: European Business School Paris
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Éric Gendry
 nationality: francaise
 nom_complet: Anne Ghesquière
 occupation: écrivain ou écrivaine
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Anne Ghesquière, écrivain ou écrivaine. Ne(e) le 1971-08-27 a Paris. Formation : European Business School Paris.
+Anne Ghesquière, écrivain ou écrivaine. Ne(e) le 1971-08-27 a Paris. Formation : [[European Business School Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q56844073

@@ -7,6 +7,21 @@ education: université Bordeaux-Montaigne
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Agnès Cukierman
+- Clément Bénech
+- David Thomson
+- Emmanuel Langlois
+- Géraldine Mosna-Savoye
+- Isabelle Roberts
+- Kéthévane Bagration de Moukhrani
+- Marie Aubinais
+- Mohamed Toihiri
+- Paul Larrouturou
+- Pierre Lory
+- Stéphane Bijoux
+- Yann Barthès
+- Éric de Kermel
 nationality: francaise
 nom_complet: Xavier Loustaunau
 occupation: diplomate

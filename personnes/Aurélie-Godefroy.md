@@ -7,6 +7,16 @@ education: École du Louvre
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Bernard Pignerol
+- Claudine Le Tourneur d'Ison
+- Didier Rykner
+- Georges Gautier
+- Hélène Risser
+- Inès de La Fressange
+- Juliette Morillot
+- Léa Lootgieter
+- Rosine Lheureux
 nationality: francaise
 nom_complet: Aurélie Godefroy
 occupation: écrivain ou écrivaine

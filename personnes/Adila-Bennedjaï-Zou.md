@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Adila Bennedjaï-Zou, scénariste. Ne(e) le 1973-01-01 a Tizi Ouzou. Formation : université Paris-Sorbonne.
+Adila Bennedjaï-Zou, scénariste. Ne(e) le 1973-01-01 a Tizi Ouzou. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q111207117

@@ -7,6 +7,15 @@ education: Université de Genève
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Agnès Giard
+- Béatrice Métraux
+- Christophe Lemoine
+- Dominique Warluzel
+- Edmond de Rothschild
+- Richard Labévière
+- Thérèse Blanchet
+- Yves Nidegger
 nationality: francaise
 nom_complet: Bernard Anthonioz
 occupation: écrivain ou écrivaine

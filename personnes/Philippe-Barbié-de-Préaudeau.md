@@ -7,6 +7,9 @@ education: lycée Saint-Louis
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- André Rogerie
+- Dominique Nora
 nationality: francaise
 nom_complet: Philippe Barbié de Préaudeau
 occupation: écrivain ou écrivaine

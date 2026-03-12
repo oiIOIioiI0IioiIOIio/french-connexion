@@ -7,6 +7,18 @@ education: Institut d'études politiques de Strasbourg
 genre: masculin
 keywords:
 - juriste
+liens:
+- Alain Thirion
+- Bernard Demange
+- François Ernenwein
+- Isabelle Donnadieu
+- Jean-Claude Erhmann
+- Nicole Michelangeli
+- Olivier Razemon
+- Pascal Barollier
+- Philippe Sutter
+- Valérie Hatsch
+- Élé Asu
 nationality: francaise
 nom_complet: Jean-Pierre Lévy
 occupation: juriste
@@ -22,7 +34,7 @@ tags:
 type: Personne
 ---
 
-Jean-Pierre Lévy, juriste. Ne(e) le 1935-01-01 a Mulhouse. Formation : Institut d'études politiques de Strasbourg.
+Jean-[[Pierre Lévy]], juriste. Ne(e) le 1935-01-01 a Mulhouse. Formation : Institut d'études politiques de Strasbourg.
 
 ## Sources
 - http://www.wikidata.org/entity/Q6169923

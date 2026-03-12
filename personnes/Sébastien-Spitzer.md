@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sébastien Spitzer, écrivain ou écrivaine. Ne(e) le 1970-03-09 a Paris. Formation : Institut d'études politiques de Paris.
+Sébastien Spitzer, écrivain ou écrivaine. Ne(e) le 1970-03-09 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q38139627

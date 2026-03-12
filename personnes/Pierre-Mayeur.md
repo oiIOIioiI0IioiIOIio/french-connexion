@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Mayeur, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1968-04-01 a Paris. Formation : Institut d'études politiques de Paris.
+Pierre Mayeur, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1968-04-01 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33192970

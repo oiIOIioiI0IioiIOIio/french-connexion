@@ -7,6 +7,24 @@ education: université de Strasbourg
 genre: féminin
 keywords:
 - scénariste
+liens:
+- Antoine Genton
+- Barto Pedro Orent-Niedzielski
+- Bertrand Mertz
+- Christian Kassel
+- Christian Nique
+- Christophe Grudler
+- Francis Letellier
+- François Hoehlinger
+- Françoise Joly
+- Jean Kahn
+- Jean-Baptiste Soufron
+- Jean-Marie Bockel
+- Louis Oster
+- Patrick Strzoda
+- Raymond Forni
+- Romain Mielcarek
+- Érick Cakpo
 nationality: francaise
 nom_complet: Marie-Monique Robin
 occupation: scénariste

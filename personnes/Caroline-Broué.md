@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Caroline Broué, directeur ou directrice de collection. Ne(e) le 1972-05-27 a Paris. Formation : université Paris-Sorbonne.
+Caroline Broué, directeur ou directrice de collection. Ne(e) le 1972-05-27 a Paris. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2939965

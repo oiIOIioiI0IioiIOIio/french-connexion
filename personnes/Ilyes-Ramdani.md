@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Ilyes Ramdani, entraîneur ou entraîneuse de football. Ne(e) le 1995-01-01. Formation : université Paris-I-Panthéon-Sorbonne.
+Ilyes Ramdani, entraîneur ou entraîneuse de football. Ne(e) le 1995-01-01. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q60182098

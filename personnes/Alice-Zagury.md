@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alice Zagury, personnalité du monde des affaires. Ne(e) le 1984-11-20 a Paris. Formation : EM Lyon Business School.
+Alice Zagury, personnalité du monde des affaires. Ne(e) le 1984-11-20 a Paris. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33261694

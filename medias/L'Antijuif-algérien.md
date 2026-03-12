@@ -16,4 +16,4 @@ type: Media
 wikidata_id: Q42428798
 ---
 
-L'Antijuif algérien, media francais.
+[[L'Antijuif]] algérien, media francais.

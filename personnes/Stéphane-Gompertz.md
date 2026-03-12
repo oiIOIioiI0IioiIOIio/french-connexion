@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Stéphane Gompertz, écrivain ou écrivaine. Ne(e) le 1949-04-23. Formation : École normale supérieure.
+Stéphane Gompertz, écrivain ou écrivaine. Ne(e) le 1949-04-23. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3501790

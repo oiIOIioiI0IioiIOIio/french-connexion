@@ -5,6 +5,24 @@ headquarters: Toulouse
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Arnauld Champremier-Trigano
+- Audrey Crespo-Mara
+- Christian Authier
+- David Izzo
+- Grégor Trumel
+- Isabelle Sima
+- Jean-François Savy
+- Jean-Paul Gauzès
+- Mahdi Hacène
+- Maxime Switek
+- Michel Moutot
+- Pierre Benazet
+- Rodolphe Sambou
+- Roger Dumec
+- Serge Tignères
+- Stéphane Lauer
+- Sylvain Augier
 nom_complet: Institut d'études politiques de Toulouse
 sources:
 - https://www.wikidata.org/entity/Q1664755

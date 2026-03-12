@@ -7,6 +7,8 @@ education: École nationale supérieure de techniques avancées
 genre: masculin
 keywords:
 - directeur général ou directrice générale
+liens:
+- Céline Curiol
 nationality: francaise
 nom_complet: Stéphane Martin
 occupation: directeur général ou directrice générale

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Piotr Smolar, journaliste. Ne(e) le 1974-01-01 a Aix-en-Provence. Formation : Centre de formation des journalistes.
+Piotr Smolar, journaliste. Ne(e) le 1974-01-01 a Aix-en-Provence. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q60539945

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alexandre Lazarègue, avocat ou avocate. Ne(e) le 1981-03-16 a Suresnes. Formation : université Paris-I-Panthéon-Sorbonne.
+Alexandre Lazarègue, avocat ou avocate. Ne(e) le 1981-03-16 a Suresnes. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q135474633

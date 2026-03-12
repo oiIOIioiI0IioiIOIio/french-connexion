@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel Rollin, photographe. Ne(e) le 1952-10-07 a Lons-le-Saunier. Formation : EM Lyon Business School.
+Michel Rollin, photographe. Ne(e) le 1952-10-07 a Lons-le-Saunier. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q118444222

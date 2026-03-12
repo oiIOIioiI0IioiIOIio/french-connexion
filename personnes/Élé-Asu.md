@@ -7,6 +7,18 @@ education: Institut d'études politiques de Strasbourg
 genre: féminin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Alain Thirion
+- Bernard Demange
+- François Ernenwein
+- Isabelle Donnadieu
+- Jean-Claude Erhmann
+- Jean-Pierre Lévy
+- Nicole Michelangeli
+- Olivier Razemon
+- Pascal Barollier
+- Philippe Sutter
+- Valérie Hatsch
 nationality: francaise
 nom_complet: Élé Asu
 occupation: présentateur ou présentatrice de journal

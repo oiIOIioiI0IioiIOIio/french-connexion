@@ -7,6 +7,13 @@ education: Université de Chicago
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Arnaud Péricard
+- Claude Fouquet
+- Diego Buñuel
+- François Morin
+- Marc-Olivier Strauss-Kahn
+- Pierre R. Graham
 nationality: francaise
 nom_complet: Emmanuel Roman
 occupation: personnalité du monde des affaires

@@ -16,4 +16,4 @@ type: Media
 wikidata_id: Q119132079
 ---
 
-La Croix du Cantal, media francais.
+[[La Croix]] du Cantal, media francais.

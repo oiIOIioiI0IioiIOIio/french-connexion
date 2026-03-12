@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Pascal Beaufret, personnalité du monde des affaires. Ne(e) le 1951-02-18 a Nantes. Formation : HEC Paris.
+Jean-Pascal Beaufret, personnalité du monde des affaires. Ne(e) le 1951-02-18 a Nantes. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3168291

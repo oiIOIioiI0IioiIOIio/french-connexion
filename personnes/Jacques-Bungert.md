@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jacques Bungert, personnalité du monde des affaires. Ne(e) le 1966-03-17 a Metz. Formation : EM Lyon Business School.
+Jacques Bungert, personnalité du monde des affaires. Ne(e) le 1966-03-17 a Metz. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33211887

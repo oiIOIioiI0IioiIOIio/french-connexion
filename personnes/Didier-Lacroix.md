@@ -7,6 +7,8 @@ education: TBS Education
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Axel de Tarlé
 nationality: francaise
 nom_complet: Didier Lacroix
 occupation: personnalité du monde des affaires
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Didier Lacroix, personnalité du monde des affaires. Ne(e) le 1970-02-09 a Toulouse. Formation : TBS Education.
+Didier Lacroix, personnalité du monde des affaires. Ne(e) le 1970-02-09 a Toulouse. Formation : [[TBS Education]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3027059

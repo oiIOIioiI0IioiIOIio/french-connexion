@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Joseph Zimet, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1973-06-24 a Paris. Formation : Institut d'études politiques de Paris.
+Joseph Zimet, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1973-06-24 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q66028561

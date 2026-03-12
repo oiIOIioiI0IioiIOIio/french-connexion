@@ -5,6 +5,8 @@ headquarters: Caen
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Famille Rothschild
 nom_complet: Builders École d’ingénieurs
 sources:
 - https://www.wikidata.org/entity/Q3578414

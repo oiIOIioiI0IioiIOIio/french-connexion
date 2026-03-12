@@ -5,6 +5,11 @@ headquarters: Villeurbanne
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Christian Forestier
+- Christian Nibourel
+- Christophe Plonévez
+- Olivier Brourhant
 nom_complet: Institut national des sciences appliquées de Lyon
 sources:
 - https://www.wikidata.org/entity/Q1633859

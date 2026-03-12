@@ -7,6 +7,11 @@ education: Institut supérieur de gestion
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Christophe de Backer
+- Frédéric Verdier
+- Jérôme Rivière
+- Yves de Kerdrel
 nationality: francaise
 nom_complet: Didier Lallement
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +27,7 @@ tags:
 type: Personne
 ---
 
-Didier Lallement, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1956-08-27 a 6e arrondissement de Lyon. Formation : Institut supérieur de gestion.
+Didier Lallement, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1956-08-27 a 6e arrondissement de Lyon. Formation : [[Institut supérieur de gestion]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3027060

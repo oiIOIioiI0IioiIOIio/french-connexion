@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Paul Poudade, diplomate. Ne(e) le 1942-06-03 a Mazagran. Formation : Institut d'études politiques de Paris.
+Paul Poudade, diplomate. Ne(e) le 1942-06-03 a Mazagran. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16916423

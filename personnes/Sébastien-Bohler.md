@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sébastien Bohler, journaliste. Ne(e) le 1970-11-15 a Strasbourg. Formation : École polytechnique.
+Sébastien Bohler, journaliste. Ne(e) le 1970-11-15 a Strasbourg. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3509966

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alain Guélennoc, personnalité du monde des affaires. Ne(e) le 1961-05-24 a Brest. Formation : HEC Paris.
+Alain Guélennoc, personnalité du monde des affaires. Ne(e) le 1961-05-24 a Brest. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q131540062

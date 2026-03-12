@@ -7,6 +7,8 @@ education: École supérieure d'électricité
 genre: masculin
 keywords:
 - banquier
+liens:
+- Philippe Morillon
 nationality: francaise
 nom_complet: Emmanuel Limido
 occupation: banquier

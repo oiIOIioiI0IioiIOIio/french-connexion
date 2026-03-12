@@ -7,6 +7,14 @@ education: école de l'air et de l’espace
 genre: masculin
 keywords:
 - militaire
+liens:
+- André Lanata
+- Jean Fleury
+- Jean Rannou
+- Michel Authier
+- René Chesnais
+- Roger Pessidous
+- Régis Chamagne
 nationality: francaise
 nom_complet: Jean Saulnier
 occupation: militaire

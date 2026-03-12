@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jérôme Laissus, personnalité du monde des affaires. Ne(e) le 1965-02-28 a Neuilly-sur-Seine. Formation : EM Lyon Business School.
+Jérôme Laissus, personnalité du monde des affaires. Ne(e) le 1965-02-28 a Neuilly-sur-Seine. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q135417914

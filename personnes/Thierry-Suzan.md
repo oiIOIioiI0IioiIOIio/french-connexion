@@ -7,6 +7,19 @@ education: Centre universitaire d'enseignement du journalisme
 genre: masculin
 keywords:
 - photographe
+liens:
+- Agnès Vahramian
+- Antoine Giniaux
+- Arthur Frayer-Laleix
+- Camille Langlade
+- Damien Thévenot
+- Fabienne Sintes
+- Jacky Durand
+- Ludovic Vigogne
+- Marc Fauvelle
+- Matthieu Suc
+- Rachid Arhab
+- Éric Ghebali
 nationality: francaise
 nom_complet: Thierry Suzan
 occupation: photographe

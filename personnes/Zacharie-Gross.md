@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Zacharie Gross, diplomate. Ne(e) le 1971-09-07. Formation : Institut d'études politiques de Paris.
+Zacharie Gross, diplomate. Ne(e) le 1971-09-07. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q71925081

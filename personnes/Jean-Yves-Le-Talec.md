@@ -7,6 +7,13 @@ education: université Toulouse-Jean-Jaurès
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Agathe Auproux
+- Aure Séguier
+- Daniel Crozes
+- Georges Landais
+- Hélène Jouan
+- Jean-Luc Barré
 nationality: francaise
 nom_complet: Jean-Yves Le Talec
 occupation: journaliste

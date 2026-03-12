@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marine Roy, maître ou maîtresse de conférences. Ne(e) le 1970-05-03 a Schœlcher. Formation : École normale supérieure.
+[[Marine]] Roy, maître ou maîtresse de conférences. Ne(e) le 1970-05-03 a Schœlcher. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q47311873

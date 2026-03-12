@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Florence Noiville, écrivain ou écrivaine. Ne(e) le 1961-07-23 a Paris. Formation : HEC Paris.
+Florence Noiville, écrivain ou écrivaine. Ne(e) le 1961-07-23 a Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3074016

@@ -7,6 +7,19 @@ education: université Paris-VIII
 genre: féminin
 keywords:
 - scénariste
+liens:
+- Alexandre Devecchio
+- Diane Galbaud du Fort
+- Diara Ndiaye
+- Irina Kudesova
+- Karyn Nishimura-Poupée
+- Lauren Bastide
+- Luc Évrard
+- Marie-Pierre Farkas
+- Nadia Hathroubi-Safsaf
+- Valentin Houinato
+- Valérie de Saint-Do
+- Éric Le Braz
 nationality: francaise
 nom_complet: Josza Anjembe
 occupation: scénariste

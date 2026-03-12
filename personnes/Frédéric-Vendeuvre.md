@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Frédéric Vendeuvre, écrivain ou écrivaine. Ne(e) le 1965-09-10 a Antony. Formation : EM Lyon Business School.
+Frédéric Vendeuvre, écrivain ou écrivaine. Ne(e) le 1965-09-10 a Antony. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q123147844

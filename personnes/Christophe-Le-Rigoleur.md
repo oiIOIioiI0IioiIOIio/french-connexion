@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christophe Le Rigoleur, diplomate. Ne(e) le 1971-05-03. Formation : Institut d'études politiques de Paris.
+Christophe Le Rigoleur, diplomate. Ne(e) le 1971-05-03. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q136375438

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Abel Quentin, écrivain ou écrivaine. Ne(e) le 1985-01-01 a Lyon. Formation : Institut d'études politiques de Paris.
+Abel Quentin, écrivain ou écrivaine. Ne(e) le 1985-01-01 a Lyon. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q108370145

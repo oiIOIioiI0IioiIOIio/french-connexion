@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Paul Hatte, personnalité politique. Ne(e) le 1993-09-05 a Montmorency. Formation : université Paris-Sorbonne.
+Paul Hatte, personnalité politique. Ne(e) le 1993-09-05 a Montmorency. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q106489525

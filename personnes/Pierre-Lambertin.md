@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Lambertin, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1921-01-11 a Lyon. Formation : École normale supérieure.
+Pierre Lambertin, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1921-01-11 a Lyon. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50940977

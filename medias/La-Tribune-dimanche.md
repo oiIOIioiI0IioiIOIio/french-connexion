@@ -16,4 +16,4 @@ type: Media
 wikidata_id: Q126947364
 ---
 
-La Tribune dimanche, media francais.
+[[La Tribune]] dimanche, media francais.

@@ -7,6 +7,8 @@ education: Université de Varsovie
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Frédéric Schneider
 nationality: francaise
 nom_complet: Jędrzej Bukowski
 occupation: diplomate

@@ -7,6 +7,25 @@ education: Institut d'études politiques de Grenoble
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- André Vallini
+- Ariane Lavrilleux
+- Benjamin Sportouch
+- Bernard Lesterlin
+- Camille Emmanuelle
+- Caroline Roux
+- Coralie Delaume
+- Fabien Escalona
+- Guillaume Daret
+- Jean-Dominique Merchet
+- Jean-Luc Névache
+- Luc Bronner
+- Marine Chanel
+- Nicolas Geay
+- Olivier Revol
+- Paul Marchand
+- Roger Gros
+- Ronan Lancelot
 nationality: francaise
 nom_complet: Lionel Astruc
 occupation: écrivain ou écrivaine
@@ -22,7 +41,7 @@ tags:
 type: Personne
 ---
 
-Lionel Astruc, écrivain ou écrivaine. Ne(e) le 1974-04-14 a Tassin-la-Demi-Lune. Formation : Institut d'études politiques de Grenoble.
+Lionel Astruc, écrivain ou écrivaine. Ne(e) le 1974-04-14 a Tassin-la-Demi-Lune. Formation : [[Institut d'études politiques de Grenoble]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3241810

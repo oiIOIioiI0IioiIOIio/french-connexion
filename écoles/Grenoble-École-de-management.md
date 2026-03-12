@@ -5,6 +5,14 @@ headquarters: Grenoble
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Daniel Assouline
+- Daniel Bouton
+- Georges Pompidou
+- Jean Laurent Bonnafé
+- Neïla Latrous
+- Régine Engström
+- Élisabeth Borne
 nom_complet: Grenoble École de management
 sources:
 - https://www.wikidata.org/entity/Q839224

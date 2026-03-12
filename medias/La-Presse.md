@@ -4,6 +4,8 @@ founded: '1836-01-01'
 keywords:
 - media
 - presse
+liens:
+- La Presse cherbourgeoise
 nom_complet: La Presse
 sources:
 - https://www.wikidata.org/entity/Q3211911

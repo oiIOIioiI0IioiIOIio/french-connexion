@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Joëlle Rayet, diplomate. Ne(e) le 1958-09-01. Formation : Institut d'études politiques de Paris.
+Joëlle Rayet, diplomate. Ne(e) le 1958-09-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q114372488

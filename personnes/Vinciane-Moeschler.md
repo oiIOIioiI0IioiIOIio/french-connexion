@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Vinciane Moeschler, écrivain ou écrivaine. Ne(e) le 1965-01-01 a Genève.
+[[Vinci]]ane Moeschler, écrivain ou écrivaine. Ne(e) le 1965-01-01 a Genève.
 
 ## Sources
 - http://www.wikidata.org/entity/Q77229621

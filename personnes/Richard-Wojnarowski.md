@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Richard Wojnarowski, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1946-08-04. Formation : École polytechnique.
+Richard Wojnarowski, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1946-08-04. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q113163736

@@ -7,6 +7,19 @@ education: université de Nantes
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Arnaud de Perier
+- Bruno Jeudy
+- Chantal de Singly
+- Clémentine Vergnaud
+- Cédric Peltier
+- Dimitri Rouchon-Borie
+- Martine Leguille-Balloy
+- Mattias Guyomar
+- Nicolas Escoulan
+- Patrice Servantie
+- Paul Maillot Rafanoharana
+- Stéphane Simon
 nationality: francaise
 nom_complet: Jacques Moreau
 occupation: avocat ou avocate

@@ -5,6 +5,8 @@ headquarters: Palaiseau
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Claude Viet
 nom_complet: Télécom Paris
 sources:
 - https://www.wikidata.org/entity/Q2311820

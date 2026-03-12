@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Adrien Laurentin, personnalité du monde des affaires. Ne(e) le 1992-02-22 a 16e arrondissement de Paris. Formation : université Paris-I-Panthéon-Sorbonne.
+Adrien Laurentin, personnalité du monde des affaires. Ne(e) le 1992-02-22 a 16e arrondissement de Paris. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q138391775

@@ -7,6 +7,10 @@ education: université Claude-Bernard-Lyon-I
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Fabien Sauvet
+- Julien Mathis Leroux
+- Raphaël Szymocha
 nationality: francaise
 nom_complet: Ottman Zaïr
 occupation: haut fonctionnaire ou haute fonctionnaire

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Marie Gontier, militaire. Ne(e) le 1965-07-13 a Montreuil. Formation : université Paris-I-Panthéon-Sorbonne.
+Jean-Marie Gontier, militaire. Ne(e) le 1965-07-13 a Montreuil. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q106062676

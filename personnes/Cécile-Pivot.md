@@ -7,6 +7,15 @@ education: Centre de formation et de perfectionnement des journalistes
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Anne-Isabelle Tollet
+- Aude Favre
+- Christine Goguet
+- Clarence Edgard-Rosa
+- Djamel Mazi
+- Fabien Roussel
+- Gauthier Le Bret
+- Éric Delvaux
 nationality: francaise
 nom_complet: Cécile Pivot
 occupation: écrivain ou écrivaine

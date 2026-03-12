@@ -7,6 +7,8 @@ education: null
 genre: masculin
 keywords:
 - policier ou policière
+liens:
+- Paul-Philippe Massoni
 nationality: francaise
 nom_complet: Philippe Massoni
 occupation: policier ou policière

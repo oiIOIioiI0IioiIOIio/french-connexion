@@ -7,6 +7,10 @@ education: King's College de Londres
 genre: masculin
 keywords:
 - banquier
+liens:
+- Axelle Lemaire
+- Jennifer Baert
+- Olivier Entraygues
 nationality: francaise
 nom_complet: David de Rothschild
 occupation: banquier

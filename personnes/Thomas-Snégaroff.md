@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Thomas Snégaroff, historien ou historienne. Ne(e) le 1974-07-06 a Nancy. Formation : université Paris-I-Panthéon-Sorbonne.
+Thomas Snégaroff, historien ou historienne. Ne(e) le 1974-07-06 a Nancy. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2380904

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Georges Fragny, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1927-05-30 a Paris. Formation : Institut d'études politiques de Paris.
+Georges Fragny, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1927-05-30 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q122229642

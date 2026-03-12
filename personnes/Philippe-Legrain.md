@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Philippe Legrain, diplomate. Ne(e) le 1925-01-25 a 16e arrondissement de Paris. Formation : Institut d'études politiques de Paris.
+Philippe Legrain, diplomate. Ne(e) le 1925-01-25 a 16e arrondissement de Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q125421405

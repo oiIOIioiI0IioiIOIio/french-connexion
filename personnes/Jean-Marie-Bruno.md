@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Marie Bruno, diplomate. Ne(e) le 1958-01-15 a Marseille. Formation : Institut d'études politiques de Paris.
+Jean-Marie Bruno, diplomate. Ne(e) le 1958-01-15 a Marseille. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q31192334

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Tigrane Seydoux, directeur général ou directrice générale. Ne(e) le 1984-01-01 a Monaco. Formation : HEC Paris.
+Tigrane Seydoux, directeur général ou directrice générale. Ne(e) le 1984-01-01 a Monaco. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q125421585

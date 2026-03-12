@@ -7,6 +7,17 @@ education: Université de New York
 genre: masculin
 keywords:
 - ambassadeur ou ambassadrice
+liens:
+- Anne Poiret
+- Antonin Lévy
+- Arno Klarsfeld
+- Carine Fouteau
+- Géraldine Muhlmann
+- Iris Brey
+- Léa Salamé
+- Marie-Anne Barbat-Layani
+- Mohamed Sahnoun
+- Stéphanie Antoine
 nationality: francaise
 nom_complet: Laurent Stefanini
 occupation: ambassadeur ou ambassadrice

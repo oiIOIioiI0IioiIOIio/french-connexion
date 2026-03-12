@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Éric Valmir, journaliste. Ne(e) le 1968-03-24 a Paris. Formation : Centre de formation des journalistes.
+Éric Valmir, journaliste. Ne(e) le 1968-03-24 a Paris. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3591385

@@ -7,6 +7,15 @@ education: université de Caen-Normandie
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Alain Tourret
+- Christine Kerdellant
+- Denis Brogniart
+- Guillaume Bazard
+- Jean-Marie Girault
+- Jean-Paul Ollivier
+- Marie-Annick Bourdin
+- Olivier Metzner
 nationality: francaise
 nom_complet: Céline Asselot
 occupation: journaliste

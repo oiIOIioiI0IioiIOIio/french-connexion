@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sébastien Pierroz, écrivain ou écrivaine. Ne(e) le 1983-02-25. Formation : université Paris-I-Panthéon-Sorbonne.
+Sébastien Pierroz, écrivain ou écrivaine. Ne(e) le 1983-02-25. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q117072272

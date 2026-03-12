@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Roland Bonnot, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1932-03-01 a Luzy. Formation : Institut d'études politiques de Paris.
+Roland Bonnot, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1932-03-01 a Luzy. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q123368336

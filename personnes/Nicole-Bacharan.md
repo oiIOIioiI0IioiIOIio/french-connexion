@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nicole Bacharan, écrivain ou écrivaine. Ne(e) le 1955-01-25 a Saint-Gaudens. Formation : Institut d'études politiques de Paris.
+Nicole Bacharan, écrivain ou écrivaine. Ne(e) le 1955-01-25 a Saint-Gaudens. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3340999

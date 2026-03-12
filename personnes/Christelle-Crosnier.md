@@ -7,6 +7,17 @@ education: Institut français de presse
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Charles Desjardins
+- Claude Belot
+- Emmanuel de Brantes
+- Ginie Van de Noort
+- Jean-François Julliard
+- Jérôme Béglé
+- Leïla Beratto
+- Maya Lauqué
+- Olivier Bertrand
+- Thomas Sotto
 nationality: francaise
 nom_complet: Christelle Crosnier
 occupation: écrivain ou écrivaine

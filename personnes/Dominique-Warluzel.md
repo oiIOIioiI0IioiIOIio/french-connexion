@@ -7,6 +7,15 @@ education: Université de Genève
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Agnès Giard
+- Bernard Anthonioz
+- Béatrice Métraux
+- Christophe Lemoine
+- Edmond de Rothschild
+- Richard Labévière
+- Thérèse Blanchet
+- Yves Nidegger
 nationality: francaise
 nom_complet: Dominique Warluzel
 occupation: avocat ou avocate

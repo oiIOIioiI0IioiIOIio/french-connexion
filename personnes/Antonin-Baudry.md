@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Antonin Baudry, scénariste. Ne(e) le 1975-05-06 a Paris. Formation : École normale supérieure.
+Antonin Baudry, scénariste. Ne(e) le 1975-05-06 a Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q15971720

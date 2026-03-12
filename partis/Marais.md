@@ -4,6 +4,8 @@ headquarters: palais des Tuileries
 keywords:
 - parti politique
 - politique
+liens:
+- Bertrand du Marais
 nom_complet: Marais
 sources:
 - https://www.wikidata.org/entity/Q920544

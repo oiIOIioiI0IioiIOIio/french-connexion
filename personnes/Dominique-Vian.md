@@ -7,6 +7,30 @@ education: Institut d'études politiques d'Aix-en-Provence
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Alexis Le Cour Grandmaison
+- Ali André Mécili
+- Arnaud Suquet
+- Bertrand Kern
+- Bruno Mettling
+- Edmond Zucchelli
+- Fabien Namias
+- Fabrice Madouas
+- Fabrice Étienne
+- Franck Genauzeau
+- François Pinet
+- Jean-Charles Marchiani
+- Johana Gustawsson
+- Julien Bahloul
+- Laëtitia Allemand
+- Lionel Paradisi-Coulouma
+- Mehdi Chebana
+- Mélanie Chalandon
+- Rudy Reichstadt
+- Rémy Porte
+- Sylvaine Carta-Le Vert
+- Sylvie Faiderbe
+- Sylvie Kauffmann
 nationality: francaise
 nom_complet: Dominique Vian
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +46,7 @@ tags:
 type: Personne
 ---
 
-Dominique Vian, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1944-12-25 a Valence. Formation : Institut d'études politiques d'Aix-en-Provence.
+Dominique Vian, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1944-12-25 a Valence. Formation : [[Institut d'études politiques d'Aix-en-Provence]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3035520

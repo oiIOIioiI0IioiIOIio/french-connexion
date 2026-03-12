@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sandrine Aramon, présentateur ou présentatrice de journal. Ne(e) le 1973-01-01 a Paris. Formation : université Paris-Sorbonne.
+Sandrine Aramon, présentateur ou présentatrice de journal. Ne(e) le 1973-01-01 a Paris. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q59115667

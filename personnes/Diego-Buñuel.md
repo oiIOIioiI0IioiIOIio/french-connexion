@@ -7,6 +7,13 @@ education: Université de Chicago
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Arnaud Péricard
+- Claude Fouquet
+- Emmanuel Roman
+- François Morin
+- Marc-Olivier Strauss-Kahn
+- Pierre R. Graham
 nationality: francaise
 nom_complet: Diego Buñuel
 occupation: journaliste

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Françoise Bourolleau, diplomate. Ne(e) le 1951-04-20. Formation : Institut d'études politiques de Paris.
+Françoise Bourolleau, diplomate. Ne(e) le 1951-04-20. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q110765796

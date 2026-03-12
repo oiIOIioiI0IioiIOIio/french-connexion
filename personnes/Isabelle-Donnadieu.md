@@ -7,6 +7,18 @@ education: Institut d'études politiques de Strasbourg
 genre: féminin
 keywords:
 - traducteur ou traductrice
+liens:
+- Alain Thirion
+- Bernard Demange
+- François Ernenwein
+- Jean-Claude Erhmann
+- Jean-Pierre Lévy
+- Nicole Michelangeli
+- Olivier Razemon
+- Pascal Barollier
+- Philippe Sutter
+- Valérie Hatsch
+- Élé Asu
 nationality: francaise
 nom_complet: Isabelle Donnadieu
 occupation: traducteur ou traductrice

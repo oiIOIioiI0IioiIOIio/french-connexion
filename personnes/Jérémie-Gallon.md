@@ -7,6 +7,9 @@ education: université Tsinghua
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Joan Valadou
+- Marianne Ziss
 nationality: francaise
 nom_complet: Jérémie Gallon
 occupation: écrivain ou écrivaine

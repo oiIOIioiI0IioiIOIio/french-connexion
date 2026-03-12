@@ -7,6 +7,13 @@ education: Université de Californie à Berkeley
 genre: féminin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- David Castello-Lopes
+- Fabienne Keller
+- Henry Peter
+- Laurence Auer
+- Serge Halimi
+- Teymouraz Gorjestani
 nationality: francaise
 nom_complet: Marjorie Vanbaelinghem
 occupation: haut fonctionnaire ou haute fonctionnaire

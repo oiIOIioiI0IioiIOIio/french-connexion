@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Aurélie Bretonneau, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1981-01-01. Formation : École normale supérieure.
+Aurélie Bretonneau, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1981-01-01. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q47658162

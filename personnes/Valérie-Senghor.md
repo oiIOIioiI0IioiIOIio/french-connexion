@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Valérie Senghor, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1971-09-22. Formation : HEC Paris.
+Valérie Senghor, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1971-09-22. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q107023082

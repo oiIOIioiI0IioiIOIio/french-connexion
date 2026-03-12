@@ -7,6 +7,12 @@ education: lycée Louis-le-Grand
 genre: masculin
 keywords:
 - militaire
+liens:
+- Doan Bui
+- Jean Coursaget
+- Michel de La Fournière
+- René Heckenroth
+- Yves Aubin de La Messuzière
 nationality: francaise
 nom_complet: Yves de Daruvar
 occupation: militaire
@@ -22,7 +28,7 @@ tags:
 type: Personne
 ---
 
-Yves de Daruvar, militaire. Ne(e) le 1921-03-31 a Constantinople. Formation : lycée Louis-le-Grand.
+Yves de Daruvar, militaire. Ne(e) le 1921-03-31 a Constantinople. Formation : [[Lycée Louis-le-Grand]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q11984987

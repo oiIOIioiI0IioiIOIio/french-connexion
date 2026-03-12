@@ -7,6 +7,10 @@ education: université de La Réunion
 genre: féminin
 keywords:
 - avocat ou avocate
+liens:
+- Francky Lauret
+- Jean-Marc Cassam Chenai
+- Manu Payet
 nationality: francaise
 nom_complet: Ericka Bareigts
 occupation: avocat ou avocate

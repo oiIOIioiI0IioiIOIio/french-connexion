@@ -7,6 +7,12 @@ education: université de Bordeaux
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Mahamat Saleh Haroun
+- Marc Saikali
+- Pierre Abeberry
+- Pierre Camou
+- Violaine de Filippis-Abate
 nationality: francaise
 nom_complet: Eneko Bidegain
 occupation: écrivain ou écrivaine

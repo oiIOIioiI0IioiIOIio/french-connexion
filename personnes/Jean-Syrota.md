@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean Syrota, personnalité du monde des affaires. Ne(e) le 1937-02-09 a Paris. Formation : École polytechnique.
+Jean Syrota, personnalité du monde des affaires. Ne(e) le 1937-02-09 a Paris. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3174718

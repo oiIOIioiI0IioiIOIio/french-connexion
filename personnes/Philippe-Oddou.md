@@ -7,6 +7,21 @@ education: Université Columbia
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Alexandra Bensaïd
+- Emmanuel Levacher
+- Frédérique Camilleri
+- Guillaume Debré
+- Jean-Michel Guénod
+- Julia Minkowski
+- Klara Wyrzykowska
+- Kéthévane Gorjestani
+- Olivier Royant
+- Rachel-Flore Pardo
+- Robert Badinter
+- Rudy Rochman
+- Salomé Zourabichvili
+- Éléonore Caroit
 nationality: francaise
 nom_complet: Philippe Oddou
 occupation: personnalité du monde des affaires
@@ -22,7 +37,7 @@ tags:
 type: Personne
 ---
 
-Philippe Oddou, personnalité du monde des affaires. Ne(e) le 1972-01-01 a Paris. Formation : Université Columbia.
+[[Philippe Oddo]]u, personnalité du monde des affaires. Ne(e) le 1972-01-01 a Paris. Formation : Université Columbia.
 
 ## Sources
 - http://www.wikidata.org/entity/Q110189720

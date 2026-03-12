@@ -7,6 +7,14 @@ education: lycée Janson-de-Sailly
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Christophe Ono-dit-Biot
+- Hubert Heilbronn
+- Laurence de Charette
+- Maxime de Rostolan
+- René Ribière
+- Édouard de Ribes
+- Éric de Rothschild
 nationality: francaise
 nom_complet: Thomas Schmider
 occupation: personnalité du monde des affaires
@@ -22,7 +30,7 @@ tags:
 type: Personne
 ---
 
-Thomas Schmider, personnalité du monde des affaires. Ne(e) le 1961-12-19 a Saint-Germain-en-Laye. Formation : lycée Janson-de-Sailly.
+Thomas Schmider, personnalité du monde des affaires. Ne(e) le 1961-12-19 a Saint-Germain-en-Laye. Formation : [[Lycée Janson-de-Sailly]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q122915197

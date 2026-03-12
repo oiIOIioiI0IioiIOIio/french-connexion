@@ -7,6 +7,10 @@ education: Sorbonne
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Amadou-Mahtar MBow
+- Henri Lopes
+- Laurence Debray
 nationality: francaise
 nom_complet: Michel Cullin
 occupation: diplomate
@@ -21,7 +25,7 @@ tags:
 type: Personne
 ---
 
-Michel Cullin, diplomate. Ne(e) le 1944-09-17 a Antony. Formation : Sorbonne.
+Michel Cullin, diplomate. Ne(e) le 1944-09-17 a Antony. Formation : [[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q694232

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Léon Legrand, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1933-06-27 a Monthuchon.
+Léon [[Legrand]], haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1933-06-27 a Monthuchon.
 
 ## Sources
 - http://www.wikidata.org/entity/Q112225243

@@ -7,6 +7,31 @@ education: Institut national des langues et civilisations orientales
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Adrien Gombeaud
+- Alexandre Garcia
+- Christile Drulhe
+- Cyrille Baumgartner
+- Florent Dabadie
+- Florent Gorges
+- Georges Diener
+- Gilles Garachon
+- Jacques Champagne de Labriolle
+- Jean-Christophe Belliard
+- Jean-Noël Poirier
+- Jean-Paul Réau
+- Jean-Pierre Montagne
+- José Paoli
+- Joël Meyer
+- Jules Irrmann
+- Olivier Guyonvarch
+- Olivier Lannuzel
+- Pierre-Antoine Donnet
+- Renée Sillon-Veyret
+- Richard Sola
+- Rémi Maréchaux
+- Véronique Bujon-Barré
+- Élisabeth Laurin
 nationality: francaise
 nom_complet: Bertrand Besancenot
 occupation: diplomate
@@ -22,7 +47,7 @@ tags:
 type: Personne
 ---
 
-Bertrand Besancenot, diplomate. Ne(e) le 1952-04-06 a Casablanca. Formation : Institut national des langues et civilisations orientales.
+Bertrand Besancenot, diplomate. Ne(e) le 1952-04-06 a Casablanca. Formation : [[Institut national des langues et civilisations orientales]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q31189832

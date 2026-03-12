@@ -7,6 +7,16 @@ education: lycée Condorcet
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Alain Hollande
+- Amélie Guicheney
+- Christophe Bourseiller
+- Christophe Tison
+- Laurent Broomhead
+- Nicolas Chapuis
+- Philippe Lefait
+- Raymond Morice
+- Stéphane Barsacq
 nationality: francaise
 nom_complet: Claude Bussière
 occupation: haut fonctionnaire ou haute fonctionnaire

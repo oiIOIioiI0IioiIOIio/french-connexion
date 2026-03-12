@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Aude Rossigneux, journaliste. Ne(e) le 1975-03-15 a Paris. Formation : université Paris-I-Panthéon-Sorbonne.
+Aude Rossigneux, journaliste. Ne(e) le 1975-03-15 a Paris. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2870708

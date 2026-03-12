@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Charlotte Giraud, personnalité du monde des affaires. Ne(e) le 1980-02-27 a Boulogne-Billancourt. Formation : EM Lyon Business School.
+Charlotte Giraud, personnalité du monde des affaires. Ne(e) le 1980-02-27 a Boulogne-Billancourt. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q134310343

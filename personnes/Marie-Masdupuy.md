@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marie Masdupuy, diplomate. Ne(e) le 1964-04-29. Formation : Institut d'études politiques de Paris.
+Marie Masdupuy, diplomate. Ne(e) le 1964-04-29. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50692215

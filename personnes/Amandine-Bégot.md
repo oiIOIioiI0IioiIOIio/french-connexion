@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Amandine Bégot, journaliste. Ne(e) le 1981-02-21 a Paris. Formation : université Paris-Sorbonne.
+Amandine Bégot, journaliste. Ne(e) le 1981-02-21 a Paris. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q27758713

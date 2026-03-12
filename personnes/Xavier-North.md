@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Xavier North, enseignant ou enseignante. Ne(e) le 1952-06-19 a Bogota. Formation : École normale supérieure.
+Xavier North, enseignant ou enseignante. Ne(e) le 1952-06-19 a Bogota. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3570751

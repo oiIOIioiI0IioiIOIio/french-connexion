@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Maxime Aiach, personnalité du monde des affaires. Ne(e) le 1962-12-29 a Neuilly-sur-Seine. Formation : EM Lyon Business School.
+Maxime Aiach, personnalité du monde des affaires. Ne(e) le 1962-12-29 a Neuilly-sur-Seine. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33285153

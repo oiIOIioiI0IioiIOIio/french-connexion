@@ -7,6 +7,23 @@ education: Institut d'études politiques de Toulouse
 genre: féminin
 keywords:
 - juriste
+liens:
+- Arnauld Champremier-Trigano
+- Audrey Crespo-Mara
+- Christian Authier
+- David Izzo
+- Grégor Trumel
+- Jean-François Savy
+- Jean-Paul Gauzès
+- Mahdi Hacène
+- Maxime Switek
+- Michel Moutot
+- Pierre Benazet
+- Rodolphe Sambou
+- Roger Dumec
+- Serge Tignères
+- Stéphane Lauer
+- Sylvain Augier
 nationality: francaise
 nom_complet: Isabelle Sima
 occupation: juriste
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Isabelle Sima, juriste. Ne(e) le 1970-09-05. Formation : Institut d'études politiques de Toulouse.
+Isabelle Sima, juriste. Ne(e) le 1970-09-05. Formation : [[Institut d'études politiques de Toulouse]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16644050

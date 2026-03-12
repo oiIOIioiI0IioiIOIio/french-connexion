@@ -7,6 +7,13 @@ education: université Nice-Sophia-Antipolis
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Christian Daziano
+- Fabien Ferasson de Quental
+- Jacques Peyrat
+- Jean-Yves Potel
+- Marion Festraëts
+- Virginie Joron
 nationality: francaise
 nom_complet: Claudine Monteil
 occupation: écrivain ou écrivaine

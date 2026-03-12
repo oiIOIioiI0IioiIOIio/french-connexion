@@ -7,6 +7,14 @@ education: faculté des lettres de Paris
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Alain Rouillard
+- Alexis Berelowitch
+- Claude Ambrosini
+- Marcel Martin
+- Marie-Françoise Hamard
+- Pierre Boillot
+- Pierre Lafrance
 nationality: francaise
 nom_complet: Jean-Claude Moreau
 occupation: diplomate
@@ -22,7 +30,7 @@ tags:
 type: Personne
 ---
 
-Jean-Claude Moreau, diplomate. Ne(e) le 1943-02-25. Formation : faculté des lettres de Paris.
+Jean-[[Claude Moreau]], diplomate. Ne(e) le 1943-02-25. Formation : [[faculté des lettres de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q73401665

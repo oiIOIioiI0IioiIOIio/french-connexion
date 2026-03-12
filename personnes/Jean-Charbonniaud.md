@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean Charbonniaud, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1951-02-22 a Marseille.
+Jean [[Charb]]onniaud, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1951-02-22 a Marseille.
 
 ## Sources
 - http://www.wikidata.org/entity/Q3171232

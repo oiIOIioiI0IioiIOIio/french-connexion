@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Valère Corréard, journaliste. Ne(e) le 1976-08-24 a Avignon. Formation : Institut d'études politiques de Paris.
+Valère Corréard, journaliste. Ne(e) le 1976-08-24 a Avignon. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q109046312

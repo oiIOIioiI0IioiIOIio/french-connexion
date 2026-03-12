@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bertrand Cochery, diplomate. Ne(e) le 1959-10-03. Formation : Institut d'études politiques de Paris.
+Bertrand Cochery, diplomate. Ne(e) le 1959-10-03. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50689802

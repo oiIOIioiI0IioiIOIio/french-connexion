@@ -7,6 +7,8 @@ education: École militaire interarmes
 genre: masculin
 keywords:
 - militaire
+liens:
+- Christian Prouteau
 nationality: francaise
 nom_complet: Henri Leclerc de Hauteclocque
 occupation: militaire
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Henri Leclerc de Hauteclocque, militaire. Ne(e) le 1926-05-27 a Versailles. Formation : École militaire interarmes.
+[[Henri Leclerc]] de Hauteclocque, militaire. Ne(e) le 1926-05-27 a Versailles. Formation : École militaire interarmes.
 
 ## Sources
 - http://www.wikidata.org/entity/Q109037491

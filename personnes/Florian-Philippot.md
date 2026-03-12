@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Florian Philippot, personnalité politique. Ne(e) le 1981-10-24 a Croix. Formation : HEC Paris.
+Florian Philippot, personnalité politique. Ne(e) le 1981-10-24 a Croix. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3074223

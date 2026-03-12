@@ -7,6 +7,8 @@ education: lycée Hoche
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Jean-Louis Delvolvé
 nationality: francaise
 nom_complet: Wandrille de Guerpel
 occupation: journaliste

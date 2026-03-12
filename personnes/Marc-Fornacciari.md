@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marc Fornacciari, avocat ou avocate. Ne(e) le 1954-06-16 a Tunis. Formation : École normale supérieure.
+Marc Fornacciari, avocat ou avocate. Ne(e) le 1954-06-16 a Tunis. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33138984

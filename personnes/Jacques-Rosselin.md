@@ -7,6 +7,14 @@ education: École centrale Paris
 genre: masculin
 keywords:
 - dirigeant de presse
+liens:
+- Christophe Chantepy
+- Djamel Agaoua
+- Dominique-Paul Vallée
+- François Ecalle
+- Jean-Louis Zoël
+- Stéphane Bredin
+- Xavier Lefort
 nationality: francaise
 nom_complet: Jacques Rosselin
 occupation: dirigeant de presse

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Emmanuel Karlin, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1936-12-12 a Nancy. Formation : Institut d'études politiques de Paris.
+Emmanuel Karlin, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1936-12-12 a Nancy. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q113374952

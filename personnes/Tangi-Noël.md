@@ -7,6 +7,14 @@ education: université Rennes-I
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Annie Lemoine
+- Florian Bachelier
+- Jean-Jacques Urvoas
+- Karine Djébari
+- Mary Plard
+- Nicolas Carreau
+- Olivier Richefou
 nationality: francaise
 nom_complet: Tangi Noël
 occupation: avocat ou avocate

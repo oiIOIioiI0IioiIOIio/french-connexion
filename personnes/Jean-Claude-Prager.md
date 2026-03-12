@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Jean-Claude Prager, économiste. Ne(e) le 1945-02-05. Formation : École polytechnique.
+Jean-Claude Prager, économiste. Ne(e) le 1945-02-05. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q21657444

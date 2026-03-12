@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Louis de Fouchécour, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1965-05-17 a Neuilly-sur-Seine. Formation : École normale supérieure.
+Louis de Fouchécour, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1965-05-17 a Neuilly-sur-Seine. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33105109

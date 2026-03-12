@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Paul de Gaudemar, économiste. Ne(e) le 1947-03-18 a Guildford. Formation : École polytechnique.
+Jean-Paul de Gaudemar, économiste. Ne(e) le 1947-03-18 a Guildford. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q22255964

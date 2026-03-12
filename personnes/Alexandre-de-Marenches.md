@@ -7,6 +7,8 @@ education: École des Roches
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Bertrand de Villeneuve Bargemont
 nationality: francaise
 nom_complet: Alexandre de Marenches
 occupation: personnalité du monde des affaires

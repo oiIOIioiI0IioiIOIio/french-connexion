@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Thomas Rebaud, personnalité du monde des affaires. Ne(e) le 1987-08-04 a Neuilly-sur-Seine. Formation : EM Lyon Business School.
+Thomas Rebaud, personnalité du monde des affaires. Ne(e) le 1987-08-04 a Neuilly-sur-Seine. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q65513459

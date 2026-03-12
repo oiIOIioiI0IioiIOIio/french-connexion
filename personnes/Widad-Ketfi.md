@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Widad Ketfi, journaliste. Ne(e) le 1985-01-01 a Bondy. Formation : université Paris-Sorbonne.
+Widad Ketfi, journaliste. Ne(e) le 1985-01-01 a Bondy. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q28496096

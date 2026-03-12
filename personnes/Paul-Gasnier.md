@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Paul Gasnier, journaliste. Ne(e) le 1990-01-01. Formation : Institut d'études politiques de Paris.
+Paul Gasnier, journaliste. Ne(e) le 1990-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q107097617

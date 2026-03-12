@@ -7,6 +7,14 @@ education: école de l'air et de l’espace
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- André Lanata
+- Jean Fleury
+- Jean Rannou
+- Jean Saulnier
+- Michel Authier
+- Roger Pessidous
+- Régis Chamagne
 nationality: francaise
 nom_complet: René Chesnais
 occupation: écrivain ou écrivaine

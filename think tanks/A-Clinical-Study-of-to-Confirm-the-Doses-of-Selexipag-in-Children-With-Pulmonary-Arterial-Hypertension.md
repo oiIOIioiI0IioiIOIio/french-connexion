@@ -18,4 +18,4 @@ type: Fondation
 wikidata_id: Q64139960
 ---
 
-A Clinical Study of to Confirm the Doses of Selexipag in Children With Pulmonary Arterial Hypertension, think tank ou fondation.
+A Clinical Study of to Confirm the Doses of Selexipag in Children With Pulmonary [[Arte]]rial Hypertension, think tank ou fondation.

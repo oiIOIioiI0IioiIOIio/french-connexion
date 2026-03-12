@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-François Noiville, diplomate. Ne(e) le 1927-07-12 a Alger. Formation : École normale supérieure.
+Jean-François Noiville, diplomate. Ne(e) le 1927-07-12 a Alger. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q21555093

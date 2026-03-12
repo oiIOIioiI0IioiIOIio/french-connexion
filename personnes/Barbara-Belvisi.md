@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Barbara Belvisi, entrepreneur ou entrepreneuse. Ne(e) le 1985-03-16 a 19e arrondissement de Paris. Formation : EM Lyon Business School.
+Barbara Belvisi, entrepreneur ou entrepreneuse. Ne(e) le 1985-03-16 a 19e arrondissement de Paris. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q105335639

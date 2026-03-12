@@ -7,6 +7,14 @@ education: École centrale Paris
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Christophe Chantepy
+- Djamel Agaoua
+- Dominique-Paul Vallée
+- Jacques Rosselin
+- Jean-Louis Zoël
+- Stéphane Bredin
+- Xavier Lefort
 nationality: francaise
 nom_complet: François Ecalle
 occupation: haut fonctionnaire ou haute fonctionnaire

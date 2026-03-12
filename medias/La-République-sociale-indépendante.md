@@ -16,4 +16,4 @@ type: Media
 wikidata_id: Q6465035
 ---
 
-La République sociale indépendante, media francais.
+[[La République]] sociale indépendante, media francais.

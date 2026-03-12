@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Claire Meynial, reporter ou reportrice. Ne(e) le 1976-07-29 a Roubaix. Formation : Institut d'études politiques de Paris.
+Claire Meynial, reporter ou reportrice. Ne(e) le 1976-07-29 a Roubaix. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q54245529

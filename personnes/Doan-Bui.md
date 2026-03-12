@@ -7,6 +7,12 @@ education: lycée Louis-le-Grand
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Jean Coursaget
+- Michel de La Fournière
+- René Heckenroth
+- Yves Aubin de La Messuzière
+- Yves de Daruvar
 nationality: francaise
 nom_complet: Doan Bui
 occupation: écrivain ou écrivaine
@@ -22,7 +28,7 @@ tags:
 type: Personne
 ---
 
-Doan Bui, écrivain ou écrivaine. Ne(e) le 1974-01-01 a Le Mans. Formation : lycée Louis-le-Grand.
+Doan Bui, écrivain ou écrivaine. Ne(e) le 1974-01-01 a Le Mans. Formation : [[Lycée Louis-le-Grand]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q15974048

@@ -3,6 +3,202 @@ date_creation_note: '2026-03-12'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Agnès Bonfillon
+- Alain Puiseux
+- Alain Schneider
+- Alba Ventura
+- Alexandra Pihen
+- Allister Heath
+- Amal Alamuddin
+- Amélie Perrier
+- Anne Bouillon
+- Anne-Claire Legendre
+- Anthony Vincent
+- Astrid de Villaines
+- Aude Blondet
+- Aurélie Darbouret
+- Axelle Lemaire
+- Benjamin Vincent
+- Benoît Collombat
+- Bernard Bastide
+- Bernard Fornas
+- Bernard François Combemale
+- Bernard Poirette
+- Bernard Squarcini
+- Bettina Ducat
+- Béatrice Denaes
+- Bénédicte Tassart
+- Camille Crosnier
+- Catherine Mangin-Dessarts
+- Catherine Moisan
+- Catherine Siguret
+- Charline Roux
+- Charlotte Journo-Baur
+- Chloé Andries
+- Christian Prudhomme
+- Christophe Arleston
+- Christophe Castaner
+- Christophe Delay
+- Christophe Ono-dit-Biot
+- Christophe Penot
+- Claude Guibal
+- Cécile Bidault
+- Cédric de Pierrepont
+- Céline Rousseaux
+- Damien Mascret
+- Dana Purcarescu
+- David Miège
+- David Servan-Schreiber
+- David de Rothschild
+- Didier Rogasik
+- Dominique Dron
+- Dominique Lagrou-Sempère
+- Elsa Pallot
+- Eléna Volochine
+- Eléonor Acher
+- Erik Rémès
+- Famille Rothschild
+- Flore Maréchal
+- Floriane Louison
+- Franck Barthe
+- François Bachy
+- François Beaudonnet
+- François Thomazeau
+- François-Xavier Bourmaud
+- Frédéric Vion
+- Gauthier Rybinski
+- Gilles Jacquier
+- Guillaume Auda
+- Gérard Tur
+- Habibou Bangré
+- Henri Temple
+- Hervé Cassan
+- Hervé Fernandez
+- Hervé Gattegno
+- Hind Meddeb
+- Hubert Heilbronn
+- Hur Gorostiaga
+- Isabelle Saporta
+- Jacques Grandon
+- James de Rothschild
+- Jean Augustine
+- Jean Prot
+- Jean Rochet
+- Jean-François Pérès
+- Jean-Karim Fall
+- Jean-Louis Brochen
+- Jean-Luc Évin
+- Jean-Marc Four
+- Jean-Marc Morandini
+- Jean-Marc Pujol
+- Jean-Marc d'Abreu
+- Jean-Michel Bretonnier
+- Jean-Sébastien Ferjou
+- Jean-Yves Moyart
+- Jeanne Seignol
+- Jennifer Baert
+- Jennifer Padjemi
+- John Carter Bacot
+- Joëlle Palmieri
+- Juan Gomez
+- Julian Bugier
+- Julie Hamaïde
+- Julien Larregue
+- Jérôme Salomon
+- Kamel Daoud
+- Karine Baste
+- Khadija Aoudia
+- Kidi Bebey
+- Laurence de Charette
+- Laurent Bazin
+- Laurent Obertone
+- Leila Alaoui
+- Linda Weil-Curiel
+- Louise Tschanz
+- Lucie Chaumette
+- Léon Bouvier
+- Marc Mortelmans
+- Marie-France Etchegoin
+- Marie-Ève Lacasse
+- Marie-Ève Malouines
+- Marine Turchi
+- Marjorie Bertin
+- Marlène Blin
+- Martin Pénet
+- Maryse Joissains-Masini
+- Matthieu Belliard
+- Maxime de Rostolan
+- Maïa Mazaurette
+- Meriem Amellal
+- Michel Kempinski
+- Michel Turpin
+- Michèle Gendreau-Massaloux
+- Mohamed Mancona Kouyaté
+- Mona Chollet
+- Mustapha Adib
+- Nadia Daam
+- Nicolas Barotte
+- Nicolas Poincaré
+- Odile Conseil
+- Olivier Entraygues
+- Olivier Malfait
+- Olivier Nicklaus
+- Pascal Boyer
+- Patrice Romedenne
+- Patricia Loison
+- Patrick Eudeline
+- Penelope Fillon
+- Pierre Alonso
+- Pierre Degrave
+- Pierre Falcone
+- Pierre N'Gahane
+- Pierre Perrone
+- Pierre Rouvière
+- Pierre Zakrzewski
+- Pierre-Christian Taittinger
+- René Ribière
+- Richard Laganier
+- Robert Ménard
+- Réginald Gaillard
+- Régine Engström
+- Sadruddin Aga Khan
+- Salima Saa
+- Sandy Dauphin
+- Sarah Caron
+- Serge Bilé
+- Simon Liberati
+- Siv-Leng Chhuor
+- Sophie Joissains
+- Sophie-Marie Larrouy
+- Stéphane Benoit-Godet
+- Stéphane Foucart
+- Stéphane Soumier
+- Sylvain Sankalé
+- Tayeb Belaiz
+- Thierry Dugeon
+- Thomas Baumgartner
+- Thomas Mayol
+- Thomas Schmider
+- Thérèse Delpech
+- Tristan Waleckx
+- Tronchet
+- Tugdual de Dieuleveult
+- Ulysse Gosset
+- Vincent Bedouin
+- Yves Decaens
+- Ziza Massika
+- Édith Cresson
+- Édouard Philippe
+- Édouard de Ribes
+- Élizabeth Martichoux
+- Élizabeth Tchoungui
+- Émilie Besse
+- Éric Bayle
+- Éric Faye
+- Éric Jouan
+- Éric de Rothschild
+- Étienne Campion
 nom_complet: L’école du parti de Longjumeau
 sources:
 - https://www.wikidata.org/entity/Q4345937

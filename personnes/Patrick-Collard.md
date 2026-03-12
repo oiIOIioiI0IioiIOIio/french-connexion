@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Patrick Collard, directeur général ou directrice générale. Ne(e) le 1953-11-25 a 2e arrondissement de Lyon. Formation : EM Lyon Business School.
+Patrick Collard, directeur général ou directrice générale. Ne(e) le 1953-11-25 a 2e arrondissement de Lyon. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3369351

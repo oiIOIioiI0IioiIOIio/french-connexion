@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marc Thiollier, personnalité du monde des affaires. Ne(e) le 1964-03-08 a Paris. Formation : EM Lyon Business School.
+Marc Thiollier, personnalité du monde des affaires. Ne(e) le 1964-03-08 a Paris. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33103214

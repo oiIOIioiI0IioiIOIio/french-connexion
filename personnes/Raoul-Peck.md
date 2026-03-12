@@ -7,6 +7,8 @@ education: Université Humboldt de Berlin
 genre: masculin
 keywords:
 - scénariste
+liens:
+- Mathieu Magnaudeix
 nationality: francaise
 nom_complet: Raoul Peck
 occupation: scénariste

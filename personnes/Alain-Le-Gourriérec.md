@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alain Le Gourriérec, diplomate. Ne(e) le 1950-01-01 a Shanghaï. Formation : Institut d'études politiques de Paris.
+Alain Le Gourriérec, diplomate. Ne(e) le 1950-01-01 a Shanghaï. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q47500091

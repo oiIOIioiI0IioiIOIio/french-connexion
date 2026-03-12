@@ -7,6 +7,8 @@ education: École polytechnique
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Cercle WB
 nationality: francaise
 nom_complet: Patrick Pouyanné
 occupation: personnalité du monde des affaires
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Patrick Pouyanné, personnalité du monde des affaires. Ne(e) le 1963-06-24 a Le Petit-Quevilly. Formation : École polytechnique.
+Patrick Pouyanné, personnalité du monde des affaires. Ne(e) le 1963-06-24 a Le Petit-Quevilly. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q18342983

@@ -16,4 +16,4 @@ type: Parti
 wikidata_id: Q54769213
 ---
 
-Front national pour l'Algérie française, parti politique francais.
+[[Front national]] pour l'Algérie française, parti politique francais.

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Martin Hirsch, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1963-12-06 a Suresnes. Formation : École normale supérieure.
+Martin Hirsch, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1963-12-06 a Suresnes. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3295457

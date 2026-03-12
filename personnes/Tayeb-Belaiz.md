@@ -7,6 +7,8 @@ education: université d'Oran 1 Ahmed Ben Bella
 genre: masculin
 keywords:
 - juge
+liens:
+- Kamel Daoud
 nationality: francaise
 nom_complet: Tayeb Belaiz
 occupation: juge

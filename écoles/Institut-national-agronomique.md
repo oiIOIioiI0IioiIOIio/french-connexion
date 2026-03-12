@@ -4,6 +4,10 @@ founded: '1848-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Institut national agronomique Paris-Grignon
+- Jean-Jacques Hervé
+- Mac Lesggy
 nom_complet: Institut national agronomique
 sources:
 - https://www.wikidata.org/entity/Q3152372

@@ -7,6 +7,9 @@ education: Université Brown
 genre: féminin
 keywords:
 - diplomate
+liens:
+- Adrian Dearnell
+- Chloe Malle
 nationality: francaise
 nom_complet: Muriel Domenach
 occupation: diplomate

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Ariel Goldmann, enseignant ou enseignante. Ne(e) le 1963-01-01 a Bordeaux. Formation : université Paris-I-Panthéon-Sorbonne.
+Ariel Goldmann, enseignant ou enseignante. Ne(e) le 1963-01-01 a Bordeaux. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q22211229

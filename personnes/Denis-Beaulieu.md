@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Denis Beaulieu, avocat ou avocate. Ne(e) le 1949-12-29 a Le Blanc-Mesnil.
+[[Denis Beau]]lieu, avocat ou avocate. Ne(e) le 1949-12-29 a Le Blanc-Mesnil.
 
 ## Sources
 - http://www.wikidata.org/entity/Q33101736

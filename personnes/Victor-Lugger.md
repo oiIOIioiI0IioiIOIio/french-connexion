@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Victor Lugger, directeur général ou directrice générale. Ne(e) le 1984-01-01 a Strasbourg. Formation : HEC Paris.
+Victor Lugger, directeur général ou directrice générale. Ne(e) le 1984-01-01 a Strasbourg. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q125421418

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Stéphane Fratacci, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1963-06-02 a Monaco. Formation : HEC Paris.
+Stéphane Fratacci, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1963-06-02 a Monaco. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q23926124

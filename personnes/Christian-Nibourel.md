@@ -7,6 +7,10 @@ education: Institut national des sciences appliquées de Lyon
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Christian Forestier
+- Christophe Plonévez
+- Olivier Brourhant
 nationality: francaise
 nom_complet: Christian Nibourel
 occupation: écrivain ou écrivaine
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Christian Nibourel, écrivain ou écrivaine. Ne(e) le 1958-01-09 a Auxerre. Formation : Institut national des sciences appliquées de Lyon.
+Christian Nibourel, écrivain ou écrivaine. Ne(e) le 1958-01-09 a Auxerre. Formation : [[Institut national des sciences appliquées de Lyon]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33104497

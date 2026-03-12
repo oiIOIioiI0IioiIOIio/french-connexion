@@ -6,6 +6,9 @@ ideology: socialisme
 keywords:
 - parti politique
 - politique
+liens:
+- Abertzaleen Batasuna
+- Euskal Batasuna
 nom_complet: Batasuna
 sources:
 - https://www.wikidata.org/entity/Q209546

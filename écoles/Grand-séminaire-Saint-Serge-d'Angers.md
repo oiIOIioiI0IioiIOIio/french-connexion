@@ -3,6 +3,8 @@ date_creation_note: '2026-03-12'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Pierre Haïk
 nom_complet: Grand séminaire Saint-Serge d'Angers
 sources:
 - https://www.wikidata.org/entity/Q135316895

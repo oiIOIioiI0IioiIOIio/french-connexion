@@ -7,6 +7,8 @@ education: Hanken
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Nicolas Julia
 nationality: francaise
 nom_complet: Bruno Jauffret
 occupation: personnalité du monde des affaires

@@ -7,6 +7,23 @@ education: université Paris-Dauphine
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Alain Cotta
+- Antoine Le Conte
+- Claude Askolovitch
+- Delphine Vitry
+- Gabrielle Cluzel
+- Gildas Sagot
+- Joëlle Pellegrin
+- Jérôme Chapuis
+- Laurent Aléonard
+- Nolwenn Le Blevennec
+- Philippe Dupont
+- Philippe Verdier
+- Pierre-François Blanc
+- Raphael Kahane
+- Sébastien Romelot
+- Xavier de Moulins
 nationality: francaise
 nom_complet: Yassine Redissi
 occupation: journaliste
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Yassine Redissi, journaliste. Ne(e) le 1988-01-03 a Tunis. Formation : université Paris-Dauphine.
+Yassine Redissi, journaliste. Ne(e) le 1988-01-03 a Tunis. Formation : [[Université Paris-Dauphine]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q116829562

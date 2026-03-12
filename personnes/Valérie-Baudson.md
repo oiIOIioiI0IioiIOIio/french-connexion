@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Valérie Baudson, directeur général ou directrice générale. Ne(e) le 1971-05-07 a Paris. Formation : HEC Paris.
+Valérie Baudson, directeur général ou directrice générale. Ne(e) le 1971-05-07 a Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q106805862

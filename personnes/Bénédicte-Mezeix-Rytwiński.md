@@ -7,6 +7,8 @@ education: université Blaise-Pascal
 genre: féminin
 keywords:
 - enseignant ou enseignante
+liens:
+- Arthur Nesnidal
 nationality: francaise
 nom_complet: Bénédicte Mezeix-Rytwiński
 occupation: enseignant ou enseignante

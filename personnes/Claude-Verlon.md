@@ -7,6 +7,9 @@ education: École nationale supérieure Louis-Lumière
 genre: masculin
 keywords:
 - reporter ou reportrice
+liens:
+- Inès Léraud
+- Marc Boulet
 nationality: francaise
 nom_complet: Claude Verlon
 occupation: reporter ou reportrice

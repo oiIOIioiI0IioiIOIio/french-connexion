@@ -7,6 +7,13 @@ education: université Paris-Diderot
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Caroline Toutain
+- Christine Bravo
+- Hervé Le Tellier
+- Nora Bouazzouni
+- Odile Ambry
+- Tristan Ranx
 nationality: francaise
 nom_complet: Mélanie Kuszelewicz
 occupation: journaliste

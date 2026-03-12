@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Cécile Besse Advani, banquier. Ne(e) le 1963-12-05. Formation : université Paris-I-Panthéon-Sorbonne.
+Cécile Besse Advani, banquier. Ne(e) le 1963-12-05. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q110152267

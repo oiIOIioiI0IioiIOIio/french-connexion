@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Florian Valat, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1982-10-13 a 13e arrondissement de Paris. Formation : Institut d'études politiques de Paris.
+Florian Valat, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1982-10-13 a 13e arrondissement de Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q47286600

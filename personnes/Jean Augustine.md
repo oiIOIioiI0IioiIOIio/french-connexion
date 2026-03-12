@@ -11,10 +11,27 @@ keywords:
 - femme
 - olive
 liens:
-- Michael Ignatieff
+- Abraham Lincoln
+- Amschel Moses Rothschild
+- Augustin Hamon
+- Betty de Rothschild
+- Carter G. Woodson
+- Donald Oliver
+- Famille Rothschild
+- François Bayrou
+- Henri de Rothschild
+- James de Rothschild
 - Jean Chrétien (ancien premier ministre)
+- Jesse E. Moorland
+- Jules Grévy
+- Mayer Amschel Rothschild
+- Michael Ignatieff
+- Mélina Seymour
+- Nathan Mayer Rothschild (1777-1836)
 - Olive Simon (mère)
 - Ossie Simon (père, décédé jeune)
+- Think tank
+- Édouard Philippe
 nationality: Canadienne
 nom_complet: Jean Augustine
 occupation: null

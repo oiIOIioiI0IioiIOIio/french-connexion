@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gildas Le Lidec, diplomate. Ne(e) le 1947-04-14 a Bangui. Formation : Institut d'études politiques de Paris.
+Gildas Le Lidec, diplomate. Ne(e) le 1947-04-14 a Bangui. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3105967

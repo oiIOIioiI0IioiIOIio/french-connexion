@@ -7,6 +7,8 @@ education: Sorbonne Université
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Nūr alddīn alllabbād
 nationality: francaise
 nom_complet: Gaëlle Borgia
 occupation: journaliste
@@ -21,7 +23,7 @@ tags:
 type: Personne
 ---
 
-Gaëlle Borgia, journaliste. Ne(e) le 1984-11-22. Formation : Sorbonne Université.
+Gaëlle Borgia, journaliste. Ne(e) le 1984-11-22. Formation : [[Sorbonne Université]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q108038037

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Claude Mandil, personnalité du monde des affaires. Ne(e) le 1942-01-09 a 4e arrondissement de Lyon. Formation : École polytechnique.
+Claude Mandil, personnalité du monde des affaires. Ne(e) le 1942-01-09 a 4e arrondissement de Lyon. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q667888

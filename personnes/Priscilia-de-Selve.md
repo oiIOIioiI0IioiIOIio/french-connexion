@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Priscilia de Selve, journaliste. Ne(e) le 1971-04-29 a Bayonne. Formation : Institut catholique de Paris.
+Priscilia de Selve, journaliste. Ne(e) le 1971-04-29 a Bayonne. Formation : [[Institut catholique de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q131567303

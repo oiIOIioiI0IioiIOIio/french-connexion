@@ -6,6 +6,8 @@ ideology: humanisme
 keywords:
 - parti politique
 - politique
+liens:
+- Édouard Philippe
 nom_complet: Horizons
 sources:
 - https://www.wikidata.org/entity/Q108846587

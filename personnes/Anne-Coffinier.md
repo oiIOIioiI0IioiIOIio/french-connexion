@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Anne Coffinier, diplomate. Ne(e) le 1974-11-13 a Bordeaux. Formation : École normale supérieure.
+Anne Coffinier, diplomate. Ne(e) le 1974-11-13 a Bordeaux. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q28343382

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Claire Brisset, avocat ou avocate. Ne(e) le 1945-08-24. Formation : Institut d'études politiques de Paris.
+Claire Brisset, avocat ou avocate. Ne(e) le 1945-08-24. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2399956

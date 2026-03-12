@@ -5,6 +5,9 @@ headquarters: Toulouse
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Boris Kharlamoff
+- Faculté de théologie de l'Institut catholique de Toulouse
 nom_complet: Institut catholique de Toulouse
 sources:
 - https://www.wikidata.org/entity/Q1479987

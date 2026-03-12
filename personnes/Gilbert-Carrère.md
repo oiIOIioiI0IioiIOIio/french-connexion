@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gilbert Carrère, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1925-02-25 a Lamontjoie. Formation : Institut d'études politiques de Paris.
+Gilbert Carrère, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1925-02-25 a Lamontjoie. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50745744

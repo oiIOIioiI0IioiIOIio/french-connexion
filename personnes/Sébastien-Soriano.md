@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sébastien Soriano, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1975-12-03 a Paris. Formation : École polytechnique.
+Sébastien Soriano, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1975-12-03 a Paris. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q19629519

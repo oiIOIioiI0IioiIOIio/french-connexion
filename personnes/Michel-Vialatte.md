@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel Vialatte, personnalité politique. Ne(e) le 1959-07-18 a Mulhouse. Formation : Institut d'études politiques de Paris.
+Michel Vialatte, personnalité politique. Ne(e) le 1959-07-18 a Mulhouse. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3311070

@@ -7,6 +7,12 @@ education: université Lille-III
 genre: masculin
 keywords:
 - militaire
+liens:
+- Catherine Mangin-Dessarts
+- Flore Maréchal
+- Kidi Bebey
+- Meriem Amellal
+- Réginald Gaillard
 nationality: francaise
 nom_complet: Didier Rogasik
 occupation: militaire

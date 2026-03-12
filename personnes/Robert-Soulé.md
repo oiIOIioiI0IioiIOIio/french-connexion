@@ -7,6 +7,15 @@ education: faculté de droit et des sciences économiques de Paris
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Bernard Poncet
+- Charles de Bancalis de Maurel d'Aragon
+- Jean Amet
+- Jean-Marie Momal
+- Jean-Pierre Delpont
+- Marc Menguy
+- Pierre Juillet
+- Suzanne Batbedat
 nationality: francaise
 nom_complet: Robert Soulé
 occupation: avocat ou avocate
@@ -22,7 +31,7 @@ tags:
 type: Personne
 ---
 
-Robert Soulé, avocat ou avocate. Ne(e) le 1926-12-08 a Alger. Formation : faculté de droit et des sciences économiques de Paris.
+Robert Soulé, avocat ou avocate. Ne(e) le 1926-12-08 a Alger. Formation : [[faculté de droit et des sciences économiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q52443000

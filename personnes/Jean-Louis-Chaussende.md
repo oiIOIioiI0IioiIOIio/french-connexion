@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Louis Chaussende, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1939-02-13 a Pradelles. Formation : Institut d'études politiques de Paris.
+Jean-Louis Chaussende, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1939-02-13 a Pradelles. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33281195

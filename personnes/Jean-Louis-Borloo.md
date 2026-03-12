@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Louis Borloo, avocat ou avocate. Ne(e) le 1951-04-07 a 15e arrondissement de Paris. Formation : HEC Paris.
+Jean-Louis Borloo, avocat ou avocate. Ne(e) le 1951-04-07 a 15e arrondissement de Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q467781

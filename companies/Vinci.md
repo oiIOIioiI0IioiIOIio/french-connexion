@@ -7,6 +7,9 @@ keywords:
 - entreprise
 - industrie de la construction
 leader: Xavier Huillard
+liens:
+- Marc Lambron
+- Vinciane Moeschler
 nom_complet: Vinci
 sources:
 - https://www.wikidata.org/entity/Q1475312

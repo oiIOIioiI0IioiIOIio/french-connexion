@@ -7,6 +7,8 @@ education: ENSAE Paris
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Philippe Brassac
 nationality: francaise
 nom_complet: Jean-Marc Vilon
 occupation: personnalité du monde des affaires
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Jean-Marc Vilon, personnalité du monde des affaires. Ne(e) le 1963-08-13 a Saint-Étienne. Formation : ENSAE Paris.
+Jean-Marc Vilon, personnalité du monde des affaires. Ne(e) le 1963-08-13 a Saint-Étienne. Formation : [[ENSAE Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q111222764

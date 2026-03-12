@@ -4,6 +4,8 @@ founded: '1965-05-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Isabelle Miscot
 nom_complet: lycée Jacques-Coeur de Bourges
 sources:
 - https://www.wikidata.org/entity/Q30738652

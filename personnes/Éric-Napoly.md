@@ -7,6 +7,8 @@ education: université de Lyon (ComUE)
 genre: masculin
 keywords:
 - vice-président
+liens:
+- David Courpasson
 nationality: francaise
 nom_complet: Éric Napoly
 occupation: vice-président

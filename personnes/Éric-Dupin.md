@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Éric Dupin, écrivain ou écrivaine. Ne(e) le 1960-05-25 a 4e arrondissement de Lyon. Formation : EM Lyon Business School.
+Éric Dupin, écrivain ou écrivaine. Ne(e) le 1960-05-25 a 4e arrondissement de Lyon. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q124395237

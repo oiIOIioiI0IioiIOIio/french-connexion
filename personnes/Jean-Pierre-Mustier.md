@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Pierre Mustier, banquier. Ne(e) le 1961-01-18 a Chamalières. Formation : École polytechnique.
+Jean-Pierre Mustier, banquier. Ne(e) le 1961-01-18 a Chamalières. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q28049548

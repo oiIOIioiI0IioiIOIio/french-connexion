@@ -7,6 +7,10 @@ education: Université de Montpellier
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Robert Ménard
+- Thomas Mayol
+- Ziza Massika
 nationality: francaise
 nom_complet: Mustapha Adib
 occupation: personnalité politique
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Mustapha Adib, personnalité politique. Ne(e) le 1972-08-30 a Tripoli. Formation : Université de Montpellier.
+Mustapha Adib, personnalité politique. Ne(e) le 1972-08-30 a Tripoli. Formation : [[Université de Montpellier]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q98784153

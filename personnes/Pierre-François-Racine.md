@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre-François Racine, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1946-02-03. Formation : École normale supérieure.
+Pierre-François Racine, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1946-02-03. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33266276

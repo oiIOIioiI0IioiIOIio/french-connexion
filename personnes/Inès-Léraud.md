@@ -7,6 +7,9 @@ education: École nationale supérieure Louis-Lumière
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Claude Verlon
+- Marc Boulet
 nationality: francaise
 nom_complet: Inès Léraud
 occupation: journaliste

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christian Houdet, militaire. Ne(e) le 1953-04-17 a Brest. Formation : HEC Paris.
+Christian Houdet, militaire. Ne(e) le 1953-04-17 a Brest. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2965339

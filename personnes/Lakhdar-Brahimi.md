@@ -7,6 +7,13 @@ education: université d'Alger
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Abdelkader Hadjar
+- Khadija Benguenna
+- Mohammed Seddik Benyahia
+- Mourad Medelci
+- Redha Malek
+- Tahar Djaout
 nationality: francaise
 nom_complet: Lakhdar Brahimi
 occupation: personnalité politique

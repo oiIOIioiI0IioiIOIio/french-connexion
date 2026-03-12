@@ -7,6 +7,8 @@ education: EFAP
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Stéphanie Brillant
 nationality: francaise
 nom_complet: Sophie Jovillard
 occupation: journaliste
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Sophie Jovillard, journaliste. Ne(e) le 1973-01-01 a Lille. Formation : EFAP.
+Sophie Jovillard, journaliste. Ne(e) le 1973-01-01 a Lille. Formation : [[EFAP]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3490956

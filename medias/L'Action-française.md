@@ -16,4 +16,4 @@ type: Media
 wikidata_id: Q496011
 ---
 
-L'Action française, media francais.
+[[L'Action]] française, media francais.

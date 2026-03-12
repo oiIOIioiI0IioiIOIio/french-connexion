@@ -7,6 +7,24 @@ education: Institut d'études politiques de Lyon
 genre: masculin
 keywords:
 - reporter ou reportrice
+liens:
+- Adrien Jaulmes
+- Christiane Doré
+- Cécile Delarue
+- Dominique Lacroix
+- Frontières
+- Gaspard Dhellemmes
+- Hubert Blanc
+- Jean-Marie Girier
+- Jérôme Tichit
+- Laure Martin Hernandez
+- Liseron Boudoul
+- Magali Serre
+- Muriel Soret
+- Pierre Siankowski
+- Sonia Chironi
+- Sophie Aubert
+- Valérie Béranger
 nationality: francaise
 nom_complet: Régis Le Sommier
 occupation: reporter ou reportrice
@@ -22,7 +40,7 @@ tags:
 type: Personne
 ---
 
-Régis Le Sommier, reporter ou reportrice. Ne(e) le 1968-10-28 a Toulon. Formation : Institut d'études politiques de Lyon.
+Régis Le Sommier, reporter ou reportrice. Ne(e) le 1968-10-28 a Toulon. Formation : [[Institut d'études politiques de Lyon]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3455750

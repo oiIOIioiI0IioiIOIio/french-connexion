@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-William Irigoyen, présentateur ou présentatrice de journal. Ne(e) le 1970-02-09 a Villecresnes. Formation : université Paris-Sorbonne.
+William Irigoyen, présentateur ou présentatrice de journal. Ne(e) le 1970-02-09 a Villecresnes. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3568722

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Rémy Weber, banquier. Ne(e) le 1957-11-18 a Strasbourg. Formation : HEC Paris.
+Rémy Weber, banquier. Ne(e) le 1957-11-18 a Strasbourg. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16269527

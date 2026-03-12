@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jacques Reiller, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1953-10-11 a Poitiers. Formation : École normale supérieure.
+Jacques Reiller, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1953-10-11 a Poitiers. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3159848

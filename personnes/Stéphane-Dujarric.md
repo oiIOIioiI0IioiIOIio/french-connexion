@@ -7,6 +7,8 @@ education: École du service extérieur Edmund-Walsh
 genre: masculin
 keywords:
 - porte-parole
+liens:
+- Eva Nguyen Binh
 nationality: francaise
 nom_complet: Stéphane Dujarric
 occupation: porte-parole

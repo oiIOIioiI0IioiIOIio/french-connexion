@@ -7,6 +7,8 @@ education: École nationale supérieure des mines de Paris
 genre: masculin
 keywords:
 - banquier
+liens:
+- Jean-Luc Delpeuch
 nationality: francaise
 nom_complet: Jean-François Nguyen-Phuoc-Buu-Loc
 occupation: banquier

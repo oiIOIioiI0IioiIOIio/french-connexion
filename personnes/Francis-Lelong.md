@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Francis Lelong, personnalité du monde des affaires. Ne(e) le 1973-09-20 a Metz. Formation : EM Lyon Business School.
+Francis Lelong, personnalité du monde des affaires. Ne(e) le 1973-09-20 a Metz. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q136342756

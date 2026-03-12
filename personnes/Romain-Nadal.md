@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Romain Nadal, diplomate. Ne(e) le 1968-05-19 a Montpellier. Formation : Institut d'études politiques de Paris.
+Romain Nadal, diplomate. Ne(e) le 1968-05-19 a Montpellier. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33109969

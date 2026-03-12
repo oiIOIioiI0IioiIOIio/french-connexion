@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nicolas Delalande, historien ou historienne. Ne(e) le 1980-01-01. Formation : Institut d'études politiques de Paris.
+Nicolas Delalande, historien ou historienne. Ne(e) le 1980-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q34531672

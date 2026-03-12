@@ -7,6 +7,10 @@ education: université Bordeaux-I
 genre: féminin
 keywords:
 - professeur
+liens:
+- Alain Vidalies
+- Dominique Audrerie
+- Françoise Laborde
 nationality: francaise
 nom_complet: Sylvie Brunel
 occupation: professeur

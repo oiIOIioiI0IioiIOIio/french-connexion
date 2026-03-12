@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Henri Gevrey, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1921-11-03 a Dijon. Formation : Faculté de droit de Dijon.
+Henri Gevrey, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1921-11-03 a Dijon. Formation : [[Faculté de droit de Dijon]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50887112

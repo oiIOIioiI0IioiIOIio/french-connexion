@@ -7,6 +7,23 @@ education: Institut d'études politiques de Lyon
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Adrien Jaulmes
+- Christiane Doré
+- Cécile Delarue
+- Gaspard Dhellemmes
+- Hubert Blanc
+- Jean-Marie Girier
+- Jérôme Tichit
+- Laure Martin Hernandez
+- Liseron Boudoul
+- Magali Serre
+- Muriel Soret
+- Pierre Siankowski
+- Régis Le Sommier
+- Sonia Chironi
+- Sophie Aubert
+- Valérie Béranger
 nationality: francaise
 nom_complet: Dominique Lacroix
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Dominique Lacroix, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1955-06-30 a Saint-Pair-sur-Mer. Formation : Institut d'études politiques de Lyon.
+Dominique Lacroix, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1955-06-30 a Saint-Pair-sur-Mer. Formation : [[Institut d'études politiques de Lyon]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33213756

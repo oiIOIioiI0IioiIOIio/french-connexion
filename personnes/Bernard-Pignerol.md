@@ -7,6 +7,16 @@ education: École du Louvre
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Aurélie Godefroy
+- Claudine Le Tourneur d'Ison
+- Didier Rykner
+- Georges Gautier
+- Hélène Risser
+- Inès de La Fressange
+- Juliette Morillot
+- Léa Lootgieter
+- Rosine Lheureux
 nationality: francaise
 nom_complet: Bernard Pignerol
 occupation: haut fonctionnaire ou haute fonctionnaire

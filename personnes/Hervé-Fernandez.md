@@ -7,6 +7,13 @@ education: université Montpellier-I
 genre: masculin
 keywords:
 - juriste
+liens:
+- François Bachy
+- Henri Temple
+- Hervé Cassan
+- Jean-Marc Pujol
+- Khadija Aoudia
+- Sylvain Sankalé
 nationality: francaise
 nom_complet: Hervé Fernandez
 occupation: juriste

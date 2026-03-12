@@ -7,6 +7,8 @@ education: université Strasbourg-III
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Laurent Hauben
 nationality: francaise
 nom_complet: Abdoulatifou Aly
 occupation: avocat ou avocate

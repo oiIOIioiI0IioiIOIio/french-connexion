@@ -7,6 +7,12 @@ education: université Bordeaux-IV
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Hugues Moutouh
+- Julie Owono
+- Julien Courbet
+- Mathilde Munos
+- Myriam El Khomri
 nationality: francaise
 nom_complet: Élise Costa
 occupation: journaliste

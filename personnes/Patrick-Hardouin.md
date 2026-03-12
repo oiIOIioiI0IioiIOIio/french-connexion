@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Patrick Hardouin, diplomate. Ne(e) le 1952-05-01 a Viry-Châtillon. Formation : Institut d'études politiques de Paris.
+Patrick Hardouin, diplomate. Ne(e) le 1952-05-01 a Viry-Châtillon. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3369504

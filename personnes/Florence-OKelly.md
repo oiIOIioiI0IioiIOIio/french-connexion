@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Florence O'Kelly, présentateur ou présentatrice de journal. Ne(e) le 1980-01-01. Formation : Institut d'études politiques de Paris.
+Florence O'Kelly, présentateur ou présentatrice de journal. Ne(e) le 1980-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q27854192

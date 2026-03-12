@@ -7,6 +7,11 @@ education: École des hautes études commerciales du Nord
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Anne de Bayser
+- Jean Mercier
+- Thierry Mathou
+- Vérane Frédiani
 nationality: francaise
 nom_complet: Thibaud de Barbeyrac
 occupation: journaliste

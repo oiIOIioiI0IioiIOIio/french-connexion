@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Emilie Metge-Viargues, personnalité du monde des affaires. Ne(e) le 1984-02-25 a 14e arrondissement de Paris. Formation : HEC Paris.
+Emilie Metge-Viargues, personnalité du monde des affaires. Ne(e) le 1984-02-25 a 14e arrondissement de Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q135215703

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gilles Pécout, diplomate. Ne(e) le 1961-12-02 a Marseille. Formation : École normale supérieure.
+Gilles Pécout, diplomate. Ne(e) le 1961-12-02 a Marseille. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3106464

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Manon Perrière, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1986-10-06 a Aubagne. Formation : École normale supérieure.
+Manon Perrière, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1986-10-06 a Aubagne. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q47251931

@@ -8,6 +8,17 @@ education: École des hautes études en sciences de l'information et de la commu
 genre: féminin
 keywords:
 - rédacteur ou rédactrice en chef
+liens:
+- Ambre Chalumeau
+- Arnaud Dubus
+- Catherine Nayl
+- Christophe Beaugrand
+- Fabrice Rousselot
+- Nivin Potros
+- Pierre Fraidenraich
+- Roland Blatmann
+- Samuel Forey
+- Valérie Fayolle
 nationality: francaise
 nom_complet: Marie Misset
 occupation: rédacteur ou rédactrice en chef

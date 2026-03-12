@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Pringuet, personnalité du monde des affaires. Ne(e) le 1950-01-31 a Paris. Formation : École polytechnique.
+Pierre Pringuet, personnalité du monde des affaires. Ne(e) le 1950-01-31 a Paris. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3386684

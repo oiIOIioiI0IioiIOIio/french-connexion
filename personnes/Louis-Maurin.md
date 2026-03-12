@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Louis Maurin, journaliste. Ne(e) le 1966-06-22 a Rouen. Formation : Institut d'études politiques de Paris.
+Louis Maurin, journaliste. Ne(e) le 1966-06-22 a Rouen. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q106045253

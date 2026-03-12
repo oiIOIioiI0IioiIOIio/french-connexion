@@ -7,6 +7,17 @@ education: Institut français de presse
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Charles Desjardins
+- Christelle Crosnier
+- Emmanuel de Brantes
+- Ginie Van de Noort
+- Jean-François Julliard
+- Jérôme Béglé
+- Leïla Beratto
+- Maya Lauqué
+- Olivier Bertrand
+- Thomas Sotto
 nationality: francaise
 nom_complet: Claude Belot
 occupation: haut fonctionnaire ou haute fonctionnaire

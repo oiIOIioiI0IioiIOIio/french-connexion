@@ -7,6 +7,14 @@ education: École normale supérieure de Lyon
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Augustin Trapenard
+- Bernard Bigot
+- Catherine Guesde
+- Gaultier Bès
+- Johann Uhres
+- Marianne Durano
+- Matthias Fekl
 nationality: francaise
 nom_complet: Léa Bello
 occupation: journaliste
@@ -22,7 +30,7 @@ tags:
 type: Personne
 ---
 
-Léa Bello, journaliste. Ne(e) le 1987-03-15 a Arles. Formation : École normale supérieure de Lyon.
+Léa Bello, journaliste. Ne(e) le 1987-03-15 a Arles. Formation : [[École normale supérieure]] de Lyon.
 
 ## Sources
 - http://www.wikidata.org/entity/Q106908863

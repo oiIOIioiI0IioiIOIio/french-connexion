@@ -7,6 +7,18 @@ education: lycée du Parc
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Anne Joubert
+- Antoine de Tarlé
+- Bruno Cotte
+- Christophe Barbier
+- Christophe Deloire
+- Claude Alphandéry
+- Daniel Bernard
+- Frédéric Rebet
+- Guy Deniélou
+- Léon Tabah
+- Pascal Confavreux
 nationality: francaise
 nom_complet: Guillaume Ancel
 occupation: écrivain ou écrivaine

@@ -8,6 +8,17 @@ education: École des hautes études en sciences de l'information et de la commu
 genre: féminin
 keywords:
 - réalisateur ou réalisatrice de documentaire
+liens:
+- Arnaud Dubus
+- Catherine Nayl
+- Christophe Beaugrand
+- Fabrice Rousselot
+- Marie Misset
+- Nivin Potros
+- Pierre Fraidenraich
+- Roland Blatmann
+- Samuel Forey
+- Valérie Fayolle
 nationality: francaise
 nom_complet: Ambre Chalumeau
 occupation: réalisateur ou réalisatrice de documentaire

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marguerite Cazeneuve, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1988-08-10 a 14e arrondissement de Paris. Formation : HEC Paris.
+Marguerite Cazeneuve, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1988-08-10 a 14e arrondissement de Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q105678668

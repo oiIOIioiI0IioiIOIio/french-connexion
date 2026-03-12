@@ -7,6 +7,23 @@ education: Institut d'études politiques de Lyon
 genre: féminin
 keywords:
 - diplomate
+liens:
+- Adrien Jaulmes
+- Christiane Doré
+- Cécile Delarue
+- Dominique Lacroix
+- Gaspard Dhellemmes
+- Hubert Blanc
+- Jean-Marie Girier
+- Jérôme Tichit
+- Laure Martin Hernandez
+- Liseron Boudoul
+- Magali Serre
+- Pierre Siankowski
+- Régis Le Sommier
+- Sonia Chironi
+- Sophie Aubert
+- Valérie Béranger
 nationality: francaise
 nom_complet: Muriel Soret
 occupation: diplomate
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Muriel Soret, diplomate. Ne(e) le 1963-10-27. Formation : Institut d'études politiques de Lyon.
+Muriel Soret, diplomate. Ne(e) le 1963-10-27. Formation : [[Institut d'études politiques de Lyon]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q100271534

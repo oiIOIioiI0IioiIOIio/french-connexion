@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bernard Fitoussi, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1953-04-22 a Paris. Formation : École normale supérieure.
+Bernard Fitoussi, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1953-04-22 a Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33103551

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Yann Gontard, personnalité du monde des affaires. Ne(e) le 1965-05-18 a Nevers. Formation : HEC Paris.
+Yann Gontard, personnalité du monde des affaires. Ne(e) le 1965-05-18 a Nevers. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33112105

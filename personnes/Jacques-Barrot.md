@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jacques Barrot, juge. Ne(e) le 1937-02-03 a Yssingeaux. Formation : Institut d'études politiques de Paris.
+Jacques Barrot, juge. Ne(e) le 1937-02-03 a Yssingeaux. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q455040

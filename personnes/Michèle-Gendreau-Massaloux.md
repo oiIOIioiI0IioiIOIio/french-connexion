@@ -7,6 +7,10 @@ education: École normale supérieure de jeunes filles
 genre: féminin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Catherine Moisan
+- Dominique Dron
+- Thérèse Delpech
 nationality: francaise
 nom_complet: Michèle Gendreau-Massaloux
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Michèle Gendreau-Massaloux, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1944-07-28 a Limoges. Formation : École normale supérieure de jeunes filles.
+Michèle Gendreau-Massaloux, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1944-07-28 a Limoges. Formation : [[École normale supérieure]] de jeunes filles.
 
 ## Sources
 - http://www.wikidata.org/entity/Q18744749

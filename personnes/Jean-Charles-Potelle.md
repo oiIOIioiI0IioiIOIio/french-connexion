@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Charles Potelle, personnalité du monde des affaires. Ne(e) le 1965-10-29 a Nancy. Formation : EM Lyon Business School.
+Jean-Charles Potelle, personnalité du monde des affaires. Ne(e) le 1965-10-29 a Nancy. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33242765

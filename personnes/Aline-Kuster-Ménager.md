@@ -7,6 +7,8 @@ education: université Marie-et-Louis-Pasteur
 genre: féminin
 keywords:
 - diplomate
+liens:
+- Ismaël Boudjekada
 nationality: francaise
 nom_complet: Aline Kuster-Ménager
 occupation: diplomate

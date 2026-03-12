@@ -7,6 +7,16 @@ education: École pratique des hautes études
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Bernard Le Clère
+- Gaëlle Bélem
+- Guillaume Robert
+- Isabelle Coutant-Peyre
+- Pascal Bruckner
+- Patrick Sbalchiero
+- Rozenn Milin
+- Sébastien de Courtois
+- Xavier Accart
 nationality: francaise
 nom_complet: Alain Ruellan
 occupation: haut fonctionnaire ou haute fonctionnaire

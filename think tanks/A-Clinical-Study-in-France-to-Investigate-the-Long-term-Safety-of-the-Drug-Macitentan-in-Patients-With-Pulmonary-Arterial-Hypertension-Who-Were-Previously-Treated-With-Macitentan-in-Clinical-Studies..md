@@ -20,4 +20,4 @@ type: Fondation
 wikidata_id: Q64173445
 ---
 
-A Clinical Study in France to Investigate the Long-term Safety of the Drug Macitentan in Patients With Pulmonary Arterial Hypertension Who Were Previously Treated With Macitentan in Clinical Studies., think tank ou fondation.
+A Clinical Study in France to Investigate the Long-term Safety of the Drug Macitentan in Patients With Pulmonary [[Arte]]rial Hypertension Who Were Previously Treated With Macitentan in Clinical Studies., think tank ou fondation.

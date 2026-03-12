@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nicolas Castoldi, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1981-08-07 a Digne-les-Bains. Formation : École normale supérieure.
+Nicolas Castoldi, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1981-08-07 a Digne-les-Bains. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33103160

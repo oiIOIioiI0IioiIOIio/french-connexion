@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Florence Rault, avocat ou avocate. Ne(e) le 1957-02-02 a Saint-Hilaire-du-Harcouët. Formation : université Paris-I-Panthéon-Sorbonne.
+Florence Rault, avocat ou avocate. Ne(e) le 1957-02-02 a Saint-Hilaire-du-Harcouët. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33122631

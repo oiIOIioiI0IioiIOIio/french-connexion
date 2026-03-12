@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Jeanne Smits, journaliste. Ne(e) le 1962-09-06 a Londres.
+[[Jeanne]] Smits, journaliste. Ne(e) le 1962-09-06 a Londres.
 
 ## Sources
 - http://www.wikidata.org/entity/Q41694306

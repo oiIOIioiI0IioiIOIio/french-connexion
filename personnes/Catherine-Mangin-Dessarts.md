@@ -7,6 +7,12 @@ education: université Lille-III
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Didier Rogasik
+- Flore Maréchal
+- Kidi Bebey
+- Meriem Amellal
+- Réginald Gaillard
 nationality: francaise
 nom_complet: Catherine Mangin-Dessarts
 occupation: journaliste

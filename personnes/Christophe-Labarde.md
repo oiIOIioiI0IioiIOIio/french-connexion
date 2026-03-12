@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christophe Labarde, journaliste. Ne(e) le 1961-07-20 a Pau. Formation : HEC Paris.
+Christophe Labarde, journaliste. Ne(e) le 1961-07-20 a Pau. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q22210209

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean Michel Le Guillou, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1941-09-29.
+[[Jean Michel]] Le Guillou, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1941-09-29.
 
 ## Sources
 - http://www.wikidata.org/entity/Q123369056

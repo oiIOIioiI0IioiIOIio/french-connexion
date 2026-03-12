@@ -7,6 +7,14 @@ education: École nationale supérieure de la Police
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Ange Mancini
+- Bernard Guérin
+- Frédéric Veaux
+- Henri Souchon
+- Jean-Louis Fiamenghi
+- Patrick Calvar
+- Yves Guillot
 nationality: francaise
 nom_complet: Christian Lambert
 occupation: personnalité du monde des affaires

@@ -7,6 +7,13 @@ education: université Paul-Valéry
 genre: féminin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Francis Mateo
+- Hugo Guillemet
+- Nath-Sakura
+- Patrick Donabédian
+- Thierry Riera
+- Étienne Leenhardt
 nationality: francaise
 nom_complet: Géniale Attoumani
 occupation: présentateur ou présentatrice de journal

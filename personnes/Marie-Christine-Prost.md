@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marie-Christine Prost, diplomate. Ne(e) le 1947-03-27. Formation : Institut d'études politiques de Paris.
+Marie-Christine Prost, diplomate. Ne(e) le 1947-03-27. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q105724409

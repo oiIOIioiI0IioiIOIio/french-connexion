@@ -7,6 +7,23 @@ education: université Paris-Dauphine
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Alain Cotta
+- Antoine Le Conte
+- Claude Askolovitch
+- Delphine Vitry
+- Gabrielle Cluzel
+- Gildas Sagot
+- Joëlle Pellegrin
+- Laurent Aléonard
+- Nolwenn Le Blevennec
+- Philippe Dupont
+- Philippe Verdier
+- Pierre-François Blanc
+- Raphael Kahane
+- Sébastien Romelot
+- Xavier de Moulins
+- Yassine Redissi
 nationality: francaise
 nom_complet: Jérôme Chapuis
 occupation: journaliste
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Jérôme Chapuis, journaliste. Ne(e) le 1977-01-01. Formation : université Paris-Dauphine.
+Jérôme Chapuis, journaliste. Ne(e) le 1977-01-01. Formation : [[Université Paris-Dauphine]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q46956587

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nadia Bouyer, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1975-06-25 a Beyrouth. Formation : École polytechnique.
+Nadia Bouyer, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1975-06-25 a Beyrouth. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33102135

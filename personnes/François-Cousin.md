@@ -7,6 +7,17 @@ education: École nationale des chartes
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Agnès Magnien
+- Armelle Daumas
+- Catherine Laurent
+- Cécile Pozzo di Borgo
+- Françoise Banat-Berger
+- Marc Sanson
+- Michel Denieul
+- Nicolas Roche
+- Paul Bouteiller
+- Solenne Lepage
 nationality: francaise
 nom_complet: François Cousin
 occupation: diplomate

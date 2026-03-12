@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel de Jaeghere, écrivain ou écrivaine. Ne(e) le 1957-10-06. Formation : université Paris-Sorbonne.
+Michel de Jaeghere, écrivain ou écrivaine. Ne(e) le 1957-10-06. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3309401

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Charlotte Baratin, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1977-01-01. Formation : École normale supérieure.
+Charlotte Baratin, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1977-01-01. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q42300506

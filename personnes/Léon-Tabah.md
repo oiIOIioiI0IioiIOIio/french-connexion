@@ -7,6 +7,18 @@ education: lycée du Parc
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Anne Joubert
+- Antoine de Tarlé
+- Bruno Cotte
+- Christophe Barbier
+- Christophe Deloire
+- Claude Alphandéry
+- Daniel Bernard
+- Frédéric Rebet
+- Guillaume Ancel
+- Guy Deniélou
+- Pascal Confavreux
 nationality: francaise
 nom_complet: Léon Tabah
 occupation: diplomate

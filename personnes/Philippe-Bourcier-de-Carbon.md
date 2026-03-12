@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Philippe Bourcier de Carbon, personnalité politique. Ne(e) le 1950-01-01. Formation : École polytechnique.
+Philippe Bourcier de Carbon, personnalité politique. Ne(e) le 1950-01-01. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q41669815

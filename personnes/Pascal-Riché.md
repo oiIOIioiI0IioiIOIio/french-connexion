@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pascal Riché, journaliste. Ne(e) le 1962-06-10 a Rennes. Formation : Institut d'études politiques de Paris.
+Pascal Riché, journaliste. Ne(e) le 1962-06-10 a Rennes. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2055316

@@ -17,4 +17,4 @@ website: https://www.latribune.fr
 wikidata_id: Q1799197
 ---
 
-La Tribune, media francais.
+[[La Tribune]], media francais.

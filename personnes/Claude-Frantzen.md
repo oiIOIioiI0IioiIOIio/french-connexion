@@ -7,6 +7,9 @@ education: École nationale supérieure de l'aéronautique et de l'espace
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Caroline Laurent
+- Roland Glavany
 nationality: francaise
 nom_complet: Claude Frantzen
 occupation: haut fonctionnaire ou haute fonctionnaire

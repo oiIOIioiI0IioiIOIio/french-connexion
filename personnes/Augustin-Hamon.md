@@ -12,24 +12,41 @@ keywords:
 - confiance
 - augustin
 liens:
-- Henriëtte Rynenbroeck
-- George Bernard Shaw
+- Abraham Lincoln
+- Albert Regnard Aryens
+- Alphonse de Rothschild
+- Amschel Moses Rothschild
+- Auguste Chirac
 - Auguste Frédéric Hamon
 - Augustin Henri Hamon
-- Henriette Duval
-- Georges Bachot
-- Alphonse de Rothschild
-- Raphaël Viau
-- Édouard Drumont
-- Auguste Chirac
-- Olivier Sepher
-- Albert Regnard Aryens
-- Maurice Barrès
-- Edmond Picard
-- Jean Painlevé
-- Marcel Cachin
+- Betty de Rothschild
+- Carter G. Woodson
 - Charles Brunellière
+- Donald Oliver
+- Edmond Picard
+- Famille Rothschild
 - Fernand Pelloutier
+- François Bayrou
+- George Bernard Shaw
+- Georges Bachot
+- Henri de Rothschild
+- Henriette Duval
+- Henriëtte Rynenbroeck
+- James de Rothschild
+- Jean Augustine
+- Jean Painlevé
+- Jesse E. Moorland
+- Jules Grévy
+- Marcel Cachin
+- Maurice Barrès
+- Mayer Amschel Rothschild
+- Mélina Seymour
+- Nathan Mayer Rothschild (1777-1836)
+- Olivier Sepher
+- Raphaël Viau
+- Think tank
+- Édouard Drumont
+- Édouard Philippe
 nationality: ''
 nom_complet: Augustin Hamon
 occupation: null
@@ -245,7 +262,7 @@ Il est, avec son épouse Henriëtte Rynenbroeck, le traducteur officiel de Georg
 - **source**: wikipedia_spacy_ner
 - **type**: associe
 - **confidence**: 0.5
-- **description**: Mentionne dans le meme contexte: ...aire Dreyfus, il écrit, le 1er janvier 1895, dans La Cocarde (dirigée alors par Maurice Barrès), à laquelle il collaborait régulièrement, des "Réflexions sur la trahison". Se...
+- **description**: Mentionne dans le meme contexte: ...aire Dreyfus, il écrit, le 1er janvier 1895, dans [[La Cocarde]] (dirigée alors par Maurice Barrès), à laquelle il collaborait régulièrement, des "Réflexions sur la trahison". Se...
 - **person_from**: Augustin Hamon
 - **person_to**: Maurice Barrès
 - **source**: wikipedia_spacy_ner

@@ -7,6 +7,19 @@ education: université Paris-VIII
 genre: féminin
 keywords:
 - créateur ou créatrice de bandes dessinées
+liens:
+- Alexandre Devecchio
+- Diane Galbaud du Fort
+- Diara Ndiaye
+- Irina Kudesova
+- Josza Anjembe
+- Karyn Nishimura-Poupée
+- Lauren Bastide
+- Luc Évrard
+- Nadia Hathroubi-Safsaf
+- Valentin Houinato
+- Valérie de Saint-Do
+- Éric Le Braz
 nationality: francaise
 nom_complet: Marie-Pierre Farkas
 occupation: créateur ou créatrice de bandes dessinées

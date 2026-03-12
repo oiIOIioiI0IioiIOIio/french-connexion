@@ -20,4 +20,4 @@ website: https://www.canalplusgroup.com/
 wikidata_id: Q2663746
 ---
 
-Canal+, entreprise francaise.
+[[Canal+]], entreprise francaise.

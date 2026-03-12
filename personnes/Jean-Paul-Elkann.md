@@ -7,6 +7,8 @@ education: Columbia Business School
 genre: masculin
 keywords:
 - banquier
+liens:
+- Xavier Rolet
 nationality: francaise
 nom_complet: Jean-Paul Elkann
 occupation: banquier

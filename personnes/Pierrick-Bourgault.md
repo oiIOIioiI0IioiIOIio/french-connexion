@@ -7,6 +7,8 @@ education: université du Mans
 genre: masculin
 keywords:
 - scénariste
+liens:
+- François Fillon
 nationality: francaise
 nom_complet: Pierrick Bourgault
 occupation: scénariste

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Richard Boutry, écrivain ou écrivaine. Ne(e) le 1965-11-16 a Neuilly-sur-Seine. Formation : Centre de formation des journalistes.
+Richard Boutry, écrivain ou écrivaine. Ne(e) le 1965-11-16 a Neuilly-sur-Seine. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33102014

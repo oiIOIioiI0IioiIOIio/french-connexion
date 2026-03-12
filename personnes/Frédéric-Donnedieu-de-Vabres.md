@@ -7,6 +7,13 @@ education: université Paris-Descartes
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- François Bergerault
+- Jean-Paul Delahaye
+- Michel Cymes
+- Pascale Briand
+- Paul Tchoukriel
+- Tobie Nathan
 nationality: francaise
 nom_complet: Frédéric Donnedieu de Vabres
 occupation: avocat ou avocate

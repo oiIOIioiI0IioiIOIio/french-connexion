@@ -7,6 +7,41 @@ education: École des hautes études en sciences sociales
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Alain Soral
+- Alain-Xavier Wurst
+- Anastasia Iline
+- Arié Alimi
+- Aude Terray
+- Aïssa Dermouche
+- Bertrand Delais
+- Blandine Rinkel
+- Bruno Foucher
+- Caroline Fourest
+- Daniel Keller
+- Daniel Lenoir
+- Delphine Minoui
+- Dominique Decherf
+- Franck Ferrand
+- François Jacq
+- Guillaume de Thieulloy
+- Jean-Marc Berthon
+- Jean-Michel Steg
+- Jean-Yves Camus
+- Jérôme Ruskin
+- Laure Murat
+- Laurent Larcher
+- Marc Endeweld
+- Marie-Christine Saragosse
+- Olivier Favry
+- Olivier Weber
+- Pascal Chaigneau
+- Pierre Voillery
+- Serge Salat
+- Thierry Malleret
+- Thomas Piketty
+- Vincent Glad
+- Zineb El Rhazoui
 nationality: francaise
 nom_complet: Frédéric Martel
 occupation: écrivain ou écrivaine

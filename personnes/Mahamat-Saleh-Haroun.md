@@ -7,6 +7,12 @@ education: université de Bordeaux
 genre: masculin
 keywords:
 - scénariste
+liens:
+- Eneko Bidegain
+- Marc Saikali
+- Pierre Abeberry
+- Pierre Camou
+- Violaine de Filippis-Abate
 nationality: francaise
 nom_complet: Mahamat Saleh Haroun
 occupation: scénariste
@@ -22,7 +28,7 @@ tags:
 type: Personne
 ---
 
-Mahamat Saleh Haroun, scénariste. Ne(e) le 1961-01-01 a N'Djaména. Formation : université de Bordeaux.
+Mahamat Saleh [[Haroun]], scénariste. Ne(e) le 1961-01-01 a N'Djaména. Formation : université de Bordeaux.
 
 ## Sources
 - http://www.wikidata.org/entity/Q725722

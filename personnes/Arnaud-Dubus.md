@@ -8,6 +8,17 @@ education: École des hautes études en sciences de l'information et de la commu
 genre: masculin
 keywords:
 - correspondant local ou correspondante locale de presse
+liens:
+- Ambre Chalumeau
+- Catherine Nayl
+- Christophe Beaugrand
+- Fabrice Rousselot
+- Marie Misset
+- Nivin Potros
+- Pierre Fraidenraich
+- Roland Blatmann
+- Samuel Forey
+- Valérie Fayolle
 nationality: francaise
 nom_complet: Arnaud Dubus
 occupation: correspondant local ou correspondante locale de presse

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Samira El Gadir, journaliste. Ne(e) le 1984-01-01 a Boulogne-sur-Mer. Formation : Centre de formation des journalistes.
+Samira El Gadir, journaliste. Ne(e) le 1984-01-01 a Boulogne-sur-Mer. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q124317990

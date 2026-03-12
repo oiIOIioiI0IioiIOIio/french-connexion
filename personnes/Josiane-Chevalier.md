@@ -7,6 +7,8 @@ education: Institut national des études territoriales
 genre: féminin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Jean-Christophe Parisot de Bayard
 nationality: francaise
 nom_complet: Josiane Chevalier
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Josiane Chevalier, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1957-08-18 a La Mure. Formation : Institut national des études territoriales.
+Josiane Chevalier, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1957-08-18 a La Mure. Formation : [[Institut national des études territoriales]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33288770

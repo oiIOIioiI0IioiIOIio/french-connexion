@@ -7,6 +7,15 @@ education: Université de Genève
 genre: féminin
 keywords:
 - avocat ou avocate
+liens:
+- Agnès Giard
+- Bernard Anthonioz
+- Christophe Lemoine
+- Dominique Warluzel
+- Edmond de Rothschild
+- Richard Labévière
+- Thérèse Blanchet
+- Yves Nidegger
 nationality: francaise
 nom_complet: Béatrice Métraux
 occupation: avocat ou avocate

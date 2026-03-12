@@ -34,7 +34,7 @@ wikipedia_enriched: true
 - **[[Arnaud Rérolle]] :** Nommé directeur général du projet Périclès, il est chargé de la mise en œuvre des initiatives politiques et médiatiques associées au projet. ​[Wikipédia](https://fr.wikipedia.org/wiki/Pierre-%C3%89douard_St%C3%A9rin)
     
 
-**Initiatives et Actions Notables :**
+**Initiatives et [[Action]]s Notables :**
 
 - **Soutien aux Médias :** Périclès finance des médias tels que [[L'Incorrect]] et [[Contrepoints]], connus pour leurs positions conservatrices et libérales. Ces soutiens médiatiques visent à diffuser des messages alignés avec les objectifs politiques du projet. ​[Wikipédia, l'encyclopédie libre](https://fr.wikipedia.org/wiki/Pierre-%C3%89douard_St%C3%A9rin)
     

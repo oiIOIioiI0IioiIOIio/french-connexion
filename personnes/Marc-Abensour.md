@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marc Abensour, diplomate. Ne(e) le 1966-03-10. Formation : École normale supérieure.
+Marc Abensour, diplomate. Ne(e) le 1966-03-10. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50694317

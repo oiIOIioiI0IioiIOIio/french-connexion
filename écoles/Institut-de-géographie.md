@@ -4,6 +4,8 @@ founded: '1926-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Institut de géographie alpine
 nom_complet: Institut de géographie
 sources:
 - https://www.wikidata.org/entity/Q3152006

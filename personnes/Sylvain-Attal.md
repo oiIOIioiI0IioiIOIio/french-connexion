@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sylvain Attal, journaliste. Ne(e) le 1961-04-25 a Gennevilliers. Formation : Centre de formation des journalistes.
+Sylvain Attal, journaliste. Ne(e) le 1961-04-25 a Gennevilliers. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3506915

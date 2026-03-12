@@ -7,6 +7,9 @@ education: université Saint-Joseph de Beyrouth
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Mohamed ben Laden
+- Randa Habib
 nationality: francaise
 nom_complet: Salah Stétié
 occupation: écrivain ou écrivaine

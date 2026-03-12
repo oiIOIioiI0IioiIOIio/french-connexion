@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Laetitia Strauch-Bonart, journaliste. Ne(e) le 1985-01-08 a Paris. Formation : École normale supérieure.
+Laetitia Strauch-Bonart, journaliste. Ne(e) le 1985-01-08 a Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q38191268

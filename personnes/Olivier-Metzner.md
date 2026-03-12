@@ -7,6 +7,15 @@ education: université de Caen-Normandie
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Alain Tourret
+- Christine Kerdellant
+- Céline Asselot
+- Denis Brogniart
+- Guillaume Bazard
+- Jean-Marie Girault
+- Jean-Paul Ollivier
+- Marie-Annick Bourdin
 nationality: francaise
 nom_complet: Olivier Metzner
 occupation: avocat ou avocate

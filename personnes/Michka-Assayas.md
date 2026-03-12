@@ -7,6 +7,12 @@ education: École normale supérieure de Fontenay-Saint-Cloud
 genre: masculin
 keywords:
 - scénariste
+liens:
+- Adélaïde de Clermont-Tonnerre
+- Emmanuel Kessler
+- Lorène Lemor
+- Nicolas Demorand
+- Xavier de La Porte
 nationality: francaise
 nom_complet: Michka Assayas
 occupation: scénariste
@@ -22,7 +28,7 @@ tags:
 type: Personne
 ---
 
-Michka Assayas, scénariste. Ne(e) le 1958-11-02 a Paris. Formation : École normale supérieure de Fontenay-Saint-Cloud.
+Michka Assayas, scénariste. Ne(e) le 1958-11-02 a Paris. Formation : [[École normale supérieure]] de Fontenay-Saint-Cloud.
 
 ## Sources
 - http://www.wikidata.org/entity/Q3311526

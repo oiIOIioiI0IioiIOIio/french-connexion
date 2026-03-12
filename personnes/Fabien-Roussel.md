@@ -7,6 +7,15 @@ education: Centre de formation et de perfectionnement des journalistes
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Anne-Isabelle Tollet
+- Aude Favre
+- Christine Goguet
+- Clarence Edgard-Rosa
+- Cécile Pivot
+- Djamel Mazi
+- Gauthier Le Bret
+- Éric Delvaux
 nationality: francaise
 nom_complet: Fabien Roussel
 occupation: personnalité politique

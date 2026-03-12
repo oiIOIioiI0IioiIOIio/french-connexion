@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Anaïs Bouton, journaliste. Ne(e) le 1970-09-04 a Paris. Formation : université Paris-I-Panthéon-Sorbonne.
+Anaïs Bouton, journaliste. Ne(e) le 1970-09-04 a Paris. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2845698

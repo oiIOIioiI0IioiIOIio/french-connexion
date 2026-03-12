@@ -10,6 +10,9 @@ keywords:
 - Premier ministre
 - réformes économiques
 - gauche
+liens:
+- Alain Juppé
+- Emmanuel Macron
 nationality: française
 nom_complet: Lionel Jospin
 occupation: homme d'État, Premier ministre

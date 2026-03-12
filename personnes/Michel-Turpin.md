@@ -7,6 +7,8 @@ education: Institut régional d’administration de Lille
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Jean Prot
 nationality: francaise
 nom_complet: Michel Turpin
 occupation: haut fonctionnaire ou haute fonctionnaire

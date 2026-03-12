@@ -7,6 +7,8 @@ education: université Toulouse III
 genre: féminin
 keywords:
 - vétérinaire
+liens:
+- Philippe Douste-Blazy
 nationality: francaise
 nom_complet: Emmanuelle Soubeyran
 occupation: vétérinaire

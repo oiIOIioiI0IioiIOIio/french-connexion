@@ -3,6 +3,13 @@ date_creation_note: '2026-03-12'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Charlotte Journo-Baur
+- Charlotte d'Ornellas
+- Clément Mauguet
+- Henri de Rothschild
+- Jean-Luc Delblat
+- Lou Fritel
 nom_complet: Petit séminaire de Saintes
 sources:
 - https://www.wikidata.org/entity/Q113333419

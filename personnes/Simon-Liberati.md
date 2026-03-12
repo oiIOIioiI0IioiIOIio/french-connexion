@@ -7,6 +7,11 @@ education: collège Stanislas
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Jacques Grandon
+- Jean Rochet
+- Patrick Eudeline
+- Pierre-Christian Taittinger
 nationality: francaise
 nom_complet: Simon Liberati
 occupation: journaliste

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Didier Sanz, journaliste. Ne(e) le 1961-04-01. Formation : Centre de formation des journalistes.
+Didier Sanz, journaliste. Ne(e) le 1961-04-01. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3027188

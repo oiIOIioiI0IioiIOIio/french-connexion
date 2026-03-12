@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marie-Aude Murail, scénariste. Ne(e) le 1954-05-06 a Le Havre. Formation : université Paris-Sorbonne.
+Marie-Aude Murail, scénariste. Ne(e) le 1954-05-06 a Le Havre. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q122591

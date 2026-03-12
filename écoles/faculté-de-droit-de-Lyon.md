@@ -4,6 +4,8 @@ founded: '1875-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Janine Louis
 nom_complet: faculté de droit de Lyon
 sources:
 - https://www.wikidata.org/entity/Q96209609

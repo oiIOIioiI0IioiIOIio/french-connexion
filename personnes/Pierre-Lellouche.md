@@ -7,6 +7,20 @@ education: Université Harvard
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Alfred Galichon
+- Claude-Éric Paquin
+- Ernest-Antoine Seillière
+- François Jackow
+- Frédéric X de Danemark
+- Geoffroy Didier
+- Jacques Lagarde
+- Jean-Luc Sibiude
+- Laure Mandeville
+- Michel François-Poncet
+- Peter Turnley
+- Renée Kaplan
+- Simon Kuper
 nationality: francaise
 nom_complet: Pierre Lellouche
 occupation: avocat ou avocate

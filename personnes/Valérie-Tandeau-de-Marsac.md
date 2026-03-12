@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Valérie Tandeau de Marsac, avocat ou avocate. Ne(e) le 1959-08-03. Formation : HEC Paris.
+Valérie Tandeau de Marsac, avocat ou avocate. Ne(e) le 1959-08-03. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q118466143

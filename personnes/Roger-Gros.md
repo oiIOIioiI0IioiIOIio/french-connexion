@@ -7,6 +7,25 @@ education: Institut d'études politiques de Grenoble
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- André Vallini
+- Ariane Lavrilleux
+- Benjamin Sportouch
+- Bernard Lesterlin
+- Camille Emmanuelle
+- Caroline Roux
+- Coralie Delaume
+- Fabien Escalona
+- Guillaume Daret
+- Jean-Dominique Merchet
+- Jean-Luc Névache
+- Lionel Astruc
+- Luc Bronner
+- Marine Chanel
+- Nicolas Geay
+- Olivier Revol
+- Paul Marchand
+- Ronan Lancelot
 nationality: francaise
 nom_complet: Roger Gros
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +41,7 @@ tags:
 type: Personne
 ---
 
-Roger Gros, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1933-02-13 a Saint-Martin-la-Porte. Formation : Institut d'études politiques de Grenoble.
+Roger Gros, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1933-02-13 a Saint-Martin-la-Porte. Formation : [[Institut d'études politiques de Grenoble]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50890420

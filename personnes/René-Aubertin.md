@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-René Aubertin, personnalité du monde des affaires. Ne(e) le 1951-12-19 a Lyon. Formation : EM Lyon Business School.
+René Aubertin, personnalité du monde des affaires. Ne(e) le 1951-12-19 a Lyon. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33122225

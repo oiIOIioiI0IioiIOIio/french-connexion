@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Denis Pietton, diplomate. Ne(e) le 1956-06-11 a Sannois. Formation : Institut d'études politiques de Paris.
+Denis Pietton, diplomate. Ne(e) le 1956-06-11 a Sannois. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q28354952

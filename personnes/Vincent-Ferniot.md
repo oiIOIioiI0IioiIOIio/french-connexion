@@ -7,6 +7,9 @@ education: École nationale supérieure des arts décoratifs
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Catherine Meurisse
+- Jean-Christophe Portes
 nationality: francaise
 nom_complet: Vincent Ferniot
 occupation: journaliste

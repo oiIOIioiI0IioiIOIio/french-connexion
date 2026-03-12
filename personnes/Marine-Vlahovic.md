@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marine Vlahovic, reporter ou reportrice. Ne(e) le 1985-03-19 a Rennes. Formation : Centre de formation des journalistes.
+[[Marine]] Vlahovic, reporter ou reportrice. Ne(e) le 1985-03-19 a Rennes. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q131377734

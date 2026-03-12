@@ -18,4 +18,4 @@ website: http://www.e-theologie.fr/
 wikidata_id: Q19950921
 ---
 
-département de théologie de l'université de Lorraine, etablissement d'enseignement superieur francais.
+département de théologie de l'[[Université de Lorraine]], etablissement d'enseignement superieur francais.

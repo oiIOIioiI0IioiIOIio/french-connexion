@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Claude-Éric Lazard, banquier. Ne(e) le 1939-03-09.
+Claude-Éric [[Lazard]], banquier. Ne(e) le 1939-03-09.
 
 ## Sources
 - http://www.wikidata.org/entity/Q22994056

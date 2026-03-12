@@ -7,6 +7,17 @@ education: École nationale des chartes
 genre: masculin
 keywords:
 - historien ou historienne
+liens:
+- Agnès Magnien
+- Armelle Daumas
+- Catherine Laurent
+- Cécile Pozzo di Borgo
+- François Cousin
+- Françoise Banat-Berger
+- Marc Sanson
+- Michel Denieul
+- Nicolas Roche
+- Solenne Lepage
 nationality: francaise
 nom_complet: Paul Bouteiller
 occupation: historien ou historienne

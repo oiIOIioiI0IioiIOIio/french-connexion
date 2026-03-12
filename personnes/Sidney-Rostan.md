@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sidney Rostan, personnalité du monde des affaires. Ne(e) le 1993-03-21 a Guebwiller. Formation : EM Lyon Business School.
+Sidney Rostan, personnalité du monde des affaires. Ne(e) le 1993-03-21 a Guebwiller. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q133496926

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Paule Boffa-Comby, écrivain ou écrivaine. Ne(e) le 1974-04-25. Formation : EM Lyon Business School.
+Paule Boffa-Comby, écrivain ou écrivaine. Ne(e) le 1974-04-25. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q122874399

@@ -8,8 +8,10 @@ keywords:
 - féminin
 - Lagardère
 liens:
+- Betty de Rothschild
 - Cercle de l'Union Interalliée
 - Elisabeth Lulin
+- Famille Rothschild
 - Jackie Daylor
 - Jean Augustine
 - Karen Mitchell Curran

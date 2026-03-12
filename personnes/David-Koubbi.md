@@ -7,6 +7,17 @@ education: université Toulouse-Capitole
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Ali Rebeihi
+- André Ferragne
+- Anne-Sophie Barthez
+- Bertrand Delanoë
+- Christophe Lèguevaques
+- Jacques Lévy
+- Jean-Nicolas Baylet
+- Louis Aliot
+- Philippe Fabry
+- Éléonore Blondeau
 nationality: francaise
 nom_complet: David Koubbi
 occupation: écrivain ou écrivaine

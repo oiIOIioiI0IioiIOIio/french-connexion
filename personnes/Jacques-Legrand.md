@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jacques Legrand, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1924-06-07 a Clamart.
+Jacques [[Legrand]], haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1924-06-07 a Clamart.
 
 ## Sources
 - http://www.wikidata.org/entity/Q123369053

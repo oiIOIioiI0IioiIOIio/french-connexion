@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Michel Lacombe, diplomate. Ne(e) le 1942-04-05. Formation : Institut d'études politiques de Paris.
+Jean-Michel Lacombe, diplomate. Ne(e) le 1942-04-05. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q106515523

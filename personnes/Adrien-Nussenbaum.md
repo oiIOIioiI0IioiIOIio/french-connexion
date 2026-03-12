@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Adrien Nussenbaum, directeur général ou directrice générale. Ne(e) le 1977-09-28 a Les Lilas. Formation : HEC Paris.
+Adrien Nussenbaum, directeur général ou directrice générale. Ne(e) le 1977-09-28 a Les Lilas. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q119371387

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Renaud Dumora, banquier. Ne(e) le 1965-07-04 a Bordeaux. Formation : École polytechnique.
+Renaud Dumora, banquier. Ne(e) le 1965-07-04 a Bordeaux. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33101888

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Claude Viet, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1952-07-17 a Montcy-Notre-Dame. Formation : Télécom Paris.
+Claude Viet, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1952-07-17 a Montcy-Notre-Dame. Formation : [[Télécom Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q121302438

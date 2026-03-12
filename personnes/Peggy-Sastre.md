@@ -7,6 +7,8 @@ education: université de Reims-Champagne-Ardenne
 genre: féminin
 keywords:
 - traducteur ou traductrice
+liens:
+- Francis Bécard
 nationality: francaise
 nom_complet: Peggy Sastre
 occupation: traducteur ou traductrice

@@ -7,6 +7,14 @@ education: université Rennes-I
 genre: féminin
 keywords:
 - avocat ou avocate
+liens:
+- Annie Lemoine
+- Florian Bachelier
+- Jean-Jacques Urvoas
+- Karine Djébari
+- Nicolas Carreau
+- Olivier Richefou
+- Tangi Noël
 nationality: francaise
 nom_complet: Mary Plard
 occupation: avocat ou avocate

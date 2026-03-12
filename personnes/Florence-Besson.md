@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Florence Besson, journaliste. Ne(e) le 1975-04-16 a Bayonne. Formation : université Paris-Sorbonne.
+Florence Besson, journaliste. Ne(e) le 1975-04-16 a Bayonne. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q125545858

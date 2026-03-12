@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Joëlle Chevé, écrivain ou écrivaine. Ne(e) le 2000-01-01 a Périgord. Formation : université Paris-Sorbonne.
+Joëlle Chevé, écrivain ou écrivaine. Ne(e) le 2000-01-01 a Périgord. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q60391583

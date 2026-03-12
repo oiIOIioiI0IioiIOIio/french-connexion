@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Judith Duportail, écrivain ou écrivaine. Ne(e) le 1986-03-02. Formation : Institut d'études politiques de Paris.
+Judith Duportail, écrivain ou écrivaine. Ne(e) le 1986-03-02. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q47088500

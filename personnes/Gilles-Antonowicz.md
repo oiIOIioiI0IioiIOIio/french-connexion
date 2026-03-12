@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gilles Antonowicz, avocat ou avocate. Ne(e) le 1953-03-01 a Marseille. Formation : Institut d'études politiques de Paris.
+Gilles Antonowicz, avocat ou avocate. Ne(e) le 1953-03-01 a Marseille. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3106058

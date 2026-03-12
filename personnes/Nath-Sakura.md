@@ -7,6 +7,13 @@ education: université Paul-Valéry
 genre: femme trans
 keywords:
 - photographe
+liens:
+- Francis Mateo
+- Géniale Attoumani
+- Hugo Guillemet
+- Patrick Donabédian
+- Thierry Riera
+- Étienne Leenhardt
 nationality: francaise
 nom_complet: Nath-Sakura
 occupation: photographe

@@ -7,6 +7,18 @@ education: lycée du Parc
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Anne Joubert
+- Bruno Cotte
+- Christophe Barbier
+- Christophe Deloire
+- Claude Alphandéry
+- Daniel Bernard
+- Frédéric Rebet
+- Guillaume Ancel
+- Guy Deniélou
+- Léon Tabah
+- Pascal Confavreux
 nationality: francaise
 nom_complet: Antoine de Tarlé
 occupation: haut fonctionnaire ou haute fonctionnaire

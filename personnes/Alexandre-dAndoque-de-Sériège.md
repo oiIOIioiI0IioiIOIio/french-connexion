@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alexandre d'Andoque de Sériège, militaire. Ne(e) le 1964-12-30 a Paris. Formation : Institut d'études politiques de Paris.
+Alexandre d'Andoque de Sériège, militaire. Ne(e) le 1964-12-30 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q66105277

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Fauchon, avocat ou avocate. Ne(e) le 1929-07-13 a Avranches. Formation : Institut d'études politiques de Paris.
+Pierre Fauchon, avocat ou avocate. Ne(e) le 1929-07-13 a Avranches. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3384966

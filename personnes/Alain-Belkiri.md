@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alain Belkiri, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1921-05-25 a Souk Ahras. Formation : École normale supérieure.
+Alain Belkiri, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1921-05-25 a Souk Ahras. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50667934

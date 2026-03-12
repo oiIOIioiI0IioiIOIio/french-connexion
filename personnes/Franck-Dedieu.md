@@ -7,6 +7,8 @@ education: université Clermont-Auvergne
 genre: masculin
 keywords:
 - rédacteur ou rédactrice en chef
+liens:
+- Romain Dureau
 nationality: francaise
 nom_complet: Franck Dedieu
 occupation: rédacteur ou rédactrice en chef

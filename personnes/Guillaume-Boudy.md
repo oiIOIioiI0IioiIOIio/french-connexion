@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Guillaume Boudy, personnalité politique. Ne(e) le 1964-06-20 a Monaco. Formation : HEC Paris.
+Guillaume Boudy, personnalité politique. Ne(e) le 1964-06-20 a Monaco. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33111521

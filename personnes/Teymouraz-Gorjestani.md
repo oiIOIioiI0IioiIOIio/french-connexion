@@ -7,6 +7,13 @@ education: Université de Californie à Berkeley
 genre: masculin
 keywords:
 - diplomate
+liens:
+- David Castello-Lopes
+- Fabienne Keller
+- Henry Peter
+- Laurence Auer
+- Marjorie Vanbaelinghem
+- Serge Halimi
 nationality: francaise
 nom_complet: Teymouraz Gorjestani
 occupation: diplomate

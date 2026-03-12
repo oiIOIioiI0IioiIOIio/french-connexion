@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Laure Gasparotto, écrivain ou écrivaine. Ne(e) le 1971-01-22 a Rochefort. Formation : université Paris-Sorbonne.
+Laure Gasparotto, écrivain ou écrivaine. Ne(e) le 1971-01-22 a Rochefort. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q23926207

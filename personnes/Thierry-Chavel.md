@@ -7,6 +7,10 @@ education: Conservatoire national des arts et métiers
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Estérelle Payany
+- François Stifani
+- Pierre Guyot
 nationality: francaise
 nom_complet: Thierry Chavel
 occupation: écrivain ou écrivaine
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Thierry Chavel, écrivain ou écrivaine. Ne(e) le 1971-09-12 a Boulogne-Billancourt. Formation : Conservatoire national des arts et métiers.
+Thierry Chavel, écrivain ou écrivaine. Ne(e) le 1971-09-12 a Boulogne-Billancourt. Formation : [[Conservatoire national des arts et métiers]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q122958416

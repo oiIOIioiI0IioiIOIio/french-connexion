@@ -16,4 +16,4 @@ type: Media
 wikidata_id: Q16651426
 ---
 
-L'Éclaireur du Gâtinais, media francais.
+[[L'Éclair]]eur du Gâtinais, media francais.

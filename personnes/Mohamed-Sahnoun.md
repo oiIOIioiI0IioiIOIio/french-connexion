@@ -7,6 +7,17 @@ education: Université de New York
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Anne Poiret
+- Antonin Lévy
+- Arno Klarsfeld
+- Carine Fouteau
+- Géraldine Muhlmann
+- Iris Brey
+- Laurent Stefanini
+- Léa Salamé
+- Marie-Anne Barbat-Layani
+- Stéphanie Antoine
 nationality: francaise
 nom_complet: Mohamed Sahnoun
 occupation: personnalité politique

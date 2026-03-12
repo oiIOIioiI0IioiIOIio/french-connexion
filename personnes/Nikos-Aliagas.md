@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nikos Aliagas, photographe. Ne(e) le 1969-05-13 a 11e arrondissement de Paris. Formation : université Paris-Sorbonne.
+Nikos Aliagas, photographe. Ne(e) le 1969-05-13 a 11e arrondissement de Paris. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2982536

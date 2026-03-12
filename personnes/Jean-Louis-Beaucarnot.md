@@ -7,6 +7,14 @@ education: université Bourgogne Europe
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Arnaud Montebourg
+- Emmanuel Berretta
+- Francis Vuillemin
+- François Baroin
+- Jean-Michel Djian
+- Katalin Escher
+- Sophie Dion
 nationality: francaise
 nom_complet: Jean-Louis Beaucarnot
 occupation: journaliste

@@ -7,6 +7,16 @@ education: lycée Condorcet
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Alain Hollande
+- Amélie Guicheney
+- Christophe Bourseiller
+- Christophe Tison
+- Claude Bussière
+- Laurent Broomhead
+- Philippe Lefait
+- Raymond Morice
+- Stéphane Barsacq
 nationality: francaise
 nom_complet: Nicolas Chapuis
 occupation: diplomate

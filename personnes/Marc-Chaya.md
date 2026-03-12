@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marc Chaya, personnalité du monde des affaires. Ne(e) le 1973-10-03 a Beyrouth. Formation : université Paris-I-Panthéon-Sorbonne.
+Marc Chaya, personnalité du monde des affaires. Ne(e) le 1973-10-03 a Beyrouth. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q123416231

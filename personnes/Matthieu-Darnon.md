@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Matthieu Darnon, directeur ou directrice de la photographie. Ne(e) le 1983-02-01. Formation : université Paris-I-Panthéon-Sorbonne.
+Matthieu Darnon, directeur ou directrice de la photographie. Ne(e) le 1983-02-01. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q131399806

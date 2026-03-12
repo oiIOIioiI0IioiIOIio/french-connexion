@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Denis Bonnelle, physicien ou physicienne. Ne(e) le 1959-10-10. Formation : École normale supérieure.
+Denis Bonnelle, physicien ou physicienne. Ne(e) le 1959-10-10. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50186249

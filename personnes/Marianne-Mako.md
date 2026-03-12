@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Marianne Mako, journaliste. Ne(e) le 1963-05-15 a Livry-Gargan.
+[[Marianne]] Mako, journaliste. Ne(e) le 1963-05-15 a Livry-Gargan.
 
 ## Sources
 - http://www.wikidata.org/entity/Q56847858

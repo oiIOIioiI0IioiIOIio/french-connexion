@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Catherine Portevin, écrivain ou écrivaine. Ne(e) le 1962-01-01. Formation : université Paris-Sorbonne.
+Catherine Portevin, écrivain ou écrivaine. Ne(e) le 1962-01-01. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q107949770

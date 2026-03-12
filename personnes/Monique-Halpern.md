@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Monique Halpern, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1941-01-01 a Lyon. Formation : Institut d'études politiques de Paris.
+Monique Halpern, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1941-01-01 a Lyon. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q62063278

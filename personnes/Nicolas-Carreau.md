@@ -7,6 +7,14 @@ education: université Rennes-I
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Annie Lemoine
+- Florian Bachelier
+- Jean-Jacques Urvoas
+- Karine Djébari
+- Mary Plard
+- Olivier Richefou
+- Tangi Noël
 nationality: francaise
 nom_complet: Nicolas Carreau
 occupation: écrivain ou écrivaine

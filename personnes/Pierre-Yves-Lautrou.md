@@ -7,6 +7,16 @@ education: université Paris-Est-Créteil-Val-de-Marne
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Charles Constantin-Vallet
+- Emmanuelle Cosse
+- Karim Achoui
+- Lucile Woodward
+- Michaël Bertini
+- Pascal Durand
+- Philippe Olivier
+- Roland Perez
+- Rosiane Houngbo-Monteverde
 nationality: francaise
 nom_complet: Pierre-Yves Lautrou
 occupation: journaliste

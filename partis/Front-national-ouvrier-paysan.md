@@ -15,4 +15,4 @@ type: Parti
 wikidata_id: Q3088527
 ---
 
-Front national ouvrier paysan, parti politique francais.
+[[Front national]] ouvrier paysan, parti politique francais.

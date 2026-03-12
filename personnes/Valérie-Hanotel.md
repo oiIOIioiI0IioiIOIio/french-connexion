@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Valérie Hanotel, écrivain ou écrivaine. Ne(e) le 1961-07-01 a Étampes. Formation : université Paris-Sorbonne.
+Valérie Hanotel, écrivain ou écrivaine. Ne(e) le 1961-07-01 a Étampes. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q134423586

@@ -7,6 +7,8 @@ education: École centrale de Nantes
 genre: masculin
 keywords:
 - photographe
+liens:
+- Christophe Geffroy
 nationality: francaise
 nom_complet: Marc Roussel
 occupation: photographe

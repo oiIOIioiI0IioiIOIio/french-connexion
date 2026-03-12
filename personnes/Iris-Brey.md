@@ -7,6 +7,17 @@ education: Université de New York
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Anne Poiret
+- Antonin Lévy
+- Arno Klarsfeld
+- Carine Fouteau
+- Géraldine Muhlmann
+- Laurent Stefanini
+- Léa Salamé
+- Marie-Anne Barbat-Layani
+- Mohamed Sahnoun
+- Stéphanie Antoine
 nationality: francaise
 nom_complet: Iris Brey
 occupation: écrivain ou écrivaine

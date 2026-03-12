@@ -7,6 +7,9 @@ education: École normale supérieure Paris-Saclay
 genre: féminin
 keywords:
 - diplomate
+liens:
+- Alexandre Siné
+- Bernard Belletante
 nationality: francaise
 nom_complet: Mathilde Grammont
 occupation: diplomate
@@ -22,7 +25,7 @@ tags:
 type: Personne
 ---
 
-Mathilde Grammont, diplomate. Ne(e) le 1980-12-07. Formation : École normale supérieure Paris-Saclay.
+Mathilde Grammont, diplomate. Ne(e) le 1980-12-07. Formation : [[École normale supérieure]] Paris-Saclay.
 
 ## Sources
 - http://www.wikidata.org/entity/Q125019530

@@ -7,6 +7,13 @@ education: université Nice-Sophia-Antipolis
 genre: féminin
 keywords:
 - avocat ou avocate
+liens:
+- Christian Daziano
+- Claudine Monteil
+- Fabien Ferasson de Quental
+- Jacques Peyrat
+- Jean-Yves Potel
+- Marion Festraëts
 nationality: francaise
 nom_complet: Virginie Joron
 occupation: avocat ou avocate

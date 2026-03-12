@@ -7,6 +7,12 @@ education: université de Versailles-Saint-Quentin-en-Yvelines
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Isabelle Saporta
+- Jérôme Salomon
+- Martin Pénet
+- Nicolas Barotte
+- Tugdual de Dieuleveult
 nationality: francaise
 nom_complet: François-Xavier Bourmaud
 occupation: journaliste

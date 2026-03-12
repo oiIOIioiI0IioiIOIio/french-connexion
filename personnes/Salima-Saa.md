@@ -7,6 +7,12 @@ education: université Lille-I
 genre: féminin
 keywords:
 - personnalité politique
+liens:
+- Alexandra Pihen
+- Eléonor Acher
+- Olivier Malfait
+- Richard Laganier
+- Vincent Bedouin
 nationality: francaise
 nom_complet: Salima Saa
 occupation: personnalité politique

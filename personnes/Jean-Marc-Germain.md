@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Marc Germain, personnalité politique. Ne(e) le 1966-06-12 a Lyon. Formation : École polytechnique.
+Jean-Marc Germain, personnalité politique. Ne(e) le 1966-06-12 a Lyon. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3167390

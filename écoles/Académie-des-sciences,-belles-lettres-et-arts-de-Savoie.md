@@ -5,6 +5,196 @@ headquarters: Chambéry
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Abdel Bounane
+- Abdoulatifou Aly
+- Abel Mestre
+- Ahmed El Keiy
+- Alain Madelin
+- Alain Pellet
+- Alain Thirion
+- Alban de La Selle
+- Alexandre Duval-Stalla
+- Alexia Guggémos
+- Aline Bernard
+- Aline Kuster-Ménager
+- Amaury de Saint-Quentin
+- Amets Arzallus
+- André Damien
+- André-Pierre Nouvion
+- Angélique Kourounis
+- Anne Nègre
+- Antoine Genton
+- Arnaud Claude
+- Arthur Lombard
+- Arthur Nesnidal
+- Audrey Azoulay
+- Axel Duroux
+- Aymeric Rouillac
+- Azzeddine Ahmed-Chaouch
+- Barto Pedro Orent-Niedzielski
+- Baudouin Eschapasse
+- Bernard Carayon
+- Bernard Demange
+- Bernard Rullier
+- Bertrand Mertz
+- Bruno Godard
+- Bruno Thouzellier
+- Bénédicte Mezeix-Rytwiński
+- Camille Kouchner
+- Carine Bécard
+- Caroline Munoz
+- Charles-Henry Chenut
+- Christian Kassel
+- Christian Nique
+- Christophe Caron
+- Christophe Grudler
+- Claire Hédon
+- Claude Katz
+- Colombe Schneck
+- Corinne Lepage
+- Cécile Rap-Veber
+- César Giron
+- Danièle Bourcier
+- Didier Wisselmann
+- Dominique Lepidi
+- Emmanuel Gaillard
+- Emmanuel Pierrat
+- Emmanuelle Barbara
+- Erik Tegnér
+- Francis Letellier
+- Franck Boulin
+- François Bayrou
+- François Clemenceau
+- François Ernenwein
+- François Hoehlinger
+- François Zimeray
+- Françoise Joly
+- Frédéric Métézeau
+- Frédéric Sicard
+- Gabrielle Siry
+- Gaël Rivière
+- Geneviève Goëtzinger
+- George Pau-Langevin
+- Gilbert Collard
+- Gilles Simeoni
+- Gilles Thibault
+- Géraldine Salord
+- Henri de Rothschild
+- Hervé Temime
+- Hur Gorostiaga
+- Hélène Kosséian
+- Isabelle Donnadieu
+- Isabelle Quenin
+- Ismaël Boudjekada
+- Jacques Delors
+- Jacques Grandon
+- Jacques Mézard
+- Jacques de Saint Victor
+- Jean Kahn
+- Jean Rochet
+- Jean de Belot
+- Jean-Baptiste Soufron
+- Jean-Charles Robin
+- Jean-Claude Erhmann
+- Jean-François Jalkh
+- Jean-Félix de La Ville Baugé
+- Jean-Guy Talamoni
+- Jean-Marie Bockel
+- Jean-Marie Le Pen
+- Jean-Pierre Lévy
+- Jean-Pierre Meullenet
+- Jean-Pierre Razafy-Andriamihaingo
+- Jesse E. Moorland
+- Jules Grévy
+- Julie Granier
+- Julien Larere-Genevoix
+- Laure-Alice Bouvier
+- Laurent Aynès
+- Laurent Caillaud
+- Laurent Grzybowski
+- Laurent Hauben
+- Laurent Micouleau
+- Laurent Prud'homme
+- Laurent-Frédéric Bollée
+- Lionel Benbassat
+- Louis Oster
+- Maddalen Arzallus
+- Maddi Ane Txoperena Iribarren
+- Maggy de Coster
+- Manuel Aeschlimann
+- Manuel Jorge
+- Marc-Olivier Fogiel
+- Margaux de Frouville
+- Marie-Estelle Pech
+- Marie-Monique Robin
+- Marina Alcaraz
+- Marion Marchal
+- Martine Monteil
+- Matthieu Belliard
+- Maurice Gourdault-Montagne
+- Michel Lagourgue
+- Michèle Alliot-Marie
+- Monique Atlan
+- Nathalie Levy
+- Nathan Allix
+- Nicolas Cadène
+- Nicolas Ferrand
+- Nicole Belloubet
+- Nicole Michelangeli
+- Octave Nitkowski
+- Olivia Fox Cabane
+- Olivia Ronen
+- Olivier Laureau
+- Olivier Razemon
+- Pascal Barollier
+- Pascal Canfin
+- Pascale Alvanitakis-Guély
+- Patrice Machuret
+- Patrick Devedjian
+- Patrick Eudeline
+- Patrick Gérard
+- Patrick Klugman
+- Patrick Louis
+- Patrick Rajoelina
+- Patrick Strzoda
+- Paul Camous
+- Philippe Houillon
+- Philippe Péninque
+- Philippe Sutter
+- Pierre Manière
+- Pierre-Christian Taittinger
+- Raymond Forni
+- René-Marie Bouin
+- Rokhaya Diallo
+- Romain Mielcarek
+- Régis de Castelnau
+- Rémi de Gaulle
+- Sally
+- Simon Liberati
+- Sonia Rolley
+- Sophie Lambroschini
+- Sylvie Noachovitch
+- Tatiana de Rosnay
+- Tessa Melkonian
+- Thibault de Montbrial
+- Thierry Laborde
+- Thierry Vallat
+- Thomas Clay
+- Thomas Legrand
+- Valentine Oberti
+- Valérie Durier
+- Valérie Hatsch
+- Valérie Lafarge-Sarkozy
+- Virginie Delalande
+- Wallerand de Saint-Just
+- Yassine Bouzrou
+- Yves Jacquin Depeyre
+- Zartoshte Bakhtiari
+- Élise Arfi
+- Élé Asu
+- Érick Cakpo
+- Étienne Carbonnier
 nom_complet: Académie des sciences, belles-lettres et arts de Savoie
 sources:
 - https://www.wikidata.org/entity/Q2822331
@@ -19,4 +209,4 @@ website: http://www.academiesavoie.org
 wikidata_id: Q2822331
 ---
 
-Académie des sciences, belles-lettres et arts de Savoie, etablissement d'enseignement superieur francais.
+[[Académie des sciences]], belles-lettres et arts de Savoie, etablissement d'enseignement superieur francais.

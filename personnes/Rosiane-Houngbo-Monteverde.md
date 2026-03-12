@@ -7,6 +7,16 @@ education: université Paris-Est-Créteil-Val-de-Marne
 genre: féminin
 keywords:
 - avocat ou avocate
+liens:
+- Charles Constantin-Vallet
+- Emmanuelle Cosse
+- Karim Achoui
+- Lucile Woodward
+- Michaël Bertini
+- Pascal Durand
+- Philippe Olivier
+- Pierre-Yves Lautrou
+- Roland Perez
 nationality: francaise
 nom_complet: Rosiane Houngbo-Monteverde
 occupation: avocat ou avocate

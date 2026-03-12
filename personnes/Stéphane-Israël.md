@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Stéphane Israël, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1971-01-03 a Paris. Formation : École normale supérieure.
+Stéphane Israël, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1971-01-03 a Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q13250260

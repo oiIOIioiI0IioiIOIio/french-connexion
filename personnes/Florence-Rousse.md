@@ -7,6 +7,8 @@ education: null
 genre: féminin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Florence Roussel
 nationality: francaise
 nom_complet: Florence Rousse
 occupation: haut fonctionnaire ou haute fonctionnaire

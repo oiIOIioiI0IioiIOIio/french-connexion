@@ -7,6 +7,13 @@ education: université Toulouse-Jean-Jaurès
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Agathe Auproux
+- Aure Séguier
+- Daniel Crozes
+- Georges Landais
+- Hélène Jouan
+- Jean-Yves Le Talec
 nationality: francaise
 nom_complet: Jean-Luc Barré
 occupation: personnalité politique

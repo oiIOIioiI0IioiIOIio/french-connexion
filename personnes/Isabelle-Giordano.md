@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Isabelle Giordano, écrivain ou écrivaine. Ne(e) le 1963-10-28 a Fontenay-aux-Roses. Formation : Institut d'études politiques de Paris.
+Isabelle Giordano, écrivain ou écrivaine. Ne(e) le 1963-10-28 a Fontenay-aux-Roses. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3154931

@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Artemio Benki, scénariste. Ne(e) le 1966-04-21 a Paris.
+[[Arte]]mio Benki, scénariste. Ne(e) le 1966-04-21 a Paris.
 
 ## Sources
 - http://www.wikidata.org/entity/Q108028328

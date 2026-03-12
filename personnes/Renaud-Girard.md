@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Renaud Girard, écrivain ou écrivaine. Ne(e) le 1955-05-25 a New York. Formation : École normale supérieure.
+Renaud Girard, écrivain ou écrivaine. Ne(e) le 1955-05-25 a New York. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3424889

@@ -3,6 +3,8 @@ date_creation_note: '2026-03-12'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Jean Roussel
 nom_complet: faculté de droit d'Aix-en-Provence
 sources:
 - https://www.wikidata.org/entity/Q22999351

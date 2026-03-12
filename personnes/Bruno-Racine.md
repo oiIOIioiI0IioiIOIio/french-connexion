@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bruno Racine, écrivain ou écrivaine. Ne(e) le 1951-12-17 a Paris. Formation : École normale supérieure.
+Bruno Racine, écrivain ou écrivaine. Ne(e) le 1951-12-17 a Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q784043

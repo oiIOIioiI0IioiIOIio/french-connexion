@@ -7,6 +7,12 @@ education: université Bordeaux-IV
 genre: masculin
 keywords:
 - juriste
+liens:
+- Julie Owono
+- Julien Courbet
+- Mathilde Munos
+- Myriam El Khomri
+- Élise Costa
 nationality: francaise
 nom_complet: Hugues Moutouh
 occupation: juriste

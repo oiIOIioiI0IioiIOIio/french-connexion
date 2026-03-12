@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Paul-Philippe Massoni, avocat ou avocate. Ne(e) le 1966-01-06.
+Paul-[[Philippe Massoni]], avocat ou avocate. Ne(e) le 1966-01-06.
 
 ## Sources
 - http://www.wikidata.org/entity/Q33247406

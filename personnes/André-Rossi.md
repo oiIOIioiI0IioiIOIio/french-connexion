@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-André Rossi, personnalité politique. Ne(e) le 1921-05-16 a Menton.
+[[André Ross]]i, personnalité politique. Ne(e) le 1921-05-16 a Menton.
 
 ## Sources
 - http://www.wikidata.org/entity/Q2848571

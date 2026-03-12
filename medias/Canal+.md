@@ -8,6 +8,8 @@ keywords:
 - payante
 - divertissement
 - sport
+liens:
+- Canal+
 summary: Canal+ est une chaîne de télévision française privée, pionnière de la télévision
   payante en Europe. Elle propose des programmes variés incluant films, séries, sports
   et divertissements.

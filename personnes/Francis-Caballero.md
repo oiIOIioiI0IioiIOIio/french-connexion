@@ -7,6 +7,10 @@ education: faculté de droit de Harvard
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Ilana Cicurel
+- Jacques Salès
+- Laurent Cohen-Tanugi
 nationality: francaise
 nom_complet: Francis Caballero
 occupation: avocat ou avocate

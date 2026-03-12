@@ -7,6 +7,11 @@ education: collège Stanislas
 genre: masculin
 keywords:
 - chanteur ou chanteuse
+liens:
+- Jacques Grandon
+- Jean Rochet
+- Pierre-Christian Taittinger
+- Simon Liberati
 nationality: francaise
 nom_complet: Patrick Eudeline
 occupation: chanteur ou chanteuse

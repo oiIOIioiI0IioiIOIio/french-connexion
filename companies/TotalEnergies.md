@@ -7,6 +7,8 @@ keywords:
 - entreprise
 - industrie pétrolière
 leader: Patrick Pouyanné
+liens:
+- Agnès Pannier Runacher
 nom_complet: TotalEnergies
 sources:
 - https://www.wikidata.org/entity/Q154037

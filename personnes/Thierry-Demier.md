@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Thierry Demier, personnalité du monde des affaires. Ne(e) le 1957-04-13 a Saint-Nazaire. Formation : EM Lyon Business School.
+Thierry Demier, personnalité du monde des affaires. Ne(e) le 1957-04-13 a Saint-Nazaire. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33246963

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Louis Baroux, personnalité du monde des affaires. Ne(e) le 1945-05-13. Formation : EM Lyon Business School.
+Jean-Louis Baroux, personnalité du monde des affaires. Ne(e) le 1945-05-13. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q61695902

@@ -7,6 +7,11 @@ education: Harvard Business School
 genre: masculin
 keywords:
 - banquier
+liens:
+- Arnaud Leclercq
+- François Bujon de l'Estang
+- Guillaume-Olivier Doré
+- Philippe Roche
 nationality: francaise
 nom_complet: Alain de Gunzburg
 occupation: banquier

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Florent Gautreau, journaliste. Ne(e) le 1971-03-16 a Vendôme. Formation : Centre de formation des journalistes.
+Florent Gautreau, journaliste. Ne(e) le 1971-03-16 a Vendôme. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3074081

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Paul Bernard, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1934-12-12 a Montpellier. Formation : Institut d'études politiques de Paris.
+Paul Bernard, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1934-12-12 a Montpellier. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50670142

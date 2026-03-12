@@ -7,6 +7,15 @@ education: Centre de formation et de perfectionnement des journalistes
 genre: féminin
 keywords:
 - reporter ou reportrice
+liens:
+- Aude Favre
+- Christine Goguet
+- Clarence Edgard-Rosa
+- Cécile Pivot
+- Djamel Mazi
+- Fabien Roussel
+- Gauthier Le Bret
+- Éric Delvaux
 nationality: francaise
 nom_complet: Anne-Isabelle Tollet
 occupation: reporter ou reportrice

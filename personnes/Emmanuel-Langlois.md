@@ -7,6 +7,21 @@ education: université Bordeaux-Montaigne
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Agnès Cukierman
+- Clément Bénech
+- David Thomson
+- Géraldine Mosna-Savoye
+- Isabelle Roberts
+- Kéthévane Bagration de Moukhrani
+- Marie Aubinais
+- Mohamed Toihiri
+- Paul Larrouturou
+- Pierre Lory
+- Stéphane Bijoux
+- Xavier Loustaunau
+- Yann Barthès
+- Éric de Kermel
 nationality: francaise
 nom_complet: Emmanuel Langlois
 occupation: journaliste

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Patrick Barraquand, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1958-06-16 a Arles. Formation : École normale supérieure de Saint-Cloud.
+Patrick Barraquand, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1958-06-16 a Arles. Formation : [[École normale supérieure]] de Saint-Cloud.
 
 ## Sources
 - http://www.wikidata.org/entity/Q33113277

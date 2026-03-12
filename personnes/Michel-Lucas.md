@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel Lucas, ingénieur. Ne(e) le 1939-05-04 a Lorient. Formation : Institut industriel du Nord.
+Michel Lucas, ingénieur. Ne(e) le 1939-05-04 a Lorient. Formation : [[Institut industriel du Nord]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3310222

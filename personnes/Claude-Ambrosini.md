@@ -7,6 +7,14 @@ education: faculté des lettres de Paris
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Alain Rouillard
+- Alexis Berelowitch
+- Jean-Claude Moreau
+- Marcel Martin
+- Marie-Françoise Hamard
+- Pierre Boillot
+- Pierre Lafrance
 nationality: francaise
 nom_complet: Claude Ambrosini
 occupation: diplomate
@@ -22,7 +30,7 @@ tags:
 type: Personne
 ---
 
-Claude Ambrosini, diplomate. Ne(e) le 1943-01-11. Formation : faculté des lettres de Paris.
+Claude Ambrosini, diplomate. Ne(e) le 1943-01-11. Formation : [[faculté des lettres de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q117778157

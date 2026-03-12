@@ -7,6 +7,9 @@ education: université Nancy-II
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Alice Thourot
+- Patrick Fandio
 nationality: francaise
 nom_complet: Jean-Denis Combrexelle
 occupation: haut fonctionnaire ou haute fonctionnaire

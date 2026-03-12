@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Charles Chapuzet, écrivain ou écrivaine. Ne(e) le 1976-06-20 a Jonzac. Formation : Institut d'études politiques de Paris.
+Jean-Charles Chapuzet, écrivain ou écrivaine. Ne(e) le 1976-06-20 a Jonzac. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3164628

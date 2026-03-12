@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alexandre Lacroix, écrivain ou écrivaine. Ne(e) le 1975-09-02 a Poitiers. Formation : Institut d'études politiques de Paris.
+Alexandre Lacroix, écrivain ou écrivaine. Ne(e) le 1975-09-02 a Poitiers. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2833797

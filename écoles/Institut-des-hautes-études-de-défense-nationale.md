@@ -5,6 +5,12 @@ headquarters: Paris
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Claude Charbonniaud
+- Hervé-Michel Gobilliard
+- Hubert Coudurier
+- Jérôme Bellanger
+- Pierre Somveille
 nom_complet: Institut des hautes études de défense nationale
 sources:
 - https://www.wikidata.org/entity/Q3152161

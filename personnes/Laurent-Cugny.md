@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Laurent Cugny, compositeur ou compositrice. Ne(e) le 1955-04-14 a La Garenne-Colombes. Formation : université Paris-Sorbonne.
+Laurent Cugny, compositeur ou compositrice. Ne(e) le 1955-04-14 a La Garenne-Colombes. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q1251300

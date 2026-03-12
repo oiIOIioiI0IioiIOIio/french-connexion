@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Patrick Nicoloso, diplomate. Ne(e) le 1952-04-03 a Nice. Formation : Institut d'études politiques de Paris.
+Patrick Nicoloso, diplomate. Ne(e) le 1952-04-03 a Nice. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33252763

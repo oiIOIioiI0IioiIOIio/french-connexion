@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jérémy Michel, chroniqueur ou chroniqueuse. Ne(e) le 1970-01-01. Formation : université Paris-Sorbonne.
+Jérémy Michel, chroniqueur ou chroniqueuse. Ne(e) le 1970-01-01. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q135152941

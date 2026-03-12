@@ -7,6 +7,8 @@ education: centre des hautes études sur l'Afrique et l'Asie modernes
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Paul Camous
 nationality: francaise
 nom_complet: Pierre Manière
 occupation: haut fonctionnaire ou haute fonctionnaire

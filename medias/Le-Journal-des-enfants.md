@@ -18,4 +18,4 @@ website: http://www.jde.fr
 wikidata_id: Q2377168
 ---
 
-Le Journal des enfants, media francais.
+[[Le Jour]]nal des enfants, media francais.

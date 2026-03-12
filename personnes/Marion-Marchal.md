@@ -7,6 +7,8 @@ education: université Strasbourg-I
 genre: féminin
 keywords:
 - personnalité politique
+liens:
+- Jean-Pierre Meullenet
 nationality: francaise
 nom_complet: Marion Marchal
 occupation: personnalité politique

@@ -7,6 +7,15 @@ education: Université de Genève
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Agnès Giard
+- Bernard Anthonioz
+- Béatrice Métraux
+- Dominique Warluzel
+- Edmond de Rothschild
+- Richard Labévière
+- Thérèse Blanchet
+- Yves Nidegger
 nationality: francaise
 nom_complet: Christophe Lemoine
 occupation: diplomate

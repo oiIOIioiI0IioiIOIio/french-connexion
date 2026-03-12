@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Lucas Menget, reporter ou reportrice. Ne(e) le 1974-01-01 a Chambray-lès-Tours. Formation : université Paris-I-Panthéon-Sorbonne.
+Lucas Menget, reporter ou reportrice. Ne(e) le 1974-01-01 a Chambray-lès-Tours. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q26913536

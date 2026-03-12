@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Delphine Saubaber, journaliste. Ne(e) le 1978-01-01 a Agen. Formation : Institut d'études politiques de Paris.
+Delphine Saubaber, journaliste. Ne(e) le 1978-01-01 a Agen. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q19629953

@@ -7,6 +7,8 @@ education: École du service extérieur Edmund-Walsh
 genre: féminin
 keywords:
 - diplomate
+liens:
+- Stéphane Dujarric
 nationality: francaise
 nom_complet: Eva Nguyen Binh
 occupation: diplomate

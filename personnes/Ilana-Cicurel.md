@@ -7,6 +7,10 @@ education: faculté de droit de Harvard
 genre: féminin
 keywords:
 - avocat ou avocate
+liens:
+- Francis Caballero
+- Jacques Salès
+- Laurent Cohen-Tanugi
 nationality: francaise
 nom_complet: Ilana Cicurel
 occupation: avocat ou avocate

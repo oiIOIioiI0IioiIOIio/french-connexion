@@ -17,4 +17,4 @@ type: Parti
 wikidata_id: Q2838199
 ---
 
-Alliance marxiste révolutionnaire, parti politique francais.
+[[Alliance]] marxiste révolutionnaire, parti politique francais.

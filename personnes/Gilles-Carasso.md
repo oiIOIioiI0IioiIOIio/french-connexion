@@ -7,6 +7,9 @@ education: université Grenoble-I
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Fabrice Plasson
+- Robin Duvillard
 nationality: francaise
 nom_complet: Gilles Carasso
 occupation: haut fonctionnaire ou haute fonctionnaire

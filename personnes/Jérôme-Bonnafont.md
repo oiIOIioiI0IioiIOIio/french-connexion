@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jérôme Bonnafont, diplomate. Ne(e) le 1961-01-08 a Neuilly-sur-Seine. Formation : Institut d'études politiques de Paris.
+Jérôme Bonnafont, diplomate. Ne(e) le 1961-01-08 a Neuilly-sur-Seine. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q17635839

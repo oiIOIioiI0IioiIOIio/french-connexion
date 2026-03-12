@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Victor Castanet, journaliste. Ne(e) le 1987-06-09 a 16e arrondissement de Paris. Formation : université Paris-I-Panthéon-Sorbonne.
+Victor Castanet, journaliste. Ne(e) le 1987-06-09 a 16e arrondissement de Paris. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q110700032

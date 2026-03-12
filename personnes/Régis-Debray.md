@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Régis Debray, écrivain ou écrivaine. Ne(e) le 1940-09-02 a Paris. Formation : École normale supérieure.
+Régis Debray, écrivain ou écrivaine. Ne(e) le 1940-09-02 a Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q378116

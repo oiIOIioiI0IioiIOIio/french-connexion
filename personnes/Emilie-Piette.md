@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Emilie Piette, personnalité du monde des affaires. Ne(e) le 1977-11-26 a Boulogne-Billancourt. Formation : École polytechnique.
+Emilie Piette, personnalité du monde des affaires. Ne(e) le 1977-11-26 a Boulogne-Billancourt. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33102426

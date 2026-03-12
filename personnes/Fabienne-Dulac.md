@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Fabienne Dulac, directeur général ou directrice générale. Ne(e) le 1967-05-07 a Neuilly-sur-Seine. Formation : Institut d'études politiques de Paris.
+Fabienne Dulac, directeur général ou directrice générale. Ne(e) le 1967-05-07 a Neuilly-sur-Seine. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q25999290

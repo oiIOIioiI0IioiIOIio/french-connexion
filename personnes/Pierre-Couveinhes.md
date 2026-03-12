@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Couveinhes, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1950-08-11 a Montpellier. Formation : École polytechnique.
+Pierre Couveinhes, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1950-08-11 a Montpellier. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3384563

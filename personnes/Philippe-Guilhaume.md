@@ -23,7 +23,7 @@ tags:
 type: Personne
 ---
 
-Philippe Guilhaume, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1942-05-30 a 16e arrondissement de Paris. Formation : Institut d'études politiques de Paris.
+Philippe Guilhaume, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1942-05-30 a 16e arrondissement de Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3379972

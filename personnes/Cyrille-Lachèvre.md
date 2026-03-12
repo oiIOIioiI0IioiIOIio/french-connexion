@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Cyrille Lachèvre, écrivain ou écrivaine. Ne(e) le 1974-03-24. Formation : Institut d'études politiques de Paris.
+Cyrille Lachèvre, écrivain ou écrivaine. Ne(e) le 1974-03-24. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q46392545

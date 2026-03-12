@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Emmanuel Cocher, diplomate. Ne(e) le 1969-04-14 a Versailles. Formation : École normale supérieure.
+Emmanuel Cocher, diplomate. Ne(e) le 1969-04-14 a Versailles. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q48038334

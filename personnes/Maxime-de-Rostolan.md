@@ -7,6 +7,14 @@ education: lycée Janson-de-Sailly
 genre: masculin
 keywords:
 - entrepreneur ou entrepreneuse
+liens:
+- Christophe Ono-dit-Biot
+- Hubert Heilbronn
+- Laurence de Charette
+- René Ribière
+- Thomas Schmider
+- Édouard de Ribes
+- Éric de Rothschild
 nationality: francaise
 nom_complet: Maxime de Rostolan
 occupation: entrepreneur ou entrepreneuse
@@ -22,7 +30,7 @@ tags:
 type: Personne
 ---
 
-Maxime de Rostolan, entrepreneur ou entrepreneuse. Ne(e) le 1981-04-04 a Paris. Formation : lycée Janson-de-Sailly.
+Maxime de Rostolan, entrepreneur ou entrepreneuse. Ne(e) le 1981-04-04 a Paris. Formation : [[Lycée Janson-de-Sailly]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q75334941

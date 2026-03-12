@@ -7,6 +7,12 @@ education: université Lille-III
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Catherine Mangin-Dessarts
+- Didier Rogasik
+- Flore Maréchal
+- Meriem Amellal
+- Réginald Gaillard
 nationality: francaise
 nom_complet: Kidi Bebey
 occupation: écrivain ou écrivaine

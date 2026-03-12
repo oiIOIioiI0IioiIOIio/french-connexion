@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jérôme Garcin, écrivain ou écrivaine. Ne(e) le 1956-10-04 a Paris. Formation : université Paris-Sorbonne.
+Jérôme Garcin, écrivain ou écrivaine. Ne(e) le 1956-10-04 a Paris. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3190911

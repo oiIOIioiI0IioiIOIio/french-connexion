@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Stéphane Richard, personnalité du monde des affaires. Ne(e) le 1961-08-24 a Caudéran. Formation : HEC Paris.
+Stéphane Richard, personnalité du monde des affaires. Ne(e) le 1961-08-24 a Caudéran. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2360382

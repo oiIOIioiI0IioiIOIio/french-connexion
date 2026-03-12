@@ -7,6 +7,8 @@ education: Université Humboldt de Berlin
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Raoul Peck
 nationality: francaise
 nom_complet: Mathieu Magnaudeix
 occupation: journaliste

@@ -18,4 +18,4 @@ website: https://www.icp.fr/a-propos-de-licp/decouvrez-licp/facultes-et-institut
 wikidata_id: Q104223666
 ---
 
-faculté de philosophie de l'Institut catholique de Paris, etablissement d'enseignement superieur francais.
+faculté de philosophie de l'[[Institut catholique de Paris]], etablissement d'enseignement superieur francais.

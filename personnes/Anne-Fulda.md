@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Anne Fulda, reporter ou reportrice. Ne(e) le 1963-05-10 a 16e arrondissement de Paris. Formation : Institut d'études politiques de Paris.
+Anne Fulda, reporter ou reportrice. Ne(e) le 1963-05-10 a 16e arrondissement de Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2851102

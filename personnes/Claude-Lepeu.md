@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Claude Lepeu, militaire. Ne(e) le 1921-03-03 a 16e arrondissement de Paris. Formation : HEC Paris.
+Claude Lepeu, militaire. Ne(e) le 1921-03-03 a 16e arrondissement de Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q8327107

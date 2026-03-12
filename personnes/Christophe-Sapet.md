@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christophe Sapet, personnalité du monde des affaires. Ne(e) le 1958-06-01 a Valence. Formation : EM Lyon Business School.
+Christophe Sapet, personnalité du monde des affaires. Ne(e) le 1958-06-01 a Valence. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q106511363

@@ -4,6 +4,12 @@ founded: '1929-06-10'
 keywords:
 - media
 - presse
+liens:
+- La République des Pyrénées
+- La République du Centre
+- La République française
+- La République lyonnaise
+- La République sociale indépendante
 nom_complet: La République
 sources:
 - https://www.wikidata.org/entity/Q61053022

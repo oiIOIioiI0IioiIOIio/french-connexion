@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Maan Zrein, personnalité du monde des affaires. Ne(e) le 1959-01-25. Formation : EM Lyon Business School.
+Maan Zrein, personnalité du monde des affaires. Ne(e) le 1959-01-25. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q59687868

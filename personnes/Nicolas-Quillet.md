@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nicolas Quillet, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1956-05-12 a Boulogne-Billancourt. Formation : École normale supérieure.
+Nicolas Quillet, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1956-05-12 a Boulogne-Billancourt. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33103992

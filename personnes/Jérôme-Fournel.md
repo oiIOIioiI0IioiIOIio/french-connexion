@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jérôme Fournel, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1967-08-17 a Lyon. Formation : HEC Paris.
+Jérôme Fournel, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1967-08-17 a Lyon. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33118119

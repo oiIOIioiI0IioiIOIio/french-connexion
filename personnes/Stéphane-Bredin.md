@@ -7,6 +7,14 @@ education: École centrale Paris
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Christophe Chantepy
+- Djamel Agaoua
+- Dominique-Paul Vallée
+- François Ecalle
+- Jacques Rosselin
+- Jean-Louis Zoël
+- Xavier Lefort
 nationality: francaise
 nom_complet: Stéphane Bredin
 occupation: haut fonctionnaire ou haute fonctionnaire

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Emmanuel Chain, journaliste. Ne(e) le 1962-08-05 a Neuilly-sur-Seine. Formation : HEC Paris.
+Emmanuel Chain, journaliste. Ne(e) le 1962-08-05 a Neuilly-sur-Seine. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3052623

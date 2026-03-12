@@ -8,6 +8,17 @@ education: École des hautes études en sciences de l'information et de la commu
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Ambre Chalumeau
+- Arnaud Dubus
+- Catherine Nayl
+- Christophe Beaugrand
+- Fabrice Rousselot
+- Marie Misset
+- Nivin Potros
+- Pierre Fraidenraich
+- Samuel Forey
+- Valérie Fayolle
 nationality: francaise
 nom_complet: Roland Blatmann
 occupation: diplomate

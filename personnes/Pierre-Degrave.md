@@ -7,6 +7,8 @@ education: faculté de droit et science politique de Montpellier
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Pierre Rouvière
 nationality: francaise
 nom_complet: Pierre Degrave
 occupation: haut fonctionnaire ou haute fonctionnaire

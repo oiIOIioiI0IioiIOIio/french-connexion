@@ -7,6 +7,9 @@ education: École nationale supérieure des arts décoratifs
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Catherine Meurisse
+- Vincent Ferniot
 nationality: francaise
 nom_complet: Jean-Christophe Portes
 occupation: écrivain ou écrivaine

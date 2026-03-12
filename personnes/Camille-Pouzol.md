@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Camille Pouzol, scénariste. Ne(e) le 1974-04-01. Formation : université Paris-Sorbonne.
+Camille Pouzol, scénariste. Ne(e) le 1974-04-01. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q20241051

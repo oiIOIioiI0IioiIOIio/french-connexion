@@ -7,6 +7,11 @@ education: université Pierre-et-Marie-Curie
 genre: masculin
 keywords:
 - photographe
+liens:
+- Jean-Baptiste de Franssu
+- Jean-Luc Aubert
+- Joël Courtois
+- Joël-Alexis Bialkiewicz
 nationality: francaise
 nom_complet: Nicolas Hulot
 occupation: photographe

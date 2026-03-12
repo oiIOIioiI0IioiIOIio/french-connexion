@@ -7,6 +7,18 @@ education: université Rennes-II
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Alain Pirot
+- Anne-Claire Coudray
+- Denis Ruellan
+- Erwan Chartier
+- Fanny Chauffin
+- Gaspard Glanz
+- Maryse Burgot
+- Morgane Tual
+- Philippe Georgeais
+- Samuel Le Goff
+- Sidonie Bonnec
 nationality: francaise
 nom_complet: Hélène Fily
 occupation: journaliste

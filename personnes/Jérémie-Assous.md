@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jérémie Assous, avocat ou avocate. Ne(e) le 1977-02-27 a Paris. Formation : université Paris-I-Panthéon-Sorbonne.
+Jérémie Assous, avocat ou avocate. Ne(e) le 1977-02-27 a Paris. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q15973355

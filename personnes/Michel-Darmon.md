@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel Darmon, militaire. Ne(e) le 1925-07-16 a Versailles. Formation : École polytechnique.
+Michel Darmon, militaire. Ne(e) le 1925-07-16 a Versailles. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q44698014

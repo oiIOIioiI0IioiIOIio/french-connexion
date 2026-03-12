@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christian Sautter, personnalité politique. Ne(e) le 1940-04-09 a Autun. Formation : École polytechnique.
+Christian Sautter, personnalité politique. Ne(e) le 1940-04-09 a Autun. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2965623

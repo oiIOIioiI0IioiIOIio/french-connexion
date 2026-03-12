@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Daniel Karyotis, banquier. Ne(e) le 1961-02-09 a Reims. Formation : Institut d'études politiques de Paris.
+Daniel Karyotis, banquier. Ne(e) le 1961-02-09 a Reims. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3014243

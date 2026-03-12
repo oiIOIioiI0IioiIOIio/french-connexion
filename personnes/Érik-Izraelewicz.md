@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Érik Izraelewicz, écrivain ou écrivaine. Ne(e) le 1954-02-06 a Strasbourg. Formation : HEC Paris.
+Érik Izraelewicz, écrivain ou écrivaine. Ne(e) le 1954-02-06 a Strasbourg. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q180746

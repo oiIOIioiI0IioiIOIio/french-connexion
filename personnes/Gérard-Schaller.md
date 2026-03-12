@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gérard Schaller, journaliste. Ne(e) le 1958-09-17 a Antony. Formation : Centre de formation des journalistes.
+Gérard Schaller, journaliste. Ne(e) le 1958-09-17 a Antony. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3124298

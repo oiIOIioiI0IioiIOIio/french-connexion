@@ -7,6 +7,8 @@ education: conservatoire à rayonnement régional de Tours
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Emmanuel Tellier
 nationality: francaise
 nom_complet: Thomas VDB
 occupation: journaliste

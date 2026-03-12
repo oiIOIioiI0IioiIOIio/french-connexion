@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bernard Moreau, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1942-07-11 a Nîmes. Formation : Institut d'études politiques de Paris.
+Bernard Moreau, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1942-07-11 a Nîmes. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q42598744

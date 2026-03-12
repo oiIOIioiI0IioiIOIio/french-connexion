@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Xavier Domino, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1978-12-16 a Paris. Formation : École normale supérieure.
+Xavier Domino, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1978-12-16 a Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33110259

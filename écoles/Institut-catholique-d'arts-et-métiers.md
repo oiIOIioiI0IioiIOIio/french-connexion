@@ -5,6 +5,8 @@ headquarters: Paris
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Institut catholique d'arts et métiers (Toulouse)
 nom_complet: Institut catholique d'arts et métiers
 sources:
 - https://www.wikidata.org/entity/Q3151859

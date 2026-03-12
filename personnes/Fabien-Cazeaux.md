@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Fabien Cazeaux, journaliste. Ne(e) le 1984-05-20. Formation : HEC Paris.
+Fabien Cazeaux, journaliste. Ne(e) le 1984-05-20. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q63255752

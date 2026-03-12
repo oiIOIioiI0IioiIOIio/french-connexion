@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Stéphane Marchand, journaliste. Ne(e) le 1960-03-23 a Paris. Formation : École polytechnique.
+Stéphane Marchand, journaliste. Ne(e) le 1960-03-23 a Paris. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3501933

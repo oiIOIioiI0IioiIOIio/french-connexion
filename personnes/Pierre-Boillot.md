@@ -7,6 +7,14 @@ education: faculté des lettres de Paris
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Alain Rouillard
+- Alexis Berelowitch
+- Claude Ambrosini
+- Jean-Claude Moreau
+- Marcel Martin
+- Marie-Françoise Hamard
+- Pierre Lafrance
 nationality: francaise
 nom_complet: Pierre Boillot
 occupation: diplomate
@@ -22,7 +30,7 @@ tags:
 type: Personne
 ---
 
-Pierre Boillot, diplomate. Ne(e) le 1941-10-30. Formation : faculté des lettres de Paris.
+Pierre Boillot, diplomate. Ne(e) le 1941-10-30. Formation : [[faculté des lettres de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q109643790

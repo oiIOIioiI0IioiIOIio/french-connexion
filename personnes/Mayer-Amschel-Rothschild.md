@@ -61,7 +61,7 @@ wikipedia_enriched: true
 
 ## Biographie
 
-Mayer Amschel Rothschild [l'orthographe initiale Meyer Anschel ( אנשל ), étant germanisée en Mayer Amschel] (23 février 1744 à Francfort-sur-le-Main – 19 septembre 1812 à Francfort) est un financier, fondateur de la dynastie banquière des Rothschild, devenue l'une des familles les plus célèbres du monde des affaires. 
+[[Mayer Amschel Rothschild]] [l'orthographe initiale Meyer Anschel ( אנשל ), étant germanisée en Mayer Amschel] (23 février 1744 à Francfort-sur-le-Main – 19 septembre 1812 à Francfort) est un financier, fondateur de la dynastie banquière des Rothschild, devenue l'une des familles les plus célèbres du monde des affaires. 
 En 2005, Mayer Amschel Rothschild est classé 7e dans la « Liste des hommes d'affaires les plus influents de l'histoire » par le magazine américain Forbes, le nommant « père de la finance internationale ».
 
 
@@ -121,9 +121,9 @@ En 2005, Mayer Amschel Rothschild est classé 7e dans la « Liste des hommes d'a
 - [[Mayer Amschel]] : Mentionne dans le meme contexte: ...Rothschild [l'orthographe initiale Meyer Anschel ( אנשל ), étant germanisée en Mayer Amschel] (23 février 1744 à Francfort-sur-le-Main – 19 septembre 1812 à Francfort) est... *(confiance: 80%)*
 - [[Amschel Moses Rothschild]] : Mentionne dans le meme contexte: ...-sur-le-Main dans l'ouest de l'Allemagne. C'est le quatrième des huit enfants d'Amschel Moses Rothschild (c. 1710 – 6 octobre 1755) et de Schönche née Lechnich (morte en 1756).   Après... *(confiance: 80%)*
 - [[Guillaume Ier]] : Mentionne dans le meme contexte: ...Emmerich Otto August von Estorff (de) le met en rapport en 1764 avec le prince Guillaume Ier, électeur de Hesse-Cassel qui est considéré comme l'une des plus grandes fortun... *(confiance: 80%)*
-- [[Benedikt Moses Worms]] : Mentionne dans le meme contexte: ...e adulte et prospèrent :   Schönche Jeannette Rothschild (1771-1859), épouse de Benedikt Moses Worms (1772-1824) ; Amschel Mayer (1773-1855), fondateur de la branche allemande de l... *(confiance: 80%)*
+- [[Benedikt Moses Worms]] : Mentionne dans le meme contexte: ...e adulte et prospèrent :   Schönche [[Jeanne]]tte Rothschild (1771-1859), épouse de Benedikt Moses Worms (1772-1824) ; Amschel Mayer (1773-1855), fondateur de la branche allemande de l... *(confiance: 80%)*
 - [[Meyer Anschel]] : Mentionne dans le meme contexte: ...Mayer Amschel Rothschild [l'orthographe initiale Meyer Anschel ( אנשל ), étant germanisée en Mayer Amschel] (23 février 1744 à Francfort-sur-l... *(confiance: 50%)*
-- [[Meyer Anschel Bauer]] : Mentionne dans le meme contexte: ...la finance internationale ».   == Biographie == Mayer Amschel Rothschild est né Meyer Anschel Bauer le 23 février 1744 dans le ghetto juif de Francfort-sur-le-Main dans l'ouest de... *(confiance: 50%)*
+- [[Meyer Anschel Bauer]] : Mentionne dans le meme contexte: ...la finance internationale ».   == Biographie == Mayer Amschel Rothschild est né Meyer Anschel [[Bauer]] le 23 février 1744 dans le ghetto juif de Francfort-sur-le-Main dans l'ouest de... *(confiance: 50%)*
 - [[Simon Wolf Oppenheimer]] : Mentionne dans le meme contexte: ...née Lechnich (morte en 1756).   Après être initié à la finance chez le banquier Simon Wolf Oppenheimer, il reprend le commerce d'agent de change et de numismatique de son père. Un de... *(confiance: 50%)*
 - [[Emmerich Otto August von]] : Mentionne dans le meme contexte: ...et de numismatique de son père. Un de ses clients, le lieutenant-général baron Emmerich Otto August von Estorff (de) le met en rapport en 1764 avec le prince Guillaume Ier, électeur d... *(confiance: 50%)*
 - [[M. A.]] : Mentionne dans le meme contexte: ...ital de la Compagnie Mayer Amschel Rothschild. La maison devient alors la firme M. A. (Mayer Amschel) Rothschild et fils. En 1811, Charles-Théodore de Dalberg, grand... *(confiance: 50%)*

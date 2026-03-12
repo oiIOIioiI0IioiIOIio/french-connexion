@@ -7,6 +7,17 @@ education: université de Tours
 genre: masculin
 keywords:
 - scénariste
+liens:
+- Dominique Setzepfandt
+- Fabrice Lhomme
+- Frédéric Thibaud
+- Laurent Bignolas
+- Nassira El Moaddem
+- Pascal Jan
+- Philippe Anginot
+- Raphael Costambeys-Kempczynski
+- Renaud Machart
+- Éric Brunet
 nationality: francaise
 nom_complet: Harry Roselmack
 occupation: scénariste

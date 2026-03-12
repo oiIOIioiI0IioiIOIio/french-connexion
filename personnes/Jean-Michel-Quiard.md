@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean Michel Quiard, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1947-05-09 a Chef-Boutonne.
+[[Jean Michel]] Quiard, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1947-05-09 a Chef-Boutonne.
 
 ## Sources
 - http://www.wikidata.org/entity/Q123369352

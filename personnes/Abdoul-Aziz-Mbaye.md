@@ -7,6 +7,8 @@ education: UCLouvain
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Jean-Pierre Champroux
 nationality: francaise
 nom_complet: Abdoul Aziz Mbaye
 occupation: personnalité politique

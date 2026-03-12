@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Antoine Vitkine, scénariste. Ne(e) le 1977-01-01. Formation : Institut d'études politiques de Paris.
+Antoine Vitkine, scénariste. Ne(e) le 1977-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2856799

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Vincent Hugeux, reporter ou reportrice. Ne(e) le 1961-01-01 a Lille. Formation : Institut d'études politiques de Paris.
+Vincent Hugeux, reporter ou reportrice. Ne(e) le 1961-01-01 a Lille. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3559671

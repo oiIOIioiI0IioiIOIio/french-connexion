@@ -4,6 +4,14 @@ founded: '1992-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Astrid de Villaines
+- Céline Rousseaux
+- Frédéric Vion
+- Lucie Chaumette
+- Marine Turchi
+- Pierre Alonso
+- Étienne Campion
 nom_complet: Institut d’études politiques de Lille
 sources:
 - https://www.wikidata.org/entity/Q3151958

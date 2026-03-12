@@ -7,6 +7,23 @@ education: Institut d'études politiques de Toulouse
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Arnauld Champremier-Trigano
+- Audrey Crespo-Mara
+- Christian Authier
+- David Izzo
+- Isabelle Sima
+- Jean-François Savy
+- Jean-Paul Gauzès
+- Mahdi Hacène
+- Maxime Switek
+- Michel Moutot
+- Pierre Benazet
+- Rodolphe Sambou
+- Roger Dumec
+- Serge Tignères
+- Stéphane Lauer
+- Sylvain Augier
 nationality: francaise
 nom_complet: Grégor Trumel
 occupation: diplomate
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Grégor Trumel, diplomate. Ne(e) le 1975-10-11. Formation : Institut d'études politiques de Toulouse.
+Grégor Trumel, diplomate. Ne(e) le 1975-10-11. Formation : [[Institut d'études politiques de Toulouse]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q63215854

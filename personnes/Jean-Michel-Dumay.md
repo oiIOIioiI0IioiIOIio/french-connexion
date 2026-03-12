@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Michel Dumay, journaliste. Ne(e) le 1961-12-05. Formation : Centre de formation des journalistes.
+Jean-Michel Dumay, journaliste. Ne(e) le 1961-12-05. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3168008

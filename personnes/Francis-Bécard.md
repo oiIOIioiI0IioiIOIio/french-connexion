@@ -7,6 +7,8 @@ education: université de Reims-Champagne-Ardenne
 genre: masculin
 keywords:
 - directeur général ou directrice générale
+liens:
+- Peggy Sastre
 nationality: francaise
 nom_complet: Francis Bécard
 occupation: directeur général ou directrice générale

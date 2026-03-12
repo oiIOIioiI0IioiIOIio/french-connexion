@@ -7,6 +7,15 @@ education: université de Caen-Normandie
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Alain Tourret
+- Christine Kerdellant
+- Céline Asselot
+- Denis Brogniart
+- Guillaume Bazard
+- Jean-Paul Ollivier
+- Marie-Annick Bourdin
+- Olivier Metzner
 nationality: francaise
 nom_complet: Jean-Marie Girault
 occupation: avocat ou avocate

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christian Poncet, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1958-07-02 a Bourg-la-Reine.
+Christian [[Ponce]]t, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1958-07-02 a Bourg-la-Reine.
 
 ## Sources
 - http://www.wikidata.org/entity/Q33102341

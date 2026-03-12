@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Charles-Elias Farah, personnalité du monde des affaires. Ne(e) le 1996-07-16 a 16e arrondissement de Paris. Formation : EM Lyon Business School.
+Charles-Elias Farah, personnalité du monde des affaires. Ne(e) le 1996-07-16 a 16e arrondissement de Paris. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q130754919

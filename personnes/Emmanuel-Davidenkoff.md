@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Emmanuel Davidenkoff, journaliste. Ne(e) le 1969-03-15 a Paris. Formation : université Paris-Sorbonne.
+Emmanuel Davidenkoff, journaliste. Ne(e) le 1969-03-15 a Paris. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q19958742

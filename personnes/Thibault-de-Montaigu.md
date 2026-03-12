@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Thibault de Montaigu, écrivain ou écrivaine. Ne(e) le 1978-12-21 a Boulogne-Billancourt. Formation : Institut d'études politiques de Paris.
+Thibault de Montaigu, écrivain ou écrivaine. Ne(e) le 1978-12-21 a Boulogne-Billancourt. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3524048

@@ -4,6 +4,15 @@ founded: '1808-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Alain Rouillard
+- Alexis Berelowitch
+- Claude Ambrosini
+- Jean-Claude Moreau
+- Marcel Martin
+- Marie-Françoise Hamard
+- Pierre Boillot
+- Pierre Lafrance
 nom_complet: faculté des lettres de Paris
 sources:
 - https://www.wikidata.org/entity/Q3064325

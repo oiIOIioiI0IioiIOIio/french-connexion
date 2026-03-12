@@ -7,6 +7,16 @@ education: École pratique des hautes études
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Alain Ruellan
+- Bernard Le Clère
+- Guillaume Robert
+- Isabelle Coutant-Peyre
+- Pascal Bruckner
+- Patrick Sbalchiero
+- Rozenn Milin
+- Sébastien de Courtois
+- Xavier Accart
 nationality: francaise
 nom_complet: Gaëlle Bélem
 occupation: écrivain ou écrivaine

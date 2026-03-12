@@ -7,6 +7,14 @@ education: école de l'air et de l’espace
 genre: masculin
 keywords:
 - militaire
+liens:
+- André Lanata
+- Jean Fleury
+- Jean Rannou
+- Jean Saulnier
+- Michel Authier
+- René Chesnais
+- Régis Chamagne
 nationality: francaise
 nom_complet: Roger Pessidous
 occupation: militaire

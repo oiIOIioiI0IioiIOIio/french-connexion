@@ -7,6 +7,34 @@ education: ESCP Business School
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Alexandre Piton
+- André Coisne
+- Anne Rosencher
+- Aude Lancelin
+- Benjamin Tancrède
+- Béatrice Khaiat
+- Christophe Agnus
+- Erkki Maillard
+- François Zocchetto
+- Frédéric Salat-Baroux
+- Gilles Martin-Chauffier
+- Jean-Marc Atlan
+- Jean-Marc Lofficier
+- Jean-Michel Carboni
+- Jean-Michel Severino
+- Jean-Pierre Raffarin
+- Julie Joly
+- Laurent Adamowicz
+- Leïla Slimani
+- Marc Nicolas
+- Marie-Anne Poussin-Delmas
+- Martin Ajdari
+- Pierre Lévy
+- Pierre Zelenko
+- Xavier de Bayser
+- Édouard de Royère
+- Éric Favereau
 nationality: francaise
 nom_complet: Yorick de Mombynes
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +50,7 @@ tags:
 type: Personne
 ---
 
-Yorick de Mombynes, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1975-01-01. Formation : ESCP Business School.
+Yorick de Mombynes, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1975-01-01. Formation : [[ESCP Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q48574528

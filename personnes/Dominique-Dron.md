@@ -7,6 +7,10 @@ education: École normale supérieure de jeunes filles
 genre: féminin
 keywords:
 - ingénieur
+liens:
+- Catherine Moisan
+- Michèle Gendreau-Massaloux
+- Thérèse Delpech
 nationality: francaise
 nom_complet: Dominique Dron
 occupation: ingénieur
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Dominique Dron, ingénieur. Ne(e) le 1960-03-13 a Cambrai. Formation : École normale supérieure de jeunes filles.
+Dominique Dron, ingénieur. Ne(e) le 1960-03-13 a Cambrai. Formation : [[École normale supérieure]] de jeunes filles.
 
 ## Sources
 - http://www.wikidata.org/entity/Q3035108

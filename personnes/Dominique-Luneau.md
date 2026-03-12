@@ -7,6 +7,8 @@ education: faculté de droit de Nantes
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Yvon Chotard
 nationality: francaise
 nom_complet: Dominique Luneau
 occupation: journaliste
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Dominique Luneau, journaliste. Ne(e) le 1959-02-01. Formation : faculté de droit de Nantes.
+Dominique Luneau, journaliste. Ne(e) le 1959-02-01. Formation : [[faculté de droit de Nantes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3035302

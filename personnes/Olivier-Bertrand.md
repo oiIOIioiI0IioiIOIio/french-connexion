@@ -7,6 +7,17 @@ education: Institut français de presse
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Charles Desjardins
+- Christelle Crosnier
+- Claude Belot
+- Emmanuel de Brantes
+- Ginie Van de Noort
+- Jean-François Julliard
+- Jérôme Béglé
+- Leïla Beratto
+- Maya Lauqué
+- Thomas Sotto
 nationality: francaise
 nom_complet: Olivier Bertrand
 occupation: journaliste

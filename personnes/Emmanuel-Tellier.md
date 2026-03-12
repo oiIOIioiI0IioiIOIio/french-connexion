@@ -7,6 +7,8 @@ education: conservatoire à rayonnement régional de Tours
 genre: masculin
 keywords:
 - guitariste
+liens:
+- Thomas VDB
 nationality: francaise
 nom_complet: Emmanuel Tellier
 occupation: guitariste

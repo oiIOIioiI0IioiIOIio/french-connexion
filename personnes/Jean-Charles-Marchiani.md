@@ -7,6 +7,30 @@ education: Institut d'études politiques d'Aix-en-Provence
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Alexis Le Cour Grandmaison
+- Ali André Mécili
+- Arnaud Suquet
+- Bertrand Kern
+- Bruno Mettling
+- Dominique Vian
+- Edmond Zucchelli
+- Fabien Namias
+- Fabrice Madouas
+- Fabrice Étienne
+- Franck Genauzeau
+- François Pinet
+- Johana Gustawsson
+- Julien Bahloul
+- Laëtitia Allemand
+- Lionel Paradisi-Coulouma
+- Mehdi Chebana
+- Mélanie Chalandon
+- Rudy Reichstadt
+- Rémy Porte
+- Sylvaine Carta-Le Vert
+- Sylvie Faiderbe
+- Sylvie Kauffmann
 nationality: francaise
 nom_complet: Jean-Charles Marchiani
 occupation: personnalité politique
@@ -22,7 +46,7 @@ tags:
 type: Personne
 ---
 
-Jean-Charles Marchiani, personnalité politique. Ne(e) le 1943-08-06 a Bastia. Formation : Institut d'études politiques d'Aix-en-Provence.
+Jean-Charles Marchiani, personnalité politique. Ne(e) le 1943-08-06 a Bastia. Formation : [[Institut d'études politiques d'Aix-en-Provence]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3164674

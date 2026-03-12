@@ -7,6 +7,42 @@ education: université Paris-Sud
 genre: masculin
 keywords:
 - mathématicien ou mathématicienne
+liens:
+- Alberte Brun
+- Arthur Delaporte
+- Chloé-Agathe Azencott
+- Christian Kassel
+- Christine Ponsard
+- Daniel Gouadec
+- David Courpasson
+- Didier Boursin
+- Franck Barthe
+- Jacques Cabaud
+- Jean-Bernard Zuber
+- Jean-Claude Carret
+- Jesús María Asurmendi
+- Judith Balso
+- Julia Frotey
+- Julien Larregue
+- Juliette Faure
+- Katalin Escher
+- Loïc Grobol
+- Mathieu Bendouma
+- Michel Orrit
+- Nathan Allix
+- Nicolas Martin
+- Nicolas Vieille
+- Olivier Gourlez de La Motte
+- Pascal Boyer
+- Paul Reiter
+- Paul-Jacques Lehmann
+- Philippe Sautet
+- Robert Dantzer
+- Romain Dureau
+- Ronan Calvez
+- Stefano Simiz
+- Terence Strick
+- Thibault Gandouly
 nationality: francaise
 nom_complet: Éric Urban
 occupation: mathématicien ou mathématicienne

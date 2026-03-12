@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Thierry Kaeppelin, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1935-06-10 a Bois-Colombes. Formation : École normale supérieure.
+Thierry Kaeppelin, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1935-06-10 a Bois-Colombes. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33112423

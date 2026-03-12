@@ -8,6 +8,17 @@ education: École des hautes études en sciences de l'information et de la commu
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Ambre Chalumeau
+- Arnaud Dubus
+- Catherine Nayl
+- Christophe Beaugrand
+- Fabrice Rousselot
+- Marie Misset
+- Nivin Potros
+- Pierre Fraidenraich
+- Roland Blatmann
+- Valérie Fayolle
 nationality: francaise
 nom_complet: Samuel Forey
 occupation: journaliste

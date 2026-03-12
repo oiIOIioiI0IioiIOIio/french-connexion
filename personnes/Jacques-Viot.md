@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jacques Viot, diplomate. Ne(e) le 1921-08-25 a Bordeaux. Formation : École normale supérieure.
+Jacques Viot, diplomate. Ne(e) le 1921-08-25 a Bordeaux. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q18926851

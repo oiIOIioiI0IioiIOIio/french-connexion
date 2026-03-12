@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Éric Revel, journaliste. Ne(e) le 1961-04-11 a Courbevoie. Formation : université Paris-I-Panthéon-Sorbonne.
+Éric Revel, journaliste. Ne(e) le 1961-04-11 a Courbevoie. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3591332

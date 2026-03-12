@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sonia Devillers, écrivain ou écrivaine. Ne(e) le 1975-01-31 a Les Lilas. Formation : université Paris-I-Panthéon-Sorbonne.
+Sonia Devillers, écrivain ou écrivaine. Ne(e) le 1975-01-31 a Les Lilas. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3490422

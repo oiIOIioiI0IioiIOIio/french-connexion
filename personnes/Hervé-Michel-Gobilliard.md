@@ -7,6 +7,11 @@ education: Institut des hautes études de défense nationale
 genre: masculin
 keywords:
 - militaire
+liens:
+- Claude Charbonniaud
+- Hubert Coudurier
+- Jérôme Bellanger
+- Pierre Somveille
 nationality: francaise
 nom_complet: Hervé-Michel Gobilliard
 occupation: militaire
@@ -22,7 +27,7 @@ tags:
 type: Personne
 ---
 
-Hervé-Michel Gobilliard, militaire. Ne(e) le 1941-11-04 a Loches. Formation : Institut des hautes études de défense nationale.
+Hervé-Michel Gobilliard, militaire. Ne(e) le 1941-11-04 a Loches. Formation : [[Institut des hautes études de défense nationale]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q27756660

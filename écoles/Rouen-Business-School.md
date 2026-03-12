@@ -4,6 +4,10 @@ founded: '1871-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Nicolas Plantrou
+- Philippe Besson
+- Philippe Doucet
 nom_complet: Rouen Business School
 sources:
 - https://www.wikidata.org/entity/Q3443135

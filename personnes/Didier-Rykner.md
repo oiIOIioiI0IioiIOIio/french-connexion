@@ -7,6 +7,16 @@ education: École du Louvre
 genre: masculin
 keywords:
 - historien ou historienne de l'art
+liens:
+- Aurélie Godefroy
+- Bernard Pignerol
+- Claudine Le Tourneur d'Ison
+- Georges Gautier
+- Hélène Risser
+- Inès de La Fressange
+- Juliette Morillot
+- Léa Lootgieter
+- Rosine Lheureux
 nationality: francaise
 nom_complet: Didier Rykner
 occupation: historien ou historienne de l'art

@@ -7,6 +7,14 @@ education: London School of Economics
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Achren Verdian
+- Agnès Poirier
+- Christian Chavagneux
+- François Croquette
+- Lucie Castets
+- Olivier Guez
+- Thomas Andrieu
 nationality: francaise
 nom_complet: Roland Dumas
 occupation: avocat ou avocate

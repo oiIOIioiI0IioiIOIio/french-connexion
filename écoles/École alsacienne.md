@@ -8,6 +8,10 @@ keywords:
 - Paris
 - pédagogie
 - lycée
+liens:
+- Benjamin Castaldi
+- Carla Ghebali
+- Jean Veil
 summary: L'École alsacienne est un établissement d'enseignement privé laïc situé à
   Paris, fondé en 1874. Elle est reconnue pour son approche pédagogique innovante
   et son excellence académique, couvrant les niveaux primaire, collège et lycée.

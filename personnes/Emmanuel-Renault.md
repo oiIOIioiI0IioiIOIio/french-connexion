@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Emmanuel Renault, écrivain ou écrivaine. Ne(e) le 1922-03-15 a Pointe-à-Pitre.
+Emmanuel [[Renault]], écrivain ou écrivaine. Ne(e) le 1922-03-15 a Pointe-à-Pitre.
 
 ## Sources
 - http://www.wikidata.org/entity/Q1338381

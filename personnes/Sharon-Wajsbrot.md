@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Sharon Wajsbrot, journaliste. Ne(e) le 1990-07-23 a Metz. Formation : Audencia.
+Sharon Wajsbrot, journaliste. Ne(e) le 1990-07-23 a Metz. Formation : [[Audencia]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q121033081

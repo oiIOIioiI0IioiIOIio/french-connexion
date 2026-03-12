@@ -7,6 +7,15 @@ education: Centre de formation et de perfectionnement des journalistes
 genre: masculin
 keywords:
 - chroniqueur ou chroniqueuse
+liens:
+- Anne-Isabelle Tollet
+- Aude Favre
+- Christine Goguet
+- Clarence Edgard-Rosa
+- Cécile Pivot
+- Djamel Mazi
+- Fabien Roussel
+- Éric Delvaux
 nationality: francaise
 nom_complet: Gauthier Le Bret
 occupation: chroniqueur ou chroniqueuse

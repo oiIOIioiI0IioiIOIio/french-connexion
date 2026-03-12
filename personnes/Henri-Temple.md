@@ -7,6 +7,13 @@ education: université Montpellier-I
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- François Bachy
+- Hervé Cassan
+- Hervé Fernandez
+- Jean-Marc Pujol
+- Khadija Aoudia
+- Sylvain Sankalé
 nationality: francaise
 nom_complet: Henri Temple
 occupation: avocat ou avocate

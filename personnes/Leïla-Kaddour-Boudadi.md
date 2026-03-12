@@ -7,6 +7,11 @@ education: université de Poitiers
 genre: féminin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Emmanuel Laurentin
+- Henri Konan Bédié
+- Marie-France Garaud
+- Richard Escot
 nationality: francaise
 nom_complet: Leïla Kaddour-Boudadi
 occupation: présentateur ou présentatrice de journal

@@ -7,6 +7,8 @@ education: Académie militaire Frounze
 genre: masculin
 keywords:
 - militaire
+liens:
+- Khaled Nezzar
 nationality: francaise
 nom_complet: Mohamed Lamari
 occupation: militaire

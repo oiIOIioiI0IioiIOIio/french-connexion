@@ -7,6 +7,20 @@ education: Université Harvard
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Alfred Galichon
+- Claude-Éric Paquin
+- Ernest-Antoine Seillière
+- François Jackow
+- Frédéric X de Danemark
+- Geoffroy Didier
+- Jacques Lagarde
+- Jean-Luc Sibiude
+- Michel François-Poncet
+- Peter Turnley
+- Pierre Lellouche
+- Renée Kaplan
+- Simon Kuper
 nationality: francaise
 nom_complet: Laure Mandeville
 occupation: écrivain ou écrivaine

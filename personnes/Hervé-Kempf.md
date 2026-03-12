@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Hervé Kempf, écrivain ou écrivaine. Ne(e) le 1957-01-01 a Amiens. Formation : Institut d'études politiques de Paris.
+Hervé Kempf, écrivain ou écrivaine. Ne(e) le 1957-01-01 a Amiens. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q664942

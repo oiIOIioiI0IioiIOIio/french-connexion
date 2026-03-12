@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Claude-France Arnould, diplomate. Ne(e) le 1953-08-14 a Suresnes. Formation : École normale supérieure.
+Claude-France Arnould, diplomate. Ne(e) le 1953-08-14 a Suresnes. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q17265565

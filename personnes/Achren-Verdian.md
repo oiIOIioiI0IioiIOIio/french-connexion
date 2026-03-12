@@ -7,6 +7,14 @@ education: London School of Economics
 genre: féminin
 keywords:
 - animateur ou animatrice de télévision
+liens:
+- Agnès Poirier
+- Christian Chavagneux
+- François Croquette
+- Lucie Castets
+- Olivier Guez
+- Roland Dumas
+- Thomas Andrieu
 nationality: francaise
 nom_complet: Achren Verdian
 occupation: animateur ou animatrice de télévision

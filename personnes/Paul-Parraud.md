@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Paul Parraud, militaire. Ne(e) le 1936-07-01 a Marseille. Formation : École polytechnique.
+Paul Parraud, militaire. Ne(e) le 1936-07-01 a Marseille. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q15971717

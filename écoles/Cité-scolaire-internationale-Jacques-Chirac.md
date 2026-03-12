@@ -18,4 +18,4 @@ website: https://www.site.ac-aix-marseille.fr/lyc-chirac/spip/
 wikidata_id: Q131170013
 ---
 
-Cité scolaire internationale Jacques Chirac, etablissement d'enseignement superieur francais.
+Cité scolaire internationale [[Jacques Chirac]], etablissement d'enseignement superieur francais.

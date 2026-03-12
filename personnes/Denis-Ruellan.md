@@ -7,6 +7,18 @@ education: université Rennes-II
 genre: masculin
 keywords:
 - professeur d'université
+liens:
+- Alain Pirot
+- Anne-Claire Coudray
+- Erwan Chartier
+- Fanny Chauffin
+- Gaspard Glanz
+- Hélène Fily
+- Maryse Burgot
+- Morgane Tual
+- Philippe Georgeais
+- Samuel Le Goff
+- Sidonie Bonnec
 nationality: francaise
 nom_complet: Denis Ruellan
 occupation: professeur d'université

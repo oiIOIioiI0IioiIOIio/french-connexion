@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gaspard d'Allens, journaliste. Ne(e) le 1991-01-01. Formation : Institut d'études politiques de Paris.
+Gaspard d'Allens, journaliste. Ne(e) le 1991-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q113556802

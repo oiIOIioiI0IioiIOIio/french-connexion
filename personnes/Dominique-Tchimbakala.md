@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Dominique Tchimbakala, animateur ou animatrice de télévision. Ne(e) le 1977-01-01 a Paris. Formation : École normale supérieure.
+Dominique Tchimbakala, animateur ou animatrice de télévision. Ne(e) le 1977-01-01 a Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q64157845

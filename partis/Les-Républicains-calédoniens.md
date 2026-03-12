@@ -18,4 +18,4 @@ website: https://republicainscaledoniens.nc/
 wikidata_id: Q39075176
 ---
 
-Les Républicains calédoniens, parti politique francais.
+[[Les Républicains]] calédoniens, parti politique francais.

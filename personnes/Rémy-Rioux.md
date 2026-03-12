@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Rémy Rioux, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1969-06-26 a Neuilly-sur-Seine. Formation : École normale supérieure.
+Rémy Rioux, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1969-06-26 a Neuilly-sur-Seine. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q25391825

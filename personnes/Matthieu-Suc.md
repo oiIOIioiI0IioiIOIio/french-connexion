@@ -7,6 +7,19 @@ education: Centre universitaire d'enseignement du journalisme
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Agnès Vahramian
+- Antoine Giniaux
+- Arthur Frayer-Laleix
+- Camille Langlade
+- Damien Thévenot
+- Fabienne Sintes
+- Jacky Durand
+- Ludovic Vigogne
+- Marc Fauvelle
+- Rachid Arhab
+- Thierry Suzan
+- Éric Ghebali
 nationality: francaise
 nom_complet: Matthieu Suc
 occupation: journaliste

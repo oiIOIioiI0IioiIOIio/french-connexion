@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Hélène Le Gal, diplomate. Ne(e) le 1967-04-21 a Bagneux. Formation : Institut d'études politiques de Paris.
+Hélène Le Gal, diplomate. Ne(e) le 1967-04-21 a Bagneux. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q31189795

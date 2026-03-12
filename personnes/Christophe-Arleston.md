@@ -7,6 +7,11 @@ education: École de journalisme et de communication d'Aix-Marseille
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Alba Ventura
+- Gérard Tur
+- Hervé Gattegno
+- Jean-Marc Morandini
 nationality: francaise
 nom_complet: Christophe Arleston
 occupation: écrivain ou écrivaine

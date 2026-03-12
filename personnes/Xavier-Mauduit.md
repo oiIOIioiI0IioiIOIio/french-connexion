@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Xavier Mauduit, historien ou historienne. Ne(e) le 1974-10-21 a Rueil-Malmaison. Formation : université Paris-I-Panthéon-Sorbonne.
+Xavier Mauduit, historien ou historienne. Ne(e) le 1974-10-21 a Rueil-Malmaison. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3570740

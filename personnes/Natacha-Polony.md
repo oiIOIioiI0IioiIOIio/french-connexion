@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Natacha Polony, journaliste. Ne(e) le 1975-04-15 a 14e arrondissement de Paris. Formation : Institut d'études politiques de Paris.
+Natacha Polony, journaliste. Ne(e) le 1975-04-15 a 14e arrondissement de Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q941949

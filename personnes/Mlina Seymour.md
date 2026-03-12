@@ -11,9 +11,24 @@ keywords:
 - histoire
 - noirs
 liens:
+- Abraham Lincoln
+- Amschel Moses Rothschild
+- Augustin Hamon
+- Betty de Rothschild
 - Carter G. Woodson
-- Jesse E. Moorland
+- Donald Oliver
+- Famille Rothschild
+- François Bayrou
 - Gerald Ford
+- Henri de Rothschild
+- James de Rothschild
+- Jean Augustine
+- Jesse E. Moorland
+- Jules Grévy
+- Mayer Amschel Rothschild
+- Nathan Mayer Rothschild (1777-1836)
+- Think tank
+- Édouard Philippe
 nationality: américaine
 nom_complet: Mélina Seymour
 occupation: null

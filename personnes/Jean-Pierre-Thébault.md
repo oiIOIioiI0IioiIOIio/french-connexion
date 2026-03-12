@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Pierre Thébault, diplomate. Ne(e) le 1961-10-21 a Lourdes. Formation : Institut d'études politiques de Paris.
+Jean-Pierre Thébault, diplomate. Ne(e) le 1961-10-21 a Lourdes. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q31192373

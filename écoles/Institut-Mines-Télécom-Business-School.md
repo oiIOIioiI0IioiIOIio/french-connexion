@@ -19,4 +19,4 @@ website: https://imt-bs.eu
 wikidata_id: Q3546588
 ---
 
-Institut Mines-Télécom Business School, etablissement d'enseignement superieur francais.
+[[Institut Mines-Télécom]] Business School, etablissement d'enseignement superieur francais.

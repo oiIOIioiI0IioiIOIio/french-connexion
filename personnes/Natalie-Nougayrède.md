@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Natalie Nougayrède, journaliste. Ne(e) le 1966-05-29 a Dijon. Formation : Centre de formation des journalistes.
+Natalie Nougayrède, journaliste. Ne(e) le 1966-05-29 a Dijon. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q6430048

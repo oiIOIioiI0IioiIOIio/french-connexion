@@ -7,6 +7,17 @@ education: Cours Florent
 genre: masculin
 keywords:
 - acteur ou actrice
+liens:
+- Alice Tumler
+- Bernard Poncet
+- Caroline Vigneaux
+- Christian Poncet
+- Gaëtan Poncelin de Raucourt
+- Henri Poncet
+- Jean François-Poncet
+- Laura Tenoudji
+- Michel François-Poncet
+- Sophie Avon
 nationality: francaise
 nom_complet: Ponce
 occupation: acteur ou actrice

@@ -7,6 +7,21 @@ education: université Bordeaux-Montaigne
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Agnès Cukierman
+- Clément Bénech
+- David Thomson
+- Emmanuel Langlois
+- Géraldine Mosna-Savoye
+- Isabelle Roberts
+- Kéthévane Bagration de Moukhrani
+- Mohamed Toihiri
+- Paul Larrouturou
+- Pierre Lory
+- Stéphane Bijoux
+- Xavier Loustaunau
+- Yann Barthès
+- Éric de Kermel
 nationality: francaise
 nom_complet: Marie Aubinais
 occupation: écrivain ou écrivaine

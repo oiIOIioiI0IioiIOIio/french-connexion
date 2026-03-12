@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Blondel, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1929-07-11 a Grandfresnoy. Formation : Institut d'études politiques de Paris.
+Pierre Blondel, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1929-07-11 a Grandfresnoy. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50672975

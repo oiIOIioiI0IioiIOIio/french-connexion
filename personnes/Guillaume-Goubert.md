@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Guillaume Goubert, journaliste. Ne(e) le 1957-08-29 a Rouen. Formation : Institut d'études politiques de Paris.
+Guillaume Goubert, journaliste. Ne(e) le 1957-08-29 a Rouen. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33201218

@@ -7,6 +7,17 @@ education: École nationale des chartes
 genre: féminin
 keywords:
 - personnalité politique
+liens:
+- Agnès Magnien
+- Armelle Daumas
+- Catherine Laurent
+- François Cousin
+- Françoise Banat-Berger
+- Marc Sanson
+- Michel Denieul
+- Nicolas Roche
+- Paul Bouteiller
+- Solenne Lepage
 nationality: francaise
 nom_complet: Cécile Pozzo di Borgo
 occupation: personnalité politique

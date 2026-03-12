@@ -7,6 +7,14 @@ education: École centrale Paris
 genre: masculin
 keywords:
 - entrepreneur ou entrepreneuse
+liens:
+- Christophe Chantepy
+- Dominique-Paul Vallée
+- François Ecalle
+- Jacques Rosselin
+- Jean-Louis Zoël
+- Stéphane Bredin
+- Xavier Lefort
 nationality: francaise
 nom_complet: Djamel Agaoua
 occupation: entrepreneur ou entrepreneuse

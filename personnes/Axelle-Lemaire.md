@@ -7,6 +7,10 @@ education: King's College de Londres
 genre: féminin
 keywords:
 - avocat ou avocate
+liens:
+- David de Rothschild
+- Jennifer Baert
+- Olivier Entraygues
 nationality: francaise
 nom_complet: Axelle Lemaire
 occupation: avocat ou avocate

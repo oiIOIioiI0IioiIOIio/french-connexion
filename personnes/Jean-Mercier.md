@@ -7,6 +7,11 @@ education: École des hautes études commerciales du Nord
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Anne de Bayser
+- Thibaud de Barbeyrac
+- Thierry Mathou
+- Vérane Frédiani
 nationality: francaise
 nom_complet: Jean Mercier
 occupation: écrivain ou écrivaine

@@ -7,6 +7,8 @@ education: Université de Sheffield
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Thibault Raisse
 nationality: francaise
 nom_complet: Pascal Isoard-Thomas
 occupation: personnalité du monde des affaires

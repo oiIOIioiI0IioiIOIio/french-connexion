@@ -16,4 +16,4 @@ type: Media
 wikidata_id: Q3456468
 ---
 
-La République lyonnaise, media francais.
+[[La République]] lyonnaise, media francais.

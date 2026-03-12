@@ -17,4 +17,4 @@ type: Ecole
 wikidata_id: Q136485469
 ---
 
-Faculté libre de droit de l'Institut catholique de Paris, etablissement d'enseignement superieur francais.
+Faculté libre de droit de l'[[Institut catholique de Paris]], etablissement d'enseignement superieur francais.

@@ -7,6 +7,9 @@ education: université Grenoble-I
 genre: masculin
 keywords:
 - militaire
+liens:
+- Fabrice Plasson
+- Gilles Carasso
 nationality: francaise
 nom_complet: Robin Duvillard
 occupation: militaire

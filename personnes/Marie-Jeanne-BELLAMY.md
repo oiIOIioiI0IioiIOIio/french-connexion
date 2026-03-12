@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marie-Jeanne BELLAMY est senateur. Ne(e) le 1966-05-01.
+Marie-[[Jeanne]] BELLAMY est senateur. Ne(e) le 1966-05-01.
 
 Fonction declaree HATVP : Sénatrice de la Vienne
 

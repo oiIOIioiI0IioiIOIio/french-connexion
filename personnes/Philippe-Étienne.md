@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Philippe Étienne, enseignant ou enseignante. Ne(e) le 1955-12-24 a Neuilly-sur-Seine. Formation : École normale supérieure.
+Philippe Étienne, enseignant ou enseignante. Ne(e) le 1955-12-24 a Neuilly-sur-Seine. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3381035

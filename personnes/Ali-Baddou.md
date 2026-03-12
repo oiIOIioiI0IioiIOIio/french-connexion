@@ -7,6 +7,12 @@ education: lycée Henri-IV
 genre: masculin
 keywords:
 - animateur ou animatrice de télévision
+liens:
+- Daniel Schneidermann
+- Jean Birnbaum
+- Jean-François Parot
+- Michel Eltchaninoff
+- Pierre Sergent
 nationality: francaise
 nom_complet: Ali Baddou
 occupation: animateur ou animatrice de télévision

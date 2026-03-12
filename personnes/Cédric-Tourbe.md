@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Cédric Tourbe, scénariste. Ne(e) le 1972-03-19 a Laon. Formation : Institut d'études politiques de Paris.
+Cédric Tourbe, scénariste. Ne(e) le 1972-03-19 a Laon. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q98381651

@@ -7,6 +7,8 @@ education: École supérieure d'électricité
 genre: masculin
 keywords:
 - militaire
+liens:
+- Emmanuel Limido
 nationality: francaise
 nom_complet: Philippe Morillon
 occupation: militaire

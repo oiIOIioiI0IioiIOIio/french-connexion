@@ -7,6 +7,15 @@ education: faculté de droit et des sciences économiques de Paris
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Charles de Bancalis de Maurel d'Aragon
+- Jean Amet
+- Jean-Marie Momal
+- Jean-Pierre Delpont
+- Marc Menguy
+- Pierre Juillet
+- Robert Soulé
+- Suzanne Batbedat
 nationality: francaise
 nom_complet: Bernard Poncet
 occupation: diplomate
@@ -22,7 +31,7 @@ tags:
 type: Personne
 ---
 
-Bernard Poncet, diplomate. Ne(e) le 1942-02-10. Formation : faculté de droit et des sciences économiques de Paris.
+Bernard [[Ponce]]t, diplomate. Ne(e) le 1942-02-10. Formation : [[faculté de droit et des sciences économiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q110767236

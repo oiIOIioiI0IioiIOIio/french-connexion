@@ -18,4 +18,4 @@ website: http://www.lejsl.com
 wikidata_id: Q3223737
 ---
 
-Le Journal de Saône-et-Loire, media francais.
+[[Le Jour]]nal de Saône-et-Loire, media francais.

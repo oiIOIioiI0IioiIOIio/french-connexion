@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Colliot, diplomate. Ne(e) le 1961-12-25. Formation : Institut d'études politiques de Paris.
+Pierre Colliot, diplomate. Ne(e) le 1961-12-25. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q100375443

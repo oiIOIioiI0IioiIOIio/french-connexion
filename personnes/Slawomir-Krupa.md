@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Slawomir Krupa, banquier. Ne(e) le 1974-06-18 a Bourgas. Formation : Institut d'études politiques de Paris.
+Slawomir Krupa, banquier. Ne(e) le 1974-06-18 a Bourgas. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q116865148

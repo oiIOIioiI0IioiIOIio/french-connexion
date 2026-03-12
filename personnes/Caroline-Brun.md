@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Caroline Brun, journaliste. Ne(e) le 1960-06-11 a Paris. Formation : Institut d'études politiques de Paris.
+Caroline Brun, journaliste. Ne(e) le 1960-06-11 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2939966

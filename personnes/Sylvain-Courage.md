@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sylvain Courage, rédacteur ou rédactrice en chef. Ne(e) le 1968-01-01. Formation : université Paris-Sorbonne.
+Sylvain Courage, rédacteur ou rédactrice en chef. Ne(e) le 1968-01-01. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q112540562

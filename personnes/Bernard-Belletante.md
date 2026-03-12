@@ -7,6 +7,9 @@ education: École normale supérieure Paris-Saclay
 genre: masculin
 keywords:
 - directeur général ou directrice générale
+liens:
+- Alexandre Siné
+- Mathilde Grammont
 nationality: francaise
 nom_complet: Bernard Belletante
 occupation: directeur général ou directrice générale
@@ -22,7 +25,7 @@ tags:
 type: Personne
 ---
 
-Bernard Belletante, directeur général ou directrice générale. Ne(e) le 1953-11-12. Formation : École normale supérieure Paris-Saclay.
+Bernard Belletante, directeur général ou directrice générale. Ne(e) le 1953-11-12. Formation : [[École normale supérieure]] Paris-Saclay.
 
 ## Sources
 - http://www.wikidata.org/entity/Q21511801

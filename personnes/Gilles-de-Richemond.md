@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gilles de Richemond, entrepreneur ou entrepreneuse. Ne(e) le 1972-02-28. Formation : Institut Polytechnique des Sciences Avancées.
+Gilles de Richemond, entrepreneur ou entrepreneuse. Ne(e) le 1972-02-28. Formation : [[Institut Polytechnique des Sciences Avancées]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q135411993

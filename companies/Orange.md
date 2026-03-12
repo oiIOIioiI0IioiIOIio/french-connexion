@@ -7,6 +7,10 @@ keywords:
 - entreprise
 - télécommunications filaires
 leader: Christel Heydemann
+liens:
+- Mylène Orange-Louboutin
+- Parnasse
+- Randall Schwerdorffer
 nom_complet: Orange
 sources:
 - https://www.wikidata.org/entity/Q1431486

@@ -7,6 +7,13 @@ education: Université de Californie à Berkeley
 genre: masculin
 keywords:
 - professeur d'université
+liens:
+- David Castello-Lopes
+- Fabienne Keller
+- Henry Peter
+- Laurence Auer
+- Marjorie Vanbaelinghem
+- Teymouraz Gorjestani
 nationality: francaise
 nom_complet: Serge Halimi
 occupation: professeur d'université

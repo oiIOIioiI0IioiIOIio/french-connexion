@@ -6,6 +6,8 @@ industry: construction
 keywords:
 - entreprise
 - construction
+liens:
+- Club des Cent
 nom_complet: Bouygues
 sources:
 - https://www.wikidata.org/entity/Q895325

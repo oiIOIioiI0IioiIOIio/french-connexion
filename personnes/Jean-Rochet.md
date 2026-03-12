@@ -7,6 +7,11 @@ education: collège Stanislas
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Jacques Grandon
+- Patrick Eudeline
+- Pierre-Christian Taittinger
+- Simon Liberati
 nationality: francaise
 nom_complet: Jean Rochet
 occupation: haut fonctionnaire ou haute fonctionnaire

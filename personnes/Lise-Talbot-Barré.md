@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Lise Talbot-Barré, diplomate. Ne(e) le 1977-08-11. Formation : Institut d'études politiques de Paris.
+Lise Talbot-Barré, diplomate. Ne(e) le 1977-08-11. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q114301101

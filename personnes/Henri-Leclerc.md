@@ -7,6 +7,13 @@ education: faculté de droit de Paris
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Dominique de La Garanderie
+- Georges de Brémond d'Ars
+- Henri Leclerc de Hauteclocque
+- Henri Leclercq
+- Jean-Claude Zylberstein
+- Pierre Dehaye
 nationality: francaise
 nom_complet: Henri Leclerc
 occupation: avocat ou avocate
@@ -22,7 +29,7 @@ tags:
 type: Personne
 ---
 
-Henri Leclerc, avocat ou avocate. Ne(e) le 1934-06-08 a Saint-Sulpice-Laurière. Formation : faculté de droit de Paris.
+Henri Leclerc, avocat ou avocate. Ne(e) le 1934-06-08 a Saint-Sulpice-Laurière. Formation : [[faculté de droit de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3131464

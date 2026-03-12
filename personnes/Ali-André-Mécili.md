@@ -7,6 +7,30 @@ education: Institut d'études politiques d'Aix-en-Provence
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Alexis Le Cour Grandmaison
+- Arnaud Suquet
+- Bertrand Kern
+- Bruno Mettling
+- Dominique Vian
+- Edmond Zucchelli
+- Fabien Namias
+- Fabrice Madouas
+- Fabrice Étienne
+- Franck Genauzeau
+- François Pinet
+- Jean-Charles Marchiani
+- Johana Gustawsson
+- Julien Bahloul
+- Laëtitia Allemand
+- Lionel Paradisi-Coulouma
+- Mehdi Chebana
+- Mélanie Chalandon
+- Rudy Reichstadt
+- Rémy Porte
+- Sylvaine Carta-Le Vert
+- Sylvie Faiderbe
+- Sylvie Kauffmann
 nationality: francaise
 nom_complet: Ali André Mécili
 occupation: avocat ou avocate
@@ -22,7 +46,7 @@ tags:
 type: Personne
 ---
 
-Ali André Mécili, avocat ou avocate. Ne(e) le 1940-01-01 a Koléa. Formation : Institut d'études politiques d'Aix-en-Provence.
+Ali André Mécili, avocat ou avocate. Ne(e) le 1940-01-01 a Koléa. Formation : [[Institut d'études politiques d'Aix-en-Provence]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2836102

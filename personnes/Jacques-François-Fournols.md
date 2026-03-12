@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jacques-François Fournols, vice-président. Ne(e) le 1963-05-29 a Mortagne-au-Perche. Formation : HEC Paris.
+Jacques-François Fournols, vice-président. Ne(e) le 1963-05-29 a Mortagne-au-Perche. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33109278

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sandra Lavorel, chercheur ou chercheuse. Ne(e) le 1965-09-12 a Lyon. Formation : Institut des sciences et industries du vivant et de l'environnement (AgroParisTech).
+Sandra Lavorel, chercheur ou chercheuse. Ne(e) le 1965-09-12 a Lyon. Formation : [[Institut des sciences et industries du vivant et de l'environnement (AgroParisTech)]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16675540

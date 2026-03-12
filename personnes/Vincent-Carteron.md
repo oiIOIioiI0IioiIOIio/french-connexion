@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Vincent Carteron, personnalité du monde des affaires. Ne(e) le 1946-11-14 a Saint-Chamond. Formation : EM Lyon Business School.
+Vincent Carteron, personnalité du monde des affaires. Ne(e) le 1946-11-14 a Saint-Chamond. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q123314577

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Guilaine Chenu, journaliste. Ne(e) le 1960-08-17 a Lagos. Formation : université Paris-Sorbonne.
+Guilaine Chenu, journaliste. Ne(e) le 1960-08-17 a Lagos. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3119520

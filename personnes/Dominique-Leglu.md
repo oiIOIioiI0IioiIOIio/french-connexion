@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Dominique Leglu, journaliste. Ne(e) le 1955-01-31. Formation : Centre de formation des journalistes.
+Dominique Leglu, journaliste. Ne(e) le 1955-01-31. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3035281

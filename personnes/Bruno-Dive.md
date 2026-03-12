@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bruno Dive, journaliste. Ne(e) le 1960-10-28. Formation : Institut d'études politiques de Paris.
+Bruno Dive, journaliste. Ne(e) le 1960-10-28. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2926743

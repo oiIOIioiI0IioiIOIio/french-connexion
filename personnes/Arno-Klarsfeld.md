@@ -7,6 +7,17 @@ education: Université de New York
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Anne Poiret
+- Antonin Lévy
+- Carine Fouteau
+- Géraldine Muhlmann
+- Iris Brey
+- Laurent Stefanini
+- Léa Salamé
+- Marie-Anne Barbat-Layani
+- Mohamed Sahnoun
+- Stéphanie Antoine
 nationality: francaise
 nom_complet: Arno Klarsfeld
 occupation: avocat ou avocate

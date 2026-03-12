@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Didier Eribon, écrivain ou écrivaine. Ne(e) le 1953-07-10 a Reims. Formation : université Paris-I-Panthéon-Sorbonne.
+Didier Eribon, écrivain ou écrivaine. Ne(e) le 1953-07-10 a Reims. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q945597

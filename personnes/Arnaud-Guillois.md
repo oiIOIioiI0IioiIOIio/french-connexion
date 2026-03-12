@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Arnaud Guillois, diplomate. Ne(e) le 1975-09-09 a Suresnes. Formation : Institut d'études politiques de Paris.
+Arnaud Guillois, diplomate. Ne(e) le 1975-09-09 a Suresnes. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q99864235

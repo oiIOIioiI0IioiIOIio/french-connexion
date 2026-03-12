@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Thierry Thuillier, journaliste. Ne(e) le 1963-05-24 a Saint-Mandé. Formation : Institut d'études politiques de Paris.
+Thierry Thuillier, journaliste. Ne(e) le 1963-05-24 a Saint-Mandé. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3524542

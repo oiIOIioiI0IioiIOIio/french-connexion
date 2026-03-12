@@ -10,6 +10,8 @@ keywords:
 - libéralisme
 - réseaux d'influence
 - directeur
+liens:
+- Édouard Philippe
 nationality: française
 nom_complet: Dominique Reynié
 occupation: politologue, homme politique, professeur, chroniqueur

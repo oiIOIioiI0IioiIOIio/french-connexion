@@ -16,4 +16,4 @@ website: https://www.larep.fr
 wikidata_id: Q3212596
 ---
 
-La République du Centre, media francais.
+[[La République]] du Centre, media francais.

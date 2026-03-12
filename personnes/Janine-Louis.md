@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Janine Louis, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1930-04-30 a Lyon. Formation : faculté de droit de Lyon.
+Janine Louis, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1930-04-30 a Lyon. Formation : [[faculté de droit de Lyon]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q112194320

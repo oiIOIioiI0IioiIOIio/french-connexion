@@ -7,6 +7,9 @@ education: École normale supérieure Paris-Saclay
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Bernard Belletante
+- Mathilde Grammont
 nationality: francaise
 nom_complet: Alexandre Siné
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +25,7 @@ tags:
 type: Personne
 ---
 
-Alexandre Siné, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1972-01-22 a Boulogne-Billancourt. Formation : École normale supérieure Paris-Saclay.
+Alexandre Siné, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1972-01-22 a Boulogne-Billancourt. Formation : [[École normale supérieure]] Paris-Saclay.
 
 ## Sources
 - http://www.wikidata.org/entity/Q33102007

@@ -7,6 +7,13 @@ education: Institut d’études politiques de Lille
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Astrid de Villaines
+- Céline Rousseaux
+- Frédéric Vion
+- Lucie Chaumette
+- Marine Turchi
+- Étienne Campion
 nationality: francaise
 nom_complet: Pierre Alonso
 occupation: journaliste
@@ -22,7 +29,7 @@ tags:
 type: Personne
 ---
 
-Pierre Alonso, journaliste. Ne(e) le 1985-01-01. Formation : Institut d’études politiques de Lille.
+Pierre Alonso, journaliste. Ne(e) le 1985-01-01. Formation : [[Institut d’études politiques de Lille]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q124330816

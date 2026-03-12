@@ -7,6 +7,12 @@ education: Université de Princeton
 genre: masculin
 keywords:
 - diplomate
+liens:
+- David Djaïz
+- Frédéric Mion
+- Marguerite Bérard
+- Mario Laserna Pinzón
+- Terence Strick
 nationality: francaise
 nom_complet: Florian Cardinaux
 occupation: diplomate

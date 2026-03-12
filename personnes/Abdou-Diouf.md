@@ -7,6 +7,8 @@ education: Université Cheikh-Anta-Diop
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Frédéric Pons
 nationality: francaise
 nom_complet: Abdou Diouf
 occupation: avocat ou avocate

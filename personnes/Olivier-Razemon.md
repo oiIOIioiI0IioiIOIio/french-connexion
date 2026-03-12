@@ -7,6 +7,18 @@ education: Institut d'études politiques de Strasbourg
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Alain Thirion
+- Bernard Demange
+- François Ernenwein
+- Isabelle Donnadieu
+- Jean-Claude Erhmann
+- Jean-Pierre Lévy
+- Nicole Michelangeli
+- Pascal Barollier
+- Philippe Sutter
+- Valérie Hatsch
+- Élé Asu
 nationality: francaise
 nom_complet: Olivier Razemon
 occupation: journaliste

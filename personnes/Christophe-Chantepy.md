@@ -7,6 +7,14 @@ education: École centrale Paris
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Djamel Agaoua
+- Dominique-Paul Vallée
+- François Ecalle
+- Jacques Rosselin
+- Jean-Louis Zoël
+- Stéphane Bredin
+- Xavier Lefort
 nationality: francaise
 nom_complet: Christophe Chantepy
 occupation: diplomate

@@ -7,6 +7,8 @@ education: université Jean-Monnet-Saint-Étienne
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Hervé Heyraud
 nationality: francaise
 nom_complet: Gilles Bonnevialle
 occupation: diplomate

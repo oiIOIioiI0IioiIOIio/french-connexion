@@ -7,6 +7,21 @@ education: université Bordeaux-Montaigne
 genre: féminin
 keywords:
 - diplomate
+liens:
+- Agnès Cukierman
+- Clément Bénech
+- David Thomson
+- Emmanuel Langlois
+- Géraldine Mosna-Savoye
+- Isabelle Roberts
+- Marie Aubinais
+- Mohamed Toihiri
+- Paul Larrouturou
+- Pierre Lory
+- Stéphane Bijoux
+- Xavier Loustaunau
+- Yann Barthès
+- Éric de Kermel
 nationality: francaise
 nom_complet: Kéthévane Bagration de Moukhrani
 occupation: diplomate

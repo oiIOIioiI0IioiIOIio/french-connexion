@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-François Richier, diplomate. Ne(e) le 1963-08-11 a Paris. Formation : Institut d'études politiques de Paris.
+François Richier, diplomate. Ne(e) le 1963-08-11 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q5484669

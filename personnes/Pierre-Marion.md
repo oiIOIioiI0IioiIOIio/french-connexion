@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Marion, fonctionnaire. Ne(e) le 1921-01-24 a Marseille. Formation : École polytechnique.
+Pierre Marion, fonctionnaire. Ne(e) le 1921-01-24 a Marseille. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2093677

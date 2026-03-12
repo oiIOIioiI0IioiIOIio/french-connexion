@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Dominique Gazuy-Fromaget, diplomate. Ne(e) le 1954-01-15. Formation : Institut d'études politiques de Paris.
+Dominique Gazuy-Fromaget, diplomate. Ne(e) le 1954-01-15. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50917703

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marie-Christine Butel, diplomate. Ne(e) le 1959-06-03. Formation : Institut d'études politiques de Paris.
+Marie-Christine Butel, diplomate. Ne(e) le 1959-06-03. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q100271704

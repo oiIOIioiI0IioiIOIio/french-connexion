@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gilbert Léoutre, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1938-05-20 a Annaba. Formation : École normale supérieure.
+Gilbert Léoutre, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1938-05-20 a Annaba. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q123582473

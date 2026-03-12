@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Claude Fréjacques, scientifique. Ne(e) le 1924-08-01 a 14e arrondissement de Paris. Formation : École polytechnique.
+Claude Fréjacques, scientifique. Ne(e) le 1924-08-01 a 14e arrondissement de Paris. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2977423

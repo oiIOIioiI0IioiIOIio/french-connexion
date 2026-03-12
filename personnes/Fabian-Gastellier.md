@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Fabian Gastellier, journaliste. Ne(e) le 1956-03-29 a Paris. Formation : université Paris-Sorbonne.
+Fabian Gastellier, journaliste. Ne(e) le 1956-03-29 a Paris. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3063512

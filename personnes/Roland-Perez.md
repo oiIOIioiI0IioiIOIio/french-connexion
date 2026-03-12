@@ -7,6 +7,16 @@ education: université Paris-Est-Créteil-Val-de-Marne
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Charles Constantin-Vallet
+- Emmanuelle Cosse
+- Karim Achoui
+- Lucile Woodward
+- Michaël Bertini
+- Pascal Durand
+- Philippe Olivier
+- Pierre-Yves Lautrou
+- Rosiane Houngbo-Monteverde
 nationality: francaise
 nom_complet: Roland Perez
 occupation: avocat ou avocate

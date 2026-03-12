@@ -7,6 +7,20 @@ education: Université Harvard
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Alfred Galichon
+- Claude-Éric Paquin
+- Ernest-Antoine Seillière
+- François Jackow
+- Frédéric X de Danemark
+- Geoffroy Didier
+- Jacques Lagarde
+- Jean-Luc Sibiude
+- Laure Mandeville
+- Michel François-Poncet
+- Peter Turnley
+- Pierre Lellouche
+- Renée Kaplan
 nationality: francaise
 nom_complet: Simon Kuper
 occupation: écrivain ou écrivaine

@@ -7,6 +7,8 @@ education: École supérieure du commerce extérieur
 genre: masculin
 keywords:
 - banquier
+liens:
+- Pierre-Emmanuel Sudres
 nationality: francaise
 nom_complet: Alexandre de Rothschild
 occupation: banquier

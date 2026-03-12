@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Georges Fournier, ingénieur. Ne(e) le 1927-04-07 a Avignon. Formation : École polytechnique.
+Georges Fournier, ingénieur. Ne(e) le 1927-04-07 a Avignon. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q119292808

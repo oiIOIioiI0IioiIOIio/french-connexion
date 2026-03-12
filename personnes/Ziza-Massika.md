@@ -7,6 +7,10 @@ education: Université de Montpellier
 genre: féminin
 keywords:
 - militaire
+liens:
+- Mustapha Adib
+- Robert Ménard
+- Thomas Mayol
 nationality: francaise
 nom_complet: Ziza Massika
 occupation: militaire
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Ziza Massika, militaire. Ne(e) le 1934-01-28 a Merouana. Formation : Université de Montpellier.
+Ziza Massika, militaire. Ne(e) le 1934-01-28 a Merouana. Formation : [[Université de Montpellier]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3575632

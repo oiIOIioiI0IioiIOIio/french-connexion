@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nicolas Piccato, directeur général ou directrice générale. Ne(e) le 1973-04-04. Formation : EM Lyon Business School.
+Nicolas Piccato, directeur général ou directrice générale. Ne(e) le 1973-04-04. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q107192845

@@ -7,6 +7,18 @@ education: Institut d'études politiques de Strasbourg
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Alain Thirion
+- François Ernenwein
+- Isabelle Donnadieu
+- Jean-Claude Erhmann
+- Jean-Pierre Lévy
+- Nicole Michelangeli
+- Olivier Razemon
+- Pascal Barollier
+- Philippe Sutter
+- Valérie Hatsch
+- Élé Asu
 nationality: francaise
 nom_complet: Bernard Demange
 occupation: diplomate

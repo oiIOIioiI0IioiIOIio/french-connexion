@@ -7,6 +7,13 @@ education: université Paris-Descartes
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- François Bergerault
+- Frédéric Donnedieu de Vabres
+- Jean-Paul Delahaye
+- Michel Cymes
+- Pascale Briand
+- Paul Tchoukriel
 nationality: francaise
 nom_complet: Tobie Nathan
 occupation: écrivain ou écrivaine

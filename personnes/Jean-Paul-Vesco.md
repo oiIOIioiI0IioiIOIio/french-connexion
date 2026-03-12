@@ -7,6 +7,8 @@ education: Sainte-Marie Lyon
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Patrick Chêne
 nationality: francaise
 nom_complet: Jean-Paul Vesco
 occupation: avocat ou avocate

@@ -7,6 +7,11 @@ education: John F. Kennedy School of Government
 genre: féminin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Alain Le Roy
+- Jacques Paul Klein
+- Jean-Sélim Kanaan
+- Philippe Jost
 nationality: francaise
 nom_complet: Odile Renaud-Basso
 occupation: haut fonctionnaire ou haute fonctionnaire

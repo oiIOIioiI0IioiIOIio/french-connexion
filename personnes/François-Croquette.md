@@ -7,6 +7,14 @@ education: London School of Economics
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Achren Verdian
+- Agnès Poirier
+- Christian Chavagneux
+- Lucie Castets
+- Olivier Guez
+- Roland Dumas
+- Thomas Andrieu
 nationality: francaise
 nom_complet: François Croquette
 occupation: diplomate

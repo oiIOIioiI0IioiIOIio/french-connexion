@@ -7,6 +7,9 @@ education: Université de Toulouse
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Pierre Pluchon
+- Thomas Castaignède
 nationality: francaise
 nom_complet: Jean-François Casabonne-Masonnave
 occupation: diplomate
@@ -22,7 +25,7 @@ tags:
 type: Personne
 ---
 
-Jean-François Casabonne-Masonnave, diplomate. Ne(e) le 1962-07-23. Formation : Université de Toulouse.
+Jean-François Casabonne-Masonnave, diplomate. Ne(e) le 1962-07-23. Formation : [[Université de Toulouse]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q97552342

@@ -4,6 +4,9 @@ founded: '1997-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Jean-Christophe Parisot de Bayard
+- Josiane Chevalier
 nom_complet: Institut national des études territoriales
 sources:
 - https://www.wikidata.org/entity/Q1665118

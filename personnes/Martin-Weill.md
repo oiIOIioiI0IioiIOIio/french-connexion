@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Martin Weill, journaliste. Ne(e) le 1987-04-11 a Paris. Formation : université Paris-Sorbonne.
+Martin Weill, journaliste. Ne(e) le 1987-04-11 a Paris. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16663561

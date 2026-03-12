@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Isabelle Dahan, avocat ou avocate. Ne(e) le 1972-01-01 a Paris. Formation : université Paris-I-Panthéon-Sorbonne.
+Isabelle Dahan, avocat ou avocate. Ne(e) le 1972-01-01 a Paris. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q108405351

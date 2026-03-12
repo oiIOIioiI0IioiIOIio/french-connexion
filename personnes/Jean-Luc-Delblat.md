@@ -7,6 +7,8 @@ education: université PSL
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Lou Fritel
 nationality: francaise
 nom_complet: Jean-Luc Delblat
 occupation: écrivain ou écrivaine

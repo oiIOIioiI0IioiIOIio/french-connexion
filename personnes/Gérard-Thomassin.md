@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Gérard Thomassin, avocat ou avocate. Ne(e) le 1941-10-01 a Besançon.
+[[Gérard Thomas]]sin, avocat ou avocate. Ne(e) le 1941-10-01 a Besançon.
 
 ## Sources
 - http://www.wikidata.org/entity/Q131561582

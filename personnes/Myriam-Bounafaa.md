@@ -7,6 +7,8 @@ education: École de journalisme de Toulouse
 genre: féminin
 keywords:
 - animateur ou animatrice de télévision
+liens:
+- Antoine-Marie Izoard
 nationality: francaise
 nom_complet: Myriam Bounafaa
 occupation: animateur ou animatrice de télévision

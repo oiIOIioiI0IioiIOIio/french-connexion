@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Edmond Pamboukjian, diplomate. Ne(e) le 1943-06-14. Formation : Institut d'études politiques de Paris.
+Edmond Pamboukjian, diplomate. Ne(e) le 1943-06-14. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q100323389

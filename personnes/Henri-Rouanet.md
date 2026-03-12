@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Henri Rouanet, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1933-01-24 a Vincennes. Formation : Institut d'études politiques de Paris.
+Henri Rouanet, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1933-01-24 a Vincennes. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50821966

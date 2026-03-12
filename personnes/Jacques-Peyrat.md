@@ -7,6 +7,13 @@ education: université Nice-Sophia-Antipolis
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Christian Daziano
+- Claudine Monteil
+- Fabien Ferasson de Quental
+- Jean-Yves Potel
+- Marion Festraëts
+- Virginie Joron
 nationality: francaise
 nom_complet: Jacques Peyrat
 occupation: avocat ou avocate

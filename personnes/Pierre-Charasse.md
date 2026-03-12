@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Charasse, diplomate. Ne(e) le 1948-11-30 a Puy-de-Dôme. Formation : Institut d'études politiques de Paris.
+Pierre Charasse, diplomate. Ne(e) le 1948-11-30 a Puy-de-Dôme. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q42302502

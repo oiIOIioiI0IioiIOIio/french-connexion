@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Rodolphe Gintz, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1977-05-13 a Nancy. Formation : École polytechnique.
+Rodolphe Gintz, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1977-05-13 a Nancy. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33293191

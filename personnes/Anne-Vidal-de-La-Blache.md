@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Anne Vidal de La Blache, diplomate. Ne(e) le 1955-02-11. Formation : Institut d'études politiques de Paris.
+Anne Vidal de La Blache, diplomate. Ne(e) le 1955-02-11. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q61651639

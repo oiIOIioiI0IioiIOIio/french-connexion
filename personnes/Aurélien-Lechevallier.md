@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Aurélien Lechevallier, diplomate. Ne(e) le 1976-09-06 a Poitiers. Formation : HEC Paris.
+Aurélien Lechevallier, diplomate. Ne(e) le 1976-09-06 a Poitiers. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q48032435

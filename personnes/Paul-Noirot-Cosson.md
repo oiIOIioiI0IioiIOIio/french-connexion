@@ -7,6 +7,9 @@ education: Faculté de droit de Bordeaux
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Jacques Perrilliat
+- Michel Crépeau
 nationality: francaise
 nom_complet: Paul Noirot-Cosson
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +25,7 @@ tags:
 type: Personne
 ---
 
-Paul Noirot-Cosson, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1924-06-22 a Paris. Formation : Faculté de droit de Bordeaux.
+Paul Noirot-Cosson, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1924-06-22 a Paris. Formation : [[Faculté de droit de Bordeaux]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50826502

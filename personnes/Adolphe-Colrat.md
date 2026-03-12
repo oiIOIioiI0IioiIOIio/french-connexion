@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Adolphe Colrat, personnalité politique. Ne(e) le 1955-04-25 a 6e arrondissement de Lyon. Formation : École normale supérieure.
+Adolphe Colrat, personnalité politique. Ne(e) le 1955-04-25 a 6e arrondissement de Lyon. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2824798

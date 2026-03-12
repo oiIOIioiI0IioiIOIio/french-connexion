@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Lisette Mayret, banquier. Ne(e) le 1925-10-03 a 12e arrondissement de Paris. Formation : Institut d'études politiques de Paris.
+Lisette Mayret, banquier. Ne(e) le 1925-10-03 a 12e arrondissement de Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q41954501

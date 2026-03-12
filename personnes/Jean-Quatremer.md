@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean Quatremer, enseignant ou enseignante. Ne(e) le 1957-11-27 a Nancy. Formation : université Paris-I-Panthéon-Sorbonne.
+Jean Quatremer, enseignant ou enseignante. Ne(e) le 1957-11-27 a Nancy. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3174182

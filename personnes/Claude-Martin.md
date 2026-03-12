@@ -7,6 +7,8 @@ education: École nationale d'administration
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Claude Martinand
 nationality: francaise
 nom_complet: Claude Martin
 occupation: diplomate

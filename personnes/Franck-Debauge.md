@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Franck Debauge, écrivain ou écrivaine. Ne(e) le 1962-07-27 a Lyon. Formation : EM Lyon Business School.
+Franck Debauge, écrivain ou écrivaine. Ne(e) le 1962-07-27 a Lyon. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33114467

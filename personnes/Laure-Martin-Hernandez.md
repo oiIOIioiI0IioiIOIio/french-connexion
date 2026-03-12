@@ -7,6 +7,23 @@ education: Institut d'études politiques de Lyon
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Adrien Jaulmes
+- Christiane Doré
+- Cécile Delarue
+- Dominique Lacroix
+- Gaspard Dhellemmes
+- Hubert Blanc
+- Jean-Marie Girier
+- Jérôme Tichit
+- Liseron Boudoul
+- Magali Serre
+- Muriel Soret
+- Pierre Siankowski
+- Régis Le Sommier
+- Sonia Chironi
+- Sophie Aubert
+- Valérie Béranger
 nationality: francaise
 nom_complet: Laure Martin Hernandez
 occupation: journaliste
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Laure Martin Hernandez, journaliste. Ne(e) le 1970-03-20 a Chamalières. Formation : Institut d'études politiques de Lyon.
+Laure Martin Hernandez, journaliste. Ne(e) le 1970-03-20 a Chamalières. Formation : [[Institut d'études politiques de Lyon]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q110644662

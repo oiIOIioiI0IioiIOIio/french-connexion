@@ -7,6 +7,8 @@ education: null
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Olivier Truchot
 nationality: francaise
 nom_complet: Olivier Truc
 occupation: écrivain ou écrivaine

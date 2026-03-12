@@ -7,6 +7,17 @@ education: École nationale des chartes
 genre: féminin
 keywords:
 - diplomate
+liens:
+- Agnès Magnien
+- Armelle Daumas
+- Cécile Pozzo di Borgo
+- François Cousin
+- Françoise Banat-Berger
+- Marc Sanson
+- Michel Denieul
+- Nicolas Roche
+- Paul Bouteiller
+- Solenne Lepage
 nationality: francaise
 nom_complet: Catherine Laurent
 occupation: diplomate

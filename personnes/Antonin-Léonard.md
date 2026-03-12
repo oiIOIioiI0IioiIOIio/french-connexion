@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Antonin Léonard, personnalité du monde des affaires. Ne(e) le 1986-12-27 a Nancy. Formation : EM Lyon Business School.
+Antonin Léonard, personnalité du monde des affaires. Ne(e) le 1986-12-27 a Nancy. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q25550432

@@ -7,6 +7,11 @@ education: faculté de droit de Paris
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Dominique de La Garanderie
+- Henri Leclerc
+- Jean-Claude Zylberstein
+- Pierre Dehaye
 nationality: francaise
 nom_complet: Georges de Brémond d'Ars
 occupation: personnalité politique
@@ -22,7 +27,7 @@ tags:
 type: Personne
 ---
 
-Georges de Brémond d'Ars, personnalité politique. Ne(e) le 1944-04-20 a Saintes. Formation : faculté de droit de Paris.
+Georges de Brémond d'Ars, personnalité politique. Ne(e) le 1944-04-20 a Saintes. Formation : [[faculté de droit de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q11984841

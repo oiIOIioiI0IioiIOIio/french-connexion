@@ -4,6 +4,8 @@ founded: '1996-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Institut Mines-Télécom Business School
 nom_complet: Institut Mines-Télécom
 sources:
 - https://www.wikidata.org/entity/Q3117815

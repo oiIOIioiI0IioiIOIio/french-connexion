@@ -3,6 +3,17 @@ date_creation_note: '2026-03-12'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Abdoul Aziz Mbaye
+- Aleksandra Kedzierska Fontaine
+- Axel de Tarlé
+- Didier Lacroix
+- Frédéric Vasseur
+- Jean-Pierre Champroux
+- Julen Kerman Madariaga Agirre
+- Jérémy Cukierman
+- Matei Vișniec
+- Pierre Dubreuil
 nom_complet: communauté d'universités et d'établissements Université Côte d'Azur
 sources:
 - https://www.wikidata.org/entity/Q112862651

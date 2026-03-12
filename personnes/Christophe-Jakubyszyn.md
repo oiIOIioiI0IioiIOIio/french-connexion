@@ -7,6 +7,35 @@ education: École supérieure des sciences économiques et commerciales
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Audelin Chappuis
+- Clémence Boulouque
+- Constance Debré
+- Cécilia Gabizon
+- Eva Sadoun
+- Florence de Soultrait
+- Franck Annese
+- François Rollin
+- Gilles August
+- Grégoire Chertok
+- Jean-Sébastien Baschet
+- Kee-Yoon Kim
+- Laurence Ruffin
+- Manon Moreau
+- Marie Buscail
+- Marie-Caroline Missir
+- Martin Vial
+- Michel Carage
+- Michel Guillot
+- Philippe Manière
+- Pierre Lurçat
+- Rachel Denis-Lucas
+- Robert Ophèle
+- Sophie Coignard
+- Stéphanie Rivoal
+- Thierry Cammas
+- Édouard Brasey
+- Édouard Stern
 nationality: francaise
 nom_complet: Christophe Jakubyszyn
 occupation: journaliste

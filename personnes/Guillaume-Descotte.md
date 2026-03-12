@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Guillaume Descotte, personnalité du monde des affaires. Ne(e) le 1977-06-19 a Versailles. Formation : EM Lyon Business School.
+Guillaume Descotte, personnalité du monde des affaires. Ne(e) le 1977-06-19 a Versailles. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33182243

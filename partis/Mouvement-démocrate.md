@@ -6,6 +6,8 @@ ideology: social-libéralisme
 keywords:
 - parti politique
 - politique
+liens:
+- François Bayrou
 nom_complet: Mouvement démocrate
 sources:
 - https://www.wikidata.org/entity/Q587370

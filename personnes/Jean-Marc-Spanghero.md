@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Marc Spanghero, personnalité du monde des affaires. Ne(e) le 1965-07-03 a Carcassonne. Formation : EM Lyon Business School.
+Jean-Marc Spanghero, personnalité du monde des affaires. Ne(e) le 1965-07-03 a Carcassonne. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q137672376

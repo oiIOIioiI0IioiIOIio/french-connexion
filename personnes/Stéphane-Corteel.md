@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Stéphane Corteel, personnalité du monde des affaires. Ne(e) le 1972-01-17 a Versailles. Formation : université Paris-I-Panthéon-Sorbonne.
+Stéphane Corteel, personnalité du monde des affaires. Ne(e) le 1972-01-17 a Versailles. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33248539

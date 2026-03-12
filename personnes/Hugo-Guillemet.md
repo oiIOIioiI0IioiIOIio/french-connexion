@@ -7,6 +7,13 @@ education: université Paul-Valéry
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Francis Mateo
+- Géniale Attoumani
+- Nath-Sakura
+- Patrick Donabédian
+- Thierry Riera
+- Étienne Leenhardt
 nationality: francaise
 nom_complet: Hugo Guillemet
 occupation: journaliste

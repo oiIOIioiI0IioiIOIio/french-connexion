@@ -13,9 +13,25 @@ keywords:
 - épouse
 - jesse
 liens:
+- Abraham Lincoln
+- Amschel Moses Rothschild
+- Augustin Hamon
+- Betty de Rothschild
 - Carter G. Woodson
-- Lucy C Woodson (épouse)
+- Donald Oliver
+- Famille Rothschild
+- François Bayrou
+- Henri de Rothschild
+- James de Rothschild
+- Jean Augustine
+- Jules Grévy
 - Kelly Miller (scientist)
+- Lucy C Woodson (épouse)
+- Mayer Amschel Rothschild
+- Mélina Seymour
+- Nathan Mayer Rothschild (1777-1836)
+- Think tank
+- Édouard Philippe
 nationality: américaine
 nom_complet: Jesse E. Moorland
 occupation: pasteur américain de l'Église congrégationaliste

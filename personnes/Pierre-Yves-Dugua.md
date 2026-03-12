@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre-Yves Dugua, journaliste. Ne(e) le 1960-01-01. Formation : Institut d'études politiques de Paris.
+Pierre-Yves Dugua, journaliste. Ne(e) le 1960-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q99587600

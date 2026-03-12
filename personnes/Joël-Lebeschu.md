@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Joël Lebeschu, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1944-09-24 a Paris. Formation : Institut d'études politiques de Paris.
+Joël Lebeschu, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1944-09-24 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q67871949

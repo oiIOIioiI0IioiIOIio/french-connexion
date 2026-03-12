@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Fabien Herran, scénariste. Ne(e) le 1973-06-12 a Créteil. Formation : université Paris-Sorbonne.
+Fabien Herran, scénariste. Ne(e) le 1973-06-12 a Créteil. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3063614

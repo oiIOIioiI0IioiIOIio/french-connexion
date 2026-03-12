@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Vanessa Burggraf, journaliste. Ne(e) le 1971-12-31 a Mulhouse. Formation : université Paris-I-Panthéon-Sorbonne.
+Vanessa Burggraf, journaliste. Ne(e) le 1971-12-31 a Mulhouse. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3554515

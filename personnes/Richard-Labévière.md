@@ -7,6 +7,15 @@ education: Université de Genève
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Agnès Giard
+- Bernard Anthonioz
+- Béatrice Métraux
+- Christophe Lemoine
+- Dominique Warluzel
+- Edmond de Rothschild
+- Thérèse Blanchet
+- Yves Nidegger
 nationality: francaise
 nom_complet: Richard Labévière
 occupation: écrivain ou écrivaine

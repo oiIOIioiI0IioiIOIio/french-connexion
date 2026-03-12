@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Anne Tristan, enseignant ou enseignante. Ne(e) le 1960-01-01. Formation : Centre de formation des journalistes.
+Anne Tristan, enseignant ou enseignante. Ne(e) le 1960-01-01. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2851299

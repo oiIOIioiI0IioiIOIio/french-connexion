@@ -7,6 +7,10 @@ education: Conservatoire national des arts et métiers
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Estérelle Payany
+- François Stifani
+- Thierry Chavel
 nationality: francaise
 nom_complet: Pierre Guyot
 occupation: journaliste
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Pierre Guyot, journaliste. Ne(e) le 1970-10-03 a Lille. Formation : Conservatoire national des arts et métiers.
+Pierre Guyot, journaliste. Ne(e) le 1970-10-03 a Lille. Formation : [[Conservatoire national des arts et métiers]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3385387

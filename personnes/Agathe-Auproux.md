@@ -7,6 +7,13 @@ education: université Toulouse-Jean-Jaurès
 genre: féminin
 keywords:
 - chroniqueur ou chroniqueuse
+liens:
+- Aure Séguier
+- Daniel Crozes
+- Georges Landais
+- Hélène Jouan
+- Jean-Luc Barré
+- Jean-Yves Le Talec
 nationality: francaise
 nom_complet: Agathe Auproux
 occupation: chroniqueur ou chroniqueuse

@@ -7,6 +7,9 @@ education: Faculté de droit de Bordeaux
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Jacques Perrilliat
+- Paul Noirot-Cosson
 nationality: francaise
 nom_complet: Michel Crépeau
 occupation: avocat ou avocate
@@ -22,7 +25,7 @@ tags:
 type: Personne
 ---
 
-Michel Crépeau, avocat ou avocate. Ne(e) le 1930-10-30 a Fontenay-le-Comte. Formation : Faculté de droit de Bordeaux.
+Michel Crépeau, avocat ou avocate. Ne(e) le 1930-10-30 a Fontenay-le-Comte. Formation : [[Faculté de droit de Bordeaux]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q348474

@@ -12,11 +12,28 @@ keywords:
 - père
 - afro
 liens:
+- Abraham Lincoln
+- Amschel Moses Rothschild
 - Anne Eliza Riddle Woodson (mère)
+- Augustin Hamon
+- Betty de Rothschild
 - Cora Woodson (sœur)
-- William Woodson (frère)
-- Robert Henry Woodson (frère)
+- Donald Oliver
+- Famille Rothschild
+- François Bayrou
+- Henri de Rothschild
 - James Henry Woodson (père)
+- James de Rothschild
+- Jean Augustine
+- Jesse E. Moorland
+- Jules Grévy
+- Mayer Amschel Rothschild
+- Mélina Seymour
+- Nathan Mayer Rothschild (1777-1836)
+- Robert Henry Woodson (frère)
+- Think tank
+- William Woodson (frère)
+- Édouard Philippe
 nationality: américaine
 nom_complet: Carter G. Woodson
 occupation: historien

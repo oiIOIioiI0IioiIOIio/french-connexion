@@ -19,4 +19,4 @@ website: https://www.academieoutremer.fr
 wikidata_id: Q337512
 ---
 
-Académie des sciences d'outre-mer, etablissement d'enseignement superieur francais.
+[[Académie des sciences]] d'outre-mer, etablissement d'enseignement superieur francais.

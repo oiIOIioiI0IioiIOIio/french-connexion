@@ -7,6 +7,9 @@ keywords:
 - entreprise
 - gestion d'actifs
 leader: Peter Orszag
+liens:
+- Claude-Éric Lazard
+- Le siècle
 nom_complet: Lazard
 sources:
 - https://www.wikidata.org/entity/Q637440

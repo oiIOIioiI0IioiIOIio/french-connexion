@@ -7,6 +7,15 @@ education: Université de Genève
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Agnès Giard
+- Bernard Anthonioz
+- Béatrice Métraux
+- Christophe Lemoine
+- Dominique Warluzel
+- Edmond de Rothschild
+- Richard Labévière
+- Thérèse Blanchet
 nationality: francaise
 nom_complet: Yves Nidegger
 occupation: avocat ou avocate

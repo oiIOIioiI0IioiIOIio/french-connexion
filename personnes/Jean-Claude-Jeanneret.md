@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Claude Jeanneret, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1956-05-03 a Paris.
+Jean-Claude [[Jeanne]]ret, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1956-05-03 a Paris.
 
 ## Sources
 - http://www.wikidata.org/entity/Q33156856

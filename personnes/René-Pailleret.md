@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-René Pailleret, militaire. Ne(e) le 1921-02-10 a Alger. Formation : HEC Paris.
+René Pailleret, militaire. Ne(e) le 1921-02-10 a Alger. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3426701

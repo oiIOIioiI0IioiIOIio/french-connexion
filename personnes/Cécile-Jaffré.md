@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Cécile Jaffré, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1974-01-01. Formation : Institut d'études politiques de Paris.
+Cécile Jaffré, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1974-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q135198604

@@ -7,6 +7,10 @@ education: Institut supérieur de l'aéronautique et de l'espace
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Guillaume Faury
+- Jean Laurent
+- Éric du Fayet de La Tour
 nationality: francaise
 nom_complet: Jean-Paul Gillybœuf
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Jean-Paul Gillybœuf, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1942-01-05 a Limoges. Formation : Institut supérieur de l'aéronautique et de l'espace.
+Jean-Paul Gillybœuf, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1942-01-05 a Limoges. Formation : [[Institut supérieur de l'aéronautique et de l'espace]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16011309

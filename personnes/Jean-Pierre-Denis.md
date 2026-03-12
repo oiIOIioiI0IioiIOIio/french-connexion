@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Pierre Denis, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1960-07-12. Formation : HEC Paris.
+Jean-Pierre Denis, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1960-07-12. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3169202

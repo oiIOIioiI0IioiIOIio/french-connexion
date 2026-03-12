@@ -7,6 +7,8 @@ education: École nationale d'administration
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Philippe de Villiers
 nationality: francaise
 nom_complet: Georges Berthu
 occupation: personnalité politique

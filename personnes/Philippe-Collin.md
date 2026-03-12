@@ -7,6 +7,10 @@ education: université de Bretagne-Occidentale
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Christian Troadec
+- Frank Samson
+- Philippe Lacombe
 nationality: francaise
 nom_complet: Philippe Collin
 occupation: écrivain ou écrivaine

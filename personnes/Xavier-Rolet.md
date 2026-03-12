@@ -7,6 +7,8 @@ education: Columbia Business School
 genre: masculin
 keywords:
 - entrepreneur ou entrepreneuse
+liens:
+- Jean-Paul Elkann
 nationality: francaise
 nom_complet: Xavier Rolet
 occupation: entrepreneur ou entrepreneuse

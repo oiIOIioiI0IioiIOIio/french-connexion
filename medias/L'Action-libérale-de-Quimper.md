@@ -17,4 +17,4 @@ website: https://recherche.archives.finistere.fr/document/FRAD029_0004MI025
 wikidata_id: Q126076333
 ---
 
-L'Action libérale de Quimper, media francais.
+L'[[Action libérale]] de Quimper, media francais.

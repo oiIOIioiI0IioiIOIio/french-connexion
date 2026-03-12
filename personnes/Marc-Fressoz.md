@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marc Fressoz, journaliste. Ne(e) le 1969-01-01. Formation : Centre de formation des journalistes.
+Marc Fressoz, journaliste. Ne(e) le 1969-01-01. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16003638

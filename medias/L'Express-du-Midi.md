@@ -16,4 +16,4 @@ website: https://gallica.bnf.fr/ark:/12148/cb32772370s/date
 wikidata_id: Q65121793
 ---
 
-L'Express du Midi, media francais.
+[[L'Express]] du Midi, media francais.

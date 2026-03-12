@@ -7,6 +7,13 @@ education: Université de Californie à Berkeley
 genre: féminin
 keywords:
 - diplomate
+liens:
+- David Castello-Lopes
+- Fabienne Keller
+- Henry Peter
+- Marjorie Vanbaelinghem
+- Serge Halimi
+- Teymouraz Gorjestani
 nationality: francaise
 nom_complet: Laurence Auer
 occupation: diplomate

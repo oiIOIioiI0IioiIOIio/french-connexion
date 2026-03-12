@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pascale Seivy, personnalité du monde des affaires. Ne(e) le 1977-02-02 a 17e arrondissement de Paris. Formation : EM Lyon Business School.
+Pascale Seivy, personnalité du monde des affaires. Ne(e) le 1977-02-02 a 17e arrondissement de Paris. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q136104701

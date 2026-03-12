@@ -7,6 +7,20 @@ education: Université Harvard
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Alfred Galichon
+- Claude-Éric Paquin
+- Ernest-Antoine Seillière
+- François Jackow
+- Frédéric X de Danemark
+- Geoffroy Didier
+- Jacques Lagarde
+- Jean-Luc Sibiude
+- Laure Mandeville
+- Michel François-Poncet
+- Peter Turnley
+- Pierre Lellouche
+- Simon Kuper
 nationality: francaise
 nom_complet: Renée Kaplan
 occupation: journaliste

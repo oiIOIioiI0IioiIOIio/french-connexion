@@ -17,4 +17,4 @@ website: https://gallica.bnf.fr/ark:/12148/cb34416250c/date
 wikidata_id: Q106257104
 ---
 
-L'Indépendant des Basses-Pyrénées, media francais.
+[[L'Indépendant]] des Basses-Pyrénées, media francais.

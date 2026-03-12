@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Dominique Missika, historien ou historienne. Ne(e) le 1955-01-01 a Avignon. Formation : Institut d'études politiques de Paris.
+Dominique Missika, historien ou historienne. Ne(e) le 1955-01-01 a Avignon. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q42100691

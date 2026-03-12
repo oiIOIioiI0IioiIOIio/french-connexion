@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Irène Grenet, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1979-10-10 a Paris. Formation : École normale supérieure.
+Irène Grenet, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1979-10-10 a Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33263492

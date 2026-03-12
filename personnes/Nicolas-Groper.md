@@ -7,6 +7,8 @@ education: université de Cologne
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Bernard Schmid
 nationality: francaise
 nom_complet: Nicolas Groper
 occupation: diplomate

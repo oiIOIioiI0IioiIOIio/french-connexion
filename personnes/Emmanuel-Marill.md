@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Emmanuel Marill, personnalité du monde des affaires. Ne(e) le 1981-03-17 a Nantes. Formation : EM Lyon Business School.
+Emmanuel Marill, personnalité du monde des affaires. Ne(e) le 1981-03-17 a Nantes. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q48344823

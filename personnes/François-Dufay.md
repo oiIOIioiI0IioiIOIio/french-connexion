@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-François Dufay, écrivain ou écrivaine. Ne(e) le 1962-12-15 a Suresnes. Formation : École normale supérieure.
+François Dufay, écrivain ou écrivaine. Ne(e) le 1962-12-15 a Suresnes. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q1451008

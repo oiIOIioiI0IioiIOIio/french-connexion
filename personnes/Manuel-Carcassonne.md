@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Manuel Carcassonne, journaliste. Ne(e) le 1965-04-20 a Boulogne-Billancourt. Formation : université Paris-Sorbonne.
+Manuel Carcassonne, journaliste. Ne(e) le 1965-04-20 a Boulogne-Billancourt. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3286770

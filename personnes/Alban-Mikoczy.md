@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alban Mikoczy, journaliste. Ne(e) le 1968-01-01 a Nice. Formation : Institut d'études politiques de Paris.
+Alban Mikoczy, journaliste. Ne(e) le 1968-01-01 a Nice. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2830768

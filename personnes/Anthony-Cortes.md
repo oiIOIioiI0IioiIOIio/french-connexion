@@ -7,6 +7,8 @@ education: université de Perpignan Via Domitia
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Laura Bertran
 nationality: francaise
 nom_complet: Anthony Cortes
 occupation: journaliste

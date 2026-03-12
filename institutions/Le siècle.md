@@ -28,7 +28,7 @@ wikipedia_enriched: true
     
 [[Claude Bébéar]] (ancien président d’Axa, président de l’[[Institut Montaigne]])​
     
-[[Personnes/Antoine Bernheim]] (dirigeant associé de Lazard)​
+[[Personnes/Antoine Bernheim]] (dirigeant associé de [[Lazard]])​
     
 [[Daniel Bouton]] (ancien directeur du Budget, ancien président de la Société générale)​
     
@@ -40,7 +40,7 @@ https://www.monde-diplomatique.fr/2011/02/DENORD/20132
     
 [[Philippe Oddo]] (entrepreneur et banquier français, associé-gérant du groupe Oddo BHF)​
     
-[[Michel Pébereau]] (ancien président de BNP Paribas)​
+[[Michel Pébereau]] (ancien président de [[BNP Paribas]])​
     
 [[Jean Peyrelevade]] (dirigeant des banques Suez, Stern, Crédit lyonnais)​
     
@@ -115,7 +115,7 @@ Universitaires et intellectuels :
 
 Artistes et personnalités culturelles :
 
-[[Karol Beffa]] (compositeur, pianiste, professeur à l’[[École polytechnique]], à l’[[École normale supérieure]] et au Collège de France)​
+[[Karol Beffa]] (compositeur, pianiste, professeur à l’[[École polytechnique]], à l’[[École normale supérieure]] et au [[Collège de France]])​
     
 [[Yamina Benguigui]] (productrice de cinéma et femme politique)​
     
@@ -127,7 +127,7 @@ Artistes et personnalités culturelles :
     
 [[Marc Lambron]] (écrivain)​
     
-[[Bruno Mantovani]] (compositeur, directeur du Conservatoire national supérieur de musique et de danse de Paris)​
+[[Bruno Mantovani]] (compositeur, directeur du [[Conservatoire national supérieur de musique et de danse]] de Paris)​
     
 [[Jean Tulard]] (historien)​
     
@@ -138,4 +138,4 @@ Membres du conseil d'administration du Siècle :
     
 [[Sophie Boissard]]​
     
-[[Stéphane Boujnah]] (président du directoire et directeur général d’Euronext N.V.)​
+[[Stéphane Boujnah]] (président du directoire et directeur général d’[[Euronext]] N.V.)​

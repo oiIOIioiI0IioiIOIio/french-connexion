@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Samuel Étienne, présentateur ou présentatrice de journal. Ne(e) le 1971-05-20 a Rennes. Formation : Institut d'études politiques de Paris.
+Samuel Étienne, présentateur ou présentatrice de journal. Ne(e) le 1971-05-20 a Rennes. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3471283

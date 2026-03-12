@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Paul Sugy, journaliste. Ne(e) le 1996-01-01. Formation : École normale supérieure.
+Paul Sugy, journaliste. Ne(e) le 1996-01-01. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q107177105

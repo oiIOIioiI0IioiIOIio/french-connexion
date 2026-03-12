@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sophie Lagoutte, diplomate. Ne(e) le 1983-11-21. Formation : Institut d'études politiques de Paris.
+Sophie Lagoutte, diplomate. Ne(e) le 1983-11-21. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q73385147

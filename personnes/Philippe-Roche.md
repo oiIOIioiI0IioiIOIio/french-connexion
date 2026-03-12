@@ -7,6 +7,11 @@ education: Harvard Business School
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Alain de Gunzburg
+- Arnaud Leclercq
+- François Bujon de l'Estang
+- Guillaume-Olivier Doré
 nationality: francaise
 nom_complet: Philippe Roche
 occupation: personnalité du monde des affaires

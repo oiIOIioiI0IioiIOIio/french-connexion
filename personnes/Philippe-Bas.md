@@ -7,6 +7,8 @@ education: École nationale d'administration
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Philippe Bastelica
 nationality: francaise
 nom_complet: Philippe Bas
 occupation: personnalité politique

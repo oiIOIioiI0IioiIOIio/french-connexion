@@ -7,6 +7,17 @@ education: université Toulouse-Capitole
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- André Ferragne
+- Anne-Sophie Barthez
+- Bertrand Delanoë
+- Christophe Lèguevaques
+- David Koubbi
+- Jacques Lévy
+- Jean-Nicolas Baylet
+- Louis Aliot
+- Philippe Fabry
+- Éléonore Blondeau
 nationality: francaise
 nom_complet: Ali Rebeihi
 occupation: écrivain ou écrivaine

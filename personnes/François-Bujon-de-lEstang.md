@@ -7,6 +7,11 @@ education: Harvard Business School
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Alain de Gunzburg
+- Arnaud Leclercq
+- Guillaume-Olivier Doré
+- Philippe Roche
 nationality: francaise
 nom_complet: François Bujon de l'Estang
 occupation: diplomate

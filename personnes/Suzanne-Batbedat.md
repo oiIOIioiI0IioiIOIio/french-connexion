@@ -7,6 +7,15 @@ education: faculté de droit et des sciences économiques de Paris
 genre: féminin
 keywords:
 - diplomate
+liens:
+- Bernard Poncet
+- Charles de Bancalis de Maurel d'Aragon
+- Jean Amet
+- Jean-Marie Momal
+- Jean-Pierre Delpont
+- Marc Menguy
+- Pierre Juillet
+- Robert Soulé
 nationality: francaise
 nom_complet: Suzanne Batbedat
 occupation: diplomate
@@ -22,7 +31,7 @@ tags:
 type: Personne
 ---
 
-Suzanne Batbedat, diplomate. Ne(e) le 1928-09-28. Formation : faculté de droit et des sciences économiques de Paris.
+Suzanne Batbedat, diplomate. Ne(e) le 1928-09-28. Formation : [[faculté de droit et des sciences économiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q65979975

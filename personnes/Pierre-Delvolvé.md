@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Delvolvé, juge. Ne(e) le 1940-09-16 a Malause. Formation : Institut d'études politiques de Paris.
+Pierre Delvolvé, juge. Ne(e) le 1940-09-16 a Malause. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3384689

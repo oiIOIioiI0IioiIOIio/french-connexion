@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Cécile Longé, diplomate. Ne(e) le 1962-12-31. Formation : université Paris-I-Panthéon-Sorbonne.
+Cécile Longé, diplomate. Ne(e) le 1962-12-31. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50364347

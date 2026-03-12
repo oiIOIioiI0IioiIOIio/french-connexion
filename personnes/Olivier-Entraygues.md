@@ -7,6 +7,10 @@ education: King's College de Londres
 genre: masculin
 keywords:
 - militaire
+liens:
+- Axelle Lemaire
+- David de Rothschild
+- Jennifer Baert
 nationality: francaise
 nom_complet: Olivier Entraygues
 occupation: militaire

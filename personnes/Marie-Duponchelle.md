@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marie Duponchelle, avocat ou avocate. Ne(e) le 1987-01-01. Formation : université Paris-I-Panthéon-Sorbonne.
+Marie Duponchelle, avocat ou avocate. Ne(e) le 1987-01-01. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q120824970

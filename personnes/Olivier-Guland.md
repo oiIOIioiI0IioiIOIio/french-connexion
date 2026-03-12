@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Olivier Guland, journaliste. Ne(e) le 1962-08-11. Formation : université Paris-I-Panthéon-Sorbonne.
+Olivier Guland, journaliste. Ne(e) le 1962-08-11. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3351081

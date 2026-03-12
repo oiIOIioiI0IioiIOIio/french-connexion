@@ -15,4 +15,4 @@ type: Parti
 wikidata_id: Q134606314
 ---
 
-Mouvement de Libération de la Bourgogne, parti politique francais.
+Mouvement de [[Libération]] de la Bourgogne, parti politique francais.

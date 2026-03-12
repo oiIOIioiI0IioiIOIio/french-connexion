@@ -7,6 +7,10 @@ education: université de Bretagne-Occidentale
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Frank Samson
+- Philippe Collin
+- Philippe Lacombe
 nationality: francaise
 nom_complet: Christian Troadec
 occupation: personnalité politique

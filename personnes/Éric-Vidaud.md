@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Éric Vidaud, militaire. Ne(e) le 1966-04-03 a Toulouse. Formation : HEC Paris.
+Éric Vidaud, militaire. Ne(e) le 1966-04-03 a Toulouse. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q107277772

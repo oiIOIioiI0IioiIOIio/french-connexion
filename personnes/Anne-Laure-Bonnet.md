@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Anne-Laure Bonnet, animateur ou animatrice de télévision. Ne(e) le 1978-07-30 a Montpellier. Formation : Institut d'études politiques de Paris.
+Anne-Laure Bonnet, animateur ou animatrice de télévision. Ne(e) le 1978-07-30 a Montpellier. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q19951888

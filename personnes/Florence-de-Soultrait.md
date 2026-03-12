@@ -7,6 +7,35 @@ education: École supérieure des sciences économiques et commerciales
 genre: féminin
 keywords:
 - animateur ou animatrice de télévision
+liens:
+- Audelin Chappuis
+- Christophe Jakubyszyn
+- Clémence Boulouque
+- Constance Debré
+- Cécilia Gabizon
+- Eva Sadoun
+- Franck Annese
+- François Rollin
+- Gilles August
+- Grégoire Chertok
+- Jean-Sébastien Baschet
+- Kee-Yoon Kim
+- Laurence Ruffin
+- Manon Moreau
+- Marie Buscail
+- Marie-Caroline Missir
+- Martin Vial
+- Michel Carage
+- Michel Guillot
+- Philippe Manière
+- Pierre Lurçat
+- Rachel Denis-Lucas
+- Robert Ophèle
+- Sophie Coignard
+- Stéphanie Rivoal
+- Thierry Cammas
+- Édouard Brasey
+- Édouard Stern
 nationality: francaise
 nom_complet: Florence de Soultrait
 occupation: animateur ou animatrice de télévision

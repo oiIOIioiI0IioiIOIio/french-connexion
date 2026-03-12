@@ -7,6 +7,9 @@ education: université Paris-Sud
 genre: masculin
 keywords:
 - militaire
+liens:
+- Christine Ponsard
+- Éric Urban
 nationality: francaise
 nom_complet: Olivier Gourlez de La Motte
 occupation: militaire

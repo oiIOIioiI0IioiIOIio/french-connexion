@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Patrick Pailloux, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1966-01-30 a Senlis. Formation : École polytechnique.
+Patrick Pailloux, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1966-01-30 a Senlis. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16669187

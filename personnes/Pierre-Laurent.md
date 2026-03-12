@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Laurent, personnalité politique. Ne(e) le 1957-07-01 a Paris. Formation : université Paris-I-Panthéon-Sorbonne.
+Pierre Laurent, personnalité politique. Ne(e) le 1957-07-01 a Paris. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2093665

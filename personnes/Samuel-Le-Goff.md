@@ -7,6 +7,18 @@ education: université Rennes-II
 genre: masculin
 keywords:
 - relations publiques
+liens:
+- Alain Pirot
+- Anne-Claire Coudray
+- Denis Ruellan
+- Erwan Chartier
+- Fanny Chauffin
+- Gaspard Glanz
+- Hélène Fily
+- Maryse Burgot
+- Morgane Tual
+- Philippe Georgeais
+- Sidonie Bonnec
 nationality: francaise
 nom_complet: Samuel Le Goff
 occupation: relations publiques

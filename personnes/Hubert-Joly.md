@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Hubert Joly, entrepreneur ou entrepreneuse. Ne(e) le 1959-08-11 a Laxou. Formation : HEC Paris.
+Hubert Joly, entrepreneur ou entrepreneuse. Ne(e) le 1959-08-11 a Laxou. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16193174

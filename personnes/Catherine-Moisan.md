@@ -7,6 +7,10 @@ education: École normale supérieure de jeunes filles
 genre: féminin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Dominique Dron
+- Michèle Gendreau-Massaloux
+- Thérèse Delpech
 nationality: francaise
 nom_complet: Catherine Moisan
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Catherine Moisan, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1950-12-02. Formation : École normale supérieure de jeunes filles.
+Catherine Moisan, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1950-12-02. Formation : [[École normale supérieure]] de jeunes filles.
 
 ## Sources
 - http://www.wikidata.org/entity/Q131785997

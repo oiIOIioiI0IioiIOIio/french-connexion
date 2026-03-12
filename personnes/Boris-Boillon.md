@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Boris Boillon, diplomate. Ne(e) le 1969-12-09 a Pontarlier. Formation : Institut d'études politiques de Paris.
+Boris Boillon, diplomate. Ne(e) le 1969-12-09 a Pontarlier. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2910923

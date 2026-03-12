@@ -7,6 +7,11 @@ education: Institut supérieur de gestion
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Christophe de Backer
+- Didier Lallement
+- Frédéric Verdier
+- Yves de Kerdrel
 nationality: francaise
 nom_complet: Jérôme Rivière
 occupation: avocat ou avocate
@@ -22,7 +27,7 @@ tags:
 type: Personne
 ---
 
-Jérôme Rivière, avocat ou avocate. Ne(e) le 1964-07-08 a Suresnes. Formation : Institut supérieur de gestion.
+Jérôme Rivière, avocat ou avocate. Ne(e) le 1964-07-08 a Suresnes. Formation : [[Institut supérieur de gestion]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3191042

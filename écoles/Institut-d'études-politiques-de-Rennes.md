@@ -5,6 +5,204 @@ headquarters: Rennes
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Agnès Vahramian
+- Alain Bouquin
+- Alain Frouté
+- Alain Gaigneron de Marolles
+- Alain Guillemoles
+- Alain Pellegrini
+- Amobé Mévégué
+- André Bach
+- André Fourié
+- André Joriot
+- André Jozan
+- André Lanata
+- Antoine Biancamaria
+- Antoine Giniaux
+- Antoine Guerrier de Dumast
+- Antoine Lecerf
+- Antoine Pecqueur
+- Antoine Pellion
+- Ariane Massenet
+- Arnaud de La Grange
+- Arnold Schwerdorffer
+- Arthur Frayer-Laleix
+- Aziz Meliani
+- Benjamin Cruard
+- Bernard Goupil
+- Bernard Janvier
+- Bernard Metz
+- Bernard Norlain
+- Bernard Vaillant
+- Bernard de Boisfleury
+- Bernard de Courrèges d'Ustou
+- Bernard de Froment
+- Bertrand O'Mahony
+- Bertrand Ract-Madoux
+- Bertrand de La Chesnais
+- Bertrand de Montaudoüin
+- Brice Houdet
+- Bruno Aubry
+- Bruno Cuche
+- Bruno Dary
+- Bruno Jockers
+- Camille Langlade
+- Chloé-Agathe Azencott
+- Christian Prouteau
+- Christian Quesnot
+- Christian Rodriguez
+- Christophe de Saint Chamas
+- Claude Vanbremeersch
+- Céline Bosquet
+- Damien Thévenot
+- Daniel Lallemant
+- David Galtier
+- Didier Bolelli
+- Didier Brousse
+- Dominique Delort
+- Emmanuel Beth
+- Emmanuel Tellier
+- Erik Rémès
+- Estérelle Payany
+- Fabienne Sintes
+- Famille Rothschild
+- Fernand Chassagne
+- François Bichet
+- François Dall'Orso
+- François Meyer
+- François Stifani
+- François-Pierre Joly
+- François-Xavier Deniau
+- Frédéric Hingray
+- Furcy Houdet
+- Georges Kiejman
+- Gilles Grapinet
+- Guillaume Evin
+- Gurvan Kristanadjaja
+- Guy Delfosse
+- Henri Bentégeat
+- Henri Leclerc de Hauteclocque
+- Henri Poncet
+- Henry Féral
+- Henry Peyrelongue
+- Hervé Charpentier
+- Hubert Bonneau
+- Jacky Durand
+- Jacques Antoine de Barry
+- Jacques Billant
+- Jacques Cardoze
+- Jacques Dewatre
+- Jacques Guerrier de Dumast
+- Jacques Langlade de Montgros
+- Jacques Lanxade
+- Jacques Servranckx
+- Jacques Witkowski
+- Jean Cot
+- Jean Delaunay
+- Jean Fleury
+- Jean Heinrich
+- Jean Maurin
+- Jean Michelin
+- Jean Rannou
+- Jean Saulnier
+- Jean Varret
+- Jean de Sesmaisons
+- Jean-Claude Thomann
+- Jean-Louis Georgelin
+- Jean-Louis de Moulins d'Amieu de Beaufort
+- Jean-Marc Bournigal
+- Jean-Marc Loubès
+- Jean-Pierre Kelche
+- Jean-Pierre Laflaquière
+- Jean-Pierre Palasset
+- Jeannou Lacaze
+- Jihan El-Tahri
+- Joseph Dupré la Tour
+- Jules Grévy
+- Julien Ménielle
+- Jérémy Cukierman
+- Khaled Nezzar
+- Laetitia Barlerin
+- Louis Beaudonnet
+- Louis Laugier
+- Louis de Faucigny-Lucinge
+- Loïc Mizon
+- Ludovic Vigogne
+- Marc Fauvelle
+- Marcela Iacub
+- Marie-Madeleine Rigopoulos
+- Mariella Esvant
+- Matthieu Suc
+- Maurice Barate
+- Maurice Faivre
+- Maurice Kouandété
+- Maurice Schmitt
+- Max Gaillard
+- Michel Authier
+- Michel Guignon
+- Michel Roquejeoffre
+- Michel Roussin
+- Michel Stollsteiner
+- Michel de Courrèges
+- Michel Éon
+- Mohamed Lamari
+- Negar Haeri
+- Olivier de Bavinchove
+- Othman Saadi
+- Patrice Molle
+- Patrice O'Mahony
+- Patrick Collet
+- Paul Brunbrouck
+- Paul Girot de Langlade
+- Philippe Legrix
+- Pierre Aubert de Vincelles
+- Pierre Baraton
+- Pierre Dabezies
+- Pierre Garrigou Grandchamp
+- Pierre Guyot
+- Pierre Haicault de La Regontais
+- Pierre J-Y. Le Blavec
+- Pierre Montagnon
+- Pierre Quatrepoint
+- Pierre-Henri Bunel
+- Rachid Arhab
+- Renaud Santa Maria
+- Renaud de Malaussène
+- René Chesnais
+- René Imbot
+- Robert Caillaud
+- Roger Pessidous
+- Roger Périer
+- Roland Corbineau
+- Régis Chamagne
+- Sandra Lavorel
+- Serge Beaumont
+- Stéphane Abrial
+- Thierry Chavel
+- Thierry Marchand
+- Thierry Orosco
+- Thierry Suzan
+- Thomas VDB
+- Valérie Maurice
+- Vincent Desportes
+- Virginie Guyot
+- Xavier Bout de Marnhac
+- Xavier de Fürst
+- Xavier de Lesquen
+- Xavier de Zuchowicz
+- Yann Rousseau-Dumarcet
+- Yaël Goosz
+- Yves Fromion
+- Yves Gras
+- Yves de Kermabon
+- Yves de Sesmaisons
+- Éric Burgaud
+- Éric Ghebali
+- Éric Gérard
+- Éric Raynaud
+- Étienne Renard
+- Étienne Sesmat
 nom_complet: Institut d'études politiques de Rennes
 sources:
 - https://www.wikidata.org/entity/Q3151965

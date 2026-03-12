@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Marie Durand, journaliste. Ne(e) le 1965-08-26 a Paris. Formation : Institut d'études politiques de Paris.
+Jean-Marie Durand, journaliste. Ne(e) le 1965-08-26 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q28496853

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Florence Robine, physicien ou physicienne. Ne(e) le 1959-08-12. Formation : École normale supérieure de Cachan.
+Florence Robine, physicien ou physicienne. Ne(e) le 1959-08-12. Formation : [[École normale supérieure]] de Cachan.
 
 ## Sources
 - http://www.wikidata.org/entity/Q64821757

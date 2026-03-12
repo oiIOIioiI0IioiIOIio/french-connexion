@@ -18,4 +18,4 @@ type: Fondation
 wikidata_id: Q64697211
 ---
 
-A Long-Term, Open-Label Study to Evaluate the Safety of Sitaxsentan Sodium Treatment in Patients With Pulmonary Arterial Hypertension, think tank ou fondation.
+A Long-Term, Open-Label Study to Evaluate the Safety of Sitaxsentan Sodium Treatment in Patients With Pulmonary [[Arte]]rial Hypertension, think tank ou fondation.

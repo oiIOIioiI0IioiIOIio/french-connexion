@@ -7,6 +7,23 @@ education: Institut d'études politiques de Lyon
 genre: féminin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Adrien Jaulmes
+- Cécile Delarue
+- Dominique Lacroix
+- Gaspard Dhellemmes
+- Hubert Blanc
+- Jean-Marie Girier
+- Jérôme Tichit
+- Laure Martin Hernandez
+- Liseron Boudoul
+- Magali Serre
+- Muriel Soret
+- Pierre Siankowski
+- Régis Le Sommier
+- Sonia Chironi
+- Sophie Aubert
+- Valérie Béranger
 nationality: francaise
 nom_complet: Christiane Doré
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Christiane Doré, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1942-03-20 a Strasbourg. Formation : Institut d'études politiques de Lyon.
+Christiane Doré, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1942-03-20 a Strasbourg. Formation : [[Institut d'études politiques de Lyon]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q31092982

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Xavier Debonneuil, banquier. Ne(e) le 1948-12-23 a 4e arrondissement de Paris. Formation : École polytechnique.
+Xavier Debonneuil, banquier. Ne(e) le 1948-12-23 a 4e arrondissement de Paris. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q46522807

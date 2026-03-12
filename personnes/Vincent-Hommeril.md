@@ -7,6 +7,12 @@ education: université de Rouen-Normandie
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Audrey Pulvar
+- Benoît Duteurtre
+- Emmanuel Ratier
+- Guillaume Jobin
+- Paul-Jacques Lehmann
 nationality: francaise
 nom_complet: Vincent Hommeril
 occupation: diplomate

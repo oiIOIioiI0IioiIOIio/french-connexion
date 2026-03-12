@@ -7,6 +7,14 @@ education: faculté des lettres de Paris
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Alexis Berelowitch
+- Claude Ambrosini
+- Jean-Claude Moreau
+- Marcel Martin
+- Marie-Françoise Hamard
+- Pierre Boillot
+- Pierre Lafrance
 nationality: francaise
 nom_complet: Alain Rouillard
 occupation: diplomate
@@ -22,7 +30,7 @@ tags:
 type: Personne
 ---
 
-Alain Rouillard, diplomate. Ne(e) le 1946-10-20. Formation : faculté des lettres de Paris.
+Alain Rouillard, diplomate. Ne(e) le 1946-10-20. Formation : [[faculté des lettres de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q110728741

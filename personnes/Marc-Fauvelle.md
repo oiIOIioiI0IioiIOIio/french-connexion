@@ -7,6 +7,19 @@ education: Centre universitaire d'enseignement du journalisme
 genre: masculin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Agnès Vahramian
+- Antoine Giniaux
+- Arthur Frayer-Laleix
+- Camille Langlade
+- Damien Thévenot
+- Fabienne Sintes
+- Jacky Durand
+- Ludovic Vigogne
+- Matthieu Suc
+- Rachid Arhab
+- Thierry Suzan
+- Éric Ghebali
 nationality: francaise
 nom_complet: Marc Fauvelle
 occupation: présentateur ou présentatrice de journal

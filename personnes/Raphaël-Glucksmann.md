@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Raphaël Glucksmann, personnalité politique. Ne(e) le 1979-10-15 a Boulogne-Billancourt. Formation : Institut d'études politiques de Paris.
+Raphaël Glucksmann, personnalité politique. Ne(e) le 1979-10-15 a Boulogne-Billancourt. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q556149

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Yves Mourès, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1928-10-03 a Marseille. Formation : Institut d'études politiques de Paris.
+Yves Mourès, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1928-10-03 a Marseille. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q51047784

@@ -7,6 +7,11 @@ education: collège Stanislas
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Jacques Grandon
+- Jean Rochet
+- Patrick Eudeline
+- Simon Liberati
 nationality: francaise
 nom_complet: Pierre-Christian Taittinger
 occupation: avocat ou avocate

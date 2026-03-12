@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-François Bonnelle, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1933-05-03 a Versailles. Formation : Institut d'études politiques de Paris.
+François Bonnelle, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1933-05-03 a Versailles. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q67922714

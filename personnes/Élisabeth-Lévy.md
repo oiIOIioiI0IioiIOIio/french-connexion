@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Élisabeth Lévy, animateur ou animatrice de télévision. Ne(e) le 1964-02-16 a Marseille. Formation : Institut d'études politiques de Paris.
+Élisabeth Lévy, animateur ou animatrice de télévision. Ne(e) le 1964-02-16 a Marseille. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3587902

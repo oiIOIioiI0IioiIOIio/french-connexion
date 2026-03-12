@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bruno Guigue, écrivain ou écrivaine. Ne(e) le 1962-01-01 a Toulouse. Formation : École normale supérieure.
+Bruno Guigue, écrivain ou écrivaine. Ne(e) le 1962-01-01 a Toulouse. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2926821

@@ -7,6 +7,18 @@ education: université Rennes-II
 genre: féminin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Alain Pirot
+- Denis Ruellan
+- Erwan Chartier
+- Fanny Chauffin
+- Gaspard Glanz
+- Hélène Fily
+- Maryse Burgot
+- Morgane Tual
+- Philippe Georgeais
+- Samuel Le Goff
+- Sidonie Bonnec
 nationality: francaise
 nom_complet: Anne-Claire Coudray
 occupation: présentateur ou présentatrice de journal

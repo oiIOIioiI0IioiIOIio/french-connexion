@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alain Peyrefitte, écrivain ou écrivaine. Ne(e) le 1925-08-26 a Najac. Formation : École normale supérieure.
+Alain Peyrefitte, écrivain ou écrivaine. Ne(e) le 1925-08-26 a Najac. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q929334

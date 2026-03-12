@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Patrick Gautrat, diplomate. Ne(e) le 1944-03-21 a Neuilly-sur-Seine. Formation : Institut d'études politiques de Paris.
+Patrick Gautrat, diplomate. Ne(e) le 1944-03-21 a Neuilly-sur-Seine. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33283620

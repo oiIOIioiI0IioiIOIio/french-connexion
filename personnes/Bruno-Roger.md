@@ -7,6 +7,8 @@ education: Institut d'études politiques de Paris
 genre: masculin
 keywords:
 - banquier
+liens:
+- Bruno Roger-Petit
 nationality: francaise
 nom_complet: Bruno Roger
 occupation: banquier
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Bruno Roger, banquier. Ne(e) le 1933-08-06 a Boulogne-Billancourt. Formation : Institut d'études politiques de Paris.
+Bruno Roger, banquier. Ne(e) le 1933-08-06 a Boulogne-Billancourt. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q15814149

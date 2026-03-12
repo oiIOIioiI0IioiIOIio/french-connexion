@@ -7,6 +7,40 @@ education: université Paris-Nanterre
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Anaïs Castagna
+- Anne-Marie Revol
+- Bernard Hadjadj
+- Bernard de La Villardière
+- Caroline Mécary
+- Christophe Grébert
+- Clara Dupont-Monod
+- Claude Mesliand
+- Didier Porte
+- Emmanuel de Tournemire
+- Françoise Fressoz
+- Françoise Maylié
+- Frédéric Beylier
+- Gaïdz Minassian
+- Jean-Pierre Boris
+- Katherine Pancol
+- Marie-Pierre Vieu
+- Matthieu Jantet-Hidalgo
+- Mohammed Aïssaoui
+- Nora Hamadi
+- Olivier Le Naire
+- Pascal Le Deunff
+- Peggy Olmi
+- Pierre Besnard
+- Pierre-Yves Schneider
+- Richard Malka
+- Sophie Gourion
+- Stéphane Albouy
+- Stéphane Schorderet
+- Sylvia Preuss-Laussinotte
+- Thomas Giraud
+- Élie Korchia
+- Étienne de Montety
 nationality: francaise
 nom_complet: Joseph Macé-Scaron
 occupation: journaliste

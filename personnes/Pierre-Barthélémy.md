@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Barthélémy, journaliste. Ne(e) le 1965-01-01. Formation : Centre de formation des journalistes.
+Pierre Barthélémy, journaliste. Ne(e) le 1965-01-01. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q20920104

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alain Lercher, écrivain ou écrivaine. Ne(e) le 1948-01-01 a Allemagne. Formation : École normale supérieure.
+Alain Lercher, écrivain ou écrivaine. Ne(e) le 1948-01-01 a Allemagne. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2830031

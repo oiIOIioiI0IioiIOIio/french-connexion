@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Yves Plattard, diplomate. Ne(e) le 1921-03-19 a Poitiers. Formation : HEC Paris.
+Yves Plattard, diplomate. Ne(e) le 1921-03-19 a Poitiers. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q110748239

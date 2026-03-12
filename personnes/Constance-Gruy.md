@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Constance Gruy, personnalité du monde des affaires. Ne(e) le 1990-06-27 a Blois. Formation : EM Lyon Business School.
+Constance Gruy, personnalité du monde des affaires. Ne(e) le 1990-06-27 a Blois. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q131402477

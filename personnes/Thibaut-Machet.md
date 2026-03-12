@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Thibaut Machet, personnalité du monde des affaires. Ne(e) le 1986-01-31 a Échirolles. Formation : EM Lyon Business School.
+Thibaut Machet, personnalité du monde des affaires. Ne(e) le 1986-01-31 a Échirolles. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q123739334

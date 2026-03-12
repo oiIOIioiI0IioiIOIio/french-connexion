@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marc Rennard, vice-président. Ne(e) le 1957-03-15. Formation : EM Lyon Business School.
+Marc Rennard, vice-président. Ne(e) le 1957-03-15. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33120436

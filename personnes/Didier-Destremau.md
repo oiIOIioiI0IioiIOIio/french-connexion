@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Didier Destremau, écrivain ou écrivaine. Ne(e) le 1937-11-25. Formation : Institut d'études politiques de Paris.
+Didier Destremau, écrivain ou écrivaine. Ne(e) le 1937-11-25. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q63049805

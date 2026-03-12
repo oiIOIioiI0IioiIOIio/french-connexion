@@ -4,6 +4,8 @@ founded: '1997-10-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Marlène Rabaud
 nom_complet: Le Fresnoy
 sources:
 - https://www.wikidata.org/entity/Q3222963

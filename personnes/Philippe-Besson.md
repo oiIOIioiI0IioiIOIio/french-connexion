@@ -7,6 +7,9 @@ education: Rouen Business School
 genre: masculin
 keywords:
 - scénariste
+liens:
+- Nicolas Plantrou
+- Philippe Doucet
 nationality: francaise
 nom_complet: Philippe Besson
 occupation: scénariste
@@ -22,7 +25,7 @@ tags:
 type: Personne
 ---
 
-Philippe Besson, scénariste. Ne(e) le 1967-01-29 a Barbezieux-Saint-Hilaire. Formation : Rouen Business School.
+Philippe Besson, scénariste. Ne(e) le 1967-01-29 a Barbezieux-Saint-Hilaire. Formation : [[Rouen Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q788830

@@ -23,6 +23,6 @@ Ecole privée fondée à Lyon en 2018 par [[Marion Maréchal]], ancienne déput�
 
 ### Intervenants et soutiens
 
-[[Jacques de Guillebon]], [[Thibaut Monnier]] (anciens cadres de La Manif Pour Tous, ou proches de l'Action Française)
+[[Jacques de Guillebon]], [[Thibaut Monnier]] (anciens cadres de [[La Manif pour tous]], ou proches de l'[[Action]] Française)
 
 Intervenants venus de [[Valeurs actuelles]], [[TV Libertés]], [[Institut Iliade]], [[Livre Noir]], etc.

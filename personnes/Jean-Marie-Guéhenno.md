@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Marie Guéhenno, personnalité politique. Ne(e) le 1949-10-30 a France. Formation : École normale supérieure.
+Jean-Marie Guéhenno, personnalité politique. Ne(e) le 1949-10-30 a France. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q572724

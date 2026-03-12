@@ -7,6 +7,14 @@ education: École nationale supérieure de la Police
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Ange Mancini
+- Bernard Guérin
+- Christian Lambert
+- Henri Souchon
+- Jean-Louis Fiamenghi
+- Patrick Calvar
+- Yves Guillot
 nationality: francaise
 nom_complet: Frédéric Veaux
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +30,7 @@ tags:
 type: Personne
 ---
 
-Frédéric Veaux, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1956-07-08 a Talence. Formation : École nationale supérieure de la Police.
+[[Frédéric Veau]]x, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1956-07-08 a Talence. Formation : École nationale supérieure de la Police.
 
 ## Sources
 - http://www.wikidata.org/entity/Q54892084

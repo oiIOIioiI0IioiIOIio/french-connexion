@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Agnès Gayraud, auteur-compositeur-interprète ou autrice-compositrice-interprète. Ne(e) le 1979-02-19 a Tarbes. Formation : École normale supérieure.
+Agnès Gayraud, auteur-compositeur-interprète ou autrice-compositrice-interprète. Ne(e) le 1979-02-19 a Tarbes. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q29820593

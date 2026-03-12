@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Hervé Yannou, journaliste. Ne(e) le 1976-04-06. Formation : École normale supérieure.
+Hervé Yannou, journaliste. Ne(e) le 1976-04-06. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3134663

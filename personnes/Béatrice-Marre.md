@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Béatrice Marre, personnalité politique. Ne(e) le 1952-04-02 a Paris. Formation : Institut d'études politiques de Paris.
+Béatrice Marre, personnalité politique. Ne(e) le 1952-04-02 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2929462

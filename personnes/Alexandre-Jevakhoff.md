@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alexandre Jevakhoff, économiste. Ne(e) le 1952-08-21 a Paris. Formation : HEC Paris.
+Alexandre Jevakhoff, économiste. Ne(e) le 1952-08-21 a Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2833767

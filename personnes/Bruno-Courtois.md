@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bruno Courtois, journaliste. Ne(e) le 1959-09-04 a Paris. Formation : université Paris-I-Panthéon-Sorbonne.
+Bruno Courtois, journaliste. Ne(e) le 1959-09-04 a Paris. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33103055

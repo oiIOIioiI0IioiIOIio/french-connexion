@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alexandra Guillet, journaliste. Ne(e) le 1975-10-18 a 15e arrondissement de Paris. Formation : université Paris-I-Panthéon-Sorbonne.
+Alexandra Guillet, journaliste. Ne(e) le 1975-10-18 a 15e arrondissement de Paris. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q135440663

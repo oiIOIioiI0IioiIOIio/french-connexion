@@ -7,6 +7,13 @@ education: École nationale de l'aviation civile
 genre: masculin
 keywords:
 - directeur général ou directrice générale
+liens:
+- Jacques Villiers
+- Jean-Marc Alliot
+- Jérôme Bastianelli
+- Michel Wachenheim
+- Patrick Ky
+- Paul-Louis Arslanian
 nationality: francaise
 nom_complet: Farid Zizi
 occupation: directeur général ou directrice générale

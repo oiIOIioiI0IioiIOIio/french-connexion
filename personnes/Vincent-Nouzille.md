@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Vincent Nouzille, journaliste. Ne(e) le 1959-01-01 a Caen. Formation : Institut d'études politiques de Paris.
+Vincent Nouzille, journaliste. Ne(e) le 1959-01-01 a Caen. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3559769

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alain du Boispéan, diplomate. Ne(e) le 1951-08-02 a Tréguier. Formation : Institut d'études politiques de Paris.
+Alain du Boispéan, diplomate. Ne(e) le 1951-08-02 a Tréguier. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33253467

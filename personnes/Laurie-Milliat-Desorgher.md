@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Laurie Milliat-Desorgher, présentateur ou présentatrice de journal. Ne(e) le 1981-10-22. Formation : Institut d'études politiques de Paris.
+Laurie Milliat-Desorgher, présentateur ou présentatrice de journal. Ne(e) le 1981-10-22. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16653312

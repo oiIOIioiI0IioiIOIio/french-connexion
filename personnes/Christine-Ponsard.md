@@ -7,6 +7,9 @@ education: université Paris-Sud
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Olivier Gourlez de La Motte
+- Éric Urban
 nationality: francaise
 nom_complet: Christine Ponsard
 occupation: écrivain ou écrivaine

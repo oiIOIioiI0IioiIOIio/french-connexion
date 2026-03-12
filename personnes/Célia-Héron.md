@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Célia Héron, auteur. Ne(e) le 1987-01-01. Formation : Institut d'études politiques de Paris.
+Célia Héron, auteur. Ne(e) le 1987-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q101041345

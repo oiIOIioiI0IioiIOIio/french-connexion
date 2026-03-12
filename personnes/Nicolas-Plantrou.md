@@ -7,6 +7,9 @@ education: Rouen Business School
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Philippe Besson
+- Philippe Doucet
 nationality: francaise
 nom_complet: Nicolas Plantrou
 occupation: avocat ou avocate
@@ -22,7 +25,7 @@ tags:
 type: Personne
 ---
 
-Nicolas Plantrou, avocat ou avocate. Ne(e) le 1949-12-14 a Rouen. Formation : Rouen Business School.
+Nicolas Plantrou, avocat ou avocate. Ne(e) le 1949-12-14 a Rouen. Formation : [[Rouen Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33103793

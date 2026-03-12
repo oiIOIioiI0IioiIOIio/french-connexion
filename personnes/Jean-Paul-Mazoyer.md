@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Paul Mazoyer, personnalité du monde des affaires. Ne(e) le 1965-05-09 a Dijon. Formation : EM Lyon Business School.
+Jean-Paul Mazoyer, personnalité du monde des affaires. Ne(e) le 1965-05-09 a Dijon. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33102941

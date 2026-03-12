@@ -7,6 +7,12 @@ education: null
 genre: masculin
 keywords:
 - artiste peintre
+liens:
+- Claude Charbonniaud
+- Jean Charbonniaud
+- Nicolas Charbonneau
+- Thierry Charbonnier
+- Éric Bourdais de Charbonnière
 nationality: francaise
 nom_complet: Charb
 occupation: artiste peintre

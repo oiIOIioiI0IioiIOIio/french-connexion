@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre-François Mourier, diplomate. Ne(e) le 1966-06-03 a Ajaccio. Formation : École normale supérieure.
+Pierre-François Mourier, diplomate. Ne(e) le 1966-06-03 a Ajaccio. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33137361

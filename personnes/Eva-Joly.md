@@ -7,6 +7,20 @@ education: École nationale de la magistrature
 genre: féminin
 keywords:
 - juge
+liens:
+- André Potocki
+- Béatrice Patrie
+- Claude Jorda
+- Emmanuel Barbe
+- Francis Moureu
+- Gilbert Azibert
+- Hélène Gerhards
+- Isabelle Jégouzo
+- Jean-Louis Debré
+- Jean-Paul Garraud
+- Nicole Maestracci
+- Philippe Bilger
+- Serge Portelli
 nationality: francaise
 nom_complet: Eva Joly
 occupation: juge

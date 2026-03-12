@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Dorothée Balsan, journaliste. Ne(e) le 1983-02-26. Formation : EM Lyon Business School.
+Dorothée Balsan, journaliste. Ne(e) le 1983-02-26. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q122871921

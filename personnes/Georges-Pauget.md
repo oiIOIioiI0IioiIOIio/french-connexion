@@ -7,6 +7,8 @@ education: université de Lyon
 genre: masculin
 keywords:
 - banquier
+liens:
+- Paul Bouchet
 nationality: francaise
 nom_complet: Georges Pauget
 occupation: banquier

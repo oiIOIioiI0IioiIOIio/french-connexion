@@ -7,6 +7,14 @@ education: université de Cambridge
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Arnold Philibert Dubois
+- Frédéric Dal Vecchio
+- Gérald Olivier
+- Henri Burin des Roziers
+- Ingrid Therwath
+- Manon de La Selle
+- Myriam François-Cerrah
 nationality: francaise
 nom_complet: Guy Danet
 occupation: avocat ou avocate

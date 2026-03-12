@@ -7,6 +7,42 @@ education: Institut d'études politiques de Bordeaux
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Anne-Sophie Lapix
+- Arnaud Romera
+- Bernard Cazeneuve
+- Brieuc Pont
+- Catherine Boudet
+- Christian Blanc
+- Christophe Hondelatte
+- David Medioni
+- Diarra Labille
+- François Laumonier
+- Frédéric Bobin
+- Gérard Bougrier
+- Gérard Boulanger
+- Jacky Goldberg
+- Jean-Bernard Schmidt
+- Jean-Claude Raspiengeas
+- Laetitia Krupa
+- Laurent Bigot
+- Laurent Valdiguié
+- Marcelle Pierrot
+- Marie-Hélène Duvignau
+- Matthieu Auzanneau
+- Michel Lummaux
+- Michel Mosser
+- Mireille Larrède
+- Nathalie Renoux
+- Philippe Bolopion
+- Philippe Vilamitjana
+- Pierre Cherruau
+- Pierre Hurmic
+- Raphaël de Montferrand
+- Stéphanie Trouillard
+- Terence Wills
+- Thomas Hugues
+- Évelyne Decorps
 nationality: francaise
 nom_complet: Maylis Besserie
 occupation: écrivain ou écrivaine
@@ -22,7 +58,7 @@ tags:
 type: Personne
 ---
 
-Maylis Besserie, écrivain ou écrivaine. Ne(e) le 1982-01-01 a Bordeaux. Formation : Institut d'études politiques de Bordeaux.
+Maylis Besserie, écrivain ou écrivaine. Ne(e) le 1982-01-01 a Bordeaux. Formation : [[Institut d'études politiques de Bordeaux]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q28047496

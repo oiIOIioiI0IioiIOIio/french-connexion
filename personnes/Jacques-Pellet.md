@@ -7,6 +7,8 @@ education: université de Pékin
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Paul Jean-Ortiz
 nationality: francaise
 nom_complet: Jacques Pellet
 occupation: diplomate

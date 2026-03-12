@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Fabian Armand, rédacteur ou rédactrice en chef. Ne(e) le 1982-12-09 a Paris. Formation : HEC Paris.
+Fabian Armand, rédacteur ou rédactrice en chef. Ne(e) le 1982-12-09 a Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q131726188

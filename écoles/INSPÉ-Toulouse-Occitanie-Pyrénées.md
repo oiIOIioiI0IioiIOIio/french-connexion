@@ -3,6 +3,20 @@ date_creation_note: '2026-03-12'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Ali Rebeihi
+- André Ferragne
+- Anne-Sophie Barthez
+- Bertrand Delanoë
+- Christophe Lèguevaques
+- David Koubbi
+- Jacques Lévy
+- Jean-Christophe Parisot de Bayard
+- Jean-Nicolas Baylet
+- Josiane Chevalier
+- Louis Aliot
+- Philippe Fabry
+- Éléonore Blondeau
 nom_complet: INSPÉ Toulouse Occitanie-Pyrénées
 sources:
 - https://www.wikidata.org/entity/Q131447511

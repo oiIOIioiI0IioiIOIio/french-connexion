@@ -7,6 +7,14 @@ education: université Rennes-I
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Annie Lemoine
+- Florian Bachelier
+- Jean-Jacques Urvoas
+- Mary Plard
+- Nicolas Carreau
+- Olivier Richefou
+- Tangi Noël
 nationality: francaise
 nom_complet: Karine Djébari
 occupation: écrivain ou écrivaine

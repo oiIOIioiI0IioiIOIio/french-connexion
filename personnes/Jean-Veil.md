@@ -7,6 +7,9 @@ education: École alsacienne
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Benjamin Castaldi
+- Carla Ghebali
 nationality: francaise
 nom_complet: Jean Veil
 occupation: avocat ou avocate
@@ -22,7 +25,7 @@ tags:
 type: Personne
 ---
 
-Jean Veil, avocat ou avocate. Ne(e) le 1946-11-26 a Clichy. Formation : École alsacienne.
+Jean Veil, avocat ou avocate. Ne(e) le 1946-11-26 a Clichy. Formation : [[École alsacienne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3174990

@@ -7,6 +7,10 @@ education: Université de Montréal
 genre: féminin
 keywords:
 - personnalité politique
+liens:
+- Annabel Loyola
+- Didier Charpin
+- Dominique Alhéritière
 nationality: francaise
 nom_complet: Michaëlle Jean
 occupation: personnalité politique

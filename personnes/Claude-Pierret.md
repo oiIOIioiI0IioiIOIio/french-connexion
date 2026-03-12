@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Claude Pierret, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1939-12-07. Formation : Institut d'études politiques de Paris.
+Claude Pierret, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1939-12-07. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q61743991

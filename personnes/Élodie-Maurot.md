@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Élodie Maurot, journaliste. Ne(e) le 1975-01-01 a Paris. Formation : Facultés Loyola Paris.
+Élodie Maurot, journaliste. Ne(e) le 1975-01-01 a Paris. Formation : [[Facultés Loyola Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q98740778

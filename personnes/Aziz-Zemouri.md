@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Aziz Zemouri, journaliste. Ne(e) le 1968-01-01. Formation : université Paris-Sorbonne.
+Aziz Zemouri, journaliste. Ne(e) le 1968-01-01. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q112672850

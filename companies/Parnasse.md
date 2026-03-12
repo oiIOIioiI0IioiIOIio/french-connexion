@@ -20,7 +20,7 @@ wikipedia_enriched: true
 
 #marque
 
-Fondée en 2007, la marque sur mesure du groupe Orange se distingue par des prestations numériques personnalisées : connectivité à la maison ou sur le lieu de travail, sécurité, forfaits exclusifs très généreux à l’international… Un coach digital particulier, disponible 24 h/24, accompagne chacun des 3 000 membres autour de quatre principes : exigence du service, sens de l’écoute et confidentialité.
+Fondée en 2007, la marque sur mesure du groupe [[Orange]] se distingue par des prestations numériques personnalisées : connectivité à la maison ou sur le lieu de travail, sécurité, forfaits exclusifs très généreux à l’international… Un coach digital particulier, disponible 24 h/24, accompagne chacun des 3 000 membres autour de quatre principes : exigence du service, sens de l’écoute et confidentialité.
 
 Chefs, architectes, grands patrons, sportifs ou entrepreneurs : les profils sont variés. « _Pour faire vivre ce cercle et favoriser le networking, nous créons des “moments d’exception” et des expériences exclusives autour de l’art de vivre, la culture et l’innovation technologique_ », souligne Niva Sintès, directrice générale.
 

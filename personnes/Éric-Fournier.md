@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Éric Fournier, diplomate. Ne(e) le 1959-10-07 a Paris. Formation : université Paris-Sorbonne.
+Éric Fournier, diplomate. Ne(e) le 1959-10-07 a Paris. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3591134

@@ -3,6 +3,10 @@ date_creation_note: '2026-03-12'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Antoine Pecqueur
+- Conservatoire national supérieur de musique et de danse de Lyon
+- Le siècle
 nom_complet: Conservatoire national supérieur de musique et de danse
 sources:
 - https://www.wikidata.org/entity/Q2994538

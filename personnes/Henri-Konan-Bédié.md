@@ -7,6 +7,11 @@ education: université de Poitiers
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Emmanuel Laurentin
+- Leïla Kaddour-Boudadi
+- Marie-France Garaud
+- Richard Escot
 nationality: francaise
 nom_complet: Henri Konan Bédié
 occupation: personnalité politique

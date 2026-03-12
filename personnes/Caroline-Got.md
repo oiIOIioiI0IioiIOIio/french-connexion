@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Caroline Got, journaliste. Ne(e) le 1964-01-01. Formation : Institut d'études politiques de Paris.
+Caroline Got, journaliste. Ne(e) le 1964-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q20730478

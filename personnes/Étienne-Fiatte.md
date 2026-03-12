@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Étienne Fiatte, diplomate. Ne(e) le 1958-05-20. Formation : HEC Paris.
+Étienne Fiatte, diplomate. Ne(e) le 1958-05-20. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q68034457

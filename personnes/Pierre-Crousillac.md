@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Crousillac, militaire. Ne(e) le 1921-11-14 a Brive-la-Gaillarde. Formation : École polytechnique.
+Pierre Crousillac, militaire. Ne(e) le 1921-11-14 a Brive-la-Gaillarde. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3384578

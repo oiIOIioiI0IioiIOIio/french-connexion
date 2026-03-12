@@ -10,6 +10,9 @@ keywords:
 - Macron
 - économie
 - finances
+liens:
+- Georges Pompidou
+- Valéry Giscard d’Estaing
 nationality: française
 nom_complet: Bruno Le Maire
 occupation: homme politique, écrivain

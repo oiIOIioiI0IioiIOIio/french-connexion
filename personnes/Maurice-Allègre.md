@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Maurice Allègre, informaticien ou informaticienne. Ne(e) le 1933-02-16 a Antibes. Formation : École polytechnique.
+Maurice Allègre, informaticien ou informaticienne. Ne(e) le 1933-02-16 a Antibes. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3300318

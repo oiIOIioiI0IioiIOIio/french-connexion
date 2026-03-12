@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Joël Tissier, personnalité du monde des affaires. Ne(e) le 1984-12-30 a Clermont-Ferrand. Formation : EM Lyon Business School.
+Joël Tissier, personnalité du monde des affaires. Ne(e) le 1984-12-30 a Clermont-Ferrand. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q113645899

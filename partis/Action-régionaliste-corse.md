@@ -17,4 +17,4 @@ type: Parti
 wikidata_id: Q56310810
 ---
 
-Action régionaliste corse, parti politique francais.
+[[Action]] régionaliste corse, parti politique francais.

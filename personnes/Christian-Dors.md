@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christian Dors, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1954-04-30 a Montpellier. Formation : École normale supérieure.
+Christian Dors, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1954-04-30 a Montpellier. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q61638538

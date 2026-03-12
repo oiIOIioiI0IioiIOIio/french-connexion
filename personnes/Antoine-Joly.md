@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Antoine Joly, personnalité politique. Ne(e) le 1955-07-16 a Le Mans. Formation : Institut d'études politiques de Paris.
+Antoine Joly, personnalité politique. Ne(e) le 1955-07-16 a Le Mans. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2854096

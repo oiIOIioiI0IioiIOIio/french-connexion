@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Caroline Puel, journaliste. Ne(e) le 1963-10-01. Formation : Institut d'études politiques de Paris.
+Caroline Puel, journaliste. Ne(e) le 1963-10-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q28938940

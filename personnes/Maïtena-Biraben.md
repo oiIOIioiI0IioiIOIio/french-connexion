@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Maïtena Biraben, écrivain ou écrivaine. Ne(e) le 1967-07-02 a Saint-Denis. Formation : université Paris-I-Panthéon-Sorbonne.
+Maïtena Biraben, écrivain ou écrivaine. Ne(e) le 1967-07-02 a Saint-Denis. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3303416

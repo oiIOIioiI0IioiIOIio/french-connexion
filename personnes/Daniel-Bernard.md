@@ -7,6 +7,18 @@ education: lycée du Parc
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Anne Joubert
+- Antoine de Tarlé
+- Bruno Cotte
+- Christophe Barbier
+- Christophe Deloire
+- Claude Alphandéry
+- Frédéric Rebet
+- Guillaume Ancel
+- Guy Deniélou
+- Léon Tabah
+- Pascal Confavreux
 nationality: francaise
 nom_complet: Daniel Bernard
 occupation: diplomate

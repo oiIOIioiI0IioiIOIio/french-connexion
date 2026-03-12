@@ -7,6 +7,12 @@ education: université de Versailles-Saint-Quentin-en-Yvelines
 genre: féminin
 keywords:
 - journaliste
+liens:
+- François-Xavier Bourmaud
+- Jérôme Salomon
+- Martin Pénet
+- Nicolas Barotte
+- Tugdual de Dieuleveult
 nationality: francaise
 nom_complet: Isabelle Saporta
 occupation: journaliste

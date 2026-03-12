@@ -3,6 +3,8 @@ date_creation_note: '2026-03-12'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Pierre Hug
 nom_complet: Faculté de droit de Grenoble
 sources:
 - https://www.wikidata.org/entity/Q66619320

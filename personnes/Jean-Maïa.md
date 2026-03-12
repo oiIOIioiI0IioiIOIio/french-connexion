@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean Maïa, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1970-06-24 a Antibes. Formation : École normale supérieure.
+Jean Maïa, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1970-06-24 a Antibes. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33105423

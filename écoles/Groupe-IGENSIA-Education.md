@@ -5,6 +5,18 @@ headquarters: Paris
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Anouar Benmalek
+- Charlotte d'Ornellas
+- David Servan-Schreiber
+- Fanny Agostini
+- Guillaume Robin
+- Gurvan Kristanadjaja
+- Jesse E. Moorland
+- Mariella Esvant
+- Milie Taing
+- Nicolas Berrod
+- Nicolas Ferrand
 nom_complet: Groupe IGENSIA Education
 sources:
 - https://www.wikidata.org/entity/Q74353417

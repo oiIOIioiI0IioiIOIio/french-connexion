@@ -18,4 +18,4 @@ website: https://www.carrefour.com
 wikidata_id: Q217599
 ---
 
-Carrefour, entreprise francaise.
+[[Carrefour]], entreprise francaise.

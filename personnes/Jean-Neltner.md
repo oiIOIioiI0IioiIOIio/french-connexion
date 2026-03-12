@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean Neltner, personnalité du monde des affaires. Ne(e) le 1970-02-05 a Sainte-Foy-lès-Lyon. Formation : EM Lyon Business School.
+Jean Neltner, personnalité du monde des affaires. Ne(e) le 1970-02-05 a Sainte-Foy-lès-Lyon. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33103305

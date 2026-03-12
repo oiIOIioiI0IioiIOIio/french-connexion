@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christian Albecker, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1955-05-03 a Strasbourg. Formation : École polytechnique.
+Christian Albecker, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1955-05-03 a Strasbourg. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q15406889

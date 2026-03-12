@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Florence Roussel, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1959-03-11 a Paris.
+[[Florence Rousse]]l, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1959-03-11 a Paris.
 
 ## Sources
 - http://www.wikidata.org/entity/Q33218613

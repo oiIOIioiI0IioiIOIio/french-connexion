@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Benoît Laporte, journaliste. Ne(e) le 1956-01-01 a Jarnac. Formation : Institut d'études politiques de Paris.
+Benoît Laporte, journaliste. Ne(e) le 1956-01-01 a Jarnac. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2896563

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Édith Cresson, personnalité politique. Ne(e) le 1934-01-27 a Boulogne-Billancourt. Formation : HEC Jeunes Filles.
+Édith Cresson, personnalité politique. Ne(e) le 1934-01-27 a Boulogne-Billancourt. Formation : [[HEC Jeunes Filles]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q230861

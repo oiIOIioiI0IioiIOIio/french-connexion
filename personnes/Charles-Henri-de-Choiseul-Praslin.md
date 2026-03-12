@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Charles-Henri de Choiseul Praslin, avocat ou avocate. Ne(e) le 1944-03-05 a Casablanca. Formation : Institut d'études politiques de Paris.
+Charles-Henri de Choiseul Praslin, avocat ou avocate. Ne(e) le 1944-03-05 a Casablanca. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q62998762

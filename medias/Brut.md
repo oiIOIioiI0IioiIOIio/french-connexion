@@ -4,6 +4,8 @@ founded: '2013-11-01'
 keywords:
 - media
 - presse
+liens:
+- Thibaut Bruttin
 nom_complet: Brut
 owner: CMA CGM
 sources:

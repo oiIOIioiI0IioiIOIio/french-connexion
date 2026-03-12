@@ -7,6 +7,8 @@ education: université Toulouse III
 genre: masculin
 keywords:
 - médecin
+liens:
+- Emmanuelle Soubeyran
 nationality: francaise
 nom_complet: Philippe Douste-Blazy
 occupation: médecin

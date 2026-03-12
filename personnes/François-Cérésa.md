@@ -7,6 +7,8 @@ education: Cours Simon
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Sylvie Joly
 nationality: francaise
 nom_complet: François Cérésa
 occupation: journaliste

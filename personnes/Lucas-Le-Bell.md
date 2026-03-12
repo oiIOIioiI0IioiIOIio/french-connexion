@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Lucas Le Bell, personnalité du monde des affaires. Ne(e) le 1989-09-17 a 16e arrondissement de Paris. Formation : EM Lyon Business School.
+Lucas Le Bell, personnalité du monde des affaires. Ne(e) le 1989-09-17 a 16e arrondissement de Paris. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q132853055

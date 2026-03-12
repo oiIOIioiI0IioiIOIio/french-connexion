@@ -7,6 +7,12 @@ education: université de Rouen-Normandie
 genre: masculin
 keywords:
 - politologue
+liens:
+- Audrey Pulvar
+- Benoît Duteurtre
+- Guillaume Jobin
+- Paul-Jacques Lehmann
+- Vincent Hommeril
 nationality: francaise
 nom_complet: Emmanuel Ratier
 occupation: politologue

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Servan-Schreiber, avocat ou avocate. Ne(e) le 1955-05-14 a Paris. Formation : université Paris-I-Panthéon-Sorbonne.
+Pierre Servan-Schreiber, avocat ou avocate. Ne(e) le 1955-05-14 a Paris. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3386988

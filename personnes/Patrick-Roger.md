@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Patrick Roger, journaliste. Ne(e) le 1965-08-12 a Manche. Formation : université Paris-I-Panthéon-Sorbonne.
+Patrick Roger, journaliste. Ne(e) le 1965-08-12 a Manche. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3369820

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Christophe Donnellier, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1959-08-20 a Bordeaux. Formation : École polytechnique.
+Jean-Christophe Donnellier, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1959-08-20 a Bordeaux. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33105201

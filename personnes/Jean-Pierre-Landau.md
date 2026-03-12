@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Pierre Landau, économiste. Ne(e) le 1946-11-01 a Paris. Formation : HEC Paris.
+Jean-Pierre Landau, économiste. Ne(e) le 1946-11-01 a Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q6169919

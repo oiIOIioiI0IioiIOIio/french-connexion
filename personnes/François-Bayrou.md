@@ -11,15 +11,31 @@ keywords:
 - macron
 - ministre
 liens:
-- Jean Lecanuet
+- Abraham Lincoln
 - Alain Juppé
+- Amschel Moses Rothschild
+- Augustin Hamon
+- Betty de Rothschild
+- Calixte Bayrou (père)
+- Carter G. Woodson
+- Donald Oliver
 - Emma Bayrou, née Sarthou (mère)
-- Lucienne Marot, née Bayrou (sœur)
 - Emmanuel Macron
+- Famille Rothschild
+- Henri de Rothschild
+- James de Rothschild
+- Jean Augustine
+- Jean Lecanuet
+- Jesse E. Moorland
+- Jules Grévy
+- Lucienne Marot, née Bayrou (sœur)
+- Mayer Amschel Rothschild
+- Michel Barnier
+- Mélina Seymour
+- Nathan Mayer Rothschild (1777-1836)
+- Think tank
 - Édouard Balladur
 - Édouard Philippe
-- Calixte Bayrou (père)
-- Michel Barnier
 nationality: français
 nom_complet: François Bayrou
 occupation: homme d'État français
@@ -87,10 +103,10 @@ François Bayrou est un homme d'État français, professeur agrégé de lettres 
 - Député européen (1999)
 - Maire de Pau (2014)
 - Ministre de l'Éducation nationale (1993-1997)
-- Président du Centre des démocrates sociaux (CDS) (1994-1995)
-- Président de Force démocrate (FD) (1995-1998)
+- Président du [[Centre des démocrates sociaux]] (CDS) (1994-1995)
+- Président de [[Force démocrate]] (FD) (1995-1998)
 - Président de l'Union pour la démocratie française (UDF) (1998-2007)
-- Fondateur et président du Mouvement démocrate (MoDem) (depuis 2007)
+- Fondateur et président du [[Mouvement démocrate]] (MoDem) (depuis 2007)
 - Ministre de la Justice (2017)
 - Haut-commissaire au plan (2020)
 - Premier ministre (2024-2025)

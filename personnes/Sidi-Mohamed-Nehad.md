@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sidi-Mohamed Nehad, diplomate. Ne(e) le 1978-06-06. Formation : Institut d'études politiques de Paris.
+Sidi-Mohamed Nehad, diplomate. Ne(e) le 1978-06-06. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q120647937

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Henri Poncet, militaire. Ne(e) le 1949-10-04 a Oran. Formation : école spéciale militaire de Saint-Cyr.
+Henri [[Ponce]]t, militaire. Ne(e) le 1949-10-04 a Oran. Formation : école spéciale militaire de Saint-Cyr.
 
 ## Sources
 - http://www.wikidata.org/entity/Q3131818

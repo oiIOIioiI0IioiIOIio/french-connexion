@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Philippe Delpuech, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1944-11-18 a Aurillac. Formation : université Paris-Sorbonne.
+Philippe Delpuech, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1944-11-18 a Aurillac. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q133616809

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Yves Chiron, historien ou historienne. Ne(e) le 1960-10-18 a Notre-Dame-de-la-Rouvière. Formation : université Paris-Sorbonne.
+Yves Chiron, historien ou historienne. Ne(e) le 1960-10-18 a Notre-Dame-de-la-Rouvière. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3573558

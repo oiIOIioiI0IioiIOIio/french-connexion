@@ -7,6 +7,20 @@ education: Université Harvard
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Alfred Galichon
+- Claude-Éric Paquin
+- Ernest-Antoine Seillière
+- François Jackow
+- Frédéric X de Danemark
+- Jacques Lagarde
+- Jean-Luc Sibiude
+- Laure Mandeville
+- Michel François-Poncet
+- Peter Turnley
+- Pierre Lellouche
+- Renée Kaplan
+- Simon Kuper
 nationality: francaise
 nom_complet: Geoffroy Didier
 occupation: avocat ou avocate

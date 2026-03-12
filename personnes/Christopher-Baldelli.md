@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christopher Baldelli, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1965-02-10 a Sarralbe. Formation : École normale supérieure.
+Christopher Baldelli, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1965-02-10 a Sarralbe. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2966542

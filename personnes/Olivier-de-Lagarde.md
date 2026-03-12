@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Olivier de Lagarde, journaliste. Ne(e) le 1965-09-05 a Paris. Formation : université Paris-I-Panthéon-Sorbonne.
+Olivier de Lagarde, journaliste. Ne(e) le 1965-09-05 a Paris. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3351454

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-David Abiker, journaliste. Ne(e) le 1969-02-11 a Suresnes. Formation : Institut d'études politiques de Paris.
+David Abiker, journaliste. Ne(e) le 1969-02-11 a Suresnes. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3017351

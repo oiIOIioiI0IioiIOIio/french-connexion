@@ -7,6 +7,13 @@ education: Institut d’études politiques de Lille
 genre: féminin
 keywords:
 - enseignant ou enseignante
+liens:
+- Astrid de Villaines
+- Céline Rousseaux
+- Frédéric Vion
+- Lucie Chaumette
+- Pierre Alonso
+- Étienne Campion
 nationality: francaise
 nom_complet: Marine Turchi
 occupation: enseignant ou enseignante
@@ -22,7 +29,7 @@ tags:
 type: Personne
 ---
 
-Marine Turchi, enseignant ou enseignante. Ne(e) le 1982-01-01. Formation : Institut d’études politiques de Lille.
+[[Marine]] Turchi, enseignant ou enseignante. Ne(e) le 1982-01-01. Formation : [[Institut d’études politiques de Lille]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33313264

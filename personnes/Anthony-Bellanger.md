@@ -7,6 +7,9 @@ education: université d'Angers
 genre: masculin
 keywords:
 - historien ou historienne
+liens:
+- Karim Rissouli
+- Olivier Ménard
 nationality: francaise
 nom_complet: Anthony Bellanger
 occupation: historien ou historienne

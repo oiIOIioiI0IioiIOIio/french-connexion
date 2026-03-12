@@ -7,6 +7,15 @@ education: université de Caen-Normandie
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Alain Tourret
+- Céline Asselot
+- Denis Brogniart
+- Guillaume Bazard
+- Jean-Marie Girault
+- Jean-Paul Ollivier
+- Marie-Annick Bourdin
+- Olivier Metzner
 nationality: francaise
 nom_complet: Christine Kerdellant
 occupation: écrivain ou écrivaine

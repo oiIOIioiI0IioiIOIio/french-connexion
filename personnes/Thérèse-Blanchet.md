@@ -7,6 +7,15 @@ education: Université de Genève
 genre: féminin
 keywords:
 - avocat ou avocate
+liens:
+- Agnès Giard
+- Bernard Anthonioz
+- Béatrice Métraux
+- Christophe Lemoine
+- Dominique Warluzel
+- Edmond de Rothschild
+- Richard Labévière
+- Yves Nidegger
 nationality: francaise
 nom_complet: Thérèse Blanchet
 occupation: avocat ou avocate

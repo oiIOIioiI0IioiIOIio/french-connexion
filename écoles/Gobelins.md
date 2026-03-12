@@ -4,6 +4,8 @@ founded: '1975-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Olivier Coipel
 nom_complet: Gobelins
 sources:
 - https://www.wikidata.org/entity/Q3109591

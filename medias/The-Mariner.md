@@ -17,4 +17,4 @@ website: https://themarinernews.wordpress.com/
 wikidata_id: Q7750321
 ---
 
-The Mariner, media francais.
+The [[Marine]]r, media francais.

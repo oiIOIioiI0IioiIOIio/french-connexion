@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean Menguy, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1925-09-11 a Guingamp. Formation : Institut d'études politiques de Paris.
+Jean Menguy, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1925-09-11 a Guingamp. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q51053459

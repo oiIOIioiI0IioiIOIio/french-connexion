@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nils Ahl, traducteur ou traductrice. Ne(e) le 1977-06-24. Formation : Institut d'études politiques de Paris.
+Nils Ahl, traducteur ou traductrice. Ne(e) le 1977-06-24. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q109467082

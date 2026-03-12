@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Xavier Lapeyre de Cabanes, diplomate. Ne(e) le 1963-12-29 a Neuilly-sur-Seine. Formation : Institut d'études politiques de Paris.
+Xavier Lapeyre de Cabanes, diplomate. Ne(e) le 1963-12-29 a Neuilly-sur-Seine. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q26878342

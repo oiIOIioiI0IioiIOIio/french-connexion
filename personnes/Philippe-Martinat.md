@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Philippe Martinat, journaliste. Ne(e) le 1958-01-01.
+[[Philippe Martin]]at, journaliste. Ne(e) le 1958-01-01.
 
 ## Sources
 - http://www.wikidata.org/entity/Q52554986

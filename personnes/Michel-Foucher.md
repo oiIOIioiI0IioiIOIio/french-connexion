@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Michel Foucher, diplomate. Ne(e) le 1946-08-06. Formation : université Paris-I-Panthéon-Sorbonne.
+Michel Foucher, diplomate. Ne(e) le 1946-08-06. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3309648

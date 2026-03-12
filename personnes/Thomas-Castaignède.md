@@ -7,6 +7,9 @@ education: Université de Toulouse
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Jean-François Casabonne-Masonnave
+- Pierre Pluchon
 nationality: francaise
 nom_complet: Thomas Castaignède
 occupation: journaliste
@@ -22,7 +25,7 @@ tags:
 type: Personne
 ---
 
-Thomas Castaignède, journaliste. Ne(e) le 1975-01-21 a Mont-de-Marsan. Formation : Université de Toulouse.
+Thomas Castaignède, journaliste. Ne(e) le 1975-01-21 a Mont-de-Marsan. Formation : [[Université de Toulouse]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3524979

@@ -7,6 +7,10 @@ education: Université de Montréal
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Annabel Loyola
+- Didier Charpin
+- Michaëlle Jean
 nationality: francaise
 nom_complet: Dominique Alhéritière
 occupation: haut fonctionnaire ou haute fonctionnaire

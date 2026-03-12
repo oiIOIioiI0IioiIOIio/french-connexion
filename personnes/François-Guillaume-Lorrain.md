@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-François-Guillaume Lorrain, traducteur ou traductrice. Ne(e) le 1970-01-01 a Boulogne-Billancourt. Formation : École normale supérieure.
+François-Guillaume Lorrain, traducteur ou traductrice. Ne(e) le 1970-01-01 a Boulogne-Billancourt. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3083372

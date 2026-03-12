@@ -7,6 +7,8 @@ education: Faculté des lettres de Sorbonne Université
 genre: masculin
 keywords:
 - historien ou historienne
+liens:
+- Jennifer Lesieur
 nationality: francaise
 nom_complet: Louis Manaranche
 occupation: historien ou historienne
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Louis Manaranche, historien ou historienne. Ne(e) le 1987-01-01. Formation : Faculté des lettres de Sorbonne Université.
+Louis Manaranche, historien ou historienne. Ne(e) le 1987-01-01. Formation : Faculté des lettres de [[Sorbonne Université]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q41739820

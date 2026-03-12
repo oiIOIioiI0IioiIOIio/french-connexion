@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christian Chesnot, journaliste. Ne(e) le 1966-04-24 a Paris. Formation : Institut d'études politiques de Paris.
+Christian Chesnot, journaliste. Ne(e) le 1966-04-24 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2965155

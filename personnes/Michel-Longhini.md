@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel Longhini, personnalité du monde des affaires. Ne(e) le 1966-03-05 a Dijon. Formation : EM Lyon Business School.
+Michel Longhini, personnalité du monde des affaires. Ne(e) le 1966-03-05 a Dijon. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q119043940

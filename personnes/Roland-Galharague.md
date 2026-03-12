@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Roland Galharague, diplomate. Ne(e) le 1961-03-13. Formation : École normale supérieure.
+Roland Galharague, diplomate. Ne(e) le 1961-03-13. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q46916768

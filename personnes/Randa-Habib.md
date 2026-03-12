@@ -7,6 +7,9 @@ education: université Saint-Joseph de Beyrouth
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Mohamed ben Laden
+- Salah Stétié
 nationality: francaise
 nom_complet: Randa Habib
 occupation: journaliste

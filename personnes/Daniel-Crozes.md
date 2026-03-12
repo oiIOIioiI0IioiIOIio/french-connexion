@@ -7,6 +7,13 @@ education: université Toulouse-Jean-Jaurès
 genre: masculin
 keywords:
 - historien ou historienne
+liens:
+- Agathe Auproux
+- Aure Séguier
+- Georges Landais
+- Hélène Jouan
+- Jean-Luc Barré
+- Jean-Yves Le Talec
 nationality: francaise
 nom_complet: Daniel Crozes
 occupation: historien ou historienne

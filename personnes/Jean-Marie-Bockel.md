@@ -7,6 +7,24 @@ education: université de Strasbourg
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Antoine Genton
+- Barto Pedro Orent-Niedzielski
+- Bertrand Mertz
+- Christian Kassel
+- Christian Nique
+- Christophe Grudler
+- Francis Letellier
+- François Hoehlinger
+- Françoise Joly
+- Jean Kahn
+- Jean-Baptiste Soufron
+- Louis Oster
+- Marie-Monique Robin
+- Patrick Strzoda
+- Raymond Forni
+- Romain Mielcarek
+- Érick Cakpo
 nationality: francaise
 nom_complet: Jean-Marie Bockel
 occupation: avocat ou avocate

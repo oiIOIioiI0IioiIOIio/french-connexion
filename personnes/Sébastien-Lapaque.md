@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sébastien Lapaque, écrivain ou écrivaine. Ne(e) le 1971-02-02 a Tübingen. Formation : université Paris-Sorbonne.
+Sébastien Lapaque, écrivain ou écrivaine. Ne(e) le 1971-02-02 a Tübingen. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q762908

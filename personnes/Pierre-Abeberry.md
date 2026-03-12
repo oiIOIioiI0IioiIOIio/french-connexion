@@ -7,6 +7,12 @@ education: université de Bordeaux
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Eneko Bidegain
+- Mahamat Saleh Haroun
+- Marc Saikali
+- Pierre Camou
+- Violaine de Filippis-Abate
 nationality: francaise
 nom_complet: Pierre Abeberry
 occupation: avocat ou avocate

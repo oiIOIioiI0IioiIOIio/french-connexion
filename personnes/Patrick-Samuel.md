@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Patrick Samuel, écrivain ou écrivaine. Ne(e) le 1948-01-01 a Luxeuil-les-Bains. Formation : HEC Paris.
+Patrick Samuel, écrivain ou écrivaine. Ne(e) le 1948-01-01 a Luxeuil-les-Bains. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16267424

@@ -7,6 +7,13 @@ education: Université de Chicago
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Arnaud Péricard
+- Claude Fouquet
+- Diego Buñuel
+- Emmanuel Roman
+- François Morin
+- Marc-Olivier Strauss-Kahn
 nationality: francaise
 nom_complet: Pierre R. Graham
 occupation: diplomate

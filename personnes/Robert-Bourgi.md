@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Robert Bourgi, avocat ou avocate. Ne(e) le 1945-04-04 a Dakar. Formation : université Paris-I-Panthéon-Sorbonne.
+Robert Bourgi, avocat ou avocate. Ne(e) le 1945-04-04 a Dakar. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3434633

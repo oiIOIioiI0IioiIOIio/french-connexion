@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bertrand Rambaud, personnalité du monde des affaires. Ne(e) le 1964-02-01 a Saint-Étienne. Formation : EM Lyon Business School.
+Bertrand Rambaud, personnalité du monde des affaires. Ne(e) le 1964-02-01 a Saint-Étienne. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q110164848

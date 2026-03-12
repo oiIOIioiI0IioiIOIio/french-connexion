@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jacques Biot, ingénieur. Ne(e) le 1952-12-06 a 6e arrondissement de Lyon. Formation : École polytechnique.
+Jacques Biot, ingénieur. Ne(e) le 1952-12-06 a 6e arrondissement de Lyon. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q14646996

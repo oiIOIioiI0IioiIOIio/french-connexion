@@ -7,6 +7,23 @@ education: université Paris-Dauphine
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Alain Cotta
+- Antoine Le Conte
+- Delphine Vitry
+- Gabrielle Cluzel
+- Gildas Sagot
+- Joëlle Pellegrin
+- Jérôme Chapuis
+- Laurent Aléonard
+- Nolwenn Le Blevennec
+- Philippe Dupont
+- Philippe Verdier
+- Pierre-François Blanc
+- Raphael Kahane
+- Sébastien Romelot
+- Xavier de Moulins
+- Yassine Redissi
 nationality: francaise
 nom_complet: Claude Askolovitch
 occupation: journaliste
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Claude Askolovitch, journaliste. Ne(e) le 1962-12-18 a Paris. Formation : université Paris-Dauphine.
+Claude Askolovitch, journaliste. Ne(e) le 1962-12-18 a Paris. Formation : [[Université Paris-Dauphine]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2976907

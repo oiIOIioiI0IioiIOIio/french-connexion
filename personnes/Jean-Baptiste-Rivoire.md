@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Baptiste Rivoire, journaliste. Ne(e) le 1966-11-01 a Cambrai. Formation : Centre de formation des journalistes.
+Jean-Baptiste Rivoire, journaliste. Ne(e) le 1966-11-01 a Cambrai. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3164405

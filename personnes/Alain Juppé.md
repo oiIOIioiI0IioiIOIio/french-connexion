@@ -10,6 +10,9 @@ keywords:
 - maire
 - Bordeaux
 - réseau d'influence
+liens:
+- Emmanuel Macron
+- Lionel Jospin
 nationality: française
 nom_complet: Alain Juppé
 occupation: homme d'État

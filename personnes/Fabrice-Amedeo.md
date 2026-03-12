@@ -7,6 +7,10 @@ education: Institut d'études politiques
 genre: masculin
 keywords:
 - navigateur ou navigatrice
+liens:
+- Alain Walmetz
+- Mohamed Bengaouer
+- Pierre Lise
 nationality: francaise
 nom_complet: Fabrice Amedeo
 occupation: navigateur ou navigatrice

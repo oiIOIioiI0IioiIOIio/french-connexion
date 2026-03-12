@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Antoine-Tristan Mocilnikar, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1966-01-01. Formation : École polytechnique.
+Antoine-Tristan Mocilnikar, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1966-01-01. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50392304

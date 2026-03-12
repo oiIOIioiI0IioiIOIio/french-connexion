@@ -7,6 +7,14 @@ education: université de Cambridge
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Arnold Philibert Dubois
+- Frédéric Dal Vecchio
+- Guy Danet
+- Gérald Olivier
+- Ingrid Therwath
+- Manon de La Selle
+- Myriam François-Cerrah
 nationality: francaise
 nom_complet: Henri Burin des Roziers
 occupation: avocat ou avocate

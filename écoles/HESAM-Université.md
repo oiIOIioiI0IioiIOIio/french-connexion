@@ -18,4 +18,4 @@ website: http://www.hesam.eu
 wikidata_id: Q3128622
 ---
 
-HESAM Université, etablissement d'enseignement superieur francais.
+[[HESAM]] Université, etablissement d'enseignement superieur francais.

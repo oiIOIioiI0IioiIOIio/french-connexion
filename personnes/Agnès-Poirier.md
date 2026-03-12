@@ -7,6 +7,14 @@ education: London School of Economics
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Achren Verdian
+- Christian Chavagneux
+- François Croquette
+- Lucie Castets
+- Olivier Guez
+- Roland Dumas
+- Thomas Andrieu
 nationality: francaise
 nom_complet: Agnès Poirier
 occupation: journaliste

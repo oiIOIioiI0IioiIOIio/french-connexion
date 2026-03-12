@@ -7,6 +7,8 @@ education: EFAP
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Sophie Jovillard
 nationality: francaise
 nom_complet: Stéphanie Brillant
 occupation: journaliste
@@ -21,7 +23,7 @@ tags:
 type: Personne
 ---
 
-Stéphanie Brillant, journaliste. Ne(e) le 1978-01-01. Formation : EFAP.
+Stéphanie Brillant, journaliste. Ne(e) le 1978-01-01. Formation : [[EFAP]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3502161

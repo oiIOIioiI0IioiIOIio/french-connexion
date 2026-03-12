@@ -7,6 +7,18 @@ education: Institut d'études politiques de Strasbourg
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Alain Thirion
+- Bernard Demange
+- François Ernenwein
+- Isabelle Donnadieu
+- Jean-Claude Erhmann
+- Jean-Pierre Lévy
+- Nicole Michelangeli
+- Olivier Razemon
+- Pascal Barollier
+- Valérie Hatsch
+- Élé Asu
 nationality: francaise
 nom_complet: Philippe Sutter
 occupation: diplomate

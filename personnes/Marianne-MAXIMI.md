@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marianne MAXIMI est depute a l'Assemblee nationale. Ne(e) le 1985-11-13.
+[[Marianne]] MAXIMI est depute a l'Assemblee nationale. Ne(e) le 1985-11-13.
 
 Fonction declaree HATVP : Députée du Puy-de-Dôme
 

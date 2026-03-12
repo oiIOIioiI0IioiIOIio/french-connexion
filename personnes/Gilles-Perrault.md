@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gilles Perrault, scénariste. Ne(e) le 1931-03-09 a 13e arrondissement de Paris. Formation : Institut d'études politiques de Paris.
+Gilles Perrault, scénariste. Ne(e) le 1931-03-09 a 13e arrondissement de Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q743035

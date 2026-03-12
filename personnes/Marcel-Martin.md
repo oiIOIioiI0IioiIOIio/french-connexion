@@ -7,6 +7,14 @@ education: faculté des lettres de Paris
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Alain Rouillard
+- Alexis Berelowitch
+- Claude Ambrosini
+- Jean-Claude Moreau
+- Marie-Françoise Hamard
+- Pierre Boillot
+- Pierre Lafrance
 nationality: francaise
 nom_complet: Marcel Martin
 occupation: diplomate
@@ -22,7 +30,7 @@ tags:
 type: Personne
 ---
 
-Marcel Martin, diplomate. Ne(e) le 1927-10-16. Formation : faculté des lettres de Paris.
+Marcel Martin, diplomate. Ne(e) le 1927-10-16. Formation : [[faculté des lettres de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q125453378

@@ -7,6 +7,14 @@ education: London School of Economics
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Achren Verdian
+- Agnès Poirier
+- Christian Chavagneux
+- François Croquette
+- Lucie Castets
+- Olivier Guez
+- Roland Dumas
 nationality: francaise
 nom_complet: Thomas Andrieu
 occupation: haut fonctionnaire ou haute fonctionnaire

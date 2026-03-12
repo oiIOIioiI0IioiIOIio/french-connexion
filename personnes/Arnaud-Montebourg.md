@@ -7,6 +7,14 @@ education: université Bourgogne Europe
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Emmanuel Berretta
+- Francis Vuillemin
+- François Baroin
+- Jean-Louis Beaucarnot
+- Jean-Michel Djian
+- Katalin Escher
+- Sophie Dion
 nationality: francaise
 nom_complet: Arnaud Montebourg
 occupation: avocat ou avocate

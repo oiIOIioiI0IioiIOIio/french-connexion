@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alexandra Echkenazi, scénariste. Ne(e) le 1973-01-01. Formation : université Paris-Sorbonne.
+Alexandra Echkenazi, scénariste. Ne(e) le 1973-01-01. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q110525726

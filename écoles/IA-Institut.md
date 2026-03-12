@@ -4,6 +4,8 @@ founded: '2021-10-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Pierre Clostermann
 nom_complet: IA Institut
 sources:
 - https://www.wikidata.org/entity/Q124286767

@@ -7,6 +7,12 @@ education: université Bordeaux-IV
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Hugues Moutouh
+- Julie Owono
+- Julien Courbet
+- Myriam El Khomri
+- Élise Costa
 nationality: francaise
 nom_complet: Mathilde Munos
 occupation: journaliste

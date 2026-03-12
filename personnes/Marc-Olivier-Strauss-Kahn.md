@@ -7,6 +7,13 @@ education: Université de Chicago
 genre: masculin
 keywords:
 - économiste
+liens:
+- Arnaud Péricard
+- Claude Fouquet
+- Diego Buñuel
+- Emmanuel Roman
+- François Morin
+- Pierre R. Graham
 nationality: francaise
 nom_complet: Marc-Olivier Strauss-Kahn
 occupation: économiste

@@ -7,6 +7,12 @@ education: université d'Aix-Marseille
 genre: féminin
 keywords:
 - photographe
+liens:
+- Bernard Squarcini
+- Christophe Castaner
+- Christophe Penot
+- François Beaudonnet
+- Julien Larregue
 nationality: francaise
 nom_complet: Sarah Caron
 occupation: photographe

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel Martaguet, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1927-06-03 a Paris. Formation : Institut d'études politiques de Paris.
+Michel Martaguet, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1927-06-03 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q111262202

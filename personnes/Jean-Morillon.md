@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean Morillon, diplomate. Ne(e) le 1921-05-08. Formation : Institut d'études politiques de Paris.
+Jean Morillon, diplomate. Ne(e) le 1921-05-08. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3173606

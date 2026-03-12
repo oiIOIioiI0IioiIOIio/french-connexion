@@ -7,6 +7,13 @@ education: université Paris-Diderot
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Caroline Toutain
+- Christine Bravo
+- Hervé Le Tellier
+- Mélanie Kuszelewicz
+- Odile Ambry
+- Tristan Ranx
 nationality: francaise
 nom_complet: Nora Bouazzouni
 occupation: écrivain ou écrivaine

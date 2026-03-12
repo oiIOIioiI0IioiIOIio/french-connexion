@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Thierry Thomas, personnalité du monde des affaires. Ne(e) le 1953-01-02 a Paris. Formation : EM Lyon Business School.
+Thierry Thomas, personnalité du monde des affaires. Ne(e) le 1953-01-02 a Paris. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q131106008

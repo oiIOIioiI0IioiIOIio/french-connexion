@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gaëtan Bruel, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1988-01-01. Formation : École normale supérieure.
+Gaëtan Bruel, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1988-01-01. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q114860829

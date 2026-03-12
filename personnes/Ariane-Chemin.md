@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Ariane Chemin, journaliste. Ne(e) le 1962-05-07 a France. Formation : Institut d'études politiques de Paris.
+Ariane Chemin, journaliste. Ne(e) le 1962-05-07 a France. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2861184

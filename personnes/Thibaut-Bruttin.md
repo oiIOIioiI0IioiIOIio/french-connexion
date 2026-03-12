@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Thibaut Bruttin, journaliste. Ne(e) le 1987-01-01. Formation : Institut d'études politiques de Paris.
+Thibaut [[Brut]]tin, journaliste. Ne(e) le 1987-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q122872391

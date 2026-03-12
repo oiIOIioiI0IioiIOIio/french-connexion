@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Fabrice Fries, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1960-03-11 a Lyon. Formation : École normale supérieure.
+Fabrice Fries, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1960-03-11 a Lyon. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33102045

@@ -18,4 +18,4 @@ type: Parti
 wikidata_id: Q3236041
 ---
 
-Les Verts Pacifique, parti politique francais.
+[[Les Verts]] Pacifique, parti politique francais.

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Chloé Nabédian, présentateur météo. Ne(e) le 1985-09-21 a Castres. Formation : université Paris-I-Panthéon-Sorbonne.
+Chloé Nabédian, présentateur météo. Ne(e) le 1985-09-21 a Castres. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q24939415

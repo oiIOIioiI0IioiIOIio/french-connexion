@@ -7,6 +7,12 @@ education: université d'Aix-Marseille
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Bernard Squarcini
+- Christophe Castaner
+- Christophe Penot
+- Julien Larregue
+- Sarah Caron
 nationality: francaise
 nom_complet: François Beaudonnet
 occupation: journaliste

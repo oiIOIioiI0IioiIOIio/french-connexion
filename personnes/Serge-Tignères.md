@@ -7,6 +7,23 @@ education: Institut d'études politiques de Toulouse
 genre: masculin
 keywords:
 - scénariste
+liens:
+- Arnauld Champremier-Trigano
+- Audrey Crespo-Mara
+- Christian Authier
+- David Izzo
+- Grégor Trumel
+- Isabelle Sima
+- Jean-François Savy
+- Jean-Paul Gauzès
+- Mahdi Hacène
+- Maxime Switek
+- Michel Moutot
+- Pierre Benazet
+- Rodolphe Sambou
+- Roger Dumec
+- Stéphane Lauer
+- Sylvain Augier
 nationality: francaise
 nom_complet: Serge Tignères
 occupation: scénariste
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Serge Tignères, scénariste. Ne(e) le 1969-05-31. Formation : Institut d'études politiques de Toulouse.
+Serge Tignères, scénariste. Ne(e) le 1969-05-31. Formation : [[Institut d'études politiques de Toulouse]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q58424767

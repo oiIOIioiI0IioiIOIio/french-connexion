@@ -7,6 +7,13 @@ education: université Paris-Diderot
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Caroline Toutain
+- Hervé Le Tellier
+- Mélanie Kuszelewicz
+- Nora Bouazzouni
+- Odile Ambry
+- Tristan Ranx
 nationality: francaise
 nom_complet: Christine Bravo
 occupation: écrivain ou écrivaine

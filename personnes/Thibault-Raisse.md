@@ -7,6 +7,8 @@ education: Université de Sheffield
 genre: masculin
 keywords:
 - auteur
+liens:
+- Pascal Isoard-Thomas
 nationality: francaise
 nom_complet: Thibault Raisse
 occupation: auteur

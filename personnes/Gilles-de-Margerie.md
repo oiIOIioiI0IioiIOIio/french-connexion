@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gilles de Margerie, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1955-08-30 a Neuilly-sur-Seine. Formation : École normale supérieure.
+Gilles de Margerie, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1955-08-30 a Neuilly-sur-Seine. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33111780

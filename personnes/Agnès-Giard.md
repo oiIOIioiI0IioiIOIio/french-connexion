@@ -7,6 +7,15 @@ education: Université de Genève
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Bernard Anthonioz
+- Béatrice Métraux
+- Christophe Lemoine
+- Dominique Warluzel
+- Edmond de Rothschild
+- Richard Labévière
+- Thérèse Blanchet
+- Yves Nidegger
 nationality: francaise
 nom_complet: Agnès Giard
 occupation: écrivain ou écrivaine

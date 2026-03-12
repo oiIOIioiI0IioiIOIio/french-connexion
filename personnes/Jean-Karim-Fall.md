@@ -7,6 +7,53 @@ education: École supérieure de journalisme de Lille
 genre: masculin
 keywords:
 - correspondant local ou correspondante locale de presse
+liens:
+- Agnès Bonfillon
+- Alain Puiseux
+- Aurélie Darbouret
+- Benjamin Vincent
+- Benoît Collombat
+- Bernard Poirette
+- Béatrice Denaes
+- Bénédicte Tassart
+- Camille Crosnier
+- Chloé Andries
+- Christian Prudhomme
+- Christophe Delay
+- Claude Guibal
+- Cécile Bidault
+- Damien Mascret
+- Elsa Pallot
+- Floriane Louison
+- François Thomazeau
+- Jean-François Pérès
+- Jean-Luc Évin
+- Jean-Michel Bretonnier
+- Laurent Bazin
+- Laurent Obertone
+- Marc Mortelmans
+- Marlène Blin
+- Maïa Mazaurette
+- Mona Chollet
+- Odile Conseil
+- Olivier Nicklaus
+- Patrice Romedenne
+- Patricia Loison
+- Serge Bilé
+- Sophie-Marie Larrouy
+- Stéphane Foucart
+- Stéphane Soumier
+- Thierry Dugeon
+- Thomas Baumgartner
+- Tristan Waleckx
+- Tronchet
+- Ulysse Gosset
+- Yves Decaens
+- Élizabeth Martichoux
+- Élizabeth Tchoungui
+- Éric Bayle
+- Éric Faye
+- Éric Jouan
 nationality: francaise
 nom_complet: Jean-Karim Fall
 occupation: correspondant local ou correspondante locale de presse

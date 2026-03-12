@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Frédéric Lejeal, journaliste. Ne(e) le 1960-01-01. Formation : université Paris-I-Panthéon-Sorbonne.
+Frédéric Lejeal, journaliste. Ne(e) le 1960-01-01. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q136564898

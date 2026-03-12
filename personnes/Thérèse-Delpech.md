@@ -7,6 +7,10 @@ education: École normale supérieure de jeunes filles
 genre: féminin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Catherine Moisan
+- Dominique Dron
+- Michèle Gendreau-Massaloux
 nationality: francaise
 nom_complet: Thérèse Delpech
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Thérèse Delpech, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1948-02-11 a Versailles. Formation : École normale supérieure de jeunes filles.
+Thérèse Delpech, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1948-02-11 a Versailles. Formation : [[École normale supérieure]] de jeunes filles.
 
 ## Sources
 - http://www.wikidata.org/entity/Q3527342

@@ -7,6 +7,8 @@ education: lycée Henri-Poincaré de Nancy
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Pierre Pevel
 nationality: francaise
 nom_complet: Jacques Chartron
 occupation: personnalité politique

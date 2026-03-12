@@ -7,6 +7,11 @@ education: Cours Florent
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Alice Tumler
+- Caroline Vigneaux
+- Ponce
+- Sophie Avon
 nationality: francaise
 nom_complet: Laura Tenoudji
 occupation: journaliste

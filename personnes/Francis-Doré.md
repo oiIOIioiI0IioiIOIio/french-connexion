@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Francis Doré, avocat ou avocate. Ne(e) le 1933-05-04 a 16e arrondissement de Paris. Formation : Institut d'études politiques de Paris.
+Francis Doré, avocat ou avocate. Ne(e) le 1933-05-04 a 16e arrondissement de Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33288067

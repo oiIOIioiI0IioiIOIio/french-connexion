@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-François Dobelle, diplomate. Ne(e) le 1956-10-06 a Paris. Formation : Institut d'études politiques de Paris.
+Jean-François Dobelle, diplomate. Ne(e) le 1956-10-06 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33102856

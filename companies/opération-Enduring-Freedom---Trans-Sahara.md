@@ -15,4 +15,4 @@ type: Entreprise
 wikidata_id: Q2602154
 ---
 
-opération Enduring Freedom - Trans Sahara, entreprise francaise.
+[[opération Enduring Freedom]] - Trans Sahara, entreprise francaise.

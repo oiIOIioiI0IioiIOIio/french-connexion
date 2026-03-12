@@ -18,4 +18,4 @@ website: https://sante.sorbonne-universite.fr/
 wikidata_id: Q105981321
 ---
 
-Faculté de santé de Sorbonne Université, etablissement d'enseignement superieur francais.
+Faculté de santé de [[Sorbonne Université]], etablissement d'enseignement superieur francais.

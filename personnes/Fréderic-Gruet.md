@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Fréderic Gruet, personnalité politique. Ne(e) le 1980-01-01. Formation : École polytechnique.
+Fréderic Gruet, personnalité politique. Ne(e) le 1980-01-01. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q131675725

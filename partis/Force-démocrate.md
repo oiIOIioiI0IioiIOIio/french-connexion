@@ -5,6 +5,8 @@ headquarters: rue de l'Université
 keywords:
 - parti politique
 - politique
+liens:
+- François Bayrou
 nom_complet: Force démocrate
 sources:
 - https://www.wikidata.org/entity/Q3076886

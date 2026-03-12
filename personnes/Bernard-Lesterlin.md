@@ -7,6 +7,25 @@ education: Institut d'études politiques de Grenoble
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- André Vallini
+- Ariane Lavrilleux
+- Benjamin Sportouch
+- Camille Emmanuelle
+- Caroline Roux
+- Coralie Delaume
+- Fabien Escalona
+- Guillaume Daret
+- Jean-Dominique Merchet
+- Jean-Luc Névache
+- Lionel Astruc
+- Luc Bronner
+- Marine Chanel
+- Nicolas Geay
+- Olivier Revol
+- Paul Marchand
+- Roger Gros
+- Ronan Lancelot
 nationality: francaise
 nom_complet: Bernard Lesterlin
 occupation: personnalité politique
@@ -22,7 +41,7 @@ tags:
 type: Personne
 ---
 
-Bernard Lesterlin, personnalité politique. Ne(e) le 1949-09-18 a Vienne. Formation : Institut d'études politiques de Grenoble.
+Bernard Lesterlin, personnalité politique. Ne(e) le 1949-09-18 a Vienne. Formation : [[Institut d'études politiques de Grenoble]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2898240

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-François Girault, diplomate. Ne(e) le 1956-02-20 a Poitiers. Formation : Institut d'études politiques de Paris.
+Jean-François Girault, diplomate. Ne(e) le 1956-02-20 a Poitiers. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q1683992

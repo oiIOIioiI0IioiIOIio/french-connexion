@@ -5,6 +5,8 @@ ideology: démocratie chrétienne
 keywords:
 - parti politique
 - politique
+liens:
+- François Bayrou
 nom_complet: Centre des démocrates sociaux
 sources:
 - https://www.wikidata.org/entity/Q1054196

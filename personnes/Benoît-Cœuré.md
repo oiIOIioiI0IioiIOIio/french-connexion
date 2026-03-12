@@ -7,6 +7,8 @@ education: École d'économie de Paris
 genre: masculin
 keywords:
 - économiste
+liens:
+- Thomas Piketty
 nationality: francaise
 nom_complet: Benoît Cœuré
 occupation: économiste

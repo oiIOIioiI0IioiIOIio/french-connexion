@@ -7,6 +7,23 @@ education: université Paris-Dauphine
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Alain Cotta
+- Antoine Le Conte
+- Claude Askolovitch
+- Delphine Vitry
+- Gabrielle Cluzel
+- Gildas Sagot
+- Joëlle Pellegrin
+- Jérôme Chapuis
+- Laurent Aléonard
+- Nolwenn Le Blevennec
+- Philippe Dupont
+- Philippe Verdier
+- Pierre-François Blanc
+- Raphael Kahane
+- Xavier de Moulins
+- Yassine Redissi
 nationality: francaise
 nom_complet: Sébastien Romelot
 occupation: personnalité du monde des affaires
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Sébastien Romelot, personnalité du monde des affaires. Ne(e) le 1977-04-23 a Nogent-sur-Marne. Formation : université Paris-Dauphine.
+Sébastien Romelot, personnalité du monde des affaires. Ne(e) le 1977-04-23 a Nogent-sur-Marne. Formation : [[Université Paris-Dauphine]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q135218157

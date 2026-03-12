@@ -12,15 +12,31 @@ keywords:
 - confiance
 - von
 liens:
-- Betty von
-- Salomon Mayer von
-- Caroline Stern
-- James de Rothschild
-- Pierre Assouline
-- Napoléon III
-- Maurice Schlesinger
-- Jean-Auguste-Dominique Ingres
+- Abraham Lincoln
+- Amschel Moses Rothschild
 - Anna Hamilton
+- Augustin Hamon
+- Betty von
+- Caroline Stern
+- Carter G. Woodson
+- Donald Oliver
+- Famille Rothschild
+- François Bayrou
+- Henri de Rothschild
+- James de Rothschild
+- Jean Augustine
+- Jean-Auguste-Dominique Ingres
+- Jesse E. Moorland
+- Jules Grévy
+- Maurice Schlesinger
+- Mayer Amschel Rothschild
+- Mélina Seymour
+- Napoléon III
+- Nathan Mayer Rothschild (1777-1836)
+- Pierre Assouline
+- Salomon Mayer von
+- Think tank
+- Édouard Philippe
 nationality: ''
 nom_complet: Betty de Rothschild
 occupation: null
@@ -95,7 +111,7 @@ Betty von Rothschild, baronne de Rothschild, née le 5 juin 1805 à Francfort-su
 
 ### Associe
 
-- [[James de Rothschild]] : Mentionne dans le meme contexte: ...4) et est éduquée à Vienne.  Le 11 juillet 1824, à l'âge de 19 ans, elle épouse James de Rothschild, son oncle. Elle donne naissance à une fille, Charlotte (1825–1899), puis quatr... *(confiance: 80%)*
+- [[James de Rothschild]] : Mentionne dans le meme contexte: ...4) et est éduquée à Vienne.  [[Le 1]]1 juillet 1824, à l'âge de 19 ans, elle épouse James de Rothschild, son oncle. [[Elle]] donne naissance à une fille, Charlotte (1825–1899), puis quatr... *(confiance: 80%)*
 - [[Betty von]] : Mentionne dans le meme contexte: ...Betty von Rothschild, baronne de Rothschild, née le 5 juin 1805 à Francfort-sur-le-Main e... *(confiance: 50%)*
 - [[Salomon Mayer von]] : Mentionne dans le meme contexte: ...ne salonnière, mécène et philanthrope.   == Biographie ==  Elle est la fille de Salomon Mayer von Rothschild et de Caroline Stern (1782-1854) et est éduquée à Vienne.  Le 11 jui... *(confiance: 50%)*
 - [[Caroline Stern]] : Mentionne dans le meme contexte: ...pe.   == Biographie ==  Elle est la fille de Salomon Mayer von Rothschild et de Caroline Stern (1782-1854) et est éduquée à Vienne.  Le 11 juillet 1824, à l'âge de 19 ans, el... *(confiance: 50%)*

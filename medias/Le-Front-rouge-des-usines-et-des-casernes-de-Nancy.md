@@ -16,4 +16,4 @@ type: Media
 wikidata_id: Q137613549
 ---
 
-Le Front rouge des usines et des casernes de Nancy, media francais.
+Le [[Front rouge]] des usines et des casernes de Nancy, media francais.

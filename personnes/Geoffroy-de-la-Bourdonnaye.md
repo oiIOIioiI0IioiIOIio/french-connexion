@@ -7,6 +7,10 @@ education: INSEAD
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Jacques Bonifay
+- Jean-Pierre Charriton
+- Thierry Launois
 nationality: francaise
 nom_complet: Geoffroy de la Bourdonnaye
 occupation: personnalité du monde des affaires
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Geoffroy de la Bourdonnaye, personnalité du monde des affaires. Ne(e) le 1956-10-04 a 6e arrondissement de Lyon. Formation : INSEAD.
+Geoffroy de la Bourdonnaye, personnalité du monde des affaires. Ne(e) le 1956-10-04 a 6e arrondissement de Lyon. Formation : [[INSEAD]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q65164129

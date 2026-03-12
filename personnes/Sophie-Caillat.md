@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sophie Caillat, éditeur ou éditrice. Ne(e) le 1977-05-01 a Paris. Formation : Institut d'études politiques de Paris.
+Sophie Caillat, éditeur ou éditrice. Ne(e) le 1977-05-01 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q111955705

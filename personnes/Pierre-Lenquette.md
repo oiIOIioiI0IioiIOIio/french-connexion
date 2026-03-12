@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Lenquette, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1928-04-19 a Valenciennes. Formation : Institut d'études politiques de Paris.
+Pierre Lenquette, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1928-04-19 a Valenciennes. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q123369064

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel Badré, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1948-03-08 a Colmar. Formation : École polytechnique.
+Michel Badré, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1948-03-08 a Colmar. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33181696

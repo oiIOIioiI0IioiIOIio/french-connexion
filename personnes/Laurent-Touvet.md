@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Laurent Touvet, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1962-09-08 a Dijon. Formation : HEC Paris.
+Laurent Touvet, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1962-09-08 a Dijon. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3219547

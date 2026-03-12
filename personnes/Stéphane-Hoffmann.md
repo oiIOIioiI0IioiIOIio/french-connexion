@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Stéphane Hoffmann, journaliste. Ne(e) le 1958-03-06 a Saint-Nazaire. Formation : université Paris-Sorbonne.
+Stéphane Hoffmann, journaliste. Ne(e) le 1958-03-06 a Saint-Nazaire. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3501830

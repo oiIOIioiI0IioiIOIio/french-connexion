@@ -7,6 +7,9 @@ education: École nationale supérieure des arts décoratifs
 genre: féminin
 keywords:
 - illustrateur ou illustratrice
+liens:
+- Jean-Christophe Portes
+- Vincent Ferniot
 nationality: francaise
 nom_complet: Catherine Meurisse
 occupation: illustrateur ou illustratrice

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Maxence Rissoan, personnalité du monde des affaires. Ne(e) le 1986-12-20 a Villeurbanne. Formation : EM Lyon Business School.
+Maxence Rissoan, personnalité du monde des affaires. Ne(e) le 1986-12-20 a Villeurbanne. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q133288743

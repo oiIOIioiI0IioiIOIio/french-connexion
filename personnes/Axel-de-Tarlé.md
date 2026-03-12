@@ -7,6 +7,8 @@ education: TBS Education
 genre: masculin
 keywords:
 - animateur ou animatrice de télévision
+liens:
+- Didier Lacroix
 nationality: francaise
 nom_complet: Axel de Tarlé
 occupation: animateur ou animatrice de télévision
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Axel de Tarlé, animateur ou animatrice de télévision. Ne(e) le 1970-02-12 a Clermont-Ferrand. Formation : TBS Education.
+Axel de Tarlé, animateur ou animatrice de télévision. Ne(e) le 1970-02-12 a Clermont-Ferrand. Formation : [[TBS Education]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2874766

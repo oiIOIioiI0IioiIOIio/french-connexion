@@ -5,6 +5,10 @@ headquarters: Montpellier
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- James de Rothschild
+- Manuela Picq
+- Mohamed Mancona Kouyaté
 nom_complet: Institut Agro Montpellier
 sources:
 - https://www.wikidata.org/entity/Q114857288

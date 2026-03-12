@@ -19,4 +19,4 @@ website: https://lesecologistes.fr
 wikidata_id: Q613786
 ---
 
-Les Écologistes – Europe Écologie Les Verts, parti politique francais.
+Les Écologistes – Europe Écologie [[Les Verts]], parti politique francais.

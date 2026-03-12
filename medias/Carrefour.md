@@ -4,6 +4,9 @@ founded: '1944-08-26'
 keywords:
 - media
 - presse
+liens:
+- Carrefour
+- Groupe Carrefour
 nom_complet: Carrefour
 sources:
 - https://www.wikidata.org/entity/Q16536228

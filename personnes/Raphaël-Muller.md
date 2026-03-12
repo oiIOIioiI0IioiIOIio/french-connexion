@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Raphaël Muller, historien ou historienne. Ne(e) le 1979-02-15 a Versailles. Formation : École normale supérieure.
+Raphaël Muller, historien ou historienne. Ne(e) le 1979-02-15 a Versailles. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q47410049

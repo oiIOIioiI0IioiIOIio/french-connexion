@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Guillaume Zeller, écrivain ou écrivaine. Ne(e) le 1976-10-07 a Paris. Formation : Institut d'études politiques de Paris.
+Guillaume Zeller, écrivain ou écrivaine. Ne(e) le 1976-10-07 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q20904484

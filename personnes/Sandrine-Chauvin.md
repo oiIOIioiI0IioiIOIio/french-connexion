@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sandrine Chauvin, personnalité du monde des affaires. Ne(e) le 1978-01-01 a Lyon. Formation : EM Lyon Business School.
+Sandrine Chauvin, personnalité du monde des affaires. Ne(e) le 1978-01-01 a Lyon. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q123905098

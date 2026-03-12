@@ -7,6 +7,16 @@ education: lycée Condorcet
 genre: masculin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Alain Hollande
+- Amélie Guicheney
+- Christophe Bourseiller
+- Christophe Tison
+- Claude Bussière
+- Laurent Broomhead
+- Nicolas Chapuis
+- Raymond Morice
+- Stéphane Barsacq
 nationality: francaise
 nom_complet: Philippe Lefait
 occupation: présentateur ou présentatrice de journal

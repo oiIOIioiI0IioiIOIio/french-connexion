@@ -7,6 +7,34 @@ education: ESCP Business School
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Alexandre Piton
+- André Coisne
+- Anne Rosencher
+- Aude Lancelin
+- Benjamin Tancrède
+- Béatrice Khaiat
+- Christophe Agnus
+- Erkki Maillard
+- François Zocchetto
+- Frédéric Salat-Baroux
+- Gilles Martin-Chauffier
+- Jean-Marc Lofficier
+- Jean-Michel Carboni
+- Jean-Michel Severino
+- Jean-Pierre Raffarin
+- Julie Joly
+- Laurent Adamowicz
+- Leïla Slimani
+- Marc Nicolas
+- Marie-Anne Poussin-Delmas
+- Martin Ajdari
+- Pierre Lévy
+- Pierre Zelenko
+- Xavier de Bayser
+- Yorick de Mombynes
+- Édouard de Royère
+- Éric Favereau
 nationality: francaise
 nom_complet: Jean-Marc Atlan
 occupation: personnalité du monde des affaires
@@ -22,7 +50,7 @@ tags:
 type: Personne
 ---
 
-Jean-Marc Atlan, personnalité du monde des affaires. Ne(e) le 1966-07-25 a Chamalières. Formation : ESCP Business School.
+Jean-Marc Atlan, personnalité du monde des affaires. Ne(e) le 1966-07-25 a Chamalières. Formation : [[ESCP Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q133225083

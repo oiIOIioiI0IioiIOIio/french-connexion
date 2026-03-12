@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Cécile Cornudet, journaliste. Ne(e) le 1965-01-01. Formation : Institut d'études politiques de Paris.
+Cécile Cornudet, journaliste. Ne(e) le 1965-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q105671995

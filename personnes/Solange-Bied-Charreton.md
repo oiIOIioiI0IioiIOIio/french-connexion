@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Solange Bied-Charreton, écrivain ou écrivaine. Ne(e) le 1982-04-16 a 15e arrondissement de Paris. Formation : université Paris-Sorbonne.
+Solange Bied-Charreton, écrivain ou écrivaine. Ne(e) le 1982-04-16 a 15e arrondissement de Paris. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q19944956

@@ -6,6 +6,11 @@ ideology: anti-indépendantisme
 keywords:
 - parti politique
 - politique
+liens:
+- Front national des combattants
+- Front national ouvrier paysan
+- Front national pour l'Algérie française
+- Horaces
 nom_complet: Front national
 sources:
 - https://www.wikidata.org/entity/Q3088504

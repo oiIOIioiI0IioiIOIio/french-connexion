@@ -7,6 +7,8 @@ education: faculté de droit de Rennes
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Philippe Waquet
 nationality: francaise
 nom_complet: Jean Pinel
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Jean Pinel, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1922-11-16 a Paris. Formation : faculté de droit de Rennes.
+Jean Pinel, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1922-11-16 a Paris. Formation : [[faculté de droit de Rennes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50919213

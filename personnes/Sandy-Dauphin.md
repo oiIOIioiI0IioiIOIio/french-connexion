@@ -7,6 +7,9 @@ education: Université McGill
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Dominique Lagrou-Sempère
+- Léon Bouvier
 nationality: francaise
 nom_complet: Sandy Dauphin
 occupation: journaliste

@@ -4,6 +4,8 @@ founded: '1900-10-16'
 keywords:
 - media
 - presse
+liens:
+- L'Autorité
 nom_complet: L'Auto
 sources:
 - https://www.wikidata.org/entity/Q3202605

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Alexandre, personnalité du monde des affaires. Ne(e) le 1964-09-02. Formation : Institut d'études politiques de Paris.
+Pierre Alexandre, personnalité du monde des affaires. Ne(e) le 1964-09-02. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3383673

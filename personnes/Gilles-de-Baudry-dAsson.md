@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gilles de Baudry d'Asson, banquier. Ne(e) le 1945-01-18 a La Garnache. Formation : Institut d'études politiques de Paris.
+Gilles de Baudry d'Asson, banquier. Ne(e) le 1945-01-18 a La Garnache. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33174168

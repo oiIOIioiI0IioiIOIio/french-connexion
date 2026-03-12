@@ -7,6 +7,9 @@ education: Institut régional d'administration de Lyon
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Cécile Untermaier
+- Fabienne Buccio
 nationality: francaise
 nom_complet: Jean-Louis Géraud
 occupation: haut fonctionnaire ou haute fonctionnaire

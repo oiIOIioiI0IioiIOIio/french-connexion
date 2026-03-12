@@ -7,6 +7,17 @@ education: Institut français de presse
 genre: féminin
 keywords:
 - acteur ou actrice
+liens:
+- Charles Desjardins
+- Christelle Crosnier
+- Claude Belot
+- Emmanuel de Brantes
+- Jean-François Julliard
+- Jérôme Béglé
+- Leïla Beratto
+- Maya Lauqué
+- Olivier Bertrand
+- Thomas Sotto
 nationality: francaise
 nom_complet: Ginie Van de Noort
 occupation: acteur ou actrice

@@ -7,6 +7,9 @@ education: université Grenoble-I
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Gilles Carasso
+- Robin Duvillard
 nationality: francaise
 nom_complet: Fabrice Plasson
 occupation: personnalité du monde des affaires

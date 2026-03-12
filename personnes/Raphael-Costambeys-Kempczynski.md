@@ -7,6 +7,17 @@ education: université de Tours
 genre: masculin
 keywords:
 - enseignant-chercheur ou enseignante-chercheuse
+liens:
+- Dominique Setzepfandt
+- Fabrice Lhomme
+- Frédéric Thibaud
+- Harry Roselmack
+- Laurent Bignolas
+- Nassira El Moaddem
+- Pascal Jan
+- Philippe Anginot
+- Renaud Machart
+- Éric Brunet
 nationality: francaise
 nom_complet: Raphael Costambeys-Kempczynski
 occupation: enseignant-chercheur ou enseignante-chercheuse

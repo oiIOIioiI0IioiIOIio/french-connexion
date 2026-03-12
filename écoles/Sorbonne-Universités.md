@@ -17,4 +17,4 @@ website: https://www.sorbonne-universite.fr/en
 wikidata_id: Q3491150
 ---
 
-Sorbonne Universités, etablissement d'enseignement superieur francais.
+[[Sorbonne Université]]s, etablissement d'enseignement superieur francais.

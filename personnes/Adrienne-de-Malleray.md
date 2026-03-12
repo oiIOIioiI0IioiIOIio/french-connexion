@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Adrienne de Malleray, présentateur ou présentatrice de journal. Ne(e) le 1981-08-26 a Ancenis. Formation : université Paris-I-Panthéon-Sorbonne.
+Adrienne de Malleray, présentateur ou présentatrice de journal. Ne(e) le 1981-08-26 a Ancenis. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16185202

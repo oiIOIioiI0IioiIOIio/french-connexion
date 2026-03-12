@@ -7,6 +7,11 @@ education: Institut supérieur de gestion
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Didier Lallement
+- Frédéric Verdier
+- Jérôme Rivière
+- Yves de Kerdrel
 nationality: francaise
 nom_complet: Christophe de Backer
 occupation: personnalité du monde des affaires
@@ -22,7 +27,7 @@ tags:
 type: Personne
 ---
 
-Christophe de Backer, personnalité du monde des affaires. Ne(e) le 1962-01-11. Formation : Institut supérieur de gestion.
+Christophe de Backer, personnalité du monde des affaires. Ne(e) le 1962-01-11. Formation : [[Institut supérieur de gestion]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2966510

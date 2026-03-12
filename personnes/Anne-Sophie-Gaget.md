@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Anne-Sophie Gaget, vice-président. Ne(e) le 1970-02-01. Formation : HEC Paris.
+Anne-Sophie Gaget, vice-président. Ne(e) le 1970-02-01. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q109654444

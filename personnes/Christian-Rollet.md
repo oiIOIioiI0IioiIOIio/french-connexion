@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christian Rollet, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1944-01-01. Formation : HEC Paris.
+Christian Rollet, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1944-01-01. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2965596

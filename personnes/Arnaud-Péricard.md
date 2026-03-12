@@ -7,6 +7,13 @@ education: Université de Chicago
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Claude Fouquet
+- Diego Buñuel
+- Emmanuel Roman
+- François Morin
+- Marc-Olivier Strauss-Kahn
+- Pierre R. Graham
 nationality: francaise
 nom_complet: Arnaud Péricard
 occupation: avocat ou avocate

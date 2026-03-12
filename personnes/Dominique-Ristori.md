@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Dominique Ristori, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1952-03-12 a Toulon. Formation : Institut d'études politiques de Paris.
+Dominique Ristori, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1952-03-12 a Toulon. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q5291172

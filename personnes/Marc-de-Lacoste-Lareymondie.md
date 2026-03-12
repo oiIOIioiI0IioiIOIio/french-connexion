@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marc de Lacoste Lareymondie, militaire. Ne(e) le 1924-11-05 a Jonzac. Formation : université Paris-I-Panthéon-Sorbonne.
+Marc de Lacoste Lareymondie, militaire. Ne(e) le 1924-11-05 a Jonzac. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q131701258

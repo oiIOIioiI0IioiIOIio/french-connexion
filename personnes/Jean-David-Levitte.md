@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-David Levitte, diplomate. Ne(e) le 1946-06-14 a Moissac. Formation : Institut d'études politiques de Paris.
+Jean-David Levitte, diplomate. Ne(e) le 1946-06-14 a Moissac. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3165316

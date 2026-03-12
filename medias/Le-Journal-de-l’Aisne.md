@@ -15,4 +15,4 @@ type: Media
 wikidata_id: Q124810041
 ---
 
-Le Journal de l’Aisne, media francais.
+[[Le Jour]]nal de l’Aisne, media francais.

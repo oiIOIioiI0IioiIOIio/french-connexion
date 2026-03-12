@@ -7,6 +7,10 @@ education: université de La Réunion
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Ericka Bareigts
+- Francky Lauret
+- Manu Payet
 nationality: francaise
 nom_complet: Jean-Marc Cassam Chenai
 occupation: diplomate

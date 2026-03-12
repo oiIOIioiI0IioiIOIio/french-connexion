@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Marion Eynard, diplomate. Ne(e) le 1988-08-01. Formation : université Paris-I-Panthéon-Sorbonne.
+Marion Eynard, diplomate. Ne(e) le 1988-08-01. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q137205308

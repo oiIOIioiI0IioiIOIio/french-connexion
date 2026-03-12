@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Laurence Paye-Jeanneney, historien ou historienne. Ne(e) le 1944-01-07 a Grenoble. Formation : université Paris-I-Panthéon-Sorbonne.
+Laurence Paye-[[Jeanne]]ney, historien ou historienne. Ne(e) le 1944-01-07 a Grenoble. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33150426

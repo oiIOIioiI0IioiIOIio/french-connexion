@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean Alfonsi, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1958-04-03 a Boulogne-Billancourt. Formation : École normale supérieure.
+Jean Alfonsi, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1958-04-03 a Boulogne-Billancourt. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q87795334

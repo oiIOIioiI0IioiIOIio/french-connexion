@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alexandre Moatti, ingénieur. Ne(e) le 1959-12-06 a Boulogne-Billancourt. Formation : École polytechnique.
+Alexandre Moatti, ingénieur. Ne(e) le 1959-12-06 a Boulogne-Billancourt. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2833880

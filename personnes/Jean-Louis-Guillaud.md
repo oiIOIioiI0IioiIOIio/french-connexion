@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Louis Guillaud, directeur général ou directrice générale. Ne(e) le 1929-03-05 a Caen. Formation : Institut d'études politiques de Paris.
+Jean-Louis Guillaud, directeur général ou directrice générale. Ne(e) le 1929-03-05 a Caen. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3166809

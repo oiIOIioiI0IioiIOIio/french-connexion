@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Pierre Mariani, banquier. Ne(e) le 1956-04-06 a Rabat. Formation : HEC Paris.
+Pierre Mariani, banquier. Ne(e) le 1956-04-06 a Rabat. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3386126

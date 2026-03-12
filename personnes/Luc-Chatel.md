@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Luc Chatel, écrivain ou écrivaine. Ne(e) le 1973-04-01. Formation : Centre de formation des journalistes.
+Luc Chatel, écrivain ou écrivaine. Ne(e) le 1973-04-01. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q15406952

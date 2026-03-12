@@ -5,6 +5,8 @@ headquarters: Toulouse
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Marika Zimmermann
 nom_complet: Institut national des sciences appliquées de Toulouse
 sources:
 - https://www.wikidata.org/entity/Q858979

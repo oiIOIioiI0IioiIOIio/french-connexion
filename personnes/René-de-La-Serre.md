@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-René de La Serre, ingénieur. Ne(e) le 1940-07-03 a Lancieux. Formation : École polytechnique.
+René de La Serre, ingénieur. Ne(e) le 1940-07-03 a Lancieux. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16916429

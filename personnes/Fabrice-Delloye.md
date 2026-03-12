@@ -7,6 +7,8 @@ education: ISC paris business school
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Dominique Thillaud
 nationality: francaise
 nom_complet: Fabrice Delloye
 occupation: diplomate
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Fabrice Delloye, diplomate. Ne(e) le 1951-01-27 a Reims. Formation : ISC paris business school.
+Fabrice Delloye, diplomate. Ne(e) le 1951-01-27 a Reims. Formation : [[ISC paris business school]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q23868608

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Serge Telle, personnalité politique. Ne(e) le 1955-05-05 a Nantes. Formation : Institut d'études politiques de Paris.
+Serge Telle, personnalité politique. Ne(e) le 1955-05-05 a Nantes. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3479546

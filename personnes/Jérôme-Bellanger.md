@@ -7,6 +7,11 @@ education: Institut des hautes études de défense nationale
 genre: masculin
 keywords:
 - militaire
+liens:
+- Claude Charbonniaud
+- Hervé-Michel Gobilliard
+- Hubert Coudurier
+- Pierre Somveille
 nationality: francaise
 nom_complet: Jérôme Bellanger
 occupation: militaire
@@ -22,7 +27,7 @@ tags:
 type: Personne
 ---
 
-Jérôme Bellanger, militaire. Ne(e) le 1969-03-20 a Montreuil. Formation : Institut des hautes études de défense nationale.
+Jérôme Bellanger, militaire. Ne(e) le 1969-03-20 a Montreuil. Formation : [[Institut des hautes études de défense nationale]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q113632056

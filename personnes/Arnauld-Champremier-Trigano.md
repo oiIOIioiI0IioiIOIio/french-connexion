@@ -7,6 +7,23 @@ education: Institut d'études politiques de Toulouse
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Audrey Crespo-Mara
+- Christian Authier
+- David Izzo
+- Grégor Trumel
+- Isabelle Sima
+- Jean-François Savy
+- Jean-Paul Gauzès
+- Mahdi Hacène
+- Maxime Switek
+- Michel Moutot
+- Pierre Benazet
+- Rodolphe Sambou
+- Roger Dumec
+- Serge Tignères
+- Stéphane Lauer
+- Sylvain Augier
 nationality: francaise
 nom_complet: Arnauld Champremier-Trigano
 occupation: journaliste
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Arnauld Champremier-Trigano, journaliste. Ne(e) le 1972-04-22 a Paris. Formation : Institut d'études politiques de Toulouse.
+Arnauld Champremier-Trigano, journaliste. Ne(e) le 1972-04-22 a Paris. Formation : [[Institut d'études politiques de Toulouse]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2863268

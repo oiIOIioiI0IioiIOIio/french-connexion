@@ -19,4 +19,4 @@ website: http://www.icp.fr/fasse
 wikidata_id: Q3064307
 ---
 
-Faculté de sciences sociales, d'économie et de droit de l'Institut catholique de Paris, etablissement d'enseignement superieur francais.
+Faculté de sciences sociales, d'économie et de droit de l'[[Institut catholique de Paris]], etablissement d'enseignement superieur francais.

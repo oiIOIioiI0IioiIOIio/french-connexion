@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Simone Veil, juge. Ne(e) le 1927-07-13 a Nice. Formation : Institut d'études politiques de Paris.
+Simone Veil, juge. Ne(e) le 1927-07-13 a Nice. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q298180

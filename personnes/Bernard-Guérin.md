@@ -7,6 +7,14 @@ education: École nationale supérieure de la Police
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Ange Mancini
+- Christian Lambert
+- Frédéric Veaux
+- Henri Souchon
+- Jean-Louis Fiamenghi
+- Patrick Calvar
+- Yves Guillot
 nationality: francaise
 nom_complet: Bernard Guérin
 occupation: haut fonctionnaire ou haute fonctionnaire

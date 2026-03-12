@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nathalie Loiseau, personnalité politique. Ne(e) le 1964-06-01 a Neuilly-sur-Seine. Formation : Institut d'études politiques de Paris.
+Nathalie Loiseau, personnalité politique. Ne(e) le 1964-06-01 a Neuilly-sur-Seine. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16666184

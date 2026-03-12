@@ -7,6 +7,8 @@ education: université de Limoges
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Olivier Brandouy
 nationality: francaise
 nom_complet: Alain Galan
 occupation: écrivain ou écrivaine

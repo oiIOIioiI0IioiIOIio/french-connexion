@@ -7,6 +7,15 @@ education: université de Caen-Normandie
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Christine Kerdellant
+- Céline Asselot
+- Denis Brogniart
+- Guillaume Bazard
+- Jean-Marie Girault
+- Jean-Paul Ollivier
+- Marie-Annick Bourdin
+- Olivier Metzner
 nationality: francaise
 nom_complet: Alain Tourret
 occupation: avocat ou avocate

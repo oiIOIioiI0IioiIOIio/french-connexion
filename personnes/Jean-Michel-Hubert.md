@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Jean-Michel Hubert, ingénieur. Ne(e) le 1939-07-18. Formation : École polytechnique.
+Jean-Michel Hubert, ingénieur. Ne(e) le 1939-07-18. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3168047

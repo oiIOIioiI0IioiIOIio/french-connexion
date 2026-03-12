@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Laurent Mignon, banquier. Ne(e) le 1963-12-28 a Paris. Formation : HEC Paris.
+Laurent Mignon, banquier. Ne(e) le 1963-12-28 a Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33724326

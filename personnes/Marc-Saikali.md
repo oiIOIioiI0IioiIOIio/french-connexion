@@ -7,6 +7,12 @@ education: université de Bordeaux
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Eneko Bidegain
+- Mahamat Saleh Haroun
+- Pierre Abeberry
+- Pierre Camou
+- Violaine de Filippis-Abate
 nationality: francaise
 nom_complet: Marc Saikali
 occupation: journaliste

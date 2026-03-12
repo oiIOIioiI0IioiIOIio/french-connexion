@@ -7,6 +7,42 @@ education: Institut d'études politiques de Bordeaux
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Anne-Sophie Lapix
+- Arnaud Romera
+- Bernard Cazeneuve
+- Brieuc Pont
+- Catherine Boudet
+- Christian Blanc
+- Christophe Hondelatte
+- David Medioni
+- Diarra Labille
+- François Laumonier
+- Frédéric Bobin
+- Gérard Bougrier
+- Gérard Boulanger
+- Jean-Bernard Schmidt
+- Jean-Claude Raspiengeas
+- Laetitia Krupa
+- Laurent Bigot
+- Laurent Valdiguié
+- Marcelle Pierrot
+- Marie-Hélène Duvignau
+- Matthieu Auzanneau
+- Maylis Besserie
+- Michel Lummaux
+- Michel Mosser
+- Mireille Larrède
+- Nathalie Renoux
+- Philippe Bolopion
+- Philippe Vilamitjana
+- Pierre Cherruau
+- Pierre Hurmic
+- Raphaël de Montferrand
+- Stéphanie Trouillard
+- Terence Wills
+- Thomas Hugues
+- Évelyne Decorps
 nationality: francaise
 nom_complet: Jacky Goldberg
 occupation: journaliste
@@ -22,7 +58,7 @@ tags:
 type: Personne
 ---
 
-Jacky Goldberg, journaliste. Ne(e) le 1981-01-01. Formation : Institut d'études politiques de Bordeaux.
+Jacky Goldberg, journaliste. Ne(e) le 1981-01-01. Formation : [[Institut d'études politiques de Bordeaux]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q21831226

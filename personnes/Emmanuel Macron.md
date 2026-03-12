@@ -10,6 +10,9 @@ keywords:
 - La République En Marche
 - Rothschild
 - Élysée
+liens:
+- Alain Juppé
+- Lionel Jospin
 nationality: française
 nom_complet: Emmanuel Macron
 occupation: homme d'État, président de la République française

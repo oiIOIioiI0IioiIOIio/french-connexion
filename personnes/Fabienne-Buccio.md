@@ -7,6 +7,9 @@ education: Institut régional d'administration de Lyon
 genre: féminin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Cécile Untermaier
+- Jean-Louis Géraud
 nationality: francaise
 nom_complet: Fabienne Buccio
 occupation: haut fonctionnaire ou haute fonctionnaire

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Jacques Brot, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1956-01-27 a 9e arrondissement de Paris. Formation : HEC Paris.
+Jean-Jacques Brot, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1956-01-27 a 9e arrondissement de Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3166200

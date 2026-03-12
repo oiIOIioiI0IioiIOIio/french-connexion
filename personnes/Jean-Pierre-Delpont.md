@@ -7,6 +7,15 @@ education: faculté de droit et des sciences économiques de Paris
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Bernard Poncet
+- Charles de Bancalis de Maurel d'Aragon
+- Jean Amet
+- Jean-Marie Momal
+- Marc Menguy
+- Pierre Juillet
+- Robert Soulé
+- Suzanne Batbedat
 nationality: francaise
 nom_complet: Jean-Pierre Delpont
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -23,7 +32,7 @@ tags:
 type: Personne
 ---
 
-Jean-Pierre Delpont, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1937-12-04 a Souk Ahras. Formation : faculté de droit et des sciences économiques de Paris.
+Jean-Pierre Delpont, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1937-12-04 a Souk Ahras. Formation : [[faculté de droit et des sciences économiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50827374

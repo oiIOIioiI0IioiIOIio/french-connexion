@@ -4,6 +4,9 @@ founded: '1922-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Jean-Christophe Brisard
+- Jean-Marc Binot
 nom_complet: Paris Institute of Criminology
 sources:
 - https://www.wikidata.org/entity/Q17112144

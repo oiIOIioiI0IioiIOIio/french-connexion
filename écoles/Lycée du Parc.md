@@ -9,6 +9,21 @@ keywords:
 - Lyon
 - éducation
 leader: null
+liens:
+- Anne Joubert
+- Antoine de Tarlé
+- Bruno Cotte
+- Christophe Barbier
+- Christophe Deloire
+- Claude Alphandéry
+- Daniel Bernard
+- Frédéric Rebet
+- Guillaume Ancel
+- Guy Deniélou
+- Henri Hugues
+- Jenofa Berhokoirigoin
+- Léon Tabah
+- Pascal Confavreux
 summary: Le Lycée du Parc est un établissement d'enseignement secondaire et supérieur
   situé à Lyon, reconnu pour son excellence académique et ses classes préparatoires
   aux grandes écoles. Il fait partie des lycées publics les plus prestigieux de France.

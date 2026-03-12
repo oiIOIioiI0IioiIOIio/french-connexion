@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Faïza Zerouala, écrivain ou écrivaine. Ne(e) le 1984-02-06 a Paris. Formation : université Paris-I-Panthéon-Sorbonne.
+Faïza Zerouala, écrivain ou écrivaine. Ne(e) le 1984-02-06 a Paris. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q37854492

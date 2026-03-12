@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Farge, avocat ou avocate. Ne(e) le 1988-07-19 a Paris. Formation : HEC Paris.
+Pierre Farge, avocat ou avocate. Ne(e) le 1988-07-19 a Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q87260733

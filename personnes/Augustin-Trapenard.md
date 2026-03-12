@@ -7,6 +7,14 @@ education: École normale supérieure de Lyon
 genre: masculin
 keywords:
 - acteur ou actrice
+liens:
+- Bernard Bigot
+- Catherine Guesde
+- Gaultier Bès
+- Johann Uhres
+- Léa Bello
+- Marianne Durano
+- Matthias Fekl
 nationality: francaise
 nom_complet: Augustin Trapenard
 occupation: acteur ou actrice
@@ -22,7 +30,7 @@ tags:
 type: Personne
 ---
 
-Augustin Trapenard, acteur ou actrice. Ne(e) le 1979-04-03 a 15e arrondissement de Paris. Formation : École normale supérieure de Lyon.
+Augustin Trapenard, acteur ou actrice. Ne(e) le 1979-04-03 a 15e arrondissement de Paris. Formation : [[École normale supérieure]] de Lyon.
 
 ## Sources
 - http://www.wikidata.org/entity/Q2871648

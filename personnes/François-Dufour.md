@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-François Dufour, personnalité du monde des affaires. Ne(e) le 1961-12-07 a 15e arrondissement de Paris. Formation : Institut d'études politiques de Paris.
+François Dufour, personnalité du monde des affaires. Ne(e) le 1961-12-07 a 15e arrondissement de Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q632834

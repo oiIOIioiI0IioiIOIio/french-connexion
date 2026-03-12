@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bertrand du Marais, juriste. Ne(e) le 1964-04-25 a Lyon. Formation : École nationale d'administration.
+Bertrand du [[Marais]], juriste. Ne(e) le 1964-04-25 a Lyon. Formation : École nationale d'administration.
 
 ## Sources
 - http://www.wikidata.org/entity/Q33239092

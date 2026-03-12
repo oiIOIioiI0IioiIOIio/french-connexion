@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Luc Pouthier, enseignant ou enseignante. Ne(e) le 1953-09-15 a Besançon. Formation : Institut d'études politiques de Paris.
+Jean-Luc Pouthier, enseignant ou enseignante. Ne(e) le 1953-09-15 a Besançon. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q55623481

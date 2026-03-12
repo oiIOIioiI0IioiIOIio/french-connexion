@@ -7,6 +7,8 @@ education: université d'État de Moscou
 genre: masculin
 keywords:
 - traducteur ou traductrice
+liens:
+- Stéphane Chmelewsky
 nationality: francaise
 nom_complet: Gérard Abensour
 occupation: traducteur ou traductrice

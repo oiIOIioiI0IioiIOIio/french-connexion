@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Ariel Kyrou, écrivain ou écrivaine. Ne(e) le 1962-11-06. Formation : Institut d'études politiques de Paris.
+Ariel Kyrou, écrivain ou écrivaine. Ne(e) le 1962-11-06. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q15591409

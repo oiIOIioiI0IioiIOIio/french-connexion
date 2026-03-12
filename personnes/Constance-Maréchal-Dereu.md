@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Constance Maréchal-Dereu, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1985-09-14 a Mont-de-Marsan. Formation : École polytechnique.
+Constance Maréchal-Dereu, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1985-09-14 a Mont-de-Marsan. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q109852195

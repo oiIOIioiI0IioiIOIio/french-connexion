@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Étienne Gernelle, journaliste. Ne(e) le 1976-05-03 a Paris. Formation : Institut d'études politiques de Paris.
+Étienne Gernelle, journaliste. Ne(e) le 1976-05-03 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3592181

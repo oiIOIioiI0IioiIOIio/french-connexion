@@ -7,6 +7,10 @@ education: Sorbonne
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Henri Lopes
+- Laurence Debray
+- Michel Cullin
 nationality: francaise
 nom_complet: Amadou-Mahtar MBow
 occupation: personnalité politique
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Amadou-Mahtar MBow, personnalité politique. Ne(e) le 1921-03-20 a Dakar. Formation : Sorbonne.
+Amadou-Mahtar MBow, personnalité politique. Ne(e) le 1921-03-20 a Dakar. Formation : [[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q740168

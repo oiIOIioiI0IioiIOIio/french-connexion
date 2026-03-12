@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christian Connan, enseignant ou enseignante. Ne(e) le 1947-10-18 a Dunkerque. Formation : École normale supérieure.
+Christian Connan, enseignant ou enseignante. Ne(e) le 1947-10-18 a Dunkerque. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q61273205

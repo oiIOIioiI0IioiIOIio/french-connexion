@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bruno Tallent, personnalité du monde des affaires. Ne(e) le 1966-01-25. Formation : EM Lyon Business School.
+Bruno Tallent, personnalité du monde des affaires. Ne(e) le 1966-01-25. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q104758759

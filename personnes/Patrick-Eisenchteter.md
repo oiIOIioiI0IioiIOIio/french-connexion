@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Patrick Eisenchteter, personnalité du monde des affaires. Ne(e) le 1966-03-23 a Dijon. Formation : EM Lyon Business School.
+Patrick Eisenchteter, personnalité du monde des affaires. Ne(e) le 1966-03-23 a Dijon. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q135479624

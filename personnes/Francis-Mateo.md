@@ -7,6 +7,13 @@ education: université Paul-Valéry
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Géniale Attoumani
+- Hugo Guillemet
+- Nath-Sakura
+- Patrick Donabédian
+- Thierry Riera
+- Étienne Leenhardt
 nationality: francaise
 nom_complet: Francis Mateo
 occupation: journaliste

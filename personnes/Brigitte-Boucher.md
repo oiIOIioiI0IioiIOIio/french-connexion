@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Brigitte Boucher, animateur ou animatrice de télévision. Ne(e) le 1978-01-01. Formation : Institut d'études politiques de Paris.
+Brigitte Boucher, animateur ou animatrice de télévision. Ne(e) le 1978-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q105825861

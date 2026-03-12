@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Tristan Mordrelle, éditeur ou éditrice. Ne(e) le 1958-09-26 a Buenos Aires. Formation : Institut d'études politiques de Paris.
+Tristan Mordrelle, éditeur ou éditrice. Ne(e) le 1958-09-26 a Buenos Aires. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2880607

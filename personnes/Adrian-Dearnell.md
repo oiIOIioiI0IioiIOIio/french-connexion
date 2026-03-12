@@ -7,6 +7,9 @@ education: Université Brown
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Chloe Malle
+- Muriel Domenach
 nationality: francaise
 nom_complet: Adrian Dearnell
 occupation: journaliste

@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Philippe Cohen-Grillet, journaliste. Ne(e) le 1973-01-01 a Paris.
+[[Philippe Cohen]]-Grillet, journaliste. Ne(e) le 1973-01-01 a Paris.
 
 ## Sources
 - http://www.wikidata.org/entity/Q3379601

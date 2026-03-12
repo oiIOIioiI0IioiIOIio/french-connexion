@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Thomas Legrand, journaliste. Ne(e) le 1963-05-25 a Paris. Formation : lycée Saint-Thomas-d'Aquin.
+Thomas [[Legrand]], journaliste. Ne(e) le 1963-05-25 a Paris. Formation : lycée Saint-Thomas-d'Aquin.
 
 ## Sources
 - http://www.wikidata.org/entity/Q3525336

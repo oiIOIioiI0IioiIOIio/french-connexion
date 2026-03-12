@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Benjamin Angel, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1970-12-05 a Épinal. Formation : HEC Paris.
+Benjamin Angel, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1970-12-05 a Épinal. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q117629035

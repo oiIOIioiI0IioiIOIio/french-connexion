@@ -7,6 +7,12 @@ education: lycée Louis-le-Grand
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Doan Bui
+- Jean Coursaget
+- Michel de La Fournière
+- Yves Aubin de La Messuzière
+- Yves de Daruvar
 nationality: francaise
 nom_complet: René Heckenroth
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +28,7 @@ tags:
 type: Personne
 ---
 
-René Heckenroth, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1921-01-23 a Éguilles. Formation : lycée Louis-le-Grand.
+René Heckenroth, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1921-01-23 a Éguilles. Formation : [[Lycée Louis-le-Grand]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50892765

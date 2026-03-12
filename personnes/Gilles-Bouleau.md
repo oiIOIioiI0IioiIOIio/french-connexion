@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gilles Bouleau, présentateur ou présentatrice de journal. Ne(e) le 1962-05-25 a 14e arrondissement de Paris. Formation : Institut d'études politiques de Paris.
+Gilles Bouleau, présentateur ou présentatrice de journal. Ne(e) le 1962-05-25 a 14e arrondissement de Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3106112

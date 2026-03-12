@@ -7,6 +7,9 @@ education: Institut d'études politiques de Rennes
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Benjamin Cruard
+- Yaël Goosz
 nationality: francaise
 nom_complet: Bruno Aubry
 occupation: journaliste
@@ -22,7 +25,7 @@ tags:
 type: Personne
 ---
 
-Bruno Aubry, journaliste. Ne(e) le 1960-01-30 a Toulon. Formation : Institut d'études politiques de Rennes.
+Bruno Aubry, journaliste. Ne(e) le 1960-01-30 a Toulon. Formation : [[Institut d'études politiques de Rennes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q126764247

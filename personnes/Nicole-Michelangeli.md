@@ -7,6 +7,18 @@ education: Institut d'études politiques de Strasbourg
 genre: féminin
 keywords:
 - diplomate
+liens:
+- Alain Thirion
+- Bernard Demange
+- François Ernenwein
+- Isabelle Donnadieu
+- Jean-Claude Erhmann
+- Jean-Pierre Lévy
+- Olivier Razemon
+- Pascal Barollier
+- Philippe Sutter
+- Valérie Hatsch
+- Élé Asu
 nationality: francaise
 nom_complet: Nicole Michelangeli
 occupation: diplomate

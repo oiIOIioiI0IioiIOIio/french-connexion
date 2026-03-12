@@ -7,6 +7,19 @@ education: université Paris-VIII
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Alexandre Devecchio
+- Diane Galbaud du Fort
+- Diara Ndiaye
+- Irina Kudesova
+- Josza Anjembe
+- Karyn Nishimura-Poupée
+- Lauren Bastide
+- Luc Évrard
+- Marie-Pierre Farkas
+- Nadia Hathroubi-Safsaf
+- Valérie de Saint-Do
+- Éric Le Braz
 nationality: francaise
 nom_complet: Valentin Houinato
 occupation: journaliste

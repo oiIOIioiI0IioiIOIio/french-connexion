@@ -7,6 +7,15 @@ education: faculté de droit et des sciences économiques de Paris
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Bernard Poncet
+- Charles de Bancalis de Maurel d'Aragon
+- Jean Amet
+- Jean-Marie Momal
+- Jean-Pierre Delpont
+- Pierre Juillet
+- Robert Soulé
+- Suzanne Batbedat
 nationality: francaise
 nom_complet: Marc Menguy
 occupation: diplomate
@@ -22,7 +31,7 @@ tags:
 type: Personne
 ---
 
-Marc Menguy, diplomate. Ne(e) le 1928-12-19 a Guingamp. Formation : faculté de droit et des sciences économiques de Paris.
+Marc Menguy, diplomate. Ne(e) le 1928-12-19 a Guingamp. Formation : [[faculté de droit et des sciences économiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q28912607

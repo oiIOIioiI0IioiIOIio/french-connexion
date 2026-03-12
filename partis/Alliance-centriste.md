@@ -18,4 +18,4 @@ website: http://www.alliancecentriste.fr
 wikidata_id: Q762083
 ---
 
-Alliance centriste, parti politique francais.
+[[Alliance]] centriste, parti politique francais.

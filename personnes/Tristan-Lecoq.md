@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Tristan Lecoq, historien ou historienne. Ne(e) le 1958-10-09 a Le Havre. Formation : université Paris-I-Panthéon-Sorbonne.
+Tristan Lecoq, historien ou historienne. Ne(e) le 1958-10-09 a Le Havre. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q108940704

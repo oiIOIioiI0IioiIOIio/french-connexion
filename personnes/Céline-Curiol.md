@@ -7,6 +7,8 @@ education: École nationale supérieure de techniques avancées
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Stéphane Martin
 nationality: francaise
 nom_complet: Céline Curiol
 occupation: écrivain ou écrivaine

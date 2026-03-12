@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Antoine Banet-Rivet, journaliste. Ne(e) le 1969-07-22 a Neuilly-sur-Seine. Formation : université Paris-Sorbonne.
+Antoine Banet-Rivet, journaliste. Ne(e) le 1969-07-22 a Neuilly-sur-Seine. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33140706

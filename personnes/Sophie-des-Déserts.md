@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sophie des Déserts, écrivain ou écrivaine. Ne(e) le 1977-12-27. Formation : Institut d'études politiques de Paris.
+Sophie des Déserts, écrivain ou écrivaine. Ne(e) le 1977-12-27. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q56084779

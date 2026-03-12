@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Stéphane Maitre, avocat ou avocate. Ne(e) le 1968-07-24 a Rennes. Formation : université Paris-I-Panthéon-Sorbonne.
+Stéphane Maitre, avocat ou avocate. Ne(e) le 1968-07-24 a Rennes. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q109045103

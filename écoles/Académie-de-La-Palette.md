@@ -5,6 +5,9 @@ headquarters: Paris
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Henri Hugues
+- Jenofa Berhokoirigoin
 nom_complet: Académie de La Palette
 sources:
 - https://www.wikidata.org/entity/Q16242504

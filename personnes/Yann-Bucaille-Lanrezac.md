@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Yann Bucaille-Lanrezac, personnalité du monde des affaires. Ne(e) le 1969-09-30 a Paris. Formation : EM Lyon Business School.
+Yann Bucaille-Lanrezac, personnalité du monde des affaires. Ne(e) le 1969-09-30 a Paris. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q101252390

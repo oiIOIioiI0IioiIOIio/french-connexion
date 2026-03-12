@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Guillaume Hannezo, banquier. Ne(e) le 1961-01-24 a Boulogne-Billancourt. Formation : École normale supérieure.
+Guillaume Hannezo, banquier. Ne(e) le 1961-01-24 a Boulogne-Billancourt. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33113280

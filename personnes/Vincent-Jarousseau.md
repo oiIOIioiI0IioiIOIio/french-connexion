@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Vincent Jarousseau, photojournaliste. Ne(e) le 1973-02-01 a Nantes. Formation : université Paris-I-Panthéon-Sorbonne.
+Vincent Jarousseau, photojournaliste. Ne(e) le 1973-02-01 a Nantes. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q82080335

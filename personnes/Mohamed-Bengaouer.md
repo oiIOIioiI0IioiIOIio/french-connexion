@@ -7,6 +7,10 @@ education: Institut d'études politiques
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Alain Walmetz
+- Fabrice Amedeo
+- Pierre Lise
 nationality: francaise
 nom_complet: Mohamed Bengaouer
 occupation: haut fonctionnaire ou haute fonctionnaire

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Falk van Gaver, écrivain ou écrivaine. Ne(e) le 1979-06-15. Formation : Institut d'études politiques de Paris.
+Falk van Gaver, écrivain ou écrivaine. Ne(e) le 1979-06-15. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16635662

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Dominique Delport, personnalité du monde des affaires. Ne(e) le 1967-11-21 a Toulouse. Formation : EM Lyon Business School.
+Dominique Delport, personnalité du monde des affaires. Ne(e) le 1967-11-21 a Toulouse. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q20972992

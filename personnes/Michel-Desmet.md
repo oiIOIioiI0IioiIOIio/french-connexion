@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel Desmet, personnalité politique. Ne(e) le 1933-08-28 a Dunkerque. Formation : Institut d'études politiques de Paris.
+Michel Desmet, personnalité politique. Ne(e) le 1933-08-28 a Dunkerque. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33103200

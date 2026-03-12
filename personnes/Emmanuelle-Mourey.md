@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Emmanuelle Mourey, personnalité du monde des affaires. Ne(e) le 1969-02-06. Formation : EM Lyon Business School.
+Emmanuelle Mourey, personnalité du monde des affaires. Ne(e) le 1969-02-06. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q109631308

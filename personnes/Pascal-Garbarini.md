@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pascal Garbarini, avocat ou avocate. Ne(e) le 1963-12-25 a Levallois-Perret. Formation : université Paris-I-Panthéon-Sorbonne.
+Pascal Garbarini, avocat ou avocate. Ne(e) le 1963-12-25 a Levallois-Perret. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q36841279

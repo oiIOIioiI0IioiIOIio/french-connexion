@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christophe Ducasse, personnalité du monde des affaires. Ne(e) le 1956-06-09 a Paris. Formation : EM Lyon Business School.
+Christophe Ducasse, personnalité du monde des affaires. Ne(e) le 1956-06-09 a Paris. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2966211

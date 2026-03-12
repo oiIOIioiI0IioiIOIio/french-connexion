@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gaëtan Poncelin de Raucourt, militaire. Ne(e) le 1960-04-01 a Cholet. Formation : Institut d'études politiques de Paris.
+Gaëtan [[Ponce]]lin de Raucourt, militaire. Ne(e) le 1960-04-01 a Cholet. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q28465671

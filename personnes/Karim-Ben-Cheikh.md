@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Karim Ben Cheikh, personnalité politique. Ne(e) le 1977-03-19 a Tunis. Formation : Institut d'études politiques de Paris.
+Karim Ben Cheikh, personnalité politique. Ne(e) le 1977-03-19 a Tunis. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q73414972

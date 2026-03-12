@@ -7,6 +7,23 @@ education: université Paris-Dauphine
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Alain Cotta
+- Antoine Le Conte
+- Claude Askolovitch
+- Delphine Vitry
+- Gabrielle Cluzel
+- Gildas Sagot
+- Joëlle Pellegrin
+- Jérôme Chapuis
+- Laurent Aléonard
+- Nolwenn Le Blevennec
+- Philippe Dupont
+- Philippe Verdier
+- Pierre-François Blanc
+- Raphael Kahane
+- Sébastien Romelot
+- Yassine Redissi
 nationality: francaise
 nom_complet: Xavier de Moulins
 occupation: écrivain ou écrivaine
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Xavier de Moulins, écrivain ou écrivaine. Ne(e) le 1971-07-05 a Boulogne-Billancourt. Formation : université Paris-Dauphine.
+Xavier de Moulins, écrivain ou écrivaine. Ne(e) le 1971-07-05 a Boulogne-Billancourt. Formation : [[Université Paris-Dauphine]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3570827

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pierre Brochand, diplomate. Ne(e) le 1941-07-04 a Cannes. Formation : HEC Paris.
+Pierre Brochand, diplomate. Ne(e) le 1941-07-04 a Cannes. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q1351490

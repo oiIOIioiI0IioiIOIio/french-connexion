@@ -7,6 +7,11 @@ education: université Pierre-et-Marie-Curie
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Jean-Luc Aubert
+- Joël Courtois
+- Joël-Alexis Bialkiewicz
+- Nicolas Hulot
 nationality: francaise
 nom_complet: Jean-Baptiste de Franssu
 occupation: personnalité politique

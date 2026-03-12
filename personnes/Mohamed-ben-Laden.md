@@ -7,6 +7,9 @@ education: université Saint-Joseph de Beyrouth
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Randa Habib
+- Salah Stétié
 nationality: francaise
 nom_complet: Mohamed ben Laden
 occupation: avocat ou avocate

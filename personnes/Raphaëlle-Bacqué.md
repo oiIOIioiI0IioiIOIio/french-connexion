@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Raphaëlle Bacqué, journaliste. Ne(e) le 1964-02-01 a Paris. Formation : Institut d'études politiques de Paris.
+Raphaëlle Bacqué, journaliste. Ne(e) le 1964-02-01 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3419553

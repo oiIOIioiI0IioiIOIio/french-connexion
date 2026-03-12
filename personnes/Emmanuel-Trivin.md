@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Emmanuel Trivin, personnalité du monde des affaires. Ne(e) le 1968-10-18 a Grenoble. Formation : Institut polytechnique de Grenoble.
+Emmanuel Trivin, personnalité du monde des affaires. Ne(e) le 1968-10-18 a Grenoble. Formation : [[Institut polytechnique de Grenoble]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33102013

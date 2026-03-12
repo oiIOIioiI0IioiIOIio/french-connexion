@@ -4,6 +4,225 @@ founded: '1878-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Alain Cotta
+- Alain de Gunzburg
+- Alexandre Fourtoy
+- Alexandre Mulliez
+- Alexandre Piton
+- Alexandre Popoff
+- Alexia Guggémos
+- Alice Zagury
+- Amandine Merle
+- Anabelle Flory-Boiron
+- André Coisne
+- André Faber
+- Anne Ghesquière
+- Anne Rosencher
+- Antoine Delon
+- Antoine Le Conte
+- Antoine Portmann
+- Antonin Léonard
+- Arnaud Leclercq
+- Aude Lancelin
+- Aurélie Arruti
+- Barbara Belvisi
+- Barnabé Wayser
+- Benjamin Durand-Servoingt
+- Benjamin Lavorel
+- Benjamin Tancrède
+- Benjamin de Rothschild
+- Bernard Liatti
+- Bernard Reybier
+- Bertrand Rambaud
+- Brice Chambard
+- Bruno Rousset
+- Bruno Tallent
+- Béatrice Khaiat
+- Camille Fauran
+- Catherine Matausch
+- Charles-Elias Farah
+- Charlotte Giraud
+- Chloé-Agathe Azencott
+- Christophe Agnus
+- Christophe Deguine
+- Christophe Ducasse
+- Christophe Sapet
+- Claude Askolovitch
+- Constance Gruy
+- Delphine Vitry
+- Denis Tardit
+- Didier Talpain
+- Dominique Delport
+- Dominique Thillaud
+- Doris Birkhofer
+- Dorothée Balsan
+- Elsa Da Costa
+- Emmanuel Al Nawakil
+- Emmanuel Deroude
+- Emmanuel Gintzburger
+- Emmanuel Marill
+- Emmanuelle Mourey
+- Erkki Maillard
+- Estelle Denis
+- Fabrice Delloye
+- Fabrice de Margerie
+- Francis Lelong
+- Franck Debauge
+- François Bujon de l'Estang
+- François Drillon
+- François Jalinot
+- François Labrouillère
+- François Pesenti
+- François Zocchetto
+- François-Xavier Bourmaud
+- Frédéric Leclerc-Imhoff
+- Frédéric Salat-Baroux
+- Frédéric Torloting
+- Frédéric Vendeuvre
+- Gabrielle Cluzel
+- Gaétan de L'Hermite
+- Gildas Sagot
+- Gilles Alix
+- Gilles Martin-Chauffier
+- Gilles Mollard
+- Grégoire Giraud
+- Guillaume Descotte
+- Guillaume Touze
+- Guillaume-Olivier Doré
+- Guy Lescoeur
+- Gérard Chauvette
+- Henri Biscarrat
+- Hubert de Roquefeuil
+- Isabelle Saporta
+- Jacques Bungert
+- Jean Laurent Bonnafé
+- Jean Neltner
+- Jean-Baptiste O'Neill
+- Jean-Charles Potelle
+- Jean-Claude Lavorel
+- Jean-François Nguyen-Phuoc-Buu-Loc
+- Jean-Guillaume Kleis
+- Jean-Louis Baroux
+- Jean-Luc Delpeuch
+- Jean-Marc Atlan
+- Jean-Marc Lofficier
+- Jean-Marc Spanghero
+- Jean-Michel Aphatie
+- Jean-Michel Carboni
+- Jean-Michel Severino
+- Jean-Paul Elkann
+- Jean-Paul Mazoyer
+- Jean-Paul Valla
+- Jean-Pierre Raffarin
+- Jean-Yves Haby
+- Jihan El-Tahri
+- Joël Tissier
+- Joëlle Pellegrin
+- Julie Joly
+- Jérémy Cukierman
+- Jérôme Chapuis
+- Jérôme Colombain
+- Jérôme Laissus
+- Jérôme Salomon
+- Laurent Adamowicz
+- Laurent Aléonard
+- Laurent Colette
+- Laurent Hanout
+- Leïla Slimani
+- Louis Laforge
+- Lucas Le Bell
+- Maan Zrein
+- Marc Durie
+- Marc Nicolas
+- Marc Ouayoun
+- Marc Rennard
+- Marc Thiollier
+- Marc-Antoine Olive
+- Marie-Anne Poussin-Delmas
+- Martin Ajdari
+- Martin Pénet
+- Mathieu Daix
+- Mathieu Delahousse
+- Maxence Rissoan
+- Maxime Aiach
+- Mehdi Maïzi
+- Michael Peters
+- Michel Finance
+- Michel Longhini
+- Michel Rollin
+- Nicolas Barotte
+- Nicolas Piccato
+- Nicolas Plantrou
+- Nicolas Rudancic
+- Nicolas Zibell
+- Nolwenn Le Blevennec
+- Olga Yulianovna Semonova
+- Omar Berrada
+- Pascal Parent
+- Pascale Seivy
+- Patrick Collard
+- Patrick Eisenchteter
+- Paule Boffa-Comby
+- Philippe Besson
+- Philippe Doucet
+- Philippe Dupont
+- Philippe Klocanas
+- Philippe Laulanie
+- Philippe Roche
+- Philippe Verdier
+- Pierre Billaud
+- Pierre Carles
+- Pierre Girard
+- Pierre Lévy
+- Pierre Zelenko
+- Pierre-François Blanc
+- Pierre-Henry Bassouls
+- Rachel Garrat-Valcarcel
+- Raphael Kahane
+- Raphaël Ebenstein
+- Rebecca Manzoni
+- René Aubertin
+- Richard Poirier
+- Romain Willmann
+- Réjane Éreau
+- Sandrine Chauvin
+- Sidney Rostan
+- Sophie Davant
+- Sophie Le Saint
+- Stéphane Bern
+- Stéphane Chabenat
+- Stéphane Point
+- Sylvie Guinard
+- Sébastien Romelot
+- Thibaut Machet
+- Thierry Demier
+- Thierry Thomas
+- Thomas Rebaud
+- Théophile Kouamouo
+- Tugdual de Dieuleveult
+- Valérie Chapoulaud-Floquet
+- Vianney Derville
+- Vincent Carteron
+- Vincent Huguenin
+- Vincent Jay
+- Vincent Josse
+- Vincent Parizot
+- Vincent Prolongeau
+- Xavier Anthonioz
+- Xavier Rolet
+- Xavier de Bayser
+- Xavier de Moulins
+- Yann Bucaille-Lanrezac
+- Yassine Redissi
+- Yorick de Mombynes
+- Yvan Bonneton
+- Édouard de Royère
+- Élise Chassaing
+- Émilie Tran Nguyen
+- Éric Dupin
+- Éric Favereau
+- Éric Gendry
 nom_complet: IMT Nord Europe
 sources:
 - https://www.wikidata.org/entity/Q28494780

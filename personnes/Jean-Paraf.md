@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean Paraf, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1949-03-12 a Paris. Formation : Institut d'études politiques de Paris.
+Jean Paraf, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1949-03-12 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33120073

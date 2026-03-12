@@ -7,6 +7,8 @@ education: université de Rennes
 genre: masculin
 keywords:
 - juriste
+liens:
+- Éric Morvan
 nationality: francaise
 nom_complet: Raymond-François Le Bris
 occupation: juriste

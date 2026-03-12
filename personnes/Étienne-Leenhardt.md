@@ -7,6 +7,13 @@ education: université Paul-Valéry
 genre: masculin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Francis Mateo
+- Géniale Attoumani
+- Hugo Guillemet
+- Nath-Sakura
+- Patrick Donabédian
+- Thierry Riera
 nationality: francaise
 nom_complet: Étienne Leenhardt
 occupation: présentateur ou présentatrice de journal

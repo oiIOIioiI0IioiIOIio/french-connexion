@@ -7,6 +7,11 @@ education: Institut des hautes études de la sécurité intérieure
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Daniel Matalon
+- Jean Ambroggiani
+- Jean-Pierre Condemine
+- Joëlle Le Mouel
 nationality: francaise
 nom_complet: Roger Marion
 occupation: haut fonctionnaire ou haute fonctionnaire

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Christian Harbulot, enseignant ou enseignante. Ne(e) le 1952-12-19 a Verdun. Formation : Institut d'études politiques de Paris.
+Christian Harbulot, enseignant ou enseignante. Ne(e) le 1952-12-19 a Verdun. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q1080142

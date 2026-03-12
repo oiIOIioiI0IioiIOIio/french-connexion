@@ -16,4 +16,4 @@ type: Media
 wikidata_id: Q13053741
 ---
 
-Hentchakian mamoul, media francais.
+[[Hentchak]]ian mamoul, media francais.

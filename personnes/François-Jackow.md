@@ -7,6 +7,20 @@ education: Université Harvard
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Alfred Galichon
+- Claude-Éric Paquin
+- Ernest-Antoine Seillière
+- Frédéric X de Danemark
+- Geoffroy Didier
+- Jacques Lagarde
+- Jean-Luc Sibiude
+- Laure Mandeville
+- Michel François-Poncet
+- Peter Turnley
+- Pierre Lellouche
+- Renée Kaplan
+- Simon Kuper
 nationality: francaise
 nom_complet: François Jackow
 occupation: personnalité du monde des affaires

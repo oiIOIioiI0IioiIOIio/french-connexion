@@ -7,6 +7,22 @@ education: École nationale des ponts et chaussées
 genre: masculin
 keywords:
 - directeur général ou directrice générale
+liens:
+- Bernard Chenebault
+- Bernard Larrouturou
+- Bertrand de Singly
+- Christian Gerondeau
+- Claude Martinand
+- Delphine Gény-Stephann
+- François Drouin
+- Hubert Peigné
+- Jean-Bosco de Laboulaye
+- Michel Le Net
+- Michel Rousselot
+- Noël de Saint-Pulgent
+- Pierre-Yves Guice
+- Raoul Rudeau
+- Xavier Piechaczyk
 nationality: francaise
 nom_complet: Xavier Lortat-Jacob
 occupation: directeur général ou directrice générale

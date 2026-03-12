@@ -7,6 +7,8 @@ education: École centrale de Nantes
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Marc Roussel
 nationality: francaise
 nom_complet: Christophe Geffroy
 occupation: écrivain ou écrivaine

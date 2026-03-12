@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel Finance, personnalité du monde des affaires. Ne(e) le 1957-09-23 a Épinal. Formation : EM Lyon Business School.
+Michel Finance, personnalité du monde des affaires. Ne(e) le 1957-09-23 a Épinal. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33144037

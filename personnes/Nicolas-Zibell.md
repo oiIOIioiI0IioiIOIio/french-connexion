@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nicolas Zibell, personnalité du monde des affaires. Ne(e) le 1967-08-22 a 12e arrondissement de Paris. Formation : EM Lyon Business School.
+Nicolas Zibell, personnalité du monde des affaires. Ne(e) le 1967-08-22 a 12e arrondissement de Paris. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q122258502

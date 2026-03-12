@@ -17,4 +17,4 @@ website: https://gallica.bnf.fr/ark:/12148/cb32889048v/date
 wikidata_id: Q22249446
 ---
 
-La Vie illustrée, media francais.
+[[La Vie]] illustrée, media francais.

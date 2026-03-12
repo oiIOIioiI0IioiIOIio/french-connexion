@@ -7,6 +7,23 @@ education: université Paris-Dauphine
 genre: féminin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Alain Cotta
+- Antoine Le Conte
+- Claude Askolovitch
+- Gabrielle Cluzel
+- Gildas Sagot
+- Joëlle Pellegrin
+- Jérôme Chapuis
+- Laurent Aléonard
+- Nolwenn Le Blevennec
+- Philippe Dupont
+- Philippe Verdier
+- Pierre-François Blanc
+- Raphael Kahane
+- Sébastien Romelot
+- Xavier de Moulins
+- Yassine Redissi
 nationality: francaise
 nom_complet: Delphine Vitry
 occupation: personnalité du monde des affaires
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Delphine Vitry, personnalité du monde des affaires. Ne(e) le 1970-06-30 a Levallois-Perret. Formation : université Paris-Dauphine.
+Delphine Vitry, personnalité du monde des affaires. Ne(e) le 1970-06-30 a Levallois-Perret. Formation : [[Université Paris-Dauphine]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q124157581

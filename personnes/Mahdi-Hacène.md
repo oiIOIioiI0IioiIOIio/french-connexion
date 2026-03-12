@@ -7,6 +7,23 @@ education: Institut d'études politiques de Toulouse
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Arnauld Champremier-Trigano
+- Audrey Crespo-Mara
+- Christian Authier
+- David Izzo
+- Grégor Trumel
+- Isabelle Sima
+- Jean-François Savy
+- Jean-Paul Gauzès
+- Maxime Switek
+- Michel Moutot
+- Pierre Benazet
+- Rodolphe Sambou
+- Roger Dumec
+- Serge Tignères
+- Stéphane Lauer
+- Sylvain Augier
 nationality: francaise
 nom_complet: Mahdi Hacène
 occupation: haut fonctionnaire ou haute fonctionnaire
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Mahdi Hacène, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1931-09-16 a Dellys. Formation : Institut d'études politiques de Toulouse.
+Mahdi Hacène, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1931-09-16 a Dellys. Formation : [[Institut d'études politiques de Toulouse]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50892412

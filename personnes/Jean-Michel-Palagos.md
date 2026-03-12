@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Michel Palagos, militaire. Ne(e) le 1951-04-17 a Bir Mourad Raïs. Formation : Institut d'études politiques de Paris.
+Jean-Michel Palagos, militaire. Ne(e) le 1951-04-17 a Bir Mourad Raïs. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q17350827

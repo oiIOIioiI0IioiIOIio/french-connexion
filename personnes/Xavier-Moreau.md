@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Xavier Moreau, écrivain ou écrivaine. Ne(e) le 1971-10-25. Formation : université Paris-Sorbonne.
+Xavier Moreau, écrivain ou écrivaine. Ne(e) le 1971-10-25. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q44388490

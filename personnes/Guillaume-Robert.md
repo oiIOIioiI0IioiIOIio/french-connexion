@@ -7,6 +7,16 @@ education: École pratique des hautes études
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Alain Ruellan
+- Bernard Le Clère
+- Gaëlle Bélem
+- Isabelle Coutant-Peyre
+- Pascal Bruckner
+- Patrick Sbalchiero
+- Rozenn Milin
+- Sébastien de Courtois
+- Xavier Accart
 nationality: francaise
 nom_complet: Guillaume Robert
 occupation: diplomate

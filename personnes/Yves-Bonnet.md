@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Yves Bonnet, personnalité politique. Ne(e) le 1935-11-20 a Chartres. Formation : Institut d'études politiques de Paris.
+Yves Bonnet, personnalité politique. Ne(e) le 1935-11-20 a Chartres. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3573502

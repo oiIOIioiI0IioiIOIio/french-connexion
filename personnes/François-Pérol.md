@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-François Pérol, personnalité du monde des affaires. Ne(e) le 1963-11-06 a Le Creusot. Formation : HEC Paris.
+François Pérol, personnalité du monde des affaires. Ne(e) le 1963-11-06 a Le Creusot. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3085629

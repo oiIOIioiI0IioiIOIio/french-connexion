@@ -7,6 +7,13 @@ education: université Paris-Diderot
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Caroline Toutain
+- Christine Bravo
+- Mélanie Kuszelewicz
+- Nora Bouazzouni
+- Odile Ambry
+- Tristan Ranx
 nationality: francaise
 nom_complet: Hervé Le Tellier
 occupation: écrivain ou écrivaine

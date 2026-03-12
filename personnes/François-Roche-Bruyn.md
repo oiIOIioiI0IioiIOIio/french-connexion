@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-François Roche-Bruyn, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1957-06-26 a Nancy.
+[[François Roche]]-Bruyn, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1957-06-26 a Nancy.
 
 ## Sources
 - http://www.wikidata.org/entity/Q33106534

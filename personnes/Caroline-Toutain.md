@@ -7,6 +7,13 @@ education: université Paris-Diderot
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Christine Bravo
+- Hervé Le Tellier
+- Mélanie Kuszelewicz
+- Nora Bouazzouni
+- Odile Ambry
+- Tristan Ranx
 nationality: francaise
 nom_complet: Caroline Toutain
 occupation: journaliste

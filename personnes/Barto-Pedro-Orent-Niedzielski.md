@@ -7,6 +7,24 @@ education: université de Strasbourg
 genre: masculin
 keywords:
 - musicien ou musicienne
+liens:
+- Antoine Genton
+- Bertrand Mertz
+- Christian Kassel
+- Christian Nique
+- Christophe Grudler
+- Francis Letellier
+- François Hoehlinger
+- Françoise Joly
+- Jean Kahn
+- Jean-Baptiste Soufron
+- Jean-Marie Bockel
+- Louis Oster
+- Marie-Monique Robin
+- Patrick Strzoda
+- Raymond Forni
+- Romain Mielcarek
+- Érick Cakpo
 nationality: francaise
 nom_complet: Barto Pedro Orent-Niedzielski
 occupation: musicien ou musicienne

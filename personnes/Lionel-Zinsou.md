@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Lionel Zinsou, personnalité politique. Ne(e) le 1954-10-23 a Paris. Formation : École normale supérieure.
+Lionel Zinsou, personnalité politique. Ne(e) le 1954-10-23 a Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3241966

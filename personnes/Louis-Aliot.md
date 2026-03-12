@@ -7,6 +7,17 @@ education: université Toulouse-Capitole
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Ali Rebeihi
+- André Ferragne
+- Anne-Sophie Barthez
+- Bertrand Delanoë
+- Christophe Lèguevaques
+- David Koubbi
+- Jacques Lévy
+- Jean-Nicolas Baylet
+- Philippe Fabry
+- Éléonore Blondeau
 nationality: francaise
 nom_complet: Louis Aliot
 occupation: avocat ou avocate

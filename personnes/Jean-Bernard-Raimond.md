@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Bernard Raimond, personnalité politique. Ne(e) le 1926-02-06 a 12e arrondissement de Paris. Formation : École normale supérieure.
+Jean-Bernard Raimond, personnalité politique. Ne(e) le 1926-02-06 a 12e arrondissement de Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2472833

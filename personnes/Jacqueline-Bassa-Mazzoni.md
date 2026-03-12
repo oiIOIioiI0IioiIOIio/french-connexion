@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jacqueline Bassa-Mazzoni, diplomate. Ne(e) le 1956-04-13 a Toulouse. Formation : Institut d'études politiques de Paris.
+Jacqueline Bassa-Mazzoni, diplomate. Ne(e) le 1956-04-13 a Toulouse. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q28033557

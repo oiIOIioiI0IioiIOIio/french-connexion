@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Éléonore Lacroix, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1974-01-01. Formation : École normale supérieure.
+Éléonore Lacroix, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1974-01-01. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q47339739

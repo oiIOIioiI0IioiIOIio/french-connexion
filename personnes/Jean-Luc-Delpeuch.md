@@ -7,6 +7,8 @@ education: École nationale supérieure des mines de Paris
 genre: masculin
 keywords:
 - enseignant ou enseignante
+liens:
+- Jean-François Nguyen-Phuoc-Buu-Loc
 nationality: francaise
 nom_complet: Jean-Luc Delpeuch
 occupation: enseignant ou enseignante

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sophie Ferracci, avocat ou avocate. Ne(e) le 1976-01-01 a France. Formation : HEC Paris.
+Sophie Ferracci, avocat ou avocate. Ne(e) le 1976-01-01 a France. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q29848005

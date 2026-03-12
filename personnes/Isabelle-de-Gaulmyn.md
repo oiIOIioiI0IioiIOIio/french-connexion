@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Isabelle de Gaulmyn, journaliste. Ne(e) le 1962-12-11 a Casablanca. Formation : Institut d'études politiques de Paris.
+Isabelle de Gaulmyn, journaliste. Ne(e) le 1962-12-11 a Casablanca. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16644060

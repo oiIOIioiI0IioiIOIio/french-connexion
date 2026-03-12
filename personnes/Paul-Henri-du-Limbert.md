@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Paul-Henri du Limbert, journaliste. Ne(e) le 1959-11-22 a Boulogne-Billancourt. Formation : Centre de formation des journalistes.
+Paul-Henri du Limbert, journaliste. Ne(e) le 1959-11-22 a Boulogne-Billancourt. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q48916278

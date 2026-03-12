@@ -7,6 +7,14 @@ education: École nationale supérieure de la Police
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Ange Mancini
+- Bernard Guérin
+- Christian Lambert
+- Frédéric Veaux
+- Henri Souchon
+- Patrick Calvar
+- Yves Guillot
 nationality: francaise
 nom_complet: Jean-Louis Fiamenghi
 occupation: haut fonctionnaire ou haute fonctionnaire

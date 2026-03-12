@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Neïla Latrous, écrivain ou écrivaine. Ne(e) le 1986-06-18 a Lille. Formation : Grenoble École de management.
+Neïla Latrous, écrivain ou écrivaine. Ne(e) le 1986-06-18 a Lille. Formation : [[Grenoble École de management]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16666409

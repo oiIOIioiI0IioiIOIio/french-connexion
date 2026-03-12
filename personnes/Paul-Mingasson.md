@@ -7,6 +7,8 @@ education: École nationale d'administration
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Jean-Paul Mingasson
 nationality: francaise
 nom_complet: Paul Mingasson
 occupation: haut fonctionnaire ou haute fonctionnaire

@@ -4,6 +4,9 @@ founded: '1973-04-18'
 keywords:
 - media
 - presse
+liens:
+- Libération kanak socialiste
+- Mouvement de Libération de la Bourgogne
 nom_complet: Libération
 owner: Bruno Ledoux
 sources:

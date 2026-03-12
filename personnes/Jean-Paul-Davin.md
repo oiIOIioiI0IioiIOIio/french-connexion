@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Paul Davin, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1945-05-27. Formation : Institut d'études politiques de Paris.
+Jean-Paul Davin, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1945-05-27. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33183955

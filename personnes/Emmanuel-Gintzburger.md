@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Emmanuel Gintzburger, personnalité du monde des affaires. Ne(e) le 1974-04-02 a Boulogne-Billancourt. Formation : EM Lyon Business School.
+Emmanuel Gintzburger, personnalité du monde des affaires. Ne(e) le 1974-04-02 a Boulogne-Billancourt. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q123352677

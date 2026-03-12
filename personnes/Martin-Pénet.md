@@ -7,6 +7,12 @@ education: université de Versailles-Saint-Quentin-en-Yvelines
 genre: masculin
 keywords:
 - historien ou historienne
+liens:
+- François-Xavier Bourmaud
+- Isabelle Saporta
+- Jérôme Salomon
+- Nicolas Barotte
+- Tugdual de Dieuleveult
 nationality: francaise
 nom_complet: Martin Pénet
 occupation: historien ou historienne

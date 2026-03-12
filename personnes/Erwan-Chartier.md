@@ -7,6 +7,18 @@ education: université Rennes-II
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Alain Pirot
+- Anne-Claire Coudray
+- Denis Ruellan
+- Fanny Chauffin
+- Gaspard Glanz
+- Hélène Fily
+- Maryse Burgot
+- Morgane Tual
+- Philippe Georgeais
+- Samuel Le Goff
+- Sidonie Bonnec
 nationality: francaise
 nom_complet: Erwan Chartier
 occupation: journaliste

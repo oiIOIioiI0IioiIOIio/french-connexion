@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Éric Bourdais de Charbonnière, banquier. Ne(e) le 1939-07-01 a Boulogne-Billancourt. Formation : Université de Pennsylvanie.
+Éric Bourdais de [[Charb]]onnière, banquier. Ne(e) le 1939-07-01 a Boulogne-Billancourt. Formation : Université de Pennsylvanie.
 
 ## Sources
 - http://www.wikidata.org/entity/Q19060245

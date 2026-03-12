@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Claudia Scherer-Effosse, diplomate. Ne(e) le 1966-12-04 a Boulogne-Billancourt. Formation : Institut d'études politiques de Paris.
+Claudia Scherer-Effosse, diplomate. Ne(e) le 1966-12-04 a Boulogne-Billancourt. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50691011

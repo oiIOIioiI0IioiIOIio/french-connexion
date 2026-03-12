@@ -7,6 +7,10 @@ education: INSEAD
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Geoffroy de la Bourdonnaye
+- Jacques Bonifay
+- Jean-Pierre Charriton
 nationality: francaise
 nom_complet: Thierry Launois
 occupation: personnalité du monde des affaires
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Thierry Launois, personnalité du monde des affaires. Ne(e) le 1971-02-10 a Toulon. Formation : INSEAD.
+Thierry Launois, personnalité du monde des affaires. Ne(e) le 1971-02-10 a Toulon. Formation : [[INSEAD]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q133190545

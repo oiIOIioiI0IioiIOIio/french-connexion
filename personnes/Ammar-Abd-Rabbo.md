@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Ammar Abd Rabbo, photographe. Ne(e) le 1966-10-13 a Damas. Formation : Institut d'études politiques de Paris.
+Ammar Abd Rabbo, photographe. Ne(e) le 1966-10-13 a Damas. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2843612

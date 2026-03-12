@@ -7,6 +7,8 @@ education: lycée Pierre-de-Fermat
 genre: masculin
 keywords:
 - scénariste
+liens:
+- René Giraudon
 nationality: francaise
 nom_complet: Éric Neuhoff
 occupation: scénariste

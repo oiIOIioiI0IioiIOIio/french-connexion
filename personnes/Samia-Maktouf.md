@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Samia Maktouf, avocat ou avocate. Ne(e) le 1963-09-30 a Sousse. Formation : université Paris-I-Panthéon-Sorbonne.
+Samia Maktouf, avocat ou avocate. Ne(e) le 1963-09-30 a Sousse. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q28837958

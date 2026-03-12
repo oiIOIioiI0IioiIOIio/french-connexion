@@ -7,6 +7,12 @@ education: Université de Princeton
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Florian Cardinaux
+- Frédéric Mion
+- Marguerite Bérard
+- Mario Laserna Pinzón
+- Terence Strick
 nationality: francaise
 nom_complet: David Djaïz
 occupation: haut fonctionnaire ou haute fonctionnaire

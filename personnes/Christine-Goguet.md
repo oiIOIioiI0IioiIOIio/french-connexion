@@ -7,6 +7,15 @@ education: Centre de formation et de perfectionnement des journalistes
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Anne-Isabelle Tollet
+- Aude Favre
+- Clarence Edgard-Rosa
+- Cécile Pivot
+- Djamel Mazi
+- Fabien Roussel
+- Gauthier Le Bret
+- Éric Delvaux
 nationality: francaise
 nom_complet: Christine Goguet
 occupation: écrivain ou écrivaine

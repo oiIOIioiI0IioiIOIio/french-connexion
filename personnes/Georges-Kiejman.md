@@ -7,6 +7,9 @@ education: lycée Voltaire
 genre: masculin
 keywords:
 - acteur ou actrice
+liens:
+- Fernand Chassagne
+- Michel Éon
 nationality: francaise
 nom_complet: Georges Kiejman
 occupation: acteur ou actrice

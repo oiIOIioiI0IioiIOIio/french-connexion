@@ -7,6 +7,12 @@ education: université d'Aix-Marseille
 genre: masculin
 keywords:
 - fonctionnaire
+liens:
+- Christophe Castaner
+- Christophe Penot
+- François Beaudonnet
+- Julien Larregue
+- Sarah Caron
 nationality: francaise
 nom_complet: Bernard Squarcini
 occupation: fonctionnaire

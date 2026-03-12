@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bruno Durieux, personnalité politique. Ne(e) le 1944-10-23 a Montigny. Formation : École polytechnique.
+Bruno Durieux, personnalité politique. Ne(e) le 1944-10-23 a Montigny. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2926756

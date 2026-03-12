@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michael Peters, personnalité du monde des affaires. Ne(e) le 1971-08-30 a Flensbourg. Formation : EM Lyon Business School.
+Michael Peters, personnalité du monde des affaires. Ne(e) le 1971-08-30 a Flensbourg. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q62572964

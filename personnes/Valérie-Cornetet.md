@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Valérie Cornetet, directeur général ou directrice générale. Ne(e) le 1966-01-03. Formation : École polytechnique.
+Valérie Cornetet, directeur général ou directrice générale. Ne(e) le 1966-01-03. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q114755737

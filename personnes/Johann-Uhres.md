@@ -7,6 +7,14 @@ education: École normale supérieure de Lyon
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Augustin Trapenard
+- Bernard Bigot
+- Catherine Guesde
+- Gaultier Bès
+- Léa Bello
+- Marianne Durano
+- Matthias Fekl
 nationality: francaise
 nom_complet: Johann Uhres
 occupation: diplomate
@@ -22,7 +30,7 @@ tags:
 type: Personne
 ---
 
-Johann Uhres, diplomate. Ne(e) le 1970-01-01. Formation : École normale supérieure de Lyon.
+Johann Uhres, diplomate. Ne(e) le 1970-01-01. Formation : [[École normale supérieure]] de Lyon.
 
 ## Sources
 - http://www.wikidata.org/entity/Q131850391

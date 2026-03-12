@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Soren Seelow, journaliste. Ne(e) le 1976-07-09. Formation : Centre de formation des journalistes.
+Soren Seelow, journaliste. Ne(e) le 1976-07-09. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50875228

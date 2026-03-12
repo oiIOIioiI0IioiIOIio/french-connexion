@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Renaud de Spens, traducteur ou traductrice. Ne(e) le 1970-10-25. Formation : université Paris-Sorbonne.
+Renaud de Spens, traducteur ou traductrice. Ne(e) le 1970-10-25. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q137995716

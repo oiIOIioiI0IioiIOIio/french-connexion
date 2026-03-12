@@ -7,6 +7,13 @@ education: université d'Alger
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Abdelkader Hadjar
+- Khadija Benguenna
+- Lakhdar Brahimi
+- Mourad Medelci
+- Redha Malek
+- Tahar Djaout
 nationality: francaise
 nom_complet: Mohammed Seddik Benyahia
 occupation: personnalité politique

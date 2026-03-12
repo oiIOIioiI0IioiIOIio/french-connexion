@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jannick Alimi, journaliste. Ne(e) le 1956-01-01. Formation : Institut d'études politiques de Paris.
+Jannick Alimi, journaliste. Ne(e) le 1956-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q126923161

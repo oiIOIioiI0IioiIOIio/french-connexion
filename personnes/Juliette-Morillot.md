@@ -7,6 +7,16 @@ education: École du Louvre
 genre: féminin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Aurélie Godefroy
+- Bernard Pignerol
+- Claudine Le Tourneur d'Ison
+- Didier Rykner
+- Georges Gautier
+- Hélène Risser
+- Inès de La Fressange
+- Léa Lootgieter
+- Rosine Lheureux
 nationality: francaise
 nom_complet: Juliette Morillot
 occupation: écrivain ou écrivaine

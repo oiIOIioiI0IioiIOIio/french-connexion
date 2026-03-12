@@ -7,6 +7,9 @@ education: université Grenoble-II
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Emmanuel Ostian
+- Mélissa Theuriau
 nationality: francaise
 nom_complet: Pierre Romera
 occupation: journaliste

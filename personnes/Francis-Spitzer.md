@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Francis Spitzer, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1947-01-01. Formation : Institut d'études politiques de Paris.
+Francis Spitzer, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1947-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q63112021

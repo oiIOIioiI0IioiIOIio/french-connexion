@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Mathieu Daix, écrivain ou écrivaine. Ne(e) le 1988-03-04 a Aurillac. Formation : EM Lyon Business School.
+Mathieu Daix, écrivain ou écrivaine. Ne(e) le 1988-03-04 a Aurillac. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q138413743

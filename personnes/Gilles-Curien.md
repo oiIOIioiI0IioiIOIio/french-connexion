@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gilles Curien, diplomate. Ne(e) le 1922-02-26 a Cornimont. Formation : Institut d'études politiques de Paris.
+Gilles Curien, diplomate. Ne(e) le 1922-02-26 a Cornimont. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3106172

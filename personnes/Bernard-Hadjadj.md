@@ -7,6 +7,40 @@ education: université Paris-Nanterre
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Anaïs Castagna
+- Anne-Marie Revol
+- Bernard de La Villardière
+- Caroline Mécary
+- Christophe Grébert
+- Clara Dupont-Monod
+- Claude Mesliand
+- Didier Porte
+- Emmanuel de Tournemire
+- Françoise Fressoz
+- Françoise Maylié
+- Frédéric Beylier
+- Gaïdz Minassian
+- Jean-Pierre Boris
+- Joseph Macé-Scaron
+- Katherine Pancol
+- Marie-Pierre Vieu
+- Matthieu Jantet-Hidalgo
+- Mohammed Aïssaoui
+- Nora Hamadi
+- Olivier Le Naire
+- Pascal Le Deunff
+- Peggy Olmi
+- Pierre Besnard
+- Pierre-Yves Schneider
+- Richard Malka
+- Sophie Gourion
+- Stéphane Albouy
+- Stéphane Schorderet
+- Sylvia Preuss-Laussinotte
+- Thomas Giraud
+- Élie Korchia
+- Étienne de Montety
 nationality: francaise
 nom_complet: Bernard Hadjadj
 occupation: haut fonctionnaire ou haute fonctionnaire

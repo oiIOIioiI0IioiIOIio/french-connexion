@@ -4,6 +4,8 @@ founded: '2009-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- collège doctoral Université Lille Nord de France
 nom_complet: Université Lille Nord de France
 sources:
 - https://www.wikidata.org/entity/Q64711037

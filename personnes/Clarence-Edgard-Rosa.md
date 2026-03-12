@@ -7,6 +7,15 @@ education: Centre de formation et de perfectionnement des journalistes
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Anne-Isabelle Tollet
+- Aude Favre
+- Christine Goguet
+- Cécile Pivot
+- Djamel Mazi
+- Fabien Roussel
+- Gauthier Le Bret
+- Éric Delvaux
 nationality: francaise
 nom_complet: Clarence Edgard-Rosa
 occupation: journaliste

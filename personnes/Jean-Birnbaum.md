@@ -7,6 +7,12 @@ education: lycée Henri-IV
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Ali Baddou
+- Daniel Schneidermann
+- Jean-François Parot
+- Michel Eltchaninoff
+- Pierre Sergent
 nationality: francaise
 nom_complet: Jean Birnbaum
 occupation: journaliste

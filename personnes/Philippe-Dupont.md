@@ -7,6 +7,23 @@ education: université Paris-Dauphine
 genre: masculin
 keywords:
 - banquier
+liens:
+- Alain Cotta
+- Antoine Le Conte
+- Claude Askolovitch
+- Delphine Vitry
+- Gabrielle Cluzel
+- Gildas Sagot
+- Joëlle Pellegrin
+- Jérôme Chapuis
+- Laurent Aléonard
+- Nolwenn Le Blevennec
+- Philippe Verdier
+- Pierre-François Blanc
+- Raphael Kahane
+- Sébastien Romelot
+- Xavier de Moulins
+- Yassine Redissi
 nationality: francaise
 nom_complet: Philippe Dupont
 occupation: banquier
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Philippe Dupont, banquier. Ne(e) le 1951-04-18 a Versailles. Formation : université Paris-Dauphine.
+Philippe Dupont, banquier. Ne(e) le 1951-04-18 a Versailles. Formation : [[Université Paris-Dauphine]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3379786

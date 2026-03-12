@@ -7,6 +7,8 @@ education: université Blaise-Pascal
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Bénédicte Mezeix-Rytwiński
 nationality: francaise
 nom_complet: Arthur Nesnidal
 occupation: écrivain ou écrivaine

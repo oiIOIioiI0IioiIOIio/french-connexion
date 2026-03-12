@@ -6,6 +6,10 @@ ideology: écologie politique
 keywords:
 - parti politique
 - politique
+liens:
+- Caraïbe Écologie Les Verts Guadeloupe
+- Les Verts Pacifique
+- Les Écologistes – Europe Écologie Les Verts
 nom_complet: Les Verts
 sources:
 - https://www.wikidata.org/entity/Q743390

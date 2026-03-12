@@ -6,6 +6,8 @@ industry: activités des sociétés holding
 keywords:
 - entreprise
 - activités des sociétés holding
+liens:
+- Paris Country Club
 nom_complet: Christian Dior
 sources:
 - https://www.wikidata.org/entity/Q542767

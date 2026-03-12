@@ -10,6 +10,16 @@ keywords:
 - intellectuel
 - auteur
 - philosophie
+liens:
+- Alain Ruellan
+- Bernard Le Clère
+- Gaëlle Bélem
+- Guillaume Robert
+- Isabelle Coutant-Peyre
+- Patrick Sbalchiero
+- Rozenn Milin
+- Sébastien de Courtois
+- Xavier Accart
 nationality: française
 nom_complet: Pascal Bruckner
 occupation: philosophe, romancier, essayiste

@@ -3,6 +3,10 @@ date_creation_note: '2026-03-12'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Dominique Lagrou-Sempère
+- Léon Bouvier
+- Sandy Dauphin
 nom_complet: Conservatoire à rayonnement départemental de Gennevilliers
 sources:
 - https://www.wikidata.org/entity/Q107458504

@@ -18,4 +18,4 @@ website: http://guadeloupe.lesverts.fr/
 wikidata_id: Q2937918
 ---
 
-Caraïbe Écologie Les Verts Guadeloupe, parti politique francais.
+Caraïbe Écologie [[Les Verts]] Guadeloupe, parti politique francais.

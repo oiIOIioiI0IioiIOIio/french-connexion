@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sylvain Allemand, journaliste. Ne(e) le 1967-06-10. Formation : Institut d'études politiques de Paris.
+Sylvain Allemand, journaliste. Ne(e) le 1967-06-10. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3506912

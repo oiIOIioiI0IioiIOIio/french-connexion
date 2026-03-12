@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Dominique Bona, journaliste. Ne(e) le 1953-07-29 a Perpignan. Formation : université Paris-Sorbonne.
+Dominique Bona, journaliste. Ne(e) le 1953-07-29 a Perpignan. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3035010

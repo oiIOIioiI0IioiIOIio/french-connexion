@@ -18,4 +18,4 @@ website: http://www.avenirdemocrate.org/
 wikidata_id: Q2838038
 ---
 
-Alliance citoyenne pour la démocratie en Europe - Avenir démocrate, parti politique francais.
+[[Alliance]] citoyenne pour la démocratie en Europe - Avenir démocrate, parti politique francais.

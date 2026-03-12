@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Éric Tosatti, diplomate. Ne(e) le 1973-09-02. Formation : Institut d'études politiques de Paris.
+Éric Tosatti, diplomate. Ne(e) le 1973-09-02. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q121087856

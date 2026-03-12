@@ -7,6 +7,20 @@ education: Université Harvard
 genre: masculin
 keywords:
 - mathématicien ou mathématicienne
+liens:
+- Claude-Éric Paquin
+- Ernest-Antoine Seillière
+- François Jackow
+- Frédéric X de Danemark
+- Geoffroy Didier
+- Jacques Lagarde
+- Jean-Luc Sibiude
+- Laure Mandeville
+- Michel François-Poncet
+- Peter Turnley
+- Pierre Lellouche
+- Renée Kaplan
+- Simon Kuper
 nationality: francaise
 nom_complet: Alfred Galichon
 occupation: mathématicien ou mathématicienne

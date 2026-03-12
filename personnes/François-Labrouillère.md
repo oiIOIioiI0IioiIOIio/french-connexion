@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-François Labrouillère, journaliste. Ne(e) le 1954-01-20. Formation : EM Lyon Business School.
+François Labrouillère, journaliste. Ne(e) le 1954-01-20. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q52482867

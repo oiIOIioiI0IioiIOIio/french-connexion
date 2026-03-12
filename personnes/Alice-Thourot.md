@@ -7,6 +7,9 @@ education: université Nancy-II
 genre: féminin
 keywords:
 - avocat ou avocate
+liens:
+- Jean-Denis Combrexelle
+- Patrick Fandio
 nationality: francaise
 nom_complet: Alice Thourot
 occupation: avocat ou avocate

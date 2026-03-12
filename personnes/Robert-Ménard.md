@@ -7,6 +7,10 @@ education: Université de Montpellier
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Mustapha Adib
+- Thomas Mayol
+- Ziza Massika
 nationality: francaise
 nom_complet: Robert Ménard
 occupation: personnalité politique
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Robert Ménard, personnalité politique. Ne(e) le 1953-07-06 a Oran. Formation : Université de Montpellier.
+Robert Ménard, personnalité politique. Ne(e) le 1953-07-06 a Oran. Formation : [[Université de Montpellier]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2976160

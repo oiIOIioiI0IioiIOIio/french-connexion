@@ -7,6 +7,12 @@ education: lycée Henri-IV
 genre: masculin
 keywords:
 - animateur ou animatrice de télévision
+liens:
+- Ali Baddou
+- Jean Birnbaum
+- Jean-François Parot
+- Michel Eltchaninoff
+- Pierre Sergent
 nationality: francaise
 nom_complet: Daniel Schneidermann
 occupation: animateur ou animatrice de télévision

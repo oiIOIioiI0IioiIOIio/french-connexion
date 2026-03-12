@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Bernard Poletti, diplomate. Ne(e) le 1946-03-01 a Tunisie. Formation : Institut d'études politiques de Paris.
+Bernard Poletti, diplomate. Ne(e) le 1946-03-01 a Tunisie. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q25302359

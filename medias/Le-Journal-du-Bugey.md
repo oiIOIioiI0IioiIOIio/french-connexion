@@ -16,4 +16,4 @@ type: Media
 wikidata_id: Q3186870
 ---
 
-Le Journal du Bugey, media francais.
+[[Le Jour]]nal du Bugey, media francais.

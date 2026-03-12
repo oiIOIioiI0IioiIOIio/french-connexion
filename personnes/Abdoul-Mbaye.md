@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Abdoul Mbaye, personnalité politique. Ne(e) le 1953-04-13 a Dakar. Formation : HEC Paris.
+Abdoul Mbaye, personnalité politique. Ne(e) le 1953-04-13 a Dakar. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q57895

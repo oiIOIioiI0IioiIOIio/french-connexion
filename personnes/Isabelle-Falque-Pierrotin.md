@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Isabelle Falque-Pierrotin, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1960-01-21 a Le Creusot. Formation : HEC Paris.
+Isabelle Falque-Pierrotin, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1960-01-21 a Le Creusot. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3154921

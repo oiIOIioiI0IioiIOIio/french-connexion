@@ -5,6 +5,8 @@ headquarters: Paris
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Sandra Lavorel
 nom_complet: Institut des sciences et industries du vivant et de l'environnement (AgroParisTech)
 sources:
 - https://www.wikidata.org/entity/Q1637105

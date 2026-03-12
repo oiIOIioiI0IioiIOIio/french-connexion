@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Karine Blouët, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1970-01-01. Formation : École polytechnique.
+Karine Blouët, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1970-01-01. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q115473584

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marie-Pierre Parlange Martin, journaliste. Ne(e) le 1970-05-10. Formation : université Paris-Sorbonne.
+Marie-Pierre Parlange Martin, journaliste. Ne(e) le 1970-05-10. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q42309439

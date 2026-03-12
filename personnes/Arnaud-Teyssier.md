@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Arnaud Teyssier, historien ou historienne. Ne(e) le 1958-12-22 a Paris. Formation : École normale supérieure.
+Arnaud Teyssier, historien ou historienne. Ne(e) le 1958-12-22 a Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2863225

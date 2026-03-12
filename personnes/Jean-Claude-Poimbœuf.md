@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Claude Poimbœuf, diplomate. Ne(e) le 1959-07-30 a Suresnes. Formation : Institut d'études politiques de Paris.
+Jean-Claude Poimbœuf, diplomate. Ne(e) le 1959-07-30 a Suresnes. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q24402479

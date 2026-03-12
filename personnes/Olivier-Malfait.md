@@ -7,6 +7,12 @@ education: université Lille-I
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Alexandra Pihen
+- Eléonor Acher
+- Richard Laganier
+- Salima Saa
+- Vincent Bedouin
 nationality: francaise
 nom_complet: Olivier Malfait
 occupation: personnalité du monde des affaires

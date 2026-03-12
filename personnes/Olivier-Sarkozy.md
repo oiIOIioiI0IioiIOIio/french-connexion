@@ -7,6 +7,8 @@ education: Université de St Andrews
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Margaux Benn
 nationality: francaise
 nom_complet: Olivier Sarkozy
 occupation: personnalité du monde des affaires

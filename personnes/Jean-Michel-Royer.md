@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Michel Royer, avocat ou avocate. Ne(e) le 1933-02-27 a Poitiers. Formation : Institut d'études politiques de Paris.
+Jean-Michel Royer, avocat ou avocate. Ne(e) le 1933-02-27 a Poitiers. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3168138

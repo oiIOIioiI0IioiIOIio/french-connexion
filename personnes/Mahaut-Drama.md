@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Mahaut Drama, écrivain ou écrivaine. Ne(e) le 1994-11-11. Formation : université Paris-I-Panthéon-Sorbonne.
+Mahaut Drama, écrivain ou écrivaine. Ne(e) le 1994-11-11. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q119860473

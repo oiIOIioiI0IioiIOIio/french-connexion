@@ -5,6 +5,8 @@ headquarters: Genève
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Victor Loupan
 nom_complet: ISG Luxury Management
 sources:
 - https://www.wikidata.org/entity/Q52821707

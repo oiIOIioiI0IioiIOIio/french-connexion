@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Maryse Daviet, diplomate. Ne(e) le 1956-06-06. Formation : Institut d'études politiques de Paris.
+Maryse Daviet, diplomate. Ne(e) le 1956-06-06. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q55618834

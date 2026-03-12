@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Martial Bild, personnalité politique. Ne(e) le 1961-11-12 a 17e arrondissement de Paris. Formation : université Paris-I-Panthéon-Sorbonne.
+Martial Bild, personnalité politique. Ne(e) le 1961-11-12 a 17e arrondissement de Paris. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3295234

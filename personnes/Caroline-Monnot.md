@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Caroline Monnot, journaliste. Ne(e) le 1965-10-01 a Champigny-sur-Marne. Formation : Institut d'études politiques de Paris.
+Caroline Monnot, journaliste. Ne(e) le 1965-10-01 a Champigny-sur-Marne. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q19629439

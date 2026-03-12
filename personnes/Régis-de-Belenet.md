@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Régis de Belenet, diplomate. Ne(e) le 1942-12-14 a Fès. Formation : Institut d'études politiques de Paris.
+Régis de Belenet, diplomate. Ne(e) le 1942-12-14 a Fès. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q47500101

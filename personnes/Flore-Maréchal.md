@@ -7,6 +7,12 @@ education: université Lille-III
 genre: féminin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Catherine Mangin-Dessarts
+- Didier Rogasik
+- Kidi Bebey
+- Meriem Amellal
+- Réginald Gaillard
 nationality: francaise
 nom_complet: Flore Maréchal
 occupation: présentateur ou présentatrice de journal

@@ -7,6 +7,9 @@ education: université Grenoble-III
 genre: masculin
 keywords:
 - photographe
+liens:
+- Guillaume Narjollet
+- Jean-Louis Roux
 nationality: francaise
 nom_complet: Marc Dozier
 occupation: photographe

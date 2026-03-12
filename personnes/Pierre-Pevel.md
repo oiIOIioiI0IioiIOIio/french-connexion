@@ -7,6 +7,8 @@ education: lycée Henri-Poincaré de Nancy
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Jacques Chartron
 nationality: francaise
 nom_complet: Pierre Pevel
 occupation: écrivain ou écrivaine

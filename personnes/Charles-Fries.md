@@ -7,6 +7,9 @@ education: école normale de musique de Paris
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Ibrahim Souss
+- Pierre de Vilno
 nationality: francaise
 nom_complet: Charles Fries
 occupation: diplomate

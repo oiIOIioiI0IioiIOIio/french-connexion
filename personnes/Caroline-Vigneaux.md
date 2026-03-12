@@ -7,6 +7,11 @@ education: Cours Florent
 genre: féminin
 keywords:
 - scénariste
+liens:
+- Alice Tumler
+- Laura Tenoudji
+- Ponce
+- Sophie Avon
 nationality: francaise
 nom_complet: Caroline Vigneaux
 occupation: scénariste

@@ -15,4 +15,4 @@ type: Parti
 wikidata_id: Q56310808
 ---
 
-Action pour la renaissance de la Corse, parti politique francais.
+[[Action]] pour la renaissance de la Corse, parti politique francais.

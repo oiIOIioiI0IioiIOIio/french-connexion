@@ -7,6 +7,9 @@ education: école normale de musique de Paris
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Charles Fries
+- Pierre de Vilno
 nationality: francaise
 nom_complet: Ibrahim Souss
 occupation: écrivain ou écrivaine

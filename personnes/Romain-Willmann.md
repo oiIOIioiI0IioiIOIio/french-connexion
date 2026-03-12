@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Romain Willmann, personnalité du monde des affaires. Ne(e) le 1994-04-25 a Saint-Mandé. Formation : EM Lyon Business School.
+Romain Willmann, personnalité du monde des affaires. Ne(e) le 1994-04-25 a Saint-Mandé. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q135905618

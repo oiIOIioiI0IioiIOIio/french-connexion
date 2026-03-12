@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-André-Claude Lacoste, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1941-11-15 a Neuilly-sur-Seine. Formation : École polytechnique.
+André-Claude Lacoste, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1941-11-15 a Neuilly-sur-Seine. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2847024

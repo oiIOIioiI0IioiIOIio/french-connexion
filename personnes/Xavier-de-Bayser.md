@@ -7,6 +7,34 @@ education: ESCP Business School
 genre: masculin
 keywords:
 - économiste
+liens:
+- Alexandre Piton
+- André Coisne
+- Anne Rosencher
+- Aude Lancelin
+- Benjamin Tancrède
+- Béatrice Khaiat
+- Christophe Agnus
+- Erkki Maillard
+- François Zocchetto
+- Frédéric Salat-Baroux
+- Gilles Martin-Chauffier
+- Jean-Marc Atlan
+- Jean-Marc Lofficier
+- Jean-Michel Carboni
+- Jean-Michel Severino
+- Jean-Pierre Raffarin
+- Julie Joly
+- Laurent Adamowicz
+- Leïla Slimani
+- Marc Nicolas
+- Marie-Anne Poussin-Delmas
+- Martin Ajdari
+- Pierre Lévy
+- Pierre Zelenko
+- Yorick de Mombynes
+- Édouard de Royère
+- Éric Favereau
 nationality: francaise
 nom_complet: Xavier de Bayser
 occupation: économiste
@@ -22,7 +50,7 @@ tags:
 type: Personne
 ---
 
-Xavier de Bayser, économiste. Ne(e) le 1946-07-12 a Paris. Formation : ESCP Business School.
+Xavier de Bayser, économiste. Ne(e) le 1946-07-12 a Paris. Formation : [[ESCP Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q15695443

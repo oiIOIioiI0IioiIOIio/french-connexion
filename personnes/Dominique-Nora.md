@@ -7,6 +7,9 @@ education: lycée Saint-Louis
 genre: féminin
 keywords:
 - journaliste
+liens:
+- André Rogerie
+- Philippe Barbié de Préaudeau
 nationality: francaise
 nom_complet: Dominique Nora
 occupation: journaliste

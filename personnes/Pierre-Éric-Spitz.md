@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Pierre-Éric Spitz, avocat ou avocate. Ne(e) le 1950-09-27 a Paris.
+Pierre-[[Éric Spitz]], avocat ou avocate. Ne(e) le 1950-09-27 a Paris.
 
 ## Sources
 - http://www.wikidata.org/entity/Q33102259

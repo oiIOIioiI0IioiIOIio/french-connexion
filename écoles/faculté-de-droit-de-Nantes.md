@@ -4,6 +4,9 @@ founded: '1966-03-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Dominique Luneau
+- Yvon Chotard
 nom_complet: faculté de droit de Nantes
 sources:
 - https://www.wikidata.org/entity/Q53869553

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gérard Julienne, diplomate. Ne(e) le 1935-12-11 a Brest. Formation : Institut d'études politiques de Paris.
+Gérard Julienne, diplomate. Ne(e) le 1935-12-11 a Brest. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q109318849

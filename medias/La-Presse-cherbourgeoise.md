@@ -16,4 +16,4 @@ type: Media
 wikidata_id: Q3211914
 ---
 
-La Presse cherbourgeoise, media francais.
+[[La Presse]] cherbourgeoise, media francais.

@@ -7,6 +7,13 @@ education: École nationale de l'aviation civile
 genre: masculin
 keywords:
 - ingénieur
+liens:
+- Farid Zizi
+- Jacques Villiers
+- Jean-Marc Alliot
+- Jérôme Bastianelli
+- Patrick Ky
+- Paul-Louis Arslanian
 nationality: francaise
 nom_complet: Michel Wachenheim
 occupation: ingénieur

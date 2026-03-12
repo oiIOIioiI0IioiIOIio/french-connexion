@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Yvan Bonneton, personnalité du monde des affaires. Ne(e) le 1967-03-03 a Saint-Vallier. Formation : EM Lyon Business School.
+Yvan Bonneton, personnalité du monde des affaires. Ne(e) le 1967-03-03 a Saint-Vallier. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q104771325

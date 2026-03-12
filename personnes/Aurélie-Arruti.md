@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Aurélie Arruti, personnalité du monde des affaires. Ne(e) le 1981-07-17 a Châtenay-Malabry. Formation : EM Lyon Business School.
+Aurélie Arruti, personnalité du monde des affaires. Ne(e) le 1981-07-17 a Châtenay-Malabry. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q125750913

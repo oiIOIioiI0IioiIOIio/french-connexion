@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Anne-Laure Kiechel, entrepreneur ou entrepreneuse. Ne(e) le 1975-07-01. Formation : HEC Paris.
+Anne-Laure Kiechel, entrepreneur ou entrepreneuse. Ne(e) le 1975-07-01. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q55340961

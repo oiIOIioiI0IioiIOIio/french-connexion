@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Patrice Caine, personnalité du monde des affaires. Ne(e) le 1970-01-07 a 15e arrondissement de Paris. Formation : École polytechnique.
+Patrice Caine, personnalité du monde des affaires. Ne(e) le 1970-01-07 a 15e arrondissement de Paris. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q18744665

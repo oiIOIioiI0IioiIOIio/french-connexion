@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nicolas Kayanakis, militaire. Ne(e) le 1931-05-01 a Tunis. Formation : Institut d'études politiques de Paris.
+Nicolas Kayanakis, militaire. Ne(e) le 1931-05-01 a Tunis. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3340471

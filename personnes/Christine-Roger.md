@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Christine Roger, diplomate. Ne(e) le 1961-09-08. Formation : HEC Paris.
+Christine Roger, diplomate. Ne(e) le 1961-09-08. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33188386

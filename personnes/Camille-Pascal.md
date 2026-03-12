@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Camille Pascal, écrivain ou écrivaine. Ne(e) le 1966-06-03 a Montpellier. Formation : université Paris-I-Panthéon-Sorbonne.
+Camille Pascal, écrivain ou écrivaine. Ne(e) le 1966-06-03 a Montpellier. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2935029

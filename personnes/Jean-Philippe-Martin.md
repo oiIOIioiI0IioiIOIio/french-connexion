@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Jean-Philippe Martin, banquier. Ne(e) le 1968-01-01 a Sallanches.
+Jean-[[Philippe Martin]], banquier. Ne(e) le 1968-01-01 a Sallanches.
 
 ## Sources
 - http://www.wikidata.org/entity/Q33102083

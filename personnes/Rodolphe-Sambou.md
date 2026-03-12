@@ -7,6 +7,23 @@ education: Institut d'études politiques de Toulouse
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Arnauld Champremier-Trigano
+- Audrey Crespo-Mara
+- Christian Authier
+- David Izzo
+- Grégor Trumel
+- Isabelle Sima
+- Jean-François Savy
+- Jean-Paul Gauzès
+- Mahdi Hacène
+- Maxime Switek
+- Michel Moutot
+- Pierre Benazet
+- Roger Dumec
+- Serge Tignères
+- Stéphane Lauer
+- Sylvain Augier
 nationality: francaise
 nom_complet: Rodolphe Sambou
 occupation: diplomate
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Rodolphe Sambou, diplomate. Ne(e) le 1975-01-20. Formation : Institut d'études politiques de Toulouse.
+Rodolphe Sambou, diplomate. Ne(e) le 1975-01-20. Formation : [[Institut d'études politiques de Toulouse]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q123226549

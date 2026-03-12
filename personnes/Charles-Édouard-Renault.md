@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Charles-Édouard Renault, avocat ou avocate. Ne(e) le 1970-10-04.
+Charles-Édouard [[Renault]], avocat ou avocate. Ne(e) le 1970-10-04.
 
 ## Sources
 - http://www.wikidata.org/entity/Q119042804

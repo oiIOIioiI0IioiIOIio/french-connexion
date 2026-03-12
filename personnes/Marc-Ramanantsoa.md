@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marc Ramanantsoa, avocat ou avocate. Ne(e) le 1981-01-21 a Paris. Formation : HEC Paris.
+Marc Ramanantsoa, avocat ou avocate. Ne(e) le 1981-01-21 a Paris. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q29167427

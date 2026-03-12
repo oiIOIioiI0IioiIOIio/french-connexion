@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Fabrice de Margerie, personnalité du monde des affaires. Ne(e) le 1980-07-04 a 14e arrondissement de Paris. Formation : EM Lyon Business School.
+Fabrice de Margerie, personnalité du monde des affaires. Ne(e) le 1980-07-04 a 14e arrondissement de Paris. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q136432954

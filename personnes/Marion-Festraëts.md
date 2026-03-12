@@ -7,6 +7,13 @@ education: université Nice-Sophia-Antipolis
 genre: féminin
 keywords:
 - scénariste
+liens:
+- Christian Daziano
+- Claudine Monteil
+- Fabien Ferasson de Quental
+- Jacques Peyrat
+- Jean-Yves Potel
+- Virginie Joron
 nationality: francaise
 nom_complet: Marion Festraëts
 occupation: scénariste

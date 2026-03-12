@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Virginie Corteval, diplomate. Ne(e) le 1963-07-31. Formation : Institut d'études politiques de Paris.
+Virginie Corteval, diplomate. Ne(e) le 1963-07-31. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q64626695

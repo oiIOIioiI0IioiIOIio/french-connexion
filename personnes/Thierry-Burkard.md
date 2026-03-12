@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Thierry Burkard, écrivain ou écrivaine. Ne(e) le 1941-02-05. Formation : École normale supérieure.
+Thierry Burkard, écrivain ou écrivaine. Ne(e) le 1941-02-05. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q19833449

@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Anne de Guigné, auteur. Ne(e) le 1982-01-01. Formation : HEC Paris.
+Anne de Guigné, auteur. Ne(e) le 1982-01-01. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q116271992

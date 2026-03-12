@@ -7,6 +7,8 @@ education: université du Mans
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Pierrick Bourgault
 nationality: francaise
 nom_complet: François Fillon
 occupation: avocat ou avocate

@@ -8,6 +8,8 @@ keywords:
 - formation
 - recherche
 - industrie
+liens:
+- Jesse E. Moorland
 summary: L'École des mines de Paris, également connue sous le nom de MINES ParisTech,
   est une grande école d'ingénieurs française réputée pour sa formation d'excellence
   en sciences et technologies. Elle fait partie de l'Institut Mines-Télécom et est

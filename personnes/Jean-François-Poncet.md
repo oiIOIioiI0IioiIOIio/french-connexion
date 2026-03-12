@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean François-Poncet, écrivain ou écrivaine. Ne(e) le 1928-12-08 a 16e arrondissement de Paris. Formation : Université Wesleyenne.
+Jean François-[[Ponce]]t, écrivain ou écrivaine. Ne(e) le 1928-12-08 a 16e arrondissement de Paris. Formation : Université Wesleyenne.
 
 ## Sources
 - http://www.wikidata.org/entity/Q1394814

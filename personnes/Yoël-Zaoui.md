@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Yoël Zaoui, banquier. Ne(e) le 1961-01-11 a Casablanca. Formation : HEC Paris.
+Yoël Zaoui, banquier. Ne(e) le 1961-01-11 a Casablanca. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3573010

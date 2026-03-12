@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Gilles Mollard, personnalité du monde des affaires. Ne(e) le 1959-02-20 a Chambéry. Formation : EM Lyon Business School.
+Gilles Mollard, personnalité du monde des affaires. Ne(e) le 1959-02-20 a Chambéry. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33113436

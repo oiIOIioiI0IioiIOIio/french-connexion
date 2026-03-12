@@ -7,6 +7,10 @@ education: université Bordeaux-I
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Dominique Audrerie
+- Françoise Laborde
+- Sylvie Brunel
 nationality: francaise
 nom_complet: Alain Vidalies
 occupation: avocat ou avocate

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Barnabé Wayser, personnalité du monde des affaires. Ne(e) le 1981-06-07 a Paris. Formation : EM Lyon Business School.
+Barnabé Wayser, personnalité du monde des affaires. Ne(e) le 1981-06-07 a Paris. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33112797

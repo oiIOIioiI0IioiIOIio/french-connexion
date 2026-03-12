@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Yves Cannac, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1935-03-23 a Chartres. Formation : École normale supérieure.
+Yves Cannac, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1935-03-23 a Chartres. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3573539

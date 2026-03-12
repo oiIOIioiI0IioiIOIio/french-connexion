@@ -4,6 +4,8 @@ founded: '1986-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Roger Etchegaray
 nom_complet: Institut de Formation Internationale
 sources:
 - https://www.wikidata.org/entity/Q6039039

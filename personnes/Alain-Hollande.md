@@ -7,6 +7,16 @@ education: lycée Condorcet
 genre: masculin
 keywords:
 - avocat ou avocate
+liens:
+- Amélie Guicheney
+- Christophe Bourseiller
+- Christophe Tison
+- Claude Bussière
+- Laurent Broomhead
+- Nicolas Chapuis
+- Philippe Lefait
+- Raymond Morice
+- Stéphane Barsacq
 nationality: francaise
 nom_complet: Alain Hollande
 occupation: avocat ou avocate

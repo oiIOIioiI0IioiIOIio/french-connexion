@@ -3,6 +3,14 @@ date_creation_note: '2026-03-12'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Jérémy Cukierman
+- Léa Poplin
+- Michel Lucas
+- Sandra Lavorel
+- Solenn Riou
+- Vincent Taupin
+- Éric Raynaud
 nom_complet: Université du Sud Toulon-Var
 sources:
 - https://www.wikidata.org/entity/Q52670817

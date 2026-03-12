@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nathalie Topalov, journaliste. Ne(e) le 1968-01-18 a 14e arrondissement de Paris. Formation : Centre de formation des journalistes.
+Nathalie Topalov, journaliste. Ne(e) le 1968-01-18 a 14e arrondissement de Paris. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q54515814

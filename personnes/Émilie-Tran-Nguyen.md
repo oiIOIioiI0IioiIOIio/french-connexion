@@ -7,6 +7,8 @@ education: Clermont School of Business
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Jean-Yves Haby
 nationality: francaise
 nom_complet: Émilie Tran Nguyen
 occupation: journaliste
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Émilie Tran Nguyen, journaliste. Ne(e) le 1985-03-27 a Marseille. Formation : Clermont School of Business.
+Émilie Tran Nguyen, journaliste. Ne(e) le 1985-03-27 a Marseille. Formation : [[Clermont School of Business]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q23926240

@@ -7,6 +7,13 @@ education: Institut d’études politiques de Lille
 genre: féminin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Astrid de Villaines
+- Frédéric Vion
+- Lucie Chaumette
+- Marine Turchi
+- Pierre Alonso
+- Étienne Campion
 nationality: francaise
 nom_complet: Céline Rousseaux
 occupation: présentateur ou présentatrice de journal
@@ -22,7 +29,7 @@ tags:
 type: Personne
 ---
 
-Céline Rousseaux, présentateur ou présentatrice de journal. Ne(e) le 1979-02-24 a Maubeuge. Formation : Institut d’études politiques de Lille.
+Céline Rousseaux, présentateur ou présentatrice de journal. Ne(e) le 1979-02-24 a Maubeuge. Formation : [[Institut d’études politiques de Lille]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q107362469

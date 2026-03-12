@@ -14,26 +14,43 @@ keywords:
 - contexte
 - confiance
 liens:
-- Louis-Napoléon Bonaparte
-- Mac Mahon
-- Daniel Wilson
-- Léon Gambetta
-- Jules Ferry
-- François Jules Paul Grévy
+- Abraham Lincoln
 - Albert Grévy
-- Paul Grévy
-- Coralie Fraisse
 - Alfred de Musset
-- Edmond About
-- Pierre Waldeck-Rousseau
-- Me Laurier
-- M. Philippet
-- Auguste Blanqui
+- Amschel Moses Rothschild
 - Armand Barbès
-- Martin Bernard
-- Louis-Antoine Garnier-Pagès
-- Hippolyte Carnot
+- Auguste Blanqui
+- Augustin Hamon
+- Betty de Rothschild
+- Carter G. Woodson
 - Charles Floquet
+- Coralie Fraisse
+- Daniel Wilson
+- Donald Oliver
+- Edmond About
+- Famille Rothschild
+- François Bayrou
+- François Jules Paul Grévy
+- Henri de Rothschild
+- Hippolyte Carnot
+- James de Rothschild
+- Jean Augustine
+- Jesse E. Moorland
+- Jules Ferry
+- Louis-Antoine Garnier-Pagès
+- Louis-Napoléon Bonaparte
+- Léon Gambetta
+- M. Philippet
+- Mac Mahon
+- Martin Bernard
+- Mayer Amschel Rothschild
+- Me Laurier
+- Mélina Seymour
+- Nathan Mayer Rothschild (1777-1836)
+- Paul Grévy
+- Pierre Waldeck-Rousseau
+- Think tank
+- Édouard Philippe
 nationality: ''
 nom_complet: Jules Grévy
 occupation: null

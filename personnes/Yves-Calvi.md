@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Yves Calvi, journaliste. Ne(e) le 1959-08-30 a Boulogne-Billancourt. Formation : Institut d'études politiques de Paris.
+Yves Calvi, journaliste. Ne(e) le 1959-08-30 a Boulogne-Billancourt. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3573536

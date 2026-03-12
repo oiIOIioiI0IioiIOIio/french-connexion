@@ -7,6 +7,13 @@ education: université d'Alger
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Abdelkader Hadjar
+- Khadija Benguenna
+- Lakhdar Brahimi
+- Mohammed Seddik Benyahia
+- Mourad Medelci
+- Tahar Djaout
 nationality: francaise
 nom_complet: Redha Malek
 occupation: écrivain ou écrivaine

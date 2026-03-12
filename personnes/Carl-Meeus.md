@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Carl Meeus, journaliste. Ne(e) le 1967-02-02 a Neuilly-sur-Seine. Formation : Institut d'études politiques de Paris.
+Carl Meeus, journaliste. Ne(e) le 1967-02-02 a Neuilly-sur-Seine. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2938958

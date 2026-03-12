@@ -4,6 +4,9 @@ founded: '2014-04-09'
 keywords:
 - media
 - presse
+liens:
+- Betty de Rothschild
+- Club de l’Horloge
 nom_complet: Le 1
 sources:
 - https://www.wikidata.org/entity/Q16303413

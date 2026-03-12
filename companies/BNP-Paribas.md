@@ -7,6 +7,8 @@ keywords:
 - entreprise
 - autres intermédiations monétaires
 leader: Jean-Laurent Bonnafé
+liens:
+- Le siècle
 nom_complet: BNP Paribas
 sources:
 - https://www.wikidata.org/entity/Q499707

@@ -23,7 +23,7 @@ tags:
 type: Personne
 ---
 
-Guillaume Sainteny, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1958-01-27 a Boulogne-Billancourt. Formation : Institut d'études politiques de Paris.
+Guillaume Sainteny, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1958-01-27 a Boulogne-Billancourt. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3120169

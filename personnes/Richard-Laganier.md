@@ -7,6 +7,12 @@ education: université Lille-I
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Alexandra Pihen
+- Eléonor Acher
+- Olivier Malfait
+- Salima Saa
+- Vincent Bedouin
 nationality: francaise
 nom_complet: Richard Laganier
 occupation: haut fonctionnaire ou haute fonctionnaire

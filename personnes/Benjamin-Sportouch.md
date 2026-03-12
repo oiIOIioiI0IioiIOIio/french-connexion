@@ -7,6 +7,25 @@ education: Institut d'études politiques de Grenoble
 genre: masculin
 keywords:
 - journaliste
+liens:
+- André Vallini
+- Ariane Lavrilleux
+- Bernard Lesterlin
+- Camille Emmanuelle
+- Caroline Roux
+- Coralie Delaume
+- Fabien Escalona
+- Guillaume Daret
+- Jean-Dominique Merchet
+- Jean-Luc Névache
+- Lionel Astruc
+- Luc Bronner
+- Marine Chanel
+- Nicolas Geay
+- Olivier Revol
+- Paul Marchand
+- Roger Gros
+- Ronan Lancelot
 nationality: francaise
 nom_complet: Benjamin Sportouch
 occupation: journaliste
@@ -22,7 +41,7 @@ tags:
 type: Personne
 ---
 
-Benjamin Sportouch, journaliste. Ne(e) le 1977-02-16 a Cannes. Formation : Institut d'études politiques de Grenoble.
+Benjamin Sportouch, journaliste. Ne(e) le 1977-02-16 a Cannes. Formation : [[Institut d'études politiques de Grenoble]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q46390338

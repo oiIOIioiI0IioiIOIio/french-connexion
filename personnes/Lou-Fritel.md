@@ -7,6 +7,8 @@ education: université PSL
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Jean-Luc Delblat
 nationality: francaise
 nom_complet: Lou Fritel
 occupation: journaliste

@@ -7,6 +7,8 @@ education: European Business School Paris
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Anne Ghesquière
 nationality: francaise
 nom_complet: Éric Gendry
 occupation: journaliste
@@ -22,7 +24,7 @@ tags:
 type: Personne
 ---
 
-Éric Gendry, journaliste. Ne(e) le 1956-06-07 a 15e arrondissement de Paris. Formation : European Business School Paris.
+Éric Gendry, journaliste. Ne(e) le 1956-06-07 a 15e arrondissement de Paris. Formation : [[European Business School Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3056273

@@ -7,6 +7,13 @@ education: École nationale de l'aviation civile
 genre: masculin
 keywords:
 - ingénieur
+liens:
+- Farid Zizi
+- Jacques Villiers
+- Jean-Marc Alliot
+- Jérôme Bastianelli
+- Michel Wachenheim
+- Patrick Ky
 nationality: francaise
 nom_complet: Paul-Louis Arslanian
 occupation: ingénieur

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alain Gerolami, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1926-03-16 a Alger. Formation : Institut d'études politiques de Paris.
+Alain Gerolami, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1926-03-16 a Alger. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2829848

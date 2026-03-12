@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Christophe Sciberras, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1957-11-03 a Fribourg-en-Brisgau. Formation : université Paris-Sorbonne.
+Jean-Christophe Sciberras, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1957-11-03 a Fribourg-en-Brisgau. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33111774

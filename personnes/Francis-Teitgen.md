@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Francis Teitgen, avocat ou avocate. Ne(e) le 1952-03-08 a Courbevoie. Formation : université Paris-I-Panthéon-Sorbonne.
+Francis Teitgen, avocat ou avocate. Ne(e) le 1952-03-08 a Courbevoie. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3081699

@@ -17,4 +17,4 @@ website: https://gallica.bnf.fr/ark:/12148/cb34430002x/date
 wikidata_id: Q3204832
 ---
 
-L'Univers israélite, media francais.
+[[L'Univers]] israélite, media francais.

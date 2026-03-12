@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alan Heusaff, militaire. Ne(e) le 1921-07-23 a Saint-Yvi. Formation : École normale supérieure.
+Alan Heusaff, militaire. Ne(e) le 1921-07-23 a Saint-Yvi. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2830523

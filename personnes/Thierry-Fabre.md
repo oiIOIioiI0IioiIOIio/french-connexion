@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Thierry Fabre, écrivain ou écrivaine. Ne(e) le 1960-07-28 a Cannes. Formation : Institut d'études politiques de Paris.
+Thierry Fabre, écrivain ou écrivaine. Ne(e) le 1960-07-28 a Cannes. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3524241

@@ -23,7 +23,7 @@ tags:
 type: Personne
 ---
 
-Marie-Thérèse Join-Lambert, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1936-10-01 a 16e arrondissement de Paris. Formation : Institut d'études politiques de Paris.
+Marie-Thérèse Join-Lambert, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1936-10-01 a 16e arrondissement de Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q17494088

@@ -7,6 +7,9 @@ education: université de Cologne
 genre: masculin
 keywords:
 - écrivain ou écrivaine
+liens:
+- Jean-Bernard Schmidt
+- Nicolas Groper
 nationality: francaise
 nom_complet: Bernard Schmid
 occupation: écrivain ou écrivaine

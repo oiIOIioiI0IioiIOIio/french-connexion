@@ -7,6 +7,8 @@ education: Université de Londres
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Anne-Marie Dias Borges
 nationality: francaise
 nom_complet: Catherine Norris Trent
 occupation: journaliste

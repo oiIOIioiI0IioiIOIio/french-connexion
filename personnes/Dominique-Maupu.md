@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Dominique Maupu, personnalité du monde des affaires. Ne(e) le 1963-10-05 a Neuilly-sur-Seine. Formation : Institut d'études politiques de Paris.
+Dominique Maupu, personnalité du monde des affaires. Ne(e) le 1963-10-05 a Neuilly-sur-Seine. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33113361

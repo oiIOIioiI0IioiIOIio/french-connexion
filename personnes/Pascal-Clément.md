@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Pascal Clément, avocat ou avocate. Ne(e) le 1945-05-12 a Boulogne-Billancourt. Formation : Institut d'études politiques de Paris.
+Pascal Clément, avocat ou avocate. Ne(e) le 1945-05-12 a Boulogne-Billancourt. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q1353605

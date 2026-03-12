@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-François Gerber, avocat ou avocate. Ne(e) le 1958-01-01. Formation : Institut d'études politiques de Paris.
+François Gerber, avocat ou avocate. Ne(e) le 1958-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q18221406

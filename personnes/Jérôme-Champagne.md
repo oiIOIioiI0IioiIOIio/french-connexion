@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jérôme Champagne, diplomate. Ne(e) le 1958-06-15 a Paris. Formation : Institut d'études politiques de Paris.
+Jérôme Champagne, diplomate. Ne(e) le 1958-06-15 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q15617125

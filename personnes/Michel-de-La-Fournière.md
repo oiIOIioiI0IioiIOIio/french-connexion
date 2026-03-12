@@ -7,6 +7,12 @@ education: lycée Louis-le-Grand
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Doan Bui
+- Jean Coursaget
+- René Heckenroth
+- Yves Aubin de La Messuzière
+- Yves de Daruvar
 nationality: francaise
 nom_complet: Michel de La Fournière
 occupation: personnalité politique
@@ -22,7 +28,7 @@ tags:
 type: Personne
 ---
 
-Michel de La Fournière, personnalité politique. Ne(e) le 1933-01-06 a Paris. Formation : lycée Louis-le-Grand.
+Michel de La Fournière, personnalité politique. Ne(e) le 1933-01-06 a Paris. Formation : [[Lycée Louis-le-Grand]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q18613132

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Thierry Lévy, avocat ou avocate. Ne(e) le 1945-01-13 a Nice. Formation : Institut d'études politiques de Paris.
+Thierry Lévy, avocat ou avocate. Ne(e) le 1945-01-13 a Nice. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3524396

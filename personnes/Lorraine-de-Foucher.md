@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Lorraine de Foucher, écrivain ou écrivaine. Ne(e) le 1986-10-27 a Toulouse. Formation : Centre de formation des journalistes.
+Lorraine de Foucher, écrivain ou écrivaine. Ne(e) le 1986-10-27 a Toulouse. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q117378627

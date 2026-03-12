@@ -7,6 +7,8 @@ education: École de journalisme de Toulouse
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Myriam Bounafaa
 nationality: francaise
 nom_complet: Antoine-Marie Izoard
 occupation: journaliste

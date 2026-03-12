@@ -18,4 +18,4 @@ website: https://iuga.univ-grenoble-alpes.fr/
 wikidata_id: Q113838653
 ---
 
-Institut de géographie alpine, etablissement d'enseignement superieur francais.
+[[Institut de géographie]] alpine, etablissement d'enseignement superieur francais.

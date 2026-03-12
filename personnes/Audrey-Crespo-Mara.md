@@ -7,6 +7,23 @@ education: Institut d'études politiques de Toulouse
 genre: féminin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Arnauld Champremier-Trigano
+- Christian Authier
+- David Izzo
+- Grégor Trumel
+- Isabelle Sima
+- Jean-François Savy
+- Jean-Paul Gauzès
+- Mahdi Hacène
+- Maxime Switek
+- Michel Moutot
+- Pierre Benazet
+- Rodolphe Sambou
+- Roger Dumec
+- Serge Tignères
+- Stéphane Lauer
+- Sylvain Augier
 nationality: francaise
 nom_complet: Audrey Crespo-Mara
 occupation: présentateur ou présentatrice de journal
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Audrey Crespo-Mara, présentateur ou présentatrice de journal. Ne(e) le 1976-07-08 a Meaux. Formation : Institut d'études politiques de Toulouse.
+Audrey Crespo-Mara, présentateur ou présentatrice de journal. Ne(e) le 1976-07-08 a Meaux. Formation : [[Institut d'études politiques de Toulouse]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q2870832

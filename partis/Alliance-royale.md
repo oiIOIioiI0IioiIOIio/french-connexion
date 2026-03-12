@@ -19,4 +19,4 @@ website: http://www.allianceroyale.fr/
 wikidata_id: Q611469
 ---
 
-Alliance royale, parti politique francais.
+[[Alliance]] royale, parti politique francais.

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Patrice Paoli, diplomate. Ne(e) le 1956-12-22 a Taverny. Formation : Institut d'études politiques de Paris.
+Patrice Paoli, diplomate. Ne(e) le 1956-12-22 a Taverny. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33288664

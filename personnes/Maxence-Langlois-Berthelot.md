@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Maxence Langlois-Berthelot, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1972-05-22 a Paris. Formation : École normale supérieure.
+Maxence Langlois-Berthelot, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1972-05-22 a Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33103161

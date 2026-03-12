@@ -4,6 +4,20 @@ founded: '1996-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Charles Constantin-Vallet
+- Emmanuelle Cosse
+- Fabienne Kanor
+- Famille Rothschild
+- Jules Grévy
+- Karim Achoui
+- Lucile Woodward
+- Michaël Bertini
+- Pascal Durand
+- Philippe Olivier
+- Pierre-Yves Lautrou
+- Roland Perez
+- Rosiane Houngbo-Monteverde
 nom_complet: Centre théologique universitaire de Rouen
 sources:
 - https://www.wikidata.org/entity/Q96953134

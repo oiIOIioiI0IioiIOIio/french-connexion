@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Marie-Solange Tissier, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1955-04-06. Formation : École polytechnique.
+Marie-Solange Tissier, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1955-04-06. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33111814

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Nicolas Gros-Verheyde, journaliste. Ne(e) le 1964-01-05 a Paris. Formation : université Paris-I-Panthéon-Sorbonne.
+Nicolas Gros-Verheyde, journaliste. Ne(e) le 1964-01-05 a Paris. Formation : université Paris-I-Panthéon-[[Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3340378

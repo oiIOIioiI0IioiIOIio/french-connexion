@@ -7,6 +7,12 @@ education: université de Versailles-Saint-Quentin-en-Yvelines
 genre: masculin
 keywords:
 - médecin
+liens:
+- François-Xavier Bourmaud
+- Isabelle Saporta
+- Martin Pénet
+- Nicolas Barotte
+- Tugdual de Dieuleveult
 nationality: francaise
 nom_complet: Jérôme Salomon
 occupation: médecin

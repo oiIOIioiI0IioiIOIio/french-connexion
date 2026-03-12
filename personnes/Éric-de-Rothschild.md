@@ -7,6 +7,14 @@ education: lycée Janson-de-Sailly
 genre: masculin
 keywords:
 - entrepreneur ou entrepreneuse
+liens:
+- Christophe Ono-dit-Biot
+- Hubert Heilbronn
+- Laurence de Charette
+- Maxime de Rostolan
+- René Ribière
+- Thomas Schmider
+- Édouard de Ribes
 nationality: francaise
 nom_complet: Éric de Rothschild
 occupation: entrepreneur ou entrepreneuse
@@ -22,7 +30,7 @@ tags:
 type: Personne
 ---
 
-Éric de Rothschild, entrepreneur ou entrepreneuse. Ne(e) le 1940-10-03 a New York. Formation : lycée Janson-de-Sailly.
+Éric de Rothschild, entrepreneur ou entrepreneuse. Ne(e) le 1940-10-03 a New York. Formation : [[Lycée Janson-de-Sailly]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q288480

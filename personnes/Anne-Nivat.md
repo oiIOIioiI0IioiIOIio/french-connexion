@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Anne Nivat, écrivain ou écrivaine. Ne(e) le 1969-06-18 a Poisy. Formation : Institut d'études politiques de Paris.
+Anne Nivat, écrivain ou écrivaine. Ne(e) le 1969-06-18 a Poisy. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q959600

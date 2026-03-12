@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Claude Gouazé, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1934-05-10 a Pouy-de-Touges. Formation : Institut d'études politiques de Paris.
+Claude Gouazé, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1934-05-10 a Pouy-de-Touges. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q123368737

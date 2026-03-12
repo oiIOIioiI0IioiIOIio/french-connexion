@@ -22,7 +22,7 @@ Cercle de réflexion d’extrême droite fondé en décembre 2015 et dirigé par
  Environ 38 membres et sont constitués de hauts fonctionnaires, d'anciens membres de cabinets ministériels et de cadres de grandes entreprises.
  
 Avant de rejoindre [[Reconquête]],  [[Jean Messiha]] en fut le porte-parole.
-Lors de la campagne pour l'élection présidentielle de 2017, ils se réunissent mensuellement avec [[Marine Le Pen]] pour lui apporter des analyses techniques et des conseils sur divers sujets, notamment l'économie, la défense et la sécurité intérieure, afin de renforcer la crédibilité du Front national.
+Lors de la campagne pour l'élection présidentielle de 2017, ils se réunissent mensuellement avec [[Marine Le Pen]] pour lui apporter des analyses techniques et des conseils sur divers sujets, notamment l'économie, la défense et la sécurité intérieure, afin de renforcer la crédibilité du [[Front national]].
 
 
 

@@ -7,6 +7,9 @@ education: Université du Pays basque
 genre: féminin
 keywords:
 - bertsolari
+liens:
+- Amets Arzallus
+- Maddalen Arzallus
 nationality: francaise
 nom_complet: Maddi Ane Txoperena Iribarren
 occupation: bertsolari

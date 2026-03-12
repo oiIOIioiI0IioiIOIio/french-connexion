@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Claude Blanchemaison, diplomate. Ne(e) le 1944-03-06 a Touraine. Formation : HEC Paris.
+[[Claude Blanc]]hemaison, diplomate. Ne(e) le 1944-03-06 a Touraine. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q1096520

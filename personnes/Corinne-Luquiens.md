@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Corinne Luquiens, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1952-08-28 a Paris. Formation : Institut d'études politiques de Paris.
+Corinne Luquiens, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1952-08-28 a Paris. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q23014825

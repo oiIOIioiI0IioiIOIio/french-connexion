@@ -7,6 +7,10 @@ education: INSEAD
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Geoffroy de la Bourdonnaye
+- Jacques Bonifay
+- Thierry Launois
 nationality: francaise
 nom_complet: Jean-Pierre Charriton
 occupation: personnalité du monde des affaires
@@ -22,7 +26,7 @@ tags:
 type: Personne
 ---
 
-Jean-Pierre Charriton, personnalité du monde des affaires. Ne(e) le 1966-03-01. Formation : INSEAD.
+Jean-Pierre Charriton, personnalité du monde des affaires. Ne(e) le 1966-03-01. Formation : [[INSEAD]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q123413858

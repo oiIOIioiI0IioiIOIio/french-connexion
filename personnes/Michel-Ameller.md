@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel Ameller, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1926-01-01 a El Attaf. Formation : Institut d'études politiques de Paris.
+Michel Ameller, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1926-01-01 a El Attaf. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3308857

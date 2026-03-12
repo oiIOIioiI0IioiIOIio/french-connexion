@@ -21,7 +21,7 @@ tags:
 type: Personne
 ---
 
-Laurent Geslin, géographe. Ne(e) le 1982-01-01. Formation : université Paris-Sorbonne.
+Laurent Geslin, géographe. Ne(e) le 1982-01-01. Formation : [[Université Paris-Sorbonne]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q111488583

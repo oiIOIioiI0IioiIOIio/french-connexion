@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Amandine Merle, personnalité du monde des affaires. Ne(e) le 1987-02-08 a Colombes. Formation : EM Lyon Business School.
+Amandine Merle, personnalité du monde des affaires. Ne(e) le 1987-02-08 a Colombes. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q136814384

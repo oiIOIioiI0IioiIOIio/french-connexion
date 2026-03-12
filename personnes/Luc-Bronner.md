@@ -7,6 +7,25 @@ education: Institut d'études politiques de Grenoble
 genre: masculin
 keywords:
 - journaliste
+liens:
+- André Vallini
+- Ariane Lavrilleux
+- Benjamin Sportouch
+- Bernard Lesterlin
+- Camille Emmanuelle
+- Caroline Roux
+- Coralie Delaume
+- Fabien Escalona
+- Guillaume Daret
+- Jean-Dominique Merchet
+- Jean-Luc Névache
+- Lionel Astruc
+- Marine Chanel
+- Nicolas Geay
+- Olivier Revol
+- Paul Marchand
+- Roger Gros
+- Ronan Lancelot
 nationality: francaise
 nom_complet: Luc Bronner
 occupation: journaliste
@@ -22,7 +41,7 @@ tags:
 type: Personne
 ---
 
-Luc Bronner, journaliste. Ne(e) le 1974-05-14 a Gap. Formation : Institut d'études politiques de Grenoble.
+Luc Bronner, journaliste. Ne(e) le 1974-05-14 a Gap. Formation : [[Institut d'études politiques de Grenoble]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q19606874

@@ -7,6 +7,13 @@ education: université Paul-Valéry
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Francis Mateo
+- Géniale Attoumani
+- Hugo Guillemet
+- Nath-Sakura
+- Thierry Riera
+- Étienne Leenhardt
 nationality: francaise
 nom_complet: Patrick Donabédian
 occupation: diplomate

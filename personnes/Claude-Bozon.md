@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Claude Bozon, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1932-04-21 a Saint-Étienne. Formation : École polytechnique.
+Claude Bozon, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1932-04-21 a Saint-Étienne. Formation : [[École polytechnique]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q78777573

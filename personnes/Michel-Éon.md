@@ -7,6 +7,9 @@ education: lycée Voltaire
 genre: masculin
 keywords:
 - personnalité politique
+liens:
+- Fernand Chassagne
+- Georges Kiejman
 nationality: francaise
 nom_complet: Michel Éon
 occupation: personnalité politique

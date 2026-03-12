@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Yannick Le Bourdonnec, journaliste. Ne(e) le 1953-09-20. Formation : Institut d'études politiques de Paris.
+Yannick Le Bourdonnec, journaliste. Ne(e) le 1953-09-20. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q3571771

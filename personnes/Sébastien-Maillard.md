@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sébastien Maillard, journaliste. Ne(e) le 1972-01-01. Formation : Institut d'études politiques de Paris.
+Sébastien Maillard, journaliste. Ne(e) le 1972-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q50216615

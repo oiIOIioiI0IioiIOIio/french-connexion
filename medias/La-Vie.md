@@ -4,6 +4,10 @@ founded: '1945-01-01'
 keywords:
 - media
 - presse
+liens:
+- La Vie Quercynoise
+- La Vie Somainoise
+- La Vie illustrée
 nom_complet: La Vie
 owner: Groupe Le Monde
 sources:

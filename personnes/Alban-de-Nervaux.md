@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Alban de Nervaux, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1978-12-22 a 14e arrondissement de Paris. Formation : École normale supérieure.
+Alban de Nervaux, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1978-12-22 a 14e arrondissement de Paris. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q33268983

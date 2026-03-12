@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-François Goldblatt, diplomate. Ne(e) le 1960-01-19 a Chadrac. Formation : HEC Paris.
+François Goldblatt, diplomate. Ne(e) le 1960-01-19 a Chadrac. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q16269638

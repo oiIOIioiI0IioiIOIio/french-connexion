@@ -7,6 +7,8 @@ education: École supérieure de réalisation audiovisuelle
 genre: féminin
 keywords:
 - présentateur ou présentatrice de journal
+liens:
+- Gilles Jacquier
 nationality: francaise
 nom_complet: Karine Baste
 occupation: présentateur ou présentatrice de journal

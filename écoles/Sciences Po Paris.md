@@ -9,6 +9,8 @@ keywords:
 - relations internationales
 - élites
 leader: null
+liens:
+- Lionel Jospin
 summary: Sciences Po Paris est un établissement d'enseignement supérieur français
   spécialisé dans les sciences humaines et sociales, notamment les relations internationales,
   le droit et l'économie. Fondé en 1872, il est reconnu pour former les élites politiques,

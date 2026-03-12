@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Jean-Paul Geoffroy, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1947-04-04. Formation : Institut d'études politiques de Paris.
+Jean-Paul Geoffroy, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1947-04-04. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q74020400

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Thierry Charbonnier, directeur général ou directrice générale. Ne(e) le 1962-01-01 a Clermont-Ferrand.
+Thierry [[Charb]]onnier, directeur général ou directrice générale. Ne(e) le 1962-01-01 a Clermont-Ferrand.
 
 ## Sources
 - http://www.wikidata.org/entity/Q118905203

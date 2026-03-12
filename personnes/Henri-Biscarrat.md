@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Henri Biscarrat, personnalité du monde des affaires. Ne(e) le 1969-09-15 a Saint-Étienne. Formation : EM Lyon Business School.
+Henri Biscarrat, personnalité du monde des affaires. Ne(e) le 1969-09-15 a Saint-Étienne. Formation : [[EM Lyon Business School]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q115169120

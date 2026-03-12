@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Michel Bruguière, personnalité politique. Ne(e) le 1938-08-05 a Toulouse. Formation : École normale supérieure.
+Michel Bruguière, personnalité politique. Ne(e) le 1938-08-05 a Toulouse. Formation : [[École normale supérieure]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q55772917

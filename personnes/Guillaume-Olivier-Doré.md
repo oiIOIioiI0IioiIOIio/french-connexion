@@ -7,6 +7,11 @@ education: Harvard Business School
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Alain de Gunzburg
+- Arnaud Leclercq
+- François Bujon de l'Estang
+- Philippe Roche
 nationality: francaise
 nom_complet: Guillaume-Olivier Doré
 occupation: personnalité du monde des affaires

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Anaïs Barut, directeur général ou directrice générale. Ne(e) le 1992-06-10 a Revin. Formation : HEC Paris.
+Anaïs Barut, directeur général ou directrice générale. Ne(e) le 1992-06-10 a Revin. Formation : [[HEC Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q117352711

@@ -7,6 +7,13 @@ education: université Paris-Descartes
 genre: masculin
 keywords:
 - personnalité du monde des affaires
+liens:
+- Frédéric Donnedieu de Vabres
+- Jean-Paul Delahaye
+- Michel Cymes
+- Pascale Briand
+- Paul Tchoukriel
+- Tobie Nathan
 nationality: francaise
 nom_complet: François Bergerault
 occupation: personnalité du monde des affaires

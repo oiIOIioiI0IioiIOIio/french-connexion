@@ -4,6 +4,9 @@ founded: '1460-01-01'
 keywords:
 - enseignement superieur
 - grande ecole
+liens:
+- Jean Pinel
+- Philippe Waquet
 nom_complet: faculté de droit de Rennes
 sources:
 - https://www.wikidata.org/entity/Q3064267

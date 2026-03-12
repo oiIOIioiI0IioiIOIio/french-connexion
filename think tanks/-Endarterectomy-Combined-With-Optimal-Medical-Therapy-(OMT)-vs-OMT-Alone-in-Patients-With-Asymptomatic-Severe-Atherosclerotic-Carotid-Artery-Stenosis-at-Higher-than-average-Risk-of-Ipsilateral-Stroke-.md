@@ -20,4 +20,4 @@ type: Fondation
 wikidata_id: Q66398703
 ---
 
-" Endarterectomy Combined With Optimal Medical Therapy (OMT) vs OMT Alone in Patients With Asymptomatic Severe Atherosclerotic Carotid Artery Stenosis at Higher-than-average Risk of Ipsilateral Stroke ", think tank ou fondation.
+" Endarterectomy Combined With Optimal Medical Therapy (OMT) vs OMT Alone in Patients With Asymptomatic Severe Atherosclerotic Carotid [[Arte]]ry Stenosis at Higher-than-average Risk of Ipsilateral Stroke ", think tank ou fondation.

@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Florence Aubenas, journaliste. Ne(e) le 1961-02-06 a Bruxelles. Formation : Centre de formation des journalistes.
+Florence Aubenas, journaliste. Ne(e) le 1961-02-06 a Bruxelles. Formation : [[Centre de formation des journalistes]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q446723

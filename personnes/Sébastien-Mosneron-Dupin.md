@@ -22,7 +22,7 @@ tags:
 type: Personne
 ---
 
-Sébastien Mosneron-Dupin, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1970-01-01. Formation : Institut d'études politiques de Paris.
+Sébastien Mosneron-Dupin, haut fonctionnaire ou haute fonctionnaire. Ne(e) le 1970-01-01. Formation : [[Institut d'études politiques de Paris]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q110685047

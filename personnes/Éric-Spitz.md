@@ -7,6 +7,8 @@ education: École nationale d'administration
 genre: masculin
 keywords:
 - haut fonctionnaire ou haute fonctionnaire
+liens:
+- Pierre-Éric Spitz
 nationality: francaise
 nom_complet: Éric Spitz
 occupation: haut fonctionnaire ou haute fonctionnaire

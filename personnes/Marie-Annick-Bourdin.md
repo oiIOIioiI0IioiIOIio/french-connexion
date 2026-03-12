@@ -7,6 +7,15 @@ education: université de Caen-Normandie
 genre: féminin
 keywords:
 - diplomate
+liens:
+- Alain Tourret
+- Christine Kerdellant
+- Céline Asselot
+- Denis Brogniart
+- Guillaume Bazard
+- Jean-Marie Girault
+- Jean-Paul Ollivier
+- Olivier Metzner
 nationality: francaise
 nom_complet: Marie-Annick Bourdin
 occupation: diplomate

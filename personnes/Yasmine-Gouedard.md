@@ -7,6 +7,8 @@ education: Université Johns-Hopkins
 genre: féminin
 keywords:
 - diplomate
+liens:
+- Bruno Patino
 nationality: francaise
 nom_complet: Yasmine Gouedard
 occupation: diplomate

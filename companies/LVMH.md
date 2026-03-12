@@ -7,6 +7,8 @@ keywords:
 - entreprise
 - commerce de détail
 leader: Bernard Arnault
+liens:
+- Club des Cent
 nom_complet: LVMH
 sources:
 - https://www.wikidata.org/entity/Q504998

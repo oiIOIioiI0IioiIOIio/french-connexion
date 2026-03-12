@@ -7,6 +7,8 @@ education: université Jean-Monnet-Saint-Étienne
 genre: masculin
 keywords:
 - journaliste
+liens:
+- Gilles Bonnevialle
 nationality: francaise
 nom_complet: Hervé Heyraud
 occupation: journaliste

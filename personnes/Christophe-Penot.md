@@ -7,6 +7,12 @@ education: université d'Aix-Marseille
 genre: masculin
 keywords:
 - diplomate
+liens:
+- Bernard Squarcini
+- Christophe Castaner
+- François Beaudonnet
+- Julien Larregue
+- Sarah Caron
 nationality: francaise
 nom_complet: Christophe Penot
 occupation: diplomate

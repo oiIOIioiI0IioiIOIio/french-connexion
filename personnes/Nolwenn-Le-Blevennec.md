@@ -7,6 +7,23 @@ education: université Paris-Dauphine
 genre: féminin
 keywords:
 - journaliste
+liens:
+- Alain Cotta
+- Antoine Le Conte
+- Claude Askolovitch
+- Delphine Vitry
+- Gabrielle Cluzel
+- Gildas Sagot
+- Joëlle Pellegrin
+- Jérôme Chapuis
+- Laurent Aléonard
+- Philippe Dupont
+- Philippe Verdier
+- Pierre-François Blanc
+- Raphael Kahane
+- Sébastien Romelot
+- Xavier de Moulins
+- Yassine Redissi
 nationality: francaise
 nom_complet: Nolwenn Le Blevennec
 occupation: journaliste
@@ -22,7 +39,7 @@ tags:
 type: Personne
 ---
 
-Nolwenn Le Blevennec, journaliste. Ne(e) le 1984-01-01. Formation : université Paris-Dauphine.
+Nolwenn Le Blevennec, journaliste. Ne(e) le 1984-01-01. Formation : [[Université Paris-Dauphine]].
 
 ## Sources
 - http://www.wikidata.org/entity/Q110997605
