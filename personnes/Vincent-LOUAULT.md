@@ -1,0 +1,31 @@
+---
+aggregated_from: rne_datagouv
+birth_date: '1972-05-24'
+birth_place: ''
+date_creation_note: '2026-03-12'
+education: null
+genre: masculin
+keywords:
+- senateur
+nationality: francaise
+nom_complet: Vincent LOUAULT
+occupation: senateur
+sources:
+- https://www.hatvp.fr/consulter-les-declarations/?nom=Vincent%20LOUAULT
+- https://www.data.gouv.fr/datasets/repertoire-national-des-elus-1/
+statut_note: a_valider
+summary: Vincent LOUAULT est senateur. Ne(e) le 1972-05-24.
+tags:
+- elite
+- source-rne_datagouv
+- senateur
+type: Personne
+---
+
+Vincent LOUAULT est senateur. Ne(e) le 1972-05-24.
+
+Fonction declaree HATVP : Sénateur d'Indre-et-Loire
+
+## Sources
+- https://www.hatvp.fr/consulter-les-declarations/?nom=Vincent%20LOUAULT
+- https://www.data.gouv.fr/datasets/repertoire-national-des-elus-1/
