@@ -1,10 +1,10 @@
 name: 01 - Restructuration & Classification
 
 on:
-  workflow_dispatch: # Declenchement manuel via l'onglet Actions
+  workflow_dispatch:
 
 permissions:
-  contents: write # Necessaire pour que le workflow puisse commiter les changements
+  contents: write
 
 jobs:
   restructure:
@@ -12,6 +12,11 @@ jobs:
     steps:
       - name: Recuperation du code
         uses: actions/checkout@v4
+
+      - name: Configuration Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
 
       - name: Configuration Python
         uses: actions/setup-python@v5
@@ -29,8 +34,6 @@ jobs:
 
       - name: Commit et Push des changements
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
           git add .
           git diff --quiet && git diff --staged --quiet || git commit -m "chore: restructuration automatique des fiches"
           git push

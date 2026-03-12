@@ -67,7 +67,10 @@ def auto_standardize(entity_type, mapping_rules):
             with open(f, 'wb') as file:
                 frontmatter.dump(new_post, file)
                 
-    git.commit_changes(f"chore: standardisation automatique des champs pour {entity_type}")
+    if not os.environ.get("GITHUB_ACTIONS"):
+        git.commit_changes(f"chore: standardisation automatique des champs pour {entity_type}")
+    else:
+        logger.info("Execution CI detectee -- le commit sera gere par le workflow")
 
 # Exemple d'utilisation (à intégrer dans le main si besoin)
 if __name__ == "__main__":

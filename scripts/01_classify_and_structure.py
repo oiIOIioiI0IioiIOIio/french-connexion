@@ -267,7 +267,10 @@ def main():
     logger.info(
         f"Termine : {processed} traites, {skipped} ignores sur {total} fichiers."
     )
-    git.commit_changes("feat: classification rule-based et structuration des entites")
+    if not os.environ.get("GITHUB_ACTIONS"):
+        git.commit_changes("feat: classification rule-based et structuration des entites")
+    else:
+        logger.info("Execution CI detectee -- le commit sera gere par le workflow")
     logger.info("Termine.")
 
 

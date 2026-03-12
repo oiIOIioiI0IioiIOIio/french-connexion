@@ -1511,11 +1511,14 @@ def main(source: str = "all"):
             f"- RNE (API tabulaire): {STATS['rne_results']} resultats\n"
             f"- Duree : {elapsed:.1f}s"
         )
-        try:
-            git.commit_changes(commit_msg)
-            logger.info("[OK] Changements committes")
-        except Exception as e:
-            logger.error(f"[FAIL] Erreur commit Git : {e}")
+        if not os.environ.get("GITHUB_ACTIONS"):
+            try:
+                git.commit_changes(commit_msg)
+                logger.info("[OK] Changements committes")
+            except Exception as e:
+                logger.error(f"[FAIL] Erreur commit Git : {e}")
+        else:
+            logger.info("Execution CI detectee -- le commit sera gere par le workflow")
 
     logger.info(f"[OK] Aggregation terminee : {STATS['files_created']} fiches creees")
     return STATS['files_created']
