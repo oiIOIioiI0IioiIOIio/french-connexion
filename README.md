@@ -911,6 +911,34 @@ git config user.email "bot@french-connexion.local"
 
 ---
 
+## Déploiement Netlify - Publier / Dépublier le site
+
+Le workflow **"Netlify - Publier / Dépublier"** permet de contrôler manuellement le déploiement du site sur Netlify sans consommer de crédits inutilement.
+
+### Configuration requise (à faire une seule fois)
+
+Ajoutez ces deux secrets dans **Settings > Secrets and variables > Actions** du dépôt GitHub :
+
+| Secret | Description | Où le trouver |
+|---|---|---|
+| `NETLIFY_AUTH_TOKEN` | Token d'accès personnel Netlify | https://app.netlify.com/user/applications > Personal access tokens |
+| `NETLIFY_SITE_ID` | Identifiant unique du site Netlify | Site settings > General > Site information > Site ID |
+
+### Utilisation
+
+1. Aller dans **Actions** sur GitHub
+2. Sélectionner le workflow **"Netlify - Publier / Dépublier"**
+3. Cliquer **"Run workflow"**
+4. Choisir l'action :
+   - **`publier`** : réactive les déploiements automatiques et déclenche un déploiement immédiat
+   - **`depublier`** : bloque les déploiements automatiques (le site reste accessible dans son état actuel, aucun nouveau build ne sera déclenché)
+
+### Fichier de configuration Netlify
+
+Le fichier `netlify.toml` à la racine configure le site comme un site statique sans étape de build, avec redirection SPA vers `index.html`.
+
+---
+
 ## 🎓 Conseils pour les IA contributeurs
 
 1. **Toujours lire les logs** avant et après chaque script

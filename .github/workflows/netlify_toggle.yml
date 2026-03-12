@@ -1,0 +1,100 @@
+name: Netlify - Publier / Depublier
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'Action a effectuer sur le site Netlify'
+        required: true
+        type: choice
+        options:
+          - publier
+          - depublier
+
+jobs:
+  toggle-netlify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions: {}
+    steps:
+      - name: Verification des secrets requis
+        run: |
+          if [ -z "$NETLIFY_AUTH_TOKEN" ]; then
+            echo "[FAIL] Secret NETLIFY_AUTH_TOKEN manquant"
+            echo "Ajoutez un token Netlify dans Settings > Secrets > Actions"
+            exit 1
+          fi
+          if [ -z "$NETLIFY_SITE_ID" ]; then
+            echo "[FAIL] Secret NETLIFY_SITE_ID manquant"
+            echo "Ajoutez l'ID du site Netlify dans Settings > Secrets > Actions"
+            exit 1
+          fi
+          echo "[OK] Secrets verifies"
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+
+      - name: Publier le site (reactiver les deploiements)
+        if: inputs.action == 'publier'
+        run: |
+          echo "Activation des deploiements automatiques..."
+          RESPONSE=$(curl -s -w "\n%{http_code}" -X PATCH \
+            "https://api.netlify.com/api/v1/sites/${NETLIFY_SITE_ID}" \
+            -H "Authorization: Bearer ${NETLIFY_AUTH_TOKEN}" \
+            -H "Content-Type: application/json" \
+            -d '{"build_settings": {"stop_builds": false}}')
+          HTTP_CODE=$(echo "$RESPONSE" | tail -1)
+          BODY=$(echo "$RESPONSE" | head -1)
+          if [ "$HTTP_CODE" = "200" ]; then
+            echo "[OK] Deploiements reactives"
+          else
+            echo "[FAIL] Erreur HTTP $HTTP_CODE : $BODY"
+            exit 1
+          fi
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+
+      - name: Declencher un deploiement immediat
+        if: inputs.action == 'publier'
+        run: |
+          echo "Declenchement d'un nouveau deploiement..."
+          RESPONSE=$(curl -s -w "\n%{http_code}" -X POST \
+            "https://api.netlify.com/api/v1/sites/${NETLIFY_SITE_ID}/builds" \
+            -H "Authorization: Bearer ${NETLIFY_AUTH_TOKEN}" \
+            -H "Content-Type: application/json")
+          HTTP_CODE=$(echo "$RESPONSE" | tail -1)
+          BODY=$(echo "$RESPONSE" | head -1)
+          if [ "$HTTP_CODE" = "200" ] || [ "$HTTP_CODE" = "201" ]; then
+            DEPLOY_ID=$(echo "$BODY" | python3 -c "import sys, json; d=json.load(sys.stdin); print(d.get('id','inconnu'))")
+            echo "[OK] Deploiement declenche (ID: $DEPLOY_ID)"
+            echo "Suivez l'avancement sur https://app.netlify.com/sites"
+          else
+            echo "[WARN] Deploiement non confirme (HTTP $HTTP_CODE) - verifiez manuellement sur Netlify"
+          fi
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+
+      - name: Depublier le site (bloquer les deploiements automatiques)
+        if: inputs.action == 'depublier'
+        run: |
+          echo "Arret des deploiements automatiques..."
+          RESPONSE=$(curl -s -w "\n%{http_code}" -X PATCH \
+            "https://api.netlify.com/api/v1/sites/${NETLIFY_SITE_ID}" \
+            -H "Authorization: Bearer ${NETLIFY_AUTH_TOKEN}" \
+            -H "Content-Type: application/json" \
+            -d '{"build_settings": {"stop_builds": true}}')
+          HTTP_CODE=$(echo "$RESPONSE" | tail -1)
+          BODY=$(echo "$RESPONSE" | head -1)
+          if [ "$HTTP_CODE" = "200" ]; then
+            echo "[OK] Deploiements automatiques bloques"
+            echo "Le site reste accessible dans son etat actuel mais ne sera plus mis a jour."
+            echo "Pour relancer le site, choisissez l'action 'publier'."
+          else
+            echo "[FAIL] Erreur HTTP $HTTP_CODE : $BODY"
+            exit 1
+          fi
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
