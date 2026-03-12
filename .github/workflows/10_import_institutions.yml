@@ -1,0 +1,66 @@
+name: 10 - Import institutions officielles
+
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: 'Source a importer'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - partis
+          - ecoles
+          - think_tanks
+          - entreprises
+          - medias
+      dry_run:
+        description: 'Mode test sans creation de fichiers'
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    - cron: '0 7 1 * *'
+
+permissions:
+  contents: write
+
+jobs:
+  import-institutions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Recuperation du code
+        uses: actions/checkout@v4
+
+      - name: Configuration Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      - name: Configuration Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Installation des dependances
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Auto-tests
+        run: python scripts/10_import_institutions.py --test
+
+      - name: Import des institutions
+        env:
+          DRY_RUN: ${{ inputs.dry_run && '1' || '0' }}
+        run: |
+          python scripts/10_import_institutions.py --source ${{ inputs.source || 'all' }}
+
+      - name: Push des changements
+        run: |
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -m "feat: import institutions - ${{ inputs.source || 'all' }}"
+          git push
