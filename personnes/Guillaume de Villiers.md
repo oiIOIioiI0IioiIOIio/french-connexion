@@ -1,15 +1,26 @@
 ---
+birth_date: null
+birth_place: null
+date_creation_note: '2026-03-12'
+education: null
+genre: null
 keywords:
 - personnalité
 - affaire judiciaire
 - famille de Villiers
 - non-lieu
 - procédure
+nationality: null
+nom_complet: Guillaume de Villiers
+occupation: null
 sources:
 - https://www.wikidata.org/wiki/Q108743302
+statut_note: a_valider
 summary: Guillaume de Villiers est une personnalité liée à une affaire judiciaire
   médiatisée, fils aîné de Philippe de Villiers. Son parcours a été marqué par des
   accusations d'abus sexuels, closes par un non-lieu en 2014.
+tags:
+- elite
 type: Personne
 wikidata_id: Q108743302
 wikipedia_enriched: true

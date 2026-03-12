@@ -1,17 +1,27 @@
 ---
-birth_date_wikidata: '1974-05-07'
+birth_date: '1974-05-07'
+birth_place: null
+date_creation_note: '2026-03-12'
+education: null
+genre: null
 keywords:
 - philosophe
 - haut fonctionnaire
 - conseiller politique
 - ENS
 - UMP
+nationality: null
+nom_complet: Frédéric Guillaud
+occupation: null
 sources:
 - https://www.wikidata.org/wiki/Q42399689
+statut_note: a_valider
 summary: Frédéric Guillaud est un philosophe et haut fonctionnaire français, ancien
   élève de l'ENS et agrégé de philosophie. Il a occupé des fonctions politiques et
   administratives, notamment comme conseiller sous Nicolas Sarkozy et directeur des
   études de l'UMP, tout en participant à la campagne de Marine Le Pen en 2017.
+tags:
+- elite
 type: Personne
 wikidata_id: Q42399689
 wikipedia_enriched: true

@@ -1,7 +1,9 @@
 ---
 birth_date: '1955-04-17'
 birth_place: null
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - dirigeante
 - Artemis
@@ -9,12 +11,16 @@ keywords:
 - entreprise
 - influence
 nationality: française
+nom_complet: Patricia Barbizet
 occupation: personnalité du monde des affaires
+sources: []
+statut_note: a_valider
 summary: Patricia Barbizet est une dirigeante française, connue pour avoir été directrice
   générale du groupe Artemis et présidente de Christie's. Elle a joué un rôle clé
   dans le développement d'entreprises liées à l'art et aux investissements.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

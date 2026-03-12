@@ -1,7 +1,9 @@
 ---
 birth_date: '1962-04-16'
 birth_place: New York, États-Unis
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - Secrétaire d'État
 - politique
@@ -9,12 +11,16 @@ keywords:
 - diplomatie
 - National Security Council
 nationality: américaine
+nom_complet: Antony Blinken
 occupation: haut fonctionnaire
+sources: []
+statut_note: a_valider
 summary: Antony Blinken est un haut responsable politique américain, actuellement
   Secrétaire d'État des États-Unis. Sa carrière est marquée par des fonctions clés
   en matière de sécurité nationale et des liens avec des dirigeants internationaux.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

@@ -1,14 +1,25 @@
 ---
+birth_date: null
+birth_place: null
+date_creation_note: '2026-03-12'
+education: null
+genre: null
 keywords:
 - administrateur
 - dirigeant
 - tabac
 - Polytechnique
 - industrie
+nationality: null
+nom_complet: Pierre Louis Imbert
+occupation: null
 sources: []
+statut_note: a_valider
 summary: Pierre Louis Imbert est un administrateur et dirigeant d'entreprises spécialisé
   dans le secteur du tabac. Il a occupé des postes clés dans des groupes comme Bolloré,
   Imperial Tobacco et Tobaccor.
+tags:
+- elite
 type: Personne
 wikipedia_enriched: true
 ---

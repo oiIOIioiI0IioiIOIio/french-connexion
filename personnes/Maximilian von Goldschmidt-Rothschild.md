@@ -1,7 +1,9 @@
 ---
 birth_date: '1843-06-20'
 birth_place: Francfort, Allemagne
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - banquier
 - mécène
@@ -9,13 +11,17 @@ keywords:
 - Goldschmidt
 - Empire allemand
 nationality: allemande
+nom_complet: Maximilian von Goldschmidt Rothschild
 occupation: banquier, mécène
+sources: []
+statut_note: a_valider
 summary: Maximilian von Goldschmidt-Rothschild était un banquier et mécène allemand,
   membre influent des familles Goldschmidt et Rothschild par alliance. Il a joué un
   rôle clé dans la finance et la haute société de l'Empire allemand grâce à son mariage
   et son héritage.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

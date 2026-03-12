@@ -1,7 +1,9 @@
 ---
 birth_date: '1963-08-20'
 birth_place: Casablanca, Maroc
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - entrepreneur
 - Altice
@@ -14,12 +16,16 @@ nationality:
 - israélienne
 - portugaise
 - christophienne
+nom_complet: Patrick Drahi
 occupation: entrepreneur et homme d'affaires
+sources: []
+statut_note: a_valider
 summary: Patrick Drahi est un entrepreneur et homme d'affaires franco-israélo-portugais,
   connu pour avoir fondé le groupe Altice. Il est une figure majeure des télécommunications
   et des médias en Europe et aux États-Unis.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

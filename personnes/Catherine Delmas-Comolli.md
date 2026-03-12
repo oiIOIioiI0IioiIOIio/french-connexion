@@ -1,7 +1,9 @@
 ---
 birth_date: '1948-08-22'
 birth_place: Versailles, France
+date_creation_note: '2026-03-12'
 education: ENA
+genre: null
 keywords:
 - haute fonctionnaire
 - ENA
@@ -9,12 +11,17 @@ keywords:
 - cabinet ministériel
 - dirigeante
 nationality: française
+nom_complet: Catherine Delmas Comolli
 occupation: haute fonctionnaire, dirigeante d'entreprise
+sources: []
+statut_note: a_valider
 summary: Catherine Delmas-Comolli est une haute fonctionnaire et dirigeante française,
   diplômée de l'ENA et de Sciences Po, ayant occupé des postes clés dans l'administration
   publique et le secteur privé. Son parcours inclut des fonctions préfectorales, des
   responsabilités ministérielles et des rôles stratégiques dans des groupes comme
   Bolloré et Lucien Barrière.
+tags:
+- elite
 type: Personne
 wikipedia_enriched: true
 ---

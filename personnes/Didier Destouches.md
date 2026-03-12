@@ -1,17 +1,27 @@
 ---
-birth_date_wikidata: '1955-09-28'
+birth_date: '1955-09-28'
+birth_place: null
+date_creation_note: '2026-03-12'
+education: null
+genre: null
 keywords:
 - dirigeant
 - entreprise
 - président
 - Sciences Po
 - Bolloré
+nationality: null
+nom_complet: Didier Destouches
+occupation: null
 sources:
 - https://www.wikidata.org/wiki/Q119371816
+statut_note: a_valider
 summary: Didier Destouches est un dirigeant d'entreprise français, président de plusieurs
   sociétés, notamment Le Nappage Moderne. Il a occupé des postes clés dans des groupes
   comme Bolloré et France Essor, avec une formation en droit des affaires et à Sciences
   Po Paris.
+tags:
+- elite
 type: Personne
 wikidata_id: Q119371816
 wikipedia_enriched: true

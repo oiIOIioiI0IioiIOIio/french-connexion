@@ -1,17 +1,27 @@
 ---
-birth_date_wikidata: '1945-06-12'
+birth_date: '1945-06-12'
+birth_place: null
+date_creation_note: '2026-03-12'
+education: null
+genre: null
 keywords:
 - magistrat
 - Cour des comptes
 - médias
 - administration publique
 - culture
+nationality: null
+nom_complet: Christian Phéline
+occupation: null
 sources:
 - https://www.wikidata.org/wiki/Q33138112
+statut_note: a_valider
 summary: Christian Phéline est un haut magistrat français, membre de la Cour des comptes,
   avec une carrière marquée par des fonctions clés dans les secteurs culturel, médiatique
   et administratif. Il a occupé des postes stratégiques au sein d'institutions publiques
   et de médias, tout en enseignant et en contribuant à des organismes de régulation.
+tags:
+- elite
 type: Personne
 wikidata_id: Q33138112
 wikipedia_enriched: true

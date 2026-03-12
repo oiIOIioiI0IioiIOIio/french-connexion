@@ -1,7 +1,9 @@
 ---
 birth_date: '1937-07-12'
 birth_place: Meudon, France
+date_creation_note: '2026-03-12'
 education: Sciences Po Paris, École nationale d'administration (ENA)
+genre: null
 keywords:
 - politique
 - Parti socialiste
@@ -9,12 +11,16 @@ keywords:
 - réformes économiques
 - gauche
 nationality: française
+nom_complet: Lionel Jospin
 occupation: homme d'État, Premier ministre
+sources: []
+statut_note: a_valider
 summary: Lionel Jospin est une figure politique française, ancien Premier ministre
   et membre historique du Parti socialiste. Il a entretenu des relations avec des
   personnalités du monde des affaires, de la culture et de la politique.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

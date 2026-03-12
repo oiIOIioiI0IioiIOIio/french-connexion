@@ -1,7 +1,9 @@
 ---
 birth_date: '1935-05-05'
 birth_place: Lyon, France
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - journaliste
 - animateur
@@ -9,13 +11,17 @@ keywords:
 - médias
 - culture
 nationality: française
+nom_complet: Bernard Pivot
 occupation: journaliste, écrivain, critique littéraire, animateur, producteur d'émissions
   culturelles télévisées
+sources: []
+statut_note: a_valider
 summary: Bernard Pivot est une personnalité emblématique des médias français, connu
   pour son rôle d'animateur et de critique littéraire. Il a marqué la culture française
   par ses émissions comme *Apostrophes* et *Bouillon de culture*.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

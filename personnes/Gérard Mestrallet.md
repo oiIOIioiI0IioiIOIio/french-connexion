@@ -1,7 +1,9 @@
 ---
 birth_date: '1949-04-01'
 birth_place: Paris, France
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - PDG
 - Engie
@@ -9,13 +11,17 @@ keywords:
 - Lionel Jospin
 - entreprises
 nationality: français
+nom_complet: Gérard Mestrallet
 occupation: chef d'entreprises
+sources: []
+statut_note: a_valider
 summary: Gérard Mestrallet est une personnalité du monde des affaires, connu pour
   avoir dirigé Engie (ex-GDF Suez), un géant français de l'énergie. Ses relations
   avec des figures politiques comme Lionel Jospin soulignent son influence dans les
   cercles économiques et publics.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

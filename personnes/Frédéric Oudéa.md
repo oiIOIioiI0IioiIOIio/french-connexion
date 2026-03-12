@@ -1,7 +1,9 @@
 ---
 birth_date: '1963-07-03'
 birth_place: Paris 15e, France
+date_creation_note: '2026-03-12'
 education: Inspecteur des finances
+genre: null
 keywords:
 - inspecteur des finances
 - Société Générale
@@ -9,11 +11,16 @@ keywords:
 - École polytechnique
 - dirigeant
 nationality: française
+nom_complet: Frédéric Oudéa
 occupation: homme d'affaires, dirigeant de banque et de grande entreprise
+sources: []
+statut_note: a_valider
 summary: Frédéric Oudéa est un haut fonctionnaire et dirigeant d'entreprise français,
   ancien élève de l'École polytechnique et de l'ENA. Il a occupé des postes clés au
   sein de la Société Générale et dans les cabinets ministériels, notamment comme directeur
   financier.
+tags:
+- elite
 type: Personne
 wikipedia_enriched: true
 ---

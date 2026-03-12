@@ -1,6 +1,9 @@
 ---
 birth_date: '1954-07-08'
 birth_place: Boulogne-Billancourt, France
+date_creation_note: '2026-03-12'
+education: null
+genre: null
 keywords:
 - avocat
 - fiscaliste
@@ -8,11 +11,16 @@ keywords:
 - Sciences Po
 - conseil politique
 nationality: française
+nom_complet: Jérôme Turot
 occupation: avocat
+sources: []
+statut_note: a_valider
 summary: Jérôme Turot est un avocat fiscaliste français, ancien major de la promotion
   Voltaire de l'ENA et diplômé de Sciences Po Paris. Il a été impliqué dans des missions
   de conseil discrètes, notamment pour la campagne présidentielle de Marine Le Pen
   en 2017.
+tags:
+- elite
 type: Personne
 wikipedia_enriched: true
 ---

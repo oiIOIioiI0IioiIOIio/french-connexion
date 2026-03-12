@@ -1,7 +1,9 @@
 ---
 birth_date: '1933-02-26'
 birth_place: Paris, France
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - homme d'affaires
 - corporate raider
@@ -9,14 +11,18 @@ keywords:
 - eurosceptique
 - politique
 nationality: franco-britannique
+nom_complet: James Goldsmith
 occupation: homme d'affaires, homme politique, milliardaire
+sources: []
+statut_note: a_valider
 summary: James Goldsmith était un homme d'affaires franco-britannique influent, connu
   pour ses activités dans les secteurs alimentaire et pharmaceutique ainsi que pour
   ses rachats hostiles d'entreprises. Il s'est également engagé en politique, notamment
   en fondant le Referendum Party et en menant une liste eurosceptique aux élections
   européennes de 1994.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

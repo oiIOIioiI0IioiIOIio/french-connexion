@@ -1,17 +1,27 @@
 ---
-birth_date_wikidata: '1952-08-25'
+birth_date: '1952-08-25'
+birth_place: null
+date_creation_note: '2026-03-12'
+education: null
+genre: null
 keywords:
 - dirigeant
 - banque
 - Conseil d'État
 - ENA
 - immobilier
+nationality: null
+nom_complet: Christian de Gournay
+occupation: null
 sources:
 - https://www.wikidata.org/wiki/Q47505033
+statut_note: a_valider
 summary: Christian de Gournay est un haut fonctionnaire et dirigeant d'entreprise
   français, diplômé de HEC et de l'ENA. Il a occupé des postes clés dans le secteur
   bancaire, assurantiel et immobilier, notamment comme président de Cogedim et dirigeant
   au sein du groupe AGF.
+tags:
+- elite
 type: Personne
 wikidata_id: Q47505033
 wikipedia_enriched: true

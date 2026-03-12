@@ -1,20 +1,27 @@
 ---
-birth_date_wikidata: '1948-10-29'
+birth_date: '1948-10-29'
+birth_place: null
+date_creation_note: '2026-03-12'
+education: null
+genre: null
 keywords:
 - conseiller politique
 - Cour des comptes
 - extrême droite
 - Club de l'Horloge
 - Marine Le Pen
-positions_wikidata:
-- Q30461
-- Q21500772
+nationality: null
+nom_complet: Philippe Baccou
+occupation: null
 sources:
 - https://www.wikidata.org/wiki/Q33126589
+statut_note: a_valider
 summary: Philippe Baccou est un ancien haut fonctionnaire de la Cour des comptes,
   devenu conseiller influent de Marine Le Pen lors de la campagne présidentielle de
   2017. Il est également lié à plusieurs cercles et think tanks d'extrême droite,
   comme le Club de l'Horloge et Polémia.
+tags:
+- elite
 type: Personne
 wikidata_id: Q33126589
 wikipedia_enriched: true

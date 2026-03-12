@@ -1,7 +1,9 @@
 ---
 birth_date: '1930-12-31'
 birth_place: Birmingham, Angleterre
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - KPMG
 - stratégie
@@ -9,13 +11,17 @@ keywords:
 - conseil d'administration
 - WCD Foundation
 nationality: anglaise
+nom_complet: Lisa Daniels
 occupation: actrice
+sources: []
+statut_note: a_valider
 summary: Lisa Daniels est une professionnelle expérimentée occupant le poste de vice-présidente
   chargée de la croissance et de la stratégie chez KPMG LLP. Elle possède une expertise
   approfondie en gestion des risques et siège au conseil d'administration de la WCD
   Foundation.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

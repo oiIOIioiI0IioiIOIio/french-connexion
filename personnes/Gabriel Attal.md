@@ -1,7 +1,9 @@
 ---
 birth_date: '1989-03-16'
 birth_place: Clamart, France
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - politique
 - ministre
@@ -9,13 +11,17 @@ keywords:
 - Macron
 - jeunesse
 nationality: française
+nom_complet: Gabriel Attal
 occupation: homme d'État, Premier ministre, député, président de groupe parlementaire,
   secrétaire général de parti politique
+sources: []
+statut_note: a_valider
 summary: Gabriel Attal est une personnalité politique française, ancien ministre et
   figure proche du mouvement La République En Marche. Il est reconnu pour son influence
   dans les domaines de l'éducation, de la jeunesse et des réseaux politiques et médiatiques.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

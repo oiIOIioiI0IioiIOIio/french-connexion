@@ -1,7 +1,9 @@
 ---
 birth_date: '1977-05-01'
 birth_place: Béthune, France
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - politique
 - député
@@ -9,13 +11,17 @@ keywords:
 - Défense nationale
 - collaborateur
 nationality: française
+nom_complet: Nicolas Bays
 occupation: homme politique
+sources: []
+statut_note: a_valider
 summary: Nicolas Bays est un homme politique français, ancien député du Pas-de-Calais
   et collaborateur d'élus locaux et européens. Il a occupé des fonctions clés, notamment
   à la commission de la Défense nationale et comme chef de cabinet de Jean-Michel
   Blanquer.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

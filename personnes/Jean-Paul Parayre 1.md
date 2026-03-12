@@ -1,15 +1,26 @@
 ---
+birth_date: null
+birth_place: null
+date_creation_note: '2026-03-12'
+education: null
+genre: null
 keywords:
 - ingénieur
 - président
 - dirigeant
 - Polytechnique
 - entreprises
+nationality: null
+nom_complet: Jean Paul Parayre 1
+occupation: null
 sources: []
+statut_note: a_valider
 summary: Jean-Paul Parayre est un ingénieur et haut dirigeant français, ayant occupé
   des postes clés dans plusieurs grandes entreprises comme Peugeot SA, Dumez et le
   Groupe Bolloré. Il a également exercé des fonctions publiques et reçu des distinctions
   honorifiques pour sa carrière.
+tags:
+- elite
 type: Personne
 wikipedia_enriched: true
 ---

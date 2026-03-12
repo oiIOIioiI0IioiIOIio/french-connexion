@@ -1,6 +1,9 @@
 ---
 birth_date: '1922-02-17'
 birth_place: Nantes, France
+date_creation_note: '2026-03-12'
+education: null
+genre: null
 keywords:
 - industriel
 - Bolloré
@@ -8,11 +11,16 @@ keywords:
 - entreprises
 - famille
 nationality: française
+nom_complet: Michel Bolloré
 occupation: industriel, homme d'affaires
+sources: []
+statut_note: a_valider
 summary: Michel Bolloré est un industriel français, membre de la famille Bolloré et
   ancien dirigeant de plusieurs entreprises du groupe familial. Il a occupé des postes
   clés dans des sociétés spécialisées dans les papeteries, les plastiques et les participations
   financières.
+tags:
+- elite
 type: Personne
 wikipedia_enriched: true
 ---

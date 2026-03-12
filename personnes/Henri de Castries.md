@@ -1,7 +1,9 @@
 ---
 birth_date: '1954-08-15'
 birth_place: Bayonne, France
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - dirigeant
 - AXA
@@ -9,12 +11,16 @@ keywords:
 - Institut Montaigne
 - assurance
 nationality: français
+nom_complet: Henri de Castries
 occupation: homme d'affaires
+sources: []
+statut_note: a_valider
 summary: Henri de Castries est un dirigeant d'entreprise français, ancien PDG du groupe
   AXA et président du comité de direction du groupe Bilderberg. Il occupe également
   la présidence de l'Institut Montaigne depuis 2015.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

@@ -1,18 +1,26 @@
 ---
-birth_date_wikidata: '1983-05-22'
+birth_date: '1983-05-22'
+birth_place: null
+date_creation_note: '2026-03-12'
+education: null
+genre: null
 keywords:
 - Polytechnique
 - capital-risque
 - Otium Capital
 - Rassemblement National
 - Périclès
-positions_wikidata:
-- Q484876
+nationality: null
+nom_complet: François Durvye
+occupation: null
 sources:
 - https://www.wikidata.org/wiki/Q126723274
+statut_note: a_valider
 summary: François Durvye est un haut dirigeant et économiste français, directeur général
   du family office Otium Capital. Il joue un rôle clé dans les réseaux d'influence
   politique, notamment en lien avec le Rassemblement National et le projet Périclès.
+tags:
+- elite
 type: Personne
 wikidata_id: Q126723274
 wikipedia_enriched: true

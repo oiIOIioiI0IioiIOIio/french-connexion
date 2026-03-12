@@ -1,17 +1,27 @@
 ---
-birth_date_wikidata: '1960-04-06'
+birth_date: '1960-04-06'
+birth_place: null
+date_creation_note: '2026-03-12'
+education: null
+genre: null
 keywords:
 - consultant
 - stratégie
 - McKinsey
 - Asie
 - réseaux d'affaires
+nationality: null
+nom_complet: Jacques Penhirin
+occupation: null
 sources:
 - https://www.wikidata.org/wiki/Q33103001
+statut_note: a_valider
 summary: Jacques Penhirin est un consultant international et directeur de société
   spécialisé en stratégie marketing et développement des affaires, notamment en Asie.
   Il a occupé des postes clés dans des cabinets de conseil renommés comme McKinsey
   & Company et A.T. Kearney.
+tags:
+- elite
 type: Personne
 wikidata_id: Q33103001
 wikipedia_enriched: true

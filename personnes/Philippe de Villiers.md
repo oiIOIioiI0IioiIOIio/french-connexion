@@ -1,7 +1,9 @@
 ---
 birth_date: '1949-03-25'
 birth_place: Boulogne, Vendée, France
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - homme politique
 - entrepreneur
@@ -9,13 +11,17 @@ keywords:
 - Mouvement pour la France
 - souverainisme
 nationality: française
+nom_complet: Philippe de Villiers
 occupation: entrepreneur, haut fonctionnaire, homme politique, écrivain
+sources: []
+statut_note: a_valider
 summary: Philippe de Villiers est un homme politique, entrepreneur et écrivain français,
   connu pour avoir fondé le parc du Puy du Fou et le Mouvement pour la France (MPF).
   Ancien élève de l'ENA et secrétaire d'État, il a marqué la vie politique par ses
   positions souverainistes et conservatrices.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

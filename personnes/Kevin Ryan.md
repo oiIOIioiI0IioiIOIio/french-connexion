@@ -1,7 +1,9 @@
 ---
 birth_date: null
 birth_place: null
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - entrepreneur
 - philanthrope
@@ -9,12 +11,16 @@ keywords:
 - Young Leader
 - technologie
 nationality: américaine
+nom_complet: Kevin Ryan
 occupation: entrepreneur
+sources: []
+statut_note: a_valider
 summary: Kevin Ryan est un entrepreneur et philanthrope américain, reconnu comme Young
   Leader en 2003 par la French-American Foundation. Il est notamment le fondateur
   de Gilt Groupe et a collaboré avec des figures majeures du secteur technologique.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

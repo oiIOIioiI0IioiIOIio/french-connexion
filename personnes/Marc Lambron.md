@@ -1,7 +1,9 @@
 ---
 birth_date: '1957-02-04'
 birth_place: Lyon, France
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - écrivain
 - École normale supérieure
@@ -9,12 +11,16 @@ keywords:
 - Sciences Po
 - haut fonctionnaire
 nationality: française
+nom_complet: Marc Lambron
 occupation: haut fonctionnaire, critique littéraire, écrivain
+sources: []
+statut_note: a_valider
 summary: Marc Lambron est un écrivain et haut fonctionnaire français, diplômé de l'École
   normale supérieure, de Sciences Po Paris et de l'ENA. Il a mené une carrière littéraire
   tout en occupant des postes dans l'administration publique.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

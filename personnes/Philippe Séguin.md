@@ -1,7 +1,9 @@
 ---
 birth_date: '1943-04-21'
 birth_place: Tunis, Tunisie
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - politique
 - parlementaire
@@ -9,12 +11,16 @@ keywords:
 - législatif
 - réseaux
 nationality: française
+nom_complet: Philippe Séguin
 occupation: magistrat, homme d'État
+sources: []
+statut_note: a_valider
 summary: Philippe Séguin était une personnalité politique française, ancien parlementaire
   et membre influent du paysage institutionnel. Il a marqué la vie publique par son
   expertise législative et ses réseaux politiques.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

@@ -1,18 +1,28 @@
 ---
-birth_date_wikidata: '1898-08-26'
-death_date_wikidata: '1978-07-22'
+birth_date: '1898-08-26'
+birth_place: null
+date_creation_note: '2026-03-12'
+death_date: '1978-07-22'
+education: null
+genre: null
 keywords:
 - dirigeant
 - finance
 - Bolloré
 - Valeo
 - administrateur
+nationality: null
+nom_complet: Jean Louis BOUQUET
+occupation: null
 sources:
 - https://www.wikidata.org/wiki/Q3166651
+statut_note: a_valider
 summary: Jean-Louis Bouquet est un dirigeant d'entreprise français, diplômé de l'École
   supérieure de commerce de Paris et de l'Institut des hautes finances. Il a occupé
   des postes clés dans des groupes comme Valeo, Bolloré et plusieurs filiales, notamment
   en tant que directeur financier et président de sociétés.
+tags:
+- elite
 type: Personne
 wikidata_id: Q3166651
 wikipedia_enriched: true

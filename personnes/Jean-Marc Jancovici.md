@@ -1,7 +1,9 @@
 ---
 birth_date: '1962-02-13'
 birth_place: Paris, France
+date_creation_note: '2026-03-12'
 education: École polytechnique, École nationale supérieure des télécommunications
+genre: null
 keywords:
 - expert
 - énergie
@@ -9,12 +11,16 @@ keywords:
 - conseiller
 - décarbonation
 nationality: française
+nom_complet: Jean Marc Jancovici
 occupation: ingénieur, enseignant, conférencier
+sources: []
+statut_note: a_valider
 summary: Jean-Marc Jancovici est un expert reconnu en transition énergétique et en
   stratégies de décarbonation. Il collabore avec des institutions publiques, des entreprises
   et des think tanks pour promouvoir des politiques environnementales.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

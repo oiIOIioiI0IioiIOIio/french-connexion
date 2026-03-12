@@ -1,6 +1,9 @@
 ---
 birth_date: '1986-11-13'
 birth_place: Paris 8e, France
+date_creation_note: '2026-03-12'
+education: null
+genre: null
 keywords:
 - politique
 - députée
@@ -8,10 +11,15 @@ keywords:
 - Yvelines
 - Sciences Po
 nationality: française
+nom_complet: Aurore Bergé
 occupation: femme politique
+sources: []
+statut_note: a_valider
 summary: Aurore Bergé est une femme politique française, députée des Yvelines depuis
   2017. Elle a débuté son engagement politique à l'UMP et occupé des fonctions auprès
   de personnalités comme Roselyne Bachelot.
+tags:
+- elite
 type: Personne
 wikipedia_enriched: true
 ---

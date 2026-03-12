@@ -1,7 +1,9 @@
 ---
 birth_date: '1961-12-23'
 birth_place: Paris, France
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - conseiller politique
 - Bouygues Construction
@@ -9,13 +11,17 @@ keywords:
 - Horaces
 - hauts fonctionnaires
 nationality: française
+nom_complet: André Rougé
 occupation: homme politique
+sources: []
+statut_note: a_valider
 summary: André Rougé est un haut cadre ayant travaillé dans le secteur privé et joué
   un rôle discret dans la sphère politique, notamment comme conseiller de Marine Le
   Pen. Son parcours inclut des fonctions dans le groupe Bouygues et une implication
   dans des cercles d'influence comme les Horaces.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

@@ -1,6 +1,9 @@
 ---
 birth_date: '1955-01-28'
 birth_place: Paris 17e, France
+date_creation_note: '2026-03-12'
+education: null
+genre: null
 keywords:
 - politique
 - Président
@@ -8,10 +11,15 @@ keywords:
 - élite
 - influence
 nationality: française
+nom_complet: Nicolas Sarkozy
 occupation: homme d'État
+sources: []
+statut_note: a_valider
 summary: Nicolas Sarkozy est un homme politique français, ancien Président de la République,
   connu pour son influence durable sur la vie politique et médiatique en France. Il
   reste associé au parti Les Républicains et à l'élite politique du pays.
+tags:
+- elite
 type: Personne
 wikipedia_enriched: true
 ---

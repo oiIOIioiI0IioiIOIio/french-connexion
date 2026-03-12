@@ -1,18 +1,28 @@
 ---
-birth_date_wikidata: '1929-09-11'
-death_date_wikidata: '2010-09-08'
+birth_date: '1929-09-11'
+birth_place: null
+date_creation_note: '2026-03-12'
+death_date: '2010-09-08'
+education: null
+genre: null
 keywords:
 - diplomate
 - élu local
 - directeur de société
 - Ordre souverain de Malte
 - carrière internationale
+nationality: null
+nom_complet: Jean Pierre Pasquier
+occupation: null
 sources:
 - https://www.wikidata.org/wiki/Q122371194
+statut_note: a_valider
 summary: Jean-Pierre Pasquier est un haut fonctionnaire, diplomate et élu local français,
   ayant occupé des postes clés dans le secteur privé et public. Sa carrière inclut
   des fonctions commerciales, diplomatiques et politiques, notamment en Afrique et
   en France.
+tags:
+- elite
 type: Personne
 wikidata_id: Q122371194
 wikipedia_enriched: true

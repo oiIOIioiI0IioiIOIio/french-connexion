@@ -1,14 +1,25 @@
 ---
+birth_date: null
+birth_place: null
+date_creation_note: '2026-03-12'
+education: null
+genre: null
 keywords:
 - ingénieur
 - dirigeant
 - industrie
 - Lafarge
 - Materis
+nationality: null
+nom_complet: Olicier Legrain
+occupation: null
 sources: []
+statut_note: a_valider
 summary: Olivier Legrain est un ingénieur et dirigeant d'entreprise français, ayant
   occupé des postes clés dans des groupes industriels comme Rhône-Poulenc et Lafarge.
   Il est actuellement président de Materis et diplômé de l'École des mines et de l'ENSAE.
+tags:
+- elite
 type: Personne
 wikipedia_enriched: true
 ---

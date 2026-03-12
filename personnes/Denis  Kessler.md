@@ -1,7 +1,9 @@
 ---
 birth_date: '1952-03-25'
 birth_place: Mulhouse, France
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - économiste
 - dirigeant
@@ -9,13 +11,17 @@ keywords:
 - Scor
 - Medef
 nationality: français
+nom_complet: Denis  Kessler
 occupation: économiste, chercheur, dirigeant d'entreprise
+sources: []
+statut_note: a_valider
 summary: Denis Kessler est un économiste et dirigeant d'entreprise français, reconnu
   pour ses contributions académiques et son rôle clé dans le secteur des assurances.
   Il a occupé des postes de direction dans des groupes majeurs comme Axa et Scor,
   ainsi que des fonctions au sein d'institutions économiques et patronales.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

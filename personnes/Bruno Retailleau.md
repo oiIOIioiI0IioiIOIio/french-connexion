@@ -1,7 +1,9 @@
 ---
 birth_date: '1960-11-20'
 birth_place: Cholet, France
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - politique
 - Sénat
@@ -9,13 +11,17 @@ keywords:
 - Les Républicains
 - ministre
 nationality: française
+nom_complet: Bruno Retailleau
 occupation: homme politique
+sources: []
+statut_note: a_valider
 summary: Bruno Retailleau est un homme politique français, diplômé de Sciences Po
   Paris et figure majeure de la droite en Vendée. Il a occupé des fonctions électives
   locales et nationales, notamment comme président du groupe Les Républicains au Sénat
   et ministre de l'Intérieur en 2024.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

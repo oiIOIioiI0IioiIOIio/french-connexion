@@ -1,7 +1,9 @@
 ---
 birth_date: '1956-12-13'
 birth_place: Grenoble, France
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - Vivendi
 - PDG
@@ -9,12 +11,16 @@ keywords:
 - médias
 - Jospin
 nationality: française
+nom_complet: Jean Marie Messier
 occupation: haut fonctionnaire, homme d'affaires
+sources: []
+statut_note: a_valider
 summary: Jean-Marie Messier est une personnalité du monde des affaires, connu pour
   avoir dirigé Vivendi dans les années 1990. Il a marqué les secteurs des télécommunications
   et des médias, avec des liens politiques notables.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

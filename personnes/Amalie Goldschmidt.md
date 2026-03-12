@@ -1,17 +1,27 @@
 ---
-birth_date_wikidata: '1872-08-10'
-death_date_wikidata: '1940-01-01'
+birth_date: '1872-08-10'
+birth_place: null
+date_creation_note: '2026-03-12'
+death_date: '1940-01-01'
+education: null
+genre: null
 keywords:
 - banque
 - famille Goldschmidt
 - famille Bischoffsheim
 - BNP Paribas
 - mariage
+nationality: null
+nom_complet: Amalie Goldschmidt
+occupation: null
 sources:
 - https://www.wikidata.org/wiki/Q104677332
+statut_note: a_valider
 summary: Amalie Goldschmidt est une figure historique liée à des familles bancaires
   influentes du XIXe siècle. Son mariage avec Louis Raphaël Bischoffsheim a contribué
   à la création d'une banque majeure, ancêtre de BNP Paribas.
+tags:
+- elite
 type: Personne
 wikidata_id: Q104677332
 wikipedia_enriched: true

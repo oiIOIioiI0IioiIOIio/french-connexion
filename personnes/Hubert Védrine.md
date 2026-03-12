@@ -1,7 +1,9 @@
 ---
 birth_date: '1947-07-31'
 birth_place: Bellegarde-en-Marche, France
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - politique
 - diplomatie
@@ -9,12 +11,16 @@ keywords:
 - think tank
 - ministre
 nationality: française
+nom_complet: Hubert Védrine
 occupation: haut fonctionnaire, homme politique
+sources: []
+statut_note: a_valider
 summary: Hubert Védrine est une personnalité politique française, ancien ministre
   des Affaires étrangères. Il est également consultant pour des institutions internationales
   et actif dans des cercles d'influence comme les think tanks.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

@@ -1,6 +1,9 @@
 ---
 birth_date: '1934-07-07'
 birth_place: Paris, France
+date_creation_note: '2026-03-12'
+education: null
+genre: null
 keywords:
 - ingénieur
 - banque
@@ -8,11 +11,16 @@ keywords:
 - président-directeur général
 - fondations
 nationality: française
+nom_complet: Bernard Esambert
 occupation: ingénieur, conseiller ministériel, financier, dirigeant humanitaire
+sources: []
+statut_note: a_valider
 summary: Bernard Esambert est un ingénieur et haut dirigeant français, ancien conseiller
   de Georges Pompidou et figure majeure du secteur bancaire et industriel. Il a occupé
   des postes clés dans des groupes comme Rothschild, Bolloré et Lagardère, tout en
   s'impliquant dans des institutions éducatives et des fondations.
+tags:
+- elite
 type: Personne
 wikipedia_enriched: true
 ---

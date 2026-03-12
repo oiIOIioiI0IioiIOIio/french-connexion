@@ -1,7 +1,9 @@
 ---
 birth_date: '1963-05-11'
 birth_place: Beaupréau, France
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - dirigeant
 - Schneider Electric
@@ -9,12 +11,16 @@ keywords:
 - efficacité énergétique
 - industrie
 nationality: français
+nom_complet: Jean Pascal Tricoire
 occupation: dirigeant d'entreprise
+sources: []
+statut_note: a_valider
 summary: Jean-Pascal Tricoire est un dirigeant d'entreprise français, actuellement
   président-directeur général de Schneider Electric. Il est reconnu pour son engagement
   dans la transition numérique et l'efficacité énergétique des industries.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

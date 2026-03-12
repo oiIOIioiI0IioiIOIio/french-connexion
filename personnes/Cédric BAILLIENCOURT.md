@@ -1,15 +1,26 @@
 ---
+birth_date: null
+birth_place: null
+date_creation_note: '2026-03-12'
+education: null
+genre: null
 keywords:
 - homme d'affaires
 - Groupe Bolloré
 - famille Bolloré
 - Sciences Po Bordeaux
 - directeur général
+nationality: null
+nom_complet: Cédric BAILLIENCOURT
+occupation: null
 sources: []
+statut_note: a_valider
 summary: Cédric Bailliencourt est un homme d'affaires français, membre influent de
   la famille Bolloré et directeur des participations du Groupe Bolloré. Diplômé de
   Sciences Po Bordeaux et spécialisé en communication politique, il occupe des postes
   clés au sein de l'empire industriel et médiatique familial.
+tags:
+- elite
 type: Personne
 wikipedia_enriched: true
 ---

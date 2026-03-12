@@ -1,7 +1,9 @@
 ---
 birth_date: '1961-03-18'
 birth_place: Boulogne-Billancourt, France
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - homme d'affaires
 - réseau d'influence
@@ -9,13 +11,17 @@ keywords:
 - famille Lagardère
 - personnalité politique
 nationality: française
+nom_complet: Arnaud Lagardère
 occupation: chef d'entreprise
+sources: []
+statut_note: a_valider
 summary: Arnaud Lagardère est un homme d'affaires français, héritier du groupe Lagardère,
   connu pour son réseau d'influence au sein des élites politiques et économiques.
   Il entretient des relations étroites avec de nombreuses personnalités majeures en
   France et à l'international.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

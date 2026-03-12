@@ -1,7 +1,9 @@
 ---
 birth_date: '1969-04-15'
 birth_place: Neuilly-sur-Seine, France
+date_creation_note: '2026-03-12'
 education: Normalien, énarque
+genre: null
 keywords:
 - politique
 - ministre
@@ -9,12 +11,16 @@ keywords:
 - économie
 - finances
 nationality: française
+nom_complet: Bruno Le Maire
 occupation: homme politique, écrivain
+sources: []
+statut_note: a_valider
 summary: Bruno Le Maire est un homme politique français, actuellement ministre de
   l'Économie, des Finances et de la Relance. Il est une figure clé du gouvernement
   Macron, avec des liens étroits dans les sphères politiques et financières.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

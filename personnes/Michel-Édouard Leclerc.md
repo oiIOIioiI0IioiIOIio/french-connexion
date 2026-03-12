@@ -1,7 +1,9 @@
 ---
 birth_date: '1952-05-23'
 birth_place: Landerneau, France
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - entrepreneur
 - dirigeant
@@ -9,13 +11,17 @@ keywords:
 - grande distribution
 - pouvoir d'achat
 nationality: français
+nom_complet: Michel Édouard Leclerc
 occupation: dirigeant d'entreprises
+sources: []
+statut_note: a_valider
 summary: Michel-Édouard Leclerc est un entrepreneur et dirigeant français, actuel
   président du groupe E.Leclerc, qu'il a contribué à moderniser et développer. Fils
   du fondateur Édouard Leclerc, il est engagé dans la défense du pouvoir d'achat et
   la promotion d'une consommation responsable.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

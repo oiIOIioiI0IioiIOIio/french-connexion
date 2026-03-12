@@ -1,7 +1,9 @@
 ---
 birth_date: '1974-01-03'
 birth_place: Évreux, France
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - entrepreneur
 - milliardaire
@@ -9,13 +11,17 @@ keywords:
 - extrême droite
 - investisseur
 nationality: française
+nom_complet: Pierre Édouard Stérin
 occupation: entrepreneur
+sources: []
+statut_note: a_valider
 summary: Pierre-Édouard Stérin est un entrepreneur et milliardaire français, connu
   pour ses investissements dans des start-ups et ses engagements politiques conservateurs
   et d'extrême droite. Il finance des projets visant à influencer le paysage politique
   français, notamment via des cercles de réflexion et des initiatives éducatives traditionalistes.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

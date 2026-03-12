@@ -1,28 +1,9 @@
 ---
-affiliations: []
-bio: Carter G. Woodson est un historien afro-américain pionnier dans l'étude de l'histoire
-  des Afro-Américains. Il est surnommé le « Père de l'histoire des Noirs » et a fondé
-  l'Association for the Study of African American Life and History. Né dans une famille
-  d'anciens esclaves, il a surmonté des obstacles pour accéder à l'éducation et devenir
-  un universitaire influent.
-birth_date: 19 décembre 1875
-birth_date_wikidata: '1875-12-19'
+birth_date: '1875-12-19'
 birth_place: New Canton (Virginie
-carriere:
-- Historien spécialisé dans l'histoire des Afro-Américains
-- Fondateur de l'Association for the Study of African American Life and History
-- Essayiste et chroniqueur
 date_creation_note: '2026-02-14'
-date_naissance: '1875-12-19'
-death_date_wikidata: '1950-04-03'
-distinctions: []
-famille:
-- James Henry Woodson (père)
-- Anne Eliza Riddle Woodson (mère)
-- Robert Henry Woodson (frère)
-- William Woodson (frère)
-- Cora Woodson (sœur)
-formation: []
+death_date: '1950-04-03'
+education: null
 genre: homme
 keywords:
 - woodson
@@ -36,18 +17,12 @@ liens:
 - William Woodson (frère)
 - Robert Henry Woodson (frère)
 - James Henry Woodson (père)
-lieu_naissance: New Canton, Virginie, États-Unis
-nationalite: américaine
+nationality: américaine
 nom_complet: Carter G. Woodson
-nom_naissance: ''
 occupation: historien
-prenoms: Carter
-presse: []
 sources:
 - https://fr.wikipedia.org/wiki/Carter_G._Woodson
 - https://www.wikidata.org/wiki/Q5047158
-statut: historien, essayiste, chroniqueur, fondateur de l'Association for the Study
-  of African American Life and History
 statut_note: a_valider
 summary: Carter G. Woodson est un historien afro-américain pionnier dans l'étude de
   l'histoire des Afro-Américains.
@@ -82,3 +57,14 @@ Carter G. Woodson est un historien afro-américain pionnier dans l'étude de l'h
 ---
 
 **Source** : [Wikipedia](https://fr.wikipedia.org/wiki/Carter_G._Woodson)
+
+## Bio
+
+Carter G. Woodson est un historien afro-américain pionnier dans l'étude de l'histoire des Afro-Américains. Il est surnommé le « Père de l'histoire des Noirs » et a fondé l'Association for the Study of African American Life and History. Né dans une famille d'anciens esclaves, il a surmonté des obstacles pour accéder à l'éducation et devenir un universitaire influent.
+
+
+## Carriere
+
+- Historien spécialisé dans l'histoire des Afro-Américains
+- Fondateur de l'Association for the Study of African American Life and History
+- Essayiste et chroniqueur

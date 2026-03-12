@@ -1,7 +1,9 @@
 ---
 birth_date: '1976-03-26'
 birth_place: Neuilly-sur-Seine, France
+date_creation_note: '2026-03-12'
 education: null
+genre: null
 keywords:
 - universitaire
 - essayiste
@@ -9,12 +11,16 @@ keywords:
 - Institut Sapiens
 - économie
 nationality: française
+nom_complet: Olivier Babeau
 occupation: universitaire, consultant, essayiste
+sources: []
+statut_note: a_valider
 summary: Olivier Babeau est un universitaire, consultant et essayiste français, connu
   pour ses travaux en économie et ses engagements politiques. Il a cofondé l'Institut
   Sapiens et collaboré avec plusieurs figures politiques et médiatiques.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

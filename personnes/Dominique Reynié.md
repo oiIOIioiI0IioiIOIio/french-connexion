@@ -1,7 +1,9 @@
 ---
 birth_date: '1960-06-17'
 birth_place: Rodez, France
+date_creation_note: '2026-03-12'
 education: Sciences Po
+genre: null
 keywords:
 - intellectuel
 - Fondapol
@@ -9,12 +11,16 @@ keywords:
 - réseaux d'influence
 - directeur
 nationality: française
+nom_complet: Dominique Reynié
 occupation: politologue, homme politique, professeur, chroniqueur
+sources: []
+statut_note: a_valider
 summary: Dominique Reynié est un intellectuel et directeur général de la Fondation
   pour l'innovation politique (Fondapol). Il est connu pour ses positions libérales
   et ses réseaux d'influence dans les milieux économiques et politiques.
+tags:
+- elite
 type: Personne
-website: null
 wikipedia_enriched: true
 ---
 

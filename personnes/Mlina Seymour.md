@@ -1,20 +1,8 @@
 ---
-affiliations: []
-bio: Carter G. Woodson était un historien afro-américain connu pour avoir cofondé
-  l'Association for the Study of African American Life and History (ASALH) et lancé
-  la Negro History Week en 1926, précurseur du Black History Month. Son travail visait
-  à promouvoir l'enseignement de l'histoire des Noirs aux États-Unis.
-carriere:
-- Historien afro-américain
-- Cofondateur de l'Association for the Study of African American Life and History
-  (ASALH)
-- Initiateur de la Negro History Week (1926)
-- Président des États-Unis ayant officiellement reconnu le Black History Month (1976)
+birth_date: null
+birth_place: null
 date_creation_note: '2026-02-14'
-date_naissance: null
-distinctions: []
-famille: []
-formation: []
+education: null
 genre: homme
 keywords:
 - history
@@ -26,15 +14,11 @@ liens:
 - Carter G. Woodson
 - Jesse E. Moorland
 - Gerald Ford
-lieu_naissance: null
-nationalite: américaine
+nationality: américaine
 nom_complet: Mélina Seymour
-nom_naissance: ''
-prenoms: Mélina
-presse: []
+occupation: null
 sources:
 - https://fr.wikipedia.org/wiki/Mois_de_l%27histoire_des_Noirs
-statut: Historien
 statut_note: a_valider
 summary: Carter G. Woodson était un historien afro-américain connu pour avoir cofondé
   l'Association for the Study of African American Life and History (ASALH) et lancé
@@ -59,3 +43,15 @@ Carter G. Woodson était un historien afro-américain connu pour avoir cofondé 
 ---
 
 **Source** : [Wikipedia](https://fr.wikipedia.org/wiki/Mois_de_l%27histoire_des_Noirs)
+
+## Bio
+
+Carter G. Woodson était un historien afro-américain connu pour avoir cofondé l'Association for the Study of African American Life and History (ASALH) et lancé la Negro History Week en 1926, précurseur du Black History Month. Son travail visait à promouvoir l'enseignement de l'histoire des Noirs aux États-Unis.
+
+
+## Carriere
+
+- Historien afro-américain
+- Cofondateur de l'Association for the Study of African American Life and History (ASALH)
+- Initiateur de la Negro History Week (1926)
+- Président des États-Unis ayant officiellement reconnu le Black History Month (1976)

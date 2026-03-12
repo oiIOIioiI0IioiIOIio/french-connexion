@@ -1,6 +1,9 @@
 ---
 birth_date: '1967-12-23'
 birth_place: Turin, Italie
+date_creation_note: '2026-03-12'
+education: null
+genre: null
 keywords:
 - chanteuse
 - mannequin
@@ -8,11 +11,16 @@ keywords:
 - artiste
 - relations médiatiques
 nationality: italo-française
+nom_complet: Carla Bruni
 occupation: mannequin, auteure-compositrice-interprète
+sources: []
+statut_note: a_valider
 summary: Carla Bruni est une chanteuse, mannequin et ancienne Première Dame de France,
   connue pour sa carrière artistique et ses relations avec des personnalités influentes.
   Elle a épousé Nicolas Sarkozy en 2008 et a marqué la scène culturelle française
   et internationale.
+tags:
+- elite
 type: Personne
 wikipedia_enriched: true
 ---
