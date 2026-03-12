@@ -1,0 +1,21 @@
+---
+date_creation_note: '2026-03-12'
+keywords:
+- think tank
+- fondation
+- influence
+nom_complet: A FRENCH SURVEY OF THE DIAGNOSTIC AND THERAPEUTIC MANAGEMENT OF ELDERLY
+  PEOPLE WITH HISTOLOGICALLY/CYTOLOGICALLY CONFIRMED LUNG CANCER.
+sources:
+- https://www.wikidata.org/entity/Q65545730
+statut_note: a_valider
+summary: A FRENCH SURVEY OF THE DIAGNOSTIC AND THERAPEUTIC MANAGEMENT OF ELDERLY PEOPLE
+  WITH HISTOLOGICALLY/CYTOLOGICALLY CONFIRMED LUNG CANCER., think tank ou fondation.
+tags:
+- institution
+- source-wikidata
+type: Fondation
+wikidata_id: Q65545730
+---
+
+A FRENCH SURVEY OF THE DIAGNOSTIC AND THERAPEUTIC MANAGEMENT OF ELDERLY PEOPLE WITH HISTOLOGICALLY/CYTOLOGICALLY CONFIRMED LUNG CANCER., think tank ou fondation.
