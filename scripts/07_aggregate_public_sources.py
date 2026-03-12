@@ -66,7 +66,7 @@ git = GitHandler()
 IS_GITHUB_ACTION = os.getenv('GITHUB_ACTIONS') == 'true'
 
 # Limites configurables
-MAX_RESULTS = int(os.getenv('MAX_RESULTS', '1000' if IS_GITHUB_ACTION else '200'))
+MAX_RESULTS = int(os.getenv('MAX_RESULTS', '100000' if IS_GITHUB_ACTION else '200'))
 HTTP_TIMEOUT = int(os.getenv('HTTP_TIMEOUT', '30'))
 DRY_RUN = os.getenv('DRY_RUN', '0') == '1'
 INTER_REQUEST_DELAY = float(os.getenv('INTER_REQUEST_DELAY', '1.0'))
