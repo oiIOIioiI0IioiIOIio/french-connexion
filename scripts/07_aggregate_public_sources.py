@@ -829,7 +829,7 @@ def create_person_profile(person_data: dict, existing_index: Set[str]) -> Option
     if isinstance(formation_raw, str) and formation_raw:
         education_str = formation_raw
     elif isinstance(formation_raw, list) and formation_raw:
-        education_str = ", ".join(formation_raw)
+        education_str = ", ".join(str(item) for item in formation_raw)
     else:
         education_str = None
 
