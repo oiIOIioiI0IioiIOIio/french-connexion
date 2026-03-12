@@ -20,7 +20,7 @@ SOURCES PUBLIQUES UTILISEES:
 
 VARIABLES D'ENVIRONNEMENT:
 - GITHUB_ACTIONS : Detecte automatiquement (ajuste les limites)
-- MAX_RESULTS : Nombre max de resultats par source (defaut: 200)
+- MAX_RESULTS : Nombre max de resultats par source (defaut: 2000)
 - HTTP_TIMEOUT : Timeout requetes HTTP en secondes (defaut: 30)
 - DRY_RUN : Si '1', affiche sans creer de fichiers
 - HTTP_MAX_RETRIES : Nombre de tentatives HTTP (defaut: 3)
