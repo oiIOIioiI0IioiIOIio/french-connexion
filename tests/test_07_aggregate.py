@@ -37,6 +37,8 @@ _safe_filename = agg07._safe_filename
 _build_source_list = agg07._build_source_list
 _build_bio_text = agg07._build_bio_text
 _http_get_json = agg07._http_get_json
+_parse_an_response = agg07._parse_an_response
+_parse_senat_response = agg07._parse_senat_response
 build_existing_index = agg07.build_existing_index
 create_person_profile = agg07.create_person_profile
 fetch_wikidata_category = agg07.fetch_wikidata_category
@@ -291,6 +293,18 @@ class TestAssembleeDeputes:
         ]
     }
 
+    # Format alternatif sans wrapper "depute"
+    MOCK_AN_RESPONSE_FLAT = [
+        {
+            "nom": "Marie Martin",
+            "slug": "marie-martin",
+            "date_naissance": "1975-05-20",
+            "lieu_naissance": "Toulouse",
+            "sexe": "F",
+            "groupe_sigle": "RE",
+        },
+    ]
+
     @patch("agg07._http_get_json")
     def test_parse_valid_response(self, mock_get):
         mock_get.return_value = self.MOCK_AN_RESPONSE
@@ -312,6 +326,29 @@ class TestAssembleeDeputes:
         mock_get.return_value = None
         results = fetch_assemblee_deputes()
         assert results == []
+
+    def test_parse_an_response_flat_list(self):
+        """Test le parsing d'une reponse au format liste directe."""
+        result = _parse_an_response(self.MOCK_AN_RESPONSE_FLAT)
+        assert len(result) == 1
+
+    def test_parse_an_response_none(self):
+        """Test que None retourne une liste vide."""
+        result = _parse_an_response(None)
+        assert result == []
+
+    def test_parse_an_response_empty_dict(self):
+        """Test qu'un dict vide retourne une liste vide."""
+        result = _parse_an_response({})
+        assert result == []
+
+    @patch("agg07._http_get_json")
+    def test_flat_response_format(self, mock_get):
+        """Test le parsing quand l'API retourne une liste directe."""
+        mock_get.return_value = self.MOCK_AN_RESPONSE_FLAT
+        results = fetch_assemblee_deputes()
+        assert len(results) == 1
+        assert results[0]["nom_complet"] == "Marie Martin"
 
 
 # ============================================================
@@ -337,6 +374,18 @@ class TestSenatSenateurs:
         ]
     }
 
+    # Format alternatif sans wrapper "senateur"
+    MOCK_SENAT_RESPONSE_FLAT = [
+        {
+            "nom": "Henri Laporte",
+            "slug": "henri-laporte",
+            "date_naissance": "1960-02-14",
+            "lieu_naissance": "Nice",
+            "sexe": "H",
+            "groupe_sigle": "LR",
+        },
+    ]
+
     @patch("agg07._http_get_json")
     def test_parse_valid_response(self, mock_get):
         mock_get.return_value = self.MOCK_SENAT_RESPONSE
@@ -352,30 +401,81 @@ class TestSenatSenateurs:
         results = fetch_senat_senateurs()
         assert results == []
 
+    def test_parse_senat_response_flat_list(self):
+        """Test le parsing d'une reponse au format liste directe."""
+        result = _parse_senat_response(self.MOCK_SENAT_RESPONSE_FLAT)
+        assert len(result) == 1
+
+    def test_parse_senat_response_none(self):
+        """Test que None retourne une liste vide."""
+        result = _parse_senat_response(None)
+        assert result == []
+
+    @patch("agg07._http_get_json")
+    def test_flat_response_format(self, mock_get):
+        """Test le parsing quand l'API retourne une liste directe."""
+        mock_get.return_value = self.MOCK_SENAT_RESPONSE_FLAT
+        results = fetch_senat_senateurs()
+        assert len(results) == 1
+        assert results[0]["nom_complet"] == "Henri Laporte"
+
 
 # ============================================================
 # Tests: HATVP
 # ============================================================
 
 class TestHATVP:
-    @patch("agg07._http_get_json")
-    def test_declaration_found(self, mock_get):
-        mock_get.return_value = [{"fonction": "Depute"}]
+    """Test l'enrichissement HATVP via index CSV."""
+
+    MOCK_CSV_DATA = [
+        {
+            "prenom": "Jean",
+            "nom": "Dupont",
+            "qualite": "Depute",
+            "type_mandat": "Depute",
+            "date_publication": "2024-06-15",
+        },
+        {
+            "prenom": "Jean",
+            "nom": "Dupont",
+            "qualite": "Depute",
+            "type_mandat": "Depute",
+            "date_publication": "2023-01-10",
+        },
+    ]
+
+    @patch("agg07._load_hatvp_index")
+    def test_declaration_found(self, mock_index):
+        mock_index.return_value = self.MOCK_CSV_DATA
         result = fetch_hatvp_for_person("Jean Dupont")
         assert result["hatvp_declared"] is True
         assert result["hatvp_function"] == "Depute"
+        assert "hatvp_url" in result
 
-    @patch("agg07._http_get_json")
-    def test_no_declaration(self, mock_get):
-        mock_get.return_value = []
-        result = fetch_hatvp_for_person("Inconnu")
+    @patch("agg07._load_hatvp_index")
+    def test_no_declaration(self, mock_index):
+        mock_index.return_value = self.MOCK_CSV_DATA
+        result = fetch_hatvp_for_person("Inconnu Personne")
         assert result == {}
 
-    @patch("agg07._http_get_json")
-    def test_network_error(self, mock_get):
-        mock_get.return_value = None
-        result = fetch_hatvp_for_person("Test")
+    @patch("agg07._load_hatvp_index")
+    def test_empty_index(self, mock_index):
+        mock_index.return_value = []
+        result = fetch_hatvp_for_person("Test Personne")
         assert result == {}
+
+    @patch("agg07._load_hatvp_index")
+    def test_short_name(self, mock_index):
+        mock_index.return_value = self.MOCK_CSV_DATA
+        result = fetch_hatvp_for_person("Jean")
+        assert result == {}
+
+    @patch("agg07._load_hatvp_index")
+    def test_picks_latest_declaration(self, mock_index):
+        """Test que la declaration la plus recente est selectionnee."""
+        mock_index.return_value = self.MOCK_CSV_DATA
+        result = fetch_hatvp_for_person("Jean Dupont")
+        assert result["hatvp_declared"] is True
 
 
 # ============================================================
@@ -408,7 +508,12 @@ class TestCreateProfile:
             post = frontmatter.load(path)
             assert post.metadata["type"] == "Personne"
             assert post.metadata["nom_complet"] == "Test-Unique-Person-XYZ"
-            assert post.metadata["date_naissance"] == "1980-01-01"
+            # Verifier les noms de champs compatibles avec le site web
+            assert post.metadata["birth_date"] == "1980-01-01"
+            assert post.metadata["birth_place"] == "Paris"
+            assert post.metadata["nationality"] == "francaise"
+            assert post.metadata["occupation"] == "homme politique"
+            assert "summary" in post.metadata
             assert "Test-Unique-Person-XYZ" in post.content
         finally:
             os.chdir(old_cwd)
