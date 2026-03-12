@@ -1,9 +1,13 @@
 import sys
 import os
 import re
+import json
 import unicodedata
 import frontmatter
 from pathlib import Path
+from urllib.request import urlopen, Request
+from urllib.error import URLError, HTTPError
+from urllib.parse import quote
 import spacy
 import yaml
 
@@ -14,38 +18,44 @@ from src.utils.git_handler import GitHandler
 logger = setup_logger()
 git = GitHandler()
 
-# Charger le modèle NER Français — essayer le modèle large d'abord, puis le moyen
+# Charger le modele NER Francais
 try:
     nlp = spacy.load("fr_core_news_lg")
 except OSError:
     try:
         nlp = spacy.load("fr_core_news_md")
-        logger.warning("Modèle fr_core_news_lg indisponible, utilisation de fr_core_news_md")
+        logger.warning("Modele fr_core_news_lg indisponible, utilisation de fr_core_news_md")
     except OSError:
-        logger.error("Aucun modèle Spacy français trouvé. Lancez: python -m spacy download fr_core_news_lg")
+        logger.error("Aucun modele Spacy francais trouve. Lancez: python -m spacy download fr_core_news_lg")
         sys.exit(1)
 
-# Charger la config pour les patterns à ignorer
+# Charger la config pour les patterns a ignorer
 with open("config/config.yaml", "r", encoding="utf-8") as f:
     CONFIG = yaml.safe_load(f)
 
 IGNORE_PATTERNS = set(CONFIG.get('linking', {}).get('ignore_patterns', []))
 
-# Longueur minimale pour qu'un nom d'entité soit considéré pour le linking
+# Longueur minimale pour qu'un nom d'entite soit considere pour le linking
 MIN_ENTITY_NAME_LENGTH = CONFIG.get('linking', {}).get('min_entity_name_length', 4)
 
-# Index de toutes les entités connues pour le linking
-# Format: { "nom_normalisé": {"path": "chemin/fichier.md", "display": "Nom Complet"} }
+# Index de toutes les entites connues pour le linking
+# Format: { "nom_normalise": {"path": "chemin/fichier.md", "display": "Nom Complet"} }
 ENTITY_INDEX = {}
 
-# Index inversé : chemin fichier -> liste de noms/alias
+# Index inverse : chemin fichier -> liste de noms/alias
 ALIAS_INDEX = {}
 
-# Backlinks : entité -> set des fichiers qui la référencent
+# Backlinks : entite -> set des fichiers qui la referencent
 BACKLINKS = {}
 
-# Nombre max de passes récursives
+# Nombre max de passes recursives
 MAX_LINK_PASSES = 3
+
+# Index des ecoles connues (education -> fichier ecole)
+ECOLE_INDEX = {}
+
+# Timeout HTTP pour les requetes API
+HTTP_TIMEOUT = 20
 
 # Regex pour identifier les zones protégées qui ne doivent pas recevoir de liens
 # (blocs de code, URLs, sections source, titres markdown)
@@ -303,11 +313,285 @@ def update_backlinks_in_frontmatter():
         except Exception as e:
             logger.warning(f"Erreur backlink pour {entity_name}: {e}")
 
-    logger.info(f"{updated} fiches mises à jour avec des backlinks")
+    logger.info(f"{updated} fiches mises a jour avec des backlinks")
+
+
+# ---------------------------------------------------------------------------
+# Enrichissement depuis les donnees publiques
+# ---------------------------------------------------------------------------
+
+def build_ecole_index():
+    """Construit un index des ecoles pour enrichir les liens via le champ education."""
+    ecoles_dir = Path("écoles")
+    if not ecoles_dir.exists():
+        return
+
+    for f in ecoles_dir.glob("*.md"):
+        try:
+            post = frontmatter.load(f)
+            name = post.get("nom_complet", f.stem.replace("-", " "))
+            rel_path = str(f.relative_to(Path(".")))
+            # Indexer le nom complet et ses variantes
+            ECOLE_INDEX[name.lower()] = {"path": rel_path, "display": name}
+            # Indexer aussi sans accents
+            norm = normalize_name(name)
+            ECOLE_INDEX[norm] = {"path": rel_path, "display": name}
+            # Indexer les acronymes courants
+            words = name.split()
+            if len(words) > 2:
+                acronym = "".join(w[0] for w in words if w[0].isupper())
+                if len(acronym) >= 2:
+                    ECOLE_INDEX[acronym.lower()] = {"path": rel_path, "display": name}
+        except Exception:
+            continue
+
+    logger.info(f"Index ecoles construit : {len(ECOLE_INDEX)} entrees")
+
+
+def enrich_education_links():
+    """
+    Parcourt les fiches personnes et cree des liens [[...]] vers les ecoles
+    en se basant sur le champ education du frontmatter.
+    Source : donnees internes du depot (champ education des fiches).
+    """
+    if not ECOLE_INDEX:
+        return 0
+
+    logger.info("Enrichissement des liens education -> ecoles...")
+    personnes_dir = Path("personnes")
+    if not personnes_dir.exists():
+        return 0
+
+    enriched = 0
+    for f in personnes_dir.glob("*.md"):
+        try:
+            post = frontmatter.load(f)
+            education = post.get("education", "")
+            if not education:
+                continue
+
+            content = post.content or ""
+            modified = False
+
+            # Chercher les ecoles mentionnees dans le champ education
+            edu_str = str(education)
+            for ecole_key, ecole_info in ECOLE_INDEX.items():
+                display = ecole_info["display"]
+                wiki_link = f"[[{display}]]"
+
+                # Verifier si l'ecole est mentionnee dans education
+                if ecole_key in edu_str.lower() or display.lower() in edu_str.lower():
+                    # Ajouter le lien dans le contenu si pas deja present
+                    if wiki_link not in content and display in content:
+                        # Remplacer la premiere mention dans le body
+                        idx = content.find(display)
+                        if idx >= 0 and not _is_inside_link(content, idx, idx + len(display)):
+                            content = content[:idx] + wiki_link + content[idx + len(display):]
+                            modified = True
+
+                    # Ajouter aux backlinks
+                    if display not in BACKLINKS:
+                        BACKLINKS[display] = set()
+                    BACKLINKS[display].add(str(f))
+
+            if modified:
+                post.content = content
+                with open(f, 'wb') as fh:
+                    frontmatter.dump(post, fh)
+                enriched += 1
+
+        except Exception as e:
+            logger.debug(f"Erreur education link {f.name}: {e}")
+
+    logger.info(f"  {enriched} fiches enrichies avec liens ecoles")
+    return enriched
+
+
+def enrich_metadata_links():
+    """
+    Cree des liens entre personnes basees sur les metadonnees partagees :
+    - Meme ecole (education)
+    - Meme tags/keywords
+    - Mentionnes dans les memes institutions
+
+    Source : donnees internes du depot.
+    """
+    logger.info("Enrichissement des liens via metadonnees partagees...")
+    personnes_dir = Path("personnes")
+    if not personnes_dir.exists():
+        return 0
+
+    # Construire un index inverse : institution -> liste de personnes
+    institution_members = {}
+
+    for f in personnes_dir.glob("*.md"):
+        try:
+            post = frontmatter.load(f)
+            name = post.get("nom_complet", f.stem.replace("-", " "))
+
+            # Indexer par education
+            education = str(post.get("education", "") or "")
+            if education:
+                for edu_item in re.split(r'[,;]', education):
+                    edu_item = edu_item.strip()
+                    if len(edu_item) > 3:
+                        key = edu_item.lower()
+                        if key not in institution_members:
+                            institution_members[key] = []
+                        institution_members[key].append(name)
+
+            # Indexer par tags lies a des institutions
+            tags = post.get("tags", []) or []
+            for tag in tags:
+                if tag not in ("elite", "a_valider") and len(str(tag)) > 3:
+                    key = str(tag).lower()
+                    if key not in institution_members:
+                        institution_members[key] = []
+                    institution_members[key].append(name)
+
+        except Exception:
+            continue
+
+    # Creer des liens pour les personnes qui partagent une institution
+    enriched = 0
+    for institution, members in institution_members.items():
+        if len(members) < 2 or len(members) > 50:
+            continue  # Ignorer les groupes trop grands ou trop petits
+
+        for member_name in members:
+            norm = normalize_name(member_name)
+            if norm in ENTITY_INDEX:
+                if member_name not in BACKLINKS:
+                    BACKLINKS[member_name] = set()
+                for other_name in members:
+                    if other_name != member_name:
+                        other_norm = normalize_name(other_name)
+                        if other_norm in ENTITY_INDEX:
+                            BACKLINKS[member_name].add(
+                                ENTITY_INDEX[other_norm]["path"]
+                            )
+                            enriched += 1
+
+    logger.info(f"  {enriched} liens de proximite trouves via metadonnees partagees")
+    return enriched
+
+
+def fetch_rne_party_affiliations():
+    """
+    Recupere les affiliations partisanes depuis le Repertoire National des Elus (RNE)
+    via l'API data.gouv.fr. Source officielle et publique.
+
+    Ne recupere que les donnees factuelles : nom, prenom, nuance politique.
+    Aucune donnee sensible ou opinion.
+    """
+    logger.info("Recuperation des affiliations partisanes depuis le RNE (data.gouv.fr)...")
+
+    # API tabulaire du RNE sur data.gouv.fr
+    # Dataset des elus locaux avec leurs nuances politiques
+    base_url = "https://tabular-api.data.gouv.fr/api/resources/d5f400de-ae3f-4966-8cb6-a85c70c6c24a/data/"
+    params = "?page_size=100&page=1"
+
+    affiliations = {}
+    page = 1
+    total_fetched = 0
+    max_pages = 50  # Limiter pour ne pas surcharger l'API
+
+    while page <= max_pages:
+        url = f"{base_url}?page_size=100&page={page}"
+        try:
+            headers = {
+                "User-Agent": "FrenchConnexion/1.0 (research; open-data)",
+                "Accept": "application/json",
+            }
+            req = Request(url, headers=headers)
+            with urlopen(req, timeout=HTTP_TIMEOUT) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+        except (URLError, HTTPError, json.JSONDecodeError) as e:
+            logger.warning(f"[WARN] Erreur RNE page {page}: {e}")
+            break
+
+        results = data.get("data", [])
+        if not results:
+            break
+
+        for row in results:
+            nom = row.get("Nom de l'élu", row.get("nom", "")).strip()
+            prenom = row.get("Prénom de l'élu", row.get("prenom", "")).strip()
+            nuance = row.get("Libellé de la nuance politique",
+                           row.get("nuance_politique", "")).strip()
+
+            if nom and prenom and nuance:
+                full_name = f"{prenom} {nom}"
+                affiliations[full_name.lower()] = nuance
+                total_fetched += 1
+
+        # Pagination
+        next_page = data.get("next")
+        if not next_page:
+            break
+        page += 1
+
+    logger.info(f"  {total_fetched} affiliations partisanes recuperees")
+    return affiliations
+
+
+def apply_party_affiliations(affiliations):
+    """
+    Enrichit les fiches personnes avec l'affiliation partisane depuis le RNE.
+    Ajoute le tag du parti et cree un lien [[parti]] dans le contenu.
+    """
+    if not affiliations:
+        return 0
+
+    logger.info("Application des affiliations partisanes...")
+    personnes_dir = Path("personnes")
+    if not personnes_dir.exists():
+        return 0
+
+    enriched = 0
+    for f in personnes_dir.glob("*.md"):
+        try:
+            post = frontmatter.load(f)
+            name = post.get("nom_complet", f.stem.replace("-", " "))
+            name_lower = name.lower()
+
+            if name_lower not in affiliations:
+                continue
+
+            nuance = affiliations[name_lower]
+            keywords = post.get("keywords", []) or []
+            tags = post.get("tags", []) or []
+            content = post.content or ""
+
+            modified = False
+
+            # Ajouter la nuance politique aux keywords si pas deja present
+            if nuance not in keywords:
+                keywords.append(nuance)
+                post["keywords"] = keywords
+                modified = True
+
+            # Ajouter le tag source-rne
+            if "source-rne" not in tags:
+                tags.append("source-rne")
+                post["tags"] = tags
+                modified = True
+
+            if modified:
+                with open(f, 'wb') as fh:
+                    frontmatter.dump(post, fh)
+                enriched += 1
+
+        except Exception as e:
+            logger.debug(f"Erreur affiliation {f.name}: {e}")
+
+    logger.info(f"  {enriched} fiches enrichies avec affiliations partisanes")
+    return enriched
 
 
 def main():
     build_entity_index()
+    build_ecole_index()
 
     exclude_dirs = {".git", "scripts", "config", "admin", "rapports"}
     md_files = list(Path(".").rglob("*.md"))
@@ -317,7 +601,7 @@ def main():
 
     total_files_modified = 0
 
-    # Passes récursives : chaque passe peut révéler de nouveaux liens
+    # Passes recursives : chaque passe peut reveler de nouveaux liens
     for pass_num in range(1, MAX_LINK_PASSES + 1):
         logger.info(f"Passe de linking {pass_num}/{MAX_LINK_PASSES}...")
         total_modified = 0
@@ -325,23 +609,36 @@ def main():
             if link_document(f):
                 total_modified += 1
         total_files_modified += total_modified
-        logger.info(f"   -> {total_modified} fichiers modifiés lors de la passe {pass_num}")
+        logger.info(f"   -> {total_modified} fichiers modifies lors de la passe {pass_num}")
         if total_modified == 0:
-            logger.info(f"Convergence atteinte à la passe {pass_num}, aucun nouveau lien")
+            logger.info(f"Convergence atteinte a la passe {pass_num}, aucun nouveau lien")
             break
 
-    # Mise à jour des backlinks dans le frontmatter
+    # Enrichissement education -> ecoles
+    enrich_education_links()
+
+    # Enrichissement via metadonnees partagees (meme ecole, memes tags)
+    enrich_metadata_links()
+
+    # Enrichissement affiliations partisanes depuis le RNE (source officielle)
+    try:
+        affiliations = fetch_rne_party_affiliations()
+        apply_party_affiliations(affiliations)
+    except Exception as e:
+        logger.warning(f"[WARN] Enrichissement RNE echoue (non bloquant): {e}")
+
+    # Mise a jour des backlinks dans le frontmatter
     update_backlinks_in_frontmatter()
 
-    logger.info(f"Résumé : {total_files_modified} fichiers modifiés au total, "
-                f"{len(BACKLINKS)} entités avec des backlinks")
+    logger.info(f"Resume : {total_files_modified} fichiers modifies au total, "
+                f"{len(BACKLINKS)} entites avec des backlinks")
 
-    # Ne commiter que si le script n'est pas exécuté par GitHub Actions
-    # (le workflow gère le commit/push lui-même)
+    # Ne commiter que si le script n'est pas execute par GitHub Actions
+    # (le workflow gere le commit/push lui-meme)
     if not os.environ.get("GITHUB_ACTIONS"):
-        git.commit_changes("feat: génération automatique des liens et backlinks (multi-passes)")
+        git.commit_changes("feat: generation automatique des liens et backlinks (multi-passes)")
     else:
-        logger.info("Exécution CI détectée -- le commit sera géré par le workflow")
+        logger.info("Execution CI detectee -- le commit sera gere par le workflow")
 
 if __name__ == "__main__":
     main()
