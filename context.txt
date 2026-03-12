@@ -1,0 +1,87 @@
+CONTEXT.TXT - Etat des lieux du depot french-connexion
+======================================================
+Derniere mise a jour : 2026-03-12
+
+OBJECTIF
+--------
+Base de donnees des elites francaises : personnalites, institutions,
+medias, entreprises, ecoles, think tanks. Site web Vue.js 3 (index.html)
+qui lit les fichiers Markdown+YAML directement via l'API GitHub.
+
+STRUCTURE DU DEPOT
+------------------
+  index.html           Site web SPA (Vue.js 3 + Tailwind + Marked.js)
+  context.txt          Ce fichier
+  README.md            Documentation
+  requirements.txt     Dependances Python
+  .gitignore           __pycache__/, *.pyc, logs/, .env, .cache/, .pytest_cache/
+  config/config.yaml   Types d'entites, config LLM, seuils de linking
+
+  personnes/           ~530 fiches Markdown (YAML frontmatter)
+  institutions/        ~25 fiches (clubs, ordres, organisations)
+  medias/              ~37 fiches
+  companies/           ~5 fiches
+  ecoles/              ~35 fiches
+  think tanks/         ~26 fiches
+
+  scripts/
+    01_classify_and_structure.py   Classification IA (Mistral, optionnel)
+    02_link_entities.py            Generation de liens [[wiki]] (spaCy)
+    03_enrich_wikipedia.py         Enrichissement Wikipedia (Mistral, optionnel)
+    05_repo_optimizer.py           Standardisation des metadonnees
+    06_add_people_from_wikipedia.py Decouverte de personnes via Wikipedia
+    07_aggregate_public_sources.py  Aggregation multi-source (Wikidata, AN, Senat, HATVP, RNE)
+
+  src/utils/
+    llm_client.py      Client Mistral AI (optionnel, mode offline si pas de cle)
+    logger.py           Logger avec dual handler (console + fichier)
+    git_handler.py      Wrapper Git (commit, tag)
+
+  src/templates/
+    personne.yaml       Template fiche personne
+    organisation.yaml   Template fiche organisation
+
+  tests/
+    test_07_aggregate.py  Tests unitaires pour script 07 (pytest, mocks reseau)
+
+  .github/workflows/
+    01_restructure.yml      Classification auto (manual)
+    02_enrich_wiki.yml      Enrichissement Wikipedia (manual)
+    04_linker.yml           Generation de liens (manual)
+    06_add_people_wikipedia.yml  Decouverte personnes (manual, input: query)
+    07_aggregate_public.yml      Aggregation sources (manual + cron mensuel 1er a 6h)
+
+CONVENTIONS DE CODE
+-------------------
+- Commentaires en francais NON ACCENTUE (ex: "Recupere" pas "Récupère")
+- Pas d'emoji dans le code/logs/commentaires : utiliser [OK] [FAIL] [WARN]
+- frontmatter.dump() ecrit en bytes : ouvrir les fichiers en mode 'wb'
+- Champs des fiches en anglais pour le site web : birth_date, birth_place,
+  nationality, education, occupation, summary, keywords
+- Modele LLM : open-mistral-nemo (pas mistral-large, cause rate-limit)
+
+SOURCES DE DONNEES (script 07)
+------------------------------
+1. Wikidata SPARQL      https://query.wikidata.org/sparql
+2. Assemblee Nationale   https://www.nosdeputes.fr/deputes/enmandat/json
+3. Senat                 https://www.nossenateurs.fr/senateurs/enmandat/json
+4. HATVP                 https://www.hatvp.fr/livraison/opendata/liste.csv
+5. RNE (API tabulaire)   https://tabular-api.data.gouv.fr/api
+   Dataset RNE : https://www.data.gouv.fr/datasets/repertoire-national-des-elus-1/
+   Doc API : https://tabular-api.data.gouv.fr/api/doc
+
+COMMANDES UTILES
+----------------
+  pip install -r requirements.txt
+  python -m pytest tests/ -v                              # Tests unitaires
+  python scripts/07_aggregate_public_sources.py --test     # Auto-tests internes
+  python scripts/07_aggregate_public_sources.py --source rne  # Source unique
+  DRY_RUN=1 python scripts/07_aggregate_public_sources.py  # Mode test
+  python -m py_compile scripts/07_aggregate_public_sources.py  # Validation syntaxe
+
+DEPENDANCES CLES
+----------------
+  mistralai>=1.0.0       SDK Mistral AI (optionnel)
+  python-frontmatter     Parsing Markdown + YAML
+  spacy>=3.7.0           NER (+ modele fr_core_news_lg a telecharger)
+  PyYAML, python-dotenv, colorlog, wikipedia, pytest
