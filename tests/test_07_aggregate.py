@@ -45,6 +45,12 @@ fetch_wikidata_category = agg07.fetch_wikidata_category
 fetch_assemblee_deputes = agg07.fetch_assemblee_deputes
 fetch_senat_senateurs = agg07.fetch_senat_senateurs
 fetch_hatvp_for_person = agg07.fetch_hatvp_for_person
+_parse_rne_person = agg07._parse_rne_person
+_get_rne_field = agg07._get_rne_field
+_discover_rne_resources = agg07._discover_rne_resources
+_fetch_tabular_page = agg07._fetch_tabular_page
+fetch_rne_deputes = agg07.fetch_rne_deputes
+fetch_rne_senateurs = agg07.fetch_rne_senateurs
 
 
 # ============================================================
@@ -544,3 +550,261 @@ class TestCreateProfile:
         }
         result = create_person_profile(person, empty_index)
         assert result is None
+
+
+# ============================================================
+# Tests: RNE / API tabulaire data.gouv.fr
+# ============================================================
+
+class TestGetRneField:
+    """Test l'extraction de champs RNE avec noms de colonnes variables."""
+
+    def test_first_key_match(self):
+        row = {"Nom de l'élu": "DUPONT", "nom": "ignored"}
+        assert _get_rne_field(row, "Nom de l'élu", "nom") == "DUPONT"
+
+    def test_fallback_key(self):
+        row = {"nom_elu": "MARTIN"}
+        assert _get_rne_field(row, "Nom de l'élu", "nom_elu") == "MARTIN"
+
+    def test_no_match(self):
+        row = {"other": "value"}
+        assert _get_rne_field(row, "Nom de l'élu", "nom_elu") == ""
+
+    def test_empty_value_skipped(self):
+        row = {"Nom de l'élu": "", "nom": "DUVAL"}
+        assert _get_rne_field(row, "Nom de l'élu", "nom") == "DUVAL"
+
+    def test_whitespace_stripped(self):
+        row = {"nom": "  BLANC  "}
+        assert _get_rne_field(row, "nom") == "BLANC"
+
+
+class TestParseRnePerson:
+    """Test le parsing d'une ligne RNE en dict personne."""
+
+    def test_valid_row(self):
+        row = {
+            "Nom de l'élu": "DUPONT",
+            "Prénom de l'élu": "Jean",
+            "Date de naissance": "1970-05-15",
+            "Code sexe": "M",
+            "Libellé de la profession": "Avocat",
+            "Libellé du département": "Paris",
+            "Date de début du mandat": "2022-06-19",
+        }
+        p = _parse_rne_person(row, "depute")
+        assert p is not None
+        assert p["nom_complet"] == "Jean DUPONT"
+        assert p["source"] == "rne_datagouv"
+        assert p["source_category"] == "depute"
+        assert p["date_naissance"] == "1970-05-15"
+        assert p["genre"] == "masculin"
+        assert p["profession_origine"] == "Avocat"
+        assert p["departement"] == "Paris"
+        assert p["date_debut_mandat"] == "2022-06-19"
+        assert "url_datagouv" in p
+
+    def test_female(self):
+        row = {
+            "Nom de l'élu": "MARTIN",
+            "Prénom de l'élu": "Marie",
+            "Code sexe": "F",
+        }
+        p = _parse_rne_person(row, "senateur")
+        assert p is not None
+        assert p["genre"] == "feminin"
+
+    def test_missing_name(self):
+        row = {"Nom de l'élu": "", "Prénom de l'élu": "Jean"}
+        assert _parse_rne_person(row, "depute") is None
+
+    def test_missing_prenom(self):
+        row = {"Nom de l'élu": "DUPONT", "Prénom de l'élu": ""}
+        assert _parse_rne_person(row, "depute") is None
+
+    def test_empty_row(self):
+        assert _parse_rne_person({}, "depute") is None
+
+    def test_alternative_column_names(self):
+        """Test avec des noms de colonnes alternatifs."""
+        row = {
+            "nom": "BLANC",
+            "prenom": "Pierre",
+            "date_naissance": "1980-01-01",
+            "sexe": "H",
+        }
+        p = _parse_rne_person(row, "depute")
+        assert p is not None
+        assert p["nom_complet"] == "Pierre BLANC"
+        assert p["genre"] == "masculin"
+
+    def test_date_with_timestamp(self):
+        """Test que les dates avec timestamp sont nettoyees."""
+        row = {
+            "Nom de l'élu": "DUVAL",
+            "Prénom de l'élu": "Luc",
+            "Date de naissance": "1975-03-10T00:00:00Z",
+        }
+        p = _parse_rne_person(row, "depute")
+        assert p["date_naissance"] == "1975-03-10"
+
+
+class TestDiscoverRneResources:
+    """Test la decouverte des resource IDs RNE."""
+
+    MOCK_DATASET_RESPONSE = {
+        "resources": [
+            {
+                "id": "aaaa-1111-bbbb-deputes",
+                "title": "RNE - Les députés",
+                "format": "csv",
+            },
+            {
+                "id": "aaaa-2222-bbbb-senateurs",
+                "title": "RNE - Les sénateurs",
+                "format": "csv",
+            },
+            {
+                "id": "aaaa-3333-bbbb-maires",
+                "title": "RNE - Les maires",
+                "format": "csv",
+            },
+            {
+                "id": "aaaa-4444-bbbb-schema",
+                "title": "Schema de validation",
+                "format": "json",
+            },
+        ]
+    }
+
+    @patch("agg07._http_get_json")
+    def test_discover_resources(self, mock_get):
+        agg07._rne_resource_cache = None
+        mock_get.return_value = self.MOCK_DATASET_RESPONSE
+        result = _discover_rne_resources()
+        assert "deputes" in result
+        assert result["deputes"] == "aaaa-1111-bbbb-deputes"
+        assert "senateurs" in result
+        assert result["senateurs"] == "aaaa-2222-bbbb-senateurs"
+        assert "maires" in result
+        agg07._rne_resource_cache = None
+
+    @patch("agg07._http_get_json")
+    def test_discover_network_error(self, mock_get):
+        agg07._rne_resource_cache = None
+        mock_get.return_value = None
+        result = _discover_rne_resources()
+        assert result == {}
+        agg07._rne_resource_cache = None
+
+    @patch("agg07._http_get_json")
+    def test_discover_empty_resources(self, mock_get):
+        agg07._rne_resource_cache = None
+        mock_get.return_value = {"resources": []}
+        result = _discover_rne_resources()
+        assert result == {}
+        agg07._rne_resource_cache = None
+
+    @patch("agg07._http_get_json")
+    def test_skips_non_csv(self, mock_get):
+        """Test que les ressources non-CSV sont ignorees."""
+        agg07._rne_resource_cache = None
+        mock_get.return_value = {
+            "resources": [
+                {"id": "abc", "title": "deputes schema", "format": "json"},
+            ]
+        }
+        result = _discover_rne_resources()
+        assert "deputes" not in result
+        agg07._rne_resource_cache = None
+
+
+class TestFetchTabularPage:
+    """Test la recuperation de donnees via l'API tabulaire."""
+
+    @patch("agg07._http_get_json")
+    def test_fetch_page(self, mock_get):
+        mock_get.return_value = {
+            "data": [{"col": "val"}],
+            "meta": {"page": 1, "page_size": 50, "total": 1},
+        }
+        result = _fetch_tabular_page("some-rid", page=1, page_size=50)
+        assert result is not None
+        assert len(result["data"]) == 1
+
+    @patch("agg07._http_get_json")
+    def test_fetch_page_network_error(self, mock_get):
+        mock_get.return_value = None
+        result = _fetch_tabular_page("some-rid")
+        assert result is None
+
+
+class TestFetchRneDeputes:
+    """Test la recuperation des deputes via le RNE."""
+
+    MOCK_TABULAR_RESPONSE = {
+        "data": [
+            {
+                "Nom de l'élu": "DUPONT",
+                "Prénom de l'élu": "Jean",
+                "Date de naissance": "1970-05-15",
+                "Code sexe": "M",
+            },
+            {
+                "Nom de l'élu": "MARTIN",
+                "Prénom de l'élu": "Marie",
+                "Date de naissance": "1980-03-10",
+                "Code sexe": "F",
+            },
+        ],
+        "meta": {"page": 1, "page_size": 50, "total": 2},
+    }
+
+    @patch("agg07._fetch_tabular_page")
+    @patch("agg07._discover_rne_resources")
+    def test_fetch_rne_deputes(self, mock_discover, mock_fetch):
+        mock_discover.return_value = {"deputes": "fake-rid"}
+        mock_fetch.return_value = self.MOCK_TABULAR_RESPONSE
+        results = fetch_rne_deputes()
+        assert len(results) == 2
+        assert results[0]["nom_complet"] == "Jean DUPONT"
+        assert results[0]["source"] == "rne_datagouv"
+        assert results[1]["nom_complet"] == "Marie MARTIN"
+
+    @patch("agg07._discover_rne_resources")
+    def test_no_resource_id(self, mock_discover):
+        mock_discover.return_value = {}
+        results = fetch_rne_deputes()
+        assert results == []
+
+    @patch("agg07._fetch_tabular_page")
+    @patch("agg07._discover_rne_resources")
+    def test_empty_data(self, mock_discover, mock_fetch):
+        mock_discover.return_value = {"deputes": "fake-rid"}
+        mock_fetch.return_value = {"data": [], "meta": {"total": 0}}
+        results = fetch_rne_deputes()
+        assert results == []
+
+
+class TestBuildSourceListWithDatagouv:
+    """Test que _build_source_list inclut les liens data.gouv.fr."""
+
+    def test_datagouv_url_included(self):
+        data = {
+            "url_datagouv": "https://www.data.gouv.fr/datasets/rne/",
+        }
+        sources = _build_source_list(data)
+        assert len(sources) == 1
+        assert "data.gouv.fr" in sources[0]
+
+    def test_all_sources_including_datagouv(self):
+        data = {
+            "wikidata_url": "https://www.wikidata.org/wiki/Q123",
+            "url_nosdeputes": "https://www.nosdeputes.fr/jean",
+            "url_nossenateurs": "https://www.nossenateurs.fr/jean",
+            "hatvp_url": "https://www.hatvp.fr/?nom=Jean",
+            "url_datagouv": "https://www.data.gouv.fr/datasets/rne/",
+        }
+        sources = _build_source_list(data)
+        assert len(sources) == 5

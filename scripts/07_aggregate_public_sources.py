@@ -13,6 +13,10 @@ SOURCES PUBLIQUES UTILISEES:
 3. Senat open data - senateurs (licence ouverte)
 4. HATVP CSV index - declarations d'interets (transparence publique)
    Inspire de https://github.com/oiIOIioiI0IioiIOIio/transparence-nationale
+5. Repertoire National des Elus (RNE) via API tabulaire data.gouv.fr
+   https://tabular-api.data.gouv.fr/api
+   Documentation : https://tabular-api.data.gouv.fr/api/doc
+   Donnees officielles du Ministere de l'Interieur (licence ouverte)
 
 VARIABLES D'ENVIRONNEMENT:
 - GITHUB_ACTIONS : Detecte automatiquement (ajuste les limites)
@@ -27,6 +31,7 @@ UTILISATION:
   python scripts/07_aggregate_public_sources.py --source wikidata
   python scripts/07_aggregate_public_sources.py --source assemblee
   python scripts/07_aggregate_public_sources.py --source senat
+  python scripts/07_aggregate_public_sources.py --source rne
   DRY_RUN=1 python scripts/07_aggregate_public_sources.py
 """
 
@@ -692,6 +697,291 @@ def fetch_hatvp_for_person(name: str) -> dict:
 
 
 # ============================================================
+# Source 5: Repertoire National des Elus (API tabulaire data.gouv.fr)
+# ============================================================
+
+# L'API tabulaire de data.gouv.fr fournit un acces REST aux jeux
+# de donnees tabulaires (CSV) heberges sur la plateforme open data.
+# Base URL : https://tabular-api.data.gouv.fr/api
+# Doc : https://tabular-api.data.gouv.fr/api/doc
+#
+# Le Repertoire National des Elus (RNE) est le jeu de donnees
+# officiel du Ministere de l'Interieur contenant les informations
+# sur tous les elus francais (deputes, senateurs, maires, etc).
+# Dataset : https://www.data.gouv.fr/datasets/repertoire-national-des-elus-1/
+
+TABULAR_API_BASE = "https://tabular-api.data.gouv.fr/api"
+DATAGOUV_API_BASE = "https://www.data.gouv.fr/api/1"
+RNE_DATASET_ID = "repertoire-national-des-elus-1"
+RNE_DATASET_URL = f"https://www.data.gouv.fr/datasets/{RNE_DATASET_ID}/"
+
+# Cache des resource IDs RNE (decouverts a l'execution)
+_rne_resource_cache: Optional[dict] = None
+
+
+def _discover_rne_resources() -> dict:
+    """Decouvre les resource IDs du RNE via l'API datasets de data.gouv.fr.
+
+    Interroge l'API pour obtenir la liste des ressources (fichiers CSV)
+    du jeu de donnees RNE, puis associe chaque type d'elu a son resource ID.
+
+    Retourne un dict {type_elu: resource_id} ou un dict vide en cas d'erreur.
+    """
+    global _rne_resource_cache
+    if _rne_resource_cache is not None:
+        return _rne_resource_cache
+
+    url = f"{DATAGOUV_API_BASE}/datasets/{RNE_DATASET_ID}/"
+    data = _http_get_json(url, timeout=20, retries=1)
+    if data is None:
+        logger.warning("[WARN] RNE: impossible de decouvrir les ressources")
+        _rne_resource_cache = {}
+        return _rne_resource_cache
+
+    resources = data.get("resources", [])
+    mapping = {}
+
+    # Correspondance titre -> type d'elu
+    keywords_map = {
+        "deputes": ["depute", "deputes", "deputee", "deputees",
+                    "député", "députés", "députée", "députées"],
+        "senateurs": ["senateur", "senateurs", "senatrice", "senatrices",
+                      "sénateur", "sénateurs", "sénatrice", "sénatrices"],
+        "maires": ["maire", "maires"],
+        "conseillers_regionaux": ["conseiller", "region", "regionaux",
+                                  "régionaux"],
+        "conseillers_departementaux": ["departement", "departementaux",
+                                      "département", "départementaux"],
+        "eurodeputes": ["eurodepute", "europeen", "eurodéputé", "européen"],
+    }
+
+    for r in resources:
+        title = (r.get("title", "") or "").lower()
+        rid = r.get("id", "")
+        fmt = (r.get("format", "") or "").lower()
+        if not rid or fmt not in ("csv", "csv.gz", ""):
+            continue
+        for elu_type, kws in keywords_map.items():
+            if elu_type not in mapping and any(k in title for k in kws):
+                mapping[elu_type] = rid
+                break
+
+    if mapping:
+        logger.info(
+            f"[OK] RNE: {len(mapping)} ressources decouvertes "
+            f"({', '.join(mapping.keys())})"
+        )
+    else:
+        logger.warning("[WARN] RNE: aucune ressource trouvee dans le dataset")
+
+    _rne_resource_cache = mapping
+    return _rne_resource_cache
+
+
+def _fetch_tabular_page(resource_id: str, page: int = 1,
+                        page_size: int = 50,
+                        filters: Optional[dict] = None) -> Optional[dict]:
+    """Recupere une page de donnees via l'API tabulaire de data.gouv.fr.
+
+    L'API tabulaire fournit un acces pagine aux fichiers CSV heberges
+    sur data.gouv.fr. Le format de reponse est :
+    {
+      "data": [...],
+      "links": {"next": ..., "prev": ...},
+      "meta": {"page": ..., "page_size": ..., "total": ...}
+    }
+    """
+    url = f"{TABULAR_API_BASE}/resources/{resource_id}/data/"
+    params = {"page": str(page), "page_size": str(page_size)}
+    if filters:
+        params.update(filters)
+    query = urlencode(params)
+    full_url = f"{url}?{query}"
+    return _http_get_json(full_url, timeout=30, retries=1)
+
+
+def _fetch_all_tabular_rows(resource_id: str,
+                            max_rows: int = 500) -> List[dict]:
+    """Recupere toutes les lignes d'une ressource via l'API tabulaire.
+
+    Gere la pagination automatiquement. S'arrete apres max_rows lignes
+    ou quand il n'y a plus de pages.
+    """
+    all_rows = []
+    page = 1
+    page_size = min(50, max_rows)
+
+    while len(all_rows) < max_rows:
+        data = _fetch_tabular_page(resource_id, page=page,
+                                   page_size=page_size)
+        if data is None:
+            break
+
+        rows = data.get("data", [])
+        if not rows:
+            break
+
+        all_rows.extend(rows)
+
+        meta = data.get("meta", {})
+        total = meta.get("total", 0)
+        if len(all_rows) >= total or len(all_rows) >= max_rows:
+            break
+
+        page += 1
+        time.sleep(INTER_REQUEST_DELAY)
+
+    return all_rows[:max_rows]
+
+
+def _get_rne_field(row: dict, *possible_keys: str) -> str:
+    """Extrait un champ d'une ligne RNE en essayant plusieurs noms de colonne.
+
+    Les colonnes CSV du RNE peuvent varier selon la version du fichier.
+    Cette fonction essaye plusieurs noms possibles et retourne la premiere
+    valeur non-vide trouvee.
+    """
+    for key in possible_keys:
+        val = row.get(key, "")
+        if val and str(val).strip():
+            return str(val).strip()
+    return ""
+
+
+def _parse_rne_person(row: dict, mandat_type: str) -> Optional[dict]:
+    """Parse une ligne du RNE (API tabulaire) en dict personne.
+
+    Les colonnes attendues du RNE incluent :
+    - Nom de l'elu / nom
+    - Prenom de l'elu / prenom
+    - Sexe
+    - Date de naissance
+    - Libelle de la profession / profession
+    - Code du departement / departement
+    - Libelle du departement
+    - Date de debut du mandat
+    """
+    nom = _get_rne_field(row, "Nom de l'élu", "Nom de l'elu",
+                         "nom_elu", "nom", "Nom")
+    prenom = _get_rne_field(row, "Prénom de l'élu", "Prenom de l'elu",
+                            "prenom_elu", "prenom", "Prénom", "Prenom")
+    if not nom or not prenom:
+        return None
+
+    nom_complet = f"{prenom} {nom}"
+
+    person = {
+        "nom_complet": nom_complet,
+        "source": "rne_datagouv",
+        "source_category": mandat_type,
+        "occupation": mandat_type,
+    }
+
+    # Date de naissance
+    birth = _get_rne_field(row, "Date de naissance", "date_naissance",
+                           "Date de naissance de l'élu",
+                           "Date de naissance de l'elu")
+    if birth:
+        person["date_naissance"] = birth.split("T")[0]
+
+    # Sexe / genre
+    sexe = _get_rne_field(row, "Code sexe", "Sexe", "sexe")
+    if sexe:
+        person["genre"] = "masculin" if sexe.upper() in ("M", "H") else "feminin"
+
+    # Profession
+    profession = _get_rne_field(row, "Libellé de la profession",
+                                "Libelle de la profession",
+                                "libelle_profession", "profession")
+    if profession:
+        person["profession_origine"] = profession
+
+    # Departement
+    dept_nom = _get_rne_field(row, "Libellé du département",
+                              "Libelle du departement",
+                              "libelle_departement")
+    dept_code = _get_rne_field(row, "Code du département",
+                               "Code du departement",
+                               "code_departement")
+    if dept_nom:
+        person["departement"] = dept_nom
+    elif dept_code:
+        person["departement"] = dept_code
+
+    # Date de debut du mandat
+    debut = _get_rne_field(row, "Date de début du mandat",
+                           "Date de debut du mandat",
+                           "date_debut_mandat")
+    if debut:
+        person["date_debut_mandat"] = debut.split("T")[0]
+
+    # Lien vers la page data.gouv.fr du dataset RNE
+    person["url_datagouv"] = RNE_DATASET_URL
+
+    return person
+
+
+def fetch_rne_deputes() -> List[dict]:
+    """Recupere les deputes depuis le RNE via l'API tabulaire data.gouv.fr.
+
+    Utilise la decouverte dynamique des resource IDs via l'API datasets,
+    puis interroge l'API tabulaire pour obtenir les donnees paginee.
+    """
+    resources = _discover_rne_resources()
+    rid = resources.get("deputes", "")
+    if not rid:
+        logger.warning("[WARN] RNE: resource ID deputes non trouve")
+        return []
+
+    logger.info(f"RNE deputes: interrogation API tabulaire (rid={rid[:8]}...)")
+    rows = _fetch_all_tabular_rows(rid, max_rows=MAX_RESULTS)
+
+    if not rows:
+        logger.warning("[WARN] RNE deputes: aucune donnee")
+        return []
+
+    persons = []
+    for row in rows:
+        p = _parse_rne_person(row, "depute")
+        if p:
+            persons.append(p)
+
+    logger.info(f"[OK] RNE deputes (API tabulaire): {len(persons)} deputes")
+    STATS['rne_results'] += len(persons)
+    return persons
+
+
+def fetch_rne_senateurs() -> List[dict]:
+    """Recupere les senateurs depuis le RNE via l'API tabulaire data.gouv.fr.
+
+    Utilise la decouverte dynamique des resource IDs via l'API datasets,
+    puis interroge l'API tabulaire pour obtenir les donnees paginee.
+    """
+    resources = _discover_rne_resources()
+    rid = resources.get("senateurs", "")
+    if not rid:
+        logger.warning("[WARN] RNE: resource ID senateurs non trouve")
+        return []
+
+    logger.info(f"RNE senateurs: interrogation API tabulaire (rid={rid[:8]}...)")
+    rows = _fetch_all_tabular_rows(rid, max_rows=MAX_RESULTS)
+
+    if not rows:
+        logger.warning("[WARN] RNE senateurs: aucune donnee")
+        return []
+
+    persons = []
+    for row in rows:
+        p = _parse_rne_person(row, "senateur")
+        if p:
+            persons.append(p)
+
+    logger.info(f"[OK] RNE senateurs (API tabulaire): {len(persons)} senateurs")
+    STATS['rne_results'] += len(persons)
+    return persons
+
+
+# ============================================================
 # Profile creation
 # ============================================================
 
@@ -721,6 +1011,10 @@ def _build_source_list(person_data: dict) -> List[str]:
     hatvp_url = person_data.get("hatvp_url", "")
     if hatvp_url:
         sources.append(hatvp_url)
+
+    datagouv_url = person_data.get("url_datagouv", "")
+    if datagouv_url:
+        sources.append(datagouv_url)
 
     return sources
 
@@ -1035,7 +1329,33 @@ def run_self_tests() -> bool:
         print(f"  [FAIL] SPARQL: {e}")
         all_passed = False
 
-    # Test 10: Network connectivity (informational)
+    # Test 10: RNE person parsing
+    print("\n[TEST] Parsing donnees RNE...")
+    try:
+        rne_row = {
+            "Nom de l'élu": "DUPONT",
+            "Prénom de l'élu": "Jean",
+            "Date de naissance": "1970-05-15",
+            "Code sexe": "M",
+            "Libellé de la profession": "Avocat",
+            "Libellé du département": "Paris",
+        }
+        p = _parse_rne_person(rne_row, "depute")
+        assert p is not None, "Personne RNE ne devrait pas etre None"
+        assert p["nom_complet"] == "Jean DUPONT"
+        assert p["date_naissance"] == "1970-05-15"
+        assert p["genre"] == "masculin"
+        assert p["profession_origine"] == "Avocat"
+        assert p["source"] == "rne_datagouv"
+        # Test avec champs vides
+        empty_row = {"nom": "", "prenom": ""}
+        assert _parse_rne_person(empty_row, "depute") is None
+        print("  [OK] Parsing RNE fonctionne")
+    except AssertionError as e:
+        print(f"  [FAIL] RNE parsing: {e}")
+        all_passed = False
+
+    # Test 11: Network connectivity (informational)
     print("\n[TEST] Connectivite reseau (informatif)...")
     sources_status = []
     test_urls = [
@@ -1043,6 +1363,8 @@ def run_self_tests() -> bool:
         ("NosDonnees.fr (AN)", AN_API_ENMANDAT_URL),
         ("NosSenateurs.fr", SENAT_API_ENMANDAT_URL),
         ("HATVP (CSV index)", HATVP_INDEX_URL),
+        ("data.gouv.fr API (RNE)", f"{DATAGOUV_API_BASE}/datasets/{RNE_DATASET_ID}/"),
+        ("API tabulaire data.gouv.fr", f"{TABULAR_API_BASE}/"),
     ]
     for label, url in test_urls:
         raw = _http_get(url, timeout=10)
@@ -1110,6 +1432,27 @@ def aggregate_source(source_name: str, existing_index: Set[str]) -> List[str]:
             if path:
                 created_files.append(path)
 
+    if source_name in ("all", "rne"):
+        logger.info("--- Source : RNE (API tabulaire data.gouv.fr) ---")
+        # Deputes RNE
+        rne_deputes = fetch_rne_deputes()
+        for p in rne_deputes[:MAX_RESULTS]:
+            hatvp = fetch_hatvp_for_person(p["nom_complet"])
+            if hatvp:
+                p.update(hatvp)
+            path = create_person_profile(p, existing_index)
+            if path:
+                created_files.append(path)
+        # Senateurs RNE
+        rne_senateurs = fetch_rne_senateurs()
+        for p in rne_senateurs[:MAX_RESULTS]:
+            hatvp = fetch_hatvp_for_person(p["nom_complet"])
+            if hatvp:
+                p.update(hatvp)
+            path = create_person_profile(p, existing_index)
+            if path:
+                created_files.append(path)
+
     return created_files
 
 
@@ -1148,6 +1491,7 @@ def main(source: str = "all"):
     print(f"  Resultats Wikidata : {STATS['wikidata_results']}")
     print(f"  Resultats Assemblee : {STATS['assemblee_results']}")
     print(f"  Resultats Senat : {STATS['senat_results']}")
+    print(f"  Resultats RNE (API tabulaire) : {STATS['rne_results']}")
     print(f"  Erreurs HTTP : {STATS['http_errors']}")
     print(f"  Erreurs reseau : {STATS['network_errors']}")
     print(f"  Erreurs creation : {STATS['creation_errors']}")
@@ -1164,6 +1508,7 @@ def main(source: str = "all"):
             f"- Wikidata: {STATS['wikidata_results']} resultats\n"
             f"- Assemblee: {STATS['assemblee_results']} resultats\n"
             f"- Senat: {STATS['senat_results']} resultats\n"
+            f"- RNE (API tabulaire): {STATS['rne_results']} resultats\n"
             f"- Duree : {elapsed:.1f}s"
         )
         try:
@@ -1189,7 +1534,7 @@ if __name__ == "__main__":
         if idx + 1 < len(args):
             source_arg = args[idx + 1]
 
-    valid_sources = ("all", "wikidata", "assemblee", "senat")
+    valid_sources = ("all", "wikidata", "assemblee", "senat", "rne")
     if source_arg not in valid_sources:
         print(f"[FAIL] Source invalide : {source_arg}")
         print(f"  Sources valides : {', '.join(valid_sources)}")
