@@ -333,82 +333,155 @@ def fetch_all_wikidata(limit_per_category: int = 50) -> List[dict]:
 # Source 2: Assemblee Nationale (deputes)
 # ============================================================
 
-# L'Assemblee Nationale fournit des donnees ouvertes via
-# https://data.assemblee-nationale.fr
-# Format: JSON avec listes de deputes et mandats
-AN_BASE_URL = "https://data.assemblee-nationale.fr"
-# API NosDonnees.fr - donnees parlementaires ouvertes au format JSON
+# API officielle de l'Assemblee Nationale (v2) — source primaire
+# Documentation : https://api.assemblee-nationale.fr
+AN_API_ORGANES_ACTEURS = "https://api.assemblee-nationale.fr/api/v2/organes/acteurs"
+AN_API_ACTEURS = "https://api.assemblee-nationale.fr/api/v2/acteurs"
+# Fallback legacy (peut retourner 403 selon les conditions reseau)
 AN_API_URL = "https://www.nosdeputes.fr/deputes/json"
 AN_API_ENMANDAT_URL = "https://www.nosdeputes.fr/deputes/enmandat/json"
 
 
-def _parse_an_response(data) -> List[dict]:
-    """Parse la reponse de l'API Assemblee Nationale quel que soit le format.
+def _parse_an_v2_acteurs(data) -> List[dict]:
+    """Parse la reponse de l'API officielle AN v2 (format acteurs).
 
-    Gere differentes structures de reponse :
-    - {"deputes": [{"depute": {...}}, ...]}  (format historique)
-    - [{"depute": {...}}, ...]               (format liste directe)
-    - {"deputes": [{"id": ..., "nom": ...}]} (format sans wrapper depute)
+    Formats geres :
+    - {"export": {"acteurs": {"acteur": [...]}}}   (organes/acteurs)
+    - {"acteurs": {"acteur": [...]}}
+    - {"acteur": [...]}                             (liste directe)
+    - [{"uid": ..., "etatCivil": {...}}, ...]
     """
     if data is None:
         return []
 
-    deputes_list = []
-
+    # Naviguer vers la liste d'acteurs selon la profondeur de la reponse
     if isinstance(data, dict):
-        # Format historique : {"deputes": [...]}
-        deputes_list = data.get("deputes", [])
-        # Essayer aussi des cles alternatives
-        if not deputes_list:
-            deputes_list = data.get("results", [])
-        if not deputes_list:
-            deputes_list = data.get("data", [])
+        export = data.get("export", data)
+        acteurs_block = export.get("acteurs", export)
+        if isinstance(acteurs_block, dict):
+            raw = acteurs_block.get("acteur", [])
+        else:
+            raw = acteurs_block if isinstance(acteurs_block, list) else []
     elif isinstance(data, list):
-        # Format liste directe
-        deputes_list = data
+        raw = data
+    else:
+        return []
 
+    persons = []
+    for item in raw:
+        if not isinstance(item, dict):
+            continue
+
+        # L'item peut etre directement un acteur ou wrappe dans {"acteur": {...}}
+        acteur = item.get("acteur", item)
+
+        etat_civil = acteur.get("etatCivil", {})
+        ident = etat_civil.get("ident", {})
+        info_naissance = etat_civil.get("infoNaissance", {})
+
+        prenom = ident.get("prenom", "") or ident.get("prenom_1", "")
+        nom = ident.get("nom", "")
+        if not nom or not prenom:
+            continue
+
+        nom_complet = f"{prenom} {nom}".strip()
+
+        person = {
+            "nom_complet": nom_complet,
+            "source": "assemblee_nationale",
+            "source_category": "depute",
+            "occupation": "depute",
+        }
+
+        uid_block = acteur.get("uid", {})
+        uid_val = uid_block.get("#text", "") if isinstance(uid_block, dict) else str(uid_block)
+        if uid_val:
+            person["uid_an"] = uid_val
+            person["url_an"] = f"https://www.assemblee-nationale.fr/dyn/deputes/{uid_val}"
+
+        date_nais = info_naissance.get("dateNais", "")
+        if date_nais:
+            person["date_naissance"] = date_nais
+
+        ville_nais = info_naissance.get("villeNais", "")
+        if ville_nais:
+            person["lieu_naissance"] = ville_nais
+
+        civ = ident.get("civ", "")
+        if civ:
+            person["genre"] = "feminin" if civ.strip() in ("Mme", "Mme.") else "masculin"
+
+        profession = acteur.get("profession", {})
+        if isinstance(profession, dict):
+            libelle = profession.get("libelleCourant", "")
+            if libelle:
+                person["profession_origine"] = libelle
+
+        persons.append(person)
+
+    return persons
+
+
+def _parse_an_legacy_response(data) -> List[dict]:
+    """Parse la reponse legacy nosdeputes.fr."""
+    if data is None:
+        return []
+    deputes_list = []
+    if isinstance(data, dict):
+        deputes_list = (data.get("deputes")
+                        or data.get("results")
+                        or data.get("data", []))
+    elif isinstance(data, list):
+        deputes_list = data
     return deputes_list
 
 
 def fetch_assemblee_deputes() -> List[dict]:
-    """Recupere la liste des deputes depuis NosDonnees.fr (API ouverte).
+    """Recupere la liste des deputes depuis l'API officielle AN v2.
 
-    NosDonnees.fr (Regards Citoyens) est un projet citoyen qui agrege
-    les donnees publiques de l'Assemblee Nationale sous licence ouverte.
-    Essaye plusieurs URLs en fallback.
+    Essaye d'abord l'API gouvernementale officielle (api.assemblee-nationale.fr),
+    puis se rabat sur nosdeputes.fr en cas d'echec.
     """
     persons = []
 
-    # Essayer d'abord les deputes en mandat
+    # Tentative 1 : API officielle AN v2 (organes/acteurs)
+    logger.info("Assemblee Nationale: tentative API officielle v2...")
+    headers = {"Accept": "application/json"}
+    data = _http_get_json(AN_API_ORGANES_ACTEURS, headers=headers,
+                          timeout=45, retries=1)
+    if data is not None:
+        persons_v2 = _parse_an_v2_acteurs(data)
+        if persons_v2:
+            logger.info(f"[OK] Assemblee Nationale (API v2): {len(persons_v2)} deputes")
+            STATS['assemblee_results'] += len(persons_v2)
+            return persons_v2
+
+    # Tentative 2 : endpoint /acteurs seul
+    data = _http_get_json(AN_API_ACTEURS, headers=headers, timeout=45, retries=1)
+    if data is not None:
+        persons_v2 = _parse_an_v2_acteurs(data)
+        if persons_v2:
+            logger.info(f"[OK] Assemblee Nationale (API v2 /acteurs): {len(persons_v2)} deputes")
+            STATS['assemblee_results'] += len(persons_v2)
+            return persons_v2
+
+    # Tentative 3 : fallback nosdeputes.fr (enmandat)
+    logger.info("Assemblee Nationale: fallback nosdeputes.fr...")
     data = _http_get_json(AN_API_ENMANDAT_URL, timeout=30, retries=1)
-    deputes_list = _parse_an_response(data)
+    deputes_list = _parse_an_legacy_response(data)
 
     if not deputes_list:
-        # Fallback : tous les deputes
         data = _http_get_json(AN_API_URL, timeout=30, retries=1)
-        deputes_list = _parse_an_response(data)
+        deputes_list = _parse_an_legacy_response(data)
 
     if not deputes_list:
-        if data is None:
-            logger.warning("[FAIL] Assemblee Nationale: API inaccessible")
-        else:
-            logger.warning(
-                "[WARN] Assemblee Nationale: aucun depute dans la reponse"
-            )
+        logger.warning("[FAIL] Assemblee Nationale: toutes les sources inaccessibles")
         return []
 
     for entry in deputes_list:
-        # Gerer les deux formats de reponse :
-        # {"depute": {...}} (format avec wrapper) ou {...} (format direct)
-        if isinstance(entry, dict) and "depute" in entry:
-            dep = entry.get("depute", {})
-        elif isinstance(entry, dict):
-            dep = entry
-        else:
-            continue
+        dep = entry.get("depute", entry) if isinstance(entry, dict) else {}
         if not dep:
             continue
-
         nom = dep.get("nom", "").strip()
         if not nom:
             continue
@@ -421,36 +494,27 @@ def fetch_assemblee_deputes() -> List[dict]:
             "slug_an": dep.get("slug", ""),
         }
 
-        # Donnees biographiques
         birth = dep.get("date_naissance", "")
         if birth:
             person["date_naissance"] = birth
-
         lieu = dep.get("lieu_naissance", "")
         if lieu:
             person["lieu_naissance"] = lieu
-
         sexe = dep.get("sexe", "")
         if sexe:
             person["genre"] = "masculin" if sexe == "H" else "feminin"
-
-        # Groupe politique
         groupe = dep.get("groupe_sigle", "")
         if groupe:
             person["groupe_politique"] = groupe
-
         parti = dep.get("parti_ratt_financier", "")
         if parti:
             person["parti"] = parti
-
         profession = dep.get("profession", "")
         if profession:
             person["profession_origine"] = profession
-
-        # URL de la fiche
         slug = dep.get("slug", "")
         if slug:
-            person["url_nosdeputes"] = f"https://www.nosdeputes.fr/{slug}"
+            person["url_an"] = f"https://www.nosdeputes.fr/{slug}"
 
         # Photo
         photo_url = dep.get("photo_url", "")
@@ -459,7 +523,7 @@ def fetch_assemblee_deputes() -> List[dict]:
 
         persons.append(person)
 
-    logger.info(f"[OK] Assemblee Nationale: {len(persons)} deputes")
+    logger.info(f"[OK] Assemblee Nationale (legacy): {len(persons)} deputes")
     STATS['assemblee_results'] += len(persons)
     return persons
 
@@ -468,73 +532,123 @@ def fetch_assemblee_deputes() -> List[dict]:
 # Source 3: Senat (senateurs)
 # ============================================================
 
-# Le Senat fournit des donnees ouvertes via data.senat.fr
-# NosSenateurs.fr agrege ces donnees en JSON accessible
+# CSV open data officiel du Senat — source primaire
+# https://data.senat.fr — licence ouverte, mise a jour en temps reel
+SENAT_CSV_URL = "https://data.senat.fr/data/senateurs/ODSEN_GENERAL.csv"
+# Fallback legacy (peut retourner 403 selon les conditions reseau)
 SENAT_API_URL = "https://www.nossenateurs.fr/senateurs/json"
 SENAT_API_ENMANDAT_URL = "https://www.nossenateurs.fr/senateurs/enmandat/json"
 
 
-def _parse_senat_response(data) -> List[dict]:
-    """Parse la reponse de l'API Senat quel que soit le format.
+def _parse_senat_csv(raw_bytes: bytes) -> List[dict]:
+    """Parse le CSV officiel ODSEN_GENERAL du Senat.
 
-    Gere differentes structures de reponse :
-    - {"senateurs": [{"senateur": {...}}, ...]}  (format historique)
-    - [{"senateur": {...}}, ...]                 (format liste directe)
-    - {"senateurs": [{"id": ..., "nom": ...}]}  (format sans wrapper)
+    Colonnes attendues (separateur ';') :
+    Matricule ; Civilite ; Nom usuel ; Prenom usuel ; Sexe ;
+    Date de naissance ; Lieu de naissance ; Dep. naissance ;
+    Pays naissance ; Categorie professionnelle ; Groupe politique ; ...
     """
+    persons = []
+    try:
+        text = raw_bytes.decode("utf-8", errors="replace")
+        reader = csv.DictReader(io.StringIO(text), delimiter=";")
+        for row in reader:
+            # Normaliser les cles (strip des espaces)
+            row = {k.strip(): v.strip() for k, v in row.items() if k}
+
+            nom = row.get("Nom usuel", row.get("nom", ""))
+            prenom = row.get("Prenom usuel", row.get("Prénom usuel",
+                             row.get("prenom", "")))
+            if not nom or not prenom:
+                continue
+
+            nom_complet = f"{prenom} {nom}".strip()
+            matricule = row.get("Matricule", "")
+
+            person = {
+                "nom_complet": nom_complet,
+                "source": "senat_opendata",
+                "source_category": "senateur",
+                "occupation": "senateur",
+            }
+
+            if matricule:
+                person["matricule_senat"] = matricule
+                person["url_senat"] = f"https://www.senat.fr/senateur/{matricule.lower()}"
+
+            birth = row.get("Date de naissance", "")
+            if birth:
+                person["date_naissance"] = birth
+
+            lieu = row.get("Lieu de naissance", "")
+            if lieu:
+                person["lieu_naissance"] = lieu
+
+            sexe = row.get("Sexe", "")
+            if sexe:
+                person["genre"] = "feminin" if sexe.upper() == "F" else "masculin"
+
+            groupe = row.get("Groupe politique", "")
+            if groupe:
+                person["groupe_politique"] = groupe
+
+            profession = row.get("Categorie professionnelle",
+                                 row.get("Catégorie professionnelle", ""))
+            if profession:
+                person["profession_origine"] = profession
+
+            persons.append(person)
+    except Exception as e:
+        logger.warning(f"[WARN] Erreur parsing CSV Senat: {e}")
+
+    return persons
+
+
+def _parse_senat_legacy_response(data) -> List[dict]:
+    """Parse la reponse legacy nossenateurs.fr."""
     if data is None:
         return []
-
-    senateurs_list = []
-
     if isinstance(data, dict):
-        senateurs_list = data.get("senateurs", [])
-        if not senateurs_list:
-            senateurs_list = data.get("results", [])
-        if not senateurs_list:
-            senateurs_list = data.get("data", [])
-    elif isinstance(data, list):
-        senateurs_list = data
-
-    return senateurs_list
+        return (data.get("senateurs")
+                or data.get("results")
+                or data.get("data", []))
+    return data if isinstance(data, list) else []
 
 
 def fetch_senat_senateurs() -> List[dict]:
-    """Recupere la liste des senateurs depuis NosSenateurs.fr (API ouverte).
+    """Recupere la liste des senateurs depuis le CSV open data officiel du Senat.
 
-    NosSenateurs.fr (Regards Citoyens) agrege les donnees publiques
-    du Senat sous licence ouverte.
-    Essaye plusieurs URLs en fallback.
+    Essaye d'abord data.senat.fr (source officielle),
+    puis se rabat sur nossenateurs.fr en cas d'echec.
     """
-    persons = []
+    # Tentative 1 : CSV officiel data.senat.fr
+    logger.info("Senat: tentative CSV officiel data.senat.fr...")
+    raw = _http_get(SENAT_CSV_URL, timeout=45, retries=1)
+    if raw is not None:
+        persons = _parse_senat_csv(raw)
+        if persons:
+            logger.info(f"[OK] Senat (CSV officiel): {len(persons)} senateurs")
+            STATS['senat_results'] += len(persons)
+            return persons
 
-    # Essayer d'abord les senateurs en mandat
+    # Tentative 2 : fallback nossenateurs.fr (enmandat)
+    logger.info("Senat: fallback nossenateurs.fr...")
     data = _http_get_json(SENAT_API_ENMANDAT_URL, timeout=30, retries=1)
-    senateurs_list = _parse_senat_response(data)
+    senateurs_list = _parse_senat_legacy_response(data)
 
     if not senateurs_list:
         data = _http_get_json(SENAT_API_URL, timeout=30, retries=1)
-        senateurs_list = _parse_senat_response(data)
+        senateurs_list = _parse_senat_legacy_response(data)
 
     if not senateurs_list:
-        if data is None:
-            logger.warning("[FAIL] Senat: API inaccessible")
-        else:
-            logger.warning("[WARN] Senat: aucun senateur dans la reponse")
+        logger.warning("[FAIL] Senat: toutes les sources inaccessibles")
         return []
 
+    persons = []
     for entry in senateurs_list:
-        # Gerer les deux formats de reponse :
-        # {"senateur": {...}} (format avec wrapper) ou {...} (format direct)
-        if isinstance(entry, dict) and "senateur" in entry:
-            sen = entry.get("senateur", {})
-        elif isinstance(entry, dict):
-            sen = entry
-        else:
-            continue
+        sen = entry.get("senateur", entry) if isinstance(entry, dict) else {}
         if not sen:
             continue
-
         nom = sen.get("nom", "").strip()
         if not nom:
             continue
@@ -544,40 +658,33 @@ def fetch_senat_senateurs() -> List[dict]:
             "source": "senat",
             "source_category": "senateur",
             "occupation": "senateur",
-            "slug_senat": sen.get("slug", ""),
         }
 
         birth = sen.get("date_naissance", "")
         if birth:
             person["date_naissance"] = birth
-
         lieu = sen.get("lieu_naissance", "")
         if lieu:
             person["lieu_naissance"] = lieu
-
         sexe = sen.get("sexe", "")
         if sexe:
             person["genre"] = "masculin" if sexe == "H" else "feminin"
-
         groupe = sen.get("groupe_sigle", "")
         if groupe:
             person["groupe_politique"] = groupe
-
         parti = sen.get("parti_ratt_financier", "")
         if parti:
             person["parti"] = parti
-
         profession = sen.get("profession", "")
         if profession:
             person["profession_origine"] = profession
-
         slug = sen.get("slug", "")
         if slug:
-            person["url_nossenateurs"] = f"https://www.nossenateurs.fr/{slug}"
+            person["url_senat"] = f"https://www.nossenateurs.fr/{slug}"
 
         persons.append(person)
 
-    logger.info(f"[OK] Senat: {len(persons)} senateurs")
+    logger.info(f"[OK] Senat (legacy): {len(persons)} senateurs")
     STATS['senat_results'] += len(persons)
     return persons
 
@@ -1000,11 +1107,11 @@ def _build_source_list(person_data: dict) -> List[str]:
     if wd_url:
         sources.append(wd_url)
 
-    an_url = person_data.get("url_nosdeputes", "")
+    an_url = person_data.get("url_an", person_data.get("url_nosdeputes", ""))
     if an_url:
         sources.append(an_url)
 
-    senat_url = person_data.get("url_nossenateurs", "")
+    senat_url = person_data.get("url_senat", person_data.get("url_nossenateurs", ""))
     if senat_url:
         sources.append(senat_url)
 
@@ -1279,13 +1386,13 @@ def run_self_tests() -> bool:
     try:
         test_data = {
             "wikidata_url": "https://www.wikidata.org/wiki/Q123",
-            "url_nosdeputes": "https://www.nosdeputes.fr/jean-dupont",
+            "url_an": "https://www.assemblee-nationale.fr/dyn/deputes/PA123456",
             "hatvp_url": "https://www.hatvp.fr/consulter/?nom=Jean+Dupont",
         }
         sources = _build_source_list(test_data)
         assert len(sources) == 3
         assert any("wikidata" in s for s in sources)
-        assert any("nosdeputes" in s for s in sources)
+        assert any("assemblee-nationale" in s for s in sources)
         assert any("hatvp" in s for s in sources)
         print(f"  [OK] {len(sources)} sources construites")
     except AssertionError as e:
@@ -1360,8 +1467,8 @@ def run_self_tests() -> bool:
     sources_status = []
     test_urls = [
         ("Wikidata SPARQL", WIKIDATA_SPARQL_ENDPOINT),
-        ("NosDonnees.fr (AN)", AN_API_ENMANDAT_URL),
-        ("NosSenateurs.fr", SENAT_API_ENMANDAT_URL),
+        ("AN API v2 (officielle)", AN_API_ORGANES_ACTEURS),
+        ("Senat CSV (officiel)", SENAT_CSV_URL),
         ("HATVP (CSV index)", HATVP_INDEX_URL),
         ("data.gouv.fr API (RNE)", f"{DATAGOUV_API_BASE}/datasets/{RNE_DATASET_ID}/"),
         ("API tabulaire data.gouv.fr", f"{TABULAR_API_BASE}/"),
